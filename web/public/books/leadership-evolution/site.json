@@ -44,6 +44,15 @@
       "fallbackText": "小红书搜索“林子-心智进化之路”即可关注。"
     }
   ],
+  "communityTitle": "交流群",
+  "communityDescription": "扫码加入微信交流群，和一群关注心智成长、复杂性与领导力的人一起共学。",
+  "communityChannel": {
+    "id": "wechat-community",
+    "label": "心智共学交流群",
+    "qrImage": "/social/心智共学交流群.jpg",
+    "fallbackText": "如果图片未显示，可在微信里联系作者获取最新入群方式。",
+    "imageMode": "poster"
+  },
   "journeyOverline": "Journey Map",
   "journeyTitle": "章节升级打怪地图",
   "journeyDescription": "从总纲入口到八章推进，把这本书做成一条持续升级的闯关路径。每一关都能直接点进去，缩略图对应你这套《领导者的意识进化》小红书图。",

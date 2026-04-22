@@ -121,35 +121,48 @@
       </section>
     </div>
 
-    <button v-if="hasSocialChannels" class="follow-fab" @click="followOpen = true">
-      <span class="follow-fab-kicker">Follow</span>
-      <span class="follow-fab-title">{{ site.followTitle }}</span>
-    </button>
+    <div v-if="socialPanels.length" class="social-fab-stack">
+      <button
+        v-for="panel in socialPanels"
+        :key="panel.id"
+        class="social-fab"
+        :class="`social-fab-${panel.id}`"
+        @click="openDrawer(panel.id)"
+      >
+        <span class="social-fab-kicker">{{ panel.kicker }}</span>
+        <span class="social-fab-title">{{ panel.title }}</span>
+      </button>
+    </div>
 
     <Transition name="follow-layer">
-      <div v-if="hasSocialChannels && followOpen" class="follow-overlay" @click="followOpen = false"></div>
+      <div v-if="activePanel" class="follow-overlay" @click="closeDrawer"></div>
     </Transition>
 
     <Transition name="follow-drawer">
-      <aside v-if="hasSocialChannels && followOpen" class="follow-drawer" @click.stop>
+      <aside v-if="activePanel" class="follow-drawer" @click.stop>
         <div class="drawer-head">
           <div>
-            <div class="follow-overline">Follow Creator</div>
-            <h2 class="drawer-title">{{ site.followTitle }}</h2>
+            <div class="follow-overline">{{ activePanel.overline }}</div>
+            <h2 class="drawer-title">{{ activePanel.title }}</h2>
           </div>
 
-          <button class="drawer-close" @click="followOpen = false" aria-label="关闭关注面板">
+          <button class="drawer-close" @click="closeDrawer" aria-label="关闭面板">
             ×
           </button>
         </div>
 
         <div class="drawer-intro">
           <div class="brand-name">{{ site.creatorName }}</div>
-          <p class="drawer-desc">{{ site.followDescription }}</p>
+          <p v-if="activePanel.description" class="drawer-desc">{{ activePanel.description }}</p>
         </div>
 
-        <div class="drawer-list">
-          <article v-for="channel in site.socialChannels" :key="channel.id" class="follow-card">
+        <div class="drawer-list" :class="{ 'drawer-list-single': activePanel.channels.length === 1 }">
+          <article
+            v-for="channel in activePanel.channels"
+            :key="`${activePanel.id}-${channel.id}`"
+            class="follow-card"
+            :class="{ 'follow-card-single': activePanel.channels.length === 1 }"
+          >
             <div class="follow-channel">{{ channel.label }}</div>
 
             <div class="follow-preview">
@@ -158,6 +171,7 @@
                 :src="qrSrc(channel.qrImage)"
                 :alt="`${channel.label}二维码`"
                 class="follow-qr"
+                :class="{ 'follow-qr-poster': channel.imageMode === 'poster' }"
                 @error="markQrBroken(channel.id)"
               />
               <div v-else class="follow-qr-fallback">
@@ -185,10 +199,42 @@ defineEmits(['navigate', 'showGraph'])
 
 const mounted = ref(false)
 const brokenQrIds = ref(new Set())
-const followOpen = ref(false)
+const activeDrawer = ref(null)
 const site = computed(() => props.bookData?.SITE || {})
 const homeSections = computed(() => props.bookData?.HOME_SECTIONS || [])
-const hasSocialChannels = computed(() => Array.isArray(site.value.socialChannels) && site.value.socialChannels.length > 0)
+const followChannels = computed(() => (Array.isArray(site.value.socialChannels) ? site.value.socialChannels : []))
+const communityChannels = computed(() => {
+  if (Array.isArray(site.value.communityChannels)) return site.value.communityChannels.filter(Boolean)
+  return site.value.communityChannel ? [site.value.communityChannel] : []
+})
+const hasFollowChannels = computed(() => followChannels.value.length > 0)
+const hasCommunityChannels = computed(() => communityChannels.value.length > 0)
+const followPanel = computed(() => {
+  if (!hasFollowChannels.value) return null
+
+  return {
+    id: 'follow',
+    kicker: site.value.followKicker || 'Follow',
+    overline: site.value.followOverline || 'Follow Creator',
+    title: site.value.followTitle,
+    description: site.value.followDescription,
+    channels: followChannels.value,
+  }
+})
+const communityPanel = computed(() => {
+  if (!hasCommunityChannels.value) return null
+
+  return {
+    id: 'community',
+    kicker: site.value.communityKicker || 'Community',
+    overline: site.value.communityOverline || 'Community Group',
+    title: site.value.communityTitle || 'Community',
+    description: site.value.communityDescription || '',
+    channels: communityChannels.value,
+  }
+})
+const socialPanels = computed(() => [followPanel.value, communityPanel.value].filter(Boolean))
+const activePanel = computed(() => socialPanels.value.find((panel) => panel.id === activeDrawer.value) || null)
 
 onMounted(() => {
   requestAnimationFrame(() => {
@@ -198,6 +244,14 @@ onMounted(() => {
 
 function markQrBroken(id) {
   brokenQrIds.value = new Set([...brokenQrIds.value, id])
+}
+
+function openDrawer(id) {
+  activeDrawer.value = id
+}
+
+function closeDrawer() {
+  activeDrawer.value = null
 }
 
 function qrSrc(path) {
@@ -473,12 +527,19 @@ function qrSrc(path) {
   letter-spacing: 0.05em;
 }
 
-.follow-fab {
+.social-fab-stack {
   position: fixed;
   right: 24px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.social-fab {
   border: 1px solid rgba(32, 79, 103, 0.14);
   border-right: none;
   border-radius: 22px 0 0 22px;
@@ -489,22 +550,28 @@ function qrSrc(path) {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  min-width: 116px;
   text-align: left;
   cursor: pointer;
 }
 
-.follow-fab:hover {
+.social-fab:hover {
   background: rgba(255, 255, 255, 0.98);
 }
 
-.follow-fab-kicker {
+.social-fab-community {
+  background:
+    linear-gradient(180deg, rgba(255, 250, 245, 0.97) 0%, rgba(246, 239, 229, 0.99) 100%);
+}
+
+.social-fab-kicker {
   font-size: 10px;
   letter-spacing: 0.16em;
   color: var(--text-muted);
   text-transform: uppercase;
 }
 
-.follow-fab-title {
+.social-fab-title {
   font-family: var(--font-serif);
   font-size: 18px;
   color: var(--text-primary);
@@ -599,6 +666,10 @@ function qrSrc(path) {
   gap: 14px;
 }
 
+.drawer-list-single {
+  grid-template-columns: 1fr;
+}
+
 .follow-preview {
   display: flex;
   justify-content: center;
@@ -613,6 +684,18 @@ function qrSrc(path) {
   border-radius: 18px;
   border: 1px solid rgba(32, 79, 103, 0.1);
   background: #fff;
+}
+
+.follow-card-single {
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.follow-qr-poster {
+  width: auto;
+  max-width: 100%;
+  max-height: min(70vh, 520px);
+  aspect-ratio: auto;
 }
 
 .follow-qr-fallback {
@@ -974,17 +1057,21 @@ function qrSrc(path) {
     font-size: 28px;
   }
 
-  .follow-fab {
+  .social-fab-stack {
     right: 10px;
     top: auto;
     bottom: 18px;
     transform: none;
+  }
+
+  .social-fab {
     border-radius: 18px;
     border-right: 1px solid rgba(32, 79, 103, 0.14);
     padding: 12px 14px;
+    min-width: 104px;
   }
 
-  .follow-fab-title {
+  .social-fab-title {
     font-size: 16px;
   }
 

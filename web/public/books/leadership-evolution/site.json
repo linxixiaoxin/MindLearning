@@ -1,0 +1,147 @@
+{
+  "title": "领导者的意识进化",
+  "shortTitle": "心智进化",
+  "subtitle": "成人发展、领导力成长与工作即成长场",
+  "description": "基于《领导者的意识进化》整理的单书知识站，把全书入口、核心主题、关键概念、方法工具与现实场景串成可点击的阅读地图。",
+  "heroOverline": "LEADERSHIP · DEVELOPMENT · COMPLEXITY",
+  "heroTitleLines": [
+    "领导者的意识进化",
+    "把复杂世界中的领导成长做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260422172735",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+  "recommendedPath": [
+    "全书导读",
+    "领导者的意识进化",
+    "第一章 心智的层次",
+    "成长边际",
+    "第八章 孕育智慧"
+  ],
+  "quickLinks": [
+    "全书脉络",
+    "核心内容总览",
+    "领导力瓶颈不在技能，而在心智复杂度",
+    "工作即成长场",
+    "发展型教练",
+    "发展型会议"
+  ],
+  "followTitle": "关注作者",
+  "followDescription": "复杂世界和复杂人性的同行翻译者",
+  "socialChannels": [
+    {
+      "id": "wechat",
+      "label": "微信公众号",
+      "qrImage": "/social/wechat-official-qrcode.png",
+      "fallbackText": "微信里搜索“林子-心智进化之路”即可关注。"
+    },
+    {
+      "id": "xiaohongshu",
+      "label": "小红书",
+      "qrImage": "/social/xiaohongshu-qrcode.png",
+      "fallbackText": "小红书搜索“林子-心智进化之路”即可关注。"
+    }
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总纲入口到八章推进，把这本书做成一条持续升级的闯关路径。每一关都能直接点进去，缩略图对应你这套《领导者的意识进化》小红书图。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/leadership-evolution/chapter-images/overview.jpg",
+      "summary": "这本书真正要回答的，不是领导者还该多学什么技能，而是领导者怎样发展出足以承载复杂世界的心智结构。",
+      "bridgeToNext": "为什么同一件事会被不同人看成完全不同的现实？"
+    },
+    {
+      "level": "LV.1",
+      "stage": "总透镜",
+      "node": "第一章 心智的层次",
+      "image": "/books/leadership-evolution/chapter-images/chapter-1.jpg",
+      "summary": "开始用发展眼光而不是性格标签看待领导者。",
+      "bridgeToNext": "从总框架推进到结构拆解。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "结构坐标",
+      "node": "第二章 深入分析心智结构",
+      "image": "/books/leadership-evolution/chapter-images/chapter-2.jpg",
+      "summary": "形成结构诊断坐标系。",
+      "bridgeToNext": "从识别结构推进到识别成长发生的位置。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "成长边际",
+      "node": "第三章 寻找成长的边际",
+      "image": "/books/leadership-evolution/chapter-images/chapter-3.jpg",
+      "summary": "知道怎样提出真正有发展性的支持性问题。",
+      "bridgeToNext": "从判断成长边际推进到支持他人成长。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "教练支持",
+      "node": "第四章 扩展式的成长教练",
+      "image": "/books/leadership-evolution/chapter-images/chapter-4.jpg",
+      "summary": "能把结构判断落到一对一教练场景。",
+      "bridgeToNext": "从个体教练推进到团体发展。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "学习容器",
+      "node": "第五章 专业发展的蜕变",
+      "image": "/books/leadership-evolution/chapter-images/chapter-5.jpg",
+      "summary": "能把课程和工作坊设计成支持结构转化的空间。",
+      "bridgeToNext": "从外部介入推进到可长期维持的心智习惯。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "习惯升级",
+      "node": "第六章 具转化性的心智习惯",
+      "image": "/books/leadership-evolution/chapter-images/chapter-6.jpg",
+      "summary": "拥有支持持续成长的三类习惯工具。",
+      "bridgeToNext": "从发展习惯推进到把工作场做成发展场。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "领导工作",
+      "node": "第七章 孕育领导力",
+      "image": "/books/leadership-evolution/chapter-images/chapter-7.jpg",
+      "summary": "理解领导力发展应嵌在领导工作而非附着在课程上。",
+      "bridgeToNext": "从领导者的发展推进到组织智慧的孕育。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "组织收束",
+      "node": "第八章 孕育智慧",
+      "image": "/books/leadership-evolution/chapter-images/chapter-8.jpg",
+      "summary": "把会议、流程、协作和反馈看成组织发展的真实基础设施。",
+      "bridgeToNext": "工作本身就是发展系统，会议、反馈、协作和组织流程都可以被设计成孕育领导力与智慧的空间。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "9"
+    },
+    {
+      "label": "章节",
+      "value": "8"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "25"
+    },
+    {
+      "label": "场景",
+      "value": "8"
+    }
+  ],
+  "slug": "leadership-evolution",
+  "author": "Jennifer Garvey Berger",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "认知决策与系统思考"
+}

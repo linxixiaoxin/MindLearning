@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "多书知识站",
+    "shortTitle": "Book Hub",
+    "subtitle": "从单书阅读地图升级为可持续扩书的知识书库",
+    "description": "先进入书库，再进入每本书自己的阅读地图、知识图谱和卡片阅读。",
+    "heroOverline": "BOOKS · MAPS · KNOWLEDGE",
+    "creatorLabel": "Knowledge Library",
+    "creatorName": "林子-心智进化之路",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "books": [
+    {
+      "slug": "mindset-traps",
+      "title": "走出心智的误区",
+      "shortTitle": "心智误区",
+      "author": "Jennifer Garvey Berger",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "领导管理与组织教练",
+      "status": "active",
+      "description": "基于《走出心智的误区》整理的单书知识站，把章节、概念、方法、场景和内容延展资产串成可点击的阅读地图。",
+      "coverImage": "/books/mindset-traps/chapter-images/overview.jpg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "13"
+        },
+        {
+          "label": "章节",
+          "value": "7"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "31"
+        },
+        {
+          "label": "场景",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "slug": "leadership-evolution",
+      "title": "领导者的意识进化",
+      "shortTitle": "心智进化",
+      "author": "Jennifer Garvey Berger",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "认知决策与系统思考",
+      "status": "active",
+      "description": "基于《领导者的意识进化》整理的单书知识站，把全书入口、核心主题、关键概念、方法工具与现实场景串成可点击的阅读地图。",
+      "coverImage": "/books/leadership-evolution/chapter-images/overview.jpg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "9"
+        },
+        {
+          "label": "章节",
+          "value": "8"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "25"
+        },
+        {
+          "label": "场景",
+          "value": "8"
+        }
+      ]
+    }
+  ]
+}

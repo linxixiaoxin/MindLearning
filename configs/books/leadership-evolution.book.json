@@ -1,0 +1,97 @@
+{
+  "book": {
+    "slug": "leadership-evolution",
+    "title": "领导者的意识进化",
+    "shortTitle": "心智进化",
+    "author": "Jennifer Garvey Berger",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "认知决策与系统思考",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/领导者的意识进化/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/领导者的意识进化/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/领导者的意识进化/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/领导者的意识进化/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/领导者的意识进化/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/领导者的意识进化",
+    "xhsImageDir": "03_outputs/04_by_book/领导者的意识进化/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/领导者的意识进化/infographics",
+    "scenesDir": "03_outputs/04_by_book/领导者的意识进化/scenes"
+  },
+  "builder": {
+    "profile": "leadership_growth_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": true,
+    "hiddenNodes": [
+      "图解表达线索"
+    ],
+    "pinnedNodes": [
+      "全书导读",
+      "全书脉络",
+      "核心内容总览",
+      "领导者的意识进化"
+    ]
+  },
+  "site": {
+    "subtitle": "成人发展、领导力成长与工作即成长场",
+    "description": "把《领导者的意识进化》的全书入口、核心主题、关键概念、方法工具与现实场景串成可点击的阅读地图。",
+    "heroOverline": "LEADERSHIP · DEVELOPMENT · COMPLEXITY",
+    "heroTitleLines": [
+      "领导者的意识进化",
+      "把复杂世界中的领导成长做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "领导者的意识进化",
+      "第一章 心智的层次",
+      "成长边际",
+      "第八章 孕育智慧"
+    ],
+    "quickLinks": [
+      "全书脉络",
+      "核心内容总览",
+      "领导力瓶颈不在技能，而在心智复杂度",
+      "工作即成长场",
+      "发展型教练",
+      "发展型会议"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "从总纲入口到八章推进，把这本书做成一条持续升级的闯关路径，并把章节阅读与工作现场应用连接起来。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods",
+      "scenarios"
+    ]
+  },
+  "images": {
+    "overviewImage": "03_outputs/04_by_book/领导者的意识进化/小红书图",
+    "chapterImageMode": "manual_order",
+    "chapterImageOrder": [
+      1,
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "topicImageMap": {
+      "全书导读": "overview",
+      "全书脉络": "overview",
+      "核心内容总览": "overview",
+      "领导者的意识进化": "overview"
+    },
+    "fallbackImage": "overview"
+  }
+}

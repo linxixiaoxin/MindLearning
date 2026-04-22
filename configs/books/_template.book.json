@@ -1,0 +1,65 @@
+{
+  "book": {
+    "slug": "template-book",
+    "title": "模板书名",
+    "shortTitle": "模板短标题",
+    "author": "作者名",
+    "primaryCategory": "认知决策与系统思考",
+    "secondaryCategory": "学习成长与习惯方法",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/<分类目录>/<书名>/assets",
+    "structuredJson": "01_sources/01_books/<分类目录>/<书名>/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/<分类目录>/<书名>/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/<分类目录>/<书名>/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/<分类目录>/<书名>/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/<书名>",
+    "xhsImageDir": "03_outputs/04_by_book/<书名>/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/<书名>/infographics",
+    "scenesDir": "03_outputs/04_by_book/<书名>/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": []
+  },
+  "site": {
+    "subtitle": "这本书的对外一句话定位",
+    "description": "多书站首页与 SEO 使用的书籍描述",
+    "heroOverline": "COMPLEXITY · THINKING · GROWTH",
+    "heroTitleLines": [
+      "模板书名",
+      "副标题或阅读主张"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书摘要"
+    ],
+    "quickLinks": [],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "用于首页章节地图区域的说明文案",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods",
+      "scenarios"
+    ]
+  },
+  "images": {
+    "overviewImage": "",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [],
+    "topicImageMap": {},
+    "fallbackImage": ""
+  }
+}

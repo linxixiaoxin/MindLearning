@@ -1,0 +1,139 @@
+{
+  "title": "走出心智的误区",
+  "shortTitle": "心智误区",
+  "subtitle": "复杂世界中的清醒判断、沟通升级与领导力地图",
+  "description": "基于《走出心智的误区》整理的单书知识站，把章节、概念、方法、场景和内容延展资产串成可点击的阅读地图。",
+  "heroOverline": "COMPLEXITY · MINDSET · LEADERSHIP",
+  "heroTitleLines": [
+    "走出心智的误区",
+    "复杂世界中的清醒判断"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260422",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+  "recommendedPath": [
+    "全书摘要",
+    "走出心智的误区",
+    "第一章心智误区的由来",
+    "为什么一团和气的团队反而更危险",
+    "第七章构建走出心智误区的阶梯"
+  ],
+  "quickLinks": [
+    "全书论证链",
+    "K卡N卡总表",
+    "为了学习而倾听",
+    "第三选择",
+    "边缘试验",
+    "第二份工作"
+  ],
+  "followTitle": "关注作者",
+  "followDescription": "复杂世界和复杂人性的同行翻译者",
+  "socialChannels": [
+    {
+      "id": "wechat",
+      "label": "微信公众号",
+      "qrImage": "/social/wechat-official-qrcode.png",
+      "fallbackText": "微信里搜索“林子-心智进化之路”即可关注。"
+    },
+    {
+      "id": "xiaohongshu",
+      "label": "小红书",
+      "qrImage": "/social/xiaohongshu-qrcode.png",
+      "fallbackText": "小红书搜索“林子-心智进化之路”即可关注。"
+    }
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到七章推进，再接回书 K、问题 K 和 N 卡主干，把这本书做成一条可以来回穿梭的升级路径。",
+  "journeyEntryLabel": "从全书摘要进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "起点总览",
+      "node": "全书摘要",
+      "image": "/books/mindset-traps/chapter-images/overview.jpg",
+      "summary": "先看清整本书真正的敌人，不是别人，而是旧本能在复杂世界里的失灵。",
+      "bridgeToNext": "先看到整张地图，才知道第一关为什么从“失配”开始。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "失配地图",
+      "node": "第一章心智误区的由来",
+      "image": "/books/mindset-traps/chapter-images/chapter-1.jpg",
+      "summary": "现代复杂世界与人类旧本能之间存在结构性不匹配。",
+      "bridgeToNext": "当你意识到环境变了，下一步就会发现大脑开始自动编故事。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "故事滤镜",
+      "node": "第二章简化故事的心智误区",
+      "image": "/books/mindset-traps/chapter-images/chapter-2.jpg",
+      "summary": "大脑本能追求开头、结尾和清晰因果。",
+      "bridgeToNext": "故事感越完整，人就越容易把“我觉得对”当成事实。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "确定陷阱",
+      "node": "第三章感觉正确的心智误区",
+      "image": "/books/mindset-traps/chapter-images/chapter-3.jpg",
+      "summary": "确定感是一种情绪体验，而不是逻辑结论。",
+      "bridgeToNext": "一旦太笃定，很多人下一步就会为了减少不适而追求一致。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "共识迷宫",
+      "node": "第四章渴求共识的心智误区",
+      "image": "/books/mindset-traps/chapter-images/chapter-4.jpg",
+      "summary": "人类会为避免社会疼痛而过度追求一致。",
+      "bridgeToNext": "当共识也救不了复杂局面，人通常会把力气转向“更强的控制”。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "控制幻觉",
+      "node": "第五章渴望掌控的心智误区",
+      "image": "/books/mindset-traps/chapter-images/chapter-5.jpg",
+      "summary": "复杂系统无法被完全预测和控制。",
+      "bridgeToNext": "控制开始失灵时，最深的一层往往会露出：我们在拼命捍卫旧自我。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "自我护盾",
+      "node": "第六章捍卫自我的心智误区",
+      "image": "/books/mindset-traps/chapter-images/chapter-6.jpg",
+      "summary": "人会高估过去的改变，低估未来继续变化的可能。",
+      "bridgeToNext": "真正的升级不是赢过前面几关，而是学会建立新的觉察和成长方式。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "升级阶梯",
+      "node": "第七章构建走出心智误区的阶梯",
+      "image": "/books/mindset-traps/chapter-images/chapter-7.jpg",
+      "summary": "跳出误区需要与身体、情感、目标和仁爱建立联系。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "13"
+    },
+    {
+      "label": "章节",
+      "value": "7"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "31"
+    },
+    {
+      "label": "场景",
+      "value": "8"
+    }
+  ],
+  "slug": "mindset-traps",
+  "author": "Jennifer Garvey Berger",
+  "primaryCategory": "认知决策与系统思考",
+  "secondaryCategory": "领导管理与组织教练"
+}

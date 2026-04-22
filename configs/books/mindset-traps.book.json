@@ -1,0 +1,93 @@
+{
+  "book": {
+    "slug": "mindset-traps",
+    "title": "走出心智的误区",
+    "shortTitle": "心智误区",
+    "author": "Jennifer Garvey Berger",
+    "primaryCategory": "认知决策与系统思考",
+    "secondaryCategory": "领导管理与组织教练",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/01_认知决策与系统思考/走出心智的误区/assets",
+    "structuredJson": "01_sources/01_books/01_认知决策与系统思考/走出心智的误区/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/走出心智的误区/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/走出心智的误区/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/走出心智的误区/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/走出心智的误区",
+    "xhsImageDir": "03_outputs/04_by_book/走出心智的误区/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/走出心智的误区/infographics",
+    "scenesDir": "03_outputs/04_by_book/走出心智的误区/scenes"
+  },
+  "builder": {
+    "profile": "mindset_traps_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": true,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书摘要",
+      "全书论证链",
+      "K卡N卡总表",
+      "走出心智的误区"
+    ]
+  },
+  "site": {
+    "subtitle": "复杂世界中的清醒判断、沟通升级与领导力地图",
+    "description": "把《走出心智的误区》的章节、概念、方法、场景和内容延展资产串成可点击的阅读地图。",
+    "heroOverline": "COMPLEXITY · MINDSET · LEADERSHIP",
+    "heroTitleLines": [
+      "走出心智的误区",
+      "复杂世界中的清醒判断"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书摘要",
+      "走出心智的误区",
+      "第一章心智误区的由来",
+      "为什么一团和气的团队反而更危险",
+      "第七章构建走出心智误区的阶梯"
+    ],
+    "quickLinks": [
+      "全书论证链",
+      "K卡N卡总表",
+      "为了学习而倾听",
+      "第三选择",
+      "边缘试验",
+      "第二份工作"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "从总览到七章推进，再接回书 K、问题 K 和 N 卡主干，把这本书做成一条可以来回穿梭的升级路径。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods",
+      "scenarios"
+    ]
+  },
+  "images": {
+    "overviewImage": "03_outputs/04_by_book/走出心智的误区/小红书图",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "topicImageMap": {
+      "走出心智的误区": "overview",
+      "复杂世界中的领导者成长": "overview",
+      "认知升级路径：从学习到复杂问题": "overview"
+    },
+    "fallbackImage": "overview"
+  }
+}

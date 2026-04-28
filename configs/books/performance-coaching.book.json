@@ -1,0 +1,96 @@
+{
+  "book": {
+    "slug": "performance-coaching",
+    "title": "高绩效教练（原书第5版）",
+    "shortTitle": "高绩效教练",
+    "author": "约翰·惠特默",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "学习成长与习惯方法",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/高绩效教练（原书第5版）/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/高绩效教练（原书第5版）/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/高绩效教练（原书第5版）/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/高绩效教练（原书第5版）/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/高绩效教练（原书第5版）/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/高绩效教练（原书第5版）",
+    "xhsImageDir": "03_outputs/04_by_book/高绩效教练（原书第5版）/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/高绩效教练（原书第5版）/infographics",
+    "scenesDir": "03_outputs/04_by_book/高绩效教练（原书第5版）/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "高绩效教练（原书第5版）"
+    ]
+  },
+  "site": {
+    "subtitle": "教练式领导、管理沟通、绩效提升",
+    "description": "基于《高绩效教练（原书第5版）》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "COACHING · GROWTH · LEADERSHIP",
+    "heroTitleLines": [
+      "高绩效教练（原书第5版）",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "高绩效教练（原书第5版）",
+      "第01章 从控制到教练",
+      "教练式管理",
+      "第04章 把教练式领导用回团队"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "为什么你越爱管，团队反而越不长大",
+      "员工不负责，很多时候不是态度问题",
+      "教练式管理",
+      "全书主动作"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/performance-coaching/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/performance-coaching/chapter-images/chapter-1.svg",
+      "/books/performance-coaching/chapter-images/chapter-2.svg",
+      "/books/performance-coaching/chapter-images/chapter-3.svg",
+      "/books/performance-coaching/chapter-images/chapter-4.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/performance-coaching/chapter-images/overview.svg",
+      "全书脉络": "/books/performance-coaching/chapter-images/overview.svg",
+      "核心内容总览": "/books/performance-coaching/chapter-images/overview.svg",
+      "单章目录": "/books/performance-coaching/chapter-images/overview.svg",
+      "选题角度": "/books/performance-coaching/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/performance-coaching/chapter-images/overview.svg",
+      "高绩效教练（原书第5版）": "/books/performance-coaching/chapter-images/overview.svg",
+      "为什么你越爱管，团队反而越不长大": "/books/performance-coaching/chapter-images/chapter-3.svg",
+      "员工不负责，很多时候不是态度问题": "/books/performance-coaching/chapter-images/chapter-2.svg",
+      "GROW：一场高质量绩效对话该怎么走": "/books/performance-coaching/chapter-images/overview.svg",
+      "为什么你替别人想得越多，对方越不想想": "/books/performance-coaching/chapter-images/overview.svg"
+    },
+    "fallbackImage": "/books/performance-coaching/chapter-images/overview.svg"
+  }
+}

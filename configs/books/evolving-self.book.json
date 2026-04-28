@@ -1,0 +1,101 @@
+{
+  "book": {
+    "slug": "evolving-self",
+    "title": "发展的自我：自我成长中的过程与问题",
+    "shortTitle": "发展的自我",
+    "author": "罗伯特·凯根",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "心理疗愈与自我探索",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题",
+    "xhsImageDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题/infographics",
+    "scenesDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "发展的自我：自我成长中的过程与问题"
+    ]
+  },
+  "site": {
+    "subtitle": "发展心理学、成人成长与意义建构",
+    "description": "基于《发展的自我：自我成长中的过程与问题》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "PSYCHE · PATTERN · GROWTH",
+    "heroTitleLines": [
+      "发展的自我：自我成长中的过程与问题",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "发展的自我：自我成长中的过程与问题",
+      "第01章 未被认识的让·皮亚杰的才华",
+      "主体—客体关系",
+      "第09章 自然疗法"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "大学适应不良，很多时候不是脆弱，而是旧关系系统失效了",
+      "所谓“反社会少年”，可能只是被错过了成长桥梁",
+      "主体—客体关系",
+      "先判断一个人当前把什么当成“我”"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/evolving-self/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/evolving-self/chapter-images/chapter-1.svg",
+      "/books/evolving-self/chapter-images/chapter-2.svg",
+      "/books/evolving-self/chapter-images/chapter-3.svg",
+      "/books/evolving-self/chapter-images/chapter-4.svg",
+      "/books/evolving-self/chapter-images/chapter-5.svg",
+      "/books/evolving-self/chapter-images/chapter-6.svg",
+      "/books/evolving-self/chapter-images/chapter-7.svg",
+      "/books/evolving-self/chapter-images/chapter-8.svg",
+      "/books/evolving-self/chapter-images/chapter-9.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/evolving-self/chapter-images/overview.svg",
+      "全书脉络": "/books/evolving-self/chapter-images/overview.svg",
+      "核心内容总览": "/books/evolving-self/chapter-images/overview.svg",
+      "单章目录": "/books/evolving-self/chapter-images/overview.svg",
+      "选题角度": "/books/evolving-self/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/evolving-self/chapter-images/overview.svg",
+      "发展的自我：自我成长中的过程与问题": "/books/evolving-self/chapter-images/overview.svg",
+      "大学适应不良，很多时候不是脆弱，而是旧关系系统失效了": "/books/evolving-self/chapter-images/chapter-7.svg",
+      "所谓“反社会少年”，可能只是被错过了成长桥梁": "/books/evolving-self/chapter-images/chapter-6.svg",
+      "成年人也会继续长大：自主并不是发展的终点": "/books/evolving-self/chapter-images/chapter-8.svg",
+      "治疗为什么常常输给环境：真正基础的是自然疗法": "/books/evolving-self/chapter-images/chapter-9.svg"
+    },
+    "fallbackImage": "/books/evolving-self/chapter-images/overview.svg"
+  }
+}

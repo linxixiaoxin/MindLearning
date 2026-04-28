@@ -1,0 +1,98 @@
+{
+  "book": {
+    "slug": "manage-your-team",
+    "title": "《给你一个团队，你能怎么管？》",
+    "shortTitle": "管团队",
+    "author": "未知作者",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "认知决策与系统思考",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/《给你一个团队，你能怎么管？》/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/《给你一个团队，你能怎么管？》/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/《给你一个团队，你能怎么管？》/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/《给你一个团队，你能怎么管？》/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/《给你一个团队，你能怎么管？》/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/《给你一个团队，你能怎么管？》",
+    "xhsImageDir": "03_outputs/04_by_book/《给你一个团队，你能怎么管？》/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/《给你一个团队，你能怎么管？》/infographics",
+    "scenesDir": "03_outputs/04_by_book/《给你一个团队，你能怎么管？》/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "《给你一个团队，你能怎么管？》"
+    ]
+  },
+  "site": {
+    "subtitle": "领导力、组织、战略与系统思考",
+    "description": "基于《《给你一个团队，你能怎么管？》》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "SYSTEMS · ORGANIZATION · LEARNING",
+    "heroTitleLines": [
+      "《给你一个团队，你能怎么管？》",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "《给你一个团队，你能怎么管？》",
+      "第01章 正视团队的现实问题",
+      "系统",
+      "第06章 团队聚能"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "你以为问题出在执行，其实更深的原因是领导者成长",
+      "1.正视团队的现实问题：这一段到底在解决什么问题",
+      "系统",
+      "全书主动作"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/manage-your-team/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/manage-your-team/chapter-images/chapter-1.svg",
+      "/books/manage-your-team/chapter-images/chapter-2.svg",
+      "/books/manage-your-team/chapter-images/chapter-3.svg",
+      "/books/manage-your-team/chapter-images/chapter-4.svg",
+      "/books/manage-your-team/chapter-images/chapter-5.svg",
+      "/books/manage-your-team/chapter-images/chapter-6.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/manage-your-team/chapter-images/overview.svg",
+      "全书脉络": "/books/manage-your-team/chapter-images/overview.svg",
+      "核心内容总览": "/books/manage-your-team/chapter-images/overview.svg",
+      "单章目录": "/books/manage-your-team/chapter-images/overview.svg",
+      "选题角度": "/books/manage-your-team/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/manage-your-team/chapter-images/overview.svg",
+      "《给你一个团队，你能怎么管？》": "/books/manage-your-team/chapter-images/overview.svg",
+      "你以为问题出在执行，其实更深的原因是领导者成长": "/books/manage-your-team/chapter-images/overview.svg",
+      "1.正视团队的现实问题：这一段到底在解决什么问题": "/books/manage-your-team/chapter-images/chapter-1.svg",
+      "为什么你总在动作很多却总重复出问题，却没有真正抓住系统": "/books/manage-your-team/chapter-images/overview.svg",
+      "从习惯拍板而忽略反馈到更稳的行动，中间缺的是系统": "/books/manage-your-team/chapter-images/overview.svg"
+    },
+    "fallbackImage": "/books/manage-your-team/chapter-images/overview.svg"
+  }
+}

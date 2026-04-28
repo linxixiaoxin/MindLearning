@@ -1,0 +1,102 @@
+{
+  "book": {
+    "slug": "coaching-essence",
+    "title": "教练的本质",
+    "shortTitle": "教练本质",
+    "author": "Marcia Reynolds（玛莎·雷诺兹）",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "学习成长与习惯方法",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/教练的本质/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/教练的本质/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/教练的本质/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/教练的本质/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/教练的本质/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/教练的本质",
+    "xhsImageDir": "03_outputs/04_by_book/教练的本质/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/教练的本质/infographics",
+    "scenesDir": "03_outputs/04_by_book/教练的本质/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "教练的本质"
+    ]
+  },
+  "site": {
+    "subtitle": "教练式领导、管理沟通、组织发展",
+    "description": "基于《教练的本质》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "COACHING · GROWTH · LEADERSHIP",
+    "heroTitleLines": [
+      "教练的本质",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "教练的本质",
+      "第01章 是什么让教练工作如此有力",
+      "回放式探究",
+      "第10章 觉察评判并将其释放"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "三大思维习惯：当下感、接收信息、释放评判",
+      "情绪一变化，真正的突破才刚开始",
+      "回放式探究",
+      "全书主动作"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/coaching-essence/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/coaching-essence/chapter-images/chapter-1.svg",
+      "/books/coaching-essence/chapter-images/chapter-2.svg",
+      "/books/coaching-essence/chapter-images/chapter-3.svg",
+      "/books/coaching-essence/chapter-images/chapter-4.svg",
+      "/books/coaching-essence/chapter-images/chapter-5.svg",
+      "/books/coaching-essence/chapter-images/chapter-6.svg",
+      "/books/coaching-essence/chapter-images/chapter-7.svg",
+      "/books/coaching-essence/chapter-images/chapter-8.svg",
+      "/books/coaching-essence/chapter-images/chapter-9.svg",
+      "/books/coaching-essence/chapter-images/chapter-10.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/coaching-essence/chapter-images/overview.svg",
+      "全书脉络": "/books/coaching-essence/chapter-images/overview.svg",
+      "核心内容总览": "/books/coaching-essence/chapter-images/overview.svg",
+      "单章目录": "/books/coaching-essence/chapter-images/overview.svg",
+      "选题角度": "/books/coaching-essence/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/coaching-essence/chapter-images/overview.svg",
+      "教练的本质": "/books/coaching-essence/chapter-images/overview.svg",
+      "三大思维习惯：当下感、接收信息、释放评判": "/books/coaching-essence/chapter-images/overview.svg",
+      "情绪一变化，真正的突破才刚开始": "/books/coaching-essence/chapter-images/overview.svg",
+      "教练不是职业限定，而是一种日常对话方式": "/books/coaching-essence/chapter-images/overview.svg",
+      "管理者最大的教练误区：一开口就替别人想答案": "/books/coaching-essence/chapter-images/overview.svg"
+    },
+    "fallbackImage": "/books/coaching-essence/chapter-images/overview.svg"
+  }
+}

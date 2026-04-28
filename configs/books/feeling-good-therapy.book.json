@@ -1,0 +1,111 @@
+{
+  "book": {
+    "slug": "feeling-good-therapy",
+    "title": "伯恩斯新情绪疗法",
+    "shortTitle": "情绪疗法",
+    "author": "大卫·伯恩斯",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "心理疗愈与自我探索",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/伯恩斯新情绪疗法/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/伯恩斯新情绪疗法/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/伯恩斯新情绪疗法/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/伯恩斯新情绪疗法/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/伯恩斯新情绪疗法/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/伯恩斯新情绪疗法",
+    "xhsImageDir": "03_outputs/04_by_book/伯恩斯新情绪疗法/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/伯恩斯新情绪疗法/infographics",
+    "scenesDir": "03_outputs/04_by_book/伯恩斯新情绪疗法/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "伯恩斯新情绪疗法"
+    ]
+  },
+  "site": {
+    "subtitle": "心理、关系、创伤、人生发展与医疗",
+    "description": "基于《伯恩斯新情绪疗法》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "PSYCHE · PATTERN · GROWTH",
+    "heroTitleLines": [
+      "伯恩斯新情绪疗法",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "伯恩斯新情绪疗法",
+      "第01章 治疗情绪紊乱的一项重大突破(1)",
+      "觉察",
+      "第20章 从建立自尊开始(7)"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察",
+      "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感",
+      "觉察"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/feeling-good-therapy/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/feeling-good-therapy/chapter-images/chapter-1.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-2.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-3.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-4.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-5.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-6.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-7.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-8.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-9.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-10.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-11.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-12.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-13.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-14.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-15.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-16.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-17.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-18.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-19.svg",
+      "/books/feeling-good-therapy/chapter-images/chapter-20.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "全书脉络": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "核心内容总览": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "单章目录": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "选题角度": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "伯恩斯新情绪疗法": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "把情绪信号看懂以后，你会重新理解面对疾病衰老或创伤缺少框架": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "真正拉开差距的，不是更努力，而是更会用关系模式": "/books/feeling-good-therapy/chapter-images/overview.svg"
+    },
+    "fallbackImage": "/books/feeling-good-therapy/chapter-images/overview.svg"
+  }
+}

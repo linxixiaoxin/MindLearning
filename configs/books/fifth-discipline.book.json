@@ -1,0 +1,96 @@
+{
+  "book": {
+    "slug": "fifth-discipline",
+    "title": "第五项修炼学习型组织的艺术与实践",
+    "shortTitle": "第五项修炼",
+    "author": "彼得·圣吉",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "认知决策与系统思考",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/第五项修炼学习型组织的艺术与实践/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/第五项修炼学习型组织的艺术与实践/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/第五项修炼学习型组织的艺术与实践/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/第五项修炼学习型组织的艺术与实践/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/第五项修炼学习型组织的艺术与实践/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/第五项修炼学习型组织的艺术与实践",
+    "xhsImageDir": "03_outputs/04_by_book/第五项修炼学习型组织的艺术与实践/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/第五项修炼学习型组织的艺术与实践/infographics",
+    "scenesDir": "03_outputs/04_by_book/第五项修炼学习型组织的艺术与实践/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "第五项修炼学习型组织的艺术与实践"
+    ]
+  },
+  "site": {
+    "subtitle": "系统思考、组织学习、领导力、团队成长",
+    "description": "基于《第五项修炼学习型组织的艺术与实践》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "SYSTEMS · ORGANIZATION · LEARNING",
+    "heroTitleLines": [
+      "第五项修炼学习型组织的艺术与实践",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "第五项修炼学习型组织的艺术与实践",
+      "第01章 为什么组织总在重复犯错",
+      "系统思考",
+      "第04章 让组织具备自我修正能力"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "为什么组织总在重复同一种问题",
+      "共同愿景为什么比口号难得多",
+      "系统思考",
+      "全书主动作"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/fifth-discipline/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/fifth-discipline/chapter-images/chapter-1.svg",
+      "/books/fifth-discipline/chapter-images/chapter-2.svg",
+      "/books/fifth-discipline/chapter-images/chapter-3.svg",
+      "/books/fifth-discipline/chapter-images/chapter-4.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/fifth-discipline/chapter-images/overview.svg",
+      "全书脉络": "/books/fifth-discipline/chapter-images/overview.svg",
+      "核心内容总览": "/books/fifth-discipline/chapter-images/overview.svg",
+      "单章目录": "/books/fifth-discipline/chapter-images/overview.svg",
+      "选题角度": "/books/fifth-discipline/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/fifth-discipline/chapter-images/overview.svg",
+      "第五项修炼学习型组织的艺术与实践": "/books/fifth-discipline/chapter-images/overview.svg",
+      "为什么组织总在重复同一种问题": "/books/fifth-discipline/chapter-images/chapter-2.svg",
+      "共同愿景为什么比口号难得多": "/books/fifth-discipline/chapter-images/chapter-3.svg",
+      "团队学习，不是大家都发言，而是认知真的同步了": "/books/fifth-discipline/chapter-images/chapter-3.svg",
+      "真正强的组织，会自己修自己": "/books/fifth-discipline/chapter-images/chapter-2.svg"
+    },
+    "fallbackImage": "/books/fifth-discipline/chapter-images/overview.svg"
+  }
+}

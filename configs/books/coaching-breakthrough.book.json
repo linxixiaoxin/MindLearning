@@ -1,0 +1,110 @@
+{
+  "book": {
+    "slug": "coaching-breakthrough",
+    "title": "教练的突破",
+    "shortTitle": "教练突破",
+    "author": "Marcia Reynolds（玛西娅·雷诺兹）",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "心理疗愈与自我探索",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/教练的突破/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/教练的突破/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/教练的突破/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/教练的突破/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/教练的突破/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/教练的突破",
+    "xhsImageDir": "03_outputs/04_by_book/教练的突破/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/教练的突破/infographics",
+    "scenesDir": "03_outputs/04_by_book/教练的突破/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "教练的突破"
+    ]
+  },
+  "site": {
+    "subtitle": "高阶教练、情绪调节、突破式对话",
+    "description": "基于《教练的突破》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "COACHING · GROWTH · LEADERSHIP",
+    "heroTitleLines": [
+      "教练的突破",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "教练的突破",
+      "第01章 内化教练思维的真谛",
+      "去自我化",
+      "第18章 教练的价值衡量"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "价值观没对齐，再好的计划也执行不久",
+      "分与第五部分：调试操作系统，把洞见变成承诺：这一段到底在解决什么问题",
+      "去自我化",
+      "全书主动作"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/coaching-breakthrough/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/coaching-breakthrough/chapter-images/chapter-1.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-2.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-3.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-4.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-5.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-6.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-7.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-8.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-9.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-10.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-11.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-12.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-13.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-14.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-15.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-16.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-17.svg",
+      "/books/coaching-breakthrough/chapter-images/chapter-18.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "全书脉络": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "核心内容总览": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "单章目录": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "选题角度": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "教练的突破": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "价值观没对齐，再好的计划也执行不久": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "分与第五部分：调试操作系统，把洞见变成承诺：这一段到底在解决什么问题": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "分：他们真正渴望的成果是什么：这一段到底在解决什么问题": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "分：保持以客户为中心：这一段到底在解决什么问题": "/books/coaching-breakthrough/chapter-images/overview.svg"
+    },
+    "fallbackImage": "/books/coaching-breakthrough/chapter-images/overview.svg"
+  }
+}

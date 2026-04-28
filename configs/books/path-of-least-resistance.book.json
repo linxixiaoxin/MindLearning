@@ -1,0 +1,104 @@
+{
+  "book": {
+    "slug": "path-of-least-resistance",
+    "title": "最小阻力之路",
+    "shortTitle": "最小阻力之路",
+    "author": "罗伯特·弗里茨",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "认知决策与系统思考",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/最小阻力之路/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/最小阻力之路/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/最小阻力之路/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/最小阻力之路/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/最小阻力之路/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/最小阻力之路",
+    "xhsImageDir": "03_outputs/04_by_book/最小阻力之路/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/最小阻力之路/infographics",
+    "scenesDir": "03_outputs/04_by_book/最小阻力之路/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "最小阻力之路"
+    ]
+  },
+  "site": {
+    "subtitle": "领导力、组织、战略与系统思考",
+    "description": "基于《最小阻力之路》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "SYSTEMS · ORGANIZATION · LEARNING",
+    "heroTitleLines": [
+      "最小阻力之路",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "最小阻力之路",
+      "第01章 第1部分创造的要素",
+      "系统",
+      "第13章 创造的周期"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "为什么你总在动作很多却总重复出问题，却没有真正抓住系统",
+      "很多人卡在团队忙但没有形成系统，本质上是没理解战略",
+      "系统"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/path-of-least-resistance/chapter-images/chapter-1.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-2.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-3.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-4.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-5.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-6.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-7.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-8.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-9.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-10.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-11.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-12.svg",
+      "/books/path-of-least-resistance/chapter-images/chapter-13.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "全书脉络": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "核心内容总览": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "单章目录": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "选题角度": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "最小阻力之路": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "为什么你总在动作很多却总重复出问题，却没有真正抓住系统": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "很多人卡在团队忙但没有形成系统，本质上是没理解战略": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "把反馈回路看懂以后，你会重新理解战略和执行经常脱节": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "真正拉开差距的，不是更努力，而是更会用组织设计": "/books/path-of-least-resistance/chapter-images/overview.svg"
+    },
+    "fallbackImage": "/books/path-of-least-resistance/chapter-images/overview.svg"
+  }
+}

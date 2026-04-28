@@ -1,0 +1,96 @@
+{
+  "book": {
+    "slug": "effective-executive",
+    "title": "卓有成效的管理者(珍藏版)",
+    "shortTitle": "有效管理者",
+    "author": "彼得·德鲁克",
+    "primaryCategory": "领导管理与组织教练",
+    "secondaryCategory": "认知决策与系统思考",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/03_领导管理与组织教练/卓有成效的管理者(珍藏版)/assets",
+    "structuredJson": "01_sources/01_books/03_领导管理与组织教练/卓有成效的管理者(珍藏版)/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/卓有成效的管理者(珍藏版)/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/卓有成效的管理者(珍藏版)/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/卓有成效的管理者(珍藏版)/assets/视觉钩子.md",
+    "bookOutputDir": "03_outputs/04_by_book/卓有成效的管理者(珍藏版)",
+    "xhsImageDir": "03_outputs/04_by_book/卓有成效的管理者(珍藏版)/小红书图",
+    "infographicsDir": "03_outputs/04_by_book/卓有成效的管理者(珍藏版)/infographics",
+    "scenesDir": "03_outputs/04_by_book/卓有成效的管理者(珍藏版)/scenes"
+  },
+  "builder": {
+    "profile": "generic_book_v1",
+    "entryNode": "全书导读",
+    "supportsCrossBookTopic": false,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "全书导读",
+      "核心内容总览",
+      "卓有成效的管理者(珍藏版)"
+    ]
+  },
+  "site": {
+    "subtitle": "管理实践、时间管理、决策与成果导向",
+    "description": "基于《卓有成效的管理者(珍藏版)》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+    "heroOverline": "LEADERSHIP · GROWTH · ORGANIZATION",
+    "heroTitleLines": [
+      "卓有成效的管理者(珍藏版)",
+      "把整本书做成可点击地图"
+    ],
+    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书导读",
+      "卓有成效的管理者(珍藏版)",
+      "第01章 管理者先管理自己",
+      "时间记录",
+      "第04章 用高质量决策托住执行"
+    ],
+    "quickLinks": [
+      "核心内容总览",
+      "单章目录",
+      "为什么很多管理者不是不努力，而是无效努力",
+      "你以为自己在管理，可能只是在应付",
+      "时间记录",
+      "全书主动作"
+    ],
+    "journeyTitle": "章节升级打怪地图",
+    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "sectionOrder": [
+      "overview",
+      "themes",
+      "chapters",
+      "concepts",
+      "methods"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/effective-executive/chapter-images/overview.svg",
+    "chapterImageMode": "ordered",
+    "chapterImageOrder": [
+      "/books/effective-executive/chapter-images/chapter-1.svg",
+      "/books/effective-executive/chapter-images/chapter-2.svg",
+      "/books/effective-executive/chapter-images/chapter-3.svg",
+      "/books/effective-executive/chapter-images/chapter-4.svg"
+    ],
+    "topicImageMap": {
+      "全书导读": "/books/effective-executive/chapter-images/overview.svg",
+      "全书脉络": "/books/effective-executive/chapter-images/overview.svg",
+      "核心内容总览": "/books/effective-executive/chapter-images/overview.svg",
+      "单章目录": "/books/effective-executive/chapter-images/overview.svg",
+      "选题角度": "/books/effective-executive/chapter-images/overview.svg",
+      "视觉表达钩子": "/books/effective-executive/chapter-images/overview.svg",
+      "卓有成效的管理者(珍藏版)": "/books/effective-executive/chapter-images/overview.svg",
+      "为什么很多管理者不是不努力，而是无效努力": "/books/effective-executive/chapter-images/chapter-2.svg",
+      "你以为自己在管理，可能只是在应付": "/books/effective-executive/chapter-images/chapter-4.svg",
+      "先别急着提升效率，先提升有效性": "/books/effective-executive/chapter-images/chapter-2.svg",
+      "别再执着补短板了，先把长处用起来": "/books/effective-executive/chapter-images/overview.svg"
+    },
+    "fallbackImage": "/books/effective-executive/chapter-images/overview.svg"
+  }
+}

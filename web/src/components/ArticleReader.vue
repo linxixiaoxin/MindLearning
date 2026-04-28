@@ -71,6 +71,19 @@ const currentNode = computed(() => (props.bookData?.NODES || []).find((node) => 
 const typeMeta = computed(() => (props.bookData?.NODE_TYPE_META || {})[currentNode.value?.type] || { label: '', color: '#7f8790' })
 const nodeTagline = computed(() => currentNode.value?.tagline || '')
 const nodeImage = computed(() => props.bookData?.NODE_IMAGES?.[props.nodeId] || '')
+const markdownPathMap = computed(() => {
+  const entries = Object.entries(props.bookData?.FILE_MAP || {})
+  const map = {}
+
+  for (const [nodeId, filePath] of entries) {
+    const stem = markdownStem(filePath)
+    if (stem && !map[stem]) {
+      map[stem] = nodeId
+    }
+  }
+
+  return map
+})
 
 async function loadContent(id) {
   if (!id) return
@@ -130,9 +143,49 @@ async function loadContent(id) {
 
 function onArticleClick(event) {
   const link = event.target.closest('a.wiki-link')
-  if (!link) return
-  const target = link.dataset.wiki
-  if (target) emit('navigate', target)
+  if (link) {
+    const target = link.dataset.wiki
+    if (target) emit('navigate', target)
+    return
+  }
+
+  const markdownLink = event.target.closest('a[href]')
+  if (!markdownLink) return
+
+  const href = markdownLink.getAttribute('href') || ''
+  const target = resolveMarkdownTarget(href)
+  if (target) {
+    emit('navigate', target)
+    return
+  }
+
+  if (/^https?:\/\//i.test(href)) {
+    window.open(href, '_blank', 'noopener,noreferrer')
+  }
+}
+
+function markdownStem(value) {
+  if (!value) return ''
+  const clean = value.replace(/[?#].*$/, '')
+  const parts = clean.split('/').filter(Boolean)
+  const last = parts[parts.length - 1] || ''
+  return decodeURIComponent(last).replace(/\.md$/i, '')
+}
+
+function resolveMarkdownTarget(href) {
+  if (!href || !/\.md(?:$|[?#])/i.test(href)) return ''
+
+  const stem = markdownStem(href)
+  if (!stem) return ''
+
+  const directNode = props.bookData?.FILE_MAP?.[stem]
+  if (directNode) return stem
+
+  return (
+    props.bookData?.ALIAS_MAP?.[stem]
+    || markdownPathMap.value[stem]
+    || ''
+  )
 }
 
 watch(
@@ -418,6 +471,7 @@ watch(
 .md-content a {
   color: var(--brand);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .md-content .wiki-link {

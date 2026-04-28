@@ -20,6 +20,10 @@
       "status": "active",
       "description": "基于《走出心智的误区》整理的单书知识站，把章节、概念、方法、场景和内容延展资产串成可点击的阅读地图。",
       "coverImage": "/books/mindset-traps/chapter-images/overview.jpg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
       "stats": [
         {
           "label": "主题页",
@@ -49,6 +53,12 @@
       "status": "active",
       "description": "基于《领导者的意识进化》整理的单书知识站，把全书入口、核心主题、关键概念、方法工具与现实场景串成可点击的阅读地图。",
       "coverImage": "/books/leadership-evolution/chapter-images/overview.jpg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding",
+        "system-before-blame",
+        "complexity-before-skill"
+      ],
       "stats": [
         {
           "label": "主题页",
@@ -66,6 +76,531 @@
           "label": "场景",
           "value": "8"
         }
+      ]
+    },
+    {
+      "slug": "key-conversations",
+      "title": "关键对话：如何高效能沟通（原书第2版）（珍藏版）",
+      "shortTitle": "关键对话",
+      "author": "科里·帕特森等",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "领导管理与组织教练",
+      "status": "active",
+      "description": "基于《关键对话》整理的单书知识站，把全书入口、4 张主题页、11 章单章资产和 17 张概念 / 方法卡串成可点击的阅读地图。",
+      "coverImage": "/books/key-conversations/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "10"
+        },
+        {
+          "label": "章节",
+          "value": "11"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "17"
+        },
+        {
+          "label": "主线入口",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "slug": "performance-coaching",
+      "title": "高绩效教练（原书第5版）",
+      "shortTitle": "高绩效教练",
+      "author": "约翰·惠特默",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "学习成长与习惯方法",
+      "status": "active",
+      "description": "基于《高绩效教练（原书第5版）》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/performance-coaching/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "4"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "13"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "fifth-discipline",
+      "title": "第五项修炼学习型组织的艺术与实践",
+      "shortTitle": "第五项修炼",
+      "author": "彼得·圣吉",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "认知决策与系统思考",
+      "status": "active",
+      "description": "基于《第五项修炼学习型组织的艺术与实践》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/fifth-discipline/chapter-images/overview.svg",
+      "entryTopics": [
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "4"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "13"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "evolving-self",
+      "title": "发展的自我：自我成长中的过程与问题",
+      "shortTitle": "发展的自我",
+      "author": "罗伯特·凯根",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "心理疗愈与自我探索",
+      "status": "active",
+      "description": "基于《发展的自我：自我成长中的过程与问题》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/evolving-self/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "9"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "17"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "inner-conflicts",
+      "title": "我们内心的冲突",
+      "shortTitle": "内心冲突",
+      "author": "卡伦·霍妮",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "心理疗愈与自我探索",
+      "status": "active",
+      "description": "基于《我们内心的冲突》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/inner-conflicts/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "4"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "8"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "neurotic-personality",
+      "title": "我们时代的神经症人格",
+      "shortTitle": "神经症人格",
+      "author": "卡伦·霍妮",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "心理疗愈与自我探索",
+      "status": "active",
+      "description": "基于《我们时代的神经症人格》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/neurotic-personality/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "15"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "8"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "effective-executive",
+      "title": "卓有成效的管理者(珍藏版)",
+      "shortTitle": "有效管理者",
+      "author": "彼得·德鲁克",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "认知决策与系统思考",
+      "status": "active",
+      "description": "基于《卓有成效的管理者(珍藏版)》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/effective-executive/chapter-images/overview.svg",
+      "entryTopics": [
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "4"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "13"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "path-of-least-resistance",
+      "title": "最小阻力之路",
+      "shortTitle": "最小阻力之路",
+      "author": "罗伯特·弗里茨",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "认知决策与系统思考",
+      "status": "active",
+      "description": "基于《最小阻力之路》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "13"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "8"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "feeling-good-therapy",
+      "title": "伯恩斯新情绪疗法",
+      "shortTitle": "情绪疗法",
+      "author": "大卫·伯恩斯",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "心理疗愈与自我探索",
+      "status": "active",
+      "description": "基于《伯恩斯新情绪疗法》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "20"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "8"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "immunity-to-change",
+      "title": "变革为何这样难",
+      "shortTitle": "变革为何难",
+      "author": "未知作者",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "认知决策与系统思考",
+      "status": "active",
+      "description": "基于《变革为何这样难》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/immunity-to-change/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "13"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "8"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "coaching-essence",
+      "title": "教练的本质",
+      "shortTitle": "教练本质",
+      "author": "Marcia Reynolds（玛莎·雷诺兹）",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "学习成长与习惯方法",
+      "status": "active",
+      "description": "基于《教练的本质》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/coaching-essence/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "10"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "12"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "coaching-breakthrough",
+      "title": "教练的突破",
+      "shortTitle": "教练突破",
+      "author": "Marcia Reynolds（玛西娅·雷诺兹）",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "心理疗愈与自我探索",
+      "status": "active",
+      "description": "基于《教练的突破》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "18"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "13"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "slug": "manage-your-team",
+      "title": "《给你一个团队，你能怎么管？》",
+      "shortTitle": "管团队",
+      "author": "未知作者",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "认知决策与系统思考",
+      "status": "active",
+      "description": "基于《《给你一个团队，你能怎么管？》》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+      "coverImage": "/books/manage-your-team/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "15"
+        },
+        {
+          "label": "作者",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "slug": "thought-partner",
+      "title": "思想伙伴选配器",
+      "shortTitle": "思想伙伴",
+      "subtitle": "从困境匹配一组作者、学科母题和行动路径",
+      "status": "mvp",
+      "phaseLabel": "产品实验 MVP",
+      "description": "把作者思想转译能力坐标系做成可交互工具：用户选择当前困境后，得到主镜头、翻译者、校正者、行动伙伴和表达伙伴。",
+      "tags": [
+        "思想体系",
+        "作者坐标",
+        "个人地图"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "slug": "safety-before-skill",
+      "title": "安全感先于技巧",
+      "shortTitle": "安全感先于技巧",
+      "subtitle": "让对话回到可谈状态",
+      "status": "seed",
+      "phaseLabel": "专题推荐 Seed",
+      "description": "把“为什么明明在讲道理，对话却越来越谈不下去”整理成一个问题入口。先用《关键对话》的安全机制打底，再逐步补成真正的跨书专题页。",
+      "heroOverline": "TOPIC · CONVERSATION · SAFETY",
+      "tags": [
+        "高风险对话",
+        "安全感",
+        "沟通修复"
+      ],
+      "relatedBooks": [
+        "key-conversations",
+        "mindset-traps",
+        "leadership-evolution"
+      ]
+    },
+    {
+      "slug": "action-after-understanding",
+      "title": "好对话不止于理解",
+      "shortTitle": "理解到行动",
+      "subtitle": "还要落到行动",
+      "status": "seed",
+      "phaseLabel": "专题推荐 Seed",
+      "description": "把“为什么明明已经谈开了，事情却还是没有推进”整理成一个问题入口。先用《关键对话》的行动收束链打底，再逐步补成真正的跨书专题页。",
+      "heroOverline": "TOPIC · CONVERSATION · ACTION",
+      "tags": [
+        "行动收束",
+        "决策清晰",
+        "团队对话"
+      ],
+      "relatedBooks": [
+        "key-conversations",
+        "leadership-evolution",
+        "mindset-traps"
+      ]
+    },
+    {
+      "slug": "seeing-before-solving",
+      "title": "别急着给答案",
+      "shortTitle": "先看见再解决",
+      "subtitle": "真正的带人，从让人自己看见开始",
+      "status": "beta",
+      "phaseLabel": "专题推荐 Beta",
+      "description": "把“为什么你越想帮别人快点解决，团队和个体反而越难真正成长”整理成一个问题入口，先把教练、带人和变革相关书真正接成跨书专题页。",
+      "heroOverline": "TOPIC · COACHING · AWARENESS",
+      "tags": [
+        "教练式管理",
+        "觉察",
+        "责任感",
+        "组织变革"
+      ],
+      "relatedBooks": [
+        "coaching-essence",
+        "performance-coaching",
+        "coaching-breakthrough",
+        "manage-your-team",
+        "immunity-to-change"
+      ]
+    },
+    {
+      "slug": "system-before-blame",
+      "title": "系统先于追责",
+      "shortTitle": "先看系统再怪人",
+      "subtitle": "很多重复性问题，不是人不努力，而是系统没被看见",
+      "status": "beta",
+      "phaseLabel": "专题推荐 Beta",
+      "description": "把“为什么团队明明一直在努力、开会、加动作，问题却还是一轮轮重复出现”整理成一个问题入口，先把系统、反馈、组织设计和管理有效性接成跨书专题页。",
+      "heroOverline": "TOPIC · SYSTEMS · CHANGE",
+      "tags": [
+        "系统思考",
+        "反馈回路",
+        "组织设计",
+        "管理有效性"
+      ],
+      "relatedBooks": [
+        "fifth-discipline",
+        "immunity-to-change",
+        "manage-your-team",
+        "effective-executive",
+        "leadership-evolution"
+      ]
+    },
+    {
+      "slug": "complexity-before-skill",
+      "title": "心智复杂度先于技能",
+      "shortTitle": "复杂度先于技能",
+      "subtitle": "很多领导问题，真正卡住的不是做法，而是承载复杂性的方式",
+      "status": "beta",
+      "phaseLabel": "专题推荐 Beta",
+      "description": "把“为什么管理者明明学了很多方法，到了更复杂的角色还是会失灵”整理成一个问题入口，先把成人发展、领导成长、教练式带人和工作容器接成跨书专题页。",
+      "heroOverline": "TOPIC · ADULT DEVELOPMENT · LEADERSHIP",
+      "tags": [
+        "成人发展",
+        "心智复杂度",
+        "领导成长",
+        "发展容器"
+      ],
+      "relatedBooks": [
+        "leadership-evolution",
+        "evolving-self",
+        "coaching-essence",
+        "performance-coaching"
       ]
     }
   ]

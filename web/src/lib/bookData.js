@@ -10,10 +10,13 @@ const defaultRegistry = {
     description: '把不同书的阅读地图收进同一个入口里。',
   },
   books: [],
+  topics: [],
+  tools: [],
 }
 
 let registryCache = null
 const bookCache = new Map()
+const topicCache = new Map()
 
 async function fetchJson(url) {
   const response = await fetch(url)
@@ -72,4 +75,13 @@ export async function loadBookBundle(slug) {
 
   bookCache.set(slug, bundle)
   return bundle
+}
+
+export async function loadTopicBundle(slug) {
+  if (!slug) throw new Error('Missing topic slug')
+  if (topicCache.has(slug)) return topicCache.get(slug)
+
+  const topic = await fetchJson(`/topics/${encodeURIComponent(slug)}/topic.json`)
+  topicCache.set(slug, topic)
+  return topic
 }

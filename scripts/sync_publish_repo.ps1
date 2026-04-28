@@ -46,6 +46,7 @@ function Clear-PublishRepo($resolvedPublishRepo) {
 
 function Copy-SourceToPublishRepo($resolvedPublishRepo) {
   $sourceScripts = Join-Path $sourceRoot "scripts"
+  $sourceArchive = Join-Path $sourceRoot "90_archive"
   $sourceWebNodeModules = Join-Path $sourceRoot "web\node_modules"
   $sourceWebDist = Join-Path $sourceRoot "web\dist"
 
@@ -56,6 +57,7 @@ function Copy-SourceToPublishRepo($resolvedPublishRepo) {
     "/R:2"
     "/W:1"
     "/XD"
+    $sourceArchive
     $sourceWebNodeModules
     $sourceWebDist
     "/XF"

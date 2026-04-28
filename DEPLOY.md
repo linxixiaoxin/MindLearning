@@ -2,7 +2,7 @@
 
 这份清单对应当前的多书站项目。
 
-- 代码源目录：`E:\RedBook\04_operations\07_skill_lib\book-kb-multi`
+- 代码源目录：`E:\RedBook\04_operations\04_products_and_experiments\book-kb-multi`
 - GitHub 发布仓库：`https://github.com/linxixiaoxin/MindLearning`
 - 本地发布镜像路径：`E:\Cache\Repos\MindLearning`
 - 前端根目录：`web/`
@@ -70,7 +70,7 @@ git clone https://github.com/linxixiaoxin/MindLearning.git E:\Cache\Repos\MindLe
 
 然后确认这几个路径都存在：
 
-- `E:\RedBook\04_operations\07_skill_lib\book-kb-multi`
+- `E:\RedBook\04_operations\04_products_and_experiments\book-kb-multi`
 - `E:\Cache\Repos\MindLearning`
 - `E:\Cache\Repos\MindLearning\.git`
 
@@ -87,7 +87,7 @@ git clone https://github.com/linxixiaoxin/MindLearning.git E:\Cache\Repos\MindLe
 ## 本地构建校验
 
 ```powershell
-Set-Location E:\RedBook\04_operations\07_skill_lib\book-kb-multi\web
+Set-Location E:\RedBook\04_operations\04_products_and_experiments\book-kb-multi\web
 npm run build
 ```
 
@@ -104,7 +104,7 @@ npm run build
 推荐直接跑脚本：
 
 ```powershell
-Set-Location E:\RedBook\04_operations\07_skill_lib\book-kb-multi
+Set-Location E:\RedBook\04_operations\04_products_and_experiments\book-kb-multi
 powershell -ExecutionPolicy Bypass -File .\scripts\sync_publish_repo.ps1
 ```
 
@@ -131,7 +131,7 @@ git push origin main
 如果只是想快速发布当天改动，常用流程就是：
 
 ```powershell
-Set-Location E:\RedBook\04_operations\07_skill_lib\book-kb-multi
+Set-Location E:\RedBook\04_operations\04_products_and_experiments\book-kb-multi
 powershell -ExecutionPolicy Bypass -File .\scripts\sync_publish_repo.ps1
 
 Set-Location E:\Cache\Repos\MindLearning

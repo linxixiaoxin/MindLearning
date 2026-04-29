@@ -1,0 +1,115 @@
+{
+  "title": "《给你一个团队，你能怎么管？》",
+  "shortTitle": "管团队",
+  "subtitle": "领导力、组织、战略与系统思考",
+  "description": "基于《《给你一个团队，你能怎么管？》》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "SYSTEMS · ORGANIZATION · LEARNING",
+  "heroTitleLines": [
+    "《给你一个团队，你能怎么管？》",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424054916",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "《给你一个团队，你能怎么管？》",
+    "第01章 正视团队的现实问题",
+    "系统",
+    "第06章 团队聚能"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "你以为问题出在执行，其实更深的原因是领导者成长",
+    "1.正视团队的现实问题：这一段到底在解决什么问题",
+    "系统",
+    "全书主动作"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/manage-your-team/chapter-images/overview.svg",
+      "summary": "这本书重点不在管理动作多不多，而在于怎样看清结构、搭出系统并持续校准。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 正视团队的现实问题。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 正视团队的现实问题",
+      "image": "/books/manage-your-team/chapter-images/chapter-1.svg",
+      "summary": "帮助读者把抽象问题看得更清楚。",
+      "bridgeToNext": "为下一章从「1.正视团队的现实问题」推进到「2.清楚地了解团队成员的不同想法」做准备。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 清楚地了解团队成员的不同想法",
+      "image": "/books/manage-your-team/chapter-images/chapter-2.svg",
+      "summary": "帮助读者把抽象问题看得更清楚。",
+      "bridgeToNext": "为下一章从「2.清楚地了解团队成员的不同想法」推进到「3.明白自己作为管理者想要什么」做准备。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 明白自己作为管理者想要什么",
+      "image": "/books/manage-your-team/chapter-images/chapter-3.svg",
+      "summary": "帮助读者把抽象问题看得更清楚。",
+      "bridgeToNext": "为下一章从「3.明白自己作为管理者想要什么」推进到「4.永远不要强扭一根歪长的瓜秧」做准备。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 永远不要强扭一根歪长的瓜秧",
+      "image": "/books/manage-your-team/chapter-images/chapter-4.svg",
+      "summary": "帮助读者把抽象问题看得更清楚。",
+      "bridgeToNext": "为下一章从「4.永远不要强扭一根歪长的瓜秧」推进到「1.目标导向」做准备。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "章节推进",
+      "node": "第05章 目标导向",
+      "image": "/books/manage-your-team/chapter-images/chapter-5.svg",
+      "summary": "帮助读者把抽象问题看得更清楚。",
+      "bridgeToNext": "为下一章从「1.目标导向」推进到「2.团队聚能」做准备。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "章节推进",
+      "node": "第06章 团队聚能",
+      "image": "/books/manage-your-team/chapter-images/chapter-6.svg",
+      "summary": "帮助读者把抽象问题看得更清楚。",
+      "bridgeToNext": "这是这一段的收口，负责把重点落到「2.团队聚能」的最终结论。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "6"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "15"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "manage-your-team",
+  "author": "未知作者",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "认知决策与系统思考"
+}

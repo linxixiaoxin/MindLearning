@@ -1,0 +1,139 @@
+{
+  "title": "发展的自我：自我成长中的过程与问题",
+  "shortTitle": "发展的自我",
+  "subtitle": "发展心理学、成人成长与意义建构",
+  "description": "基于《发展的自我：自我成长中的过程与问题》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "PSYCHE · PATTERN · GROWTH",
+  "heroTitleLines": [
+    "发展的自我：自我成长中的过程与问题",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424072713",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "发展的自我：自我成长中的过程与问题",
+    "第01章 未被认识的让·皮亚杰的才华",
+    "主体—客体关系",
+    "第09章 自然疗法"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "大学适应不良，很多时候不是脆弱，而是旧关系系统失效了",
+    "所谓“反社会少年”，可能只是被错过了成长桥梁",
+    "主体—客体关系",
+    "先判断一个人当前把什么当成“我”"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/evolving-self/chapter-images/overview.svg",
+      "summary": "凯根把人的成长解释为“主体—客体关系”持续重组的过程：人之所以被困住，往往不是因为不努力，而是因为还被旧的意义结构包着。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 未被认识的让·皮亚杰的才华。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 未被认识的让·皮亚杰的才华",
+      "image": "/books/evolving-self/chapter-images/chapter-1.svg",
+      "summary": "为什么人的发展不能只理解为知识增加，而要理解为主体—客体关系的重组。",
+      "bridgeToNext": "下一章把这一框架推进到社会和道德领域，说明意义演化并不只发生在认知里。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 道德意义建构的演化",
+      "image": "/books/evolving-self/chapter-images/chapter-2.svg",
+      "summary": "儿童如何从只看结果和利益，发展到能够真正理解他人立场与关系后果。",
+      "bridgeToNext": "下一章会把这些分散的阶段拼成一张覆盖一生的自我结构总图。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 自我的结构",
+      "image": "/books/evolving-self/chapter-images/chapter-3.svg",
+      "summary": "如何用同一套结构理解不同年龄段的自我、认知、情感和人际关系。",
+      "bridgeToNext": "下一章开始沿着这张结构图进入生命史中的具体危机，先看最早期的抱持与分化。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 一体化自我的消长",
+      "image": "/books/evolving-self/chapter-images/chapter-4.svg",
+      "summary": "婴儿为何必须先在被抱持、被确认的环境里，才能逐步把自己和世界区分开。",
+      "bridgeToNext": "下一章进入儿童期，说明冲动性自我如何被角色、自制和隐私感逐步取代。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "章节推进",
+      "node": "第05章 冲动性自我的消失",
+      "image": "/books/evolving-self/chapter-images/chapter-5.svg",
+      "summary": "为什么5至7岁的孩子会从充满幻想和外显冲动，转向更能控制自己、更在意角色和规则的状态。",
+      "bridgeToNext": "下一章继续推进到青少年期，讨论以需要和利益为中心的唯我性自我。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "章节推进",
+      "node": "第06章 唯我性自我的消长",
+      "image": "/books/evolving-self/chapter-images/chapter-6.svg",
+      "summary": "为什么特里、理查德这类被贴上“反社会”或“不能受雇”标签的人，其实常卡在唯我性平衡向人际性平衡的过渡里。",
+      "bridgeToNext": "下一章进入人际性自我，讨论个体何时开始深度被关系和他人期望所塑形。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "章节推进",
+      "node": "第07章 人际性自我的消长",
+      "image": "/books/evolving-self/chapter-images/chapter-7.svg",
+      "summary": "为何恋家、被遗弃感和大学适应困难，常是人际性自我向法规性自我转变的信号。",
+      "bridgeToNext": "下一章进一步讨论，当个体已经长出规则、原则和同一性后，又为何还会再次失衡。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "章节推进",
+      "node": "第08章 法规性自我的消长",
+      "image": "/books/evolving-self/chapter-images/chapter-8.svg",
+      "summary": "当一个人已经能自我 authoring，为何仍会因亲密关系、价值冲突或形式主义的崩塌而陷入危机。",
+      "bridgeToNext": "最后一章把这些发展判断落回治疗、教育与社会支持，讨论什么样的环境能真正帮助过渡。"
+    },
+    {
+      "level": "LV.9",
+      "stage": "章节推进",
+      "node": "第09章 自然疗法",
+      "image": "/books/evolving-self/chapter-images/chapter-9.svg",
+      "summary": "真正推动人成长的支持，为什么往往先存在于日常关系和环境里，而不只在专业治疗里。",
+      "bridgeToNext": "这是全书的收束章节，用支持环境回答前面所有发展危机的实践面向。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "9"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "17"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "evolving-self",
+  "author": "罗伯特·凯根",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "心理疗愈与自我探索"
+}

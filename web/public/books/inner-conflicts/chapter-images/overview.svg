@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34293d"/>
+      <stop offset="55%" stop-color="#5e4c69"/>
+      <stop offset="100%" stop-color="#c18a52"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.12" r="0.9">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#glow)"/>
+  <circle cx="170" cy="180" r="110" fill="#f7f5f0" fill-opacity="0.08"/>
+  <circle cx="720" cy="980" r="180" fill="#f7f5f0" fill-opacity="0.06"/>
+  <rect x="72" y="92" width="756" height="1016" rx="40" fill="#f7f5f0" fill-opacity="0.1" stroke="#f7f5f0" stroke-opacity="0.18"/>
+  <text x="108" y="176" fill="#f7f5f0" font-size="34" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif" letter-spacing="6">内心冲突</text>
+  <text x="108" y="302" fill="#f7f5f0" font-size="82" font-family="Iowan Old Style, Palatino Linotype, Songti SC, serif">我们内心的冲突</text>
+  <text x="108" y="408" fill="#f7f5f0" font-size="28" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif" fill-opacity="0.84">这本书帮助读者理解情绪、关系、脆弱与生命议题背后的</text>
+  <text x="108" y="446" fill="#f7f5f0" font-size="28" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif" fill-opacity="0.84">真实机制，并找到更稳的应对方式。</text>
+  <rect x="108" y="526" width="684" height="2" fill="#f7f5f0" fill-opacity="0.22"/>
+  <text x="108" y="626" fill="#f7f5f0" font-size="30" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif" fill-opacity="0.82">觉察 · 安全感 · 情绪信号 · 关系模式</text>
+  <text x="108" y="1028" fill="#f7f5f0" fill-opacity="0.76" font-size="24" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif">卡伦·霍妮</text>
+</svg>

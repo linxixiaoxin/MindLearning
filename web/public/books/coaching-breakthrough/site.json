@@ -1,0 +1,211 @@
+{
+  "title": "教练的突破",
+  "shortTitle": "教练突破",
+  "subtitle": "高阶教练、情绪调节、突破式对话",
+  "description": "基于《教练的突破》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "COACHING · GROWTH · LEADERSHIP",
+  "heroTitleLines": [
+    "教练的突破",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424071345",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "教练的突破",
+    "第01章 内化教练思维的真谛",
+    "去自我化",
+    "第18章 教练的价值衡量"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "价值观没对齐，再好的计划也执行不久",
+    "分与第五部分：调试操作系统，把洞见变成承诺：这一段到底在解决什么问题",
+    "去自我化",
+    "全书主动作"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/coaching-breakthrough/chapter-images/overview.svg",
+      "summary": "这本书要解决的不是怎样把教练做得更流畅，而是如何在对话中创造真正的“顿悟时刻”：教练先调到深度临在，再帮助客户从旧叙事中产生新认知，并把洞见转成承诺。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 内化教练思维的真谛。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 内化教练思维的真谛",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-1.svg",
+      "summary": "教练为什么越想做得专业，越容易错过真正的现场。",
+      "bridgeToNext": "既然状态先于技巧，下一章就进入如何校准神经系统。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 校准你的神经系统",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-2.svg",
+      "summary": "当教练自己身体发紧、脑子过热时，为什么很难创造突破。",
+      "bridgeToNext": "身体稳下来之后，下一章继续处理教练在现场想选择什么情绪。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 选择你的情绪",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-3.svg",
+      "summary": "教练在现场为什么总被紧张、焦躁和想控制的冲动带着走。",
+      "bridgeToNext": "即便选对了情绪，评判一出现还是会毁掉现场，下一章开始处理这个问题。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 觉察与释放评判性反应",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-4.svg",
+      "summary": "评判为什么会把临在和安全感悄悄抽走。",
+      "bridgeToNext": "当教练自己更稳定了，第五章才开始真正进入客户的故事与问题。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "章节推进",
+      "node": "第05章 如何在寻求解决问题的同时以教练方式引导他人",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-5.svg",
+      "summary": "面对客户想要“赶紧解决问题”的冲动，教练如何既不失去方向也不陷入解题。",
+      "bridgeToNext": "接下来第六章继续把问题推进到“怎样倾听才会带来突破”。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "章节推进",
+      "node": "第06章 如何倾听才能带来突破",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-6.svg",
+      "summary": "为什么很多“听得很认真”的教练，仍然没有真正打开客户。",
+      "bridgeToNext": "当倾听足够深，下一章就能开始处理情绪反馈的价值。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "章节推进",
+      "node": "第07章 情绪表达反馈的价值",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-7.svg",
+      "summary": "客户的情绪和身份感受，为什么常常比他们口头上的说法更接近真相。",
+      "bridgeToNext": "一旦情绪被照亮，下一章就进入如何在情绪时刻里守住并引导顿悟。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "章节推进",
+      "node": "第08章 如何在情绪时刻中引导出顿悟",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-8.svg",
+      "summary": "客户一有情绪，教练为什么最容易在关键时刻把突破打断。",
+      "bridgeToNext": "情绪时刻守住后，下一章开始把这些变化收束到清晰目标上。"
+    },
+    {
+      "level": "LV.9",
+      "stage": "章节推进",
+      "node": "第09章 清晰且可观测目标成果的必要性",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-9.svg",
+      "summary": "没有清晰目标时，为什么教练很容易停留在表层理解。",
+      "bridgeToNext": "目标清楚后，下一章继续处理阻挡结果发生的障碍。"
+    },
+    {
+      "level": "LV.10",
+      "stage": "章节推进",
+      "node": "第10章 厘清实现目标过程中的障碍",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-10.svg",
+      "summary": "当目标已经清楚，为什么人还是很难行动。",
+      "bridgeToNext": "在厘清障碍后，第十一章继续处理目标在教练中发生变化的情况。"
+    },
+    {
+      "level": "LV.11",
+      "stage": "章节推进",
+      "node": "第11章 觉察思维演进过程中目标的转变",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-11.svg",
+      "summary": "当客户的真正愿望在会谈中浮现时，教练怎么判断是跟还是拉回。",
+      "bridgeToNext": "当方向逐渐变清后，第十二章就开始正面处理阻抗。"
+    },
+    {
+      "level": "LV.12",
+      "stage": "章节推进",
+      "node": "第12章 突破阻抗的教练对话",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-12.svg",
+      "summary": "面对客户的抗拒，教练为什么常常比客户更先着急。",
+      "bridgeToNext": "当阻抗被识别后，下一章就能进一步深入其背后的操作系统。"
+    },
+    {
+      "level": "LV.13",
+      "stage": "章节推进",
+      "node": "第13章 操作系统内部探秘",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-13.svg",
+      "summary": "为什么人明知旧模式无效，却还是会回到老的自动驾驶。",
+      "bridgeToNext": "进入操作系统后，第十四章继续展开其中最常见的驱动力：社交需求。"
+    },
+    {
+      "level": "LV.14",
+      "stage": "章节推进",
+      "node": "第14章 社交需求的优势与陷阱",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-14.svg",
+      "summary": "为什么越想被认可、被需要、被看重，有时越会卡住改变。",
+      "bridgeToNext": "除了需求，下一章继续处理另一个更持久的核心：价值观。"
+    },
+    {
+      "level": "LV.15",
+      "stage": "章节推进",
+      "node": "第15章 价值观契合的重要性",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-15.svg",
+      "summary": "为什么很多计划看起来合理，却总是做不久。",
+      "bridgeToNext": "当需求和价值观都被看清后，下一章开始巩固新认知。"
+    },
+    {
+      "level": "LV.16",
+      "stage": "章节推进",
+      "node": "第16章 巩固新认知以完成突破过程",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-16.svg",
+      "summary": "为什么很多洞见刚出现时很亮，却很快又变模糊。",
+      "bridgeToNext": "洞见被说清后，下一章继续把它推进为承诺。"
+    },
+    {
+      "level": "LV.17",
+      "stage": "章节推进",
+      "node": "第17章 将洞见与承诺相结合",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-17.svg",
+      "summary": "为什么客户明明看见了，临门一脚却还是容易退回去。",
+      "bridgeToNext": "当承诺被说清，最后一章就能谈教练价值究竟如何衡量。"
+    },
+    {
+      "level": "LV.18",
+      "stage": "章节推进",
+      "node": "第18章 教练的价值衡量",
+      "image": "/books/coaching-breakthrough/chapter-images/chapter-18.svg",
+      "summary": "教练效果为什么不能只靠“聊得很好”来衡量。",
+      "bridgeToNext": "这是全书收束，把突破性教练最终落到可衡量的行动和成长上。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "18"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "13"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "coaching-breakthrough",
+  "author": "Marcia Reynolds（玛西娅·雷诺兹）",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "心理疗愈与自我探索"
+}

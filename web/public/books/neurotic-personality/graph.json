@@ -1,0 +1,449 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "主题",
+      "color": "#3f6c78",
+      "size": 10
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#9f6a3a",
+      "size": 11
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6b8566",
+      "size": 9
+    },
+    "method": {
+      "label": "方法",
+      "color": "#8c5d7a",
+      "size": 10
+    },
+    "person": {
+      "label": "人物",
+      "color": "#5c647b",
+      "size": 11
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "主题",
+      "color": "#3f6c78"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#9f6a3a"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6b8566"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#8c5d7a"
+    },
+    {
+      "type": "person",
+      "label": "人物",
+      "color": "#5c647b"
+    }
+  ],
+  "nodeImages": {
+    "全书导读": "/books/neurotic-personality/chapter-images/overview.svg",
+    "全书脉络": "/books/neurotic-personality/chapter-images/overview.svg",
+    "核心内容总览": "/books/neurotic-personality/chapter-images/overview.svg",
+    "单章目录": "/books/neurotic-personality/chapter-images/overview.svg",
+    "选题角度": "/books/neurotic-personality/chapter-images/overview.svg",
+    "视觉表达钩子": "/books/neurotic-personality/chapter-images/overview.svg",
+    "我们时代的神经症人格": "/books/neurotic-personality/chapter-images/overview.svg",
+    "卡伦·霍妮": "/books/neurotic-personality/chapter-images/overview.svg",
+    "第01章 神经症的文化与心理内涵": "/books/neurotic-personality/chapter-images/chapter-1.svg",
+    "第02章 为何谈起“我们时代的神经症人格”": "/books/neurotic-personality/chapter-images/chapter-2.svg",
+    "第03章 焦虑": "/books/neurotic-personality/chapter-images/chapter-3.svg",
+    "第04章 焦虑与敌意": "/books/neurotic-personality/chapter-images/chapter-4.svg",
+    "第05章 神经症的基本结构": "/books/neurotic-personality/chapter-images/chapter-5.svg",
+    "第06章 对爱的病态需要": "/books/neurotic-personality/chapter-images/chapter-6.svg",
+    "第07章 再论对爱的病态需要": "/books/neurotic-personality/chapter-images/chapter-7.svg",
+    "第08章 获得爱的方式和对冷落的敏感": "/books/neurotic-personality/chapter-images/chapter-8.svg",
+    "第09章 性欲在爱的病态需要中的作用": "/books/neurotic-personality/chapter-images/chapter-9.svg",
+    "第10章 对权力、声望和财富的追求": "/books/neurotic-personality/chapter-images/chapter-10.svg",
+    "第11章 病态竞争": "/books/neurotic-personality/chapter-images/chapter-11.svg",
+    "第12章 逃避竞争": "/books/neurotic-personality/chapter-images/chapter-12.svg",
+    "第13章 病态的犯罪感": "/books/neurotic-personality/chapter-images/chapter-13.svg",
+    "第14章 病态受苦的意义——受虐狂问题": "/books/neurotic-personality/chapter-images/chapter-14.svg",
+    "第15章 文化与神经症": "/books/neurotic-personality/chapter-images/chapter-15.svg",
+    "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察": "/books/neurotic-personality/chapter-images/overview.svg",
+    "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感": "/books/neurotic-personality/chapter-images/overview.svg",
+    "把情绪信号看懂以后，你会重新理解面对疾病衰老或创伤缺少框架": "/books/neurotic-personality/chapter-images/overview.svg",
+    "真正拉开差距的，不是更努力，而是更会用关系模式": "/books/neurotic-personality/chapter-images/overview.svg",
+    "觉察": "/books/neurotic-personality/chapter-images/overview.svg",
+    "安全感": "/books/neurotic-personality/chapter-images/overview.svg",
+    "情绪信号": "/books/neurotic-personality/chapter-images/overview.svg",
+    "关系模式": "/books/neurotic-personality/chapter-images/overview.svg",
+    "脆弱": "/books/neurotic-personality/chapter-images/overview.svg",
+    "选择": "/books/neurotic-personality/chapter-images/overview.svg",
+    "创伤记忆": "/books/neurotic-personality/chapter-images/overview.svg",
+    "生命议题": "/books/neurotic-personality/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "全书导读",
+      "type": "topic",
+      "tagline": "这本书帮助读者理解情绪、关系、脆弱与生命议题背后的真实机制，并找到更稳的应对方式。"
+    },
+    {
+      "id": "全书脉络",
+      "type": "topic",
+      "tagline": "按章节推进链快速拿到这本书的主线。"
+    },
+    {
+      "id": "核心内容总览",
+      "type": "topic",
+      "tagline": "把主题、概念、方法和章节资产收成一张总表。"
+    },
+    {
+      "id": "单章目录",
+      "type": "topic",
+      "tagline": "从章节切进去，顺着原书推进。"
+    },
+    {
+      "id": "选题角度",
+      "type": "topic",
+      "tagline": "把书里的结构问题翻译成可直接做内容的切口。"
+    },
+    {
+      "id": "视觉表达钩子",
+      "type": "topic",
+      "tagline": "提炼适合信息图、九图和封面表达的视觉对象。"
+    },
+    {
+      "id": "我们时代的神经症人格",
+      "type": "topic",
+      "tagline": "这本书帮助读者理解情绪、关系、脆弱与生命议题背后的真实机制，并找到更稳的应对方式。"
+    },
+    {
+      "id": "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察",
+      "type": "topic",
+      "tagline": "容易被情绪或关系反复困住"
+    },
+    {
+      "id": "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感",
+      "type": "topic",
+      "tagline": "道理都懂但关键时刻做不到"
+    },
+    {
+      "id": "把情绪信号看懂以后，你会重新理解面对疾病衰老或创伤缺少框架",
+      "type": "topic",
+      "tagline": "面对疾病衰老或创伤缺少框架"
+    },
+    {
+      "id": "真正拉开差距的，不是更努力，而是更会用关系模式",
+      "type": "topic",
+      "tagline": "常用压制代替理解"
+    },
+    {
+      "id": "第01章 神经症的文化与心理内涵",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第02章 为何谈起“我们时代的神经症人格”",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第03章 焦虑",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第04章 焦虑与敌意",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第05章 神经症的基本结构",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第06章 对爱的病态需要",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第07章 再论对爱的病态需要",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第08章 获得爱的方式和对冷落的敏感",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第09章 性欲在爱的病态需要中的作用",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第10章 对权力、声望和财富的追求",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第11章 病态竞争",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第12章 逃避竞争",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第13章 病态的犯罪感",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第14章 病态受苦的意义——受虐狂问题",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第15章 文化与神经症",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "觉察",
+      "type": "concept",
+      "tagline": "先看见自己正在发生什么。"
+    },
+    {
+      "id": "安全感",
+      "type": "concept",
+      "tagline": "安全是学习和改变的前提。"
+    },
+    {
+      "id": "情绪信号",
+      "type": "concept",
+      "tagline": "情绪是系统提醒。"
+    },
+    {
+      "id": "关系模式",
+      "type": "concept",
+      "tagline": "人在关系里常重复某种路径。"
+    },
+    {
+      "id": "脆弱",
+      "type": "concept",
+      "tagline": "承认有限是连接的起点。"
+    },
+    {
+      "id": "选择",
+      "type": "concept",
+      "tagline": "在现实限制中看清什么重要。"
+    },
+    {
+      "id": "创伤记忆",
+      "type": "concept",
+      "tagline": "未整合经历会持续影响当下。"
+    },
+    {
+      "id": "生命议题",
+      "type": "concept",
+      "tagline": "衰老、疾病与死亡会逼人重答什么重要。"
+    },
+    {
+      "id": "卡伦·霍妮",
+      "type": "person",
+      "tagline": "《我们时代的神经症人格》作者"
+    }
+  ],
+  "links": [
+    {
+      "source": "全书导读",
+      "target": "核心内容总览"
+    },
+    {
+      "source": "全书导读",
+      "target": "单章目录"
+    },
+    {
+      "source": "全书导读",
+      "target": "选题角度"
+    },
+    {
+      "source": "全书导读",
+      "target": "视觉表达钩子"
+    },
+    {
+      "source": "全书导读",
+      "target": "我们时代的神经症人格"
+    },
+    {
+      "source": "全书脉络",
+      "target": "单章目录"
+    },
+    {
+      "source": "核心内容总览",
+      "target": "我们时代的神经症人格"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "把情绪信号看懂以后，你会重新理解面对疾病衰老或创伤缺少框架"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "真正拉开差距的，不是更努力，而是更会用关系模式"
+    },
+    {
+      "source": "单章目录",
+      "target": "第01章 神经症的文化与心理内涵"
+    },
+    {
+      "source": "单章目录",
+      "target": "第02章 为何谈起“我们时代的神经症人格”"
+    },
+    {
+      "source": "单章目录",
+      "target": "第03章 焦虑"
+    },
+    {
+      "source": "单章目录",
+      "target": "第04章 焦虑与敌意"
+    },
+    {
+      "source": "单章目录",
+      "target": "第05章 神经症的基本结构"
+    },
+    {
+      "source": "单章目录",
+      "target": "第06章 对爱的病态需要"
+    },
+    {
+      "source": "单章目录",
+      "target": "第07章 再论对爱的病态需要"
+    },
+    {
+      "source": "单章目录",
+      "target": "第08章 获得爱的方式和对冷落的敏感"
+    },
+    {
+      "source": "单章目录",
+      "target": "第09章 性欲在爱的病态需要中的作用"
+    },
+    {
+      "source": "单章目录",
+      "target": "第10章 对权力、声望和财富的追求"
+    },
+    {
+      "source": "单章目录",
+      "target": "第11章 病态竞争"
+    },
+    {
+      "source": "单章目录",
+      "target": "第12章 逃避竞争"
+    },
+    {
+      "source": "单章目录",
+      "target": "第13章 病态的犯罪感"
+    },
+    {
+      "source": "单章目录",
+      "target": "第14章 病态受苦的意义——受虐狂问题"
+    },
+    {
+      "source": "单章目录",
+      "target": "第15章 文化与神经症"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "觉察"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "安全感"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "情绪信号"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "关系模式"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "脆弱"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "选择"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "创伤记忆"
+    },
+    {
+      "source": "我们时代的神经症人格",
+      "target": "生命议题"
+    },
+    {
+      "source": "卡伦·霍妮",
+      "target": "我们时代的神经症人格"
+    }
+  ],
+  "linkLabels": {
+    "全书导读→核心内容总览": "总览",
+    "全书导读→单章目录": "章节入口",
+    "全书导读→选题角度": "内容化",
+    "全书导读→视觉表达钩子": "视觉线索",
+    "全书导读→我们时代的神经症人格": "主线主题",
+    "全书脉络→单章目录": "按章节推进",
+    "核心内容总览→我们时代的神经症人格": "书 K",
+    "我们时代的神经症人格→为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察": "主题展开",
+    "我们时代的神经症人格→很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感": "主题展开",
+    "我们时代的神经症人格→把情绪信号看懂以后，你会重新理解面对疾病衰老或创伤缺少框架": "主题展开",
+    "我们时代的神经症人格→真正拉开差距的，不是更努力，而是更会用关系模式": "主题展开",
+    "单章目录→第01章 神经症的文化与心理内涵": "章节入口",
+    "单章目录→第02章 为何谈起“我们时代的神经症人格”": "章节入口",
+    "单章目录→第03章 焦虑": "章节入口",
+    "单章目录→第04章 焦虑与敌意": "章节入口",
+    "单章目录→第05章 神经症的基本结构": "章节入口",
+    "单章目录→第06章 对爱的病态需要": "章节入口",
+    "单章目录→第07章 再论对爱的病态需要": "章节入口",
+    "单章目录→第08章 获得爱的方式和对冷落的敏感": "章节入口",
+    "单章目录→第09章 性欲在爱的病态需要中的作用": "章节入口",
+    "单章目录→第10章 对权力、声望和财富的追求": "章节入口",
+    "单章目录→第11章 病态竞争": "章节入口",
+    "单章目录→第12章 逃避竞争": "章节入口",
+    "单章目录→第13章 病态的犯罪感": "章节入口",
+    "单章目录→第14章 病态受苦的意义——受虐狂问题": "章节入口",
+    "单章目录→第15章 文化与神经症": "章节入口",
+    "我们时代的神经症人格→觉察": "核心概念",
+    "我们时代的神经症人格→安全感": "核心概念",
+    "我们时代的神经症人格→情绪信号": "核心概念",
+    "我们时代的神经症人格→关系模式": "核心概念",
+    "我们时代的神经症人格→脆弱": "核心概念",
+    "我们时代的神经症人格→选择": "核心概念",
+    "我们时代的神经症人格→创伤记忆": "核心概念",
+    "我们时代的神经症人格→生命议题": "核心概念",
+    "卡伦·霍妮→我们时代的神经症人格": "作者"
+  }
+}

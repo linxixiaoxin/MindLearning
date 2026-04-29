@@ -31,7 +31,11 @@
       </div>
 
       <div v-else>
-        <div v-if="nodeImage" class="article-hero">
+        <div v-if="canvasCard" class="article-canvas-hero">
+          <canvas ref="canvasRef" width="1440" height="760" class="structure-canvas"></canvas>
+        </div>
+
+        <div v-else-if="nodeImage" class="article-hero">
           <img :src="nodeImage" :alt="`${nodeId} 对应配图`" class="hero-image" />
         </div>
 
@@ -49,7 +53,7 @@
 </template>
 
 <script setup>
-import { computed, ref, watch } from 'vue'
+import { computed, nextTick, ref, watch } from 'vue'
 import { marked } from 'marked'
 
 const props = defineProps({
@@ -66,11 +70,13 @@ const loading = ref(false)
 const error = ref(false)
 const renderedHtml = ref('')
 const frontmatter = ref({ tags: [], created: '', layer: '' })
+const canvasRef = ref(null)
 
 const currentNode = computed(() => (props.bookData?.NODES || []).find((node) => node.id === props.nodeId))
 const typeMeta = computed(() => (props.bookData?.NODE_TYPE_META || {})[currentNode.value?.type] || { label: '', color: '#7f8790' })
 const nodeTagline = computed(() => currentNode.value?.tagline || '')
 const nodeImage = computed(() => props.bookData?.NODE_IMAGES?.[props.nodeId] || '')
+const canvasCard = computed(() => props.bookData?.CANVAS_CARDS?.[props.nodeId] || null)
 const markdownPathMap = computed(() => {
   const entries = Object.entries(props.bookData?.FILE_MAP || {})
   const map = {}
@@ -138,6 +144,8 @@ async function loadContent(id) {
     error.value = true
   } finally {
     loading.value = false
+    await nextTick()
+    drawCanvasCard()
   }
 }
 
@@ -195,6 +203,233 @@ watch(
   },
   { immediate: true },
 )
+
+watch(canvasCard, () => {
+  if (!loading.value && !error.value) drawCanvasCard()
+})
+
+function drawCanvasCard() {
+  nextTick(() => {
+    const canvas = canvasRef.value
+    const card = canvasCard.value
+    if (!canvas || !card) return
+
+    const ctx = canvas.getContext('2d')
+    if (!ctx) return
+    const width = canvas.width
+    const height = canvas.height
+    ctx.clearRect(0, 0, width, height)
+    drawBackground(ctx, width, height)
+
+    const palette = {
+      ink: '#15222b',
+      muted: '#4a5b68',
+      faint: '#9aa6ad',
+      brand: '#204f67',
+      accent: '#bf6f3f',
+      green: '#6f8d66',
+      violet: '#795b9b',
+      paper: '#fbfaf6',
+      line: '#d9d4ca',
+    }
+
+    if (card.template === 'translation') drawTranslation(ctx, card, palette, width, height)
+    else if (card.template === 'scene-window') drawSceneWindow(ctx, card, palette, width, height)
+    else if (card.template === 'compass') drawCompass(ctx, card, palette, width, height)
+    else drawModernDilemma(ctx, card, palette, width, height)
+  })
+}
+
+function drawBackground(ctx, width, height) {
+  ctx.fillStyle = '#f7f5f0'
+  ctx.fillRect(0, 0, width, height)
+  const gradient = ctx.createRadialGradient(1120, 80, 60, 1120, 80, 640)
+  gradient.addColorStop(0, 'rgba(220, 231, 235, 0.95)')
+  gradient.addColorStop(1, 'rgba(247, 245, 240, 0)')
+  ctx.fillStyle = gradient
+  ctx.fillRect(0, 0, width, height)
+}
+
+function drawTitle(ctx, card, palette) {
+  ctx.fillStyle = palette.accent
+  ctx.font = '24px "Segoe UI", sans-serif'
+  ctx.fillText(card.kicker || 'STRUCTURE MAP', 78, 86)
+  ctx.fillStyle = palette.ink
+  ctx.font = '700 64px "Microsoft YaHei", "Segoe UI", sans-serif'
+  wrapCanvasText(ctx, card.title || '', 78, 166, 900, 76)
+  ctx.fillStyle = palette.muted
+  ctx.font = '30px "Microsoft YaHei", "Segoe UI", sans-serif'
+  wrapCanvasText(ctx, card.subtitle || '', 82, 268, 920, 42)
+}
+
+function drawModernDilemma(ctx, card, palette, width, height) {
+  drawTitle(ctx, card, palette)
+  const center = { x: 720, y: 500 }
+  drawCircle(ctx, center.x, center.y, 118, palette.paper, palette.brand)
+  ctx.fillStyle = palette.brand
+  ctx.font = '700 30px "Microsoft YaHei", sans-serif'
+  centerText(ctx, card.center || '当前困境', center.x, center.y - 8, 200, 34)
+
+  const labels = card.nodes?.length ? card.nodes : ['私人刺痛', '社会标准', '替代参照', '温柔命名']
+  const points = [
+    { x: 380, y: 430, color: palette.accent },
+    { x: 1060, y: 430, color: palette.violet },
+    { x: 470, y: 650, color: palette.green },
+    { x: 970, y: 650, color: palette.brand },
+  ]
+  labels.slice(0, 4).forEach((label, index) => {
+    const point = points[index]
+    drawLine(ctx, center.x, center.y, point.x, point.y, point.color)
+    drawCircle(ctx, point.x, point.y, 78, '#fffdf8', point.color)
+    ctx.fillStyle = point.color
+    ctx.font = '700 24px "Microsoft YaHei", sans-serif'
+    centerText(ctx, label, point.x, point.y - 8, 132, 30)
+  })
+}
+
+function drawTranslation(ctx, card, palette) {
+  drawTitle(ctx, card, palette)
+  const columns = card.nodes?.length ? card.nodes : ['原始感受', '参照系统', '重新命名']
+  const xs = [250, 720, 1190]
+  columns.slice(0, 3).forEach((label, index) => {
+    roundRect(ctx, xs[index] - 150, 410, 300, 170, 30, '#fffdf8', index === 1 ? palette.accent : palette.brand)
+    ctx.fillStyle = index === 1 ? palette.accent : palette.brand
+    ctx.font = '700 30px "Microsoft YaHei", sans-serif'
+    centerText(ctx, label, xs[index], 480, 230, 36)
+    if (index < 2) {
+      drawArrow(ctx, xs[index] + 175, 495, xs[index + 1] - 175, 495, palette.line)
+    }
+  })
+}
+
+function drawSceneWindow(ctx, card, palette) {
+  drawTitle(ctx, card, palette)
+  roundRect(ctx, 238, 360, 960, 300, 38, 'rgba(255,255,255,0.72)', palette.line)
+  ctx.strokeStyle = palette.brand
+  ctx.lineWidth = 4
+  ctx.beginPath()
+  ctx.moveTo(718, 360)
+  ctx.lineTo(718, 660)
+  ctx.stroke()
+  ctx.fillStyle = palette.brand
+  ctx.font = '700 32px "Microsoft YaHei", sans-serif'
+  centerText(ctx, card.left || '日常场景', 478, 470, 360, 40)
+  ctx.fillStyle = palette.accent
+  centerText(ctx, card.right || '心理结构', 958, 470, 360, 40)
+  ctx.fillStyle = palette.muted
+  ctx.font = '24px "Microsoft YaHei", sans-serif'
+  centerText(ctx, card.caption || '把一个普通现场看成内在生活的线索', 718, 590, 760, 34)
+}
+
+function drawCompass(ctx, card, palette) {
+  drawTitle(ctx, card, palette)
+  const cx = 720
+  const cy = 520
+  drawCircle(ctx, cx, cy, 170, 'rgba(255,255,255,0.72)', palette.brand)
+  drawCircle(ctx, cx, cy, 70, palette.paper, palette.accent)
+  ctx.fillStyle = palette.accent
+  ctx.font = '700 26px "Microsoft YaHei", sans-serif'
+  centerText(ctx, card.center || '替代参照', cx, cy - 8, 160, 34)
+  const labels = card.nodes?.length ? card.nodes : ['哲学', '艺术', '政治', '宗教']
+  const points = [
+    { x: cx, y: cy - 230 },
+    { x: cx + 260, y: cy },
+    { x: cx, y: cy + 230 },
+    { x: cx - 260, y: cy },
+  ]
+  labels.slice(0, 4).forEach((label, index) => {
+    drawLine(ctx, cx, cy, points[index].x, points[index].y, palette.line)
+    drawCircle(ctx, points[index].x, points[index].y, 76, '#fffdf8', palette.green)
+    ctx.fillStyle = palette.green
+    ctx.font = '700 24px "Microsoft YaHei", sans-serif'
+    centerText(ctx, label, points[index].x, points[index].y - 8, 130, 30)
+  })
+}
+
+function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight) {
+  const chars = String(text).split('')
+  let line = ''
+  let currentY = y
+  for (const char of chars) {
+    const test = line + char
+    if (ctx.measureText(test).width > maxWidth && line) {
+      ctx.fillText(line, x, currentY)
+      line = char
+      currentY += lineHeight
+    } else {
+      line = test
+    }
+  }
+  if (line) ctx.fillText(line, x, currentY)
+}
+
+function centerText(ctx, text, x, y, maxWidth, lineHeight) {
+  const chars = String(text).split('')
+  const lines = []
+  let line = ''
+  for (const char of chars) {
+    const test = line + char
+    if (ctx.measureText(test).width > maxWidth && line) {
+      lines.push(line)
+      line = char
+    } else {
+      line = test
+    }
+  }
+  if (line) lines.push(line)
+  lines.forEach((item, index) => {
+    ctx.fillText(item, x - ctx.measureText(item).width / 2, y + index * lineHeight)
+  })
+}
+
+function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+  ctx.beginPath()
+  ctx.moveTo(x + radius, y)
+  ctx.lineTo(x + width - radius, y)
+  ctx.quadraticCurveTo(x + width, y, x + width, y + radius)
+  ctx.lineTo(x + width, y + height - radius)
+  ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height)
+  ctx.lineTo(x + radius, y + height)
+  ctx.quadraticCurveTo(x, y + height, x, y + height - radius)
+  ctx.lineTo(x, y + radius)
+  ctx.quadraticCurveTo(x, y, x + radius, y)
+  ctx.closePath()
+  ctx.fillStyle = fill
+  ctx.fill()
+  ctx.strokeStyle = stroke
+  ctx.lineWidth = 3
+  ctx.stroke()
+}
+
+function drawCircle(ctx, x, y, radius, fill, stroke) {
+  ctx.beginPath()
+  ctx.arc(x, y, radius, 0, Math.PI * 2)
+  ctx.fillStyle = fill
+  ctx.fill()
+  ctx.strokeStyle = stroke
+  ctx.lineWidth = 4
+  ctx.stroke()
+}
+
+function drawLine(ctx, x1, y1, x2, y2, color) {
+  ctx.strokeStyle = color
+  ctx.lineWidth = 4
+  ctx.beginPath()
+  ctx.moveTo(x1, y1)
+  ctx.lineTo(x2, y2)
+  ctx.stroke()
+}
+
+function drawArrow(ctx, x1, y1, x2, y2, color) {
+  drawLine(ctx, x1, y1, x2, y2, color)
+  ctx.fillStyle = color
+  ctx.beginPath()
+  ctx.moveTo(x2, y2)
+  ctx.lineTo(x2 - 18, y2 - 10)
+  ctx.lineTo(x2 - 18, y2 + 10)
+  ctx.closePath()
+  ctx.fill()
+}
 </script>
 
 <style scoped>
@@ -333,7 +568,8 @@ watch(
   flex-wrap: wrap;
 }
 
-.article-hero {
+.article-hero,
+.article-canvas-hero {
   max-width: 760px;
   margin: 0 auto 22px;
 }
@@ -341,6 +577,16 @@ watch(
 .hero-image {
   display: block;
   width: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--border-default);
+  box-shadow: var(--shadow-sm);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.structure-canvas {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1440 / 760;
   border-radius: 20px;
   border: 1px solid var(--border-default);
   box-shadow: var(--shadow-sm);

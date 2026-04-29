@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "codex:bridge": "node scripts/codex-insight-bridge.mjs",
     "build": "vite build",
     "build:spa": "vite build",
     "preview": "vite preview",

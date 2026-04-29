@@ -1,0 +1,170 @@
+{
+  "title": "最小阻力之路",
+  "shortTitle": "最小阻力之路",
+  "subtitle": "领导力、组织、战略与系统思考",
+  "description": "基于《最小阻力之路》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "SYSTEMS · ORGANIZATION · LEARNING",
+  "heroTitleLines": [
+    "最小阻力之路",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424054916",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "最小阻力之路",
+    "第01章 第1部分创造的要素",
+    "系统",
+    "第13章 创造的周期"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "为什么你总在动作很多却总重复出问题，却没有真正抓住系统",
+    "很多人卡在团队忙但没有形成系统，本质上是没理解战略",
+    "系统"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/path-of-least-resistance/chapter-images/overview.svg",
+      "summary": "这本书重点不在管理动作多不多，而在于怎样看清结构、搭出系统并持续校准。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 第1部分创造的要素。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 第1部分创造的要素",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-1.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 最小阻力之路",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-2.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 反抗─顺应取向",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-3.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 创造与问题无关",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-4.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "章节推进",
+      "node": "第05章 何谓创造",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-5.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "章节推进",
+      "node": "第06章 创造的取向",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-6.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "章节推进",
+      "node": "第07章 纾解张力之道",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-7.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "章节推进",
+      "node": "第08章 弥补性策略",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-8.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.9",
+      "stage": "章节推进",
+      "node": "第09章 结构性张力",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-9.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.10",
+      "stage": "章节推进",
+      "node": "第10章 将概念化成愿景",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-10.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.11",
+      "stage": "章节推进",
+      "node": "第11章 勇于面对现状",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-11.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.12",
+      "stage": "章节推进",
+      "node": "第12章 第2部分创造的历程",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-12.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.13",
+      "stage": "章节推进",
+      "node": "第13章 创造的周期",
+      "image": "/books/path-of-least-resistance/chapter-images/chapter-13.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "13"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "8"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "path-of-least-resistance",
+  "author": "罗伯特·弗里茨",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "认知决策与系统思考"
+}

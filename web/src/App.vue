@@ -181,6 +181,14 @@
 
         <ThoughtPartnerTool
           v-else-if="view === 'thoughtPartner'"
+          @open-thinker="onOpenThinker"
+        />
+
+        <ThinkerProfilePage
+          v-else-if="view === 'thinkerProfile'"
+          :thinker-id="currentThinkerId"
+          @back="goThoughtPartner"
+          @open-node="onOpenNode"
         />
 
         <ArticleReader
@@ -209,6 +217,7 @@ import BookLibrary from './components/BookLibrary.vue'
 import HomeView from './components/HomeView.vue'
 import KnowledgeGraph from './components/KnowledgeGraph.vue'
 import Sidebar from './components/Sidebar.vue'
+import ThinkerProfilePage from './components/ThinkerProfilePage.vue'
 import ThoughtPartnerTool from './components/ThoughtPartnerTool.vue'
 import TopicPage from './components/TopicPage.vue'
 import { loadBookBundle, loadRegistry, loadTopicBundle } from './lib/bookData.js'
@@ -233,6 +242,7 @@ const currentSlug = ref('')
 const currentBookData = ref(null)
 const currentTopicSlug = ref('')
 const currentTopicData = ref(null)
+const currentThinkerId = ref('')
 const routeLoading = ref(true)
 const routeError = ref('')
 
@@ -251,7 +261,7 @@ let globalSearchPromise = null
 const footerSite = computed(() => currentBookData.value?.SITE || registry.value.site)
 const hasBookContext = computed(() => Boolean(currentBookData.value))
 const hasTopicContext = computed(() => Boolean(currentTopicData.value))
-const hasToolContext = computed(() => view.value === 'thoughtPartner')
+const hasToolContext = computed(() => view.value === 'thoughtPartner' || view.value === 'thinkerProfile')
 const sidebarVisible = computed(() => hasBookContext.value)
 const resolvedSearchScope = computed(() => {
   if (!hasBookContext.value) return 'global'
@@ -561,6 +571,11 @@ function parseRoute(pathname) {
     return { view: 'thoughtPartner', slug: '', nodeId: null }
   }
 
+  const thinkerMatch = normalized.match(/^\/tools\/thought-partner\/thinkers\/([^/]+)$/)
+  if (thinkerMatch) {
+    return { view: 'thinkerProfile', slug: decodeSegment(thinkerMatch[1]), nodeId: null }
+  }
+
   const topicMatch = normalized.match(/^\/topics\/([^/]+)$/)
   if (topicMatch) {
     return {
@@ -602,6 +617,7 @@ function parseRoute(pathname) {
 
 function routeToUrl(targetView, slug, nodeId) {
   if (targetView === 'thoughtPartner') return '/tools/thought-partner'
+  if (targetView === 'thinkerProfile') return `/tools/thought-partner/thinkers/${encodeURIComponent(slug)}`
   if (!slug || targetView === 'library') return '/books'
   const safeSlug = encodeURIComponent(slug)
   if (targetView === 'topic') return `/topics/${safeSlug}`
@@ -627,6 +643,7 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       currentBookData.value = null
       currentTopicSlug.value = ''
       currentTopicData.value = null
+      currentThinkerId.value = ''
       view.value = 'thoughtPartner'
       activeNode.value = null
       searchScope.value = 'global'
@@ -636,11 +653,28 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       return
     }
 
+    if (route.view === 'thinkerProfile') {
+      currentSlug.value = ''
+      currentBookData.value = null
+      currentTopicSlug.value = ''
+      currentTopicData.value = null
+      currentThinkerId.value = route.slug
+      view.value = 'thinkerProfile'
+      activeNode.value = null
+      searchScope.value = 'global'
+      if (replaceHistory) {
+        const nextUrl = routeToUrl(route.view, route.slug, null)
+        window.history.replaceState({ view: route.view, slug: route.slug, nodeId: null }, '', nextUrl)
+      }
+      return
+    }
+
     if (route.view === 'library' || !route.slug) {
       currentSlug.value = ''
       currentBookData.value = null
       currentTopicSlug.value = ''
       currentTopicData.value = null
+      currentThinkerId.value = ''
       view.value = 'library'
       activeNode.value = null
       searchScope.value = 'global'
@@ -658,6 +692,7 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       currentBookData.value = null
       currentTopicSlug.value = route.slug
       currentTopicData.value = topicData
+      currentThinkerId.value = ''
       view.value = 'topic'
       activeNode.value = null
       searchScope.value = 'global'
@@ -676,6 +711,7 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
     currentBookData.value = bookData
     currentTopicSlug.value = ''
     currentTopicData.value = null
+    currentThinkerId.value = ''
     view.value = route.view
     activeNode.value = route.view === 'reader' ? resolveNodeId(bookData, route.nodeId) : null
     if (searchScope.value !== 'global') {
@@ -756,6 +792,13 @@ async function goThoughtPartner() {
   historyStack.value = []
   clearSearch()
   await goToRoute('thoughtPartner', '')
+}
+
+async function onOpenThinker(thinkerId) {
+  if (!thinkerId) return
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('thinkerProfile', thinkerId)
 }
 
 async function goBookHome(slug) {

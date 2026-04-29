@@ -1,0 +1,98 @@
+{
+  "title": "我们内心的冲突",
+  "shortTitle": "内心冲突",
+  "subtitle": "心理、关系、创伤、人生发展与医疗",
+  "description": "基于《我们内心的冲突》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "PSYCHE · PATTERN · GROWTH",
+  "heroTitleLines": [
+    "我们内心的冲突",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424054916",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "我们内心的冲突",
+    "第01章 第一部分神经症冲突和处理的尝试",
+    "觉察",
+    "第04章 第二部分"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察",
+    "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感",
+    "觉察"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/inner-conflicts/chapter-images/overview.svg",
+      "summary": "这本书帮助读者理解情绪、关系、脆弱与生命议题背后的真实机制，并找到更稳的应对方式。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 第一部分神经症冲突和处理的尝试。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 第一部分神经症冲突和处理的尝试",
+      "image": "/books/inner-conflicts/chapter-images/chapter-1.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 第二部分未解决冲突的后果",
+      "image": "/books/inner-conflicts/chapter-images/chapter-2.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 第一部分",
+      "image": "/books/inner-conflicts/chapter-images/chapter-3.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 第二部分",
+      "image": "/books/inner-conflicts/chapter-images/chapter-4.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "4"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "8"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "inner-conflicts",
+  "author": "卡伦·霍妮",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "心理疗愈与自我探索"
+}

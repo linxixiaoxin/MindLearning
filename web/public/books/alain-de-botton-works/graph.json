@@ -1,0 +1,3064 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "主题",
+      "color": "#204f67",
+      "size": 11
+    },
+    "book": {
+      "label": "书籍",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 9
+    },
+    "method": {
+      "label": "方法",
+      "color": "#8a5a44",
+      "size": 9
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "person": {
+      "label": "人物",
+      "color": "#795b9b",
+      "size": 12
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "主题",
+      "color": "#204f67"
+    },
+    {
+      "type": "book",
+      "label": "书籍",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#8a5a44"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "person",
+      "label": "人物",
+      "color": "#795b9b"
+    }
+  ],
+  "nodeImages": {},
+  "canvasCards": {
+    "作者方法总览": {
+      "title": "作者方法总览",
+      "kicker": "TOPIC",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "阿兰·德波顿": {
+      "title": "阿兰·德波顿",
+      "kicker": "PERSON",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "内容转译": {
+      "title": "内容转译",
+      "kicker": "METHOD",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "身份的焦虑": {
+      "title": "身份的焦虑",
+      "kicker": "BOOK",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "compass",
+      "center": "书籍入口",
+      "nodes": [
+        "困境",
+        "场景",
+        "参照",
+        "观看"
+      ]
+    },
+    "身份焦虑": {
+      "title": "身份焦虑",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "渴求身份": {
+      "title": "渴求身份",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "势利倾向": {
+      "title": "势利倾向",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "过度期望": {
+      "title": "过度期望",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "精英崇拜": {
+      "title": "精英崇拜",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "爱": {
+      "title": "爱",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "自我形状": {
+      "title": "自我形状",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "公众意见": {
+      "title": "公众意见",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "外部符号": {
+      "title": "外部符号",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "平等": {
+      "title": "平等",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "比较": {
+      "title": "比较",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "失败羞耻": {
+      "title": "失败羞耻",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "制约因素": {
+      "title": "制约因素",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "失败者污名": {
+      "title": "失败者污名",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "社会结构": {
+      "title": "社会结构",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "偶然性": {
+      "title": "偶然性",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "哲学式独立": {
+      "title": "哲学式独立",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "苏格拉底": {
+      "title": "苏格拉底",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "自我判断": {
+      "title": "自我判断",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "艺术的修正": {
+      "title": "艺术的修正",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "审美观看": {
+      "title": "审美观看",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "被忽视者": {
+      "title": "被忽视者",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "社会评价": {
+      "title": "社会评价",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "政治建构": {
+      "title": "政治建构",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "制度": {
+      "title": "制度",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "身份秩序": {
+      "title": "身份秩序",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "波希米亚价值": {
+      "title": "波希米亚价值",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "反主流": {
+      "title": "反主流",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "生活美学": {
+      "title": "生活美学",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "身份替代": {
+      "title": "身份替代",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "把刺痛感还原成身份焦虑": {
+      "title": "把刺痛感还原成身份焦虑",
+      "kicker": "METHOD",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "检查评价来源": {
+      "title": "检查评价来源",
+      "kicker": "METHOD",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "引入制约因素": {
+      "title": "引入制约因素",
+      "kicker": "METHOD",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "寻找替代参照系": {
+      "title": "寻找替代参照系",
+      "kicker": "METHOD",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "晚会上被问你是做什么的": {
+      "title": "晚会上被问你是做什么的",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "报纸或社交平台上看见熟人成功": {
+      "title": "报纸或社交平台上看见熟人成功",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "朋友兴冲冲分享好消息": {
+      "title": "朋友兴冲冲分享好消息",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "失败被解释成不够努力": {
+      "title": "失败被解释成不够努力",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "通过艺术看见平凡生活": {
+      "title": "通过艺术看见平凡生活",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《身份的焦虑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "新闻的骚动": {
+      "title": "新闻的骚动",
+      "kicker": "BOOK",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "compass",
+      "center": "书籍入口",
+      "nodes": [
+        "困境",
+        "场景",
+        "参照",
+        "观看"
+      ]
+    },
+    "新闻骚动": {
+      "title": "新闻骚动",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "资讯过量": {
+      "title": "资讯过量",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "理解贫乏": {
+      "title": "理解贫乏",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "标题情绪牵引": {
+      "title": "标题情绪牵引",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "区分知道更多和理解更多": {
+      "title": "区分知道更多和理解更多",
+      "kicker": "METHOD",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "检查一条新闻牵动了什么情绪": {
+      "title": "检查一条新闻牵动了什么情绪",
+      "kicker": "METHOD",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "给热点设置消化间隔": {
+      "title": "给热点设置消化间隔",
+      "kicker": "METHOD",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "早晨刷新闻后心情变沉": {
+      "title": "早晨刷新闻后心情变沉",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "热点连续刷新停不下来": {
+      "title": "热点连续刷新停不下来",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "看完灾难新闻后的无力感": {
+      "title": "看完灾难新闻后的无力感",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《新闻的骚动》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "旅行的艺术": {
+      "title": "旅行的艺术",
+      "kicker": "BOOK",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "compass",
+      "center": "书籍入口",
+      "nodes": [
+        "困境",
+        "场景",
+        "参照",
+        "观看"
+      ]
+    },
+    "期待与现实的差异": {
+      "title": "期待与现实的差异",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "远方幻想": {
+      "title": "远方幻想",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "回忆剪辑": {
+      "title": "回忆剪辑",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "旅行后空落": {
+      "title": "旅行后空落",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "异国情调": {
+      "title": "异国情调",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "过渡空间的诗意": {
+      "title": "过渡空间的诗意",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "旅行的意义": {
+      "title": "旅行的意义",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "身体和心智是难缠的旅伴": {
+      "title": "身体和心智是难缠的旅伴",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "关系冲突": {
+      "title": "关系冲突",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "旅行触发": {
+      "title": "旅行触发",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "波德莱尔式离开": {
+      "title": "波德莱尔式离开",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "陌生化日常": {
+      "title": "陌生化日常",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "带着问题的旅行": {
+      "title": "带着问题的旅行",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "好奇心": {
+      "title": "好奇心",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "旅行素材": {
+      "title": "旅行素材",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "对美的拥有": {
+      "title": "对美的拥有",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "自然的慰藉": {
+      "title": "自然的慰藉",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "乡村与城市": {
+      "title": "乡村与城市",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "旅行记忆": {
+      "title": "旅行记忆",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "感官重启": {
+      "title": "感官重启",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "壮阔感": {
+      "title": "壮阔感",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "自我尺度": {
+      "title": "自我尺度",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "艺术训练观看": {
+      "title": "艺术训练观看",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "审美教育": {
+      "title": "审美教育",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "旅行手账": {
+      "title": "旅行手账",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "习惯": {
+      "title": "习惯",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "返程": {
+      "title": "返程",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "旅行完成": {
+      "title": "旅行完成",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "把旅行期待写成可检验的问题": {
+      "title": "把旅行期待写成可检验的问题",
+      "kicker": "METHOD",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "用身体和心智检查旅行失望": {
+      "title": "用身体和心智检查旅行失望",
+      "kicker": "METHOD",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "给旅行设置一个好奇心线索": {
+      "title": "给旅行设置一个好奇心线索",
+      "kicker": "METHOD",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "用艺术家的眼睛重新看一个地方": {
+      "title": "用艺术家的眼睛重新看一个地方",
+      "kicker": "METHOD",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "返程后做陌生化日常练习": {
+      "title": "返程后做陌生化日常练习",
+      "kicker": "METHOD",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。": {
+      "title": "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。": {
+      "title": "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。": {
+      "title": "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。": {
+      "title": "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。": {
+      "title": "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《旅行的艺术》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "工作颂歌": {
+      "title": "工作颂歌",
+      "kicker": "BOOK",
+      "subtitle": "来自《工作颂歌》的公开网页卡片",
+      "template": "compass",
+      "center": "书籍入口",
+      "nodes": [
+        "困境",
+        "场景",
+        "参照",
+        "观看"
+      ]
+    },
+    "工作意义": {
+      "title": "工作意义",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《工作颂歌》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "劳动可见性": {
+      "title": "劳动可见性",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "职业身份": {
+      "title": "职业身份",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "产业链疏离": {
+      "title": "产业链疏离",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "追踪一份工作的世界连接": {
+      "title": "追踪一份工作的世界连接",
+      "kicker": "METHOD",
+      "subtitle": "来自《工作颂歌》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "区分工作身份和整个人": {
+      "title": "区分工作身份和整个人",
+      "kicker": "METHOD",
+      "subtitle": "来自《工作颂歌》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "普通工位上的一天": {
+      "title": "普通工位上的一天",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《工作颂歌》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "流水线或物流节点": {
+      "title": "流水线或物流节点",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《工作颂歌》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "被问职业后的自我判断": {
+      "title": "被问职业后的自我判断",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《工作颂歌》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "幸福的建筑": {
+      "title": "幸福的建筑",
+      "kicker": "BOOK",
+      "subtitle": "来自《幸福的建筑》的公开网页卡片",
+      "template": "compass",
+      "center": "书籍入口",
+      "nodes": [
+        "困境",
+        "场景",
+        "参照",
+        "观看"
+      ]
+    },
+    "建筑的幸福功能": {
+      "title": "建筑的幸福功能",
+      "kicker": "CONCEPT",
+      "subtitle": "来自《幸福的建筑》的公开网页卡片",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "空间人格": {
+      "title": "空间人格",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "审美投射": {
+      "title": "审美投射",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "秩序感": {
+      "title": "秩序感",
+      "kicker": "CONCEPT",
+      "subtitle": "阿兰·德波顿作者方法库",
+      "template": "modern-dilemma",
+      "center": "现代生活困境",
+      "nodes": [
+        "私人感受",
+        "社会标准",
+        "文化参照",
+        "重新观看"
+      ]
+    },
+    "问一个空间希望我成为什么人": {
+      "title": "问一个空间希望我成为什么人",
+      "kicker": "METHOD",
+      "subtitle": "来自《幸福的建筑》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "把审美偏好写成价值线索": {
+      "title": "把审美偏好写成价值线索",
+      "kicker": "METHOD",
+      "subtitle": "来自《幸福的建筑》的公开网页卡片",
+      "template": "translation",
+      "nodes": [
+        "日常刺痛",
+        "文化参照",
+        "重新命名"
+      ]
+    },
+    "走进一个让人安静的房间": {
+      "title": "走进一个让人安静的房间",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《幸福的建筑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "被丑陋空间消耗的一天": {
+      "title": "被丑陋空间消耗的一天",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《幸福的建筑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    },
+    "看见理想房子时的向往": {
+      "title": "看见理想房子时的向往",
+      "kicker": "SCENARIO",
+      "subtitle": "来自《幸福的建筑》的公开网页卡片",
+      "template": "scene-window",
+      "left": "具体场景",
+      "right": "心理结构",
+      "caption": "把一个普通现场看成现代生活困境的线索"
+    }
+  },
+  "nodes": [
+    {
+      "id": "作者方法总览",
+      "type": "topic",
+      "tagline": "德波顿在思想伙伴系统里的长期方法入口。"
+    },
+    {
+      "id": "阿兰·德波顿",
+      "type": "person",
+      "tagline": "把现代生活困境转成温柔、可承受的日常哲学语言。"
+    },
+    {
+      "id": "内容转译",
+      "type": "method",
+      "tagline": "把哲学、艺术、空间、新闻和日常场景翻译成可承受的生活解释。"
+    },
+    {
+      "id": "身份的焦虑",
+      "type": "book",
+      "tagline": "这本书讨论现代人为什么会把自己的价值交给社会排序、财富、职业和他人目光，并尝试用哲学、艺术、政治、宗教和波希米亚精神，为这种焦虑打开几种可承受的观看方式。"
+    },
+    {
+      "id": "身份焦虑",
+      "type": "concept",
+      "tagline": "担心自己无法符合社会成功典范，从而失去尊严、尊重和自我价值感的现代焦虑。"
+    },
+    {
+      "id": "渴求身份",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "势利倾向",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "过度期望",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "精英崇拜",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "爱",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "自我形状",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "公众意见",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "外部符号",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "平等",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "比较",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "失败羞耻",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "制约因素",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "失败者污名",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "社会结构",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "偶然性",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "哲学式独立",
+      "type": "concept",
+      "tagline": "通过思考和判断，不把公众意见自动等同于真理。"
+    },
+    {
+      "id": "苏格拉底",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "自我判断",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "艺术的修正",
+      "type": "concept",
+      "tagline": "艺术让平凡、失败、边缘和被忽视的生活获得复杂性和尊严。"
+    },
+    {
+      "id": "审美观看",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "被忽视者",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "社会评价",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "政治建构",
+      "type": "concept",
+      "tagline": "身份等级和尊重分配不是自然事实，而是可被历史、制度和公共讨论塑造的结果。"
+    },
+    {
+      "id": "制度",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "身份秩序",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "波希米亚价值",
+      "type": "concept",
+      "tagline": "用边缘、艺术、自由和反主流生活方式，对抗资产阶级成功标准。"
+    },
+    {
+      "id": "反主流",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "生活美学",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "身份替代",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "把刺痛感还原成身份焦虑",
+      "type": "method",
+      "tagline": "当别人成功、被问职业或看到社会比较时，先识别自己被触发的是尊重需求，而不是立刻责怪自己虚荣。"
+    },
+    {
+      "id": "检查评价来源",
+      "type": "method",
+      "tagline": "追问当前让我变小的标准来自哪里：朋友、媒体、职业体系、家庭期待，还是我真正认可的价值。"
+    },
+    {
+      "id": "引入制约因素",
+      "type": "method",
+      "tagline": "在评价自己或他人的成败时，把运气、出身、制度和时机纳入解释。"
+    },
+    {
+      "id": "寻找替代参照系",
+      "type": "method",
+      "tagline": "用哲学、艺术、政治、宗教或波希米亚视角，给自我价值增加不同的参照。"
+    },
+    {
+      "id": "晚会上被问你是做什么的",
+      "type": "scenario",
+      "tagline": "一个人被陌生人握着手询问职业，表面只是寒暄，实际上是在快速完成身份评估。回答不够体面时，人会感到自己在对方眼中变轻。"
+    },
+    {
+      "id": "报纸或社交平台上看见熟人成功",
+      "type": "scenario",
+      "tagline": "本来平静的早晨，被熟人的晋升、婚讯、畅销书或光鲜照片打断，人的自我感立刻被拉入比较。"
+    },
+    {
+      "id": "朋友兴冲冲分享好消息",
+      "type": "scenario",
+      "tagline": "朋友以为自己只是在分享喜讯，但听者可能同时感到嫉妒、羞耻和被甩开的焦虑。"
+    },
+    {
+      "id": "失败被解释成不够努力",
+      "type": "scenario",
+      "tagline": "在精英崇拜社会中，一个人的失败很容易被看成个人懒惰、愚蠢或不配，而不是复杂条件作用的结果。"
+    },
+    {
+      "id": "通过艺术看见平凡生活",
+      "type": "scenario",
+      "tagline": "艺术作品让被主流成功叙事忽略的人、物和生活重新显影，提醒人价值不只存在于显赫身份中。"
+    },
+    {
+      "id": "新闻的骚动",
+      "type": "book",
+      "tagline": "新闻为什么持续搅动现代人的注意力、恐惧、愤怒和世界感，却很少真正帮助人理解生活？"
+    },
+    {
+      "id": "新闻骚动",
+      "type": "concept",
+      "tagline": "新闻持续搅动注意力、情绪和世界感的现代状态。"
+    },
+    {
+      "id": "资讯过量",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "理解贫乏",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "标题情绪牵引",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "区分知道更多和理解更多",
+      "type": "method",
+      "tagline": "降低羞耻感，把抽象困扰转成可观察的结构。"
+    },
+    {
+      "id": "检查一条新闻牵动了什么情绪",
+      "type": "method",
+      "tagline": "降低羞耻感，把抽象困扰转成可观察的结构。"
+    },
+    {
+      "id": "给热点设置消化间隔",
+      "type": "method",
+      "tagline": "降低羞耻感，把抽象困扰转成可观察的结构。"
+    },
+    {
+      "id": "早晨刷新闻后心情变沉",
+      "type": "scenario",
+      "tagline": "说明新闻如何先改变情绪再改变理解。"
+    },
+    {
+      "id": "热点连续刷新停不下来",
+      "type": "scenario",
+      "tagline": "暴露注意力被节奏劫持。"
+    },
+    {
+      "id": "看完灾难新闻后的无力感",
+      "type": "scenario",
+      "tagline": "说明知道事件不等于获得承接。"
+    },
+    {
+      "id": "旅行的艺术",
+      "type": "book",
+      "tagline": "这本书真正讨论的不是如何旅行，而是人为什么会期待远方、为什么在远方仍会失望，以及如何通过艺术、风景和返程重新学习观看日常。"
+    },
+    {
+      "id": "期待与现实的差异",
+      "type": "concept",
+      "tagline": "旅行前的想象会选择性剪辑远方，而现实旅行会带来排队、疲惫、身体不适和琐碎细节。"
+    },
+    {
+      "id": "远方幻想",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "回忆剪辑",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "旅行后空落",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "异国情调",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "过渡空间的诗意",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "旅行的意义",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "身体和心智是难缠的旅伴",
+      "type": "concept",
+      "tagline": "旅行者会把自己的身体状态、焦虑、关系情绪和注意力习惯一起带到目的地。"
+    },
+    {
+      "id": "关系冲突",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "旅行触发",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "波德莱尔式离开",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "陌生化日常",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "带着问题的旅行",
+      "type": "concept",
+      "tagline": "旅行需要一个能串联经验的问题意识，否则名胜、知识和感受会变成散乱的信息。"
+    },
+    {
+      "id": "好奇心",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "旅行素材",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "对美的拥有",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "自然的慰藉",
+      "type": "concept",
+      "tagline": "自然风景能让人在城市焦虑之外重新获得尺度、宁静和某种可回忆的内在避难所。"
+    },
+    {
+      "id": "乡村与城市",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "旅行记忆",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "感官重启",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "壮阔感",
+      "type": "concept",
+      "tagline": "人在沙漠、山脉、海洋、星空等巨大景观前感到渺小，并因此从狭窄自我中松动。"
+    },
+    {
+      "id": "自我尺度",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "艺术训练观看",
+      "type": "concept",
+      "tagline": "绘画、文学和摄影能教人注意现实中原本被忽略的颜色、光线、构图和情绪。"
+    },
+    {
+      "id": "审美教育",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "旅行手账",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "习惯",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "返程",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "旅行完成",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "把旅行期待写成可检验的问题",
+      "type": "method",
+      "tagline": "减少把所有幸福都压在目的地上的风险。"
+    },
+    {
+      "id": "用身体和心智检查旅行失望",
+      "type": "method",
+      "tagline": "把旅行失望从自责或怪罪地点中拆出来。"
+    },
+    {
+      "id": "给旅行设置一个好奇心线索",
+      "type": "method",
+      "tagline": "让旅行经验不再散乱，更容易沉淀成内容和自我理解。"
+    },
+    {
+      "id": "用艺术家的眼睛重新看一个地方",
+      "type": "method",
+      "tagline": "训练注意力，让熟悉和陌生之物重新变得可见。"
+    },
+    {
+      "id": "返程后做陌生化日常练习",
+      "type": "method",
+      "tagline": "把旅行的观看能力迁移回生活，而不是只怀念远方。"
+    },
+    {
+      "id": "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。",
+      "type": "scenario",
+      "tagline": "旅行期待常常来自被简化过的图像，而不是完整现实。"
+    },
+    {
+      "id": "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。",
+      "type": "scenario",
+      "tagline": "身体和心智会跟着人一起旅行，目的地不能自动清空烦恼。"
+    },
+    {
+      "id": "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。",
+      "type": "scenario",
+      "tagline": "过渡空间承载了离开旧生活和进入另一种可能的想象。"
+    },
+    {
+      "id": "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。",
+      "type": "scenario",
+      "tagline": "有价值的旅行经验未必来自名胜，而来自被注意力真正接住的瞬间。"
+    },
+    {
+      "id": "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。",
+      "type": "scenario",
+      "tagline": "旅行的完成不在远方，而在返程后观看习惯是否改变。"
+    },
+    {
+      "id": "工作颂歌",
+      "type": "book",
+      "tagline": "现代工作为什么既能给人意义、秩序和尊严，也会制造无意义、疏离和身份焦虑？"
+    },
+    {
+      "id": "工作意义",
+      "type": "concept",
+      "tagline": "人在劳动中寻找贡献、秩序、身份和与世界连接的需要。"
+    },
+    {
+      "id": "劳动可见性",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "职业身份",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "产业链疏离",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "追踪一份工作的世界连接",
+      "type": "method",
+      "tagline": "降低羞耻感，把抽象困扰转成可观察的结构。"
+    },
+    {
+      "id": "区分工作身份和整个人",
+      "type": "method",
+      "tagline": "降低羞耻感，把抽象困扰转成可观察的结构。"
+    },
+    {
+      "id": "普通工位上的一天",
+      "type": "scenario",
+      "tagline": "显示平凡劳动里的秩序和消耗。"
+    },
+    {
+      "id": "流水线或物流节点",
+      "type": "scenario",
+      "tagline": "让看不见的劳动变可见。"
+    },
+    {
+      "id": "被问职业后的自我判断",
+      "type": "scenario",
+      "tagline": "暴露工作与价值感的绑定。"
+    },
+    {
+      "id": "幸福的建筑",
+      "type": "book",
+      "tagline": "建筑为什么会影响人的情绪、价值感和对美好生活的想象？"
+    },
+    {
+      "id": "建筑的幸福功能",
+      "type": "concept",
+      "tagline": "空间通过秩序、比例、材料和气氛影响人的生活感受。"
+    },
+    {
+      "id": "空间人格",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "审美投射",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "秩序感",
+      "type": "concept",
+      "tagline": "由本地 K/N 卡关联补入的概念节点。"
+    },
+    {
+      "id": "问一个空间希望我成为什么人",
+      "type": "method",
+      "tagline": "降低羞耻感，把抽象困扰转成可观察的结构。"
+    },
+    {
+      "id": "把审美偏好写成价值线索",
+      "type": "method",
+      "tagline": "降低羞耻感，把抽象困扰转成可观察的结构。"
+    },
+    {
+      "id": "走进一个让人安静的房间",
+      "type": "scenario",
+      "tagline": "说明建筑如何影响神经和情绪。"
+    },
+    {
+      "id": "被丑陋空间消耗的一天",
+      "type": "scenario",
+      "tagline": "暴露环境对心情的长期塑形。"
+    },
+    {
+      "id": "看见理想房子时的向往",
+      "type": "scenario",
+      "tagline": "把建筑喜欢转成理想生活投射。"
+    }
+  ],
+  "links": [
+    {
+      "source": "作者方法总览",
+      "target": "阿兰·德波顿"
+    },
+    {
+      "source": "作者方法总览",
+      "target": "内容转译"
+    },
+    {
+      "source": "阿兰·德波顿",
+      "target": "身份的焦虑"
+    },
+    {
+      "source": "作者方法总览",
+      "target": "身份的焦虑"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "身份焦虑"
+    },
+    {
+      "source": "身份焦虑",
+      "target": "渴求身份"
+    },
+    {
+      "source": "身份焦虑",
+      "target": "势利倾向"
+    },
+    {
+      "source": "身份焦虑",
+      "target": "过度期望"
+    },
+    {
+      "source": "身份焦虑",
+      "target": "精英崇拜"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "渴求身份"
+    },
+    {
+      "source": "渴求身份",
+      "target": "身份焦虑"
+    },
+    {
+      "source": "渴求身份",
+      "target": "爱"
+    },
+    {
+      "source": "渴求身份",
+      "target": "自我形状"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "势利倾向"
+    },
+    {
+      "source": "势利倾向",
+      "target": "身份焦虑"
+    },
+    {
+      "source": "势利倾向",
+      "target": "公众意见"
+    },
+    {
+      "source": "势利倾向",
+      "target": "外部符号"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "过度期望"
+    },
+    {
+      "source": "过度期望",
+      "target": "平等"
+    },
+    {
+      "source": "过度期望",
+      "target": "比较"
+    },
+    {
+      "source": "过度期望",
+      "target": "失败羞耻"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "精英崇拜"
+    },
+    {
+      "source": "精英崇拜",
+      "target": "过度期望"
+    },
+    {
+      "source": "精英崇拜",
+      "target": "制约因素"
+    },
+    {
+      "source": "精英崇拜",
+      "target": "失败者污名"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "制约因素"
+    },
+    {
+      "source": "制约因素",
+      "target": "精英崇拜"
+    },
+    {
+      "source": "制约因素",
+      "target": "社会结构"
+    },
+    {
+      "source": "制约因素",
+      "target": "偶然性"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "哲学式独立"
+    },
+    {
+      "source": "哲学式独立",
+      "target": "公众意见"
+    },
+    {
+      "source": "哲学式独立",
+      "target": "苏格拉底"
+    },
+    {
+      "source": "哲学式独立",
+      "target": "自我判断"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "艺术的修正"
+    },
+    {
+      "source": "艺术的修正",
+      "target": "审美观看"
+    },
+    {
+      "source": "艺术的修正",
+      "target": "被忽视者"
+    },
+    {
+      "source": "艺术的修正",
+      "target": "社会评价"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "政治建构"
+    },
+    {
+      "source": "政治建构",
+      "target": "制度"
+    },
+    {
+      "source": "政治建构",
+      "target": "平等"
+    },
+    {
+      "source": "政治建构",
+      "target": "身份秩序"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "波希米亚价值"
+    },
+    {
+      "source": "波希米亚价值",
+      "target": "反主流"
+    },
+    {
+      "source": "波希米亚价值",
+      "target": "生活美学"
+    },
+    {
+      "source": "波希米亚价值",
+      "target": "身份替代"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "把刺痛感还原成身份焦虑"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "检查评价来源"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "引入制约因素"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "寻找替代参照系"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "晚会上被问你是做什么的"
+    },
+    {
+      "source": "晚会上被问你是做什么的",
+      "target": "身份焦虑"
+    },
+    {
+      "source": "晚会上被问你是做什么的",
+      "target": "势利倾向"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "报纸或社交平台上看见熟人成功"
+    },
+    {
+      "source": "报纸或社交平台上看见熟人成功",
+      "target": "过度期望"
+    },
+    {
+      "source": "报纸或社交平台上看见熟人成功",
+      "target": "比较"
+    },
+    {
+      "source": "报纸或社交平台上看见熟人成功",
+      "target": "身份焦虑"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "朋友兴冲冲分享好消息"
+    },
+    {
+      "source": "朋友兴冲冲分享好消息",
+      "target": "身份焦虑"
+    },
+    {
+      "source": "朋友兴冲冲分享好消息",
+      "target": "渴求身份"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "失败被解释成不够努力"
+    },
+    {
+      "source": "失败被解释成不够努力",
+      "target": "精英崇拜"
+    },
+    {
+      "source": "失败被解释成不够努力",
+      "target": "制约因素"
+    },
+    {
+      "source": "身份的焦虑",
+      "target": "通过艺术看见平凡生活"
+    },
+    {
+      "source": "通过艺术看见平凡生活",
+      "target": "艺术的修正"
+    },
+    {
+      "source": "通过艺术看见平凡生活",
+      "target": "审美观看"
+    },
+    {
+      "source": "阿兰·德波顿",
+      "target": "新闻的骚动"
+    },
+    {
+      "source": "作者方法总览",
+      "target": "新闻的骚动"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "新闻骚动"
+    },
+    {
+      "source": "新闻骚动",
+      "target": "资讯过量"
+    },
+    {
+      "source": "新闻骚动",
+      "target": "理解贫乏"
+    },
+    {
+      "source": "新闻骚动",
+      "target": "标题情绪牵引"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "资讯过量"
+    },
+    {
+      "source": "资讯过量",
+      "target": "新闻骚动"
+    },
+    {
+      "source": "资讯过量",
+      "target": "理解贫乏"
+    },
+    {
+      "source": "资讯过量",
+      "target": "标题情绪牵引"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "理解贫乏"
+    },
+    {
+      "source": "理解贫乏",
+      "target": "新闻骚动"
+    },
+    {
+      "source": "理解贫乏",
+      "target": "资讯过量"
+    },
+    {
+      "source": "理解贫乏",
+      "target": "标题情绪牵引"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "标题情绪牵引"
+    },
+    {
+      "source": "标题情绪牵引",
+      "target": "新闻骚动"
+    },
+    {
+      "source": "标题情绪牵引",
+      "target": "资讯过量"
+    },
+    {
+      "source": "标题情绪牵引",
+      "target": "理解贫乏"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "区分知道更多和理解更多"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "检查一条新闻牵动了什么情绪"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "给热点设置消化间隔"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "早晨刷新闻后心情变沉"
+    },
+    {
+      "source": "早晨刷新闻后心情变沉",
+      "target": "新闻骚动"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "热点连续刷新停不下来"
+    },
+    {
+      "source": "热点连续刷新停不下来",
+      "target": "资讯过量"
+    },
+    {
+      "source": "热点连续刷新停不下来",
+      "target": "新闻骚动"
+    },
+    {
+      "source": "新闻的骚动",
+      "target": "看完灾难新闻后的无力感"
+    },
+    {
+      "source": "看完灾难新闻后的无力感",
+      "target": "理解贫乏"
+    },
+    {
+      "source": "看完灾难新闻后的无力感",
+      "target": "新闻骚动"
+    },
+    {
+      "source": "阿兰·德波顿",
+      "target": "旅行的艺术"
+    },
+    {
+      "source": "作者方法总览",
+      "target": "旅行的艺术"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "期待与现实的差异"
+    },
+    {
+      "source": "期待与现实的差异",
+      "target": "远方幻想"
+    },
+    {
+      "source": "期待与现实的差异",
+      "target": "回忆剪辑"
+    },
+    {
+      "source": "期待与现实的差异",
+      "target": "旅行后空落"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "远方幻想"
+    },
+    {
+      "source": "远方幻想",
+      "target": "异国情调"
+    },
+    {
+      "source": "远方幻想",
+      "target": "过渡空间的诗意"
+    },
+    {
+      "source": "远方幻想",
+      "target": "旅行的意义"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "身体和心智是难缠的旅伴"
+    },
+    {
+      "source": "身体和心智是难缠的旅伴",
+      "target": "期待与现实的差异"
+    },
+    {
+      "source": "身体和心智是难缠的旅伴",
+      "target": "关系冲突"
+    },
+    {
+      "source": "身体和心智是难缠的旅伴",
+      "target": "旅行触发"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "过渡空间的诗意"
+    },
+    {
+      "source": "过渡空间的诗意",
+      "target": "远方幻想"
+    },
+    {
+      "source": "过渡空间的诗意",
+      "target": "波德莱尔式离开"
+    },
+    {
+      "source": "过渡空间的诗意",
+      "target": "陌生化日常"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "带着问题的旅行"
+    },
+    {
+      "source": "带着问题的旅行",
+      "target": "好奇心"
+    },
+    {
+      "source": "带着问题的旅行",
+      "target": "旅行素材"
+    },
+    {
+      "source": "带着问题的旅行",
+      "target": "对美的拥有"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "自然的慰藉"
+    },
+    {
+      "source": "自然的慰藉",
+      "target": "乡村与城市"
+    },
+    {
+      "source": "自然的慰藉",
+      "target": "旅行记忆"
+    },
+    {
+      "source": "自然的慰藉",
+      "target": "感官重启"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "壮阔感"
+    },
+    {
+      "source": "壮阔感",
+      "target": "自然的慰藉"
+    },
+    {
+      "source": "壮阔感",
+      "target": "自我尺度"
+    },
+    {
+      "source": "壮阔感",
+      "target": "旅行的意义"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "艺术训练观看"
+    },
+    {
+      "source": "艺术训练观看",
+      "target": "对美的拥有"
+    },
+    {
+      "source": "艺术训练观看",
+      "target": "陌生化日常"
+    },
+    {
+      "source": "艺术训练观看",
+      "target": "审美教育"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "对美的拥有"
+    },
+    {
+      "source": "对美的拥有",
+      "target": "旅行手账"
+    },
+    {
+      "source": "对美的拥有",
+      "target": "旅行素材"
+    },
+    {
+      "source": "对美的拥有",
+      "target": "艺术训练观看"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "陌生化日常"
+    },
+    {
+      "source": "陌生化日常",
+      "target": "习惯"
+    },
+    {
+      "source": "陌生化日常",
+      "target": "返程"
+    },
+    {
+      "source": "陌生化日常",
+      "target": "旅行完成"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "把旅行期待写成可检验的问题"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "用身体和心智检查旅行失望"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "给旅行设置一个好奇心线索"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "用艺术家的眼睛重新看一个地方"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "返程后做陌生化日常练习"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。"
+    },
+    {
+      "source": "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。",
+      "target": "期待与现实的差异"
+    },
+    {
+      "source": "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。",
+      "target": "远方幻想"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。"
+    },
+    {
+      "source": "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。",
+      "target": "身体和心智是难缠的旅伴"
+    },
+    {
+      "source": "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。",
+      "target": "旅行触发"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。"
+    },
+    {
+      "source": "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。",
+      "target": "过渡空间的诗意"
+    },
+    {
+      "source": "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。",
+      "target": "远方幻想"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。"
+    },
+    {
+      "source": "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。",
+      "target": "自然的慰藉"
+    },
+    {
+      "source": "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。",
+      "target": "对美的拥有"
+    },
+    {
+      "source": "旅行的艺术",
+      "target": "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。"
+    },
+    {
+      "source": "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。",
+      "target": "陌生化日常"
+    },
+    {
+      "source": "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。",
+      "target": "习惯"
+    },
+    {
+      "source": "阿兰·德波顿",
+      "target": "工作颂歌"
+    },
+    {
+      "source": "作者方法总览",
+      "target": "工作颂歌"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "工作意义"
+    },
+    {
+      "source": "工作意义",
+      "target": "劳动可见性"
+    },
+    {
+      "source": "工作意义",
+      "target": "职业身份"
+    },
+    {
+      "source": "工作意义",
+      "target": "产业链疏离"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "劳动可见性"
+    },
+    {
+      "source": "劳动可见性",
+      "target": "工作意义"
+    },
+    {
+      "source": "劳动可见性",
+      "target": "职业身份"
+    },
+    {
+      "source": "劳动可见性",
+      "target": "产业链疏离"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "职业身份"
+    },
+    {
+      "source": "职业身份",
+      "target": "工作意义"
+    },
+    {
+      "source": "职业身份",
+      "target": "劳动可见性"
+    },
+    {
+      "source": "职业身份",
+      "target": "产业链疏离"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "产业链疏离"
+    },
+    {
+      "source": "产业链疏离",
+      "target": "工作意义"
+    },
+    {
+      "source": "产业链疏离",
+      "target": "劳动可见性"
+    },
+    {
+      "source": "产业链疏离",
+      "target": "职业身份"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "追踪一份工作的世界连接"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "区分工作身份和整个人"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "普通工位上的一天"
+    },
+    {
+      "source": "普通工位上的一天",
+      "target": "职业身份"
+    },
+    {
+      "source": "普通工位上的一天",
+      "target": "工作意义"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "流水线或物流节点"
+    },
+    {
+      "source": "流水线或物流节点",
+      "target": "劳动可见性"
+    },
+    {
+      "source": "流水线或物流节点",
+      "target": "工作意义"
+    },
+    {
+      "source": "工作颂歌",
+      "target": "被问职业后的自我判断"
+    },
+    {
+      "source": "被问职业后的自我判断",
+      "target": "职业身份"
+    },
+    {
+      "source": "被问职业后的自我判断",
+      "target": "工作意义"
+    },
+    {
+      "source": "阿兰·德波顿",
+      "target": "幸福的建筑"
+    },
+    {
+      "source": "作者方法总览",
+      "target": "幸福的建筑"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "建筑的幸福功能"
+    },
+    {
+      "source": "建筑的幸福功能",
+      "target": "空间人格"
+    },
+    {
+      "source": "建筑的幸福功能",
+      "target": "审美投射"
+    },
+    {
+      "source": "建筑的幸福功能",
+      "target": "秩序感"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "空间人格"
+    },
+    {
+      "source": "空间人格",
+      "target": "建筑的幸福功能"
+    },
+    {
+      "source": "空间人格",
+      "target": "审美投射"
+    },
+    {
+      "source": "空间人格",
+      "target": "秩序感"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "审美投射"
+    },
+    {
+      "source": "审美投射",
+      "target": "建筑的幸福功能"
+    },
+    {
+      "source": "审美投射",
+      "target": "空间人格"
+    },
+    {
+      "source": "审美投射",
+      "target": "秩序感"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "秩序感"
+    },
+    {
+      "source": "秩序感",
+      "target": "建筑的幸福功能"
+    },
+    {
+      "source": "秩序感",
+      "target": "空间人格"
+    },
+    {
+      "source": "秩序感",
+      "target": "审美投射"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "问一个空间希望我成为什么人"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "把审美偏好写成价值线索"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "走进一个让人安静的房间"
+    },
+    {
+      "source": "走进一个让人安静的房间",
+      "target": "秩序感"
+    },
+    {
+      "source": "走进一个让人安静的房间",
+      "target": "建筑的幸福功能"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "被丑陋空间消耗的一天"
+    },
+    {
+      "source": "被丑陋空间消耗的一天",
+      "target": "建筑的幸福功能"
+    },
+    {
+      "source": "幸福的建筑",
+      "target": "看见理想房子时的向往"
+    },
+    {
+      "source": "看见理想房子时的向往",
+      "target": "审美投射"
+    },
+    {
+      "source": "看见理想房子时的向往",
+      "target": "建筑的幸福功能"
+    }
+  ],
+  "linkLabels": {
+    "作者方法总览→阿兰·德波顿": "作者入口",
+    "作者方法总览→内容转译": "核心方法",
+    "阿兰·德波顿→身份的焦虑": "书籍来源",
+    "作者方法总览→身份的焦虑": "书系入口",
+    "身份的焦虑→身份焦虑": "概念来源",
+    "身份焦虑→渴求身份": "概念关联",
+    "身份焦虑→势利倾向": "概念关联",
+    "身份焦虑→过度期望": "概念关联",
+    "身份焦虑→精英崇拜": "概念关联",
+    "身份的焦虑→渴求身份": "概念来源",
+    "渴求身份→身份焦虑": "概念关联",
+    "渴求身份→爱": "概念关联",
+    "渴求身份→自我形状": "概念关联",
+    "身份的焦虑→势利倾向": "概念来源",
+    "势利倾向→身份焦虑": "概念关联",
+    "势利倾向→公众意见": "概念关联",
+    "势利倾向→外部符号": "概念关联",
+    "身份的焦虑→过度期望": "概念来源",
+    "过度期望→平等": "概念关联",
+    "过度期望→比较": "概念关联",
+    "过度期望→失败羞耻": "概念关联",
+    "身份的焦虑→精英崇拜": "概念来源",
+    "精英崇拜→过度期望": "概念关联",
+    "精英崇拜→制约因素": "概念关联",
+    "精英崇拜→失败者污名": "概念关联",
+    "身份的焦虑→制约因素": "概念来源",
+    "制约因素→精英崇拜": "概念关联",
+    "制约因素→社会结构": "概念关联",
+    "制约因素→偶然性": "概念关联",
+    "身份的焦虑→哲学式独立": "概念来源",
+    "哲学式独立→公众意见": "概念关联",
+    "哲学式独立→苏格拉底": "概念关联",
+    "哲学式独立→自我判断": "概念关联",
+    "身份的焦虑→艺术的修正": "概念来源",
+    "艺术的修正→审美观看": "概念关联",
+    "艺术的修正→被忽视者": "概念关联",
+    "艺术的修正→社会评价": "概念关联",
+    "身份的焦虑→政治建构": "概念来源",
+    "政治建构→制度": "概念关联",
+    "政治建构→平等": "概念关联",
+    "政治建构→身份秩序": "概念关联",
+    "身份的焦虑→波希米亚价值": "概念来源",
+    "波希米亚价值→反主流": "概念关联",
+    "波希米亚价值→生活美学": "概念关联",
+    "波希米亚价值→身份替代": "概念关联",
+    "身份的焦虑→把刺痛感还原成身份焦虑": "方法来源",
+    "身份的焦虑→检查评价来源": "方法来源",
+    "身份的焦虑→引入制约因素": "方法来源",
+    "身份的焦虑→寻找替代参照系": "方法来源",
+    "身份的焦虑→晚会上被问你是做什么的": "场景来源",
+    "晚会上被问你是做什么的→身份焦虑": "场景关联",
+    "晚会上被问你是做什么的→势利倾向": "场景关联",
+    "身份的焦虑→报纸或社交平台上看见熟人成功": "场景来源",
+    "报纸或社交平台上看见熟人成功→过度期望": "场景关联",
+    "报纸或社交平台上看见熟人成功→比较": "场景关联",
+    "报纸或社交平台上看见熟人成功→身份焦虑": "场景关联",
+    "身份的焦虑→朋友兴冲冲分享好消息": "场景来源",
+    "朋友兴冲冲分享好消息→身份焦虑": "场景关联",
+    "朋友兴冲冲分享好消息→渴求身份": "场景关联",
+    "身份的焦虑→失败被解释成不够努力": "场景来源",
+    "失败被解释成不够努力→精英崇拜": "场景关联",
+    "失败被解释成不够努力→制约因素": "场景关联",
+    "身份的焦虑→通过艺术看见平凡生活": "场景来源",
+    "通过艺术看见平凡生活→艺术的修正": "场景关联",
+    "通过艺术看见平凡生活→审美观看": "场景关联",
+    "阿兰·德波顿→新闻的骚动": "书籍来源",
+    "作者方法总览→新闻的骚动": "书系入口",
+    "新闻的骚动→新闻骚动": "概念来源",
+    "新闻骚动→资讯过量": "概念关联",
+    "新闻骚动→理解贫乏": "概念关联",
+    "新闻骚动→标题情绪牵引": "概念关联",
+    "新闻的骚动→资讯过量": "概念来源",
+    "资讯过量→新闻骚动": "概念关联",
+    "资讯过量→理解贫乏": "概念关联",
+    "资讯过量→标题情绪牵引": "概念关联",
+    "新闻的骚动→理解贫乏": "概念来源",
+    "理解贫乏→新闻骚动": "概念关联",
+    "理解贫乏→资讯过量": "概念关联",
+    "理解贫乏→标题情绪牵引": "概念关联",
+    "新闻的骚动→标题情绪牵引": "概念来源",
+    "标题情绪牵引→新闻骚动": "概念关联",
+    "标题情绪牵引→资讯过量": "概念关联",
+    "标题情绪牵引→理解贫乏": "概念关联",
+    "新闻的骚动→区分知道更多和理解更多": "方法来源",
+    "新闻的骚动→检查一条新闻牵动了什么情绪": "方法来源",
+    "新闻的骚动→给热点设置消化间隔": "方法来源",
+    "新闻的骚动→早晨刷新闻后心情变沉": "场景来源",
+    "早晨刷新闻后心情变沉→新闻骚动": "场景关联",
+    "新闻的骚动→热点连续刷新停不下来": "场景来源",
+    "热点连续刷新停不下来→资讯过量": "场景关联",
+    "热点连续刷新停不下来→新闻骚动": "场景关联",
+    "新闻的骚动→看完灾难新闻后的无力感": "场景来源",
+    "看完灾难新闻后的无力感→理解贫乏": "场景关联",
+    "看完灾难新闻后的无力感→新闻骚动": "场景关联",
+    "阿兰·德波顿→旅行的艺术": "书籍来源",
+    "作者方法总览→旅行的艺术": "书系入口",
+    "旅行的艺术→期待与现实的差异": "概念来源",
+    "期待与现实的差异→远方幻想": "概念关联",
+    "期待与现实的差异→回忆剪辑": "概念关联",
+    "期待与现实的差异→旅行后空落": "概念关联",
+    "旅行的艺术→远方幻想": "概念来源",
+    "远方幻想→异国情调": "概念关联",
+    "远方幻想→过渡空间的诗意": "概念关联",
+    "远方幻想→旅行的意义": "概念关联",
+    "旅行的艺术→身体和心智是难缠的旅伴": "概念来源",
+    "身体和心智是难缠的旅伴→期待与现实的差异": "概念关联",
+    "身体和心智是难缠的旅伴→关系冲突": "概念关联",
+    "身体和心智是难缠的旅伴→旅行触发": "概念关联",
+    "旅行的艺术→过渡空间的诗意": "概念来源",
+    "过渡空间的诗意→远方幻想": "概念关联",
+    "过渡空间的诗意→波德莱尔式离开": "概念关联",
+    "过渡空间的诗意→陌生化日常": "概念关联",
+    "旅行的艺术→带着问题的旅行": "概念来源",
+    "带着问题的旅行→好奇心": "概念关联",
+    "带着问题的旅行→旅行素材": "概念关联",
+    "带着问题的旅行→对美的拥有": "概念关联",
+    "旅行的艺术→自然的慰藉": "概念来源",
+    "自然的慰藉→乡村与城市": "概念关联",
+    "自然的慰藉→旅行记忆": "概念关联",
+    "自然的慰藉→感官重启": "概念关联",
+    "旅行的艺术→壮阔感": "概念来源",
+    "壮阔感→自然的慰藉": "概念关联",
+    "壮阔感→自我尺度": "概念关联",
+    "壮阔感→旅行的意义": "概念关联",
+    "旅行的艺术→艺术训练观看": "概念来源",
+    "艺术训练观看→对美的拥有": "概念关联",
+    "艺术训练观看→陌生化日常": "概念关联",
+    "艺术训练观看→审美教育": "概念关联",
+    "旅行的艺术→对美的拥有": "概念来源",
+    "对美的拥有→旅行手账": "概念关联",
+    "对美的拥有→旅行素材": "概念关联",
+    "对美的拥有→艺术训练观看": "概念关联",
+    "旅行的艺术→陌生化日常": "概念来源",
+    "陌生化日常→习惯": "概念关联",
+    "陌生化日常→返程": "概念关联",
+    "陌生化日常→旅行完成": "概念关联",
+    "旅行的艺术→把旅行期待写成可检验的问题": "方法来源",
+    "旅行的艺术→用身体和心智检查旅行失望": "方法来源",
+    "旅行的艺术→给旅行设置一个好奇心线索": "方法来源",
+    "旅行的艺术→用艺术家的眼睛重新看一个地方": "方法来源",
+    "旅行的艺术→返程后做陌生化日常练习": "方法来源",
+    "旅行的艺术→出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。": "场景来源",
+    "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。→期待与现实的差异": "场景关联",
+    "出发前看着海岛宣传图，觉得只要抵达那里生活就会变好。→远方幻想": "场景关联",
+    "旅行的艺术→到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。": "场景来源",
+    "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。→身体和心智是难缠的旅伴": "场景关联",
+    "到了风景很美的地方，却因为喉咙痛、工作焦虑和同行冲突完全快乐不起来。→旅行触发": "场景关联",
+    "旅行的艺术→一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。": "场景来源",
+    "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。→过渡空间的诗意": "场景关联",
+    "一个人在机场、加油站、旅馆这类临时空间里反而感到轻微的自由。→远方幻想": "场景关联",
+    "旅行的艺术→旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。": "场景来源",
+    "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。→自然的慰藉": "场景关联",
+    "旅行攻略排满景点，但真正留下来的只是某片树林或一次车窗里的光。→对美的拥有": "场景关联",
+    "旅行的艺术→从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。": "场景来源",
+    "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。→陌生化日常": "场景关联",
+    "从远方回家后，突然第一次认真看见自己的房间、街道和日常秩序。→习惯": "场景关联",
+    "阿兰·德波顿→工作颂歌": "书籍来源",
+    "作者方法总览→工作颂歌": "书系入口",
+    "工作颂歌→工作意义": "概念来源",
+    "工作意义→劳动可见性": "概念关联",
+    "工作意义→职业身份": "概念关联",
+    "工作意义→产业链疏离": "概念关联",
+    "工作颂歌→劳动可见性": "概念来源",
+    "劳动可见性→工作意义": "概念关联",
+    "劳动可见性→职业身份": "概念关联",
+    "劳动可见性→产业链疏离": "概念关联",
+    "工作颂歌→职业身份": "概念来源",
+    "职业身份→工作意义": "概念关联",
+    "职业身份→劳动可见性": "概念关联",
+    "职业身份→产业链疏离": "概念关联",
+    "工作颂歌→产业链疏离": "概念来源",
+    "产业链疏离→工作意义": "概念关联",
+    "产业链疏离→劳动可见性": "概念关联",
+    "产业链疏离→职业身份": "概念关联",
+    "工作颂歌→追踪一份工作的世界连接": "方法来源",
+    "工作颂歌→区分工作身份和整个人": "方法来源",
+    "工作颂歌→普通工位上的一天": "场景来源",
+    "普通工位上的一天→职业身份": "场景关联",
+    "普通工位上的一天→工作意义": "场景关联",
+    "工作颂歌→流水线或物流节点": "场景来源",
+    "流水线或物流节点→劳动可见性": "场景关联",
+    "流水线或物流节点→工作意义": "场景关联",
+    "工作颂歌→被问职业后的自我判断": "场景来源",
+    "被问职业后的自我判断→职业身份": "场景关联",
+    "被问职业后的自我判断→工作意义": "场景关联",
+    "阿兰·德波顿→幸福的建筑": "书籍来源",
+    "作者方法总览→幸福的建筑": "书系入口",
+    "幸福的建筑→建筑的幸福功能": "概念来源",
+    "建筑的幸福功能→空间人格": "概念关联",
+    "建筑的幸福功能→审美投射": "概念关联",
+    "建筑的幸福功能→秩序感": "概念关联",
+    "幸福的建筑→空间人格": "概念来源",
+    "空间人格→建筑的幸福功能": "概念关联",
+    "空间人格→审美投射": "概念关联",
+    "空间人格→秩序感": "概念关联",
+    "幸福的建筑→审美投射": "概念来源",
+    "审美投射→建筑的幸福功能": "概念关联",
+    "审美投射→空间人格": "概念关联",
+    "审美投射→秩序感": "概念关联",
+    "幸福的建筑→秩序感": "概念来源",
+    "秩序感→建筑的幸福功能": "概念关联",
+    "秩序感→空间人格": "概念关联",
+    "秩序感→审美投射": "概念关联",
+    "幸福的建筑→问一个空间希望我成为什么人": "方法来源",
+    "幸福的建筑→把审美偏好写成价值线索": "方法来源",
+    "幸福的建筑→走进一个让人安静的房间": "场景来源",
+    "走进一个让人安静的房间→秩序感": "场景关联",
+    "走进一个让人安静的房间→建筑的幸福功能": "场景关联",
+    "幸福的建筑→被丑陋空间消耗的一天": "场景来源",
+    "被丑陋空间消耗的一天→建筑的幸福功能": "场景关联",
+    "幸福的建筑→看见理想房子时的向往": "场景来源",
+    "看见理想房子时的向往→审美投射": "场景关联",
+    "看见理想房子时的向往→建筑的幸福功能": "场景关联"
+  }
+}

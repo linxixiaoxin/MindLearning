@@ -1,0 +1,99 @@
+{
+  "title": "阿兰·德波顿作品方法库",
+  "shortTitle": "德波顿方法库",
+  "subtitle": "从现代生活困境到日常哲学转译",
+  "description": "基于 01_sources 中阿兰·德波顿相关书籍的结构化知识和 K/N 卡整理的作者方法库，把身份、新闻、旅行、工作和空间等现代生活困境接成可点击的概念、方法和场景图谱。",
+  "heroOverline": "AUTHOR · MODERN LIFE · TRANSLATION",
+  "heroTitleLines": [
+    "阿兰·德波顿",
+    "现代生活的日常哲学方法库"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260429",
+  "searchPlaceholder": "搜索德波顿、身份焦虑、新闻焦虑、转译方法…",
+  "recommendedPath": [
+    "作者方法总览",
+    "身份的焦虑",
+    "身份焦虑",
+    "新闻的骚动",
+    "新闻骚动"
+  ],
+  "quickLinks": [
+    "作者方法总览",
+    "身份的焦虑",
+    "新闻的骚动",
+    "旅行的艺术",
+    "工作颂歌",
+    "幸福的建筑"
+  ],
+  "journeyOverline": "Author Map",
+  "journeyTitle": "作者方法入口",
+  "journeyDescription": "先从作者方法总览进入，再分别查看书籍、母题、概念、方法和高频生活场景。",
+  "journeyEntryLabel": "从作者方法总览进入",
+  "journeyMap": [
+    {
+      "level": "A0",
+      "stage": "作者入口",
+      "node": "作者方法总览",
+      "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
+      "summary": "先理解德波顿在系统里承担的角色：把现代生活的不体面感受翻译成可承受的日常哲学语言。",
+      "bridgeToNext": "理解作者角色之后，再看他的核心母题。"
+    },
+    {
+      "level": "M1",
+      "stage": "核心母题",
+      "node": "现代生活困境",
+      "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
+      "summary": "身份、职业、新闻、旅行和空间困境都被视为现代生活的共同处境。",
+      "bridgeToNext": "有了母题之后，需要一套转译方法。"
+    },
+    {
+      "level": "T1",
+      "stage": "转译方法",
+      "node": "内容转译",
+      "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
+      "summary": "把哲学、艺术、文学、宗教和日常场景转成能解释感受的语言。",
+      "bridgeToNext": "方法最终要回到具体书和具体场景。"
+    },
+    {
+      "level": "C1",
+      "stage": "概念卡",
+      "node": "身份焦虑",
+      "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
+      "summary": "把自卑、比较和被认可需求放回社会评价结构里理解。",
+      "bridgeToNext": "另一个高频入口是信息和新闻带来的焦虑。"
+    },
+    {
+      "level": "S1",
+      "stage": "场景卡",
+      "node": "新闻后的焦虑",
+      "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
+      "summary": "把刷新闻后的沉重感，看成标题、速度和情绪牵引共同制造的现代困境。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "作者入口",
+      "value": "1"
+    },
+    {
+      "label": "书籍节点",
+      "value": "5"
+    },
+    {
+      "label": "概念",
+      "value": "32"
+    },
+    {
+      "label": "方法 / 场景",
+      "value": "35"
+    }
+  ],
+  "slug": "alain-de-botton-works",
+  "author": "阿兰·德波顿",
+  "primaryCategory": "心理疗愈与自我探索",
+  "secondaryCategory": "散文哲学与现代生活"
+}

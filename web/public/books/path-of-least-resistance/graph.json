@@ -1,0 +1,427 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "主题",
+      "color": "#3f6c78",
+      "size": 10
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#9f6a3a",
+      "size": 11
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6b8566",
+      "size": 9
+    },
+    "method": {
+      "label": "方法",
+      "color": "#8c5d7a",
+      "size": 10
+    },
+    "person": {
+      "label": "人物",
+      "color": "#5c647b",
+      "size": 11
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "主题",
+      "color": "#3f6c78"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#9f6a3a"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6b8566"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#8c5d7a"
+    },
+    {
+      "type": "person",
+      "label": "人物",
+      "color": "#5c647b"
+    }
+  ],
+  "nodeImages": {
+    "全书导读": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "全书脉络": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "核心内容总览": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "单章目录": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "选题角度": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "视觉表达钩子": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "最小阻力之路": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "罗伯特·弗里茨": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "第01章 第1部分创造的要素": "/books/path-of-least-resistance/chapter-images/chapter-1.svg",
+    "第02章 最小阻力之路": "/books/path-of-least-resistance/chapter-images/chapter-2.svg",
+    "第03章 反抗─顺应取向": "/books/path-of-least-resistance/chapter-images/chapter-3.svg",
+    "第04章 创造与问题无关": "/books/path-of-least-resistance/chapter-images/chapter-4.svg",
+    "第05章 何谓创造": "/books/path-of-least-resistance/chapter-images/chapter-5.svg",
+    "第06章 创造的取向": "/books/path-of-least-resistance/chapter-images/chapter-6.svg",
+    "第07章 纾解张力之道": "/books/path-of-least-resistance/chapter-images/chapter-7.svg",
+    "第08章 弥补性策略": "/books/path-of-least-resistance/chapter-images/chapter-8.svg",
+    "第09章 结构性张力": "/books/path-of-least-resistance/chapter-images/chapter-9.svg",
+    "第10章 将概念化成愿景": "/books/path-of-least-resistance/chapter-images/chapter-10.svg",
+    "第11章 勇于面对现状": "/books/path-of-least-resistance/chapter-images/chapter-11.svg",
+    "第12章 第2部分创造的历程": "/books/path-of-least-resistance/chapter-images/chapter-12.svg",
+    "第13章 创造的周期": "/books/path-of-least-resistance/chapter-images/chapter-13.svg",
+    "为什么你总在动作很多却总重复出问题，却没有真正抓住系统": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "很多人卡在团队忙但没有形成系统，本质上是没理解战略": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "把反馈回路看懂以后，你会重新理解战略和执行经常脱节": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "真正拉开差距的，不是更努力，而是更会用组织设计": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "系统": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "战略": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "反馈回路": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "组织设计": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "杠杆点": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "试验": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "协作": "/books/path-of-least-resistance/chapter-images/overview.svg",
+    "领导者成长": "/books/path-of-least-resistance/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "全书导读",
+      "type": "topic",
+      "tagline": "这本书重点不在管理动作多不多，而在于怎样看清结构、搭出系统并持续校准。"
+    },
+    {
+      "id": "全书脉络",
+      "type": "topic",
+      "tagline": "按章节推进链快速拿到这本书的主线。"
+    },
+    {
+      "id": "核心内容总览",
+      "type": "topic",
+      "tagline": "把主题、概念、方法和章节资产收成一张总表。"
+    },
+    {
+      "id": "单章目录",
+      "type": "topic",
+      "tagline": "从章节切进去，顺着原书推进。"
+    },
+    {
+      "id": "选题角度",
+      "type": "topic",
+      "tagline": "把书里的结构问题翻译成可直接做内容的切口。"
+    },
+    {
+      "id": "视觉表达钩子",
+      "type": "topic",
+      "tagline": "提炼适合信息图、九图和封面表达的视觉对象。"
+    },
+    {
+      "id": "最小阻力之路",
+      "type": "topic",
+      "tagline": "这本书重点不在管理动作多不多，而在于怎样看清结构、搭出系统并持续校准。"
+    },
+    {
+      "id": "为什么你总在动作很多却总重复出问题，却没有真正抓住系统",
+      "type": "topic",
+      "tagline": "动作很多却总重复出问题"
+    },
+    {
+      "id": "很多人卡在团队忙但没有形成系统，本质上是没理解战略",
+      "type": "topic",
+      "tagline": "团队忙但没有形成系统"
+    },
+    {
+      "id": "把反馈回路看懂以后，你会重新理解战略和执行经常脱节",
+      "type": "topic",
+      "tagline": "战略和执行经常脱节"
+    },
+    {
+      "id": "真正拉开差距的，不是更努力，而是更会用组织设计",
+      "type": "topic",
+      "tagline": "习惯拍板而忽略反馈"
+    },
+    {
+      "id": "第01章 第1部分创造的要素",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第02章 最小阻力之路",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第03章 反抗─顺应取向",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第04章 创造与问题无关",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第05章 何谓创造",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第06章 创造的取向",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第07章 纾解张力之道",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第08章 弥补性策略",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第09章 结构性张力",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第10章 将概念化成愿景",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第11章 勇于面对现状",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第12章 第2部分创造的历程",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "第13章 创造的周期",
+      "type": "chapter",
+      "tagline": "这一部分主要承担问题展开、方法解释或应用转化的作用。"
+    },
+    {
+      "id": "系统",
+      "type": "concept",
+      "tagline": "把结果放回结构和反馈里理解。"
+    },
+    {
+      "id": "战略",
+      "type": "concept",
+      "tagline": "围绕关键选择做取舍。"
+    },
+    {
+      "id": "反馈回路",
+      "type": "concept",
+      "tagline": "结果会反过来影响下一轮动作。"
+    },
+    {
+      "id": "组织设计",
+      "type": "concept",
+      "tagline": "把角色和机制安排成可持续运转。"
+    },
+    {
+      "id": "杠杆点",
+      "type": "concept",
+      "tagline": "找到能带动整体变化的关键变量。"
+    },
+    {
+      "id": "试验",
+      "type": "concept",
+      "tagline": "用小步验证代替大赌注。"
+    },
+    {
+      "id": "协作",
+      "type": "concept",
+      "tagline": "通过目标和边界提升多人行动质量。"
+    },
+    {
+      "id": "领导者成长",
+      "type": "concept",
+      "tagline": "先升级判断，再带动系统升级。"
+    },
+    {
+      "id": "罗伯特·弗里茨",
+      "type": "person",
+      "tagline": "《最小阻力之路》作者"
+    }
+  ],
+  "links": [
+    {
+      "source": "全书导读",
+      "target": "核心内容总览"
+    },
+    {
+      "source": "全书导读",
+      "target": "单章目录"
+    },
+    {
+      "source": "全书导读",
+      "target": "选题角度"
+    },
+    {
+      "source": "全书导读",
+      "target": "视觉表达钩子"
+    },
+    {
+      "source": "全书导读",
+      "target": "最小阻力之路"
+    },
+    {
+      "source": "全书脉络",
+      "target": "单章目录"
+    },
+    {
+      "source": "核心内容总览",
+      "target": "最小阻力之路"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "为什么你总在动作很多却总重复出问题，却没有真正抓住系统"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "很多人卡在团队忙但没有形成系统，本质上是没理解战略"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "把反馈回路看懂以后，你会重新理解战略和执行经常脱节"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "真正拉开差距的，不是更努力，而是更会用组织设计"
+    },
+    {
+      "source": "单章目录",
+      "target": "第01章 第1部分创造的要素"
+    },
+    {
+      "source": "单章目录",
+      "target": "第02章 最小阻力之路"
+    },
+    {
+      "source": "单章目录",
+      "target": "第03章 反抗─顺应取向"
+    },
+    {
+      "source": "单章目录",
+      "target": "第04章 创造与问题无关"
+    },
+    {
+      "source": "单章目录",
+      "target": "第05章 何谓创造"
+    },
+    {
+      "source": "单章目录",
+      "target": "第06章 创造的取向"
+    },
+    {
+      "source": "单章目录",
+      "target": "第07章 纾解张力之道"
+    },
+    {
+      "source": "单章目录",
+      "target": "第08章 弥补性策略"
+    },
+    {
+      "source": "单章目录",
+      "target": "第09章 结构性张力"
+    },
+    {
+      "source": "单章目录",
+      "target": "第10章 将概念化成愿景"
+    },
+    {
+      "source": "单章目录",
+      "target": "第11章 勇于面对现状"
+    },
+    {
+      "source": "单章目录",
+      "target": "第12章 第2部分创造的历程"
+    },
+    {
+      "source": "单章目录",
+      "target": "第13章 创造的周期"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "系统"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "战略"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "反馈回路"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "组织设计"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "杠杆点"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "试验"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "协作"
+    },
+    {
+      "source": "最小阻力之路",
+      "target": "领导者成长"
+    },
+    {
+      "source": "罗伯特·弗里茨",
+      "target": "最小阻力之路"
+    }
+  ],
+  "linkLabels": {
+    "全书导读→核心内容总览": "总览",
+    "全书导读→单章目录": "章节入口",
+    "全书导读→选题角度": "内容化",
+    "全书导读→视觉表达钩子": "视觉线索",
+    "全书导读→最小阻力之路": "主线主题",
+    "全书脉络→单章目录": "按章节推进",
+    "核心内容总览→最小阻力之路": "书 K",
+    "最小阻力之路→为什么你总在动作很多却总重复出问题，却没有真正抓住系统": "主题展开",
+    "最小阻力之路→很多人卡在团队忙但没有形成系统，本质上是没理解战略": "主题展开",
+    "最小阻力之路→把反馈回路看懂以后，你会重新理解战略和执行经常脱节": "主题展开",
+    "最小阻力之路→真正拉开差距的，不是更努力，而是更会用组织设计": "主题展开",
+    "单章目录→第01章 第1部分创造的要素": "章节入口",
+    "单章目录→第02章 最小阻力之路": "章节入口",
+    "单章目录→第03章 反抗─顺应取向": "章节入口",
+    "单章目录→第04章 创造与问题无关": "章节入口",
+    "单章目录→第05章 何谓创造": "章节入口",
+    "单章目录→第06章 创造的取向": "章节入口",
+    "单章目录→第07章 纾解张力之道": "章节入口",
+    "单章目录→第08章 弥补性策略": "章节入口",
+    "单章目录→第09章 结构性张力": "章节入口",
+    "单章目录→第10章 将概念化成愿景": "章节入口",
+    "单章目录→第11章 勇于面对现状": "章节入口",
+    "单章目录→第12章 第2部分创造的历程": "章节入口",
+    "单章目录→第13章 创造的周期": "章节入口",
+    "最小阻力之路→系统": "核心概念",
+    "最小阻力之路→战略": "核心概念",
+    "最小阻力之路→反馈回路": "核心概念",
+    "最小阻力之路→组织设计": "核心概念",
+    "最小阻力之路→杠杆点": "核心概念",
+    "最小阻力之路→试验": "核心概念",
+    "最小阻力之路→协作": "核心概念",
+    "最小阻力之路→领导者成长": "核心概念",
+    "罗伯特·弗里茨→最小阻力之路": "作者"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "title": "伯恩斯新情绪疗法",
+  "shortTitle": "情绪疗法",
+  "subtitle": "心理、关系、创伤、人生发展与医疗",
+  "description": "基于《伯恩斯新情绪疗法》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "PSYCHE · PATTERN · GROWTH",
+  "heroTitleLines": [
+    "伯恩斯新情绪疗法",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424054916",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "伯恩斯新情绪疗法",
+    "第01章 治疗情绪紊乱的一项重大突破(1)",
+    "觉察",
+    "第20章 从建立自尊开始(7)"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察",
+    "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感",
+    "觉察"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/feeling-good-therapy/chapter-images/overview.svg",
+      "summary": "这本书帮助读者理解情绪、关系、脆弱与生命议题背后的真实机制，并找到更稳的应对方式。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 治疗情绪紊乱的一项重大突破(1)。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 治疗情绪紊乱的一项重大突破(1)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-1.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 治疗情绪紊乱的一项重大突破(2)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-2.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 治疗情绪紊乱的一项重大突破(3)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-3.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 如何诊断你的情绪(1)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-4.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "章节推进",
+      "node": "第05章 如何诊断你的情绪(2)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-5.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "章节推进",
+      "node": "第06章 如何诊断你的情绪(3)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-6.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "章节推进",
+      "node": "第07章 理解自己的情绪(1)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-7.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "章节推进",
+      "node": "第08章 理解自己的情绪(2)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-8.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.9",
+      "stage": "章节推进",
+      "node": "第09章 理解自己的情绪(3)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-9.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.10",
+      "stage": "章节推进",
+      "node": "第10章 理解自己的情绪(4)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-10.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.11",
+      "stage": "章节推进",
+      "node": "第11章 理解自己的情绪(5)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-11.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.12",
+      "stage": "章节推进",
+      "node": "第12章 理解自己的情绪(6)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-12.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.13",
+      "stage": "章节推进",
+      "node": "第13章 理解自己的情绪(7)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-13.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.14",
+      "stage": "章节推进",
+      "node": "第14章 从建立自尊开始(1)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-14.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.15",
+      "stage": "章节推进",
+      "node": "第15章 从建立自尊开始(2)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-15.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.16",
+      "stage": "章节推进",
+      "node": "第16章 从建立自尊开始(3)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-16.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.17",
+      "stage": "章节推进",
+      "node": "第17章 从建立自尊开始(4)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-17.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.18",
+      "stage": "章节推进",
+      "node": "第18章 从建立自尊开始(5)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-18.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.19",
+      "stage": "章节推进",
+      "node": "第19章 从建立自尊开始(6)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-19.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": "继续进入下一章，把这一层判断往前推进。"
+    },
+    {
+      "level": "LV.20",
+      "stage": "章节推进",
+      "node": "第20章 从建立自尊开始(7)",
+      "image": "/books/feeling-good-therapy/chapter-images/chapter-20.svg",
+      "summary": "这一部分主要承担问题展开、方法解释或应用转化的作用。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "20"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "8"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "feeling-good-therapy",
+  "author": "大卫·伯恩斯",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "心理疗愈与自我探索"
+}

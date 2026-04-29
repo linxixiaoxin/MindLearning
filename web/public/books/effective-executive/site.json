@@ -1,0 +1,99 @@
+{
+  "title": "卓有成效的管理者(珍藏版)",
+  "shortTitle": "有效管理者",
+  "subtitle": "管理实践、时间管理、决策与成果导向",
+  "description": "基于《卓有成效的管理者(珍藏版)》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "LEADERSHIP · GROWTH · ORGANIZATION",
+  "heroTitleLines": [
+    "卓有成效的管理者(珍藏版)",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424054916",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "卓有成效的管理者(珍藏版)",
+    "第01章 管理者先管理自己",
+    "时间记录",
+    "第04章 用高质量决策托住执行"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "为什么很多管理者不是不努力，而是无效努力",
+    "你以为自己在管理，可能只是在应付",
+    "时间记录",
+    "全书主动作"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/effective-executive/chapter-images/overview.svg",
+      "summary": "这本书讨论的不是怎么当权威型上司，而是一个知识工作者如何通过时间、贡献、长处和决策管理，让自己真正变得有效。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 管理者先管理自己。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 管理者先管理自己",
+      "image": "/books/effective-executive/chapter-images/chapter-1.svg",
+      "summary": "别先谈大计划",
+      "bridgeToNext": "为下一章从「管理者先管理自己」推进到「把工作拉回贡献」做准备。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 把工作拉回贡献",
+      "image": "/books/effective-executive/chapter-images/chapter-2.svg",
+      "summary": "先问贡献什么",
+      "bridgeToNext": "为下一章从「把工作拉回贡献」推进到「围绕长处配置人和事」做准备。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 围绕长处配置人和事",
+      "image": "/books/effective-executive/chapter-images/chapter-3.svg",
+      "summary": "长处比短板更值得经营",
+      "bridgeToNext": "为下一章从「围绕长处配置人和事」推进到「用高质量决策托住执行」做准备。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 用高质量决策托住执行",
+      "image": "/books/effective-executive/chapter-images/chapter-4.svg",
+      "summary": "要事优先",
+      "bridgeToNext": "这是这一段的收口，负责把重点落到「用高质量决策托住执行」的最终结论。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "4"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "13"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "effective-executive",
+  "author": "彼得·德鲁克",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "认知决策与系统思考"
+}

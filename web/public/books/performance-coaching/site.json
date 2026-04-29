@@ -1,0 +1,99 @@
+{
+  "title": "高绩效教练（原书第5版）",
+  "shortTitle": "高绩效教练",
+  "subtitle": "教练式领导、管理沟通、绩效提升",
+  "description": "基于《高绩效教练（原书第5版）》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "COACHING · GROWTH · LEADERSHIP",
+  "heroTitleLines": [
+    "高绩效教练（原书第5版）",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424054916",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "高绩效教练（原书第5版）",
+    "第01章 从控制到教练",
+    "教练式管理",
+    "第04章 把教练式领导用回团队"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "为什么你越爱管，团队反而越不长大",
+    "员工不负责，很多时候不是态度问题",
+    "教练式管理",
+    "全书主动作"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/performance-coaching/chapter-images/overview.svg",
+      "summary": "这本书要解决的不是怎样更好地控制下属，而是如何通过教练式对话唤醒对方的觉察、责任感和行动力，让绩效提升来自内驱而不是外压。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 从控制到教练。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 从控制到教练",
+      "image": "/books/performance-coaching/chapter-images/chapter-1.svg",
+      "summary": "少一点指令，多一点提问",
+      "bridgeToNext": "为下一章从「从控制到教练」推进到「GROW对话骨架」做准备。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 GROW对话骨架",
+      "image": "/books/performance-coaching/chapter-images/chapter-2.svg",
+      "summary": "先明确目标",
+      "bridgeToNext": "为下一章从「GROW对话骨架」推进到「觉察与责任如何被激发」做准备。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 觉察与责任如何被激发",
+      "image": "/books/performance-coaching/chapter-images/chapter-3.svg",
+      "summary": "人看清了才会真承担",
+      "bridgeToNext": "为下一章从「觉察与责任如何被激发」推进到「把教练式领导用回团队」做准备。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 把教练式领导用回团队",
+      "image": "/books/performance-coaching/chapter-images/chapter-4.svg",
+      "summary": "长期目标是提升成熟度",
+      "bridgeToNext": "这是这一段的收口，负责把重点落到「把教练式领导用回团队」的最终结论。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "4"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "13"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "performance-coaching",
+  "author": "约翰·惠特默",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "学习成长与习惯方法"
+}

@@ -11,6 +11,35 @@
   },
   "books": [
     {
+      "slug": "alain-de-botton-works",
+      "title": "阿兰·德波顿作品方法库",
+      "shortTitle": "德波顿方法库",
+      "author": "阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学与现代生活",
+      "status": "seed",
+      "description": "基于本地德波顿书籍和 K/N 卡整理的作者方法入口，把身份焦虑、新闻焦虑、旅行、工作和空间等现代生活困境接成可点击的概念库。",
+      "coverImage": "/books/alain-de-botton-works/chapter-images/overview.svg",
+      "stats": [
+        {
+          "label": "作者入口",
+          "value": "1"
+        },
+        {
+          "label": "书籍节点",
+          "value": "5"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "4"
+        },
+        {
+          "label": "场景",
+          "value": "2"
+        }
+      ]
+    },
+    {
       "slug": "mindset-traps",
       "title": "走出心智的误区",
       "shortTitle": "心智误区",

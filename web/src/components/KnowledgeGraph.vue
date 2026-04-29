@@ -182,7 +182,14 @@ function initGraph() {
   group = svg.append('g')
 
   const graphNodes = nodes.value.map((item) => ({ ...item }))
-  const graphLinks = links.value.map((item) => ({ ...item }))
+  const nodeIds = new Set(graphNodes.map((item) => item.id))
+  const graphLinks = links.value
+    .map((item) => ({ ...item }))
+    .filter((item) => {
+      const source = typeof item.source === 'object' ? item.source.id : item.source
+      const target = typeof item.target === 'object' ? item.target.id : item.target
+      return nodeIds.has(source) && nodeIds.has(target)
+    })
 
   simulation = d3
     .forceSimulation(graphNodes)
@@ -382,7 +389,7 @@ watch(
   (id) => {
     highlight(id)
     if (id) focusNode(id)
-  if (!id) cardNode.value = null
+    if (!id) cardNode.value = null
   },
 )
 

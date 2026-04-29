@@ -1,0 +1,478 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "主题",
+      "color": "#3f6c78",
+      "size": 10
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#9f6a3a",
+      "size": 11
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6b8566",
+      "size": 9
+    },
+    "method": {
+      "label": "方法",
+      "color": "#8c5d7a",
+      "size": 10
+    },
+    "person": {
+      "label": "人物",
+      "color": "#5c647b",
+      "size": 11
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "主题",
+      "color": "#3f6c78"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#9f6a3a"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6b8566"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#8c5d7a"
+    },
+    {
+      "type": "person",
+      "label": "人物",
+      "color": "#5c647b"
+    }
+  ],
+  "nodeImages": {
+    "全书导读": "/books/effective-executive/chapter-images/overview.svg",
+    "全书脉络": "/books/effective-executive/chapter-images/overview.svg",
+    "核心内容总览": "/books/effective-executive/chapter-images/overview.svg",
+    "单章目录": "/books/effective-executive/chapter-images/overview.svg",
+    "选题角度": "/books/effective-executive/chapter-images/overview.svg",
+    "视觉表达钩子": "/books/effective-executive/chapter-images/overview.svg",
+    "卓有成效的管理者(珍藏版)": "/books/effective-executive/chapter-images/overview.svg",
+    "彼得·德鲁克": "/books/effective-executive/chapter-images/overview.svg",
+    "第01章 管理者先管理自己": "/books/effective-executive/chapter-images/chapter-1.svg",
+    "第02章 把工作拉回贡献": "/books/effective-executive/chapter-images/chapter-2.svg",
+    "第03章 围绕长处配置人和事": "/books/effective-executive/chapter-images/chapter-3.svg",
+    "第04章 用高质量决策托住执行": "/books/effective-executive/chapter-images/chapter-4.svg",
+    "为什么很多管理者不是不努力，而是无效努力": "/books/effective-executive/chapter-images/chapter-2.svg",
+    "你以为自己在管理，可能只是在应付": "/books/effective-executive/chapter-images/chapter-4.svg",
+    "先别急着提升效率，先提升有效性": "/books/effective-executive/chapter-images/chapter-2.svg",
+    "别再执着补短板了，先把长处用起来": "/books/effective-executive/chapter-images/overview.svg",
+    "时间记录": "/books/effective-executive/chapter-images/chapter-1.svg",
+    "成果导向": "/books/effective-executive/chapter-images/chapter-1.svg",
+    "发挥长处": "/books/effective-executive/chapter-images/chapter-1.svg",
+    "要事优先": "/books/effective-executive/chapter-images/chapter-1.svg",
+    "决策质量": "/books/effective-executive/chapter-images/overview.svg",
+    "知识工作者": "/books/effective-executive/chapter-images/overview.svg",
+    "贡献意识": "/books/effective-executive/chapter-images/overview.svg",
+    "有效性习惯": "/books/effective-executive/chapter-images/overview.svg",
+    "全书主动作": "/books/effective-executive/chapter-images/chapter-1.svg",
+    "用「管理者先管理自己」处理关键问题": "/books/effective-executive/chapter-images/chapter-2.svg",
+    "用「把工作拉回贡献」处理关键问题": "/books/effective-executive/chapter-images/chapter-3.svg",
+    "用「围绕长处配置人和事」处理关键问题": "/books/effective-executive/chapter-images/chapter-4.svg",
+    "用「用高质量决策托住执行」处理关键问题": "/books/effective-executive/chapter-images/chapter-4.svg"
+  },
+  "nodes": [
+    {
+      "id": "全书导读",
+      "type": "topic",
+      "tagline": "这本书讨论的不是怎么当权威型上司，而是一个知识工作者如何通过时间、贡献、长处和决策管理，让自己真正变得有效。"
+    },
+    {
+      "id": "全书脉络",
+      "type": "topic",
+      "tagline": "按章节推进链快速拿到这本书的主线。"
+    },
+    {
+      "id": "核心内容总览",
+      "type": "topic",
+      "tagline": "把主题、概念、方法和章节资产收成一张总表。"
+    },
+    {
+      "id": "单章目录",
+      "type": "topic",
+      "tagline": "从章节切进去，顺着原书推进。"
+    },
+    {
+      "id": "选题角度",
+      "type": "topic",
+      "tagline": "把书里的结构问题翻译成可直接做内容的切口。"
+    },
+    {
+      "id": "视觉表达钩子",
+      "type": "topic",
+      "tagline": "提炼适合信息图、九图和封面表达的视觉对象。"
+    },
+    {
+      "id": "卓有成效的管理者(珍藏版)",
+      "type": "topic",
+      "tagline": "这本书讨论的不是怎么当权威型上司，而是一个知识工作者如何通过时间、贡献、长处和决策管理，让自己真正变得有效。"
+    },
+    {
+      "id": "为什么很多管理者不是不努力，而是无效努力",
+      "type": "topic",
+      "tagline": "表面看是「忙碌感很强，产出感很弱。」，但这一段真正想带读者回到「把工作拉回贡献」中的「成果导向」。"
+    },
+    {
+      "id": "你以为自己在管理，可能只是在应付",
+      "type": "topic",
+      "tagline": "表面看是「没有优先级就没有管理。」，但这一段真正想带读者回到「用高质量决策托住执行」中的「要事优先」。"
+    },
+    {
+      "id": "先别急着提升效率，先提升有效性",
+      "type": "topic",
+      "tagline": "表面看是「效率做错方向，只会更快失真。」，但这一段真正想带读者回到「把工作拉回贡献」中的「成果导向」。"
+    },
+    {
+      "id": "别再执着补短板了，先把长处用起来",
+      "type": "topic",
+      "tagline": "读者容易把「组织里最值钱的是长处配置。」当成表面问题，但这本书真正要处理的是「发挥长处」与「判断动作」之间的结构关系。"
+    },
+    {
+      "id": "第01章 管理者先管理自己",
+      "type": "chapter",
+      "tagline": "别先谈大计划"
+    },
+    {
+      "id": "第02章 把工作拉回贡献",
+      "type": "chapter",
+      "tagline": "先问贡献什么"
+    },
+    {
+      "id": "第03章 围绕长处配置人和事",
+      "type": "chapter",
+      "tagline": "长处比短板更值得经营"
+    },
+    {
+      "id": "第04章 用高质量决策托住执行",
+      "type": "chapter",
+      "tagline": "要事优先"
+    },
+    {
+      "id": "时间记录",
+      "type": "concept",
+      "tagline": "先看真实时间花在哪里。"
+    },
+    {
+      "id": "成果导向",
+      "type": "concept",
+      "tagline": "工作价值要回到贡献和结果。"
+    },
+    {
+      "id": "发挥长处",
+      "type": "concept",
+      "tagline": "组织应围绕长处配置人。"
+    },
+    {
+      "id": "要事优先",
+      "type": "concept",
+      "tagline": "先做真正重要的事。"
+    },
+    {
+      "id": "决策质量",
+      "type": "concept",
+      "tagline": "决策要基于事实、不同意见和责任安排。"
+    },
+    {
+      "id": "知识工作者",
+      "type": "concept",
+      "tagline": "现代管理者多在处理判断而非体力执行。"
+    },
+    {
+      "id": "贡献意识",
+      "type": "concept",
+      "tagline": "先问“我该贡献什么”。"
+    },
+    {
+      "id": "有效性习惯",
+      "type": "concept",
+      "tagline": "有效并非天赋，而是可训练的做事方式。"
+    },
+    {
+      "id": "全书主动作",
+      "type": "method",
+      "tagline": "什么叫有效，而不是忙碌？"
+    },
+    {
+      "id": "用「管理者先管理自己」处理关键问题",
+      "type": "method",
+      "tagline": "别先谈大计划"
+    },
+    {
+      "id": "用「把工作拉回贡献」处理关键问题",
+      "type": "method",
+      "tagline": "先问贡献什么"
+    },
+    {
+      "id": "用「围绕长处配置人和事」处理关键问题",
+      "type": "method",
+      "tagline": "长处比短板更值得经营"
+    },
+    {
+      "id": "用「用高质量决策托住执行」处理关键问题",
+      "type": "method",
+      "tagline": "要事优先"
+    },
+    {
+      "id": "彼得·德鲁克",
+      "type": "person",
+      "tagline": "《卓有成效的管理者(珍藏版)》作者"
+    }
+  ],
+  "links": [
+    {
+      "source": "全书导读",
+      "target": "核心内容总览"
+    },
+    {
+      "source": "全书导读",
+      "target": "单章目录"
+    },
+    {
+      "source": "全书导读",
+      "target": "选题角度"
+    },
+    {
+      "source": "全书导读",
+      "target": "视觉表达钩子"
+    },
+    {
+      "source": "全书导读",
+      "target": "卓有成效的管理者(珍藏版)"
+    },
+    {
+      "source": "全书脉络",
+      "target": "单章目录"
+    },
+    {
+      "source": "核心内容总览",
+      "target": "卓有成效的管理者(珍藏版)"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "为什么很多管理者不是不努力，而是无效努力"
+    },
+    {
+      "source": "为什么很多管理者不是不努力，而是无效努力",
+      "target": "成果导向"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "你以为自己在管理，可能只是在应付"
+    },
+    {
+      "source": "你以为自己在管理，可能只是在应付",
+      "target": "要事优先"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "先别急着提升效率，先提升有效性"
+    },
+    {
+      "source": "先别急着提升效率，先提升有效性",
+      "target": "成果导向"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "别再执着补短板了，先把长处用起来"
+    },
+    {
+      "source": "别再执着补短板了，先把长处用起来",
+      "target": "发挥长处"
+    },
+    {
+      "source": "单章目录",
+      "target": "第01章 管理者先管理自己"
+    },
+    {
+      "source": "第01章 管理者先管理自己",
+      "target": "时间记录"
+    },
+    {
+      "source": "第01章 管理者先管理自己",
+      "target": "成果导向"
+    },
+    {
+      "source": "第01章 管理者先管理自己",
+      "target": "发挥长处"
+    },
+    {
+      "source": "第01章 管理者先管理自己",
+      "target": "要事优先"
+    },
+    {
+      "source": "单章目录",
+      "target": "第02章 把工作拉回贡献"
+    },
+    {
+      "source": "第02章 把工作拉回贡献",
+      "target": "成果导向"
+    },
+    {
+      "source": "单章目录",
+      "target": "第03章 围绕长处配置人和事"
+    },
+    {
+      "source": "第03章 围绕长处配置人和事",
+      "target": "时间记录"
+    },
+    {
+      "source": "第03章 围绕长处配置人和事",
+      "target": "成果导向"
+    },
+    {
+      "source": "第03章 围绕长处配置人和事",
+      "target": "发挥长处"
+    },
+    {
+      "source": "第03章 围绕长处配置人和事",
+      "target": "要事优先"
+    },
+    {
+      "source": "单章目录",
+      "target": "第04章 用高质量决策托住执行"
+    },
+    {
+      "source": "第04章 用高质量决策托住执行",
+      "target": "要事优先"
+    },
+    {
+      "source": "第01章 管理者先管理自己",
+      "target": "全书主动作"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "全书主动作"
+    },
+    {
+      "source": "第02章 把工作拉回贡献",
+      "target": "用「管理者先管理自己」处理关键问题"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "用「管理者先管理自己」处理关键问题"
+    },
+    {
+      "source": "第03章 围绕长处配置人和事",
+      "target": "用「把工作拉回贡献」处理关键问题"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "用「把工作拉回贡献」处理关键问题"
+    },
+    {
+      "source": "第04章 用高质量决策托住执行",
+      "target": "用「围绕长处配置人和事」处理关键问题"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "用「围绕长处配置人和事」处理关键问题"
+    },
+    {
+      "source": "第04章 用高质量决策托住执行",
+      "target": "用「用高质量决策托住执行」处理关键问题"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "用「用高质量决策托住执行」处理关键问题"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "时间记录"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "成果导向"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "发挥长处"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "要事优先"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "决策质量"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "知识工作者"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "贡献意识"
+    },
+    {
+      "source": "卓有成效的管理者(珍藏版)",
+      "target": "有效性习惯"
+    },
+    {
+      "source": "彼得·德鲁克",
+      "target": "卓有成效的管理者(珍藏版)"
+    }
+  ],
+  "linkLabels": {
+    "全书导读→核心内容总览": "总览",
+    "全书导读→单章目录": "章节入口",
+    "全书导读→选题角度": "内容化",
+    "全书导读→视觉表达钩子": "视觉线索",
+    "全书导读→卓有成效的管理者(珍藏版)": "主线主题",
+    "全书脉络→单章目录": "按章节推进",
+    "核心内容总览→卓有成效的管理者(珍藏版)": "书 K",
+    "卓有成效的管理者(珍藏版)→为什么很多管理者不是不努力，而是无效努力": "主题展开",
+    "为什么很多管理者不是不努力，而是无效努力→成果导向": "关键概念",
+    "卓有成效的管理者(珍藏版)→你以为自己在管理，可能只是在应付": "主题展开",
+    "你以为自己在管理，可能只是在应付→要事优先": "关键概念",
+    "卓有成效的管理者(珍藏版)→先别急着提升效率，先提升有效性": "主题展开",
+    "先别急着提升效率，先提升有效性→成果导向": "关键概念",
+    "卓有成效的管理者(珍藏版)→别再执着补短板了，先把长处用起来": "主题展开",
+    "别再执着补短板了，先把长处用起来→发挥长处": "关键概念",
+    "单章目录→第01章 管理者先管理自己": "章节入口",
+    "第01章 管理者先管理自己→时间记录": "本章概念",
+    "第01章 管理者先管理自己→成果导向": "本章概念",
+    "第01章 管理者先管理自己→发挥长处": "本章概念",
+    "第01章 管理者先管理自己→要事优先": "本章概念",
+    "单章目录→第02章 把工作拉回贡献": "章节入口",
+    "第02章 把工作拉回贡献→成果导向": "本章概念",
+    "单章目录→第03章 围绕长处配置人和事": "章节入口",
+    "第03章 围绕长处配置人和事→时间记录": "本章概念",
+    "第03章 围绕长处配置人和事→成果导向": "本章概念",
+    "第03章 围绕长处配置人和事→发挥长处": "本章概念",
+    "第03章 围绕长处配置人和事→要事优先": "本章概念",
+    "单章目录→第04章 用高质量决策托住执行": "章节入口",
+    "第04章 用高质量决策托住执行→要事优先": "本章概念",
+    "第01章 管理者先管理自己→全书主动作": "可落动作",
+    "卓有成效的管理者(珍藏版)→全书主动作": "关键方法",
+    "第02章 把工作拉回贡献→用「管理者先管理自己」处理关键问题": "可落动作",
+    "卓有成效的管理者(珍藏版)→用「管理者先管理自己」处理关键问题": "关键方法",
+    "第03章 围绕长处配置人和事→用「把工作拉回贡献」处理关键问题": "可落动作",
+    "卓有成效的管理者(珍藏版)→用「把工作拉回贡献」处理关键问题": "关键方法",
+    "第04章 用高质量决策托住执行→用「围绕长处配置人和事」处理关键问题": "可落动作",
+    "卓有成效的管理者(珍藏版)→用「围绕长处配置人和事」处理关键问题": "关键方法",
+    "第04章 用高质量决策托住执行→用「用高质量决策托住执行」处理关键问题": "可落动作",
+    "卓有成效的管理者(珍藏版)→用「用高质量决策托住执行」处理关键问题": "关键方法",
+    "卓有成效的管理者(珍藏版)→时间记录": "核心概念",
+    "卓有成效的管理者(珍藏版)→成果导向": "核心概念",
+    "卓有成效的管理者(珍藏版)→发挥长处": "核心概念",
+    "卓有成效的管理者(珍藏版)→要事优先": "核心概念",
+    "卓有成效的管理者(珍藏版)→决策质量": "核心概念",
+    "卓有成效的管理者(珍藏版)→知识工作者": "核心概念",
+    "卓有成效的管理者(珍藏版)→贡献意识": "核心概念",
+    "卓有成效的管理者(珍藏版)→有效性习惯": "核心概念",
+    "彼得·德鲁克→卓有成效的管理者(珍藏版)": "作者"
+  }
+}

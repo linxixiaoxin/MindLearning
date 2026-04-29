@@ -67,6 +67,7 @@ export async function loadBookBundle(slug) {
     HOME_SECTIONS: homeSections,
     FILE_MAP: fileMap,
     NODE_IMAGES: graph.nodeImages || {},
+    CANVAS_CARDS: graph.canvasCards || {},
     NODES: graph.nodes || [],
     LINKS: graph.links || [],
     LINK_LABELS: graph.linkLabels || {},

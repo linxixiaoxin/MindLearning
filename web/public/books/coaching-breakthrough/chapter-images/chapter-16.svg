@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b2f43"/>
+      <stop offset="55%" stop-color="#55607e"/>
+      <stop offset="100%" stop-color="#c88859"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.12" r="0.9">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#glow)"/>
+  <circle cx="170" cy="180" r="110" fill="#f7f5f0" fill-opacity="0.08"/>
+  <circle cx="720" cy="980" r="180" fill="#f7f5f0" fill-opacity="0.06"/>
+  <rect x="72" y="92" width="756" height="1016" rx="40" fill="#f7f5f0" fill-opacity="0.1" stroke="#f7f5f0" stroke-opacity="0.18"/>
+  <text x="108" y="176" fill="#f7f5f0" font-size="34" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif" letter-spacing="6">第16章</text>
+  <text x="108" y="302" fill="#f7f5f0" font-size="82" font-family="Iowan Old Style, Palatino Linotype, Songti SC, serif">巩固新认知以完成突破过</text>
+  <text x="108" y="394" fill="#f7f5f0" font-size="82" font-family="Iowan Old Style, Palatino Linotype, Songti SC, serif">程</text>
+  <text x="108" y="500" fill="#f7f5f0" font-size="28" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif" fill-opacity="0.84">为什么很多洞见刚出现时很亮，却很快又变模糊。</text>
+  <rect x="108" y="576" width="684" height="2" fill="#f7f5f0" fill-opacity="0.22"/>
+  <text x="108" y="676" fill="#f7f5f0" font-size="30" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif" fill-opacity="0.82">洞见转承诺 · 可观测目标</text>
+  <text x="108" y="1028" fill="#f7f5f0" fill-opacity="0.76" font-size="24" font-family="Aptos, Segoe UI, Microsoft YaHei, sans-serif">《教练突破》</text>
+</svg>

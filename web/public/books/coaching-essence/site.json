@@ -1,0 +1,147 @@
+{
+  "title": "教练的本质",
+  "shortTitle": "教练本质",
+  "subtitle": "教练式领导、管理沟通、组织发展",
+  "description": "基于《教练的本质》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "COACHING · GROWTH · LEADERSHIP",
+  "heroTitleLines": [
+    "教练的本质",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424071345",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "教练的本质",
+    "第01章 是什么让教练工作如此有力",
+    "回放式探究",
+    "第10章 觉察评判并将其释放"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "三大思维习惯：当下感、接收信息、释放评判",
+    "情绪一变化，真正的突破才刚开始",
+    "回放式探究",
+    "全书主动作"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/coaching-essence/chapter-images/overview.svg",
+      "summary": "这本书要解决的不是怎样提出更漂亮的问题，而是如何用“回放式探究”让客户看见自己的思维、情绪和模式，从而自己长出洞见与承诺。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 是什么让教练工作如此有力。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 是什么让教练工作如此有力",
+      "image": "/books/coaching-essence/chapter-images/chapter-1.svg",
+      "summary": "为什么人很难靠自己打断旧的思维模式和自动反应。",
+      "bridgeToNext": "下一章开始清理那些把教练做坏的常见信念。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 错误的教练信念",
+      "image": "/books/coaching-essence/chapter-images/chapter-2.svg",
+      "summary": "哪些看似专业的教练信念，其实会把现场带偏。",
+      "bridgeToNext": "把误区拆掉后，第三章才能真正把焦点拉回“教练人而非问题”。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 聚焦：教练人，而非问题",
+      "image": "/books/coaching-essence/chapter-images/chapter-3.svg",
+      "summary": "为什么一直盯着问题细节，会让谈话越来越窄。",
+      "bridgeToNext": "下一章开始讲，真正把人拉回镜子前的关键动作就是主动回放。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 主动回放：回放关键片段以供检查",
+      "image": "/books/coaching-essence/chapter-images/chapter-4.svg",
+      "summary": "如何不用“神奇问题”，也能让客户停下来重新看自己。",
+      "bridgeToNext": "回放照亮了故事之后，下一章才谈得上真正打开思维和需求。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "章节推进",
+      "node": "第05章 打开客户的思维：发现真正的需求",
+      "image": "/books/coaching-essence/chapter-images/chapter-5.svg",
+      "summary": "客户被旧故事困住时，怎么帮助他看见更深层的需求与限制。",
+      "bridgeToNext": "当需求和结构逐渐清楚后，下一章就能守住结果而不是继续散开。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "章节推进",
+      "node": "第06章 守住目标：坚持到底",
+      "image": "/books/coaching-essence/chapter-images/chapter-6.svg",
+      "summary": "如果不把期望结果说清，谈话为什么总是又绕回原点。",
+      "bridgeToNext": "目标清楚后，下一章才能把领悟推到行动承诺。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "章节推进",
+      "node": "第07章 创新与展望：教练领悟和承诺",
+      "image": "/books/coaching-essence/chapter-images/chapter-7.svg",
+      "summary": "为什么很多谈话有领悟、有感动，却没有真正改变。",
+      "bridgeToNext": "谈话流程讲完后，下一章开始回到教练自己的状态管理。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "章节推进",
+      "node": "第08章 调整大脑——培养你的当下感",
+      "image": "/books/coaching-essence/chapter-images/chapter-8.svg",
+      "summary": "教练为什么总在关键时刻被自己的紧张、杂念和表现欲带跑。",
+      "bridgeToNext": "当教练能稳住自己，下一章才谈得上更完整地接收信息。"
+    },
+    {
+      "level": "LV.9",
+      "stage": "章节推进",
+      "node": "第09章 接收信息（不只是倾听）",
+      "image": "/books/coaching-essence/chapter-images/chapter-9.svg",
+      "summary": "只靠认知层面的倾听，为什么会漏掉最关键的信息。",
+      "bridgeToNext": "能接收到更多信息后，最后一章开始处理最容易破坏这种接收的评判。"
+    },
+    {
+      "level": "LV.10",
+      "stage": "章节推进",
+      "node": "第10章 觉察评判并将其释放",
+      "image": "/books/coaching-essence/chapter-images/chapter-10.svg",
+      "summary": "评判为什么会在不知不觉中破坏安全感和伙伴关系。",
+      "bridgeToNext": "这是全书的收束，把教练能力最终落回教练本人对自身状态的修炼。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "10"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "12"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "coaching-essence",
+  "author": "Marcia Reynolds（玛莎·雷诺兹）",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "学习成长与习惯方法"
+}

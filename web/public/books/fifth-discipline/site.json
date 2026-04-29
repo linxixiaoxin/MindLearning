@@ -1,0 +1,99 @@
+{
+  "title": "第五项修炼学习型组织的艺术与实践",
+  "shortTitle": "第五项修炼",
+  "subtitle": "系统思考、组织学习、领导力、团队成长",
+  "description": "基于《第五项修炼学习型组织的艺术与实践》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
+  "heroOverline": "SYSTEMS · ORGANIZATION · LEARNING",
+  "heroTitleLines": [
+    "第五项修炼学习型组织的艺术与实践",
+    "把整本书做成可点击地图"
+  ],
+  "creatorLabel": "整理与输出",
+  "creatorName": "林子-心智进化之路",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260424054916",
+  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "recommendedPath": [
+    "全书导读",
+    "第五项修炼学习型组织的艺术与实践",
+    "第01章 为什么组织总在重复犯错",
+    "系统思考",
+    "第04章 让组织具备自我修正能力"
+  ],
+  "quickLinks": [
+    "核心内容总览",
+    "单章目录",
+    "为什么组织总在重复同一种问题",
+    "共同愿景为什么比口号难得多",
+    "系统思考",
+    "全书主动作"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+  "journeyEntryLabel": "从总纲进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "总纲入口",
+      "node": "全书导读",
+      "image": "/books/fifth-discipline/chapter-images/overview.svg",
+      "summary": "这本书的核心不是教企业开培训会，而是解释组织为什么会在自己的结构里不断制造问题，以及怎样通过系统思考和学习机制改变这种循环。",
+      "bridgeToNext": "先抓住全书总纲，再进入 第01章 为什么组织总在重复犯错。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节推进",
+      "node": "第01章 为什么组织总在重复犯错",
+      "image": "/books/fifth-discipline/chapter-images/chapter-1.svg",
+      "summary": "别只看表面问题",
+      "bridgeToNext": "为下一章从「为什么组织总在重复犯错」推进到「五项修炼的骨架」做准备。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "第02章 五项修炼的骨架",
+      "image": "/books/fifth-discipline/chapter-images/chapter-2.svg",
+      "summary": "系统思考统领全局",
+      "bridgeToNext": "为下一章从「五项修炼的骨架」推进到「从个人认知到团队共识」做准备。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节推进",
+      "node": "第03章 从个人认知到团队共识",
+      "image": "/books/fifth-discipline/chapter-images/chapter-3.svg",
+      "summary": "认知不同步就难协作",
+      "bridgeToNext": "为下一章从「从个人认知到团队共识」推进到「让组织具备自我修正能力」做准备。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节推进",
+      "node": "第04章 让组织具备自我修正能力",
+      "image": "/books/fifth-discipline/chapter-images/chapter-4.svg",
+      "summary": "不是一次性改变",
+      "bridgeToNext": "这是这一段的收口，负责把重点落到「让组织具备自我修正能力」的最终结论。"
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "4"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "13"
+    },
+    {
+      "label": "作者",
+      "value": "1"
+    }
+  ],
+  "slug": "fifth-discipline",
+  "author": "彼得·圣吉",
+  "primaryCategory": "领导管理与组织教练",
+  "secondaryCategory": "认知决策与系统思考"
+}

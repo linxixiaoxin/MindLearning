@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="app-shell">
     <header class="topbar">
       <button
@@ -22,8 +22,35 @@
 
       <nav class="nav-tabs">
         <button class="nav-btn" :class="{ active: view === 'library' }" @click="goLibrary">书库</button>
+        <button class="nav-btn" :class="{ active: view === 'eventLens' }" @click="goEventLens()">
+          社会事件
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'contentOps' }" @click="goContentOps">
+          选题中台
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'capabilityPaths' }" @click="goCapabilityPaths()">
+          能力路径
+        </button>
         <button class="nav-btn" :class="{ active: view === 'thoughtPartner' }" @click="goThoughtPartner">
           思想伙伴
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'problemLab' }" @click="goProblemLab()">
+          问题工作台
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'learningPaths' }" @click="goLearningPaths()">
+          学习路径
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'spaceBrowser' }" @click="goSpaceBrowser()">
+          3D书库
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'grayBooks' }" @click="goGrayBooks">
+          灰度池
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'mindsetTrapDiagnostic' }" @click="goMindsetTrapDiagnostic">
+          误区诊断
+        </button>
+        <button class="nav-btn" :class="{ active: view === 'leadershipMindsetAssessment' }" @click="goLeadershipMindsetAssessment">
+          心智评估
         </button>
         <button
           v-if="hasBookContext"
@@ -108,7 +135,7 @@
             v-else-if="searchFocused && searchQuery && searchLoading"
             class="search-dropdown search-empty"
           >
-            正在建立多书搜索索引…
+            正在建立多书搜索索引...
           </div>
 
           <div v-else-if="searchFocused && searchQuery" class="search-dropdown search-empty">
@@ -116,7 +143,7 @@
           </div>
         </div>
 
-        <span v-if="hasBookContext" class="node-count">{{ currentBookData?.NODES?.length || 0 }} 个节点</span>
+        <span v-if="hasBookContext" class="node-count">{{ currentBookData?.NODES?.length || 0 }} Nodes</span>
       </div>
     </header>
 
@@ -137,12 +164,12 @@
       <main class="content">
         <div v-if="routeLoading" class="app-state">
           <div class="loading-spinner"></div>
-          <div class="state-title">正在加载站点数据…</div>
+          <div class="state-title">This interface is temporarily unavailable.</div>
         </div>
 
         <div v-else-if="routeError" class="app-state">
-          <div class="state-icon">📖</div>
-          <div class="state-title">这个入口暂时还没准备好</div>
+          <div class="state-icon">!</div>
+          <div class="state-title">Loading interface...</div>
           <div class="state-desc">{{ routeError }}</div>
           <button class="back-btn-lg" @click="goLibrary">返回书库</button>
         </div>
@@ -182,6 +209,69 @@
         <ThoughtPartnerTool
           v-else-if="view === 'thoughtPartner'"
           @open-thinker="onOpenThinker"
+          @open-diagnostic="goMindsetTrapDiagnostic"
+          @open-learning-paths="goLearningPaths"
+        />
+
+        <EventLens
+          v-else-if="view === 'eventLens'"
+          :preset-id="currentEventLensId"
+          @open-book="onOpenBook"
+          @open-problem-case="onOpenProblemCaseFromEvent"
+        />
+
+        <ContentOpsCenter
+          v-else-if="view === 'contentOps'"
+          @open-book="onOpenBook"
+          @open-problem-lab="goProblemLab"
+          @open-event-lens="goEventLens"
+          @open-learning-path="goLearningPaths"
+          @open-capability-paths="goCapabilityPaths"
+        />
+
+        <CapabilityPathWorkbench
+          v-else-if="view === 'capabilityPaths'"
+          :role-id="currentCapabilityRoleId"
+          @open-book="onOpenBook"
+          @open-problem-lab="goProblemLab"
+          @open-learning-path="onSelectLearningPath"
+        />
+
+        <ProblemLab
+          v-else-if="view === 'problemLab'"
+          :case-id="currentProblemCaseId"
+          @select-case="onSelectProblemCase"
+          @open-book="onOpenBook"
+          @open-thinker="onOpenThinker"
+          @open-learning-paths="goLearningPaths"
+          @open-thought-partner="goThoughtPartner"
+        />
+
+        <LearningPathMap
+          v-else-if="view === 'learningPaths'"
+          :path-id="currentLearningPathId"
+          @open-book="onOpenBook"
+          @open-node="onOpenNode"
+          @select-path="onSelectLearningPath"
+        />
+
+        <SpaceBrowser
+          v-else-if="view === 'spaceBrowser'"
+        />
+
+        <GrayBookPool
+          v-else-if="view === 'grayBooks'"
+        />
+
+        <MindsetTrapDiagnostic
+          v-else-if="view === 'mindsetTrapDiagnostic'"
+          @open-node="onOpenNode"
+        />
+
+        <LeadershipMindsetAssessment
+          v-else-if="view === 'leadershipMindsetAssessment'"
+          @open-node="onOpenNode"
+          @open-topic="onOpenTopic"
         />
 
         <ThinkerProfilePage
@@ -214,21 +304,40 @@
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import ArticleReader from './components/ArticleReader.vue'
 import BookLibrary from './components/BookLibrary.vue'
+import ContentOpsCenter from './components/ContentOpsCenter.vue'
+import GrayBookPool from './components/GrayBookPool.vue'
 import HomeView from './components/HomeView.vue'
 import KnowledgeGraph from './components/KnowledgeGraph.vue'
+import LearningPathMap from './components/LearningPathMap.vue'
+import LeadershipMindsetAssessment from './components/LeadershipMindsetAssessment.vue'
+import MindsetTrapDiagnostic from './components/MindsetTrapDiagnostic.vue'
+import ProblemLab from './components/ProblemLab.vue'
+import EventLens from './components/EventLens.vue'
+import CapabilityPathWorkbench from './components/CapabilityPathWorkbench.vue'
 import Sidebar from './components/Sidebar.vue'
+import SpaceBrowser from './components/SpaceBrowser.vue'
 import ThinkerProfilePage from './components/ThinkerProfilePage.vue'
 import ThoughtPartnerTool from './components/ThoughtPartnerTool.vue'
 import TopicPage from './components/TopicPage.vue'
 import { loadBookBundle, loadRegistry, loadTopicBundle } from './lib/bookData.js'
+import { parseRoute, resolveNodeId, routeToUrl } from './lib/routes.js'
+import {
+  buildBookSearchEntry,
+  buildCurrentBookSearchEntries,
+  buildNodeSearchEntry,
+  buildToolSearchEntry,
+  buildTopicSearchEntry,
+  groupAliasesByNode,
+  scoreSearchEntry,
+} from './lib/searchIndex.js'
 
 const registry = ref({
   site: {
-    title: '多书知识站',
+    title: 'Knowledge Library',
     shortTitle: 'Book Hub',
     creatorLabel: 'Knowledge Library',
-    creatorName: '林子-心智进化之路',
-    footerNote: '复杂世界和复杂人性的同行翻译者',
+    creatorName: 'Product Ops Core',
+    footerNote: 'Thought, Learning, and Growth Playground',
   },
   books: [],
   topics: [],
@@ -243,6 +352,10 @@ const currentBookData = ref(null)
 const currentTopicSlug = ref('')
 const currentTopicData = ref(null)
 const currentThinkerId = ref('')
+const currentLearningPathId = ref('')
+const currentProblemCaseId = ref('')
+const currentEventLensId = ref('')
+const currentCapabilityRoleId = ref('')
 const routeLoading = ref(true)
 const routeError = ref('')
 
@@ -258,10 +371,24 @@ const historyStack = ref([])
 let routeToken = 0
 let globalSearchPromise = null
 
+const toolViewLabels = {
+  eventLens: 'Event Lens',
+  contentOps: 'Content Ops',
+  capabilityPaths: 'Capability Paths',
+  thoughtPartner: 'Thought Partner',
+  problemLab: 'Problem Lab',
+  learningPaths: 'Learning Paths',
+  spaceBrowser: 'Space Browser',
+  grayBooks: '50 Gray Books',
+  mindsetTrapDiagnostic: 'Mindset Trap Diagnostic',
+  leadershipMindsetAssessment: 'Leadership Mindset Assessment',
+  thinkerProfile: 'Thinker Profile',
+}
+
 const footerSite = computed(() => currentBookData.value?.SITE || registry.value.site)
 const hasBookContext = computed(() => Boolean(currentBookData.value))
 const hasTopicContext = computed(() => Boolean(currentTopicData.value))
-const hasToolContext = computed(() => view.value === 'thoughtPartner' || view.value === 'thinkerProfile')
+const hasToolContext = computed(() => Boolean(toolViewLabels[view.value]))
 const sidebarVisible = computed(() => hasBookContext.value)
 const resolvedSearchScope = computed(() => {
   if (!hasBookContext.value) return 'global'
@@ -269,17 +396,17 @@ const resolvedSearchScope = computed(() => {
 })
 const searchPlaceholder = computed(() => {
   if (resolvedSearchScope.value === 'global') {
-    return registry.value.site?.searchPlaceholder || '搜索书名、主题、章节、概念、方法、场景…'
+    return registry.value.site?.searchPlaceholder || 'Search across books, tools, and topics'
   }
-  return currentBookData.value?.SITE?.searchPlaceholder || '搜索当前书内容…'
+  return currentBookData.value?.SITE?.searchPlaceholder || 'Search inside the current context'
 })
 const searchLoading = computed(() => resolvedSearchScope.value === 'global' && globalSearchLoading.value)
 const searchEmptyText = computed(() => {
   if (!searchQuery.value) return ''
   if (resolvedSearchScope.value === 'global') {
-    return `没有找到和“${searchQuery.value}”相关的全站内容`
+    return `No result for "${searchQuery.value}" in global library`
   }
-  return `没有找到和“${searchQuery.value}”相关的当前书节点`
+  return `No result for "${searchQuery.value}" in current context`
 })
 const brandKicker = computed(() => {
   if (hasBookContext.value) return currentBookData.value?.SITE?.creatorLabel || 'Book Site'
@@ -294,8 +421,8 @@ const brandName = computed(() => {
   if (hasTopicContext.value) {
     return currentTopicData.value?.shortTitle || currentTopicData.value?.title || 'Topic'
   }
-  if (hasToolContext.value) return '思想伙伴选配器'
-  return registry.value.site?.shortTitle || registry.value.site?.title || '多书知识站'
+  if (hasToolContext.value) return toolViewLabels[view.value]
+  return registry.value.site?.shortTitle || registry.value.site?.title || 'Knowledge Library'
 })
 
 const aliasesByNode = computed(() => groupAliasesByNode(currentBookData.value?.ALIAS_MAP || {}))
@@ -306,7 +433,11 @@ const searchResults = computed(() => {
 
   const entries = resolvedSearchScope.value === 'global'
     ? globalSearchIndex.value
-    : buildCurrentBookSearchEntries()
+    : buildCurrentBookSearchEntries({
+      bookData: currentBookData.value,
+      slug: currentSlug.value,
+      aliasGroups: aliasesByNode.value,
+    })
 
   return entries
     .map((entry) => ({ entry, score: scoreSearchEntry(entry, query) }))
@@ -338,147 +469,6 @@ watch(hasBookContext, (value, previous) => {
     searchScope.value = 'global'
   }
 })
-
-function groupAliasesByNode(aliasMap = {}) {
-  const grouped = {}
-  for (const [alias, nodeId] of Object.entries(aliasMap)) {
-    if (!grouped[nodeId]) grouped[nodeId] = []
-    grouped[nodeId].push(alias)
-  }
-  return grouped
-}
-
-function normalizeSearchText(...parts) {
-  return parts.filter(Boolean).join(' ').toLowerCase()
-}
-
-function buildNodeSearchEntry({ slug, bookTitle, bookShortTitle, author, node, aliases = [], nodeTypeMeta = {}, context = '' }) {
-  const meta = nodeTypeMeta[node.type] || {}
-  return {
-    key: `node:${slug}:${node.id}`,
-    kind: 'node',
-    slug,
-    nodeId: node.id,
-    title: node.id,
-    tagline: node.tagline || '',
-    context,
-    type: node.type,
-    typeLabel: meta.label || node.type,
-    typeColor: meta.color || '#7f8790',
-    searchText: normalizeSearchText(
-      node.id,
-      node.tagline,
-      aliases.join(' '),
-      bookTitle,
-      bookShortTitle,
-      author,
-      context,
-    ),
-  }
-}
-
-function buildBookSearchEntry(book, bundle) {
-  const title = book.title || bundle?.SITE?.title || book.slug
-  const context = [book.author, book.primaryCategory].filter(Boolean).join(' · ')
-  return {
-    key: `book:${book.slug}`,
-    kind: 'book',
-    slug: book.slug,
-    title,
-    tagline: book.description || bundle?.SITE?.description || '',
-    context,
-    type: 'book',
-    typeLabel: '书籍',
-    typeColor: '#bf6f3f',
-    searchText: normalizeSearchText(
-      title,
-      book.shortTitle,
-      book.author,
-      book.primaryCategory,
-      book.secondaryCategory,
-      book.description,
-      bundle?.SITE?.subtitle,
-      bundle?.SITE?.description,
-    ),
-  }
-}
-
-function buildTopicSearchEntry(topic) {
-  return {
-    key: `topic:${topic.slug}`,
-    kind: 'topic',
-    slug: topic.slug,
-    title: topic.title,
-    tagline: topic.subtitle || topic.description || '',
-    context: [topic.phaseLabel, ...(topic.tags || []).slice(0, 2)].filter(Boolean).join(' · '),
-    type: 'topic',
-    typeLabel: '专题',
-    typeColor: '#8a5a44',
-    searchText: normalizeSearchText(
-      topic.title,
-      topic.subtitle,
-      topic.description,
-      topic.phaseLabel,
-      ...(topic.tags || []),
-    ),
-  }
-}
-
-function buildToolSearchEntry(tool) {
-  return {
-    key: `tool:${tool.slug}`,
-    kind: 'tool',
-    slug: tool.slug,
-    title: tool.title,
-    tagline: tool.subtitle || tool.description || '',
-    context: [tool.phaseLabel, ...(tool.tags || []).slice(0, 2)].filter(Boolean).join(' · '),
-    type: 'tool',
-    typeLabel: '工具',
-    typeColor: '#2f6f73',
-    searchText: normalizeSearchText(
-      tool.title,
-      tool.subtitle,
-      tool.description,
-      tool.phaseLabel,
-      ...(tool.tags || []),
-    ),
-  }
-}
-
-function buildCurrentBookSearchEntries() {
-  if (!currentBookData.value) return []
-  const bookTitle = currentBookData.value?.SITE?.title || currentBookData.value?.SITE?.shortTitle || ''
-  return currentBookData.value.NODES.map((node) =>
-    buildNodeSearchEntry({
-      slug: currentSlug.value,
-      bookTitle,
-      node,
-      aliases: aliasesByNode.value[node.id] || [],
-      nodeTypeMeta: currentBookData.value?.NODE_TYPE_META || {},
-    }),
-  )
-}
-
-function scoreSearchEntry(entry, query) {
-  if (!entry.searchText.includes(query)) return 0
-
-  const title = entry.title.toLowerCase()
-  const tagline = entry.tagline.toLowerCase()
-  const context = (entry.context || '').toLowerCase()
-  let score = entry.kind === 'book' ? 18 : 0
-
-  if (title === query) score += 140
-  else if (title.startsWith(query)) score += 96
-  else if (title.includes(query)) score += 64
-
-  if (tagline.startsWith(query)) score += 30
-  else if (tagline.includes(query)) score += 16
-
-  if (context.startsWith(query)) score += 12
-  else if (context.includes(query)) score += 6
-
-  return score + 1
-}
 
 async function ensureGlobalSearchIndex() {
   if (globalSearchIndex.value.length > 0) return globalSearchIndex.value
@@ -524,7 +514,7 @@ async function ensureGlobalSearchIndex() {
             node,
             aliases: aliasGroups[node.id] || [],
             nodeTypeMeta: bundle.NODE_TYPE_META || {},
-            context: `《${book.title || bundle.SITE?.title || book.slug}》`,
+            context: `${book.title || bundle.SITE?.title || book.slug}`,
           }),
         )
       }
@@ -553,102 +543,37 @@ function scheduleGlobalSearchWarmup() {
   window.setTimeout(warmup, 280)
 }
 
-function decodeSegment(value) {
-  try {
-    return decodeURIComponent(value)
-  } catch {
-    return value
-  }
-}
-
-function parseRoute(pathname) {
-  const normalized = pathname.replace(/\/+$/, '') || '/'
-  if (normalized === '/' || normalized === '/books') {
-    return { view: 'library', slug: '', nodeId: null }
-  }
-
-  if (normalized === '/tools/thought-partner') {
-    return { view: 'thoughtPartner', slug: '', nodeId: null }
-  }
-
-  const thinkerMatch = normalized.match(/^\/tools\/thought-partner\/thinkers\/([^/]+)$/)
-  if (thinkerMatch) {
-    return { view: 'thinkerProfile', slug: decodeSegment(thinkerMatch[1]), nodeId: null }
-  }
-
-  const topicMatch = normalized.match(/^\/topics\/([^/]+)$/)
-  if (topicMatch) {
-    return {
-      view: 'topic',
-      slug: decodeSegment(topicMatch[1]),
-      nodeId: null,
-    }
-  }
-
-  const noteMatch = normalized.match(/^\/books\/([^/]+)\/note\/(.+)$/)
-  if (noteMatch) {
-    return {
-      view: 'reader',
-      slug: decodeSegment(noteMatch[1]),
-      nodeId: decodeSegment(noteMatch[2]),
-    }
-  }
-
-  const graphMatch = normalized.match(/^\/books\/([^/]+)\/graph$/)
-  if (graphMatch) {
-    return {
-      view: 'graph',
-      slug: decodeSegment(graphMatch[1]),
-      nodeId: null,
-    }
-  }
-
-  const bookMatch = normalized.match(/^\/books\/([^/]+)$/)
-  if (bookMatch) {
-    return {
-      view: 'home',
-      slug: decodeSegment(bookMatch[1]),
-      nodeId: null,
-    }
-  }
-
-  return { view: 'library', slug: '', nodeId: null }
-}
-
-function routeToUrl(targetView, slug, nodeId) {
-  if (targetView === 'thoughtPartner') return '/tools/thought-partner'
-  if (targetView === 'thinkerProfile') return `/tools/thought-partner/thinkers/${encodeURIComponent(slug)}`
-  if (!slug || targetView === 'library') return '/books'
-  const safeSlug = encodeURIComponent(slug)
-  if (targetView === 'topic') return `/topics/${safeSlug}`
-  if (targetView === 'graph') return `/books/${safeSlug}/graph`
-  if (targetView === 'reader' && nodeId) return `/books/${safeSlug}/note/${encodeURIComponent(nodeId)}`
-  return `/books/${safeSlug}`
-}
-
-function resolveNodeId(bookData, nodeId) {
-  if (!nodeId || !bookData) return null
-  if (bookData.FILE_MAP[nodeId]) return nodeId
-  return bookData.ALIAS_MAP[nodeId] || nodeId
-}
-
 async function applyRoute(route, { replaceHistory = false } = {}) {
   const token = ++routeToken
   routeLoading.value = true
   routeError.value = ''
 
   try {
-    if (route.view === 'thoughtPartner') {
+    if (
+      route.view === 'thoughtPartner'
+      || route.view === 'eventLens'
+      || route.view === 'contentOps'
+      || route.view === 'capabilityPaths'
+      || route.view === 'problemLab'
+      || route.view === 'learningPaths'
+      || route.view === 'grayBooks'
+      || route.view === 'mindsetTrapDiagnostic'
+      || route.view === 'leadershipMindsetAssessment'
+    ) {
       currentSlug.value = ''
       currentBookData.value = null
       currentTopicSlug.value = ''
       currentTopicData.value = null
       currentThinkerId.value = ''
-      view.value = 'thoughtPartner'
+      currentLearningPathId.value = route.view === 'learningPaths' ? route.slug : ''
+      currentProblemCaseId.value = route.view === 'problemLab' ? route.slug : ''
+      currentEventLensId.value = route.view === 'eventLens' ? route.slug : ''
+      currentCapabilityRoleId.value = route.view === 'capabilityPaths' ? route.slug : ''
+      view.value = route.view
       activeNode.value = null
       searchScope.value = 'global'
       if (replaceHistory) {
-        window.history.replaceState({ view: 'thoughtPartner' }, '', '/tools/thought-partner')
+        window.history.replaceState({ view: route.view, slug: route.slug }, '', routeToUrl(route.view, route.slug))
       }
       return
     }
@@ -659,6 +584,10 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       currentTopicSlug.value = ''
       currentTopicData.value = null
       currentThinkerId.value = route.slug
+      currentLearningPathId.value = ''
+      currentProblemCaseId.value = ''
+      currentEventLensId.value = ''
+      currentCapabilityRoleId.value = ''
       view.value = 'thinkerProfile'
       activeNode.value = null
       searchScope.value = 'global'
@@ -675,6 +604,10 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       currentTopicSlug.value = ''
       currentTopicData.value = null
       currentThinkerId.value = ''
+      currentLearningPathId.value = ''
+      currentProblemCaseId.value = ''
+      currentEventLensId.value = ''
+      currentCapabilityRoleId.value = ''
       view.value = 'library'
       activeNode.value = null
       searchScope.value = 'global'
@@ -693,6 +626,10 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       currentTopicSlug.value = route.slug
       currentTopicData.value = topicData
       currentThinkerId.value = ''
+      currentLearningPathId.value = ''
+      currentProblemCaseId.value = ''
+      currentEventLensId.value = ''
+      currentCapabilityRoleId.value = ''
       view.value = 'topic'
       activeNode.value = null
       searchScope.value = 'global'
@@ -712,6 +649,10 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
     currentTopicSlug.value = ''
     currentTopicData.value = null
     currentThinkerId.value = ''
+    currentLearningPathId.value = ''
+    currentProblemCaseId.value = ''
+    currentEventLensId.value = ''
+    currentCapabilityRoleId.value = ''
     view.value = route.view
     activeNode.value = route.view === 'reader' ? resolveNodeId(bookData, route.nodeId) : null
     if (searchScope.value !== 'global') {
@@ -732,9 +673,13 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
     currentBookData.value = null
     currentTopicSlug.value = ''
     currentTopicData.value = null
+    currentLearningPathId.value = ''
+    currentProblemCaseId.value = ''
+    currentEventLensId.value = ''
+    currentCapabilityRoleId.value = ''
     view.value = 'library'
     activeNode.value = null
-    routeError.value = `“${route.slug}” 的多书站数据还没有准备好，或者静态文件路径还没有接通。`
+    routeError.value = `Unable to load ${route.slug}, it may be temporary or no route data was found.`
   } finally {
     if (token === routeToken) {
       routeLoading.value = false
@@ -794,6 +739,60 @@ async function goThoughtPartner() {
   await goToRoute('thoughtPartner', '')
 }
 
+async function goEventLens(presetId = '') {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('eventLens', presetId)
+}
+
+async function goContentOps() {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('contentOps', '')
+}
+
+async function goCapabilityPaths(roleId = '') {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('capabilityPaths', roleId)
+}
+
+async function goProblemLab(caseId = '') {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('problemLab', caseId)
+}
+
+async function goLearningPaths(pathId = '') {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('learningPaths', pathId)
+}
+
+async function goSpaceBrowser() {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('spaceBrowser', '')
+}
+
+async function goGrayBooks() {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('grayBooks', '')
+}
+
+async function goMindsetTrapDiagnostic() {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('mindsetTrapDiagnostic', '')
+}
+
+async function goLeadershipMindsetAssessment() {
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('leadershipMindsetAssessment', '')
+}
+
 async function onOpenThinker(thinkerId) {
   if (!thinkerId) return
   historyStack.value = []
@@ -836,8 +835,60 @@ async function onOpenTopic(slug) {
 }
 
 async function onOpenTool(slug) {
-  if (slug !== 'thought-partner') return
-  await goThoughtPartner()
+  if (slug === 'thought-partner') {
+    await goThoughtPartner()
+    return
+  }
+  if (slug === 'event-lens') {
+    await goEventLens()
+    return
+  }
+  if (slug === 'content-ops') {
+    await goContentOps()
+    return
+  }
+  if (slug === 'problem-lab') {
+    await goProblemLab()
+    return
+  }
+  if (slug === 'capability-paths') {
+    await goCapabilityPaths()
+    return
+  }
+  if (slug === 'learning-paths') {
+    await goLearningPaths()
+    return
+  }
+  if (slug === 'space-browser') {
+    await goSpaceBrowser()
+    return
+  }
+  if (slug === 'gray-books') {
+    await goGrayBooks()
+    return
+  }
+  if (slug === 'mindset-trap-diagnostic') {
+    await goMindsetTrapDiagnostic()
+    return
+  }
+  if (slug === 'leadership-mindset-assessment') {
+    await goLeadershipMindsetAssessment()
+  }
+}
+
+async function onOpenProblemCaseFromEvent(caseId) {
+  if (!caseId) return
+  await goProblemLab(caseId)
+}
+
+async function onSelectLearningPath(pathId) {
+  if (!pathId) return
+  await goToRoute('learningPaths', pathId)
+}
+
+async function onSelectProblemCase(caseId) {
+  if (!caseId) return
+  await goToRoute('problemLab', caseId)
 }
 
 async function onOpenNode(payload) {
@@ -985,15 +1036,28 @@ html, body, #app {
   --active-bg: rgba(32, 79, 103, 0.12);
   --shadow-sm: 0 4px 16px rgba(17, 27, 34, 0.06);
   --shadow-md: 0 12px 36px rgba(17, 27, 34, 0.1);
+  --radius-card: 8px;
+  --radius-panel: 12px;
+  --radius-control: 8px;
+  --radius-pill: 999px;
 
   --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Songti SC", serif;
   --font-sans: "Aptos", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
+html,
+body,
+#app {
+  width: 100%;
+  max-width: none;
+}
+
 body {
+  margin: 0;
   font-family: var(--font-sans);
   background: radial-gradient(circle at top left, #f7f5f0 0%, #edf1f1 55%, #e6ecec 100%);
   color: var(--text-primary);
+  text-align: start;
 }
 </style>
 
@@ -1002,6 +1066,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100dvh;
+  text-align: start;
 }
 
 .topbar {
@@ -1020,7 +1085,7 @@ body {
   width: 34px;
   height: 34px;
   border: 1px solid var(--border-default);
-  border-radius: 10px;
+  border-radius: var(--radius-control);
   background: var(--bg-elevated);
   color: var(--text-secondary);
   cursor: pointer;
@@ -1067,6 +1132,7 @@ body {
   align-items: center;
   gap: 4px;
   margin-left: 6px;
+  min-width: 0;
 }
 
 .nav-btn {
@@ -1074,7 +1140,7 @@ body {
   background: transparent;
   color: var(--text-tertiary);
   padding: 8px 12px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   font-size: 13px;
   cursor: pointer;
   transition: color 0.18s ease, background 0.18s ease;
@@ -1103,7 +1169,7 @@ body {
   display: inline-flex;
   align-items: center;
   padding: 3px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   border: 1px solid var(--border-default);
   background: rgba(255, 255, 255, 0.72);
 }
@@ -1113,7 +1179,7 @@ body {
   background: transparent;
   color: var(--text-muted);
   padding: 6px 10px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   font-size: 11px;
   cursor: pointer;
   transition: background 0.18s ease, color 0.18s ease;
@@ -1141,7 +1207,7 @@ body {
   width: 280px;
   padding: 10px 14px 10px 34px;
   border: 1px solid var(--border-default);
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--bg-elevated);
   color: var(--text-primary);
   font-size: 12px;
@@ -1162,7 +1228,7 @@ body {
   max-width: min(360px, calc(100vw - 28px));
   background: var(--bg-elevated);
   border: 1px solid var(--border-default);
-  border-radius: 16px;
+  border-radius: var(--radius-panel);
   box-shadow: var(--shadow-md);
   overflow: hidden;
   z-index: 50;
@@ -1286,7 +1352,7 @@ body {
 
 .back-btn-lg {
   border: 1px solid var(--border-default);
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--bg-elevated);
   color: var(--text-secondary);
   padding: 8px 16px;
@@ -1341,6 +1407,10 @@ body {
     gap: 10px;
   }
 
+  .icon-btn.ghost {
+    display: none;
+  }
+
   .brand-kicker,
   .node-count,
   .footer-dot,
@@ -1353,8 +1423,23 @@ body {
     font-size: 16px;
   }
 
-  .search-input {
-    width: 154px;
+  .nav-tabs {
+    flex: 1;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .nav-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-btn {
+    flex: 0 0 auto;
+    padding: 8px 10px;
+  }
+
+  .topbar-right {
+    display: none;
   }
 
   .search-dropdown {
@@ -1376,3 +1461,6 @@ body {
   }
 }
 </style>
+
+
+

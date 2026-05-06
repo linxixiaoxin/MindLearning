@@ -1,0 +1,121 @@
+{
+  "book": {
+    "slug": "book-8a65fd4d02",
+    "title": "沧浪之水 (阎真)",
+    "shortTitle": "沧浪之水",
+    "author": "未标注",
+    "primaryCategory": "文史哲政治经济社会",
+    "secondaryCategory": "通用知识资产",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/12_文史哲政治经济社会/沧浪之水 (阎真)/assets",
+    "structuredJson": "01_sources/01_books/12_文史哲政治经济社会/沧浪之水 (阎真)/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/12_文史哲政治经济社会/沧浪之水 (阎真)/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/12_文史哲政治经济社会/沧浪之水 (阎真)/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/12_文史哲政治经济社会/沧浪之水 (阎真)/assets/视觉钩子.md",
+    "knTable": "01_sources/01_books/12_文史哲政治经济社会/沧浪之水 (阎真)/assets/整本书K卡_N卡总表.md"
+  },
+  "builder": {
+    "profile": "public_structured_nk_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": true,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ]
+  },
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_source_repair",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
+    ],
+    "overrideDir": "configs/public_overrides/book-8a65fd4d02",
+    "publicSanity": {
+      "blockerCount": 14,
+      "status": "needs_source_repair",
+      "samples": [
+        {
+          "field": "book_skeleton.detected_headings[3]",
+          "sample": "25岁前一定要读的25这本书"
+        },
+        {
+          "field": "book_skeleton.detected_headings[6]",
+          "sample": "有生之年,你一定要看的25部外国纯文学名著"
+        },
+        {
+          "field": "book_skeleton.detected_headings[7]",
+          "sample": "有生之年,你一定要看的20部中国现当代名著"
+        },
+        {
+          "field": "book_skeleton.detected_headings[8]",
+          "sample": "美国亚马逊编辑推荐的一生必读书单100本"
+        },
+        {
+          "field": "k_cards[4].title",
+          "sample": "25岁前一定要读的25这本书"
+        },
+        {
+          "field": "theme_units[3].title",
+          "sample": "25岁前一定要读的25这本书"
+        },
+        {
+          "field": "theme_units[3].focus",
+          "sample": "围绕“25岁前一定要读的25这本书”梳理这本书的核心对象、概念边界和现实调用方式。"
+        },
+        {
+          "field": "chapter_map[3].section_name",
+          "sample": "25岁前一定要读的25这本书"
+        }
+      ]
+    }
+  },
+  "site": {
+    "subtitle": "《沧浪之水 (阎真)》如何提供可复用的概念、问题和场景解释。",
+    "description": "《沧浪之水 (阎真)》的 public_structured_nk 基础公开层配置。",
+    "heroOverline": "BOOK · THINKING MAP",
+    "heroTitleLines": [
+      "沧浪之水",
+      "《沧浪之水 (阎真)》如何提供可复用的概念、问题和场景解释。"
+    ],
+    "searchPlaceholder": "搜索《沧浪之水》问题、概念、章节、方法、场景…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书摘要",
+      "全书结构"
+    ],
+    "quickLinks": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ],
+    "journeyTitle": "基础公开阅读路径",
+    "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景展开。",
+    "sectionOrder": [
+      "summary",
+      "questions",
+      "chapters",
+      "concepts",
+      "methods",
+      "scenarios",
+      "extensions"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/book-8a65fd4d02/chapter-images/overview.svg",
+    "chapterImageMode": "overview",
+    "chapterImageOrder": [],
+    "topicImageMap": {},
+    "fallbackImage": "/books/book-8a65fd4d02/chapter-images/overview.svg"
+  }
+}

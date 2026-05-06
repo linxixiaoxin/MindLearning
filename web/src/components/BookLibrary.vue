@@ -34,115 +34,60 @@
         </div>
       </section>
 
-      <section v-if="tools.length" class="tool-section">
-        <div class="section-head">
+      <section class="book-section">
+        <div class="section-head library-head">
           <div>
-            <div class="section-kicker">{{ tools.length }} 个实验</div>
-            <h2 class="section-title">产品实验</h2>
+            <div class="section-kicker">{{ filteredBooks.length }} / {{ books.length }} 本书</div>
+            <h2 class="section-title">阅读地图</h2>
+          </div>
+
+          <div class="filter-rail" aria-label="书籍筛选">
+            <button
+              v-for="filter in bookFilters"
+              :key="filter.key"
+              class="filter-chip"
+              :class="{ active: selectedFilter === filter.key }"
+              :aria-pressed="selectedFilter === filter.key"
+              @click="selectedFilter = filter.key"
+            >
+              <span>{{ filter.label }}</span>
+              <span class="filter-count">{{ filter.count }}</span>
+            </button>
           </div>
         </div>
 
-        <div class="tool-grid">
-          <article v-for="tool in tools" :key="tool.slug" class="tool-card">
-            <div class="tool-copy">
-              <div class="tool-meta">
-                <span class="tool-status">{{ tool.phaseLabel || statusLabel(tool.status) }}</span>
-              </div>
-
-              <h3 class="tool-title">
-                <span>{{ tool.title }}</span>
-                <span v-if="tool.subtitle" class="tool-subtitle">{{ tool.subtitle }}</span>
-              </h3>
-              <p class="tool-desc">{{ tool.description }}</p>
-
-              <div v-if="tool.tags?.length" class="topic-tags">
-                <span v-for="tag in tool.tags" :key="tag" class="topic-tag">{{ tag }}</span>
-              </div>
+        <div v-if="spotlightBook" class="book-showcase">
+          <article class="featured-book">
+            <div v-if="spotlightBook.coverImage" class="featured-cover-wrap">
+              <img :src="spotlightBook.coverImage" :alt="`${spotlightBook.title} 封面图`" class="book-cover" />
+            </div>
+            <div v-else class="featured-cover-wrap cover-fallback">
+              <span>{{ spotlightBook.shortTitle || spotlightBook.title }}</span>
             </div>
 
-            <div class="book-actions">
-              <button class="primary-btn" @click="$emit('openTool', tool.slug)">打开实验</button>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section v-if="topics.length" class="topic-section">
-        <div class="section-head">
-          <div>
-            <div class="section-kicker">{{ topics.length }} 张专题</div>
-            <h2 class="section-title">专题推荐</h2>
-          </div>
-        </div>
-
-        <div class="topic-grid">
-          <article v-for="topic in topics" :key="topic.slug" class="topic-card">
-            <div class="topic-copy">
-              <div class="topic-meta">
-                <span class="topic-status">{{ topic.phaseLabel || statusLabel(topic.status) }}</span>
-              </div>
-
-              <h3 class="topic-title">
-                <span>{{ topic.title }}</span>
-                <span v-if="topic.subtitle" class="topic-subtitle">{{ topic.subtitle }}</span>
-              </h3>
-              <p class="topic-desc">{{ topic.description }}</p>
-
-              <div v-if="topic.tags?.length" class="topic-tags">
-                <span v-for="tag in topic.tags" :key="tag" class="topic-tag">{{ tag }}</span>
-              </div>
-
-              <div v-if="topic.relatedBooks?.length" class="topic-footnote">
-                已关联 {{ topic.relatedBooks.length }} 本已接入图书
-              </div>
-            </div>
-
-            <div class="book-actions">
-              <button class="primary-btn" @click="$emit('openTopic', topic.slug)">打开专题页</button>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section
-        v-for="group in groupedBooks"
-        :key="group.category"
-        class="category-section"
-      >
-        <div class="section-head">
-          <div>
-            <div class="section-kicker">{{ group.books.length }} 本书</div>
-            <h2 class="section-title">{{ group.category }}</h2>
-          </div>
-        </div>
-
-        <div class="book-grid">
-          <article v-for="book in group.books" :key="book.slug" class="book-card">
-            <div v-if="book.coverImage" class="book-cover-wrap">
-              <img :src="book.coverImage" :alt="`${book.title} 封面图`" class="book-cover" />
-            </div>
-
-            <div class="book-copy">
+            <div class="featured-copy">
               <div class="book-meta">
-                <span class="book-author">{{ book.author || '未知作者' }}</span>
-                <span class="book-status">{{ statusLabel(book.status) }}</span>
+                <span class="book-author">{{ spotlightBook.author || '未知作者' }}</span>
+                <span class="book-status">{{ statusLabel(spotlightBook.status) }}</span>
               </div>
 
-              <h3 class="book-title">{{ book.title }}</h3>
-              <p class="book-desc">{{ book.description || '这本书的数据已进入多书站，可直接进入阅读地图。' }}</p>
+              <h3 class="featured-title">{{ spotlightBook.title }}</h3>
+              <p class="featured-desc">
+                {{ spotlightBook.description || '这本书的数据已进入多书站，可直接进入阅读地图。' }}
+              </p>
 
-              <div v-if="book.stats?.length" class="book-stats">
-                <span v-for="stat in book.stats" :key="stat.label" class="book-stat">
+              <div v-if="spotlightBook.stats?.length" class="book-stats">
+                <span v-for="stat in spotlightBook.stats.slice(0, 4)" :key="stat.label" class="book-stat">
                   {{ stat.label }} {{ stat.value }}
                 </span>
               </div>
 
-              <div v-if="book.entryTopics?.length" class="book-entry-topics">
+              <div v-if="spotlightBook.entryTopics?.length" class="book-entry-topics">
                 <div class="book-topic-kicker">专题推荐入口</div>
                 <div class="book-topic-list">
                   <button
-                    v-for="topic in resolveBookTopics(book.entryTopics)"
-                    :key="`${book.slug}-${topic.slug}`"
+                    v-for="topic in resolveBookTopics(spotlightBook.entryTopics).slice(0, 3)"
+                    :key="`${spotlightBook.slug}-${topic.slug}`"
                     class="book-topic-link"
                     @click="$emit('openTopic', topic.slug)"
                   >
@@ -150,11 +95,104 @@
                   </button>
                 </div>
               </div>
-            </div>
 
+              <div class="book-actions">
+                <button class="primary-btn" @click="$emit('navigate', spotlightBook.slug)">进入阅读地图</button>
+                <button class="ghost-btn" @click="$emit('showGraph', spotlightBook.slug)">查看图谱</button>
+              </div>
+            </div>
+          </article>
+
+          <div v-if="focusBooks.length" class="focus-grid">
+            <article v-for="book in focusBooks" :key="book.slug" class="focus-card">
+              <div class="book-meta">
+                <span class="book-author">{{ book.author || '未知作者' }}</span>
+                <span class="book-status">{{ statusLabel(book.status) }}</span>
+              </div>
+              <h3 class="focus-title">{{ book.shortTitle || book.title }}</h3>
+              <p class="focus-desc">{{ book.description || '这本书的数据已进入多书站。' }}</p>
+              <div v-if="book.entryTopics?.length" class="book-topic-list compact-list">
+                <button
+                  v-for="topic in resolveBookTopics(book.entryTopics).slice(0, 2)"
+                  :key="`${book.slug}-${topic.slug}`"
+                  class="book-topic-link"
+                  @click="$emit('openTopic', topic.slug)"
+                >
+                  {{ topic.shortTitle || topic.title || topic.slug }}
+                </button>
+              </div>
+              <div class="focus-actions">
+                <button class="primary-btn compact" @click="$emit('navigate', book.slug)">阅读地图</button>
+                <button class="ghost-btn compact" @click="$emit('showGraph', book.slug)">图谱</button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div v-if="shelfBooks.length" class="book-shelf">
+          <article v-for="book in shelfBooks" :key="book.slug" class="shelf-row">
+            <div class="shelf-main">
+              <div class="shelf-meta">
+                <span>{{ book.primaryCategory || '未分类' }}</span>
+                <span>{{ statusLabel(book.status) }}</span>
+              </div>
+              <h3 class="shelf-title">{{ book.shortTitle || book.title }}</h3>
+              <p class="shelf-desc">{{ book.author || '未知作者' }} · {{ book.description || '可进入阅读地图。' }}</p>
+              <div v-if="book.stats?.length" class="shelf-stats">
+                <span v-for="stat in book.stats.slice(0, 2)" :key="stat.label">{{ stat.label }} {{ stat.value }}</span>
+              </div>
+            </div>
+            <div class="shelf-actions">
+              <button class="primary-btn compact" @click="$emit('navigate', book.slug)">进入</button>
+              <button class="ghost-btn compact" @click="$emit('showGraph', book.slug)">图谱</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section v-if="tools.length || topics.length" class="explore-section">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">{{ tools.length }} 个实验 · {{ topics.length }} 张专题</div>
+            <h2 class="section-title">继续探索</h2>
+          </div>
+        </div>
+
+        <div class="explore-grid">
+          <article v-for="tool in tools" :key="tool.slug" class="explore-card tool-entry">
+            <div class="topic-meta">
+              <span class="tool-status">{{ tool.phaseLabel || statusLabel(tool.status) }}</span>
+            </div>
+            <h3 class="explore-title">
+              <span>{{ tool.title }}</span>
+              <span v-if="tool.subtitle" class="explore-subtitle">{{ tool.subtitle }}</span>
+            </h3>
+            <p class="explore-desc">{{ tool.description }}</p>
+            <div v-if="tool.tags?.length" class="topic-tags">
+              <span v-for="tag in tool.tags.slice(0, 3)" :key="tag" class="topic-tag">{{ tag }}</span>
+            </div>
             <div class="book-actions">
-              <button class="primary-btn" @click="$emit('navigate', book.slug)">进入阅读地图</button>
-              <button class="ghost-btn" @click="$emit('showGraph', book.slug)">查看图谱</button>
+              <button class="primary-btn compact" @click="$emit('openTool', tool.slug)">打开实验</button>
+            </div>
+          </article>
+
+          <article v-for="topic in topics" :key="topic.slug" class="explore-card topic-entry">
+            <div class="topic-meta">
+              <span class="topic-status">{{ topic.phaseLabel || statusLabel(topic.status) }}</span>
+            </div>
+            <h3 class="explore-title">
+              <span>{{ topic.title }}</span>
+              <span v-if="topic.subtitle" class="explore-subtitle">{{ topic.subtitle }}</span>
+            </h3>
+            <p class="explore-desc">{{ topic.description }}</p>
+            <div v-if="topic.tags?.length" class="topic-tags">
+              <span v-for="tag in topic.tags.slice(0, 3)" :key="tag" class="topic-tag">{{ tag }}</span>
+            </div>
+            <div v-if="topic.relatedBooks?.length" class="topic-footnote">
+              已关联 {{ topic.relatedBooks.length }} 本已接入图书
+            </div>
+            <div class="book-actions">
+              <button class="primary-btn compact" @click="$emit('openTopic', topic.slug)">打开专题</button>
             </div>
           </article>
         </div>
@@ -164,7 +202,8 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
+import { bookFilterRules, bookScore, matchesBookFilter, statusLabel } from '../lib/libraryDisplay.js'
 
 const props = defineProps({
   registry: {
@@ -175,6 +214,8 @@ const props = defineProps({
 
 defineEmits(['navigate', 'showGraph', 'openTopic', 'openTool'])
 
+const selectedFilter = ref('all')
+
 const site = computed(() => props.registry?.site || {})
 const books = computed(() => props.registry?.books || [])
 const topics = computed(() => props.registry?.topics || [])
@@ -182,25 +223,24 @@ const tools = computed(() => props.registry?.tools || [])
 const topicMap = computed(() => new Map(topics.value.map((topic) => [topic.slug, topic])))
 const liveCount = computed(() => books.value.filter((book) => book.status !== 'draft').length)
 const topicCount = computed(() => topics.value.length)
-const groupedBooks = computed(() => {
-  const groups = new Map()
-  for (const book of books.value) {
-    const category = book.primaryCategory || '未分类'
-    if (!groups.has(category)) groups.set(category, [])
-    groups.get(category).push(book)
-  }
-  return Array.from(groups.entries()).map(([category, groupBooks]) => ({
-    category,
-    books: groupBooks.sort((a, b) => a.title.localeCompare(b.title, 'zh-CN')),
-  }))
-})
-const categoryCount = computed(() => groupedBooks.value.length)
-
-function statusLabel(status) {
-  if (status === 'active') return '已接入'
-  if (status === 'draft') return '草稿'
-  return '准备中'
-}
+const categoryCount = computed(() => new Set(books.value.map((book) => book.primaryCategory || '未分类')).size)
+const bookFilters = computed(() =>
+  bookFilterRules
+    .map((filter) => ({
+      ...filter,
+      count: filter.key === 'all'
+        ? books.value.length
+        : books.value.filter((book) => matchesBookFilter(book, filter.key)).length,
+    }))
+    .filter((filter) => filter.key === 'all' || filter.count > 0),
+)
+const filteredBooks = computed(() => books.value.filter((book) => matchesBookFilter(book, selectedFilter.value)))
+const orderedBooks = computed(() =>
+  [...filteredBooks.value].sort((a, b) => bookScore(b) - bookScore(a) || a.title.localeCompare(b.title, 'zh-CN')),
+)
+const spotlightBook = computed(() => orderedBooks.value[0] || null)
+const focusBooks = computed(() => orderedBooks.value.slice(1, 5))
+const shelfBooks = computed(() => orderedBooks.value.slice(5))
 
 function resolveBookTopics(entryTopics = []) {
   return entryTopics
@@ -222,6 +262,7 @@ function resolveBookTopics(entryTopics = []) {
 .library-wrap {
   height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .library-wrap::-webkit-scrollbar {
@@ -237,45 +278,48 @@ function resolveBookTopics(entryTopics = []) {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px 72px;
+  overflow-x: hidden;
 }
 
 .library-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.8fr);
-  gap: 18px;
-  padding: 44px 0 26px;
+  gap: 14px;
+  padding: 28px 0 18px;
 }
 
 .hero-copy,
 .hero-panel,
-.category-section,
-.book-card {
+.featured-book,
+.focus-card,
+.shelf-row,
+.explore-card {
   border: 1px solid var(--border-default);
+  border-radius: 8px;
   box-shadow: var(--shadow-sm);
 }
 
 .hero-copy,
-.hero-panel,
-.category-section {
-  border-radius: 28px;
+.hero-panel {
   background: rgba(247, 245, 240, 0.92);
 }
 
 .hero-copy {
-  padding: 34px;
+  padding: 28px;
 }
 
 .hero-overline,
 .panel-kicker,
-.section-kicker {
+.section-kicker,
+.book-topic-kicker {
   font-size: 10px;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-muted);
 }
 
 .hero-title {
-  margin-top: 14px;
+  margin-top: 12px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -284,25 +328,35 @@ function resolveBookTopics(entryTopics = []) {
   line-height: 1.08;
 }
 
+.hero-title-line,
+.hero-desc,
+.section-title,
+.featured-title,
+.focus-title,
+.shelf-title,
+.explore-title {
+  overflow-wrap: anywhere;
+}
+
 .hero-title-line:first-child {
-  font-size: clamp(32px, 4vw, 46px);
+  font-size: clamp(30px, 3.4vw, 42px);
 }
 
 .hero-title-line:last-child {
-  font-size: clamp(18px, 2vw, 24px);
+  font-size: clamp(17px, 1.8vw, 22px);
   color: var(--accent);
 }
 
 .hero-desc {
-  margin-top: 16px;
+  margin-top: 14px;
   max-width: 700px;
   color: var(--text-secondary);
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 14px;
+  line-height: 1.75;
 }
 
 .hero-panel {
-  padding: 24px;
+  padding: 22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -312,58 +366,43 @@ function resolveBookTopics(entryTopics = []) {
   margin-top: 14px;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
+  gap: 10px;
 }
 
 .stat-card {
-  border-radius: 20px;
+  border-radius: 8px;
   border: 1px solid var(--border-default);
   background: rgba(255, 255, 255, 0.72);
-  padding: 18px 14px;
+  padding: 16px 12px;
   text-align: center;
 }
 
 .stat-value {
   font-family: var(--font-serif);
-  font-size: 28px;
+  font-size: 26px;
   color: var(--brand);
 }
 
 .stat-label {
-  margin-top: 6px;
+  margin-top: 4px;
   font-size: 12px;
   color: var(--text-tertiary);
 }
 
-.category-section {
-  margin-top: 20px;
-  padding: 24px;
-}
-
-.topic-section {
-  margin-top: 20px;
-  padding: 24px;
-  border: 1px solid var(--border-default);
-  border-radius: 28px;
-  background:
-    radial-gradient(circle at top right, rgba(191, 111, 63, 0.08) 0%, rgba(247, 245, 240, 0.94) 38%),
-    rgba(247, 245, 240, 0.92);
-  box-shadow: var(--shadow-sm);
-}
-
-.tool-section {
-  margin-top: 20px;
-  padding: 24px;
-  border: 1px solid var(--border-default);
-  border-radius: 28px;
-  background:
-    linear-gradient(135deg, rgba(32, 79, 103, 0.08), rgba(247, 245, 240, 0.96)),
-    rgba(247, 245, 240, 0.92);
-  box-shadow: var(--shadow-sm);
+.book-section,
+.explore-section {
+  margin-top: 22px;
 }
 
 .section-head {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
+}
+
+.library-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .section-title {
@@ -373,52 +412,61 @@ function resolveBookTopics(entryTopics = []) {
   color: var(--text-primary);
 }
 
-.book-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.topic-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.tool-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.book-card {
+.filter-rail {
   display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.78);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  max-width: 100%;
 }
 
-.topic-card {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  border-radius: 24px;
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   border: 1px solid var(--border-default);
-  background: rgba(255, 255, 255, 0.82);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--text-secondary);
+  padding: 8px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
 }
 
-.tool-card {
-  display: flex;
-  flex-direction: column;
+.filter-chip:hover,
+.filter-chip.active {
+  border-color: rgba(32, 79, 103, 0.28);
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+.filter-count {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.book-showcase {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.featured-book {
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr);
   overflow: hidden;
-  border-radius: 24px;
-  border: 1px solid var(--border-default);
   background: rgba(255, 255, 255, 0.84);
 }
 
-.book-cover-wrap {
-  aspect-ratio: 16 / 9;
+.featured-cover-wrap {
+  height: 300px;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
   overflow: hidden;
   background: rgba(32, 79, 103, 0.08);
 }
@@ -426,139 +474,97 @@ function resolveBookTopics(entryTopics = []) {
 .book-cover {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
-.book-copy {
-  padding: 18px 20px 10px;
-}
-
-.topic-copy {
-  padding: 18px 20px 10px;
-}
-
-.tool-copy {
-  padding: 18px 20px 10px;
-}
-
-.book-meta {
+.cover-fallback {
+  min-height: 220px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  padding: 24px;
+  color: var(--brand);
+  font-family: var(--font-serif);
+  font-size: 24px;
+  text-align: center;
+}
+
+.featured-copy {
+  padding: 22px 22px 18px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.book-meta,
+.topic-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
   font-size: 11px;
   color: var(--text-muted);
 }
 
-.book-status {
+.book-author {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.book-status,
+.topic-status,
+.tool-status {
   padding: 2px 8px;
-  border-radius: 999px;
+  border-radius: 8px;
   border: 1px solid var(--border-default);
   background: rgba(32, 79, 103, 0.08);
   color: var(--brand);
 }
 
-.topic-meta {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 11px;
-}
-
-.tool-meta {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 11px;
-}
-
 .topic-status {
-  padding: 2px 8px;
-  border-radius: 999px;
-  border: 1px solid rgba(191, 111, 63, 0.18);
+  border-color: rgba(191, 111, 63, 0.18);
   background: rgba(191, 111, 63, 0.08);
   color: var(--accent);
 }
 
-.tool-status {
-  padding: 2px 8px;
-  border-radius: 999px;
-  border: 1px solid rgba(32, 79, 103, 0.18);
-  background: rgba(32, 79, 103, 0.08);
-  color: var(--brand);
-}
-
-.book-title {
-  margin-top: 10px;
+.featured-title {
+  margin-top: 12px;
   font-family: var(--font-serif);
-  font-size: 22px;
+  font-size: 27px;
   color: var(--text-primary);
-  line-height: 1.3;
+  line-height: 1.25;
 }
 
-.topic-title {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-family: var(--font-serif);
-  font-size: 22px;
-  color: var(--text-primary);
-  line-height: 1.3;
+.featured-desc,
+.focus-desc,
+.shelf-desc,
+.explore-desc {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
 }
 
-.tool-title {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-family: var(--font-serif);
-  font-size: 22px;
-  color: var(--text-primary);
-  line-height: 1.3;
-}
-
-.topic-subtitle {
-  font-size: 16px;
-  color: var(--brand);
-}
-
-.tool-subtitle {
-  font-size: 16px;
-  color: var(--accent);
-}
-
-.book-desc {
+.featured-desc {
+  -webkit-line-clamp: 3;
   margin-top: 10px;
   color: var(--text-secondary);
   font-size: 14px;
-  line-height: 1.7;
-}
-
-.topic-desc {
-  margin-top: 10px;
-  color: var(--text-secondary);
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.tool-desc {
-  margin-top: 10px;
-  color: var(--text-secondary);
-  font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.72;
 }
 
 .book-stats {
-  margin-top: 12px;
+  margin-top: 14px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
 .book-stat {
-  padding: 4px 9px;
-  border-radius: 999px;
+  padding: 4px 8px;
+  border-radius: 8px;
   background: rgba(191, 111, 63, 0.08);
   color: var(--accent);
   font-size: 11px;
@@ -570,64 +576,51 @@ function resolveBookTopics(entryTopics = []) {
   border-top: 1px solid rgba(32, 79, 103, 0.08);
 }
 
-.book-topic-kicker {
-  font-size: 10px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.book-topic-list {
+.book-topic-list,
+.topic-tags {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.book-topic-link {
-  border-radius: 999px;
+.compact-list {
+  margin-top: 12px;
+}
+
+.book-topic-link,
+.topic-tag {
+  border-radius: 8px;
   border: 1px solid rgba(32, 79, 103, 0.14);
   background: rgba(32, 79, 103, 0.06);
   color: var(--brand);
-  padding: 6px 10px;
+  padding: 5px 8px;
   font-size: 11px;
+}
+
+.book-topic-link {
   cursor: pointer;
 }
 
-.topic-tags {
-  margin-top: 12px;
+.book-actions,
+.focus-actions,
+.shelf-actions {
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
 }
 
-.topic-tag {
-  padding: 4px 9px;
-  border-radius: 999px;
-  background: rgba(32, 79, 103, 0.08);
-  color: var(--brand);
-  font-size: 11px;
-}
-
-.topic-footnote {
-  margin-top: 14px;
-  color: var(--text-muted);
-  font-size: 11px;
-}
-
 .book-actions {
-  display: flex;
-  gap: 10px;
-  padding: 0 20px 20px;
   margin-top: auto;
+  padding-top: 18px;
 }
 
 .primary-btn,
 .ghost-btn {
-  border-radius: 999px;
-  padding: 10px 14px;
+  border-radius: 8px;
+  padding: 10px 13px;
   font-size: 13px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .primary-btn {
@@ -642,11 +635,168 @@ function resolveBookTopics(entryTopics = []) {
   color: var(--text-secondary);
 }
 
+.compact {
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.focus-card {
+  background: rgba(255, 255, 255, 0.82);
+  padding: 16px;
+}
+
+.focus-title {
+  margin-top: 8px;
+  font-family: var(--font-serif);
+  font-size: 20px;
+  line-height: 1.28;
+  color: var(--text-primary);
+}
+
+.focus-desc {
+  -webkit-line-clamp: 2;
+  margin-top: 8px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.62;
+}
+
+.focus-actions {
+  margin-top: 12px;
+}
+
+.book-shelf {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.shelf-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.76);
+  padding: 14px;
+}
+
+.shelf-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.shelf-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.shelf-title {
+  margin-top: 5px;
+  color: var(--text-primary);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.shelf-desc {
+  -webkit-line-clamp: 1;
+  margin-top: 5px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.shelf-stats {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: var(--accent);
+  font-size: 11px;
+}
+
+.shelf-actions {
+  flex-shrink: 0;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 210px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 16px;
+}
+
+.tool-entry {
+  background:
+    linear-gradient(135deg, rgba(32, 79, 103, 0.08), rgba(255, 255, 255, 0.88)),
+    rgba(255, 255, 255, 0.78);
+}
+
+.topic-entry {
+  background:
+    linear-gradient(135deg, rgba(191, 111, 63, 0.08), rgba(255, 255, 255, 0.88)),
+    rgba(255, 255, 255, 0.78);
+}
+
+.explore-title {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: var(--font-serif);
+  font-size: 20px;
+  color: var(--text-primary);
+  line-height: 1.28;
+}
+
+.explore-subtitle {
+  font-size: 14px;
+  color: var(--accent);
+}
+
+.explore-desc {
+  -webkit-line-clamp: 3;
+  margin-top: 9px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.62;
+}
+
+.topic-footnote {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+@media (max-width: 1080px) {
+  .explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .focus-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 960px) {
   .library-hero,
-  .book-grid,
-  .topic-grid,
-  .tool-grid {
+  .book-shelf {
     grid-template-columns: 1fr;
   }
 }
@@ -656,33 +806,76 @@ function resolveBookTopics(entryTopics = []) {
     padding: 0 14px 56px;
   }
 
+  .library-hero {
+    padding-top: 18px;
+  }
+
   .hero-copy,
   .hero-panel,
-  .category-section {
-    border-radius: 22px;
-  }
-
-  .hero-copy,
-  .category-section {
-    padding: 18px;
-  }
-
-  .hero-panel {
-    padding: 18px;
+  .featured-copy,
+  .focus-card,
+  .shelf-row,
+  .explore-card {
+    padding: 16px;
   }
 
   .hero-stats {
     grid-template-columns: 1fr 1fr;
   }
 
-  .book-copy,
-  .book-actions {
-    padding-left: 16px;
-    padding-right: 16px;
+  .library-head {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
-  .book-actions {
+  .filter-rail {
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    flex-wrap: nowrap;
+  }
+
+  .filter-chip {
+    flex: 0 0 auto;
+  }
+
+  .featured-book {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .featured-cover-wrap {
+    height: 190px;
+    min-height: 0;
+  }
+
+  .featured-title {
+    font-size: 23px;
+  }
+
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shelf-row {
+    align-items: flex-start;
     flex-direction: column;
+  }
+
+  .shelf-actions,
+  .book-actions,
+  .focus-actions {
+    width: 100%;
+  }
+
+  .shelf-actions .primary-btn,
+  .shelf-actions .ghost-btn,
+  .book-actions .primary-btn,
+  .book-actions .ghost-btn,
+  .focus-actions .primary-btn,
+  .focus-actions .ghost-btn {
+    flex: 1;
   }
 }
 </style>

@@ -1,0 +1,139 @@
+{
+  "title": "卡片笔记写作法：如何实现从阅读到写作",
+  "shortTitle": "卡片笔记写作法",
+  "subtitle": "让笔记进入写作系统",
+  "description": "基于《卡片笔记写作法：如何实现从阅读到写作》已通过质检的结构化资产，接入全书摘要、核心问题、核心概念、方法动作、场景案例、章节地图和表达延展节点。",
+  "heroOverline": "BOOK · NOTES TO OUTPUT",
+  "heroTitleLines": [
+    "卡片笔记写作法",
+    "让笔记进入写作系统"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260430-full-nk",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+  "recommendedPath": [
+    "公开入口",
+    "绪论在全书中解决什么问题？",
+    "主题单元01：绪论",
+    "主题单元01：绪论：要知道的此前，人们在教授写作和记笔记的技巧时通常都不太考虑写作的总体流程",
+    "2.如果实际情况如下，重新估计还需多少时间能完成论文："
+  ],
+  "quickLinks": [
+    "全书摘要",
+    "全书结构",
+    "绪论",
+    "有效写作的四个基本原则",
+    "用主题单元01：绪论检查绪论",
+    "主题单元01：绪论：要知道的此前，人们在教授写作和记笔记的技巧时通常都不太考虑写作的总体流程"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到章节推进，再接回主题、概念、方法和现实场景，形成一条可以来回穿梭的阅读路径。",
+  "journeyEntryLabel": "从公开入口进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "起点总览",
+      "node": "公开入口",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "先看清整本书的总问题和阅读入口。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节 1",
+      "node": "主题单元01：绪论",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「主题单元01：绪论」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节 2",
+      "node": "主题单元02：有效写作的四个基本原则",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「主题单元02：有效写作的四个基本原则」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节 3",
+      "node": "主题单元03：成功写作的六个步骤",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「主题单元03：成功写作的六个步骤」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "推进节点",
+      "node": "4.现在把你新写的永久笔记添加到卡片盒中，方法如下：",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「4.现在把你新写的永久笔记添加到卡片盒中，方法如下：」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "推进节点",
+      "node": "8.编辑、校对你的稿子。拍拍自己的肩膀，然后开始写下一篇文稿。",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「8.编辑、校对你的稿子。拍拍自己的肩膀，然后开始写下一篇文稿。」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "推进节点",
+      "node": "2.将笔记链接添加到其他已有笔记上，或者反过来，将已有笔记链接到新笔记上。",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「2.将笔记链接添加到其他已有笔记上，或者反过来，将已有笔记链接到新笔记上。」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "推进节点",
+      "node": "4.构建心理模型的网格结构。",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「4.构建心理模型的网格结构。」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "推进节点",
+      "node": "2.如果实际情况如下，重新估计还需多少时间能完成论文：",
+      "image": "/books/smart-notes/chapter-images/overview.svg",
+      "summary": "进入「2.如果实际情况如下，重新估计还需多少时间能完成论文：」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "8"
+    },
+    {
+      "label": "章节",
+      "value": "12"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "18"
+    },
+    {
+      "label": "场景",
+      "value": "16"
+    }
+  ],
+  "slug": "smart-notes",
+  "author": "申克·阿伦斯",
+  "primaryCategory": "学习成长与习惯方法",
+  "secondaryCategory": "笔记系统与写作输出",
+  "standardizedProfile": {
+    "basedOn": [
+      "mindset-traps",
+      "leadership-evolution"
+    ],
+    "updatedAt": "2026-04-30",
+    "version": "reference_profile_v1"
+  }
+}

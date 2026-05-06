@@ -49,6 +49,7 @@ function Copy-SourceToPublishRepo($resolvedPublishRepo) {
   $sourceArchive = Join-Path $sourceRoot "90_archive"
   $sourceWebNodeModules = Join-Path $sourceRoot "web\node_modules"
   $sourceWebDist = Join-Path $sourceRoot "web\dist"
+  $sourceWebNetlifyState = Join-Path $sourceRoot "web\.netlify"
 
   $robocopyArgs = @(
     $sourceRoot
@@ -60,7 +61,9 @@ function Copy-SourceToPublishRepo($resolvedPublishRepo) {
     $sourceArchive
     $sourceWebNodeModules
     $sourceWebDist
+    $sourceWebNetlifyState
     "/XF"
+    ".env"
     "*.log"
     "*.tmp"
   )

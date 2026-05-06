@@ -22,8 +22,8 @@
       "coverImage": "/books/alain-de-botton-works/chapter-images/overview.svg",
       "stats": [
         {
-          "label": "作者入口",
-          "value": "1"
+          "label": "主题页",
+          "value": "5"
         },
         {
           "label": "书籍节点",
@@ -31,12 +31,15 @@
         },
         {
           "label": "概念 / 方法",
-          "value": "4"
+          "value": "87"
         },
         {
           "label": "场景",
-          "value": "2"
+          "value": "19"
         }
+      ],
+      "entryTopics": [
+        "travel-with-questions"
       ]
     },
     {
@@ -124,7 +127,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "10"
+          "value": "0"
         },
         {
           "label": "章节",
@@ -135,8 +138,8 @@
           "value": "17"
         },
         {
-          "label": "主线入口",
-          "value": "4"
+          "label": "场景",
+          "value": "5"
         }
       ]
     },
@@ -157,7 +160,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "2"
         },
         {
           "label": "章节",
@@ -168,8 +171,8 @@
           "value": "13"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "4"
         }
       ]
     },
@@ -189,7 +192,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "2"
         },
         {
           "label": "章节",
@@ -200,8 +203,8 @@
           "value": "13"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "4"
         }
       ]
     },
@@ -218,7 +221,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "5"
         },
         {
           "label": "章节",
@@ -229,7 +232,7 @@
           "value": "17"
         },
         {
-          "label": "作者",
+          "label": "场景",
           "value": "1"
         }
       ]
@@ -247,7 +250,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "3"
         },
         {
           "label": "章节",
@@ -258,8 +261,8 @@
           "value": "8"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "3"
         }
       ]
     },
@@ -276,7 +279,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "4"
         },
         {
           "label": "章节",
@@ -287,8 +290,8 @@
           "value": "8"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "2"
         }
       ]
     },
@@ -308,7 +311,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "5"
         },
         {
           "label": "章节",
@@ -319,7 +322,7 @@
           "value": "13"
         },
         {
-          "label": "作者",
+          "label": "场景",
           "value": "1"
         }
       ]
@@ -337,7 +340,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "3"
         },
         {
           "label": "章节",
@@ -348,8 +351,8 @@
           "value": "8"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "3"
         }
       ]
     },
@@ -366,7 +369,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "4"
         },
         {
           "label": "章节",
@@ -377,8 +380,8 @@
           "value": "8"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "2"
         }
       ]
     },
@@ -399,7 +402,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "3"
         },
         {
           "label": "章节",
@@ -410,8 +413,8 @@
           "value": "8"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "3"
         }
       ]
     },
@@ -428,7 +431,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "4"
         },
         {
           "label": "章节",
@@ -439,8 +442,8 @@
           "value": "12"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "2"
         }
       ]
     },
@@ -457,7 +460,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "5"
         },
         {
           "label": "章节",
@@ -468,7 +471,7 @@
           "value": "13"
         },
         {
-          "label": "作者",
+          "label": "场景",
           "value": "1"
         }
       ]
@@ -490,7 +493,7 @@
       "stats": [
         {
           "label": "主题页",
-          "value": "11"
+          "value": "3"
         },
         {
           "label": "章节",
@@ -501,29 +504,6875 @@
           "value": "15"
         },
         {
-          "label": "作者",
-          "value": "1"
+          "label": "场景",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "good-thinking",
+      "title": "好好思考",
+      "shortTitle": "好好思考",
+      "author": "成甲",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "学习成长与习惯方法",
+      "status": "active",
+      "description": "已接入全量 NK 结构：全书入口、摘要、核心问题、概念、方法、章节、场景、案例和表达延展，共 91 个公开节点。",
+      "coverImage": "/books/good-thinking/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "9"
+        },
+        {
+          "label": "章节",
+          "value": "5"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "19"
+        },
+        {
+          "label": "场景",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "slug": "model-thinking",
+      "title": "模型思维",
+      "shortTitle": "模型思维",
+      "author": "斯科特·佩奇",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "复杂系统与多模型判断",
+      "status": "active",
+      "description": "已接入全量 NK 结构：全书入口、摘要、核心问题、概念、方法、章节、场景、案例和表达延展，共 111 个公开节点。",
+      "coverImage": "/books/model-thinking/chapter-images/overview.svg",
+      "entryTopics": [
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "5"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "19"
+        },
+        {
+          "label": "场景",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "slug": "thinking-fast-and-slow",
+      "title": "思考，快与慢",
+      "shortTitle": "快与慢",
+      "author": "丹尼尔·卡尼曼",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "判断偏差与行为决策",
+      "status": "active",
+      "description": "已接入全量 NK 结构：全书入口、摘要、核心问题、概念、方法、章节、场景、案例和表达延展，共 59 个公开节点。",
+      "coverImage": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "4"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "9"
+        },
+        {
+          "label": "场景",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "slug": "nonviolent-communication",
+      "title": "非暴力沟通",
+      "shortTitle": "非暴力沟通",
+      "author": "马歇尔·卢森堡",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "冲突修复与关系对话",
+      "status": "active",
+      "description": "已接入全量 NK 结构：全书入口、摘要、核心问题、概念、方法、章节、场景、案例和表达延展，共 82 个公开节点。",
+      "coverImage": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "8"
+        },
+        {
+          "label": "章节",
+          "value": "12"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "18"
+        },
+        {
+          "label": "场景",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "slug": "smart-notes",
+      "title": "卡片笔记写作法：如何实现从阅读到写作",
+      "shortTitle": "卡片笔记写作法",
+      "author": "申克·阿伦斯",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "笔记系统与写作输出",
+      "status": "active",
+      "description": "已接入全量 NK 结构：全书入口、摘要、核心问题、概念、方法、章节、场景、案例和表达延展，共 82 个公开节点。",
+      "coverImage": "/books/smart-notes/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "主题页",
+          "value": "8"
+        },
+        {
+          "label": "章节",
+          "value": "12"
+        },
+        {
+          "label": "概念 / 方法",
+          "value": "18"
+        },
+        {
+          "label": "场景",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "slug": "book-1e0dbf6e62",
+      "title": "打开心智",
+      "shortTitle": "打开心智",
+      "author": "李睿秋",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-1e0dbf6e62",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-1e0dbf6e62/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-c47f725845",
+      "title": "批判性思维带你走出思维的误区",
+      "shortTitle": "批判性思维带你走出思维的误区",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-c47f725845",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-c47f725845/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "critical-thinking-writing",
+      "title": "批判性思维与说服性写作",
+      "shortTitle": "批判性思维与说服性写作",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/critical-thinking-writing",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/critical-thinking-writing/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-2d95038e61",
+      "title": "全球商學院必修決策思維術〔全圖解〕：50張秒懂圖表×認清問題盲點＝做出最佳決定",
+      "shortTitle": "全球商學院必修決策思維術〔全圖解〕",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-2d95038e61",
+        "publicSanity": {
+          "blockerCount": 4,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "book_skeleton.detected_headings[0]",
+              "sample": "Erfolgsmodelle"
+            },
+            {
+              "field": "k_cards[1].title",
+              "sample": "Erfolgsmodelle"
+            },
+            {
+              "field": "theme_units[0].title",
+              "sample": "Erfolgsmodelle"
+            },
+            {
+              "field": "chapter_map[0].section_name",
+              "sample": "Erfolgsmodelle"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 40 个公开节点。",
+      "coverImage": "/books/book-2d95038e61/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "40"
+        },
+        {
+          "label": "核心问题",
+          "value": "7"
+        },
+        {
+          "label": "核心概念",
+          "value": "13"
+        },
+        {
+          "label": "章节",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "slug": "life-patterns",
+      "title": "人生模式 识别并优化你的核心认知",
+      "shortTitle": "人生模式 识别并优化你的核心认知",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/life-patterns",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/life-patterns/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "systems-thinking",
+      "title": "如何系统思考（第2版",
+      "shortTitle": "如何系统思考",
+      "author": "邱昭良",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "系统思考入门与实践方法书",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/systems-thinking",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 45 个公开节点。",
+      "coverImage": "/books/systems-thinking/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "45"
+        },
+        {
+          "label": "核心问题",
+          "value": "7"
+        },
+        {
+          "label": "核心概念",
+          "value": "24"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-a5e2e52c9d",
+      "title": "深度思考：不断逼近问题的本质",
+      "shortTitle": "深度思考",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-a5e2e52c9d",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-a5e2e52c9d/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "logic-of-world",
+      "title": "世界的逻辑：如何让我们生活的世界更理性、更可控",
+      "shortTitle": "世界的逻辑",
+      "author": "大卫·哈维相关理论谱系",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "社会理论母书 / 历史地理唯物主义",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/logic-of-world",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/logic-of-world/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "10"
+        },
+        {
+          "label": "核心概念",
+          "value": "18"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "thinking-in-systems",
+      "title": "系统之美",
+      "shortTitle": "系统之美",
+      "author": "美)德内拉·梅多斯",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/thinking-in-systems",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/thinking-in-systems/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "asking-right-questions",
+      "title": "学会提问（原书第10版）",
+      "shortTitle": "学会提问",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/asking-right-questions",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/asking-right-questions/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-dbfc3d0860",
+      "title": "这才是心理学",
+      "shortTitle": "这才是心理学",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-dbfc3d0860",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-dbfc3d0860/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "five-languages-of-apology",
+      "title": "道歉的五种语言",
+      "shortTitle": "道歉的五种语言",
+      "author": "未标注",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "沟通表达 / 关系对话",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/five-languages-of-apology",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/five-languages-of-apology/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "communication-method",
+      "title": "沟通的方法",
+      "shortTitle": "沟通的方法",
+      "author": "脱不花",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "场景沟通方法书",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/communication-method",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 52 个公开节点。",
+      "coverImage": "/books/communication-method/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "52"
+        },
+        {
+          "label": "核心问题",
+          "value": "11"
+        },
+        {
+          "label": "核心概念",
+          "value": "26"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "everything-about-speaking",
+      "title": "关于说话的一切",
+      "shortTitle": "关于说话的一切",
+      "author": "未标注",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "沟通表达 / 关系对话",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/everything-about-speaking",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/everything-about-speaking/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "speechcraft-guide",
+      "title": "话术精进指南（全五册）",
+      "shortTitle": "话术精进指南",
+      "author": "套书合集",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/speechcraft-guide",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 42 个公开节点。",
+      "coverImage": "/books/speechcraft-guide/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "42"
+        },
+        {
+          "label": "核心问题",
+          "value": "5"
+        },
+        {
+          "label": "核心概念",
+          "value": "6"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "pyramid-principle",
+      "title": "金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)",
+      "shortTitle": "金字塔原理 思考、表達和解決問題的邏",
+      "author": "未标注",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "沟通表达 / 关系对话",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/pyramid-principle",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/pyramid-principle/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "why-wont-you-apologize",
+      "title": "你为什么不道歉",
+      "shortTitle": "你为什么不道歉",
+      "author": "哈丽特·勒纳(Harriet Lerner) 著毕崇毅译",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "沟通表达 / 关系对话",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/why-wont-you-apologize",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/why-wont-you-apologize/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-5dc3e7d3f7",
+      "title": "《给你一个团队，你能怎么管？2》",
+      "shortTitle": "《给你一个团队，你能怎么管？2》",
+      "author": "未标注",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "领导管理 / 组织教练",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-5dc3e7d3f7",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-5dc3e7d3f7/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-a997ef38d7",
+      "title": "好战略，坏战略2",
+      "shortTitle": "好战略，坏战略2",
+      "author": "未标注",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "领导管理 / 组织教练",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-a997ef38d7",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-a997ef38d7/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-b3ef3b34e2",
+      "title": "深度转变：让改变真正发生的7种语言",
+      "shortTitle": "深度转变",
+      "author": "【美】罗伯特·凯根;丽莎·拉斯考·莱希",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "领导管理 / 组织教练",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-b3ef3b34e2",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-b3ef3b34e2/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-c7602f78ff",
+      "title": "爱情笔记",
+      "shortTitle": "爱情笔记",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-c7602f78ff",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-c7602f78ff/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-19f9a77863",
+      "title": "爱上浪漫",
+      "shortTitle": "爱上浪漫",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-19f9a77863",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-19f9a77863/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-5138fd4c9c",
+      "title": "疯癫与文明",
+      "shortTitle": "疯癫与文明",
+      "author": "米歇尔·福柯",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-5138fd4c9c",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "book-eac71f5b14",
+      "title": "改变心理学的40项研究(第7版)",
+      "shortTitle": "改变心理学的40项研究",
+      "author": "美）罗杰·R·霍克",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-eac71f5b14",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-eac71f5b14/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-fe7ac8c188",
+      "title": "高敏感是种天赋",
+      "shortTitle": "高敏感是种天赋",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-fe7ac8c188",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-fe7ac8c188/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-f87752844d",
+      "title": "高敏感是种天赋Ⅱ（践行篇）",
+      "shortTitle": "高敏感是种天赋Ⅱ",
+      "author": "伊尔斯·桑德",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "高敏感人群自我理解与实践指南",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-f87752844d",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 48 个公开节点。",
+      "coverImage": "/books/book-f87752844d/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "48"
+        },
+        {
+          "label": "核心问题",
+          "value": "11"
+        },
+        {
+          "label": "核心概念",
+          "value": "22"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-c1bc1613e7",
+      "title": "工作颂歌",
+      "shortTitle": "工作颂歌",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-c1bc1613e7",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-c1bc1613e7/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-286dd0c3ce",
+      "title": "规训与惩罚",
+      "shortTitle": "规训与惩罚",
+      "author": "米歇尔·福柯",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-286dd0c3ce",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "book-d29f217fc9",
+      "title": "蛤蟆先生去看心理医生",
+      "shortTitle": "蛤蟆先生去看心理医生",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-d29f217fc9",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-d29f217fc9/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-6ee48fbd73",
+      "title": "唤醒老虎：启动自我疗愈本能",
+      "shortTitle": "唤醒老虎",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-6ee48fbd73",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-6ee48fbd73/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-fad58e62d1",
+      "title": "机场里的小旅行",
+      "shortTitle": "机场里的小旅行",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-fad58e62d1",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-fad58e62d1/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-308d006589",
+      "title": "空间的生产",
+      "shortTitle": "空间的生产",
+      "author": "亨利·列斐伏尔",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-308d006589",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-308d006589/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "poetics-of-space",
+      "title": "空间的诗学",
+      "shortTitle": "空间的诗学",
+      "author": "加斯东·巴什拉",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/poetics-of-space",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/poetics-of-space/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "book-a5d102b9fc",
+      "title": "了不起的我：自我发展的心理学",
+      "shortTitle": "了不起的我",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-a5d102b9fc",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-a5d102b9fc/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "art-of-travel",
+      "title": "旅行的艺术",
+      "shortTitle": "旅行的艺术",
+      "author": "【英】德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/art-of-travel",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/art-of-travel/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-a4b86dcc3e",
+      "title": "论不服从",
+      "shortTitle": "论不服从",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-a4b86dcc3e",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-1c79bfb775",
+      "title": "煤气灯效应",
+      "shortTitle": "煤气灯效应",
+      "author": "美]罗宾·斯特恩译者:刘彦",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-1c79bfb775",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-1c79bfb775/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-41a581585f",
+      "title": "美好生活方法论 改善亲密、家庭和人际关系的21堂萨提亚课",
+      "shortTitle": "美好生活方法论 改善亲密、家庭和人际",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-41a581585f",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-41a581585f/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-de5eee2e0d",
+      "title": "内在成长：心智成熟的四个思维习惯",
+      "shortTitle": "内在成长",
+      "author": "丹·苏利文,(加)凯瑟琳·野村著;吴果锦译.",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-de5eee2e0d",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-de5eee2e0d/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-218714f360",
+      "title": "亲吻与诉说",
+      "shortTitle": "亲吻与诉说",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-218714f360",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-218714f360/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-0c63d2d5f9",
+      "title": "情緒勒索)",
+      "shortTitle": "情緒勒索)",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-0c63d2d5f9",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-0c63d2d5f9/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "presentation-of-self",
+      "title": "日常生活中的自我呈现",
+      "shortTitle": "日常生活中的自我呈现",
+      "author": "欧文·戈夫曼",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/presentation-of-self",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/presentation-of-self/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "status-anxiety",
+      "title": "身份的焦虑",
+      "shortTitle": "身份的焦虑",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/status-anxiety",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/status-anxiety/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-86f1cbfc4c",
+      "title": "十四堂人生创意课",
+      "shortTitle": "十四堂人生创意课",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-86f1cbfc4c",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-86f1cbfc4c/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-ef7fc1db0d",
+      "title": "十四堂人生创意课3",
+      "shortTitle": "十四堂人生创意课3",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-ef7fc1db0d",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-ef7fc1db0d/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-25ea5787fc",
+      "title": "十四堂人生创意课Ⅱ： 推翻李欣频的创意学",
+      "shortTitle": "十四堂人生创意课Ⅱ",
+      "author": "李欣频",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-25ea5787fc",
+        "publicSanity": {
+          "blockerCount": 64,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "book_skeleton.detected_headings[0]",
+              "sample": "历届茅盾文学奖获奖作品"
+            },
+            {
+              "field": "book_skeleton.detected_headings[1]",
+              "sample": "每年豆瓣,当当,亚马逊年度图书销售排行榜"
+            },
+            {
+              "field": "book_skeleton.detected_headings[2]",
+              "sample": "25岁前一定要读的25这本书"
+            },
+            {
+              "field": "book_skeleton.detected_headings[3]",
+              "sample": "有生之年,你一定要看的25部外国纯文学名著"
+            },
+            {
+              "field": "book_skeleton.detected_headings[4]",
+              "sample": "有生之年,你一定要看的20部中国现当代名著"
+            },
+            {
+              "field": "book_skeleton.detected_headings[5]",
+              "sample": "美国亚马逊编辑推荐的一生必读书单100本"
+            },
+            {
+              "field": "k_cards[1].title",
+              "sample": "历届茅盾文学奖获奖作品"
+            },
+            {
+              "field": "k_cards[2].title",
+              "sample": "每年豆瓣,当当,亚马逊年度图书销售排行榜"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 27 个公开节点。",
+      "coverImage": "/books/book-25ea5787fc/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "27"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "8"
+        },
+        {
+          "label": "章节",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "slug": "book-59fffc0ba2",
+      "title": "无聊的魅力",
+      "shortTitle": "无聊的魅力",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-59fffc0ba2",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-59fffc0ba2/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-328056cc44",
+      "title": "象与骑象人：幸福的假设 (湛庐文化•心视界)",
+      "shortTitle": "象与骑象人",
+      "author": "美）乔纳森·海特",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-328056cc44",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-328056cc44/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-7bf6be4513",
+      "title": "消费社会",
+      "shortTitle": "消费社会",
+      "author": "让·鲍德里亚",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-7bf6be4513",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-7bf6be4513/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "book-90026ac3a5",
+      "title": "写给无神论者",
+      "shortTitle": "写给无神论者",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-90026ac3a5",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-90026ac3a5/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-7ef5050ece",
+      "title": "心理创伤疗愈之道：倾听你身体的信号 (心理创伤疗愈经典畅销丛书)",
+      "shortTitle": "心理创伤疗愈之道",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-7ef5050ece",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-7ef5050ece/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "news-disquiet",
+      "title": "新闻的骚动",
+      "shortTitle": "新闻的骚动",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/news-disquiet",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/news-disquiet/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "architecture-of-happiness",
+      "title": "幸福的建筑",
+      "shortTitle": "幸福的建筑",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/architecture-of-happiness",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/architecture-of-happiness/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-4f0876c4f4",
+      "title": "拥抱逝水年华",
+      "shortTitle": "拥抱逝水年华",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-4f0876c4f4",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-4f0876c4f4/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-b2ca5e24f9",
+      "title": "哲学的慰藉",
+      "shortTitle": "哲学的慰藉",
+      "author": "【英】阿兰·德波顿",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "散文哲学 / 日常观看方式",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-b2ca5e24f9",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-b2ca5e24f9/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-71fe45225a",
+      "title": "知识考古学（4版）",
+      "shortTitle": "知识考古学",
+      "author": "米歇尔·福柯",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-71fe45225a",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-71fe45225a/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "book-46a386b742",
+      "title": "5 分钟商学院精细笔记 000_185",
+      "shortTitle": "5 分钟商学院精细笔记 000_18",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-46a386b742",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-46a386b742/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-67b39149cd",
+      "title": "巴菲特致股东的信：投资者和公司高管教程（原书第4版）",
+      "shortTitle": "巴菲特致股东的信",
+      "author": "沃伦E.巴菲特 著</p>",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-67b39149cd",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-67b39149cd/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-b01ea47828",
+      "title": "聪明的投资者 (本杰明·格雷厄姆",
+      "shortTitle": "聪明的投资者",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-b01ea47828",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-b01ea47828/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-0806ea4feb",
+      "title": "大师030 刘润 商业洞察力",
+      "shortTitle": "大师030 刘润 商业洞察力",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-0806ea4feb",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-0806ea4feb/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-fec4ed9015",
+      "title": "段永平投资问答录 (商业逻辑篇+投资逻辑篇) (段永平)",
+      "shortTitle": "段永平投资问答录",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-fec4ed9015",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-fec4ed9015/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-3f6c516e3f",
+      "title": "金钱心理学",
+      "shortTitle": "金钱心理学",
+      "author": "【美】摩根·豪泽尔",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-3f6c516e3f",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-3f6c516e3f/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-2b1cf451a1",
+      "title": "经营战略全史",
+      "shortTitle": "经营战略全史",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-2b1cf451a1",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-2b1cf451a1/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-277a6b43cb",
+      "title": "纳瓦尔宝典：财富与幸福指南",
+      "shortTitle": "纳瓦尔宝典",
+      "author": "美)埃里克·乔根森译者:赵灿出版社:中信出版社出版时间:2022-04",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-277a6b43cb",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-277a6b43cb/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-e38b4b9b33",
+      "title": "商业模式2.0图鉴：全球100家新创企业的成功之道 )",
+      "shortTitle": "商业模式2.0图鉴",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-e38b4b9b33",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-e38b4b9b33/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-c53ae9b8f2",
+      "title": "商业模式全史",
+      "shortTitle": "商业模式全史",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-c53ae9b8f2",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-c53ae9b8f2/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-d796d6574c",
+      "title": "商业模式全史+经营战略全史(套装共2册) )",
+      "shortTitle": "商业模式全史+经营战略全史",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-d796d6574c",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-d796d6574c/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-27f1516aea",
+      "title": "透析盈利模式：魏朱商业模式理论延伸 )",
+      "shortTitle": "透析盈利模式",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-27f1516aea",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-27f1516aea/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-a8fc2b466f",
+      "title": "雪球特别版——段永平投资问答录（商业逻辑篇）",
+      "shortTitle": "雪球特别版——段永平投资问答录",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-a8fc2b466f",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-a8fc2b466f/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-b1dc285f33",
+      "title": "雪球特别版——段永平投资问答录（投资逻辑篇）",
+      "shortTitle": "雪球特别版——段永平投资问答录",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-b1dc285f33",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-b1dc285f33/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-638c0785a5",
+      "title": "一人公司",
+      "shortTitle": "一人公司",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-638c0785a5",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-638c0785a5/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "time-as-friend",
+      "title": "把时间当作朋友 (李笑来)",
+      "shortTitle": "把时间当作朋友",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/time-as-friend",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/time-as-friend/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "note-method",
+      "title": "笔记的方法",
+      "shortTitle": "笔记的方法",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/note-method",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/note-method/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "second-brain",
+      "title": "打造第二大脑",
+      "shortTitle": "打造第二大脑",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/second-brain",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/second-brain/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "fogg-behavior-model",
+      "title": "福格行为模型",
+      "shortTitle": "福格行为模型",
+      "author": "B.J.福格",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "行为设计与微习惯实践书",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/fogg-behavior-model",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 47 个公开节点。",
+      "coverImage": "/books/fogg-behavior-model/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "47"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "25"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "negative-positive-life",
+      "title": "负负得正的人生奥义书",
+      "shortTitle": "负负得正的人生奥义书",
+      "author": "未知作者",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "常规书籍 v3 主题推进单元",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/negative-positive-life",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 55 个公开节点。",
+      "coverImage": "/books/negative-positive-life/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "55"
+        },
+        {
+          "label": "核心问题",
+          "value": "3"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "seven-habits",
+      "title": "高效能人士的七个习惯 (30周年纪念版)",
+      "shortTitle": "高效能人士的七个习惯",
+      "author": "史蒂芬·柯维著;",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/seven-habits",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/seven-habits/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "good-learning",
+      "title": "好好学习：个人知识管理精进指南",
+      "shortTitle": "好好学习",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/good-learning",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/good-learning/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "refinement",
+      "title": "精进：如何成为一个很厉害的人",
+      "shortTitle": "精进",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/refinement",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/refinement/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "deliberate-practice",
+      "title": "刻意练习：如何从新手到大师 ( etc.)",
+      "shortTitle": "刻意练习",
+      "author": "安德斯·艾利克森(Anders Ericsson) (美)罗",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/deliberate-practice",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/deliberate-practice/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "frame-thinking",
+      "title": "框架思维",
+      "shortTitle": "框架思维",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/frame-thinking",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/frame-thinking/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "inner-winner",
+      "title": "你骨子里是个牛人",
+      "shortTitle": "你骨子里是个牛人",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/inner-winner",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/inner-winner/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "eight-thousand-hours",
+      "title": "你一年的8760小时：升级版",
+      "shortTitle": "你一年的8760小时",
+      "author": "未知作者",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "常规书籍 v3 主题推进单元",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/eight-thousand-hours",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 55 个公开节点。",
+      "coverImage": "/books/eight-thousand-hours/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "55"
+        },
+        {
+          "label": "核心问题",
+          "value": "3"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "poor-charlies-almanack",
+      "title": "穷查理宝典",
+      "shortTitle": "穷查理宝典",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/poor-charlies-almanack",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/poor-charlies-almanack/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "life-mastery-trilogy",
+      "title": "人生精进三部曲：深度思考+终身学习+内在成长",
+      "shortTitle": "人生精进三部曲",
+      "author": "【美】丹·苏利文,莫琳·希凯,塔玛·琼斯基",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/life-mastery-trilogy",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/life-mastery-trilogy/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "twelve-rules-for-life",
+      "title": "人生十二法则",
+      "shortTitle": "人生十二法则",
+      "author": "乔丹·彼得森",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "意义、责任与秩序重建的成长哲学书",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/twelve-rules-for-life",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 46 个公开节点。",
+      "coverImage": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "46"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "24"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "cognitive-awakening",
+      "title": "认知觉醒：开启自我改变的原动力",
+      "shortTitle": "认知觉醒",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/cognitive-awakening",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/cognitive-awakening/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "effective-reading-notes",
+      "title": "如何有效阅读一本书：超实用笔记读书法",
+      "shortTitle": "如何有效阅读一本书",
+      "author": "日)奥野宣之",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/effective-reading-notes",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/effective-reading-notes/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-read-a-book",
+      "title": "如何阅读一本书",
+      "shortTitle": "如何阅读一本书",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/how-to-read-a-book",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/how-to-read-a-book/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "deep-work",
+      "title": "深度工作：如何有效使用每一点脑力",
+      "shortTitle": "深度工作",
+      "author": "美)卡尔·纽波特",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/deep-work",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/deep-work/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-790f8538f0",
+      "title": "斯坦福大学人生设计课",
+      "shortTitle": "斯坦福大学人生设计课",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-790f8538f0",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-790f8538f0/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "mini-habits",
+      "title": "微习惯：简单到不可能失败的自我管理法则",
+      "shortTitle": "微习惯",
+      "author": "美) 斯蒂芬·盖斯(Stephen Guise",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/mini-habits",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/mini-habits/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "gameful-learning",
+      "title": "游戏，让学习成瘾",
+      "shortTitle": "游戏，让学习成瘾",
+      "author": "卡尔M.卡普(Karl M. Kapp) 著",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "产品设计 / 用户体验",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/gameful-learning",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/gameful-learning/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "reading-is-enough",
+      "title": "这样读书就够了",
+      "shortTitle": "这样读书就够了",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/reading-is-enough",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/reading-is-enough/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "workplace-mastery",
+      "title": "职场精进+11本)",
+      "shortTitle": "职场精进+11本)",
+      "author": "未标注",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "学习成长 / 习惯方法",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/workplace-mastery",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/workplace-mastery/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "lifelong-learning",
+      "title": "终身学习：10个你必须掌握的未来生存法则",
+      "shortTitle": "终身学习",
+      "author": "待核对",
+      "primaryCategory": "学习成长与习惯方法",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/lifelong-learning",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 16 个公开节点。",
+      "coverImage": "/books/lifelong-learning/chapter-images/overview.svg",
+      "entryTopics": [
+        "complexity-before-skill"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "16"
+        },
+        {
+          "label": "核心问题",
+          "value": "5"
+        },
+        {
+          "label": "核心概念",
+          "value": "4"
+        },
+        {
+          "label": "章节",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "slug": "book-6e434f9f32",
+      "title": "用户体验要素：以用户为中心的产品设计（原书第2版)",
+      "shortTitle": "用户体验要素",
+      "author": "未标注",
+      "primaryCategory": "产品设计与用户体验",
+      "secondaryCategory": "产品设计 / 用户体验",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-6e434f9f32",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-6e434f9f32/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-027853f390",
+      "title": "游戏化思维：改变未来商业的新力量",
+      "shortTitle": "游戏化思维",
+      "author": "未标注",
+      "primaryCategory": "产品设计与用户体验",
+      "secondaryCategory": "产品设计 / 用户体验",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-027853f390",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-027853f390/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-caaae5035f",
+      "title": "俞军产品方法论",
+      "shortTitle": "俞军产品方法论",
+      "author": "未标注",
+      "primaryCategory": "产品设计与用户体验",
+      "secondaryCategory": "产品设计 / 用户体验",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-caaae5035f",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-caaae5035f/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-e04989128c",
+      "title": "爆款文案写作指南)",
+      "shortTitle": "爆款文案写作指南)",
+      "author": "未标注",
+      "primaryCategory": "文案营销与内容传播",
+      "secondaryCategory": "文案营销 / 内容传播",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-e04989128c",
+        "publicSanity": {
+          "blockerCount": 4,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "book_skeleton.detected_headings[0]",
+              "sample": "F713.812-62"
+            },
+            {
+              "field": "k_cards[1].title",
+              "sample": "F713.812-62"
+            },
+            {
+              "field": "theme_units[0].title",
+              "sample": "F713.812-62"
+            },
+            {
+              "field": "chapter_map[0].section_name",
+              "sample": "F713.812-62"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 40 个公开节点。",
+      "coverImage": "/books/book-e04989128c/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "40"
+        },
+        {
+          "label": "核心问题",
+          "value": "7"
+        },
+        {
+          "label": "核心概念",
+          "value": "13"
+        },
+        {
+          "label": "章节",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "slug": "book-784f27a12a",
+      "title": "吃透小红书文案：从模仿、创新到超越",
+      "shortTitle": "吃透小红书文案",
+      "author": "梁小小出版社:人民邮电出版社有限公司出版时间:2023-04-01",
+      "primaryCategory": "文案营销与内容传播",
+      "secondaryCategory": "文案营销 / 内容传播",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-784f27a12a",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-784f27a12a/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-28498afb98",
+      "title": "卖故事：实践版",
+      "shortTitle": "卖故事",
+      "author": "未标注",
+      "primaryCategory": "文案营销与内容传播",
+      "secondaryCategory": "文案营销 / 内容传播",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-28498afb98",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-28498afb98/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-be35ce4a76",
+      "title": "秒赞",
+      "shortTitle": "秒赞",
+      "author": "未标注",
+      "primaryCategory": "文案营销与内容传播",
+      "secondaryCategory": "文案营销 / 内容传播",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-be35ce4a76",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-be35ce4a76/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-e3a8132bff",
+      "title": "玩透小红书-素人博主从0到1实战手册",
+      "shortTitle": "玩透小红书-素人博主从0到1实战手册",
+      "author": "花生出版社:电子工业出版社出版时间:2023年5月",
+      "primaryCategory": "文案营销与内容传播",
+      "secondaryCategory": "文案营销 / 内容传播",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-e3a8132bff",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-e3a8132bff/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-d905e4ec60",
+      "title": "洗脑术（套装共2册）",
+      "shortTitle": "洗脑术",
+      "author": "未标注",
+      "primaryCategory": "文案营销与内容传播",
+      "secondaryCategory": "文案营销 / 内容传播",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-d905e4ec60",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-d905e4ec60/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-aa325864b2",
+      "title": "小红书变现7堂课",
+      "shortTitle": "小红书变现7堂课",
+      "author": "许义出版社:电子工业出版社出版时间:2024年1月",
+      "primaryCategory": "文案营销与内容传播",
+      "secondaryCategory": "文案营销 / 内容传播",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-aa325864b2",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-aa325864b2/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-03991a9332",
+      "title": "（必读）提高你的创伤免疫力",
+      "shortTitle": "（必读）提高你的创伤免疫力",
+      "author": "未标注",
+      "primaryCategory": "哲学文化与经典思想",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-03991a9332",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-03991a9332/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-d5bc946914",
+      "title": "（必读）中国文化的深层结构",
+      "shortTitle": "（必读）中国文化的深层结构",
+      "author": "未标注",
+      "primaryCategory": "哲学文化与经典思想",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-d5bc946914",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-d5bc946914/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-400283a934",
+      "title": "老子",
+      "shortTitle": "老子",
+      "author": "未标注",
+      "primaryCategory": "哲学文化与经典思想",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-400283a934",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-400283a934/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-727cc62549",
+      "title": "了凡四训讲记净空法师讲解",
+      "shortTitle": "了凡四训讲记净空法师讲解",
+      "author": "未标注",
+      "primaryCategory": "哲学文化与经典思想",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-727cc62549",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-727cc62549/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-b8696d1a4a",
+      "title": "钱穆《湖上闲思录》选读",
+      "shortTitle": "钱穆《湖上闲思录》选读",
+      "author": "未标注",
+      "primaryCategory": "哲学文化与经典思想",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-b8696d1a4a",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-b8696d1a4a/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-061f453fd7",
+      "title": "庄子諵譁",
+      "shortTitle": "庄子諵譁",
+      "author": "未标注",
+      "primaryCategory": "哲学文化与经典思想",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-061f453fd7",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-061f453fd7/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-61a1dcac1d",
+      "title": "（最好的告别+最好的抉择＋医生的修炼+医生的精进＋未来医疗）",
+      "shortTitle": "（最好的告别+最好的抉择＋医生的修炼",
+      "author": "美)杰尔姆•格罗普曼; 帕米拉•哈茨班德 著",
+      "primaryCategory": "医疗健康与照护认知",
+      "secondaryCategory": "医疗健康 / 照护认知",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-61a1dcac1d",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-61a1dcac1d/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-a9723446f5",
+      "title": "未来医疗",
+      "shortTitle": "未来医疗",
+      "author": "美)埃里克•托普",
+      "primaryCategory": "医疗健康与照护认知",
+      "secondaryCategory": "医疗健康 / 照护认知",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-a9723446f5",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-a9723446f5/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-71495ef3c7",
+      "title": "医生的精进",
+      "shortTitle": "医生的精进",
+      "author": "未标注",
+      "primaryCategory": "医疗健康与照护认知",
+      "secondaryCategory": "医疗健康 / 照护认知",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-71495ef3c7",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-71495ef3c7/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-c4d258f40e",
+      "title": "医生的修炼：在不完美中探索行医的真相",
+      "shortTitle": "医生的修炼",
+      "author": "美)葛文德 著",
+      "primaryCategory": "医疗健康与照护认知",
+      "secondaryCategory": "医疗健康 / 照护认知",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-c4d258f40e",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-c4d258f40e/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-e4f2454d58",
+      "title": "最好的告别：关于衰老与死亡，你必须知道的常识",
+      "shortTitle": "最好的告别",
+      "author": "美）葛文德著",
+      "primaryCategory": "医疗健康与照护认知",
+      "secondaryCategory": "医疗健康 / 照护认知",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-e4f2454d58",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-e4f2454d58/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-e37eea5e35",
+      "title": "最好的抉择： 关于看病就医你要知道的常识",
+      "shortTitle": "最好的抉择",
+      "author": "美)杰尔姆•格罗普曼; 帕米拉•哈茨班德 著",
+      "primaryCategory": "医疗健康与照护认知",
+      "secondaryCategory": "医疗健康 / 照护认知",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-e37eea5e35",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-e37eea5e35/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-8a65fd4d02",
+      "title": "沧浪之水 (阎真)",
+      "shortTitle": "沧浪之水",
+      "author": "未标注",
+      "primaryCategory": "文史哲政治经济社会",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-8a65fd4d02",
+        "publicSanity": {
+          "blockerCount": 14,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "book_skeleton.detected_headings[3]",
+              "sample": "25岁前一定要读的25这本书"
+            },
+            {
+              "field": "book_skeleton.detected_headings[6]",
+              "sample": "有生之年,你一定要看的25部外国纯文学名著"
+            },
+            {
+              "field": "book_skeleton.detected_headings[7]",
+              "sample": "有生之年,你一定要看的20部中国现当代名著"
+            },
+            {
+              "field": "book_skeleton.detected_headings[8]",
+              "sample": "美国亚马逊编辑推荐的一生必读书单100本"
+            },
+            {
+              "field": "k_cards[4].title",
+              "sample": "25岁前一定要读的25这本书"
+            },
+            {
+              "field": "theme_units[3].title",
+              "sample": "25岁前一定要读的25这本书"
+            },
+            {
+              "field": "theme_units[3].focus",
+              "sample": "围绕“25岁前一定要读的25这本书”梳理这本书的核心对象、概念边界和现实调用方式。"
+            },
+            {
+              "field": "chapter_map[3].section_name",
+              "sample": "25岁前一定要读的25这本书"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 38 个公开节点。",
+      "coverImage": "/books/book-8a65fd4d02/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "38"
+        },
+        {
+          "label": "核心问题",
+          "value": "7"
+        },
+        {
+          "label": "核心概念",
+          "value": "11"
+        },
+        {
+          "label": "章节",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "slug": "book-d6abf836ec",
+      "title": "如何快速了解一个行业 (肖璟)",
+      "shortTitle": "如何快速了解一个行业",
+      "author": "未标注",
+      "primaryCategory": "文史哲政治经济社会",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-d6abf836ec",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-d6abf836ec/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-80d34c7a59",
+      "title": "世界观 现代人必须要懂的科学哲学和科学史",
+      "shortTitle": "世界观 现代人必须要懂的科学哲学和科",
+      "author": "理查德·德威特(Richard DeWitt) 著",
+      "primaryCategory": "文史哲政治经济社会",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-80d34c7a59",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-80d34c7a59/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-dd608a8f4b",
+      "title": "万历十五年 (增订本) )",
+      "shortTitle": "万历十五年",
+      "author": "黄仁宇",
+      "primaryCategory": "文史哲政治经济社会",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-dd608a8f4b",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-dd608a8f4b/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-730ce050d5",
+      "title": "以利为利：财政关系与地方政府行为 (周飞舟)",
+      "shortTitle": "以利为利",
+      "author": "周飞舟",
+      "primaryCategory": "文史哲政治经济社会",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-730ce050d5",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-730ce050d5/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-aeeb322a3b",
+      "title": "置身事内：中国政府与经济发展 (兰小欢)",
+      "shortTitle": "置身事内",
+      "author": "兰小欢",
+      "primaryCategory": "文史哲政治经济社会",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-aeeb322a3b",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-747501953d",
+      "title": "中国历代政治得失 (钱穆)",
+      "shortTitle": "中国历代政治得失",
+      "author": "未标注",
+      "primaryCategory": "文史哲政治经济社会",
+      "secondaryCategory": "通用知识资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-747501953d",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-747501953d/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-9cc3e112cd",
+      "title": "质性研究访谈",
+      "shortTitle": "质性研究访谈",
+      "author": "未标注",
+      "primaryCategory": "认知决策与系统思考",
+      "secondaryCategory": "认知决策 / 系统思考",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-9cc3e112cd",
+        "publicSanity": {
+          "blockerCount": 15,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "book_skeleton.detected_headings[0]",
+              "sample": "口 0 口 0 」 翌口 0 《"
+            },
+            {
+              "field": "book_skeleton.detected_headings[1]",
+              "sample": "下口"
+            },
+            {
+              "field": "k_cards[1].title",
+              "sample": "口 0 口 0 」 翌口 0 《"
+            },
+            {
+              "field": "k_cards[2].title",
+              "sample": "下口"
+            },
+            {
+              "field": "theme_units[0].title",
+              "sample": "口 0 口 0 」 翌口 0 《"
+            },
+            {
+              "field": "theme_units[0].focus",
+              "sample": "围绕“口 0 口 0 」 翌口 0 《”梳理这本书的核心对象、概念边界和现实调用方式。"
+            },
+            {
+              "field": "theme_units[1].title",
+              "sample": "下口"
+            },
+            {
+              "field": "chapter_map[0].section_name",
+              "sample": "口 0 口 0 」 翌口 0 《"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 37 个公开节点。",
+      "coverImage": "/books/book-9cc3e112cd/chapter-images/overview.svg",
+      "entryTopics": [
+        "seeing-before-solving",
+        "system-before-blame"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "37"
+        },
+        {
+          "label": "核心问题",
+          "value": "6"
+        },
+        {
+          "label": "核心概念",
+          "value": "12"
+        },
+        {
+          "label": "章节",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "slug": "book-9bca244c2b",
+      "title": "人类木马程序",
+      "shortTitle": "人类木马程序",
+      "author": "李欣频",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈与自我探索类母书 v3 结构化资产",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-9bca244c2b",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 84 个公开节点。",
+      "coverImage": "/books/book-9bca244c2b/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "84"
+        },
+        {
+          "label": "核心问题",
+          "value": "6"
+        },
+        {
+          "label": "核心概念",
+          "value": "8"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-03229bae62",
+      "title": "福柯",
+      "shortTitle": "福柯",
+      "author": "加里·古廷",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-03229bae62",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 38 个公开节点。",
+      "coverImage": "/books/book-03229bae62/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "38"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "2"
+        },
+        {
+          "label": "章节",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "slug": "book-dcd7efd8f9",
+      "title": "韩炳哲作品系列（套装共9册）",
+      "shortTitle": "韩炳哲作品系列",
+      "author": "韩炳哲",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-dcd7efd8f9",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/book-dcd7efd8f9/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "ways-of-seeing",
+      "title": "观看之道",
+      "shortTitle": "观看之道",
+      "author": "约翰·伯格",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/ways-of-seeing",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/ways-of-seeing/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "escape-from-freedom",
+      "title": "逃避自由",
+      "shortTitle": "逃避自由",
+      "author": "埃里希·弗洛姆",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/escape-from-freedom",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 41 个公开节点。",
+      "coverImage": "/books/escape-from-freedom/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "41"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "3"
+        },
+        {
+          "label": "章节",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "slug": "book-073de824c7",
+      "title": "创伤与记忆：身体体验疗法如何重塑创伤记忆 (心理创伤疗愈经典畅销丛书)",
+      "shortTitle": "创伤与记忆",
+      "author": "未标注",
+      "primaryCategory": "心理疗愈与自我探索",
+      "secondaryCategory": "心理疗愈 / 自我探索",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-073de824c7",
+        "publicSanity": {
+          "blockerCount": 64,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "book_skeleton.detected_headings[0]",
+              "sample": "历届茅盾文学奖获奖作品"
+            },
+            {
+              "field": "book_skeleton.detected_headings[1]",
+              "sample": "每年豆瓣，当当，亚马逊年度图书销售排行榜"
+            },
+            {
+              "field": "book_skeleton.detected_headings[2]",
+              "sample": "25岁前一定要读的25这本书"
+            },
+            {
+              "field": "book_skeleton.detected_headings[3]",
+              "sample": "有生之年，你一定要看的25部外国纯文学名著"
+            },
+            {
+              "field": "book_skeleton.detected_headings[4]",
+              "sample": "有生之年，你一定要看的20部中国现当代名著"
+            },
+            {
+              "field": "book_skeleton.detected_headings[5]",
+              "sample": "美国亚马逊编辑推荐的一生必读书单100本"
+            },
+            {
+              "field": "k_cards[1].title",
+              "sample": "历届茅盾文学奖获奖作品"
+            },
+            {
+              "field": "k_cards[2].title",
+              "sample": "每年豆瓣，当当，亚马逊年度图书销售排行榜"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 27 个公开节点。",
+      "coverImage": "/books/book-073de824c7/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "27"
+        },
+        {
+          "label": "核心问题",
+          "value": "4"
+        },
+        {
+          "label": "核心概念",
+          "value": "8"
+        },
+        {
+          "label": "章节",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "slug": "book-f4f4d5b183",
+      "title": "复杂心智",
+      "shortTitle": "复杂心智",
+      "author": "未标注",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "领导管理 / 组织教练",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-f4f4d5b183",
+        "publicSanity": {
+          "blockerCount": 8,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "book_skeleton.detected_headings[0]",
+              "sample": "各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i 自 L 能 h ·"
+            },
+            {
+              "field": "k_cards[1].title",
+              "sample": "各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i 自 L 能 h ·"
+            },
+            {
+              "field": "theme_units[0].title",
+              "sample": "各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i 自 L 能 h ·"
+            },
+            {
+              "field": "theme_units[0].focus",
+              "sample": "围绕“各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i 自 L 能 h ·”梳理这本书的…"
+            },
+            {
+              "field": "chapter_map[0].section_name",
+              "sample": "各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i 自 L 能 h ·"
+            },
+            {
+              "field": "chapter_map[0].role_in_book",
+              "sample": "开篇先确定“各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i 自 L 能 h ·”这个对…"
+            },
+            {
+              "field": "chapter_map[0].core_problem",
+              "sample": "当团队遇到与“各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i 自 L 能 h ·”相关…"
+            },
+            {
+              "field": "chapter_map[0].real_world_implications[1]",
+              "sample": "在《复杂心智》的语境中，它更适合服务“各位读者能随着每一页的文字 , 放松身体 , 扎根在复杂世界中蓬勃发展 · 陈颖坚 2024 年 3 月 · 丬代 i …"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 40 个公开节点。",
+      "coverImage": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "40"
+        },
+        {
+          "label": "核心问题",
+          "value": "7"
+        },
+        {
+          "label": "核心概念",
+          "value": "13"
+        },
+        {
+          "label": "章节",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "slug": "book-6bb5554688",
+      "title": "团队是设计出来的",
+      "shortTitle": "团队是设计出来的",
+      "author": "未标注",
+      "primaryCategory": "领导管理与组织教练",
+      "secondaryCategory": "领导管理 / 组织教练",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-6bb5554688",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/book-6bb5554688/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "book-c7bed1c989",
+      "title": "商业模式新生代（个人）",
+      "shortTitle": "商业模式新生代",
+      "author": "未标注",
+      "primaryCategory": "商业经营与投资财富",
+      "secondaryCategory": "商业经营 / 投资财富",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_source_repair",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/book-c7bed1c989",
+        "publicSanity": {
+          "blockerCount": 1,
+          "status": "needs_source_repair",
+          "samples": [
+            {
+              "field": "manual_review",
+              "sample": "抽样发现《商业模式新生代（个人）》混入价值投资概念，需要回源修复结构化资产。"
+            }
+          ]
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 44 个公开节点。",
+      "coverImage": "/books/book-c7bed1c989/chapter-images/overview.svg",
+      "entryTopics": [],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "44"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "15"
+        },
+        {
+          "label": "章节",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "slug": "difficult-conversations",
+      "title": "高难度谈话",
+      "shortTitle": "高难度谈话",
+      "author": "未标注",
+      "primaryCategory": "沟通表达与关系对话",
+      "secondaryCategory": "沟通表达 / 关系对话",
+      "status": "active",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "generatedFrom": [
+          "structured_json",
+          "kn_table",
+          "summary_md"
+        ],
+        "overrideDir": "configs/public_overrides/difficult-conversations",
+        "publicSanity": {
+          "blockerCount": 0,
+          "status": "pass",
+          "samples": []
+        }
+      },
+      "description": "已生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展，共 43 个公开节点。",
+      "coverImage": "/books/difficult-conversations/chapter-images/overview.svg",
+      "entryTopics": [
+        "safety-before-skill",
+        "action-after-understanding"
+      ],
+      "stats": [
+        {
+          "label": "公开节点",
+          "value": "43"
+        },
+        {
+          "label": "核心问题",
+          "value": "8"
+        },
+        {
+          "label": "核心概念",
+          "value": "14"
+        },
+        {
+          "label": "章节",
+          "value": "6"
         }
       ]
     }
   ],
   "tools": [
     {
+      "slug": "life-scenes",
+      "title": "人生处境地图",
+      "shortTitle": "处境地图",
+      "subtitle": "从升学、求职、关系等真实处境进入问题、路径和最小行动",
+      "status": "prototype",
+      "phaseLabel": "产品入口 Prototype",
+      "description": "把真实处境、关键维度、具体卡点、练习路线和最小行动接成一条可点击链路。第一版先验证高考升学、求职转型、关系沟通三张样张。",
+      "tags": [
+        "处境地图",
+        "卡点拆解",
+        "行动入口"
+      ]
+    },
+    {
+      "slug": "content-ops",
+      "title": "选题中台",
+      "shortTitle": "选题中台",
+      "subtitle": "把情绪信号、真实处境、书籍证据和内容任务串成一条生产链路",
+      "status": "prototype",
+      "phaseLabel": "内容中台 Prototype",
+      "description": "面向站长自己的内容生产工作台：从情绪入口和社会事件识别选题，绑定卡点案例、练习路线和书籍证据，并追踪构思、写作、发布、复盘状态。",
+      "tags": [
+        "选题库",
+        "情绪坐标",
+        "内容任务"
+      ]
+    },
+    {
       "slug": "thought-partner",
-      "title": "思想伙伴选配器",
+      "title": "思想伙伴",
       "shortTitle": "思想伙伴",
-      "subtitle": "从困境匹配一组作者、学科母题和行动路径",
+      "subtitle": "给当前处境安排一组思考分工",
       "status": "mvp",
       "phaseLabel": "产品实验 MVP",
-      "description": "把作者思想转译能力坐标系做成可交互工具：用户选择当前困境后，得到主镜头、翻译者、校正者、行动伙伴和表达伙伴。",
+      "description": "把作者思想转译成可调用的思考分工：用户选择当前处境后，得到主镜头、翻译者、校正者、行动伙伴和表达伙伴。",
       "tags": [
         "思想体系",
         "作者坐标",
         "个人地图"
       ]
+    },
+    {
+      "slug": "roundtable",
+      "title": "圆桌工作流",
+      "shortTitle": "圆桌",
+      "subtitle": "让虚拟用户带着真实问题进入圆桌、教练、行动和内容回流",
+      "status": "prototype",
+      "phaseLabel": "产品实验 Prototype",
+      "description": "把 Problem Case 产品化为一个可运行的工作流样张：模拟用户、问题卡、思想伙伴圆桌、教练追问、成长状态和小红书素材在同一页里完成闭环。",
+      "tags": [
+        "圆桌智能体",
+        "虚拟用户",
+        "内容回流"
+      ]
+    },
+    {
+      "slug": "archetype-lab",
+      "title": "人格原型实验室",
+      "shortTitle": "原型实验室",
+      "subtitle": "把文学原型、现代处境和游戏规则拼成可推演的人生沙盘",
+      "status": "prototype",
+      "phaseLabel": "产品实验 Prototype",
+      "description": "验证“文学人物内核 + 现代人生处境 + 规则压力”能否生成更真实的虚拟用户、人性内容选题、短剧/小说/互动游戏种子。",
+      "tags": [
+        "文学原型",
+        "虚拟人生",
+        "游戏规则"
+      ]
+    },
+    {
+      "slug": "mindset-trap-diagnostic",
+      "title": "心智误区诊断",
+      "shortTitle": "误区诊断",
+      "subtitle": "复杂判断前的预警工具",
+      "status": "mvp",
+      "phaseLabel": "产品实验 MVP",
+      "description": "从一个正在卡住的问题出发，回答 10 道轻量信号题，识别最可能的心智误区，并给出一个退出误区的最小实验和书内继续探索入口。",
+      "tags": [
+        "心智误区",
+        "判断校准",
+        "最小实验"
+      ]
+    },
+    {
+      "slug": "leadership-mindset-assessment",
+      "title": "领导者心智评估",
+      "shortTitle": "心智评估",
+      "subtitle": "复杂领导场景里的成长边际建议",
+      "status": "prototype",
+      "phaseLabel": "产品实验 Prototype",
+      "description": "从一个真实领导场景出发，回答 8 道场景判断题，得到当前主要心智倾向、优势、风险、成长边际和书内方法练习。不做阶段标签，也不做高低评判。",
+      "tags": [
+        "成人发展",
+        "领导成长",
+        "成长边际"
+      ]
     }
   ],
   "topics": [
+    {
+      "slug": "travel-with-questions",
+      "title": "带着问题的旅行",
+      "shortTitle": "问题旅行",
+      "subtitle": "厦门 + 泉州 5 天深度游内容实验",
+      "status": "seed",
+      "phaseLabel": "专题推荐 Seed",
+      "description": "以德波顿《旅行的艺术》为主镜头，把旅行从景点清单改写成观看训练、地方线索、交流任务和返程素材沉淀。",
+      "heroOverline": "TOPIC · TRAVEL · SEEING",
+      "tags": [
+        "旅行观看",
+        "地方线索",
+        "内容素材"
+      ],
+      "relatedBooks": [
+        "alain-de-botton-works"
+      ]
+    },
     {
       "slug": "safety-before-skill",
       "title": "安全感先于技巧",

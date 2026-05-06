@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1280" viewBox="0 0 960 1280" role="img" aria-label="穷查理宝典 封面">
+  <rect width="960" height="1280" fill="#eef4f5"/>
+  <rect x="72" y="72" width="816" height="1136" rx="36" fill="#fbfaf6" stroke="#2e5670" stroke-opacity="0.22" stroke-width="4"/>
+  <circle cx="760" cy="220" r="96" fill="#6f8d66" fill-opacity="0.16"/>
+  <circle cx="190" cy="1010" r="132" fill="#2e5670" fill-opacity="0.12"/>
+  <path d="M188 380 C320 280 450 500 602 380 C700 304 772 350 820 410" fill="none" stroke="#2e5670" stroke-width="10" stroke-linecap="round" opacity="0.32"/>
+  <path d="M184 470 H776" stroke="#6f8d66" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <text x="120" y="180" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" fill="#2e5670" letter-spacing="3">STRUCTURED KNOWLEDGE MAP</text>
+  <text x="120" y="620" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="72" font-weight="700" fill="#17232b">穷查理宝典</text>
+  <foreignObject x="120" y="668" width="720" height="210">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:'Microsoft YaHei',Arial,sans-serif;font-size:32px;line-height:1.45;color:#6f8d66;">《穷查理宝典》如何帮助读者把成长愿望拆成可练习、可反馈、可持续的行动系统。</div>
+  </foreignObject>
+  <text x="120" y="1120" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="28" fill="#4d5a62">未标注</text>
+</svg>

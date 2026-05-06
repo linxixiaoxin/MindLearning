@@ -1,0 +1,364 @@
+{
+  "schema": "WorkspaceResourceIndex.v0.1",
+  "generatedAt": "2026-05-06T10:47:58",
+  "sourceRoot": ".",
+  "summary": {
+    "resourceCount": 9,
+    "generatedCount": 9
+  },
+  "resources": [
+    {
+      "id": "project-console",
+      "origin": "generated",
+      "type": "项目中控",
+      "title": "book-kb-multi 项目中控台",
+      "summary": "项目阶段、优先级、DEV-037、发布门禁和下一步任务的总入口。",
+      "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/00_项目中控台.md",
+      "sourceLabel": "00_项目中控台.md",
+      "useFor": "最近更新：2026-05-03T22:36:58",
+      "route": "/tools/gray-books",
+      "routeLabel": "关联书库账本",
+      "updatedAt": "2026-05-03T22:36:58",
+      "items": [
+        {
+          "title": "book-kb-multi 项目中控台",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/00_项目中控台.md",
+          "updatedAt": "2026-05-03T22:36:58"
+        }
+      ]
+    },
+    {
+      "id": "archetype-system-doc",
+      "origin": "generated",
+      "type": "产品定义",
+      "title": "人格原型、文学游戏与虚拟人生建模系统",
+      "summary": "记录原型实验室、圆桌、问题实验室和内容回流之间的最新产品判断。",
+      "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/01_产品定义/01_thinking/09_人格原型文学游戏与虚拟人生建模系统_2026-05-02.md",
+      "sourceLabel": "09_人格原型文学游戏与虚拟人生建模系统_2026-05-02.md",
+      "useFor": "最近更新：2026-05-03T16:34:56",
+      "route": "/tools/archetype-lab",
+      "routeLabel": "打开原型实验室",
+      "updatedAt": "2026-05-03T16:34:56",
+      "items": [
+        {
+          "title": "人格原型、文学游戏与虚拟人生建模系统",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/01_产品定义/01_thinking/09_人格原型文学游戏与虚拟人生建模系统_2026-05-02.md",
+          "updatedAt": "2026-05-03T16:34:56"
+        }
+      ]
+    },
+    {
+      "id": "latest-product-docs",
+      "origin": "generated",
+      "type": "产品文档",
+      "title": "最近更新的产品项目文档",
+      "summary": "自动扫描产品项目文档，帮助找到最近被改动的定义、需求和研发交付材料。",
+      "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档",
+      "sourceLabel": "03_产品项目文档",
+      "useFor": "最近条目：DEV-040：8 本 needs_source_repair 回源修复追踪；book-kb-multi 项目中控台；142 本基础公开层抽样验收与首批 override；研发任务与需求同步",
+      "route": "/tools/space-browser",
+      "routeLabel": "看空间入口",
+      "updatedAt": "2026-05-05T15:07:45",
+      "items": [
+        {
+          "title": "DEV-040：8 本 needs_source_repair 回源修复追踪",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/04_研发交付/50_DEV-040_8本needs_source_repair修复追踪.md",
+          "updatedAt": "2026-05-05T15:07:45"
+        },
+        {
+          "title": "book-kb-multi 项目中控台",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/00_项目中控台.md",
+          "updatedAt": "2026-05-03T22:36:58"
+        },
+        {
+          "title": "142 本基础公开层抽样验收与首批 override",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/04_研发交付/49_142本基础公开层抽样验收与首批override_2026-05-03.md",
+          "updatedAt": "2026-05-03T22:23:40"
+        },
+        {
+          "title": "研发任务与需求同步",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/04_研发交付/36_研发任务与需求同步.md",
+          "updatedAt": "2026-05-03T22:23:17"
+        },
+        {
+          "title": "技术架构说明",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/04_研发交付/30_技术架构说明.md",
+          "updatedAt": "2026-05-03T22:16:45"
+        },
+        {
+          "title": "book-kb-multi 产品项目文档中心",
+          "source": "04_operations/04_products_and_experiments/book-kb-multi/03_产品项目文档/README.md",
+          "updatedAt": "2026-05-03T22:16:08"
+        }
+      ]
+    },
+    {
+      "id": "latest-type-moto-outputs",
+      "origin": "generated",
+      "type": "内容样张",
+      "title": "最近更新的名著人物 / 选题输出",
+      "summary": "自动扫描 by_typemoto 输出目录，优先暴露最近的样张、提示词和复盘文档。",
+      "source": "03_outputs/05_by_typemoto",
+      "sourceLabel": "05_by_typemoto",
+      "useFor": "最近条目：地下室人上班：4-2 高密度信息图提示词；地下室人上班：4-0 图文结构；新提名原型卡 × 5；《如果诸葛亮来上班》4-0 小红书图文结构",
+      "route": "/tools/content-ops",
+      "routeLabel": "回到工作台",
+      "updatedAt": "2026-05-05T12:06:42",
+      "items": [
+        {
+          "title": "地下室人上班：4-2 高密度信息图提示词",
+          "source": "03_outputs/05_by_typemoto/00_地下室人/02_地下室人_4-2高密度信息图提示词.md",
+          "updatedAt": "2026-05-05T12:06:42"
+        },
+        {
+          "title": "地下室人上班：4-0 图文结构",
+          "source": "03_outputs/05_by_typemoto/00_地下室人/01_地下室人_4-0小红书图文结构.md",
+          "updatedAt": "2026-05-05T11:47:11"
+        },
+        {
+          "title": "新提名原型卡 × 5",
+          "source": "03_outputs/05_by_typemoto/00_新提名原型卡_五张.md",
+          "updatedAt": "2026-05-04T22:29:17"
+        },
+        {
+          "title": "《如果诸葛亮来上班》4-0 小红书图文结构",
+          "source": "03_outputs/05_by_typemoto/06_诸葛亮上班/诸葛亮篇_复盘与提示词文档合集/02_诸葛亮篇_4-0小红书图文结构.md",
+          "updatedAt": "2026-05-04T20:00:31"
+        },
+        {
+          "title": "《如果诸葛亮来上班》4-2 高密度信息图提示词",
+          "source": "03_outputs/05_by_typemoto/06_诸葛亮上班/诸葛亮篇_复盘与提示词文档合集/03_诸葛亮篇_4-2高密度信息图提示词.md",
+          "updatedAt": "2026-05-04T15:52:50"
+        },
+        {
+          "title": "《如果孙悟空来上班》4-2 高密度信息图提示词",
+          "source": "03_outputs/05_by_typemoto/07_孙悟空上班/孙悟空篇_复盘与提示词文档合集/03_孙悟空篇_4-2高密度信息图提示词.md",
+          "updatedAt": "2026-05-04T15:17:14"
+        }
+      ]
+    },
+    {
+      "id": "latest-growth-reports",
+      "origin": "generated",
+      "type": "运营报告",
+      "title": "最近的小红书 / 公众号数据报告",
+      "summary": "自动读取运营 reports，避免最新复盘报告沉在文件夹里。",
+      "source": "04_operations/03_growth_and_data/xiaohongshu_growth_channel/02_作者语料与小红书双轨运营项目_资料/01_小红书自有账号后台数据监控/reports",
+      "sourceLabel": "reports",
+      "useFor": "最近条目：小红书自有账号周自动分析；小红书自有账号周自动分析；小红书自有账号周自动分析；2026-05-04 小红书与公众号双平台数据快照",
+      "route": "/tools/content-ops",
+      "routeLabel": "看内容数据",
+      "updatedAt": "2026-05-06T06:52:03",
+      "items": [
+        {
+          "title": "小红书自有账号周自动分析",
+          "source": "04_operations/03_growth_and_data/xiaohongshu_growth_channel/02_作者语料与小红书双轨运营项目_资料/01_小红书自有账号后台数据监控/reports/latest_auto_report.md",
+          "updatedAt": "2026-05-06T06:52:03"
+        },
+        {
+          "title": "小红书自有账号周自动分析",
+          "source": "04_operations/03_growth_and_data/xiaohongshu_growth_channel/02_作者语料与小红书双轨运营项目_资料/01_小红书自有账号后台数据监控/reports/2026-W19_weekly_review_auto.md",
+          "updatedAt": "2026-05-06T06:52:03"
+        },
+        {
+          "title": "小红书自有账号周自动分析",
+          "source": "04_operations/03_growth_and_data/xiaohongshu_growth_channel/02_作者语料与小红书双轨运营项目_资料/01_小红书自有账号后台数据监控/reports/2026-W16_weekly_review_auto.md",
+          "updatedAt": "2026-05-05T22:26:06"
+        },
+        {
+          "title": "2026-05-04 小红书与公众号双平台数据快照",
+          "source": "04_operations/03_growth_and_data/xiaohongshu_growth_channel/02_作者语料与小红书双轨运营项目_资料/01_小红书自有账号后台数据监控/reports/2026-05-04_小红书公众号双平台数据快照与网页同步.md",
+          "updatedAt": "2026-05-04T09:01:50"
+        },
+        {
+          "title": "2026-05-03 小红书与公众号双平台数据快照",
+          "source": "04_operations/03_growth_and_data/xiaohongshu_growth_channel/02_作者语料与小红书双轨运营项目_资料/01_小红书自有账号后台数据监控/reports/2026-05-03_小红书公众号双平台数据快照与网页同步.md",
+          "updatedAt": "2026-05-03T18:44:35"
+        },
+        {
+          "title": "小红书自有账号周自动分析",
+          "source": "04_operations/03_growth_and_data/xiaohongshu_growth_channel/02_作者语料与小红书双轨运营项目_资料/01_小红书自有账号后台数据监控/reports/2026-W18_weekly_review_auto.md",
+          "updatedAt": "2026-05-03T18:31:42"
+        }
+      ],
+      "mode": "data"
+    },
+    {
+      "id": "book-registry",
+      "origin": "generated",
+      "type": "书库 Registry",
+      "title": "公开书库 registry",
+      "summary": "当前网页 registry 收录 157 本书，可作为书库、搜索和专题入口的总账。",
+      "source": "04_operations/04_products_and_experiments/book-kb-multi/web/public/registry/books.json",
+      "sourceLabel": "books.json",
+      "useFor": "前几本：德波顿方法库、心智误区、心智进化、关键对话、高绩效教练、第五项修炼",
+      "route": "/books",
+      "routeLabel": "打开书库",
+      "items": [
+        {
+          "title": "德波顿方法库",
+          "source": "/books/alain-de-botton-works",
+          "updatedAt": ""
+        },
+        {
+          "title": "心智误区",
+          "source": "/books/mindset-traps",
+          "updatedAt": ""
+        },
+        {
+          "title": "心智进化",
+          "source": "/books/leadership-evolution",
+          "updatedAt": ""
+        },
+        {
+          "title": "关键对话",
+          "source": "/books/key-conversations",
+          "updatedAt": ""
+        },
+        {
+          "title": "高绩效教练",
+          "source": "/books/performance-coaching",
+          "updatedAt": ""
+        },
+        {
+          "title": "第五项修炼",
+          "source": "/books/fifth-discipline",
+          "updatedAt": ""
+        }
+      ]
+    },
+    {
+      "id": "public-book-ledger",
+      "origin": "generated",
+      "type": "书库账本",
+      "title": "50 本公开书库账本",
+      "summary": "原灰度清单保留为发布维护账本：目标 50 本，已选 50 本；public_structured_nk 45 本。",
+      "source": "04_operations/04_products_and_experiments/book-kb-multi/web/public/registry/50_book_gray_manifest.json",
+      "sourceLabel": "50_book_gray_manifest.json",
+      "useFor": "判断 DEV-037 的公开书库维护状态、证据来源和下一批专题连接。",
+      "route": "/tools/gray-books",
+      "routeLabel": "打开书库账本",
+      "items": [
+        {
+          "title": "好好思考",
+          "source": "/books/good-thinking",
+          "updatedAt": ""
+        },
+        {
+          "title": "模型思维",
+          "source": "/books/model-thinking",
+          "updatedAt": ""
+        },
+        {
+          "title": "思考，快与慢",
+          "source": "/books/thinking-fast-and-slow",
+          "updatedAt": ""
+        },
+        {
+          "title": "非暴力沟通",
+          "source": "/books/nonviolent-communication",
+          "updatedAt": ""
+        },
+        {
+          "title": "卡片笔记写作法  如何实现从阅读到写作",
+          "source": "/books/smart-notes",
+          "updatedAt": ""
+        },
+        {
+          "title": "打造第二大脑",
+          "source": "/books/second-brain",
+          "updatedAt": ""
+        }
+      ]
+    },
+    {
+      "id": "runtime-scripts",
+      "origin": "generated",
+      "type": "自动化脚本",
+      "title": "最近更新的运行脚本",
+      "summary": "自动扫描 canonical scripts 目录，优先找可复用自动化，而不是临时重写。",
+      "source": "04_operations/06_ops_runtime/scripts",
+      "sourceLabel": "scripts",
+      "useFor": "最近条目：export_xhs_weekly_to_web；xiaohongshu_own_metrics_pipeline；odl_convert；content_ops_search_tools",
+      "route": "/tools/content-ops",
+      "routeLabel": "回到工作台",
+      "updatedAt": "2026-05-06T07:01:56",
+      "items": [
+        {
+          "title": "export_xhs_weekly_to_web",
+          "source": "04_operations/06_ops_runtime/scripts/export_xhs_weekly_to_web.py",
+          "updatedAt": "2026-05-06T07:01:56"
+        },
+        {
+          "title": "xiaohongshu_own_metrics_pipeline",
+          "source": "04_operations/06_ops_runtime/scripts/xiaohongshu_own_metrics_pipeline.py",
+          "updatedAt": "2026-05-05T23:02:23"
+        },
+        {
+          "title": "odl_convert",
+          "source": "04_operations/06_ops_runtime/scripts/odl_convert.py",
+          "updatedAt": "2026-05-05T22:02:22"
+        },
+        {
+          "title": "content_ops_search_tools",
+          "source": "04_operations/06_ops_runtime/scripts/content_ops_search_tools.py",
+          "updatedAt": "2026-05-05T21:08:42"
+        },
+        {
+          "title": "batch_markitdown_pdfs",
+          "source": "04_operations/06_ops_runtime/scripts/batch_markitdown_pdfs.py",
+          "updatedAt": "2026-05-05T18:49:35"
+        },
+        {
+          "title": "build_cross_book_index",
+          "source": "04_operations/06_ops_runtime/scripts/build_cross_book_index.py",
+          "updatedAt": "2026-05-05T16:32:37"
+        }
+      ]
+    },
+    {
+      "id": "web-tools",
+      "origin": "generated",
+      "type": "网页入口",
+      "title": "当前可推进的网页工具",
+      "summary": "工作台、书库账本、原型实验室、圆桌、思想伙伴、卡点工作台和空间浏览器，是当前项目推进的主要前台入口。",
+      "source": "04_operations/04_products_and_experiments/book-kb-multi/web/src/components",
+      "sourceLabel": "web/src/components",
+      "useFor": "快速判断某个想法应该进哪个前台页面继续验证。",
+      "route": "/tools/space-browser",
+      "routeLabel": "打开书籍地图",
+      "items": [
+        {
+          "title": "个人工作台",
+          "source": "/tools/content-ops",
+          "updatedAt": ""
+        },
+        {
+          "title": "书库账本",
+          "source": "/tools/gray-books",
+          "updatedAt": ""
+        },
+        {
+          "title": "人格原型实验室",
+          "source": "/tools/archetype-lab",
+          "updatedAt": ""
+        },
+        {
+          "title": "圆桌工作流",
+          "source": "/tools/roundtable",
+          "updatedAt": ""
+        },
+        {
+          "title": "思想伙伴",
+          "source": "/tools/thought-partner",
+          "updatedAt": ""
+        },
+        {
+          "title": "卡点工作台",
+          "source": "/tools/problem-lab",
+          "updatedAt": ""
+        }
+      ]
+    }
+  ]
+}

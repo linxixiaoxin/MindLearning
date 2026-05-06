@@ -1,0 +1,88 @@
+{
+  "book": {
+    "slug": "book-aeeb322a3b",
+    "title": "置身事内：中国政府与经济发展 (兰小欢)",
+    "shortTitle": "置身事内",
+    "author": "兰小欢",
+    "primaryCategory": "文史哲政治经济社会",
+    "secondaryCategory": "通用知识资产",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/12_文史哲政治经济社会/置身事内：中国政府与经济发展 (兰小欢)/assets",
+    "structuredJson": "01_sources/01_books/12_文史哲政治经济社会/置身事内：中国政府与经济发展 (兰小欢)/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/12_文史哲政治经济社会/置身事内：中国政府与经济发展 (兰小欢)/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/12_文史哲政治经济社会/置身事内：中国政府与经济发展 (兰小欢)/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/12_文史哲政治经济社会/置身事内：中国政府与经济发展 (兰小欢)/assets/视觉钩子.md",
+    "knTable": "01_sources/01_books/12_文史哲政治经济社会/置身事内：中国政府与经济发展 (兰小欢)/assets/整本书K卡_N卡总表.md"
+  },
+  "builder": {
+    "profile": "public_structured_nk_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": true,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ]
+  },
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_curated_overrides",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
+    ],
+    "overrideDir": "configs/public_overrides/book-aeeb322a3b",
+    "publicSanity": {
+      "blockerCount": 0,
+      "status": "pass",
+      "samples": []
+    }
+  },
+  "site": {
+    "subtitle": "《置身事内：中国政府与经济发展 (兰小欢)》如何提供可复用的概念、问题和场景解释。",
+    "description": "《置身事内：中国政府与经济发展 (兰小欢)》的 public_structured_nk 基础公开层配置。",
+    "heroOverline": "BOOK · THINKING MAP",
+    "heroTitleLines": [
+      "置身事内",
+      "《置身事内：中国政府与经济发展 (兰小欢)》如何提供可复用的概念、问题和场景解释。"
+    ],
+    "searchPlaceholder": "搜索《置身事内》问题、概念、章节、方法、场景…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书摘要",
+      "全书结构"
+    ],
+    "quickLinks": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ],
+    "journeyTitle": "基础公开阅读路径",
+    "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景展开。",
+    "sectionOrder": [
+      "summary",
+      "questions",
+      "chapters",
+      "concepts",
+      "methods",
+      "scenarios",
+      "extensions"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "chapterImageMode": "overview",
+    "chapterImageOrder": [],
+    "topicImageMap": {},
+    "fallbackImage": "/books/book-aeeb322a3b/chapter-images/overview.svg"
+  }
+}

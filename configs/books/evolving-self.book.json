@@ -5,7 +5,7 @@
     "shortTitle": "发展的自我",
     "author": "罗伯特·凯根",
     "primaryCategory": "领导管理与组织教练",
-    "secondaryCategory": "心理疗愈与自我探索",
+    "secondaryCategory": "常规书籍 v3 主题推进单元",
     "status": "active"
   },
   "source": {
@@ -14,88 +14,75 @@
     "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/全书摘要.md",
     "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/选题角度.md",
     "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/视觉钩子.md",
-    "bookOutputDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题",
-    "xhsImageDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题/小红书图",
-    "infographicsDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题/infographics",
-    "scenesDir": "03_outputs/04_by_book/发展的自我：自我成长中的过程与问题/scenes"
+    "knTable": "01_sources/01_books/03_领导管理与组织教练/发展的自我：自我成长中的过程与问题/assets/整本书K卡_N卡总表.md"
   },
   "builder": {
-    "profile": "generic_book_v1",
-    "entryNode": "全书导读",
-    "supportsCrossBookTopic": false,
+    "profile": "public_structured_nk_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": true,
     "hiddenNodes": [],
     "pinnedNodes": [
-      "全书导读",
-      "核心内容总览",
-      "发展的自我：自我成长中的过程与问题"
+      "公开入口",
+      "全书摘要",
+      "全书结构"
     ]
   },
-  "site": {
-    "subtitle": "发展心理学、成人成长与意义建构",
-    "description": "基于《发展的自我：自我成长中的过程与问题》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
-    "heroOverline": "PSYCHE · PATTERN · GROWTH",
-    "heroTitleLines": [
-      "发展的自我：自我成长中的过程与问题",
-      "把整本书做成可点击地图"
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_curated_overrides",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
     ],
-    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "overrideDir": "configs/public_overrides/evolving-self",
+    "publicSanity": {
+      "blockerCount": 0,
+      "status": "pass",
+      "samples": []
+    }
+  },
+  "site": {
+    "subtitle": "凯根把人的成长解释为“主体—客体关系”持续重组的过程：人之所以被困住，往往不是因为…",
+    "description": "《发展的自我：自我成长中的过程与问题》的 public_structured_nk 基础公开层配置。",
+    "heroOverline": "BOOK · THINKING MAP",
+    "heroTitleLines": [
+      "发展的自我",
+      "凯根把人的成长解释为“主体—客体关系”持续重组的过程：人之所以被困住，往往不是因为…"
+    ],
+    "searchPlaceholder": "搜索《发展的自我》问题、概念、章节、方法、场景…",
     "creatorName": "林子-心智进化之路",
     "creatorLabel": "整理与输出",
     "footerNote": "复杂世界和复杂人性的同行翻译者"
   },
   "homepage": {
     "recommendedPath": [
-      "全书导读",
-      "发展的自我：自我成长中的过程与问题",
-      "第01章 未被认识的让·皮亚杰的才华",
-      "主体—客体关系",
-      "第09章 自然疗法"
+      "全书摘要",
+      "全书结构"
     ],
     "quickLinks": [
-      "核心内容总览",
-      "单章目录",
-      "大学适应不良，很多时候不是脆弱，而是旧关系系统失效了",
-      "所谓“反社会少年”，可能只是被错过了成长桥梁",
-      "主体—客体关系",
-      "先判断一个人当前把什么当成“我”"
+      "公开入口",
+      "全书摘要",
+      "全书结构"
     ],
-    "journeyTitle": "章节升级打怪地图",
-    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "journeyTitle": "基础公开阅读路径",
+    "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景展开。",
     "sectionOrder": [
-      "overview",
-      "themes",
+      "summary",
+      "questions",
       "chapters",
       "concepts",
-      "methods"
+      "methods",
+      "scenarios",
+      "extensions"
     ]
   },
   "images": {
     "overviewImage": "/books/evolving-self/chapter-images/overview.svg",
-    "chapterImageMode": "ordered",
-    "chapterImageOrder": [
-      "/books/evolving-self/chapter-images/chapter-1.svg",
-      "/books/evolving-self/chapter-images/chapter-2.svg",
-      "/books/evolving-self/chapter-images/chapter-3.svg",
-      "/books/evolving-self/chapter-images/chapter-4.svg",
-      "/books/evolving-self/chapter-images/chapter-5.svg",
-      "/books/evolving-self/chapter-images/chapter-6.svg",
-      "/books/evolving-self/chapter-images/chapter-7.svg",
-      "/books/evolving-self/chapter-images/chapter-8.svg",
-      "/books/evolving-self/chapter-images/chapter-9.svg"
-    ],
-    "topicImageMap": {
-      "全书导读": "/books/evolving-self/chapter-images/overview.svg",
-      "全书脉络": "/books/evolving-self/chapter-images/overview.svg",
-      "核心内容总览": "/books/evolving-self/chapter-images/overview.svg",
-      "单章目录": "/books/evolving-self/chapter-images/overview.svg",
-      "选题角度": "/books/evolving-self/chapter-images/overview.svg",
-      "视觉表达钩子": "/books/evolving-self/chapter-images/overview.svg",
-      "发展的自我：自我成长中的过程与问题": "/books/evolving-self/chapter-images/overview.svg",
-      "大学适应不良，很多时候不是脆弱，而是旧关系系统失效了": "/books/evolving-self/chapter-images/chapter-7.svg",
-      "所谓“反社会少年”，可能只是被错过了成长桥梁": "/books/evolving-self/chapter-images/chapter-6.svg",
-      "成年人也会继续长大：自主并不是发展的终点": "/books/evolving-self/chapter-images/chapter-8.svg",
-      "治疗为什么常常输给环境：真正基础的是自然疗法": "/books/evolving-self/chapter-images/chapter-9.svg"
-    },
+    "chapterImageMode": "overview",
+    "chapterImageOrder": [],
+    "topicImageMap": {},
     "fallbackImage": "/books/evolving-self/chapter-images/overview.svg"
   }
 }

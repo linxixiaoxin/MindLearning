@@ -1,11 +1,11 @@
-export const learningPathSchemaVersion = 'ProblemLearningPath.v0.1'
+export const learningPathSchemaVersion = 'PracticeRoute.v0.2'
 export const defaultLearningPathId = 'notes-to-writing'
 
 export const learningPathSamples = [
   {
     id: 'notes-to-writing',
     status: 'seed',
-    phaseLabel: '学习路径 Seed',
+    phaseLabel: '练习路线 Seed',
     shortTitle: '笔记到输出',
     title: '为什么记了很多笔记，还是写不出来',
     audience: '学习笔记 / AI 知识系统 / 内容输出',
@@ -166,7 +166,7 @@ export const learningPathSamples = [
       format: [
         '问题：我想解释什么？',
         '概念：哪一个概念最能撑住这个解释？',
-        '例子：一个真实场景是什么？',
+        '例子：一个真实处境是什么？',
         '结论：我现在能给出的最小判断是什么？',
       ],
     },
@@ -179,7 +179,7 @@ export const learningPathSamples = [
   {
     id: 'team-truth-silence',
     status: 'seed',
-    phaseLabel: '学习路径 Seed',
+    phaseLabel: '练习路线 Seed',
     shortTitle: '沉默到真话',
     title: '团队没人说真话，通常不是大家没想法',
     audience: '团队沟通 / 管理教练 / 组织学习',
@@ -390,7 +390,7 @@ export const learningPathSamples = [
   {
     id: 'facts-before-argument',
     status: 'seed',
-    phaseLabel: '学习路径 Seed',
+    phaseLabel: '练习路线 Seed',
     shortTitle: '摆事实前',
     title: '对方不讲道理时，先别急着摆事实',
     audience: '关系误听 / 关键对话 / 事实与故事拆分',
@@ -591,18 +591,276 @@ export const learningPathSamples = [
     },
     nextDecision: '这条路径适合承接关系误听、争论升级、事实与故事拆分相关选题。',
   },
+  {
+    id: 'life-choice-map',
+    status: 'seed',
+    phaseLabel: '练习路线 Seed',
+    shortTitle: '选择地图',
+    title: '重大选择前，先做全景地图',
+    audience: '升学选校 / 专业选择 / 人生路径判断',
+    reframe: '你可能不是缺一个权威答案，而是缺一张能同时放下目标、资源、风险和个人特点的比较地图。',
+    currentBlock: '信息很多，但还没有被组织成可比较维度，所以每条建议都像最终答案。',
+    learningQuestion: '这个选择里，我到底要比较哪些维度，哪些信息最能降低误判？',
+    primaryBook: {
+      title: '模型思维',
+      slug: 'model-thinking',
+      role: '主书',
+      reason: '用多模型和多维度看选择，避免被单一排名、热门叙事或他人期待带走。',
+    },
+    axes: [
+      {
+        id: 'seeing',
+        label: '观看',
+        question: '我现在是不是只看见了最显眼的那个指标？',
+        color: '#5f7356',
+      },
+      {
+        id: 'judgement',
+        label: '判断',
+        question: '哪些维度真的会影响后续路径，哪些只是短期噪音？',
+        color: '#204f67',
+      },
+      {
+        id: 'action',
+        label: '行动',
+        question: '今天能补哪一类证据，而不是继续刷信息？',
+        color: '#bf6f3f',
+      },
+    ],
+    stages: [
+      {
+        level: 'L0',
+        title: '问题定向',
+        userQuestion: '我到底在选什么？',
+        learningGoal: '把“学校还是专业”改写为“平台、内容、城市、资源、风险和自我特点的组合判断”。',
+        completionSignal: '能列出至少 5 个需要比较的维度。',
+        resources: [],
+      },
+      {
+        level: 'L1',
+        title: '维度拆分',
+        userQuestion: '哪些维度必须放进地图？',
+        learningGoal: '把选择拆成学校、专业、城市、兴趣、能力、风险和备选路径。',
+        completionSignal: '得到一张 3x3 选择地图。',
+        resources: [
+          {
+            label: '打开《模型思维》',
+            type: '书籍',
+            slug: 'model-thinking',
+          },
+        ],
+      },
+      {
+        level: 'L2',
+        title: '偏差校准',
+        userQuestion: '我最容易被什么带偏？',
+        learningGoal: '检查锚定、从众、热门、损失厌恶和最近信息对判断的影响。',
+        completionSignal: '能写出 2 个自己可能被带偏的地方。',
+        resources: [
+          {
+            label: '打开《思考，快与慢》',
+            type: '书籍',
+            slug: 'thinking-fast-and-slow',
+          },
+        ],
+      },
+      {
+        level: 'L3',
+        title: '证据补齐',
+        userQuestion: '我还缺什么判断信息？',
+        learningGoal: '把“感觉不错/不确定”改写成需要补充的课程、去向、城市机会或真实任务证据。',
+        completionSignal: '列出 3 条最需要验证的信息。',
+        resources: [],
+      },
+      {
+        level: 'L4',
+        title: '小样本验证',
+        userQuestion: '我今天能怎样试一下？',
+        learningGoal: '用课程表、访谈、公开项目或专业任务样本验证一个方向。',
+        completionSignal: '完成一个 30 分钟小验证，而不是继续停在想象里。',
+        resources: [
+          {
+            label: '打开《最小阻力之路》',
+            type: '书籍',
+            slug: 'path-of-least-resistance',
+          },
+        ],
+      },
+      {
+        level: 'L5',
+        title: '复盘选择',
+        userQuestion: '怎样让选择可复盘？',
+        learningGoal: '记录当前判断、关键证据和备选路径，给未来的自己留下修正空间。',
+        completionSignal: '得到一张“选择依据-风险-下一步”卡。',
+        resources: [],
+      },
+    ],
+    practice: {
+      title: '3x3 选择地图',
+      time: '20 分钟',
+      steps: [
+        '列出 3 个候选方向。',
+        '列出 3 个最在意维度。',
+        '给每个组合写一句机会和一句风险。',
+        '标出最缺证据的一格，今天只补这一格。',
+      ],
+    },
+    outputTask: {
+      title: '选择依据-风险-下一步卡',
+      format: [
+        '选择：我正在比较什么？',
+        '依据：我已经知道什么？',
+        '风险：我最可能误判什么？',
+        '下一步：我今天补哪一条证据？',
+      ],
+    },
+    calibrator: {
+      title: '校正镜头',
+      text: '重大选择不需要一次算准人生。更现实的目标，是让当前选择有依据、可调整、能复盘。',
+    },
+    nextDecision: '这条路径先承接升学选校，后续也可扩展到考研、专业转向和重要人生选择。',
+  },
+  {
+    id: 'career-skill-map',
+    status: 'seed',
+    phaseLabel: '练习路线 Seed',
+    shortTitle: '岗位到能力',
+    title: '从岗位焦虑到能力地图',
+    audience: '求职 / 职业转型 / 作品证据',
+    reframe: '你可能不是没有方向，而是还没有把目标岗位、已有能力、缺口和证明材料放到同一张图上。',
+    currentBlock: '岗位要求看起来很多，自己的经历也很散，所以焦虑被误读成“我不适合”。',
+    learningQuestion: '目标岗位需要什么，我已经能证明什么，下一步最小补证据动作是什么？',
+    primaryBook: {
+      title: '卓有成效的管理者',
+      slug: 'effective-executive',
+      role: '主书',
+      reason: '把经历翻译成贡献、成果、优先级和可证明价值。',
+    },
+    axes: [
+      {
+        id: 'judgement',
+        label: '判断',
+        question: '岗位真正要的交付物是什么？',
+        color: '#204f67',
+      },
+      {
+        id: 'expression',
+        label: '表达',
+        question: '我的经历怎样讲成目标岗位听得懂的证据？',
+        color: '#bf6f3f',
+      },
+      {
+        id: 'action',
+        label: '行动',
+        question: '7 天内能做出哪个最小作品？',
+        color: '#5f7356',
+      },
+    ],
+    stages: [
+      {
+        level: 'L0',
+        title: '岗位定向',
+        userQuestion: '我到底想进入哪类岗位？',
+        learningGoal: '先选 3 个目标岗位，不急着定义终身职业方向。',
+        completionSignal: '得到 3 个岗位样本。',
+        resources: [],
+      },
+      {
+        level: 'L1',
+        title: '任务拆解',
+        userQuestion: '这个岗位每天真正做什么？',
+        learningGoal: '把岗位标题拆成职责、协作对象、交付物和能力要求。',
+        completionSignal: '能说出岗位的 3 个核心交付物。',
+        resources: [
+          {
+            label: '打开《卓有成效的管理者》',
+            type: '书籍',
+            slug: 'effective-executive',
+          },
+        ],
+      },
+      {
+        level: 'L2',
+        title: '能力对照',
+        userQuestion: '我已有能力哪些能迁移？',
+        learningGoal: '把过往经历拆成可迁移能力、行业特定能力和待补能力。',
+        completionSignal: '得到一张能力差距表。',
+        resources: [
+          {
+            label: '打开《好好思考》',
+            type: '书籍',
+            slug: 'good-thinking',
+          },
+        ],
+      },
+      {
+        level: 'L3',
+        title: '证据补齐',
+        userQuestion: '我怎样证明自己会？',
+        learningGoal: '把能力补齐从“继续学习”改成“交付一个可被看见的作品”。',
+        completionSignal: '确定一个 7 天内能完成的证据动作。',
+        resources: [],
+      },
+      {
+        level: 'L4',
+        title: '叙事改写',
+        userQuestion: '我的经历如何讲成一条线？',
+        learningGoal: '用“问题-行动-结果-证据”重写一段项目经历。',
+        completionSignal: '完成一段可放进简历或面试的项目叙事。',
+        resources: [],
+      },
+      {
+        level: 'L5',
+        title: '市场反馈',
+        userQuestion: '怎样低成本验证？',
+        learningGoal: '用投递、访谈、小项目或作品发布获得真实反馈。',
+        completionSignal: '收到至少 1 个来自外部的反馈信号。',
+        resources: [
+          {
+            label: '打开《高绩效教练》',
+            type: '书籍',
+            slug: 'performance-coaching',
+          },
+        ],
+      },
+    ],
+    practice: {
+      title: '岗位能力对照表',
+      time: '30 分钟',
+      steps: [
+        '选 3 个目标岗位。',
+        '从岗位描述里提取 5 个高频要求。',
+        '标出自己已有证据、弱证据和完全缺口。',
+        '选一个缺口，设计 7 天最小作品。',
+      ],
+    },
+    outputTask: {
+      title: '岗位要求-我的证据-缺口动作表',
+      format: [
+        '岗位要求：对方真正要什么？',
+        '我的证据：我有什么项目或成果能证明？',
+        '缺口：我还缺知识、经验还是作品？',
+        '动作：7 天内补哪一个证据？',
+      ],
+    },
+    calibrator: {
+      title: '校正镜头',
+      text: '职业转型不是等准备完美再开始，而是不断用小作品和真实反馈校准方向。',
+    },
+    nextDecision: '这条路径先承接求职/转型场景，后续可扩展为完整职业能力入口。',
+  },
 ]
 
 export const upcomingLearningPaths = [
   {
-    title: '补 Mermaid 学习路径结构图 POC',
+    title: '补练习路线结构图',
     status: '下一步',
-    reason: '在现有 L0-L5 数据上生成一张结构图，让路径比文字列表更像“地图”。',
+    reason: '在现有 L0-L5 数据上生成一张结构图，让路线比文字列表更像“地图”。',
   },
   {
     title: '回头补思想伙伴 PNG 与 fallback 验收',
     status: '下一步',
-    reason: '学习路径第一批已成型，公开小测前仍要把结果卡导出和行动反馈降级链路测完。',
+    reason: '练习路线第一批已成型，公开小测前仍要把结果卡导出和行动反馈降级链路测完。',
   },
 ]
 

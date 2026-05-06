@@ -1,0 +1,728 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "全书摘要": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "全书结构": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "《复杂心智》如何帮助管理者从控制任务转向理解人、关系和组织系统。": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "《复杂心智》中的哪些概念最适合转成问题工作台节点？": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "复杂心智": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "领导者意识": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "心理安全": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "反馈": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "领导者意识 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "心理安全 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "反馈 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "授权": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "团队设计": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "领导者意识 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "心理安全 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "反馈 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "授权 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "团队设计 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "系统觉察": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "冲突修复": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "组织学习": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "领导者意识 4": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "心理安全 4": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "反馈 4": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "授权 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "团队设计 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-f4f4d5b183/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-f4f4d5b183/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《复杂心智》如何帮助管理者从控制任务转向理解人、关系和组织系统。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《复杂心智》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "复杂心智",
+      "type": "question",
+      "tagline": "《复杂心智》如何帮助管理者从控制任务转向理解人、关系和组织系统。"
+    },
+    {
+      "id": "领导者意识",
+      "type": "question",
+      "tagline": "团队问题常常不是个人态度问题，而是结构、反馈和安全感共同作用。"
+    },
+    {
+      "id": "心理安全",
+      "type": "question",
+      "tagline": "管理者的意识水平会限制他能看见的问题层次。"
+    },
+    {
+      "id": "反馈",
+      "type": "question",
+      "tagline": "真正的授权不是放任，而是边界、资源和责任的重新设计。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "领导力不是职位权力，而是让系统更能学习和承担现实。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "团队问题常常不是个人态度问题，而是结构、反馈和安全感共同作用。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "管理者的意识水平会限制他能看见的问题层次。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "真正的授权不是放任，而是边界、资源和责任的重新设计。"
+    },
+    {
+      "id": "领导者意识 2",
+      "type": "chapter",
+      "tagline": "第二个单元把注意力转到“领导者意识”，用它解释管理动作背后更稳定的团队结构。"
+    },
+    {
+      "id": "心理安全 2",
+      "type": "chapter",
+      "tagline": "这一单元处理“心理安全”带来的关系变化，重点看它如何影响信任、反馈和责任分配。"
+    },
+    {
+      "id": "反馈 2",
+      "type": "chapter",
+      "tagline": "中段围绕“反馈”展开，把领导者个人选择和组织系统的反应连接起来。"
+    },
+    {
+      "id": "授权",
+      "type": "chapter",
+      "tagline": "第五个单元检视“授权”的落地条件，避免把概念误读成单一技巧。"
+    },
+    {
+      "id": "团队设计",
+      "type": "chapter",
+      "tagline": "收束单元回到“团队设计”，把前面的观察整理成后续可调用的管理判断。"
+    },
+    {
+      "id": "领导者意识 3",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "心理安全 3",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "反馈 3",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "授权 2",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "团队设计 2",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "系统觉察",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "冲突修复",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "组织学习",
+      "type": "concept",
+      "tagline": "围绕领导者、团队、反馈、授权与组织学习的可复用节点"
+    },
+    {
+      "id": "领导者意识 4",
+      "type": "concept",
+      "tagline": "围绕“领导者意识”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "心理安全 4",
+      "type": "concept",
+      "tagline": "围绕“心理安全”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "反馈 4",
+      "type": "concept",
+      "tagline": "围绕“反馈”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "授权 3",
+      "type": "concept",
+      "tagline": "围绕“授权”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "团队设计 3",
+      "type": "concept",
+      "tagline": "围绕“团队设计”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "团队为什么没人说真话"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "领导者最该升级的不是技巧，而是意识"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "授权不是把活丢出去"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "心理安全感如何影响团队绩效"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "领导意识阶梯"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "团队安全感温度计"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "授权边界画布"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "反馈回路图"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《复杂心智》如何帮助管理者从控制任务转向理解人、关系和组织系统。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《复杂心智》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "复杂心智",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "领导者意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "心理安全",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "领导者意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "心理安全 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "授权",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "团队设计",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "领导者意识 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "心理安全 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "授权 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "团队设计 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统觉察",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "冲突修复",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "组织学习",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "领导者意识 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "心理安全 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "授权 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "团队设计 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "领导者意识 4",
+      "target": "心理安全 4",
+      "type": "relates"
+    },
+    {
+      "source": "领导者意识 4",
+      "target": "反馈 4",
+      "type": "relates"
+    },
+    {
+      "source": "领导者意识 4",
+      "target": "授权 3",
+      "type": "relates"
+    },
+    {
+      "source": "领导者意识 4",
+      "target": "团队设计 3",
+      "type": "relates"
+    },
+    {
+      "source": "心理安全 4",
+      "target": "反馈 4",
+      "type": "relates"
+    },
+    {
+      "source": "心理安全 4",
+      "target": "授权 3",
+      "type": "relates"
+    },
+    {
+      "source": "心理安全 4",
+      "target": "团队设计 3",
+      "type": "relates"
+    },
+    {
+      "source": "心理安全 4",
+      "target": "系统觉察",
+      "type": "relates"
+    },
+    {
+      "source": "反馈 4",
+      "target": "授权 3",
+      "type": "relates"
+    },
+    {
+      "source": "反馈 4",
+      "target": "团队设计 3",
+      "type": "relates"
+    },
+    {
+      "source": "反馈 4",
+      "target": "系统觉察",
+      "type": "relates"
+    },
+    {
+      "source": "反馈 4",
+      "target": "冲突修复",
+      "type": "relates"
+    },
+    {
+      "source": "授权 3",
+      "target": "团队设计 3",
+      "type": "relates"
+    },
+    {
+      "source": "授权 3",
+      "target": "系统觉察",
+      "type": "relates"
+    },
+    {
+      "source": "授权 3",
+      "target": "冲突修复",
+      "type": "relates"
+    },
+    {
+      "source": "授权 3",
+      "target": "组织学习",
+      "type": "relates"
+    },
+    {
+      "source": "团队设计 3",
+      "target": "系统觉察",
+      "type": "relates"
+    },
+    {
+      "source": "团队设计 3",
+      "target": "冲突修复",
+      "type": "relates"
+    },
+    {
+      "source": "团队设计 3",
+      "target": "组织学习",
+      "type": "relates"
+    },
+    {
+      "source": "团队设计 3",
+      "target": "领导者意识 4",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《复杂心智》如何帮助管理者从控制任务转向理解人、关系和组织系统。": "问题入口",
+    "公开入口→《复杂心智》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→复杂心智": "K 卡",
+    "公开入口→领导者意识": "K 卡",
+    "公开入口→心理安全": "K 卡",
+    "公开入口→反馈": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→领导者意识 2": "章节推进",
+    "公开入口→心理安全 2": "章节推进",
+    "公开入口→反馈 2": "章节推进",
+    "公开入口→授权": "章节推进",
+    "公开入口→团队设计": "章节推进",
+    "公开入口→领导者意识 3": "N 卡",
+    "公开入口→心理安全 3": "N 卡",
+    "公开入口→反馈 3": "N 卡",
+    "公开入口→授权 2": "N 卡",
+    "公开入口→团队设计 2": "N 卡",
+    "公开入口→系统觉察": "N 卡",
+    "公开入口→冲突修复": "N 卡",
+    "公开入口→组织学习": "N 卡",
+    "公开入口→领导者意识 4": "主题单元",
+    "公开入口→心理安全 4": "主题单元",
+    "公开入口→反馈 4": "主题单元",
+    "公开入口→授权 3": "主题单元",
+    "公开入口→团队设计 3": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "领导者意识 4→心理安全 4": "相关概念",
+    "领导者意识 4→反馈 4": "相关概念",
+    "领导者意识 4→授权 3": "相关概念",
+    "领导者意识 4→团队设计 3": "相关概念",
+    "心理安全 4→反馈 4": "相关概念",
+    "心理安全 4→授权 3": "相关概念",
+    "心理安全 4→团队设计 3": "相关概念",
+    "心理安全 4→系统觉察": "相关概念",
+    "反馈 4→授权 3": "相关概念",
+    "反馈 4→团队设计 3": "相关概念",
+    "反馈 4→系统觉察": "相关概念",
+    "反馈 4→冲突修复": "相关概念",
+    "授权 3→团队设计 3": "相关概念",
+    "授权 3→系统觉察": "相关概念",
+    "授权 3→冲突修复": "相关概念",
+    "授权 3→组织学习": "相关概念",
+    "团队设计 3→系统觉察": "相关概念",
+    "团队设计 3→冲突修复": "相关概念",
+    "团队设计 3→组织学习": "相关概念",
+    "团队设计 3→领导者意识 4": "相关概念"
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-308d006589/chapter-images/overview.svg",
+    "全书摘要": "/books/book-308d006589/chapter-images/overview.svg",
+    "全书结构": "/books/book-308d006589/chapter-images/overview.svg",
+    "社会空间、资本、制度、日常实践与空间表征在这本书中为什么会成为问题？": "/books/book-308d006589/chapter-images/overview.svg",
+    "作者如何组织“空间经验 - 空间秩序 - 身体感受 - 社会关系 权力安排 - 自我安放方式”这条分析链？": "/books/book-308d006589/chapter-images/overview.svg",
+    "哪些内容只能作为后台判断，哪些可以进入前台表达？": "/books/book-308d006589/chapter-images/overview.svg",
+    "这本书最容易被误用成什么？": "/books/book-308d006589/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-308d006589/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-308d006589/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-308d006589/chapter-images/overview.svg",
+    "逻辑链 5": "/books/book-308d006589/chapter-images/overview.svg",
+    "逻辑链 6": "/books/book-308d006589/chapter-images/overview.svg",
+    "空间生产": "/books/book-308d006589/chapter-images/overview.svg",
+    "抽象空间": "/books/book-308d006589/chapter-images/overview.svg",
+    "差异空间": "/books/book-308d006589/chapter-images/overview.svg",
+    "空间生产 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "抽象空间 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "差异空间 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "这本书不以显性步骤为主": "/books/book-308d006589/chapter-images/overview.svg",
+    "被规划、消费和通勤切割的城市生活": "/books/book-308d006589/chapter-images/overview.svg",
+    "被规划、消费和通勤切割的城市生活 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "把这本书当空间美学": "/books/book-308d006589/chapter-images/overview.svg",
+    "把空间问题心理化": "/books/book-308d006589/chapter-images/overview.svg",
+    "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题": "/books/book-308d006589/chapter-images/overview.svg",
+    "读《空间的生产》最容易误会的一点": "/books/book-308d006589/chapter-images/overview.svg",
+    "《空间的生产》适合做后台判断，不适合直接鸡汤化": "/books/book-308d006589/chapter-images/overview.svg",
+    "空间生产型提取链": "/books/book-308d006589/chapter-images/overview.svg",
+    "社会空间、资本、制度、日常实践与空间表征误用边界图": "/books/book-308d006589/chapter-images/overview.svg",
+    "把这本书当空间美学 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "把空间问题心理化 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "空间生产型": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 1": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 2": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 3": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 4": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 5": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 6": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 7": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 8": "/books/book-308d006589/chapter-images/overview.svg",
+    "高密度句 9": "/books/book-308d006589/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "社会空间、资本、制度、日常实践与空间表征在这本书中为什么会成为问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "作者如何组织“空间经验 - 空间秩序 - 身体感受 - 社会关系 权力安排 - 自我安放方式”这条分析链？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "这本书最容易被误用成什么？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "先识别这本书的主要分析对象：社会空间、资本、制度、日常实践与空间表征。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "再按“空间经验 -> 空间秩序 -> 身体感受 -> 社会关系/权力安排 -> 自我安放方式”保留作者推进链。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "章节地图先保留结构位置，不把局部观点抽成孤立金句。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "K/N 卡优先产出概念、机制、场景、证据、问题和反模式。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "前台表达必须降低术语密度，但不能删除原书分析对象。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "后台判断用于校正账号内容，防止把结构问题误判成个人问题。"
+    },
+    {
+      "id": "空间生产",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“空间生产”，用于把《空间的生产》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "抽象空间",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“抽象空间”，用于把《空间的生产》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "差异空间",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“差异空间”，用于把《空间的生产》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "空间生产 2",
+      "type": "concept",
+      "tagline": "空间不是中性容器，而是社会关系被生产和再生产的结果。"
+    },
+    {
+      "id": "抽象空间 2",
+      "type": "concept",
+      "tagline": "资本和制度倾向于把空间变成可计算、可交换、可控制的形式。"
+    },
+    {
+      "id": "差异空间 2",
+      "type": "concept",
+      "tagline": "抵抗抽象空间同质化、保留身体和生活差异的空间可能。"
+    },
+    {
+      "id": "这本书不以显性步骤为主",
+      "type": "method",
+      "tagline": "用于理论母书入库、K/N 卡拆分、主题链策划和真实场景复盘前的判断。"
+    },
+    {
+      "id": "被规划、消费和通勤切割的城市生活",
+      "type": "scenario",
+      "tagline": "空间生产通过动线和功能分区影响人。"
+    },
+    {
+      "id": "被规划、消费和通勤切割的城市生活 2",
+      "type": "case",
+      "tagline": "空间生产通过动线和功能分区影响人。"
+    },
+    {
+      "id": "把这本书当空间美学",
+      "type": "case",
+      "tagline": "书名容易被生活方式化。"
+    },
+    {
+      "id": "把空间问题心理化",
+      "type": "case",
+      "tagline": "人会先说自己不舒服。"
+    },
+    {
+      "id": "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题",
+      "type": "expression",
+      "tagline": "把结构性压力误读成个人失败。"
+    },
+    {
+      "id": "读《空间的生产》最容易误会的一点",
+      "type": "expression",
+      "tagline": "想把复杂理论立刻改成行动建议。"
+    },
+    {
+      "id": "《空间的生产》适合做后台判断，不适合直接鸡汤化",
+      "type": "expression",
+      "tagline": "理论很有冲击力，但前台表达容易变空。"
+    },
+    {
+      "id": "空间生产型提取链",
+      "type": "expression",
+      "tagline": "用一条链路画出《空间的生产》如何推进社会空间、资本、制度、日常实践与空间表征。"
+    },
+    {
+      "id": "社会空间、资本、制度、日常实践与空间表征误用边界图",
+      "type": "expression",
+      "tagline": "左侧保留原书对象，右侧列出心理化、方法化、金句化等误用。"
+    },
+    {
+      "id": "把这本书当空间美学 2",
+      "type": "warning",
+      "tagline": "它的核心是社会空间如何被生产。"
+    },
+    {
+      "id": "把空间问题心理化 2",
+      "type": "warning",
+      "tagline": "必须继续追问空间背后的资本、制度和实践。"
+    },
+    {
+      "id": "空间生产型",
+      "type": "relation",
+      "tagline": "可与同类空间生产型书籍建立跨书索引。"
+    },
+    {
+      "id": "高密度句 1",
+      "type": "expression",
+      "tagline": "《空间的生产》不是空间审美书，而是说明空间如何被资本、制度、表征和日常实践共同生产。"
+    },
+    {
+      "id": "高密度句 2",
+      "type": "expression",
+      "tagline": "空间生产型"
+    },
+    {
+      "id": "高密度句 3",
+      "type": "expression",
+      "tagline": "社会空间、资本、制度、日常实践与空间表征"
+    },
+    {
+      "id": "高密度句 4",
+      "type": "expression",
+      "tagline": "空间经验 -> 空间秩序 -> 身体感受 -> 社会关系/权力安排 -> 自我安放方式"
+    },
+    {
+      "id": "高密度句 5",
+      "type": "expression",
+      "tagline": "前台可谈空间压迫感、城市动线、办公空间，但要保留社会空间机制。"
+    },
+    {
+      "id": "高密度句 6",
+      "type": "expression",
+      "tagline": "后台用于产品空间、旅行页面和生活场景复盘的结构判断。"
+    },
+    {
+      "id": "高密度句 7",
+      "type": "expression",
+      "tagline": "空间生产"
+    },
+    {
+      "id": "高密度句 8",
+      "type": "expression",
+      "tagline": "抽象空间"
+    },
+    {
+      "id": "高密度句 9",
+      "type": "expression",
+      "tagline": "差异空间"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "社会空间、资本、制度、日常实践与空间表征在这本书中为什么会成为问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者如何组织“空间经验 - 空间秩序 - 身体感受 - 社会关系 权力安排 - 自我安放方式”这条分析链？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书最容易被误用成什么？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间生产",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "抽象空间",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "差异空间",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间生产 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "抽象空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "差异空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书不以显性步骤为主",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "被规划、消费和通勤切割的城市生活",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "被规划、消费和通勤切割的城市生活 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把这本书当空间美学",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把空间问题心理化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读《空间的生产》最容易误会的一点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《空间的生产》适合做后台判断，不适合直接鸡汤化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间生产型提取链",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "社会空间、资本、制度、日常实践与空间表征误用边界图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把这本书当空间美学 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把空间问题心理化 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间生产型",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 7",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 8",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 9",
+      "type": "relates"
+    },
+    {
+      "source": "被规划、消费和通勤切割的城市生活 2",
+      "target": "空间生产 2",
+      "type": "relates"
+    },
+    {
+      "source": "被规划、消费和通勤切割的城市生活 2",
+      "target": "抽象空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书当空间美学",
+      "target": "空间生产 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书当空间美学",
+      "target": "抽象空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书当空间美学",
+      "target": "差异空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "把空间问题心理化 2",
+      "target": "空间生产 2",
+      "type": "relates"
+    },
+    {
+      "source": "把空间问题心理化 2",
+      "target": "抽象空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "把空间问题心理化 2",
+      "target": "差异空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题",
+      "target": "空间生产 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题",
+      "target": "抽象空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题",
+      "target": "差异空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《空间的生产》最容易误会的一点",
+      "target": "空间生产 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《空间的生产》最容易误会的一点",
+      "target": "抽象空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《空间的生产》最容易误会的一点",
+      "target": "差异空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "《空间的生产》适合做后台判断，不适合直接鸡汤化",
+      "target": "空间生产 2",
+      "type": "relates"
+    },
+    {
+      "source": "《空间的生产》适合做后台判断，不适合直接鸡汤化",
+      "target": "抽象空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "《空间的生产》适合做后台判断，不适合直接鸡汤化",
+      "target": "差异空间 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→社会空间、资本、制度、日常实践与空间表征在这本书中为什么会成为问题？": "问题入口",
+    "公开入口→作者如何组织“空间经验 - 空间秩序 - 身体感受 - 社会关系 权力安排 - 自我安放方式”这条分析链？": "问题入口",
+    "公开入口→哪些内容只能作为后台判断，哪些可以进入前台表达？": "问题入口",
+    "公开入口→这本书最容易被误用成什么？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→空间生产": "章节推进",
+    "公开入口→抽象空间": "章节推进",
+    "公开入口→差异空间": "章节推进",
+    "公开入口→空间生产 2": "概念支撑",
+    "公开入口→抽象空间 2": "概念支撑",
+    "公开入口→差异空间 2": "概念支撑",
+    "公开入口→这本书不以显性步骤为主": "行动方法",
+    "公开入口→被规划、消费和通勤切割的城市生活": "场景入口",
+    "公开入口→被规划、消费和通勤切割的城市生活 2": "案例证据",
+    "公开入口→把这本书当空间美学": "案例证据",
+    "公开入口→把空间问题心理化": "案例证据",
+    "公开入口→为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题": "问题切入",
+    "公开入口→读《空间的生产》最容易误会的一点": "问题切入",
+    "公开入口→《空间的生产》适合做后台判断，不适合直接鸡汤化": "问题切入",
+    "公开入口→空间生产型提取链": "视觉表达",
+    "公开入口→社会空间、资本、制度、日常实践与空间表征误用边界图": "视觉表达",
+    "公开入口→把这本书当空间美学 2": "避免误读",
+    "公开入口→把空间问题心理化 2": "避免误读",
+    "公开入口→空间生产型": "跨书连接",
+    "公开入口→高密度句 1": "表达句",
+    "公开入口→高密度句 2": "表达句",
+    "公开入口→高密度句 3": "表达句",
+    "公开入口→高密度句 4": "表达句",
+    "公开入口→高密度句 5": "表达句",
+    "公开入口→高密度句 6": "表达句",
+    "公开入口→高密度句 7": "表达句",
+    "公开入口→高密度句 8": "表达句",
+    "公开入口→高密度句 9": "表达句",
+    "被规划、消费和通勤切割的城市生活 2→空间生产 2": "相关概念",
+    "被规划、消费和通勤切割的城市生活 2→抽象空间 2": "相关概念",
+    "把这本书当空间美学→空间生产 2": "相关概念",
+    "把这本书当空间美学→抽象空间 2": "相关概念",
+    "把这本书当空间美学→差异空间 2": "相关概念",
+    "把空间问题心理化 2→空间生产 2": "相关概念",
+    "把空间问题心理化 2→抽象空间 2": "相关概念",
+    "把空间问题心理化 2→差异空间 2": "相关概念",
+    "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题→空间生产 2": "相关概念",
+    "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题→抽象空间 2": "相关概念",
+    "为什么社会空间、资本、制度、日常实践与空间表征不能只当成个人问题→差异空间 2": "相关概念",
+    "读《空间的生产》最容易误会的一点→空间生产 2": "相关概念",
+    "读《空间的生产》最容易误会的一点→抽象空间 2": "相关概念",
+    "读《空间的生产》最容易误会的一点→差异空间 2": "相关概念",
+    "《空间的生产》适合做后台判断，不适合直接鸡汤化→空间生产 2": "相关概念",
+    "《空间的生产》适合做后台判断，不适合直接鸡汤化→抽象空间 2": "相关概念",
+    "《空间的生产》适合做后台判断，不适合直接鸡汤化→差异空间 2": "相关概念"
+  }
+}

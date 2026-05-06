@@ -9,7 +9,7 @@
         <h2>{{ problemCase.title }}</h2>
         <p class="problem-naming">{{ problemCase.problemNaming }}</p>
         <div class="current-situation">
-          <span>当前现场</span>
+          <span>现在发生了什么</span>
           <strong>{{ problemCase.currentSituation }}</strong>
         </div>
       </div>
@@ -24,15 +24,15 @@
 
     <section class="coordinate-grid">
       <article class="coordinate-panel">
-        <div class="panel-kicker">Scene</div>
-        <h3>问题坐标</h3>
+        <div class="panel-kicker">Situation</div>
+        <h3>处境线索</h3>
         <div class="tag-cloud">
           <span v-for="tag in problemCase.sceneTags" :key="tag">{{ tag }}</span>
         </div>
       </article>
 
       <article class="coordinate-panel">
-        <div class="panel-kicker">Emotion</div>
+        <div class="panel-kicker">Signal</div>
         <h3>情绪信号</h3>
         <div class="tag-cloud warm">
           <span v-for="tag in problemCase.emotionTags" :key="tag">{{ tag }}</span>
@@ -41,7 +41,7 @@
 
       <article class="coordinate-panel">
         <div class="panel-kicker">Need</div>
-        <h3>背后需要</h3>
+        <h3>真正需要</h3>
         <div class="tag-cloud green">
           <span v-for="tag in problemCase.needTags" :key="tag">{{ tag }}</span>
         </div>
@@ -49,7 +49,7 @@
     </section>
 
     <section class="core-question">
-      <span>核心追问</span>
+      <span>先追问这一句</span>
       <p>{{ problemCase.coreQuestion }}</p>
     </section>
 
@@ -57,10 +57,10 @@
       <article class="panel thinkers-panel">
         <div class="panel-head">
           <div>
-            <div class="panel-kicker">Thought Partners</div>
-            <h3>多视角解释</h3>
+            <div class="panel-kicker">Change Lens</div>
+            <h3>换几个看法</h3>
           </div>
-          <button class="ghost-btn" @click="$emit('openThoughtPartner')">打开选配器</button>
+          <button class="ghost-btn" @click="$emit('openThoughtPartner')">找思想伙伴</button>
         </div>
 
         <div class="thinker-list">
@@ -84,15 +84,15 @@
       <article class="panel books-panel">
         <div class="panel-head">
           <div>
-            <div class="panel-kicker">Evidence</div>
-            <h3>书籍证据</h3>
+            <div class="panel-kicker">Support</div>
+            <h3>支撑材料</h3>
           </div>
           <button
             v-if="problemCase.learningPathId"
             class="ghost-btn"
             @click="$emit('openLearningPaths', problemCase.learningPathId)"
           >
-            学习路径
+            去练习路线
           </button>
         </div>
 
@@ -122,8 +122,8 @@
     <section class="panel workshop-panel">
       <div class="panel-head">
         <div>
-          <div class="panel-kicker">Workshop Mode</div>
-          <h3>问题工作坊</h3>
+            <div class="panel-kicker">Work It Through</div>
+          <h3>拆解方式</h3>
         </div>
         <div class="mode-tabs">
           <button
@@ -165,8 +165,8 @@
 
     <section class="output-actions">
       <article>
-        <div class="panel-kicker">Outputs</div>
-        <h3>可沉淀输出</h3>
+        <div class="panel-kicker">What You Get</div>
+        <h3>最后收成什么</h3>
         <div class="output-tags">
           <span v-for="format in problemCase.outputFormats" :key="format">{{ format }}</span>
         </div>
@@ -175,7 +175,7 @@
       <div class="feedback-actions">
         <button class="feedback-btn" @click="markFeedback('hit')">这说中了</button>
         <button class="feedback-btn" @click="markFeedback('miss')">这没说中</button>
-        <button class="feedback-btn primary" @click="markFeedback('try')">我愿意试这个行动</button>
+        <button class="feedback-btn primary" @click="markFeedback('try')">我愿意先试一步</button>
       </div>
       <p v-if="feedbackText" class="feedback-note">{{ feedbackText }}</p>
     </section>

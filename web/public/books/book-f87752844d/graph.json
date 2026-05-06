@@ -1,0 +1,704 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-f87752844d/chapter-images/overview.svg",
+    "全书摘要": "/books/book-f87752844d/chapter-images/overview.svg",
+    "全书结构": "/books/book-f87752844d/chapter-images/overview.svg",
+    "为什么高敏感者在人群、噪声和冲突中更容易疲惫？": "/books/book-f87752844d/chapter-images/overview.svg",
+    "怎样区分真实需求和为了合群形成的自我伪装？": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高敏感者怎样温和但清楚地表达边界？": "/books/book-f87752844d/chapter-images/overview.svg",
+    "怎样在减少刺激之外，重新找到快乐和意义感？": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高敏感是种天赋Ⅱ": "/books/book-f87752844d/chapter-images/overview.svg",
+    "敏感不是脆弱而是高反应性": "/books/book-f87752844d/chapter-images/overview.svg",
+    "能量边界比意志力更重要": "/books/book-f87752844d/chapter-images/overview.svg",
+    "内观给思维留下呼吸空间": "/books/book-f87752844d/chapter-images/overview.svg",
+    "边界表达可以温和但清楚": "/books/book-f87752844d/chapter-images/overview.svg",
+    "不为合群牺牲真实自我": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高敏感者需要意义感而不只是减压": "/books/book-f87752844d/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-f87752844d/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-f87752844d/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-f87752844d/chapter-images/overview.svg",
+    "逻辑链 5": "/books/book-f87752844d/chapter-images/overview.svg",
+    "逻辑链 6": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高敏感": "/books/book-f87752844d/chapter-images/overview.svg",
+    "内向型": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高反应性": "/books/book-f87752844d/chapter-images/overview.svg",
+    "过度刺激": "/books/book-f87752844d/chapter-images/overview.svg",
+    "感官屏蔽": "/books/book-f87752844d/chapter-images/overview.svg",
+    "内观": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高敏感 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "内向型 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高反应性 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "过度刺激 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "感官屏蔽 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "内观 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "灾难小剧场": "/books/book-f87752844d/chapter-images/overview.svg",
+    "恢复空间": "/books/book-f87752844d/chapter-images/overview.svg",
+    "低消耗社交": "/books/book-f87752844d/chapter-images/overview.svg",
+    "边界": "/books/book-f87752844d/chapter-images/overview.svg",
+    "底线表达": "/books/book-f87752844d/chapter-images/overview.svg",
+    "预备时间": "/books/book-f87752844d/chapter-images/overview.svg",
+    "放慢回应": "/books/book-f87752844d/chapter-images/overview.svg",
+    "自我伪装": "/books/book-f87752844d/chapter-images/overview.svg",
+    "真实自我": "/books/book-f87752844d/chapter-images/overview.svg",
+    "意义感": "/books/book-f87752844d/chapter-images/overview.svg",
+    "自我肯定": "/books/book-f87752844d/chapter-images/overview.svg",
+    "高敏感 3": "/books/book-f87752844d/chapter-images/overview.svg",
+    "过度刺激 3": "/books/book-f87752844d/chapter-images/overview.svg",
+    "恢复空间 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "边界 2": "/books/book-f87752844d/chapter-images/overview.svg",
+    "真实自我 2": "/books/book-f87752844d/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "为什么高敏感者在人群、噪声和冲突中更容易疲惫？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "怎样区分真实需求和为了合群形成的自我伪装？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "高敏感者怎样温和但清楚地表达边界？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "怎样在减少刺激之外，重新找到快乐和意义感？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "高敏感是种天赋Ⅱ",
+      "type": "question",
+      "tagline": "高敏感和内向不是缺陷，而是一种需要被理解、照顾和正确安放的气质结构。"
+    },
+    {
+      "id": "敏感不是脆弱而是高反应性",
+      "type": "question",
+      "tagline": "高敏感者不是小题大做，而是神经系统更容易接收和放大刺激。"
+    },
+    {
+      "id": "能量边界比意志力更重要",
+      "type": "question",
+      "tagline": "高敏感者的稳定来自输入管理、恢复空间和节奏安排，而不是一直硬撑。"
+    },
+    {
+      "id": "内观给思维留下呼吸空间",
+      "type": "question",
+      "tagline": "观察念头、感受和身体反应，可以让人从刺激中退一步。"
+    },
+    {
+      "id": "边界表达可以温和但清楚",
+      "type": "question",
+      "tagline": "说不、放慢回应和提出需求，不必以攻击或消失的方式完成。"
+    },
+    {
+      "id": "不为合群牺牲真实自我",
+      "type": "question",
+      "tagline": "高敏感和内向者不需要用持续伪装换取接纳。"
+    },
+    {
+      "id": "高敏感者需要意义感而不只是减压",
+      "type": "question",
+      "tagline": "找到快乐、意义和价值方向，才能让生活重新有支点。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "高敏感和内向是气质结构，不是人格失败。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "这些气质会带来更强的感知力，也带来更高的刺激负荷。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "稳定生活需要先管理输入、节奏和恢复空间。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "关系中的痛苦常来自过度迎合和需求被压下。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "边界表达和低消耗社交能减少长期伪装。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "最终目标不是成为外向者，而是活出真实、稳定、有意义的自己。"
+    },
+    {
+      "id": "高敏感",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“高敏感”，用于把《高敏感是种天赋Ⅱ（践行篇）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "内向型",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“内向型”，用于把《高敏感是种天赋Ⅱ（践行篇）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "高反应性",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“高反应性”，用于把《高敏感是种天赋Ⅱ（践行篇）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "过度刺激",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“过度刺激”，用于把《高敏感是种天赋Ⅱ（践行篇）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "感官屏蔽",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“感官屏蔽”，用于把《高敏感是种天赋Ⅱ（践行篇）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "内观",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“内观”，用于把《高敏感是种天赋Ⅱ（践行篇）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "高敏感 2",
+      "type": "concept",
+      "tagline": "气质概念"
+    },
+    {
+      "id": "内向型 2",
+      "type": "concept",
+      "tagline": "气质概念"
+    },
+    {
+      "id": "高反应性 2",
+      "type": "concept",
+      "tagline": "神经系统概念"
+    },
+    {
+      "id": "过度刺激 2",
+      "type": "concept",
+      "tagline": "身体状态概念"
+    },
+    {
+      "id": "感官屏蔽 2",
+      "type": "concept",
+      "tagline": "环境调节概念"
+    },
+    {
+      "id": "内观 2",
+      "type": "concept",
+      "tagline": "自我观察概念"
+    },
+    {
+      "id": "灾难小剧场",
+      "type": "concept",
+      "tagline": "认知场景概念"
+    },
+    {
+      "id": "恢复空间",
+      "type": "concept",
+      "tagline": "能量管理概念"
+    },
+    {
+      "id": "低消耗社交",
+      "type": "concept",
+      "tagline": "关系场景概念"
+    },
+    {
+      "id": "边界",
+      "type": "concept",
+      "tagline": "关系概念"
+    },
+    {
+      "id": "底线表达",
+      "type": "concept",
+      "tagline": "表达概念"
+    },
+    {
+      "id": "预备时间",
+      "type": "concept",
+      "tagline": "节奏概念"
+    },
+    {
+      "id": "放慢回应",
+      "type": "concept",
+      "tagline": "对话概念"
+    },
+    {
+      "id": "自我伪装",
+      "type": "concept",
+      "tagline": "关系代价概念"
+    },
+    {
+      "id": "真实自我",
+      "type": "concept",
+      "tagline": "身份概念"
+    },
+    {
+      "id": "意义感",
+      "type": "concept",
+      "tagline": "价值概念"
+    },
+    {
+      "id": "自我肯定",
+      "type": "concept",
+      "tagline": "修复概念"
+    },
+    {
+      "id": "高敏感 3",
+      "type": "concept",
+      "tagline": "对外界刺激、情绪线索和细节变化更敏锐的特质。"
+    },
+    {
+      "id": "过度刺激 3",
+      "type": "concept",
+      "tagline": "刺激输入超过可承受范围后出现疲惫、烦躁或关闭反应。"
+    },
+    {
+      "id": "恢复空间 2",
+      "type": "concept",
+      "tagline": "在社交、工作和刺激之后留出安静恢复时间。"
+    },
+    {
+      "id": "边界 2",
+      "type": "concept",
+      "tagline": "说明自己能承受什么、不能承受什么，以及希望怎样被对待。"
+    },
+    {
+      "id": "真实自我 2",
+      "type": "concept",
+      "tagline": "允许自己的气质、节奏、喜好和需求被看见。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么高敏感者在人群、噪声和冲突中更容易疲惫？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怎样区分真实需求和为了合群形成的自我伪装？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高敏感者怎样温和但清楚地表达边界？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怎样在减少刺激之外，重新找到快乐和意义感？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高敏感是种天赋Ⅱ",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "敏感不是脆弱而是高反应性",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "能量边界比意志力更重要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内观给思维留下呼吸空间",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界表达可以温和但清楚",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "不为合群牺牲真实自我",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高敏感者需要意义感而不只是减压",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高敏感",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内向型",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高反应性",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "过度刺激",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感官屏蔽",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内观",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高敏感 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内向型 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高反应性 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "过度刺激 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感官屏蔽 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内观 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "灾难小剧场",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "恢复空间",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "低消耗社交",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "底线表达",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "预备时间",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "放慢回应",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "自我伪装",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "真实自我",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义感",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "自我肯定",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高敏感 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "过度刺激 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "恢复空间 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "真实自我 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→为什么高敏感者在人群、噪声和冲突中更容易疲惫？": "问题入口",
+    "公开入口→怎样区分真实需求和为了合群形成的自我伪装？": "问题入口",
+    "公开入口→高敏感者怎样温和但清楚地表达边界？": "问题入口",
+    "公开入口→怎样在减少刺激之外，重新找到快乐和意义感？": "问题入口",
+    "公开入口→高敏感是种天赋Ⅱ": "K 卡",
+    "公开入口→敏感不是脆弱而是高反应性": "K 卡",
+    "公开入口→能量边界比意志力更重要": "K 卡",
+    "公开入口→内观给思维留下呼吸空间": "K 卡",
+    "公开入口→边界表达可以温和但清楚": "K 卡",
+    "公开入口→不为合群牺牲真实自我": "K 卡",
+    "公开入口→高敏感者需要意义感而不只是减压": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→高敏感": "章节推进",
+    "公开入口→内向型": "章节推进",
+    "公开入口→高反应性": "章节推进",
+    "公开入口→过度刺激": "章节推进",
+    "公开入口→感官屏蔽": "章节推进",
+    "公开入口→内观": "章节推进",
+    "公开入口→高敏感 2": "N 卡",
+    "公开入口→内向型 2": "N 卡",
+    "公开入口→高反应性 2": "N 卡",
+    "公开入口→过度刺激 2": "N 卡",
+    "公开入口→感官屏蔽 2": "N 卡",
+    "公开入口→内观 2": "N 卡",
+    "公开入口→灾难小剧场": "N 卡",
+    "公开入口→恢复空间": "N 卡",
+    "公开入口→低消耗社交": "N 卡",
+    "公开入口→边界": "N 卡",
+    "公开入口→底线表达": "N 卡",
+    "公开入口→预备时间": "N 卡",
+    "公开入口→放慢回应": "N 卡",
+    "公开入口→自我伪装": "N 卡",
+    "公开入口→真实自我": "N 卡",
+    "公开入口→意义感": "N 卡",
+    "公开入口→自我肯定": "N 卡",
+    "公开入口→高敏感 3": "概念支撑",
+    "公开入口→过度刺激 3": "概念支撑",
+    "公开入口→恢复空间 2": "概念支撑",
+    "公开入口→边界 2": "概念支撑",
+    "公开入口→真实自我 2": "概念支撑"
+  }
+}

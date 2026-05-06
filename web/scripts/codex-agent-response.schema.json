@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary",
+    "reply",
+    "suggestedActions",
+    "changedFiles",
+    "needsCodexSession"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "reply": {
+      "type": "string"
+    },
+    "suggestedActions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "changedFiles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "needsCodexSession": {
+      "type": "boolean"
+    }
+  }
+}

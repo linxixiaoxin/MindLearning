@@ -1,0 +1,115 @@
+{
+  "title": "知识考古学（4版）",
+  "shortTitle": "知识考古学",
+  "subtitle": "《知识考古学》不是可直接前台传播的选题书，而是福柯方法论底座，用来理解话语、陈述和…",
+  "description": "基于《知识考古学（4版）》已通过质检的结构化资产，生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展节点。",
+  "heroOverline": "BOOK · SELF EXPLORATION",
+  "heroTitleLines": [
+    "知识考古学",
+    "《知识考古学》不是可直接前台传播的选题书，而是福柯方法论底座，用来理解话语、陈述和…"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260503-public-structured-nk",
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_curated_overrides",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
+    ],
+    "overrideDir": "configs/public_overrides/book-71fe45225a",
+    "publicSanity": {
+      "blockerCount": 0,
+      "status": "pass",
+      "samples": []
+    }
+  },
+  "searchPlaceholder": "搜索《知识考古学》问题、概念、章节、方法、场景…",
+  "recommendedPath": [
+    "全书摘要",
+    "话语、陈述、档案、知识形成规则与考古学描述在这本书中为什么会成为问题？",
+    "话语",
+    "话语 2",
+    "这本书不以显性步骤为主"
+  ],
+  "quickLinks": [
+    "全书摘要",
+    "全书结构",
+    "话语、陈述、档案、知识形成规则与考古学描述在这本书中为什么会成为问题？",
+    "话语 2",
+    "话语",
+    "同一主题在不同时代能被说出的方式不同"
+  ],
+  "journeyOverline": "Structured Knowledge Map",
+  "journeyTitle": "基础公开阅读路径",
+  "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景向下展开。",
+  "journeyEntryLabel": "从全书摘要进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "入口总览",
+      "node": "全书摘要",
+      "image": "/books/book-71fe45225a/chapter-images/overview.svg",
+      "summary": "先用摘要建立这本书的主问题和整体结构。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "问题入口",
+      "node": "话语、陈述、档案、知识形成规则与考古学描述在这本书中为什么会成为问题？",
+      "image": "/books/book-71fe45225a/chapter-images/overview.svg",
+      "summary": "从核心问题进入，判断这本书到底在处理什么卡点。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "话语",
+      "image": "/books/book-71fe45225a/chapter-images/overview.svg",
+      "summary": "沿章节地图看清原书推进顺序和每章功能。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "概念骨架",
+      "node": "话语 2",
+      "image": "/books/book-71fe45225a/chapter-images/overview.svg",
+      "summary": "进入核心概念，理解这本书的关键判断工具。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "行动与场景",
+      "node": "这本书不以显性步骤为主",
+      "image": "/books/book-71fe45225a/chapter-images/overview.svg",
+      "summary": "把理解落到方法动作、场景和案例证据。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "公开节点",
+      "value": "41"
+    },
+    {
+      "label": "K 卡",
+      "value": "4"
+    },
+    {
+      "label": "N 卡 / 概念",
+      "value": "3"
+    },
+    {
+      "label": "章节",
+      "value": "3"
+    }
+  ],
+  "slug": "book-71fe45225a",
+  "author": "米歇尔·福柯",
+  "primaryCategory": "心理疗愈与自我探索",
+  "secondaryCategory": ""
+}

@@ -1,0 +1,1688 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "全书摘要": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "全书结构": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "人为什么会在同一类问题上反复打转？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "哪些看似正面的信念其实可能是木马程序的包装？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "自我不信任、感情焦虑、事业困惑、金钱匮乏和身体症状如何互相连起来？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "怎么把模糊痛苦拆成可观察的木马模组？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "木马程序的藏身处在哪里？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "找到开关之后，如何从旧反应切回新的频率与选择？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "逻辑链 5": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "逻辑链 6": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "自我与人际关系的木马程序及解法": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "感情的木马程序": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "天赋、梦想与金钱的木马程序": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "导致身心疾病的木马程序": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "木马现形记": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "掌握木马程序的开关：从玩家到创造者": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "人类木马程序": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "木马模组": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "频率": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "生命剧本": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "觉察": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "破解": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "五大常见模组": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "玩家到创造者": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "先问“我到底在怕什么 想要什么”": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "用“单身 自由 关系”检视感情木马": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "用“天赋被谁罩住了”检视事业与金钱": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "用“生病给了我什么”检视健康木马": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "扫描自己最常出现的五大模组": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "找到“开关”，把程序切回清醒": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "关系里总觉得别人不信任我，或者我总想防着别人。": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "明明想进入关系，却又害怕失去自由。": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "一直做赚钱但无热情的事，越做越不像自己。": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "身体反复报警，却只用更焦虑的自律去压它。": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "总在不同事情里掉进同一种剧情。": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "父母期待变成孩子身上的马鞍": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "急着找伴侣，却真正想要自由": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "天赋被木马程序的玻璃罩盖住": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "省钱省到忘了时间更贵": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "生病换来休息、照顾和自由": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "木马程序常见五大模组": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "从玩家升级为创造者": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "你不是又失败了，是旧程序又自动运行了": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "为什么你越想证明自己，越容易觉得不够好？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "明明想谈恋爱，为什么又害怕失去自由？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "催婚最可怕的，不是被催，而是把焦虑当成爱": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "你以为自己没天赋，可能只是被“先赚钱”盖住了": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "为什么越省钱，越觉得自己没有选择？": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "焦虑型养生：你越想健康，身体越紧绷": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "生病到底给了我什么？一个很少被问的自查问题": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "五大木马模组：你总掉进同一种剧情的原因": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "改变不是更用力，是先看清那个开关": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "木马程序控制台": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "旋转木马式原地打转": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "自信 安全感双轴": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "单身 自由 关系三角": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "天赋玻璃罩": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "时间 金钱天平": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "生病 健康收益天平": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "五大模组扫描雷达": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "玩家开关面板": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "生命剧本分镜板": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "误读提醒 1": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "误读提醒 2": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "误读提醒 3": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "误读提醒 4": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "跨书连接 1": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "跨书连接 2": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "跨书连接 3": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 1": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 2": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 3": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 4": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 5": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 6": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 7": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 8": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 9": "/books/book-9bca244c2b/chapter-images/overview.svg",
+    "高密度句 10": "/books/book-9bca244c2b/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "人为什么会在同一类问题上反复打转？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "哪些看似正面的信念其实可能是木马程序的包装？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "自我不信任、感情焦虑、事业困惑、金钱匮乏和身体症状如何互相连起来？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "怎么把模糊痛苦拆成可观察的木马模组？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "木马程序的藏身处在哪里？",
+      "type": "question",
+      "tagline": "核心问题 5"
+    },
+    {
+      "id": "找到开关之后，如何从旧反应切回新的频率与选择？",
+      "type": "question",
+      "tagline": "核心问题 6"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "人类并不是只有理性选择，还会被无意识程序自动驱动。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "这些程序常被包装成正向信念、家庭期待、社会标准或自我要求。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "当旧程序进入关系、感情、天赋、金钱和身体，就会变成反复发作的木马模组。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "把它命名为木马程序后，读者能看见这不是命运本身，而是一组可识别的模式。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "通过扫描藏身处、辨认触发点和调整频率，人可以从被程序操控转向重新选择。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "最终的目标不是做完美的人，而是清醒地参与和创造自己的生命剧本。"
+    },
+    {
+      "id": "自我与人际关系的木马程序及解法",
+      "type": "chapter",
+      "tagline": "进入四大类中的第一类，说明木马程序如何从原生家庭、自我不信任和关系期待里形成。"
+    },
+    {
+      "id": "感情的木马程序",
+      "type": "chapter",
+      "tagline": "把木马程序放入亲密关系，展示焦虑、怀疑、控制和不信任如何在爱里反复发作。"
+    },
+    {
+      "id": "天赋、梦想与金钱的木马程序",
+      "type": "chapter",
+      "tagline": "把木马程序从关系推进到创造力、职业、梦想和资源流动，讨论天赋如何被旧设定罩住。"
+    },
+    {
+      "id": "导致身心疾病的木马程序",
+      "type": "chapter",
+      "tagline": "把木马程序推进到身体层面，说明情绪频率、隐性收益和焦虑型自律如何影响健康经验。"
+    },
+    {
+      "id": "木马现形记",
+      "type": "chapter",
+      "tagline": "把前面章节里的分散表现收束为五大常见模组，并提供木马程序藏身处的扫描入口。"
+    },
+    {
+      "id": "掌握木马程序的开关：从玩家到创造者",
+      "type": "chapter",
+      "tagline": "作为全书收束，把识别木马推进到觉察、换频率、放下控制和重新创造人生剧本。"
+    },
+    {
+      "id": "人类木马程序",
+      "type": "concept",
+      "tagline": "会在不知不觉中自动运行，并让人重复旧剧情、旧反应、旧选择的内在程序。"
+    },
+    {
+      "id": "木马模组",
+      "type": "concept",
+      "tagline": "木马程序在具体生活领域里的稳定表现，例如不信任、焦虑、怀疑、控制、孤独。"
+    },
+    {
+      "id": "频率",
+      "type": "concept",
+      "tagline": "作者用来描述情绪、念头、态度和能量状态的核心语言。"
+    },
+    {
+      "id": "生命剧本",
+      "type": "concept",
+      "tagline": "由旧经验、旧信念和旧反应编排出来的重复人生剧情。"
+    },
+    {
+      "id": "觉察",
+      "type": "concept",
+      "tagline": "在自动反应发生时停一下，看见触发点、内在信念、情绪频率和行为后果。"
+    },
+    {
+      "id": "破解",
+      "type": "concept",
+      "tagline": "识别木马程序之后，重新设定反应、频率、选择和行动路径。"
+    },
+    {
+      "id": "五大常见模组",
+      "type": "concept",
+      "tagline": "第八章归纳出的不信任、不能自由做自己、焦虑、怀疑、控制等高频木马类型。"
+    },
+    {
+      "id": "玩家到创造者",
+      "type": "concept",
+      "tagline": "第九章的收束隐喻：人不只是被生命游戏推着走，也能看见规则、调整频率、重新创造路径。"
+    },
+    {
+      "id": "先问“我到底在怕什么 想要什么”",
+      "type": "method",
+      "tagline": "关系、工作、选择或身体状态卡住，但表面理由很多时。"
+    },
+    {
+      "id": "用“单身 自由 关系”检视感情木马",
+      "type": "method",
+      "tagline": "催婚、单身焦虑、想进入关系又害怕失去自由时。"
+    },
+    {
+      "id": "用“天赋被谁罩住了”检视事业与金钱",
+      "type": "method",
+      "tagline": "职业迷茫、转行犹豫、一直做赚钱但无热情的事时。"
+    },
+    {
+      "id": "用“生病给了我什么”检视健康木马",
+      "type": "method",
+      "tagline": "反复亚健康、焦虑型养生、身体总在报警时。"
+    },
+    {
+      "id": "扫描自己最常出现的五大模组",
+      "type": "method",
+      "tagline": "想做一次整体自查，或发现自己总在不同事情里重复同一种反应时。"
+    },
+    {
+      "id": "找到“开关”，把程序切回清醒",
+      "type": "method",
+      "tagline": "已经能识别模式，想从知道问题推进到真实改变时。"
+    },
+    {
+      "id": "关系里总觉得别人不信任我，或者我总想防着别人。",
+      "type": "scenario",
+      "tagline": "外部关系常常映出内部的不自信和不安全感。"
+    },
+    {
+      "id": "明明想进入关系，却又害怕失去自由。",
+      "type": "scenario",
+      "tagline": "感情焦虑底下常常混着爱、控制、自由和安全感。"
+    },
+    {
+      "id": "一直做赚钱但无热情的事，越做越不像自己。",
+      "type": "scenario",
+      "tagline": "天赋可能被“先稳定、先赚钱”的框架盖住。"
+    },
+    {
+      "id": "身体反复报警，却只用更焦虑的自律去压它。",
+      "type": "scenario",
+      "tagline": "身体可能正在替情绪和旧信念说话。"
+    },
+    {
+      "id": "总在不同事情里掉进同一种剧情。",
+      "type": "scenario",
+      "tagline": "与其问为什么倒霉，不如先看哪组模组在自动运行。"
+    },
+    {
+      "id": "父母期待变成孩子身上的马鞍",
+      "type": "case",
+      "tagline": "父母用期望和条件交换来推动孩子，孩子为了获得爱与照顾，把“先满足期待才配自由”内建成关系模式。"
+    },
+    {
+      "id": "急着找伴侣，却真正想要自由",
+      "type": "case",
+      "tagline": "一个急着找伴侣的人，被追问后发现自己害怕进入关系后失去自由。"
+    },
+    {
+      "id": "天赋被木马程序的玻璃罩盖住",
+      "type": "case",
+      "tagline": "一个人可能不是没有天赋，而是太早被赚钱、稳定、父母期待和自我怀疑罩住。"
+    },
+    {
+      "id": "省钱省到忘了时间更贵",
+      "type": "case",
+      "tagline": "有些金钱木马让人把大量时间拿去换一点省下来的钱，却错过创造更高价值的机会。"
+    },
+    {
+      "id": "生病换来休息、照顾和自由",
+      "type": "case",
+      "tagline": "孩子生病后可以不去上学、不补习、做自己喜欢的事，提醒大人看见症状背后的隐性功能。"
+    },
+    {
+      "id": "木马程序常见五大模组",
+      "type": "case",
+      "tagline": "第八章把分散表现收束成不信任、不能自由做自己、焦虑、怀疑、控制等高频模组。"
+    },
+    {
+      "id": "从玩家升级为创造者",
+      "type": "case",
+      "tagline": "第九章把识别木马推进到重设开关，强调人可以看见规则、换频率、重新创造路径。"
+    },
+    {
+      "id": "你不是又失败了，是旧程序又自动运行了",
+      "type": "expression",
+      "tagline": "很多人遇到反复问题时，会直接把它理解成性格差、命不好或不够努力。"
+    },
+    {
+      "id": "为什么你越想证明自己，越容易觉得不够好？",
+      "type": "expression",
+      "tagline": "越想变好，越容易被评价和比较牵着走。"
+    },
+    {
+      "id": "明明想谈恋爱，为什么又害怕失去自由？",
+      "type": "expression",
+      "tagline": "很多人既想要关系，又害怕进入关系后不再是自己。"
+    },
+    {
+      "id": "催婚最可怕的，不是被催，而是把焦虑当成爱",
+      "type": "expression",
+      "tagline": "催婚常被解释成关心，但被催的人接收到的可能是压力和恐惧。"
+    },
+    {
+      "id": "你以为自己没天赋，可能只是被“先赚钱”盖住了",
+      "type": "expression",
+      "tagline": "很多人不是没有热情，而是太早把自己放进赚钱、稳定和别人期待的框架。"
+    },
+    {
+      "id": "为什么越省钱，越觉得自己没有选择？",
+      "type": "expression",
+      "tagline": "有些人把所有选择都压成“便宜/免费”，最后失去的是时间、眼界和创造机会。"
+    },
+    {
+      "id": "焦虑型养生：你越想健康，身体越紧绷",
+      "type": "expression",
+      "tagline": "很多人用体重、体脂、饮食标准控制身体，却越控制越焦虑。"
+    },
+    {
+      "id": "生病到底给了我什么？一个很少被问的自查问题",
+      "type": "expression",
+      "tagline": "身体出问题时，人们常只想快点消灭症状，很少看见症状背后的需要。"
+    },
+    {
+      "id": "五大木马模组：你总掉进同一种剧情的原因",
+      "type": "expression",
+      "tagline": "读者常感觉问题很多，却找不到反复出现的主线。"
+    },
+    {
+      "id": "改变不是更用力，是先看清那个开关",
+      "type": "expression",
+      "tagline": "很多人知道自己有问题，却只会用更努力、更控制的方式继续跑旧程序。"
+    },
+    {
+      "id": "木马程序控制台",
+      "type": "expression",
+      "tagline": "表达一个人表面在做选择，背后却可能有旧程序在自动运行。"
+    },
+    {
+      "id": "旋转木马式原地打转",
+      "type": "expression",
+      "tagline": "表达反复发生的不是命运，而是旧程序让人原地循环。"
+    },
+    {
+      "id": "自信 安全感双轴",
+      "type": "expression",
+      "tagline": "把关系里的自卑、防御、争赢、讨好放回自信和安全感两条轴上看。"
+    },
+    {
+      "id": "单身 自由 关系三角",
+      "type": "expression",
+      "tagline": "表达感情焦虑常常不是单纯想恋爱，而是自由、安全感和关系需求拉扯。"
+    },
+    {
+      "id": "天赋玻璃罩",
+      "type": "expression",
+      "tagline": "表达一个人不是没有天赋，而是被赚钱、稳定、评价和恐惧盖住。"
+    },
+    {
+      "id": "时间 金钱天平",
+      "type": "expression",
+      "tagline": "表达金钱木马不只是钱多少，而是如何看待时间、价值和选择权。"
+    },
+    {
+      "id": "生病 健康收益天平",
+      "type": "expression",
+      "tagline": "表达症状有时也带着休息、照顾、停止或自由的隐性功能。"
+    },
+    {
+      "id": "五大模组扫描雷达",
+      "type": "expression",
+      "tagline": "表达读者可以先从五大模组里找最常发作的一组。"
+    },
+    {
+      "id": "玩家开关面板",
+      "type": "expression",
+      "tagline": "表达看见木马之后，人可以从被动玩家切回创造者位置。"
+    },
+    {
+      "id": "生命剧本分镜板",
+      "type": "expression",
+      "tagline": "表达觉察之后不是删除过去，而是重写接下来的反应和选择。"
+    },
+    {
+      "id": "误读提醒 1",
+      "type": "warning",
+      "tagline": ""
+    },
+    {
+      "id": "误读提醒 2",
+      "type": "warning",
+      "tagline": ""
+    },
+    {
+      "id": "误读提醒 3",
+      "type": "warning",
+      "tagline": ""
+    },
+    {
+      "id": "误读提醒 4",
+      "type": "warning",
+      "tagline": ""
+    },
+    {
+      "id": "跨书连接 1",
+      "type": "relation",
+      "tagline": ""
+    },
+    {
+      "id": "跨书连接 2",
+      "type": "relation",
+      "tagline": ""
+    },
+    {
+      "id": "跨书连接 3",
+      "type": "relation",
+      "tagline": ""
+    },
+    {
+      "id": "高密度句 1",
+      "type": "expression",
+      "tagline": "不是所有反复发生的事都是命运，很多时候只是旧程序在自动运行。"
+    },
+    {
+      "id": "高密度句 2",
+      "type": "expression",
+      "tagline": "真正要处理的，不是某一次情绪，而是这次情绪背后的模组。"
+    },
+    {
+      "id": "高密度句 3",
+      "type": "expression",
+      "tagline": "关系、事业、金钱和身体，可能是同一组木马在不同场域里的显形。"
+    },
+    {
+      "id": "高密度句 4",
+      "type": "expression",
+      "tagline": "一旦看见程序，就已经开始松动程序。"
+    },
+    {
+      "id": "高密度句 5",
+      "type": "expression",
+      "tagline": "你以为自己在选择，其实可能只是旧频率在替你做决定。"
+    },
+    {
+      "id": "高密度句 6",
+      "type": "expression",
+      "tagline": "焦虑不是爱，控制也不是负责。"
+    },
+    {
+      "id": "高密度句 7",
+      "type": "expression",
+      "tagline": "天赋不是没有，而是可能被“应该先怎样”的声音盖住了。"
+    },
+    {
+      "id": "高密度句 8",
+      "type": "expression",
+      "tagline": "身体有时不是在背叛你，而是在替你说出被忽略的需要。"
+    },
+    {
+      "id": "高密度句 9",
+      "type": "expression",
+      "tagline": "扫描模组不是为了审判自己，而是为了找回选择权。"
+    },
+    {
+      "id": "高密度句 10",
+      "type": "expression",
+      "tagline": "从玩家到创造者，中间差的不是更用力，而是先看清自己在跑什么。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "人为什么会在同一类问题上反复打转？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "哪些看似正面的信念其实可能是木马程序的包装？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "自我不信任、感情焦虑、事业困惑、金钱匮乏和身体症状如何互相连起来？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怎么把模糊痛苦拆成可观察的木马模组？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "木马程序的藏身处在哪里？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "找到开关之后，如何从旧反应切回新的频率与选择？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "自我与人际关系的木马程序及解法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感情的木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "天赋、梦想与金钱的木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "导致身心疾病的木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "木马现形记",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "掌握木马程序的开关：从玩家到创造者",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "人类木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "五大常见模组",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "玩家到创造者",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "先问“我到底在怕什么 想要什么”",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用“单身 自由 关系”检视感情木马",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用“天赋被谁罩住了”检视事业与金钱",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用“生病给了我什么”检视健康木马",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "扫描自己最常出现的五大模组",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "找到“开关”，把程序切回清醒",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系里总觉得别人不信任我，或者我总想防着别人。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "明明想进入关系，却又害怕失去自由。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "一直做赚钱但无热情的事，越做越不像自己。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "身体反复报警，却只用更焦虑的自律去压它。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "总在不同事情里掉进同一种剧情。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "父母期待变成孩子身上的马鞍",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "急着找伴侣，却真正想要自由",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "天赋被木马程序的玻璃罩盖住",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "省钱省到忘了时间更贵",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "生病换来休息、照顾和自由",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "木马程序常见五大模组",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "从玩家升级为创造者",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "你不是又失败了，是旧程序又自动运行了",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么你越想证明自己，越容易觉得不够好？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "明明想谈恋爱，为什么又害怕失去自由？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "催婚最可怕的，不是被催，而是把焦虑当成爱",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "你以为自己没天赋，可能只是被“先赚钱”盖住了",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么越省钱，越觉得自己没有选择？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "焦虑型养生：你越想健康，身体越紧绷",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "生病到底给了我什么？一个很少被问的自查问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "五大木马模组：你总掉进同一种剧情的原因",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "改变不是更用力，是先看清那个开关",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "木马程序控制台",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "旋转木马式原地打转",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "自信 安全感双轴",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "单身 自由 关系三角",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "天赋玻璃罩",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "时间 金钱天平",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "生病 健康收益天平",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "五大模组扫描雷达",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "玩家开关面板",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "生命剧本分镜板",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "误读提醒 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "误读提醒 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "误读提醒 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "误读提醒 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "跨书连接 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "跨书连接 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "跨书连接 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 7",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 8",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 9",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 10",
+      "type": "relates"
+    },
+    {
+      "source": "自我与人际关系的木马程序及解法",
+      "target": "人类木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "自我与人际关系的木马程序及解法",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "自我与人际关系的木马程序及解法",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "自我与人际关系的木马程序及解法",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "感情的木马程序",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "感情的木马程序",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "感情的木马程序",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "感情的木马程序",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "天赋、梦想与金钱的木马程序",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "天赋、梦想与金钱的木马程序",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "天赋、梦想与金钱的木马程序",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "天赋、梦想与金钱的木马程序",
+      "target": "玩家到创造者",
+      "type": "relates"
+    },
+    {
+      "source": "导致身心疾病的木马程序",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "导致身心疾病的木马程序",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "导致身心疾病的木马程序",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "导致身心疾病的木马程序",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "木马现形记",
+      "target": "五大常见模组",
+      "type": "relates"
+    },
+    {
+      "source": "木马现形记",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "木马现形记",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "木马现形记",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "掌握木马程序的开关：从玩家到创造者",
+      "target": "玩家到创造者",
+      "type": "relates"
+    },
+    {
+      "source": "掌握木马程序的开关：从玩家到创造者",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "掌握木马程序的开关：从玩家到创造者",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "掌握木马程序的开关：从玩家到创造者",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "掌握木马程序的开关：从玩家到创造者",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "人类木马程序",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "人类木马程序",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "人类木马程序",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "人类木马程序",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "人类木马程序",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "木马模组",
+      "target": "人类木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "木马模组",
+      "target": "五大常见模组",
+      "type": "relates"
+    },
+    {
+      "source": "生命剧本",
+      "target": "人类木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "生命剧本",
+      "target": "玩家到创造者",
+      "type": "relates"
+    },
+    {
+      "source": "觉察",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "破解",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "破解",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "五大常见模组",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "玩家到创造者",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "父母期待变成孩子身上的马鞍",
+      "target": "人类木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "父母期待变成孩子身上的马鞍",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "父母期待变成孩子身上的马鞍",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "急着找伴侣，却真正想要自由",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "急着找伴侣，却真正想要自由",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "急着找伴侣，却真正想要自由",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "天赋被木马程序的玻璃罩盖住",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "天赋被木马程序的玻璃罩盖住",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "天赋被木马程序的玻璃罩盖住",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "省钱省到忘了时间更贵",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "省钱省到忘了时间更贵",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "省钱省到忘了时间更贵",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "生病换来休息、照顾和自由",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "生病换来休息、照顾和自由",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "生病换来休息、照顾和自由",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "木马程序常见五大模组",
+      "target": "五大常见模组",
+      "type": "relates"
+    },
+    {
+      "source": "木马程序常见五大模组",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "木马程序常见五大模组",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "从玩家升级为创造者",
+      "target": "玩家到创造者",
+      "type": "relates"
+    },
+    {
+      "source": "从玩家升级为创造者",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "从玩家升级为创造者",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "你不是又失败了，是旧程序又自动运行了",
+      "target": "人类木马程序",
+      "type": "relates"
+    },
+    {
+      "source": "你不是又失败了，是旧程序又自动运行了",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "你不是又失败了，是旧程序又自动运行了",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "你不是又失败了，是旧程序又自动运行了",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你越想证明自己，越容易觉得不够好？",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你越想证明自己，越容易觉得不够好？",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你越想证明自己，越容易觉得不够好？",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "明明想谈恋爱，为什么又害怕失去自由？",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "明明想谈恋爱，为什么又害怕失去自由？",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "明明想谈恋爱，为什么又害怕失去自由？",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "催婚最可怕的，不是被催，而是把焦虑当成爱",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "催婚最可怕的，不是被催，而是把焦虑当成爱",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "催婚最可怕的，不是被催，而是把焦虑当成爱",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "你以为自己没天赋，可能只是被“先赚钱”盖住了",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "你以为自己没天赋，可能只是被“先赚钱”盖住了",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "你以为自己没天赋，可能只是被“先赚钱”盖住了",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "为什么越省钱，越觉得自己没有选择？",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "为什么越省钱，越觉得自己没有选择？",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "为什么越省钱，越觉得自己没有选择？",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "焦虑型养生：你越想健康，身体越紧绷",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "焦虑型养生：你越想健康，身体越紧绷",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "焦虑型养生：你越想健康，身体越紧绷",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "生病到底给了我什么？一个很少被问的自查问题",
+      "target": "频率",
+      "type": "relates"
+    },
+    {
+      "source": "生病到底给了我什么？一个很少被问的自查问题",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "生病到底给了我什么？一个很少被问的自查问题",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "五大木马模组：你总掉进同一种剧情的原因",
+      "target": "五大常见模组",
+      "type": "relates"
+    },
+    {
+      "source": "五大木马模组：你总掉进同一种剧情的原因",
+      "target": "木马模组",
+      "type": "relates"
+    },
+    {
+      "source": "五大木马模组：你总掉进同一种剧情的原因",
+      "target": "觉察",
+      "type": "relates"
+    },
+    {
+      "source": "改变不是更用力，是先看清那个开关",
+      "target": "破解",
+      "type": "relates"
+    },
+    {
+      "source": "改变不是更用力，是先看清那个开关",
+      "target": "玩家到创造者",
+      "type": "relates"
+    },
+    {
+      "source": "改变不是更用力，是先看清那个开关",
+      "target": "生命剧本",
+      "type": "relates"
+    },
+    {
+      "source": "改变不是更用力，是先看清那个开关",
+      "target": "频率",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→人为什么会在同一类问题上反复打转？": "问题入口",
+    "公开入口→哪些看似正面的信念其实可能是木马程序的包装？": "问题入口",
+    "公开入口→自我不信任、感情焦虑、事业困惑、金钱匮乏和身体症状如何互相连起来？": "问题入口",
+    "公开入口→怎么把模糊痛苦拆成可观察的木马模组？": "问题入口",
+    "公开入口→木马程序的藏身处在哪里？": "问题入口",
+    "公开入口→找到开关之后，如何从旧反应切回新的频率与选择？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→自我与人际关系的木马程序及解法": "章节推进",
+    "公开入口→感情的木马程序": "章节推进",
+    "公开入口→天赋、梦想与金钱的木马程序": "章节推进",
+    "公开入口→导致身心疾病的木马程序": "章节推进",
+    "公开入口→木马现形记": "章节推进",
+    "公开入口→掌握木马程序的开关：从玩家到创造者": "章节推进",
+    "公开入口→人类木马程序": "概念支撑",
+    "公开入口→木马模组": "概念支撑",
+    "公开入口→频率": "概念支撑",
+    "公开入口→生命剧本": "概念支撑",
+    "公开入口→觉察": "概念支撑",
+    "公开入口→破解": "概念支撑",
+    "公开入口→五大常见模组": "概念支撑",
+    "公开入口→玩家到创造者": "概念支撑",
+    "公开入口→先问“我到底在怕什么 想要什么”": "行动方法",
+    "公开入口→用“单身 自由 关系”检视感情木马": "行动方法",
+    "公开入口→用“天赋被谁罩住了”检视事业与金钱": "行动方法",
+    "公开入口→用“生病给了我什么”检视健康木马": "行动方法",
+    "公开入口→扫描自己最常出现的五大模组": "行动方法",
+    "公开入口→找到“开关”，把程序切回清醒": "行动方法",
+    "公开入口→关系里总觉得别人不信任我，或者我总想防着别人。": "场景入口",
+    "公开入口→明明想进入关系，却又害怕失去自由。": "场景入口",
+    "公开入口→一直做赚钱但无热情的事，越做越不像自己。": "场景入口",
+    "公开入口→身体反复报警，却只用更焦虑的自律去压它。": "场景入口",
+    "公开入口→总在不同事情里掉进同一种剧情。": "场景入口",
+    "公开入口→父母期待变成孩子身上的马鞍": "案例证据",
+    "公开入口→急着找伴侣，却真正想要自由": "案例证据",
+    "公开入口→天赋被木马程序的玻璃罩盖住": "案例证据",
+    "公开入口→省钱省到忘了时间更贵": "案例证据",
+    "公开入口→生病换来休息、照顾和自由": "案例证据",
+    "公开入口→木马程序常见五大模组": "案例证据",
+    "公开入口→从玩家升级为创造者": "案例证据",
+    "公开入口→你不是又失败了，是旧程序又自动运行了": "问题切入",
+    "公开入口→为什么你越想证明自己，越容易觉得不够好？": "问题切入",
+    "公开入口→明明想谈恋爱，为什么又害怕失去自由？": "问题切入",
+    "公开入口→催婚最可怕的，不是被催，而是把焦虑当成爱": "问题切入",
+    "公开入口→你以为自己没天赋，可能只是被“先赚钱”盖住了": "问题切入",
+    "公开入口→为什么越省钱，越觉得自己没有选择？": "问题切入",
+    "公开入口→焦虑型养生：你越想健康，身体越紧绷": "问题切入",
+    "公开入口→生病到底给了我什么？一个很少被问的自查问题": "问题切入",
+    "公开入口→五大木马模组：你总掉进同一种剧情的原因": "问题切入",
+    "公开入口→改变不是更用力，是先看清那个开关": "问题切入",
+    "公开入口→木马程序控制台": "视觉表达",
+    "公开入口→旋转木马式原地打转": "视觉表达",
+    "公开入口→自信 安全感双轴": "视觉表达",
+    "公开入口→单身 自由 关系三角": "视觉表达",
+    "公开入口→天赋玻璃罩": "视觉表达",
+    "公开入口→时间 金钱天平": "视觉表达",
+    "公开入口→生病 健康收益天平": "视觉表达",
+    "公开入口→五大模组扫描雷达": "视觉表达",
+    "公开入口→玩家开关面板": "视觉表达",
+    "公开入口→生命剧本分镜板": "视觉表达",
+    "公开入口→误读提醒 1": "避免误读",
+    "公开入口→误读提醒 2": "避免误读",
+    "公开入口→误读提醒 3": "避免误读",
+    "公开入口→误读提醒 4": "避免误读",
+    "公开入口→跨书连接 1": "跨书连接",
+    "公开入口→跨书连接 2": "跨书连接",
+    "公开入口→跨书连接 3": "跨书连接",
+    "公开入口→高密度句 1": "表达句",
+    "公开入口→高密度句 2": "表达句",
+    "公开入口→高密度句 3": "表达句",
+    "公开入口→高密度句 4": "表达句",
+    "公开入口→高密度句 5": "表达句",
+    "公开入口→高密度句 6": "表达句",
+    "公开入口→高密度句 7": "表达句",
+    "公开入口→高密度句 8": "表达句",
+    "公开入口→高密度句 9": "表达句",
+    "公开入口→高密度句 10": "表达句",
+    "自我与人际关系的木马程序及解法→人类木马程序": "相关概念",
+    "自我与人际关系的木马程序及解法→木马模组": "相关概念",
+    "自我与人际关系的木马程序及解法→生命剧本": "相关概念",
+    "自我与人际关系的木马程序及解法→觉察": "相关概念",
+    "感情的木马程序→木马模组": "相关概念",
+    "感情的木马程序→频率": "相关概念",
+    "感情的木马程序→觉察": "相关概念",
+    "感情的木马程序→破解": "相关概念",
+    "天赋、梦想与金钱的木马程序→频率": "相关概念",
+    "天赋、梦想与金钱的木马程序→木马模组": "相关概念",
+    "天赋、梦想与金钱的木马程序→破解": "相关概念",
+    "天赋、梦想与金钱的木马程序→玩家到创造者": "相关概念",
+    "导致身心疾病的木马程序→频率": "相关概念",
+    "导致身心疾病的木马程序→觉察": "相关概念",
+    "导致身心疾病的木马程序→破解": "相关概念",
+    "导致身心疾病的木马程序→生命剧本": "相关概念",
+    "木马现形记→五大常见模组": "相关概念",
+    "木马现形记→木马模组": "相关概念",
+    "木马现形记→觉察": "相关概念",
+    "木马现形记→生命剧本": "相关概念",
+    "掌握木马程序的开关：从玩家到创造者→玩家到创造者": "相关概念",
+    "掌握木马程序的开关：从玩家到创造者→破解": "相关概念",
+    "掌握木马程序的开关：从玩家到创造者→生命剧本": "相关概念",
+    "掌握木马程序的开关：从玩家到创造者→频率": "相关概念",
+    "掌握木马程序的开关：从玩家到创造者→觉察": "相关概念",
+    "人类木马程序→木马模组": "相关概念",
+    "人类木马程序→频率": "相关概念",
+    "人类木马程序→生命剧本": "相关概念",
+    "人类木马程序→觉察": "相关概念",
+    "人类木马程序→破解": "相关概念",
+    "木马模组→人类木马程序": "相关概念",
+    "木马模组→五大常见模组": "相关概念",
+    "生命剧本→人类木马程序": "相关概念",
+    "生命剧本→玩家到创造者": "相关概念",
+    "觉察→破解": "相关概念",
+    "破解→觉察": "相关概念",
+    "破解→生命剧本": "相关概念",
+    "五大常见模组→木马模组": "相关概念",
+    "玩家到创造者→生命剧本": "相关概念",
+    "父母期待变成孩子身上的马鞍→人类木马程序": "相关概念",
+    "父母期待变成孩子身上的马鞍→木马模组": "相关概念",
+    "父母期待变成孩子身上的马鞍→生命剧本": "相关概念",
+    "急着找伴侣，却真正想要自由→频率": "相关概念",
+    "急着找伴侣，却真正想要自由→木马模组": "相关概念",
+    "急着找伴侣，却真正想要自由→觉察": "相关概念",
+    "天赋被木马程序的玻璃罩盖住→频率": "相关概念",
+    "天赋被木马程序的玻璃罩盖住→破解": "相关概念",
+    "天赋被木马程序的玻璃罩盖住→生命剧本": "相关概念",
+    "省钱省到忘了时间更贵→频率": "相关概念",
+    "省钱省到忘了时间更贵→木马模组": "相关概念",
+    "省钱省到忘了时间更贵→生命剧本": "相关概念",
+    "生病换来休息、照顾和自由→频率": "相关概念",
+    "生病换来休息、照顾和自由→觉察": "相关概念",
+    "生病换来休息、照顾和自由→生命剧本": "相关概念",
+    "木马程序常见五大模组→五大常见模组": "相关概念",
+    "木马程序常见五大模组→木马模组": "相关概念",
+    "木马程序常见五大模组→觉察": "相关概念",
+    "从玩家升级为创造者→玩家到创造者": "相关概念",
+    "从玩家升级为创造者→破解": "相关概念",
+    "从玩家升级为创造者→生命剧本": "相关概念",
+    "你不是又失败了，是旧程序又自动运行了→人类木马程序": "相关概念",
+    "你不是又失败了，是旧程序又自动运行了→木马模组": "相关概念",
+    "你不是又失败了，是旧程序又自动运行了→生命剧本": "相关概念",
+    "你不是又失败了，是旧程序又自动运行了→觉察": "相关概念",
+    "为什么你越想证明自己，越容易觉得不够好？→木马模组": "相关概念",
+    "为什么你越想证明自己，越容易觉得不够好？→生命剧本": "相关概念",
+    "为什么你越想证明自己，越容易觉得不够好？→觉察": "相关概念",
+    "明明想谈恋爱，为什么又害怕失去自由？→频率": "相关概念",
+    "明明想谈恋爱，为什么又害怕失去自由？→木马模组": "相关概念",
+    "明明想谈恋爱，为什么又害怕失去自由？→觉察": "相关概念",
+    "催婚最可怕的，不是被催，而是把焦虑当成爱→频率": "相关概念",
+    "催婚最可怕的，不是被催，而是把焦虑当成爱→木马模组": "相关概念",
+    "催婚最可怕的，不是被催，而是把焦虑当成爱→觉察": "相关概念",
+    "你以为自己没天赋，可能只是被“先赚钱”盖住了→频率": "相关概念",
+    "你以为自己没天赋，可能只是被“先赚钱”盖住了→破解": "相关概念",
+    "你以为自己没天赋，可能只是被“先赚钱”盖住了→生命剧本": "相关概念",
+    "为什么越省钱，越觉得自己没有选择？→频率": "相关概念",
+    "为什么越省钱，越觉得自己没有选择？→木马模组": "相关概念",
+    "为什么越省钱，越觉得自己没有选择？→生命剧本": "相关概念",
+    "焦虑型养生：你越想健康，身体越紧绷→频率": "相关概念",
+    "焦虑型养生：你越想健康，身体越紧绷→觉察": "相关概念",
+    "焦虑型养生：你越想健康，身体越紧绷→破解": "相关概念",
+    "生病到底给了我什么？一个很少被问的自查问题→频率": "相关概念",
+    "生病到底给了我什么？一个很少被问的自查问题→觉察": "相关概念",
+    "生病到底给了我什么？一个很少被问的自查问题→生命剧本": "相关概念",
+    "五大木马模组：你总掉进同一种剧情的原因→五大常见模组": "相关概念",
+    "五大木马模组：你总掉进同一种剧情的原因→木马模组": "相关概念",
+    "五大木马模组：你总掉进同一种剧情的原因→觉察": "相关概念",
+    "改变不是更用力，是先看清那个开关→破解": "相关概念",
+    "改变不是更用力，是先看清那个开关→玩家到创造者": "相关概念",
+    "改变不是更用力，是先看清那个开关→生命剧本": "相关概念",
+    "改变不是更用力，是先看清那个开关→频率": "相关概念"
+  }
+}

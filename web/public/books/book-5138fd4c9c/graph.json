@@ -1,0 +1,722 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "全书摘要": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "全书结构": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "疯癫、理性、禁闭与医学凝视在这本书中为什么会成为问题？": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "作者如何组织“历史问题化 - 分类 命名 - 制度装置 - 话语规则 - 身体 主体变化 - 当代边界”这条分析链？": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "哪些内容只能作为后台判断，哪些可以进入前台表达？": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "这本书最容易被误用成什么？": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "逻辑链 5": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "逻辑链 6": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "大禁闭": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "医学凝视": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "正常 异常划分": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "大禁闭 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "医学凝视 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "正常 异常划分 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "这本书不以显性步骤为主": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "收容院与疯人院": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "收容院与疯人院 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "把这本书当心理疗愈材料": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "把福柯写成反医生口号": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "读《疯癫与文明》最容易误会的一点": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "《疯癫与文明》适合做后台判断，不适合直接鸡汤化": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "谱系权力 话语制度型提取链": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "疯癫、理性、禁闭与医学凝视误用边界图": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "把这本书当心理疗愈材料 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "把福柯写成反医生口号 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "谱系权力 话语制度型": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 1": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 2": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 3": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 4": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 5": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 6": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 7": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 8": "/books/book-5138fd4c9c/chapter-images/overview.svg",
+    "高密度句 9": "/books/book-5138fd4c9c/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "疯癫、理性、禁闭与医学凝视在这本书中为什么会成为问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "作者如何组织“历史问题化 - 分类 命名 - 制度装置 - 话语规则 - 身体 主体变化 - 当代边界”这条分析链？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "这本书最容易被误用成什么？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "先识别这本书的主要分析对象：疯癫、理性、禁闭与医学凝视。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "再按“历史问题化 -> 分类/命名 -> 制度装置 -> 话语规则 -> 身体/主体变化 -> 当代边界”保留作者推进链。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "章节地图先保留结构位置，不把局部观点抽成孤立金句。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "K/N 卡优先产出概念、机制、场景、证据、问题和反模式。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "前台表达必须降低术语密度，但不能删除原书分析对象。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "后台判断用于校正账号内容，防止把结构问题误判成个人问题。"
+    },
+    {
+      "id": "大禁闭",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“大禁闭”，用于把《疯癫与文明》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "医学凝视",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“医学凝视”，用于把《疯癫与文明》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "正常 异常划分",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“正常/异常划分”，用于把《疯癫与文明》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "大禁闭 2",
+      "type": "concept",
+      "tagline": "现代社会把贫困、游荡、无理性和疯癫一起收容的制度动作。"
+    },
+    {
+      "id": "医学凝视 2",
+      "type": "concept",
+      "tagline": "医生与病人关系中由知识、权威和分类构成的观看方式。"
+    },
+    {
+      "id": "正常 异常划分 2",
+      "type": "concept",
+      "tagline": "社会通过制度和知识边界规定谁被视为理性主体。"
+    },
+    {
+      "id": "这本书不以显性步骤为主",
+      "type": "method",
+      "tagline": "用于理论母书入库、K/N 卡拆分、主题链策划和真实场景复盘前的判断。"
+    },
+    {
+      "id": "收容院与疯人院",
+      "type": "scenario",
+      "tagline": "疯癫被制度性隔离和重新命名。"
+    },
+    {
+      "id": "收容院与疯人院 2",
+      "type": "case",
+      "tagline": "疯癫被制度性隔离和重新命名。"
+    },
+    {
+      "id": "把这本书当心理疗愈材料",
+      "type": "case",
+      "tagline": "书名容易让人以为重点是内心痛苦。"
+    },
+    {
+      "id": "把福柯写成反医生口号",
+      "type": "case",
+      "tagline": "医学凝视很容易被道德化。"
+    },
+    {
+      "id": "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题",
+      "type": "expression",
+      "tagline": "把结构性压力误读成个人失败。"
+    },
+    {
+      "id": "读《疯癫与文明》最容易误会的一点",
+      "type": "expression",
+      "tagline": "想把复杂理论立刻改成行动建议。"
+    },
+    {
+      "id": "《疯癫与文明》适合做后台判断，不适合直接鸡汤化",
+      "type": "expression",
+      "tagline": "理论很有冲击力，但前台表达容易变空。"
+    },
+    {
+      "id": "谱系权力 话语制度型提取链",
+      "type": "expression",
+      "tagline": "用一条链路画出《疯癫与文明》如何推进疯癫、理性、禁闭与医学凝视。"
+    },
+    {
+      "id": "疯癫、理性、禁闭与医学凝视误用边界图",
+      "type": "expression",
+      "tagline": "左侧保留原书对象，右侧列出心理化、方法化、金句化等误用。"
+    },
+    {
+      "id": "把这本书当心理疗愈材料 2",
+      "type": "warning",
+      "tagline": "它的重点是疯癫如何被历史制度和知识分类制造为对象。"
+    },
+    {
+      "id": "把福柯写成反医生口号 2",
+      "type": "warning",
+      "tagline": "应保留知识、制度、权威和分类的复合关系。"
+    },
+    {
+      "id": "谱系权力 话语制度型",
+      "type": "relation",
+      "tagline": "可与同类谱系权力 / 话语制度型书籍建立跨书索引。"
+    },
+    {
+      "id": "高密度句 1",
+      "type": "expression",
+      "tagline": "《疯癫与文明》不是心理疗愈书，而是追问疯癫如何被理性、禁闭制度和医学知识重新划分出来的谱系研究。"
+    },
+    {
+      "id": "高密度句 2",
+      "type": "expression",
+      "tagline": "谱系权力 / 话语制度型"
+    },
+    {
+      "id": "高密度句 3",
+      "type": "expression",
+      "tagline": "疯癫、理性、禁闭与医学凝视"
+    },
+    {
+      "id": "高密度句 4",
+      "type": "expression",
+      "tagline": "历史问题化 -> 分类/命名 -> 制度装置 -> 话语规则 -> 身体/主体变化 -> 当代边界"
+    },
+    {
+      "id": "高密度句 5",
+      "type": "expression",
+      "tagline": "前台可谈正常/异常、被命名、被隔离，但要避免诊断现实个体。"
+    },
+    {
+      "id": "高密度句 6",
+      "type": "expression",
+      "tagline": "后台用于防止把结构性分类和制度性排除心理化。"
+    },
+    {
+      "id": "高密度句 7",
+      "type": "expression",
+      "tagline": "大禁闭"
+    },
+    {
+      "id": "高密度句 8",
+      "type": "expression",
+      "tagline": "医学凝视"
+    },
+    {
+      "id": "高密度句 9",
+      "type": "expression",
+      "tagline": "正常/异常划分"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "疯癫、理性、禁闭与医学凝视在这本书中为什么会成为问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者如何组织“历史问题化 - 分类 命名 - 制度装置 - 话语规则 - 身体 主体变化 - 当代边界”这条分析链？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书最容易被误用成什么？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "大禁闭",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医学凝视",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "正常 异常划分",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "大禁闭 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医学凝视 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "正常 异常划分 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书不以显性步骤为主",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "收容院与疯人院",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "收容院与疯人院 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把这本书当心理疗愈材料",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把福柯写成反医生口号",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读《疯癫与文明》最容易误会的一点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《疯癫与文明》适合做后台判断，不适合直接鸡汤化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "谱系权力 话语制度型提取链",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "疯癫、理性、禁闭与医学凝视误用边界图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把这本书当心理疗愈材料 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把福柯写成反医生口号 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "谱系权力 话语制度型",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 7",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 8",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 9",
+      "type": "relates"
+    },
+    {
+      "source": "收容院与疯人院 2",
+      "target": "大禁闭 2",
+      "type": "relates"
+    },
+    {
+      "source": "收容院与疯人院 2",
+      "target": "正常 异常划分 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书当心理疗愈材料",
+      "target": "大禁闭 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书当心理疗愈材料",
+      "target": "医学凝视 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书当心理疗愈材料",
+      "target": "正常 异常划分 2",
+      "type": "relates"
+    },
+    {
+      "source": "把福柯写成反医生口号 2",
+      "target": "大禁闭 2",
+      "type": "relates"
+    },
+    {
+      "source": "把福柯写成反医生口号 2",
+      "target": "医学凝视 2",
+      "type": "relates"
+    },
+    {
+      "source": "把福柯写成反医生口号 2",
+      "target": "正常 异常划分 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题",
+      "target": "大禁闭 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题",
+      "target": "医学凝视 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题",
+      "target": "正常 异常划分 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《疯癫与文明》最容易误会的一点",
+      "target": "大禁闭 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《疯癫与文明》最容易误会的一点",
+      "target": "医学凝视 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《疯癫与文明》最容易误会的一点",
+      "target": "正常 异常划分 2",
+      "type": "relates"
+    },
+    {
+      "source": "《疯癫与文明》适合做后台判断，不适合直接鸡汤化",
+      "target": "大禁闭 2",
+      "type": "relates"
+    },
+    {
+      "source": "《疯癫与文明》适合做后台判断，不适合直接鸡汤化",
+      "target": "医学凝视 2",
+      "type": "relates"
+    },
+    {
+      "source": "《疯癫与文明》适合做后台判断，不适合直接鸡汤化",
+      "target": "正常 异常划分 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→疯癫、理性、禁闭与医学凝视在这本书中为什么会成为问题？": "问题入口",
+    "公开入口→作者如何组织“历史问题化 - 分类 命名 - 制度装置 - 话语规则 - 身体 主体变化 - 当代边界”这条分析链？": "问题入口",
+    "公开入口→哪些内容只能作为后台判断，哪些可以进入前台表达？": "问题入口",
+    "公开入口→这本书最容易被误用成什么？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→大禁闭": "章节推进",
+    "公开入口→医学凝视": "章节推进",
+    "公开入口→正常 异常划分": "章节推进",
+    "公开入口→大禁闭 2": "概念支撑",
+    "公开入口→医学凝视 2": "概念支撑",
+    "公开入口→正常 异常划分 2": "概念支撑",
+    "公开入口→这本书不以显性步骤为主": "行动方法",
+    "公开入口→收容院与疯人院": "场景入口",
+    "公开入口→收容院与疯人院 2": "案例证据",
+    "公开入口→把这本书当心理疗愈材料": "案例证据",
+    "公开入口→把福柯写成反医生口号": "案例证据",
+    "公开入口→为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题": "问题切入",
+    "公开入口→读《疯癫与文明》最容易误会的一点": "问题切入",
+    "公开入口→《疯癫与文明》适合做后台判断，不适合直接鸡汤化": "问题切入",
+    "公开入口→谱系权力 话语制度型提取链": "视觉表达",
+    "公开入口→疯癫、理性、禁闭与医学凝视误用边界图": "视觉表达",
+    "公开入口→把这本书当心理疗愈材料 2": "避免误读",
+    "公开入口→把福柯写成反医生口号 2": "避免误读",
+    "公开入口→谱系权力 话语制度型": "跨书连接",
+    "公开入口→高密度句 1": "表达句",
+    "公开入口→高密度句 2": "表达句",
+    "公开入口→高密度句 3": "表达句",
+    "公开入口→高密度句 4": "表达句",
+    "公开入口→高密度句 5": "表达句",
+    "公开入口→高密度句 6": "表达句",
+    "公开入口→高密度句 7": "表达句",
+    "公开入口→高密度句 8": "表达句",
+    "公开入口→高密度句 9": "表达句",
+    "收容院与疯人院 2→大禁闭 2": "相关概念",
+    "收容院与疯人院 2→正常 异常划分 2": "相关概念",
+    "把这本书当心理疗愈材料→大禁闭 2": "相关概念",
+    "把这本书当心理疗愈材料→医学凝视 2": "相关概念",
+    "把这本书当心理疗愈材料→正常 异常划分 2": "相关概念",
+    "把福柯写成反医生口号 2→大禁闭 2": "相关概念",
+    "把福柯写成反医生口号 2→医学凝视 2": "相关概念",
+    "把福柯写成反医生口号 2→正常 异常划分 2": "相关概念",
+    "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题→大禁闭 2": "相关概念",
+    "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题→医学凝视 2": "相关概念",
+    "为什么疯癫、理性、禁闭与医学凝视不能只当成个人问题→正常 异常划分 2": "相关概念",
+    "读《疯癫与文明》最容易误会的一点→大禁闭 2": "相关概念",
+    "读《疯癫与文明》最容易误会的一点→医学凝视 2": "相关概念",
+    "读《疯癫与文明》最容易误会的一点→正常 异常划分 2": "相关概念",
+    "《疯癫与文明》适合做后台判断，不适合直接鸡汤化→大禁闭 2": "相关概念",
+    "《疯癫与文明》适合做后台判断，不适合直接鸡汤化→医学凝视 2": "相关概念",
+    "《疯癫与文明》适合做后台判断，不适合直接鸡汤化→正常 异常划分 2": "相关概念"
+  }
+}

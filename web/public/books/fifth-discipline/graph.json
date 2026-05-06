@@ -2,55 +2,105 @@
   "nodeTypeMeta": {
     "topic": {
       "label": "主题",
-      "color": "#3f6c78",
+      "color": "#6d5c93",
+      "size": 10
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "book": {
+      "label": "书籍",
+      "color": "#bf6f3f",
       "size": 10
     },
     "chapter": {
       "label": "章节",
-      "color": "#9f6a3a",
+      "color": "#2e5670",
       "size": 11
     },
     "concept": {
       "label": "概念",
-      "color": "#6b8566",
+      "color": "#6f8d66",
       "size": 9
     },
     "method": {
       "label": "方法",
-      "color": "#8c5d7a",
+      "color": "#bf6f3f",
       "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 10
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
     },
     "person": {
       "label": "人物",
-      "color": "#5c647b",
-      "size": 11
+      "color": "#9d5667",
+      "size": 12
     }
   },
   "filters": [
     {
       "type": "topic",
       "label": "主题",
-      "color": "#3f6c78"
+      "color": "#6d5c93"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
     },
     {
       "type": "chapter",
       "label": "章节",
-      "color": "#9f6a3a"
+      "color": "#2e5670"
     },
     {
       "type": "concept",
       "label": "概念",
-      "color": "#6b8566"
+      "color": "#6f8d66"
     },
     {
       "type": "method",
       "label": "方法",
-      "color": "#8c5d7a"
+      "color": "#bf6f3f"
     },
     {
       "type": "person",
       "label": "人物",
-      "color": "#5c647b"
+      "color": "#9d5667"
     }
   ],
   "nodeImages": {
@@ -122,22 +172,22 @@
     },
     {
       "id": "为什么组织总在重复同一种问题",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "表面看是「大家都在救火，却没人看结构。」，但这一段真正想带读者回到「五项修炼的骨架」中的「系统思考」。"
     },
     {
       "id": "共同愿景为什么比口号难得多",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "表面看是「没有真正想去的地方，团队只会应付。」，但这一段真正想带读者回到「从个人认知到团队共识」中的「共同愿景」。"
     },
     {
       "id": "团队学习，不是大家都发言，而是认知真的同步了",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "表面看是「开会很多不等于学习发生。」，但这一段真正想带读者回到「从个人认知到团队共识」中的「团队学习」。"
     },
     {
       "id": "真正强的组织，会自己修自己",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "表面看是「学习型组织的本质是自我修正。」，但这一段真正想带读者回到「五项修炼的骨架」中的「学习型组织」。"
     },
     {

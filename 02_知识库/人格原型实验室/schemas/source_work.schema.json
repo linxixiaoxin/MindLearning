@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceWork",
+  "type": "object",
+  "required": ["id", "title", "source_type", "copyright_status", "usable_scope"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "author": { "type": "string" },
+    "source_type": {
+      "type": "string",
+      "enum": ["book", "novel", "play", "myth", "paper", "game", "interview", "article", "other"]
+    },
+    "local_path": { "type": "string" },
+    "external_url": { "type": "string" },
+    "copyright_status": {
+      "type": "string",
+      "enum": ["public_domain", "licensed", "local_private", "unknown", "restricted"]
+    },
+    "usable_scope": {
+      "type": "string",
+      "enum": ["public_output", "internal_research", "private_only"]
+    },
+    "themes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "ingestion_status": {
+      "type": "string",
+      "enum": ["candidate", "imported", "extracted", "reviewed", "blocked"]
+    },
+    "notes": { "type": "string" }
+  }
+}

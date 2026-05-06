@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/difficult-conversations/chapter-images/overview.svg",
+    "全书摘要": "/books/difficult-conversations/chapter-images/overview.svg",
+    "全书结构": "/books/difficult-conversations/chapter-images/overview.svg",
+    "《高难度谈话》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。": "/books/difficult-conversations/chapter-images/overview.svg",
+    "《高难度谈话》中的哪些概念最适合转成问题工作台节点？": "/books/difficult-conversations/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/difficult-conversations/chapter-images/overview.svg",
+    "高难度谈话": "/books/difficult-conversations/chapter-images/overview.svg",
+    "分问题": "/books/difficult-conversations/chapter-images/overview.svg",
+    "挑选出三种谈话": "/books/difficult-conversations/chapter-images/overview.svg",
+    "分向学习型姿态转变": "/books/difficult-conversations/chapter-images/overview.svg",
+    "停止争论谁对谁错 了解他人的故事": "/books/difficult-conversations/chapter-images/overview.svg",
+    "逻辑链 1": "/books/difficult-conversations/chapter-images/overview.svg",
+    "逻辑链 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "逻辑链 3": "/books/difficult-conversations/chapter-images/overview.svg",
+    "逻辑链 4": "/books/difficult-conversations/chapter-images/overview.svg",
+    "分问题 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "挑选出三种谈话 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "分向学习型姿态转变 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "停止争论谁对谁错 了解他人的故事 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "不要设定对方的意图 让矛盾与意图无关": "/books/difficult-conversations/chapter-images/overview.svg",
+    "放弃指责 将归责系统图表化": "/books/difficult-conversations/chapter-images/overview.svg",
+    "事实": "/books/difficult-conversations/chapter-images/overview.svg",
+    "感受": "/books/difficult-conversations/chapter-images/overview.svg",
+    "需要": "/books/difficult-conversations/chapter-images/overview.svg",
+    "请求": "/books/difficult-conversations/chapter-images/overview.svg",
+    "边界": "/books/difficult-conversations/chapter-images/overview.svg",
+    "共情": "/books/difficult-conversations/chapter-images/overview.svg",
+    "反馈": "/books/difficult-conversations/chapter-images/overview.svg",
+    "共识": "/books/difficult-conversations/chapter-images/overview.svg",
+    "分问题 3": "/books/difficult-conversations/chapter-images/overview.svg",
+    "挑选出三种谈话 3": "/books/difficult-conversations/chapter-images/overview.svg",
+    "分向学习型姿态转变 3": "/books/difficult-conversations/chapter-images/overview.svg",
+    "停止争论谁对谁错 了解他人的故事 3": "/books/difficult-conversations/chapter-images/overview.svg",
+    "不要设定对方的意图 让矛盾与意图无关 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "放弃指责 将归责系统图表化 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "内容切入 1": "/books/difficult-conversations/chapter-images/overview.svg",
+    "内容切入 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "内容切入 3": "/books/difficult-conversations/chapter-images/overview.svg",
+    "内容切入 4": "/books/difficult-conversations/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/difficult-conversations/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/difficult-conversations/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/difficult-conversations/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/difficult-conversations/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《高难度谈话》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《高难度谈话》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "高难度谈话",
+      "type": "question",
+      "tagline": "《高难度谈话》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。"
+    },
+    {
+      "id": "分问题",
+      "type": "question",
+      "tagline": "成熟表达不是话术，而是把事实、感受、需要和请求拆清楚。"
+    },
+    {
+      "id": "挑选出三种谈话",
+      "type": "question",
+      "tagline": "沟通失败常常不是不会说，而是没有先校准关系和目标。"
+    },
+    {
+      "id": "分向学习型姿态转变",
+      "type": "question",
+      "tagline": "边界表达可以温和但清楚。"
+    },
+    {
+      "id": "停止争论谁对谁错 了解他人的故事",
+      "type": "question",
+      "tagline": "真正的共情不是同意，而是准确理解对方处境。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "成熟表达不是话术，而是把事实、感受、需要和请求拆清楚。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "沟通失败常常不是不会说，而是没有先校准关系和目标。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "边界表达可以温和但清楚。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "真正的共情不是同意，而是准确理解对方处境。"
+    },
+    {
+      "id": "分问题 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“分问题”，用于把《高难度谈话》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "挑选出三种谈话 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“挑选出三种谈话”，用于把《高难度谈话》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "分向学习型姿态转变 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“分向学习型姿态转变”，用于把《高难度谈话》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "停止争论谁对谁错 了解他人的故事 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“停止争论谁对谁错:了解他人的故事”，用于把《高难度谈话》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "不要设定对方的意图 让矛盾与意图无关",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“不要设定对方的意图:让矛盾与意图无关”，用于把《高难度谈话》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "放弃指责 将归责系统图表化",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“放弃指责:将归责系统图表化”，用于把《高难度谈话》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "事实",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "感受",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "需要",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "请求",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "边界",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "共情",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "反馈",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "共识",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "分问题 3",
+      "type": "concept",
+      "tagline": "围绕“分问题”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "挑选出三种谈话 3",
+      "type": "concept",
+      "tagline": "围绕“挑选出三种谈话”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "分向学习型姿态转变 3",
+      "type": "concept",
+      "tagline": "围绕“分向学习型姿态转变”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "停止争论谁对谁错 了解他人的故事 3",
+      "type": "concept",
+      "tagline": "围绕“停止争论谁对谁错:了解他人的故事”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "不要设定对方的意图 让矛盾与意图无关 2",
+      "type": "concept",
+      "tagline": "围绕“不要设定对方的意图:让矛盾与意图无关”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "放弃指责 将归责系统图表化 2",
+      "type": "concept",
+      "tagline": "围绕“放弃指责:将归责系统图表化”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "成熟表达不是把话说漂亮"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "为什么你越解释对方越生气"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "边界不是冷漠"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "把情绪翻译成请求"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "事实感受需要请求四格"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "关系边界门"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "冲突降温路径"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "对话目标卡"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《高难度谈话》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《高难度谈话》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高难度谈话",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "挑选出三种谈话",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分向学习型姿态转变",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "停止争论谁对谁错 了解他人的故事",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分问题 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "挑选出三种谈话 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分向学习型姿态转变 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "停止争论谁对谁错 了解他人的故事 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "不要设定对方的意图 让矛盾与意图无关",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "放弃指责 将归责系统图表化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "事实",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分问题 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "挑选出三种谈话 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分向学习型姿态转变 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "停止争论谁对谁错 了解他人的故事 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "不要设定对方的意图 让矛盾与意图无关 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "放弃指责 将归责系统图表化 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "分问题 3",
+      "target": "事实",
+      "type": "relates"
+    },
+    {
+      "source": "分问题 3",
+      "target": "感受",
+      "type": "relates"
+    },
+    {
+      "source": "分问题 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "分问题 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "挑选出三种谈话 3",
+      "target": "感受",
+      "type": "relates"
+    },
+    {
+      "source": "挑选出三种谈话 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "挑选出三种谈话 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "挑选出三种谈话 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "分向学习型姿态转变 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "分向学习型姿态转变 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "分向学习型姿态转变 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "分向学习型姿态转变 3",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "停止争论谁对谁错 了解他人的故事 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "停止争论谁对谁错 了解他人的故事 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "停止争论谁对谁错 了解他人的故事 3",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "停止争论谁对谁错 了解他人的故事 3",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "不要设定对方的意图 让矛盾与意图无关 2",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "不要设定对方的意图 让矛盾与意图无关 2",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "不要设定对方的意图 让矛盾与意图无关 2",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "不要设定对方的意图 让矛盾与意图无关 2",
+      "target": "共识",
+      "type": "relates"
+    },
+    {
+      "source": "放弃指责 将归责系统图表化 2",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "放弃指责 将归责系统图表化 2",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "放弃指责 将归责系统图表化 2",
+      "target": "共识",
+      "type": "relates"
+    },
+    {
+      "source": "放弃指责 将归责系统图表化 2",
+      "target": "事实",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《高难度谈话》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。": "问题入口",
+    "公开入口→《高难度谈话》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→高难度谈话": "K 卡",
+    "公开入口→分问题": "K 卡",
+    "公开入口→挑选出三种谈话": "K 卡",
+    "公开入口→分向学习型姿态转变": "K 卡",
+    "公开入口→停止争论谁对谁错 了解他人的故事": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→分问题 2": "章节推进",
+    "公开入口→挑选出三种谈话 2": "章节推进",
+    "公开入口→分向学习型姿态转变 2": "章节推进",
+    "公开入口→停止争论谁对谁错 了解他人的故事 2": "章节推进",
+    "公开入口→不要设定对方的意图 让矛盾与意图无关": "章节推进",
+    "公开入口→放弃指责 将归责系统图表化": "章节推进",
+    "公开入口→事实": "N 卡",
+    "公开入口→感受": "N 卡",
+    "公开入口→需要": "N 卡",
+    "公开入口→请求": "N 卡",
+    "公开入口→边界": "N 卡",
+    "公开入口→共情": "N 卡",
+    "公开入口→反馈": "N 卡",
+    "公开入口→共识": "N 卡",
+    "公开入口→分问题 3": "主题单元",
+    "公开入口→挑选出三种谈话 3": "主题单元",
+    "公开入口→分向学习型姿态转变 3": "主题单元",
+    "公开入口→停止争论谁对谁错 了解他人的故事 3": "主题单元",
+    "公开入口→不要设定对方的意图 让矛盾与意图无关 2": "主题单元",
+    "公开入口→放弃指责 将归责系统图表化 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "分问题 3→事实": "相关概念",
+    "分问题 3→感受": "相关概念",
+    "分问题 3→需要": "相关概念",
+    "分问题 3→请求": "相关概念",
+    "挑选出三种谈话 3→感受": "相关概念",
+    "挑选出三种谈话 3→需要": "相关概念",
+    "挑选出三种谈话 3→请求": "相关概念",
+    "挑选出三种谈话 3→边界": "相关概念",
+    "分向学习型姿态转变 3→需要": "相关概念",
+    "分向学习型姿态转变 3→请求": "相关概念",
+    "分向学习型姿态转变 3→边界": "相关概念",
+    "分向学习型姿态转变 3→共情": "相关概念",
+    "停止争论谁对谁错 了解他人的故事 3→请求": "相关概念",
+    "停止争论谁对谁错 了解他人的故事 3→边界": "相关概念",
+    "停止争论谁对谁错 了解他人的故事 3→共情": "相关概念",
+    "停止争论谁对谁错 了解他人的故事 3→反馈": "相关概念",
+    "不要设定对方的意图 让矛盾与意图无关 2→边界": "相关概念",
+    "不要设定对方的意图 让矛盾与意图无关 2→共情": "相关概念",
+    "不要设定对方的意图 让矛盾与意图无关 2→反馈": "相关概念",
+    "不要设定对方的意图 让矛盾与意图无关 2→共识": "相关概念",
+    "放弃指责 将归责系统图表化 2→共情": "相关概念",
+    "放弃指责 将归责系统图表化 2→反馈": "相关概念",
+    "放弃指责 将归责系统图表化 2→共识": "相关概念",
+    "放弃指责 将归责系统图表化 2→事实": "相关概念"
+  }
+}

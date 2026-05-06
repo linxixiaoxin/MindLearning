@@ -1,0 +1,25 @@
+{
+  "id": "community-story",
+  "title": "被共同体叙事吞没的人",
+  "short_title": "共同体吞没",
+  "source_work_ids": ["public-classic-ru-lin-wai-shi"],
+  "core_situation": "个体的痛苦或失败被共同体反复转述、规训和消费，最后本人也难以说出新的愿望。",
+  "need": "被真正听见，而不是被围观和定义。",
+  "fear": "一旦停止讲述痛苦，就会失去最后一点被看见的机会。",
+  "protection_strategy": "反复叙述同一个伤口，用苦难换取短暂位置。",
+  "relationship_script": "别人同情、劝导、转述；自己越来越难说出新的选择。",
+  "family_script": "家庭或共同体用固定叙事解释个体，个体的位置被过去事件锁住。",
+  "social_gaze": "共同体的目光既提供承认，也制造二次伤害。",
+  "language_style": "反复、求证、带着被确认的期待。",
+  "destiny_pattern": "越被看见，越被固定；越被同情，越难获得主体性。",
+  "signals": ["反复倾诉", "被同情消费", "身份被苦难固定", "难以出现新的自我叙事"],
+  "modern_transplants": ["家庭群里的反复倾诉", "职场里的苦劳代表", "短视频评论区的同情剧场"],
+  "evidence_refs": [
+    {
+      "source_work_id": "public-classic-ru-lin-wai-shi",
+      "location": "待补具体章节或人物",
+      "note": "当前为结构样张，需后续补文本证据。"
+    }
+  ],
+  "review_status": "expert_review_needed"
+}

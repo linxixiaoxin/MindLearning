@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ArchetypeKernel",
+  "type": "object",
+  "required": ["id", "title", "core_situation", "need", "fear", "protection_strategy", "review_status"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "short_title": { "type": "string" },
+    "source_work_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "core_situation": { "type": "string" },
+    "need": { "type": "string" },
+    "fear": { "type": "string" },
+    "protection_strategy": { "type": "string" },
+    "relationship_script": { "type": "string" },
+    "family_script": { "type": "string" },
+    "social_gaze": { "type": "string" },
+    "language_style": { "type": "string" },
+    "destiny_pattern": { "type": "string" },
+    "signals": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "modern_transplants": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_work_id": { "type": "string" },
+          "location": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["draft", "expert_review_needed", "reviewed", "blocked"]
+    }
+  }
+}

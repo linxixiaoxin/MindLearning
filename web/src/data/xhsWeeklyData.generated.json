@@ -1,0 +1,237 @@
+{
+  "generatedAt": "2026-05-06T07:02:20.508811",
+  "week": "2026-W19",
+  "hasData": true,
+  "historyRowCount": 157,
+  "snapshot": {
+    "itemCount": 40,
+    "exposure": 108121,
+    "views": 18038,
+    "likes": 785,
+    "comments": 25,
+    "saves": 604,
+    "follows": 132,
+    "shares": 150,
+    "saveRate": 3.35,
+    "shareRate": 0.83,
+    "followRate": 0.73,
+    "openRate": 16.68
+  },
+  "medians": {
+    "openRate": 11.64,
+    "collectRate": 3.73,
+    "likeRate": 6.15
+  },
+  "topByExposure": [
+    {
+      "title": "不敢麻烦别人？那你要如何跟人亲密...",
+      "topic": "",
+      "hookType": "",
+      "impressions": 19583,
+      "openRate": 26.78,
+      "collectRate": 0.72,
+      "newFollowers": 2,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "为什么你越努力反而越亏钱？让巴菲特告诉你",
+      "topic": "",
+      "hookType": "",
+      "impressions": 11085,
+      "openRate": 17.51,
+      "collectRate": 2.52,
+      "newFollowers": 14,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "在焦虑 、拖延自责？问题根本不在性格",
+      "topic": "",
+      "hookType": "",
+      "impressions": 9892,
+      "openRate": 20.52,
+      "collectRate": 1.28,
+      "newFollowers": 8,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "沟通表达｜你讲的是事实，他听到的是指责",
+      "topic": "",
+      "hookType": "",
+      "impressions": 9071,
+      "openRate": 10.64,
+      "collectRate": 9.33,
+      "newFollowers": 18,
+      "actionHint": "先改标题/封面；适合扩写系列"
+    },
+    {
+      "title": "成熟表达？成年人社交的潜规则...",
+      "topic": "",
+      "hookType": "",
+      "impressions": 6997,
+      "openRate": 19.94,
+      "collectRate": 2.01,
+      "newFollowers": 9,
+      "actionHint": "继续观察"
+    }
+  ],
+  "topByCollectRate": [
+    {
+      "title": "迷茫时：别急着选方向，先找真正卡住的问题",
+      "topic": "",
+      "hookType": "",
+      "impressions": 575,
+      "openRate": 10.96,
+      "collectRate": 12.7,
+      "newFollowers": 0,
+      "actionHint": "先改标题/封面；适合扩写系列"
+    },
+    {
+      "title": "为什么你越想解决问题，问题反而越变越大？",
+      "topic": "",
+      "hookType": "",
+      "impressions": 970,
+      "openRate": 9.48,
+      "collectRate": 11.96,
+      "newFollowers": 1,
+      "actionHint": "先改标题/封面；适合扩写系列"
+    },
+    {
+      "title": "别吵了！为什么我们总是各执一词？",
+      "topic": "",
+      "hookType": "",
+      "impressions": 6804,
+      "openRate": 11.27,
+      "collectRate": 11.73,
+      "newFollowers": 21,
+      "actionHint": "先改标题/封面；适合扩写系列；可做续篇"
+    },
+    {
+      "title": "沟通表达|你只是想讲清楚，他却觉得被否定",
+      "topic": "",
+      "hookType": "",
+      "impressions": 1827,
+      "openRate": 12.37,
+      "collectRate": 11.06,
+      "newFollowers": 3,
+      "actionHint": "先改标题/封面；适合扩写系列"
+    },
+    {
+      "title": "为什么你容易上头也容易下头？",
+      "topic": "",
+      "hookType": "",
+      "impressions": 2416,
+      "openRate": 12.83,
+      "collectRate": 9.68,
+      "newFollowers": 9,
+      "actionHint": "先改标题/封面；适合扩写系列；可做续篇"
+    }
+  ],
+  "topByFollowers": [
+    {
+      "title": "别吵了！为什么我们总是各执一词？",
+      "topic": "",
+      "hookType": "",
+      "impressions": 6804,
+      "openRate": 11.27,
+      "collectRate": 11.73,
+      "newFollowers": 21,
+      "actionHint": "先改标题/封面；适合扩写系列；可做续篇"
+    },
+    {
+      "title": "沟通表达｜你讲的是事实，他听到的是指责",
+      "topic": "",
+      "hookType": "",
+      "impressions": 9071,
+      "openRate": 10.64,
+      "collectRate": 9.33,
+      "newFollowers": 18,
+      "actionHint": "先改标题/封面；适合扩写系列"
+    },
+    {
+      "title": "为什么你越努力反而越亏钱？让巴菲特告诉你",
+      "topic": "",
+      "hookType": "",
+      "impressions": 11085,
+      "openRate": 17.51,
+      "collectRate": 2.52,
+      "newFollowers": 14,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "为什么你越努力带团队，越累？（答案很反直觉）",
+      "topic": "",
+      "hookType": "",
+      "impressions": 2853,
+      "openRate": 13.53,
+      "collectRate": 4.92,
+      "newFollowers": 11,
+      "actionHint": "先改标题/封面；可做续篇"
+    },
+    {
+      "title": "为什么你容易上头也容易下头？",
+      "topic": "",
+      "hookType": "",
+      "impressions": 2416,
+      "openRate": 12.83,
+      "collectRate": 9.68,
+      "newFollowers": 9,
+      "actionHint": "先改标题/封面；适合扩写系列；可做续篇"
+    }
+  ],
+  "highExposureLowEngagement": [
+    {
+      "title": "不敢麻烦别人？那你要如何跟人亲密...",
+      "topic": "",
+      "hookType": "",
+      "impressions": 19583,
+      "openRate": 26.78,
+      "collectRate": 0.72,
+      "newFollowers": 2,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "为什么你越努力反而越亏钱？让巴菲特告诉你",
+      "topic": "",
+      "hookType": "",
+      "impressions": 11085,
+      "openRate": 17.51,
+      "collectRate": 2.52,
+      "newFollowers": 14,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "在焦虑 、拖延自责？问题根本不在性格",
+      "topic": "",
+      "hookType": "",
+      "impressions": 9892,
+      "openRate": 20.52,
+      "collectRate": 1.28,
+      "newFollowers": 8,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "成熟表达？成年人社交的潜规则...",
+      "topic": "",
+      "hookType": "",
+      "impressions": 6997,
+      "openRate": 19.94,
+      "collectRate": 2.01,
+      "newFollowers": 9,
+      "actionHint": "继续观察"
+    },
+    {
+      "title": "问题经常搞不定？你可能简化问题视角了..",
+      "topic": "",
+      "hookType": "",
+      "impressions": 6418,
+      "openRate": 15.52,
+      "collectRate": 0.5,
+      "newFollowers": 2,
+      "actionHint": "继续观察"
+    }
+  ],
+  "recommendations": [
+    "中位打开率偏低，下一轮先优先改标题、封面和首屏。",
+    "策略标签覆盖率还不够，建议尽快补齐 `topic / hook / cta`，否则后续分析会偏弱。"
+  ]
+}

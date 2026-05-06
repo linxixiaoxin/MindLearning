@@ -1,0 +1,734 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/presentation-of-self/chapter-images/overview.svg",
+    "全书摘要": "/books/presentation-of-self/chapter-images/overview.svg",
+    "全书结构": "/books/presentation-of-self/chapter-images/overview.svg",
+    "互动场景、角色、观众、前台 后台与印象管理在这本书中为什么会成为问题？": "/books/presentation-of-self/chapter-images/overview.svg",
+    "作者如何组织“互动场景 - 角色期待 - 前台 后台 - 印象管理 - 尴尬修复 - 身份风险”这条分析链？": "/books/presentation-of-self/chapter-images/overview.svg",
+    "哪些内容只能作为后台判断，哪些可以进入前台表达？": "/books/presentation-of-self/chapter-images/overview.svg",
+    "这本书最容易被误用成什么？": "/books/presentation-of-self/chapter-images/overview.svg",
+    "逻辑链 1": "/books/presentation-of-self/chapter-images/overview.svg",
+    "逻辑链 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "逻辑链 3": "/books/presentation-of-self/chapter-images/overview.svg",
+    "逻辑链 4": "/books/presentation-of-self/chapter-images/overview.svg",
+    "逻辑链 5": "/books/presentation-of-self/chapter-images/overview.svg",
+    "逻辑链 6": "/books/presentation-of-self/chapter-images/overview.svg",
+    "前台": "/books/presentation-of-self/chapter-images/overview.svg",
+    "后台": "/books/presentation-of-self/chapter-images/overview.svg",
+    "印象管理": "/books/presentation-of-self/chapter-images/overview.svg",
+    "前台 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "后台 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "印象管理 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "这本书不以显性步骤为主": "/books/presentation-of-self/chapter-images/overview.svg",
+    "聚会后最累的不是聊天而是一直得体": "/books/presentation-of-self/chapter-images/overview.svg",
+    "聚会后最累的不是聊天而是一直得体 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "把表演理解成虚伪": "/books/presentation-of-self/chapter-images/overview.svg",
+    "把后台当成唯一真实": "/books/presentation-of-self/chapter-images/overview.svg",
+    "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题": "/books/presentation-of-self/chapter-images/overview.svg",
+    "读《日常生活中的自我呈现》最容易误会的一点": "/books/presentation-of-self/chapter-images/overview.svg",
+    "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化": "/books/presentation-of-self/chapter-images/overview.svg",
+    "互动表演 角色场景型提取链": "/books/presentation-of-self/chapter-images/overview.svg",
+    "互动场景、角色、观众、前台 后台与印象管理误用边界图": "/books/presentation-of-self/chapter-images/overview.svg",
+    "把表演理解成虚伪 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "把后台当成唯一真实 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "互动表演 角色场景型": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 1": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 2": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 3": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 4": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 5": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 6": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 7": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 8": "/books/presentation-of-self/chapter-images/overview.svg",
+    "高密度句 9": "/books/presentation-of-self/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "互动场景、角色、观众、前台 后台与印象管理在这本书中为什么会成为问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "作者如何组织“互动场景 - 角色期待 - 前台 后台 - 印象管理 - 尴尬修复 - 身份风险”这条分析链？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "这本书最容易被误用成什么？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "先识别这本书的主要分析对象：互动场景、角色、观众、前台/后台与印象管理。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "再按“互动场景 -> 角色期待 -> 前台/后台 -> 印象管理 -> 尴尬修复 -> 身份风险”保留作者推进链。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "章节地图先保留结构位置，不把局部观点抽成孤立金句。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "K/N 卡优先产出概念、机制、场景、证据、问题和反模式。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "前台表达必须降低术语密度，但不能删除原书分析对象。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "后台判断用于校正账号内容，防止把结构问题误判成个人问题。"
+    },
+    {
+      "id": "前台",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“前台”，用于把《日常生活中的自我呈现》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "后台",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“后台”，用于把《日常生活中的自我呈现》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "印象管理",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“印象管理”，用于把《日常生活中的自我呈现》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "前台 2",
+      "type": "concept",
+      "tagline": "个体面向观众维持角色和情境定义的表演区域。"
+    },
+    {
+      "id": "后台 2",
+      "type": "concept",
+      "tagline": "表演暂时撤下、角色可以修整和准备的区域。"
+    },
+    {
+      "id": "印象管理 2",
+      "type": "concept",
+      "tagline": "人为了维持互动秩序而管理他人对情境和自我的理解。"
+    },
+    {
+      "id": "这本书不以显性步骤为主",
+      "type": "method",
+      "tagline": "用于理论母书入库、K/N 卡拆分、主题链策划和真实场景复盘前的判断。"
+    },
+    {
+      "id": "聚会后最累的不是聊天而是一直得体",
+      "type": "scenario",
+      "tagline": "社交疲惫来自持续前台表演。"
+    },
+    {
+      "id": "聚会后最累的不是聊天而是一直得体 2",
+      "type": "case",
+      "tagline": "社交疲惫来自持续前台表演。"
+    },
+    {
+      "id": "把表演理解成虚伪",
+      "type": "case",
+      "tagline": "日常语言会把表演道德化。"
+    },
+    {
+      "id": "把后台当成唯一真实",
+      "type": "case",
+      "tagline": "读者喜欢真/假二分。"
+    },
+    {
+      "id": "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题",
+      "type": "expression",
+      "tagline": "把结构性压力误读成个人失败。"
+    },
+    {
+      "id": "读《日常生活中的自我呈现》最容易误会的一点",
+      "type": "expression",
+      "tagline": "想把复杂理论立刻改成行动建议。"
+    },
+    {
+      "id": "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化",
+      "type": "expression",
+      "tagline": "理论很有冲击力，但前台表达容易变空。"
+    },
+    {
+      "id": "互动表演 角色场景型提取链",
+      "type": "expression",
+      "tagline": "用一条链路画出《日常生活中的自我呈现》如何推进互动场景、角色、观众、前台/后台与印象管理。"
+    },
+    {
+      "id": "互动场景、角色、观众、前台 后台与印象管理误用边界图",
+      "type": "expression",
+      "tagline": "左侧保留原书对象，右侧列出心理化、方法化、金句化等误用。"
+    },
+    {
+      "id": "把表演理解成虚伪 2",
+      "type": "warning",
+      "tagline": "戈夫曼分析的是互动秩序，不是人格指控。"
+    },
+    {
+      "id": "把后台当成唯一真实 2",
+      "type": "warning",
+      "tagline": "前台和后台都是互动结构的一部分。"
+    },
+    {
+      "id": "互动表演 角色场景型",
+      "type": "relation",
+      "tagline": "可与同类互动表演 / 角色场景型书籍建立跨书索引。"
+    },
+    {
+      "id": "高密度句 1",
+      "type": "expression",
+      "tagline": "《日常生活中的自我呈现》不是说人都虚伪，而是分析人在不同场合如何通过表演、区域和团队合作维持互动秩序。"
+    },
+    {
+      "id": "高密度句 2",
+      "type": "expression",
+      "tagline": "互动表演 / 角色场景型"
+    },
+    {
+      "id": "高密度句 3",
+      "type": "expression",
+      "tagline": "互动场景、角色、观众、前台/后台与印象管理"
+    },
+    {
+      "id": "高密度句 4",
+      "type": "expression",
+      "tagline": "互动场景 -> 角色期待 -> 前台/后台 -> 印象管理 -> 尴尬修复 -> 身份风险"
+    },
+    {
+      "id": "高密度句 5",
+      "type": "expression",
+      "tagline": "前台可谈社交疲惫、职场人设、朋友圈展示，但不评价人虚伪。"
+    },
+    {
+      "id": "高密度句 6",
+      "type": "expression",
+      "tagline": "后台用于真实场景复盘、关系卡和身份风险分析。"
+    },
+    {
+      "id": "高密度句 7",
+      "type": "expression",
+      "tagline": "前台"
+    },
+    {
+      "id": "高密度句 8",
+      "type": "expression",
+      "tagline": "后台"
+    },
+    {
+      "id": "高密度句 9",
+      "type": "expression",
+      "tagline": "印象管理"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "互动场景、角色、观众、前台 后台与印象管理在这本书中为什么会成为问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者如何组织“互动场景 - 角色期待 - 前台 后台 - 印象管理 - 尴尬修复 - 身份风险”这条分析链？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书最容易被误用成什么？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "前台",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "后台",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "印象管理",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "后台 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "印象管理 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书不以显性步骤为主",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "聚会后最累的不是聊天而是一直得体",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "聚会后最累的不是聊天而是一直得体 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把表演理解成虚伪",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把后台当成唯一真实",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读《日常生活中的自我呈现》最容易误会的一点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "互动表演 角色场景型提取链",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "互动场景、角色、观众、前台 后台与印象管理误用边界图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把表演理解成虚伪 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把后台当成唯一真实 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "互动表演 角色场景型",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 7",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 8",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 9",
+      "type": "relates"
+    },
+    {
+      "source": "前台 2",
+      "target": "后台 2",
+      "type": "relates"
+    },
+    {
+      "source": "后台 2",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "聚会后最累的不是聊天而是一直得体 2",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "聚会后最累的不是聊天而是一直得体 2",
+      "target": "印象管理 2",
+      "type": "relates"
+    },
+    {
+      "source": "把表演理解成虚伪 2",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "把表演理解成虚伪 2",
+      "target": "后台 2",
+      "type": "relates"
+    },
+    {
+      "source": "把表演理解成虚伪 2",
+      "target": "印象管理 2",
+      "type": "relates"
+    },
+    {
+      "source": "把后台当成唯一真实 2",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "把后台当成唯一真实 2",
+      "target": "后台 2",
+      "type": "relates"
+    },
+    {
+      "source": "把后台当成唯一真实 2",
+      "target": "印象管理 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题",
+      "target": "后台 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题",
+      "target": "印象管理 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《日常生活中的自我呈现》最容易误会的一点",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《日常生活中的自我呈现》最容易误会的一点",
+      "target": "后台 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《日常生活中的自我呈现》最容易误会的一点",
+      "target": "印象管理 2",
+      "type": "relates"
+    },
+    {
+      "source": "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化",
+      "target": "前台 2",
+      "type": "relates"
+    },
+    {
+      "source": "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化",
+      "target": "后台 2",
+      "type": "relates"
+    },
+    {
+      "source": "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化",
+      "target": "印象管理 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→互动场景、角色、观众、前台 后台与印象管理在这本书中为什么会成为问题？": "问题入口",
+    "公开入口→作者如何组织“互动场景 - 角色期待 - 前台 后台 - 印象管理 - 尴尬修复 - 身份风险”这条分析链？": "问题入口",
+    "公开入口→哪些内容只能作为后台判断，哪些可以进入前台表达？": "问题入口",
+    "公开入口→这本书最容易被误用成什么？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→前台": "章节推进",
+    "公开入口→后台": "章节推进",
+    "公开入口→印象管理": "章节推进",
+    "公开入口→前台 2": "概念支撑",
+    "公开入口→后台 2": "概念支撑",
+    "公开入口→印象管理 2": "概念支撑",
+    "公开入口→这本书不以显性步骤为主": "行动方法",
+    "公开入口→聚会后最累的不是聊天而是一直得体": "场景入口",
+    "公开入口→聚会后最累的不是聊天而是一直得体 2": "案例证据",
+    "公开入口→把表演理解成虚伪": "案例证据",
+    "公开入口→把后台当成唯一真实": "案例证据",
+    "公开入口→为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题": "问题切入",
+    "公开入口→读《日常生活中的自我呈现》最容易误会的一点": "问题切入",
+    "公开入口→《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化": "问题切入",
+    "公开入口→互动表演 角色场景型提取链": "视觉表达",
+    "公开入口→互动场景、角色、观众、前台 后台与印象管理误用边界图": "视觉表达",
+    "公开入口→把表演理解成虚伪 2": "避免误读",
+    "公开入口→把后台当成唯一真实 2": "避免误读",
+    "公开入口→互动表演 角色场景型": "跨书连接",
+    "公开入口→高密度句 1": "表达句",
+    "公开入口→高密度句 2": "表达句",
+    "公开入口→高密度句 3": "表达句",
+    "公开入口→高密度句 4": "表达句",
+    "公开入口→高密度句 5": "表达句",
+    "公开入口→高密度句 6": "表达句",
+    "公开入口→高密度句 7": "表达句",
+    "公开入口→高密度句 8": "表达句",
+    "公开入口→高密度句 9": "表达句",
+    "前台 2→后台 2": "相关概念",
+    "后台 2→前台 2": "相关概念",
+    "聚会后最累的不是聊天而是一直得体 2→前台 2": "相关概念",
+    "聚会后最累的不是聊天而是一直得体 2→印象管理 2": "相关概念",
+    "把表演理解成虚伪 2→前台 2": "相关概念",
+    "把表演理解成虚伪 2→后台 2": "相关概念",
+    "把表演理解成虚伪 2→印象管理 2": "相关概念",
+    "把后台当成唯一真实 2→前台 2": "相关概念",
+    "把后台当成唯一真实 2→后台 2": "相关概念",
+    "把后台当成唯一真实 2→印象管理 2": "相关概念",
+    "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题→前台 2": "相关概念",
+    "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题→后台 2": "相关概念",
+    "为什么互动场景、角色、观众、前台 后台与印象管理不能只当成个人问题→印象管理 2": "相关概念",
+    "读《日常生活中的自我呈现》最容易误会的一点→前台 2": "相关概念",
+    "读《日常生活中的自我呈现》最容易误会的一点→后台 2": "相关概念",
+    "读《日常生活中的自我呈现》最容易误会的一点→印象管理 2": "相关概念",
+    "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化→前台 2": "相关概念",
+    "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化→后台 2": "相关概念",
+    "《日常生活中的自我呈现》适合做后台判断，不适合直接鸡汤化→印象管理 2": "相关概念"
+  }
+}

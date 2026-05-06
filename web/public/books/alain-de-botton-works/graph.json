@@ -2,13 +2,33 @@
   "nodeTypeMeta": {
     "topic": {
       "label": "主题",
+      "color": "#6d5c93",
+      "size": 10
+    },
+    "summary": {
+      "label": "摘要",
       "color": "#204f67",
       "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
     },
     "book": {
       "label": "书籍",
       "color": "#bf6f3f",
       "size": 10
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#2e5670",
+      "size": 11
     },
     "concept": {
       "label": "概念",
@@ -17,17 +37,37 @@
     },
     "method": {
       "label": "方法",
-      "color": "#8a5a44",
-      "size": 9
+      "color": "#bf6f3f",
+      "size": 10
     },
     "scenario": {
       "label": "场景",
       "color": "#9b6a57",
+      "size": 10
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
       "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
     },
     "person": {
       "label": "人物",
-      "color": "#795b9b",
+      "color": "#9d5667",
       "size": 12
     }
   },
@@ -35,7 +75,17 @@
     {
       "type": "topic",
       "label": "主题",
-      "color": "#204f67"
+      "color": "#6d5c93"
+    },
+    {
+      "type": "person",
+      "label": "人物",
+      "color": "#9d5667"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
     },
     {
       "type": "book",
@@ -48,19 +98,9 @@
       "color": "#6f8d66"
     },
     {
-      "type": "method",
-      "label": "方法",
-      "color": "#8a5a44"
-    },
-    {
       "type": "scenario",
       "label": "场景",
       "color": "#9b6a57"
-    },
-    {
-      "type": "person",
-      "label": "人物",
-      "color": "#795b9b"
     }
   ],
   "nodeImages": {},

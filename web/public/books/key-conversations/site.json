@@ -12,21 +12,20 @@
   "creatorLabel": "整理与输出",
   "footerNote": "复杂世界和复杂人性的同行翻译者",
   "assetVersion": "20260423",
-  "searchPlaceholder": "搜索主题、章节、概念、方法…",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
   "recommendedPath": [
     "全书摘要",
-    "关键对话：如何高效能沟通（原书第2版）（珍藏版）",
     "第01章 何谓关键对话",
-    "安全感先于技巧：让对话回到可谈状态",
-    "第09章 开始行动"
+    "关键对话：如何高效能沟通（原书第2版）（珍藏版）",
+    "第11章 综合应用"
   ],
   "quickLinks": [
     "K卡N卡总表",
+    "视觉表达钩子",
     "关键对话",
-    "安全感",
-    "从事实到故事",
-    "STATE表达法",
-    "决策四分法"
+    "共享意义池",
+    "真正目标",
+    "关键对话：如何高效能沟通（原书第2版）（珍藏版）"
   ],
   "followTitle": "关注作者",
   "followDescription": "复杂世界和复杂人性的同行翻译者",
@@ -54,8 +53,8 @@
     "imageMode": "poster"
   },
   "journeyOverline": "Journey Map",
-  "journeyTitle": "关键对话升级地图",
-  "journeyDescription": "先识别高风险，再修安全、拆故事、接表达，最后把共享收束成行动。",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到章节推进，再接回主题、概念、方法和现实场景，形成一条可以来回穿梭的阅读路径。",
   "journeyEntryLabel": "从全书摘要进入",
   "journeyMap": [
     {
@@ -63,62 +62,78 @@
       "stage": "起点总览",
       "node": "全书摘要",
       "image": "/books/key-conversations/chapter-images/overview.svg",
-      "summary": "先看清整本书真正处理的不是闲聊技巧，而是高风险对话里的失控结构。",
-      "bridgeToNext": "知道什么叫关键对话，才知道为什么有些话非谈不可。"
+      "summary": "先看清整本书的总问题和阅读入口。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
       "level": "LV.1",
-      "stage": "识别风险",
+      "stage": "章节 1",
       "node": "第01章 何谓关键对话",
-      "image": "/books/key-conversations/chapter-images/chapter-1.svg",
-      "summary": "先识别哪些场景已经进入高风险区。",
-      "bridgeToNext": "一旦进入高风险区，真正先崩的通常不是逻辑，而是安全。"
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第01章 何谓关键对话」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
       "level": "LV.2",
-      "stage": "修复容器",
-      "node": "第05章 保证安全",
-      "image": "/books/key-conversations/chapter-images/chapter-5.svg",
-      "summary": "共同目的、相互尊重和对比法，是把人拉回可谈状态的关键动作。",
-      "bridgeToNext": "容器稳住后，下一步不是急着下结论，而是先拆开脑中的故事。"
+      "stage": "章节 2",
+      "node": "第02章 掌握关键对话",
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第02章 掌握关键对话」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
       "level": "LV.3",
-      "stage": "拆解故事",
-      "node": "第06章 控制想法",
-      "image": "/books/key-conversations/chapter-images/chapter-6.svg",
-      "summary": "别把故事当事实，别让情绪替你说话。",
-      "bridgeToNext": "故事拆开之后，才轮到把难听的话讲清楚。"
+      "stage": "章节 3",
+      "node": "第03章 从心开始",
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第03章 从心开始」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
       "level": "LV.4",
-      "stage": "拉回共享",
-      "node": "第08章 了解动机",
-      "image": "/books/key-conversations/chapter-images/chapter-8.svg",
-      "summary": "当对方退回沉默或暴力时，AMPP 和差异处理帮助对话重新流动。",
-      "bridgeToNext": "信息进池之后，还需要把讨论收成决定与责任。"
+      "stage": "章节 4",
+      "node": "第04章 注意观察",
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第04章 注意观察」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
       "level": "LV.5",
-      "stage": "落到行动",
-      "node": "第09章 开始行动",
-      "image": "/books/key-conversations/chapter-images/chapter-9.svg",
-      "summary": "真正好的对话一定能从理解推进到责任、节奏和跟进。",
-      "bridgeToNext": "最后要回到综合应用，把这套结构重新压回真实对话现场。"
+      "stage": "章节 5",
+      "node": "第05章 保证安全",
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第05章 保证安全」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
       "level": "LV.6",
-      "stage": "综合应用",
+      "stage": "章节 6",
+      "node": "第06章 控制想法",
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第06章 控制想法」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "章节 7",
+      "node": "第07章 陈述观点",
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第07章 陈述观点」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "章节 8",
       "node": "第11章 综合应用",
-      "image": "/books/key-conversations/chapter-images/chapter-11.svg",
-      "summary": "把识别、修复、表达和行动串成一套能反复调用的高风险对话路径。",
+      "image": "/books/key-conversations/chapter-images/overview.svg",
+      "summary": "进入「第11章 综合应用」，继续沿着本书的核心路径推进。",
       "bridgeToNext": ""
     }
   ],
   "stats": [
     {
       "label": "主题页",
-      "value": "10"
+      "value": "0"
     },
     {
       "label": "章节",
@@ -129,12 +144,20 @@
       "value": "17"
     },
     {
-      "label": "主线入口",
-      "value": "4"
+      "label": "场景",
+      "value": "5"
     }
   ],
   "slug": "key-conversations",
   "author": "科里·帕特森等",
   "primaryCategory": "沟通表达与关系对话",
-  "secondaryCategory": "领导管理与组织教练"
+  "secondaryCategory": "领导管理与组织教练",
+  "standardizedProfile": {
+    "basedOn": [
+      "mindset-traps",
+      "leadership-evolution"
+    ],
+    "updatedAt": "2026-04-30",
+    "version": "reference_profile_v1"
+  }
 }

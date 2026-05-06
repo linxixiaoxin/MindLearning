@@ -12,88 +12,103 @@
   "creatorLabel": "整理与输出",
   "footerNote": "复杂世界和复杂人性的同行翻译者",
   "assetVersion": "20260429",
-  "searchPlaceholder": "搜索德波顿、身份焦虑、新闻焦虑、转译方法…",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
   "recommendedPath": [
     "作者方法总览",
     "身份的焦虑",
-    "身份焦虑",
-    "新闻的骚动",
-    "新闻骚动"
-  ],
-  "quickLinks": [
-    "作者方法总览",
-    "身份的焦虑",
-    "新闻的骚动",
-    "旅行的艺术",
-    "工作颂歌",
+    "晚会上被问你是做什么的",
     "幸福的建筑"
   ],
-  "journeyOverline": "Author Map",
-  "journeyTitle": "作者方法入口",
-  "journeyDescription": "先从作者方法总览进入，再分别查看书籍、母题、概念、方法和高频生活场景。",
+  "quickLinks": [
+    "社会结构",
+    "阿兰·德波顿",
+    "身份焦虑",
+    "渴求身份",
+    "内容转译",
+    "晚会上被问你是做什么的"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到书籍节点，再接回概念、方法和现实场景，形成一条可以来回穿梭的作者方法路径。",
   "journeyEntryLabel": "从作者方法总览进入",
   "journeyMap": [
     {
-      "level": "A0",
-      "stage": "作者入口",
+      "level": "LV.0",
+      "stage": "起点总览",
       "node": "作者方法总览",
       "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
-      "summary": "先理解德波顿在系统里承担的角色：把现代生活的不体面感受翻译成可承受的日常哲学语言。",
-      "bridgeToNext": "理解作者角色之后，再看他的核心母题。"
+      "summary": "先看清整本书的总问题和阅读入口。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
-      "level": "M1",
-      "stage": "核心母题",
-      "node": "现代生活困境",
+      "level": "LV.1",
+      "stage": "核心入口",
+      "node": "身份的焦虑",
       "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
-      "summary": "身份、职业、新闻、旅行和空间困境都被视为现代生活的共同处境。",
-      "bridgeToNext": "有了母题之后，需要一套转译方法。"
+      "summary": "进入「身份的焦虑」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
-      "level": "T1",
-      "stage": "转译方法",
-      "node": "内容转译",
+      "level": "LV.2",
+      "stage": "推进节点",
+      "node": "新闻的骚动",
       "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
-      "summary": "把哲学、艺术、文学、宗教和日常场景转成能解释感受的语言。",
-      "bridgeToNext": "方法最终要回到具体书和具体场景。"
+      "summary": "进入「新闻的骚动」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
-      "level": "C1",
-      "stage": "概念卡",
-      "node": "身份焦虑",
+      "level": "LV.3",
+      "stage": "推进节点",
+      "node": "旅行的艺术",
       "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
-      "summary": "把自卑、比较和被认可需求放回社会评价结构里理解。",
-      "bridgeToNext": "另一个高频入口是信息和新闻带来的焦虑。"
+      "summary": "进入「旅行的艺术」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
     },
     {
-      "level": "S1",
-      "stage": "场景卡",
-      "node": "新闻后的焦虑",
+      "level": "LV.4",
+      "stage": "推进节点",
+      "node": "工作颂歌",
       "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
-      "summary": "把刷新闻后的沉重感，看成标题、速度和情绪牵引共同制造的现代困境。",
+      "summary": "进入「工作颂歌」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "推进节点",
+      "node": "幸福的建筑",
+      "image": "/books/alain-de-botton-works/chapter-images/overview.svg",
+      "summary": "进入「幸福的建筑」，继续沿着本书的核心路径推进。",
       "bridgeToNext": ""
     }
   ],
   "stats": [
     {
-      "label": "作者入口",
-      "value": "1"
+      "label": "主题页",
+      "value": "5"
     },
     {
       "label": "书籍节点",
       "value": "5"
     },
     {
-      "label": "概念",
-      "value": "32"
+      "label": "概念 / 方法",
+      "value": "87"
     },
     {
-      "label": "方法 / 场景",
-      "value": "35"
+      "label": "场景",
+      "value": "19"
     }
   ],
   "slug": "alain-de-botton-works",
   "author": "阿兰·德波顿",
   "primaryCategory": "心理疗愈与自我探索",
-  "secondaryCategory": "散文哲学与现代生活"
+  "secondaryCategory": "散文哲学与现代生活",
+  "standardizedProfile": {
+    "basedOn": [
+      "mindset-traps",
+      "leadership-evolution"
+    ],
+    "updatedAt": "2026-04-30",
+    "version": "reference_profile_v1"
+  }
 }

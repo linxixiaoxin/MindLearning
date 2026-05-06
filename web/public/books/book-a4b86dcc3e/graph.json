@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "全书摘要": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "全书结构": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "《论不服从》如何帮助读者理解内在模式、情绪反应和关系中的自我位置。": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "《论不服从》中的哪些概念最适合转成问题工作台节点？": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "论不服从": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "F 接受1 境的 便不 武力f 必须 o": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "to oxn EO 杮 uNt": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "F 接受1 境的 便不 武力f 必须 o 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "to oxn EO 杮 uNt 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "u7tondhd 4 KsZ篓 U gMFh 8a I": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "蕋 cs7Vs uw kWhh mH uz": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "情绪": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "需要": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "身体感受": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "内在模式": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "安全感": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "边界": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "自我接纳": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "意义感": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "F 接受1 境的 便不 武力f 必须 o 3": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "to oxn EO 杮 uNt 3": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "u7tondhd 4 KsZ篓 U gMFh 8a I 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "蕋 cs7Vs uw kWhh mH uz 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-a4b86dcc3e/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-a4b86dcc3e/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《论不服从》如何帮助读者理解内在模式、情绪反应和关系中的自我位置。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《论不服从》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "论不服从",
+      "type": "question",
+      "tagline": "《论不服从》如何帮助读者理解内在模式、情绪反应和关系中的自我位置。"
+    },
+    {
+      "id": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了",
+      "type": "question",
+      "tagline": "疗愈不是立刻变好，而是让痛苦有机会被命名和安放。"
+    },
+    {
+      "id": "F 接受1 境的 便不 武力f 必须 o",
+      "type": "question",
+      "tagline": "很多关系反应来自更早形成的内在模式。"
+    },
+    {
+      "id": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A",
+      "type": "question",
+      "tagline": "情绪不是敌人，它常常在提示未被看见的需要。"
+    },
+    {
+      "id": "to oxn EO 杮 uNt",
+      "type": "question",
+      "tagline": "自我探索需要同时保留温柔和边界。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "疗愈不是立刻变好，而是让痛苦有机会被命名和安放。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "很多关系反应来自更早形成的内在模式。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "情绪不是敌人，它常常在提示未被看见的需要。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "自我探索需要同时保留温柔和边界。"
+    },
+    {
+      "id": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了”，用于把《论不服从》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "F 接受1 境的 便不 武力f 必须 o 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“F 接受1 境的 便不 武力f 必须 o”，用于把《论不服从》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A”，用于把《论不服从》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "to oxn EO 杮 uNt 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“to oxn EO 杮 uNt”，用于把《论不服从》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "u7tondhd 4 KsZ篓 U gMFh 8a I",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“u7tondhd 4 KsZ篓 U gMFh 8a I”，用于把《论不服从》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "蕋 cs7Vs uw kWhh mH uz",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“蕋 cs7Vs uw /kWhh mH uz”，用于把《论不服从》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "情绪",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "需要",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "身体感受",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "内在模式",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "安全感",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "边界",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "自我接纳",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "意义感",
+      "type": "concept",
+      "tagline": "围绕情绪、身体、关系、自我模式和意义的可复用节点"
+    },
+    {
+      "id": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3",
+      "type": "concept",
+      "tagline": "围绕“服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "F 接受1 境的 便不 武力f 必须 o 3",
+      "type": "concept",
+      "tagline": "围绕“F 接受1 境的 便不 武力f 必须 o”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3",
+      "type": "concept",
+      "tagline": "围绕“耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "to oxn EO 杮 uNt 3",
+      "type": "concept",
+      "tagline": "围绕“to oxn EO 杮 uNt”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "u7tondhd 4 KsZ篓 U gMFh 8a I 2",
+      "type": "concept",
+      "tagline": "围绕“u7tondhd 4 KsZ篓 U gMFh 8a I”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "蕋 cs7Vs uw kWhh mH uz 2",
+      "type": "concept",
+      "tagline": "围绕“蕋 cs7Vs uw /kWhh mH uz”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "你不是太情绪化，是有需要没被看见"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "为什么关系里会反复进入同一种模式"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "边界感不是冷漠"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "自我接纳不是停止成长"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "情绪坐标图"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "内在模式循环"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "关系边界图"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "自我修复路径"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《论不服从》如何帮助读者理解内在模式、情绪反应和关系中的自我位置。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《论不服从》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "论不服从",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "F 接受1 境的 便不 武力f 必须 o",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "to oxn EO 杮 uNt",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "F 接受1 境的 便不 武力f 必须 o 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "to oxn EO 杮 uNt 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "u7tondhd 4 KsZ篓 U gMFh 8a I",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "蕋 cs7Vs uw kWhh mH uz",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "情绪",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "身体感受",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内在模式",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "安全感",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "自我接纳",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义感",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "F 接受1 境的 便不 武力f 必须 o 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "to oxn EO 杮 uNt 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "u7tondhd 4 KsZ篓 U gMFh 8a I 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "蕋 cs7Vs uw kWhh mH uz 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3",
+      "target": "情绪",
+      "type": "relates"
+    },
+    {
+      "source": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3",
+      "target": "身体感受",
+      "type": "relates"
+    },
+    {
+      "source": "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3",
+      "target": "内在模式",
+      "type": "relates"
+    },
+    {
+      "source": "F 接受1 境的 便不 武力f 必须 o 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "F 接受1 境的 便不 武力f 必须 o 3",
+      "target": "身体感受",
+      "type": "relates"
+    },
+    {
+      "source": "F 接受1 境的 便不 武力f 必须 o 3",
+      "target": "内在模式",
+      "type": "relates"
+    },
+    {
+      "source": "F 接受1 境的 便不 武力f 必须 o 3",
+      "target": "安全感",
+      "type": "relates"
+    },
+    {
+      "source": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3",
+      "target": "身体感受",
+      "type": "relates"
+    },
+    {
+      "source": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3",
+      "target": "内在模式",
+      "type": "relates"
+    },
+    {
+      "source": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3",
+      "target": "安全感",
+      "type": "relates"
+    },
+    {
+      "source": "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "to oxn EO 杮 uNt 3",
+      "target": "内在模式",
+      "type": "relates"
+    },
+    {
+      "source": "to oxn EO 杮 uNt 3",
+      "target": "安全感",
+      "type": "relates"
+    },
+    {
+      "source": "to oxn EO 杮 uNt 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "to oxn EO 杮 uNt 3",
+      "target": "自我接纳",
+      "type": "relates"
+    },
+    {
+      "source": "u7tondhd 4 KsZ篓 U gMFh 8a I 2",
+      "target": "安全感",
+      "type": "relates"
+    },
+    {
+      "source": "u7tondhd 4 KsZ篓 U gMFh 8a I 2",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "u7tondhd 4 KsZ篓 U gMFh 8a I 2",
+      "target": "自我接纳",
+      "type": "relates"
+    },
+    {
+      "source": "u7tondhd 4 KsZ篓 U gMFh 8a I 2",
+      "target": "意义感",
+      "type": "relates"
+    },
+    {
+      "source": "蕋 cs7Vs uw kWhh mH uz 2",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "蕋 cs7Vs uw kWhh mH uz 2",
+      "target": "自我接纳",
+      "type": "relates"
+    },
+    {
+      "source": "蕋 cs7Vs uw kWhh mH uz 2",
+      "target": "意义感",
+      "type": "relates"
+    },
+    {
+      "source": "蕋 cs7Vs uw kWhh mH uz 2",
+      "target": "情绪",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《论不服从》如何帮助读者理解内在模式、情绪反应和关系中的自我位置。": "问题入口",
+    "公开入口→《论不服从》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→论不服从": "K 卡",
+    "公开入口→服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了": "K 卡",
+    "公开入口→F 接受1 境的 便不 武力f 必须 o": "K 卡",
+    "公开入口→耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A": "K 卡",
+    "公开入口→to oxn EO 杮 uNt": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 2": "章节推进",
+    "公开入口→F 接受1 境的 便不 武力f 必须 o 2": "章节推进",
+    "公开入口→耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 2": "章节推进",
+    "公开入口→to oxn EO 杮 uNt 2": "章节推进",
+    "公开入口→u7tondhd 4 KsZ篓 U gMFh 8a I": "章节推进",
+    "公开入口→蕋 cs7Vs uw kWhh mH uz": "章节推进",
+    "公开入口→情绪": "N 卡",
+    "公开入口→需要": "N 卡",
+    "公开入口→身体感受": "N 卡",
+    "公开入口→内在模式": "N 卡",
+    "公开入口→安全感": "N 卡",
+    "公开入口→边界": "N 卡",
+    "公开入口→自我接纳": "N 卡",
+    "公开入口→意义感": "N 卡",
+    "公开入口→服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3": "主题单元",
+    "公开入口→F 接受1 境的 便不 武力f 必须 o 3": "主题单元",
+    "公开入口→耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3": "主题单元",
+    "公开入口→to oxn EO 杮 uNt 3": "主题单元",
+    "公开入口→u7tondhd 4 KsZ篓 U gMFh 8a I 2": "主题单元",
+    "公开入口→蕋 cs7Vs uw kWhh mH uz 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3→情绪": "相关概念",
+    "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3→需要": "相关概念",
+    "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3→身体感受": "相关概念",
+    "服。 要靠Q 东西 就是 争中 理性 和正 性， 这两 者你旂Y 备。 认为 劝你y 着想 徒劳 完了 3→内在模式": "相关概念",
+    "F 接受1 境的 便不 武力f 必须 o 3→需要": "相关概念",
+    "F 接受1 境的 便不 武力f 必须 o 3→身体感受": "相关概念",
+    "F 接受1 境的 便不 武力f 必须 o 3→内在模式": "相关概念",
+    "F 接受1 境的 便不 武力f 必须 o 3→安全感": "相关概念",
+    "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3→身体感受": "相关概念",
+    "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3→内在模式": "相关概念",
+    "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3→安全感": "相关概念",
+    "耀 01 02 i 03 u 04 z 05 06 07 08 09 q 0A 3→边界": "相关概念",
+    "to oxn EO 杮 uNt 3→内在模式": "相关概念",
+    "to oxn EO 杮 uNt 3→安全感": "相关概念",
+    "to oxn EO 杮 uNt 3→边界": "相关概念",
+    "to oxn EO 杮 uNt 3→自我接纳": "相关概念",
+    "u7tondhd 4 KsZ篓 U gMFh 8a I 2→安全感": "相关概念",
+    "u7tondhd 4 KsZ篓 U gMFh 8a I 2→边界": "相关概念",
+    "u7tondhd 4 KsZ篓 U gMFh 8a I 2→自我接纳": "相关概念",
+    "u7tondhd 4 KsZ篓 U gMFh 8a I 2→意义感": "相关概念",
+    "蕋 cs7Vs uw kWhh mH uz 2→边界": "相关概念",
+    "蕋 cs7Vs uw kWhh mH uz 2→自我接纳": "相关概念",
+    "蕋 cs7Vs uw kWhh mH uz 2→意义感": "相关概念",
+    "蕋 cs7Vs uw kWhh mH uz 2→情绪": "相关概念"
+  }
+}

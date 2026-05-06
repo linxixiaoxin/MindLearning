@@ -1,0 +1,139 @@
+{
+  "title": "非暴力沟通",
+  "shortTitle": "非暴力沟通",
+  "subtitle": "把冲突拆回观察、感受、需要和请求",
+  "description": "基于《非暴力沟通》已通过质检的结构化资产，接入全书摘要、核心问题、核心概念、方法动作、场景案例、章节地图和表达延展节点。",
+  "heroOverline": "BOOK · CONVERSATION",
+  "heroTitleLines": [
+    "非暴力沟通",
+    "把冲突拆回观察、感受、需要和请求"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260430-full-nk",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+  "recommendedPath": [
+    "公开入口",
+    "让爱融入生活在全书中解决什么问题？",
+    "主题单元01：让爱融入生活",
+    "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主",
+    "主题单元12：重获生活的热情"
+  ],
+  "quickLinks": [
+    "全书摘要",
+    "全书结构",
+    "让爱融入生活",
+    "是什么蒙蔽了爱？",
+    "用主题单元01：让爱融入生活检查让爱融入生活",
+    "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到章节推进，再接回主题、概念、方法和现实场景，形成一条可以来回穿梭的阅读路径。",
+  "journeyEntryLabel": "从公开入口进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "起点总览",
+      "node": "公开入口",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "先看清整本书的总问题和阅读入口。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "章节 1",
+      "node": "主题单元01：让爱融入生活",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元01：让爱融入生活」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节 2",
+      "node": "主题单元02：是什么蒙蔽了爱？",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元02：是什么蒙蔽了爱？」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "章节 3",
+      "node": "主题单元03：区分观察和评论",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元03：区分观察和评论」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "章节 4",
+      "node": "主题单元04：体会和表达感受",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元04：体会和表达感受」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "章节 5",
+      "node": "主题单元05：感受的根源",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元05：感受的根源」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "章节 6",
+      "node": "主题单元06：请求帮助",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元06：请求帮助」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.7",
+      "stage": "章节 7",
+      "node": "主题单元07：用全身心倾听",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元07：用全身心倾听」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.8",
+      "stage": "章节 8",
+      "node": "主题单元12：重获生活的热情",
+      "image": "/books/nonviolent-communication/chapter-images/overview.svg",
+      "summary": "进入「主题单元12：重获生活的热情」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "8"
+    },
+    {
+      "label": "章节",
+      "value": "12"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "18"
+    },
+    {
+      "label": "场景",
+      "value": "16"
+    }
+  ],
+  "slug": "nonviolent-communication",
+  "author": "马歇尔·卢森堡",
+  "primaryCategory": "沟通表达与关系对话",
+  "secondaryCategory": "冲突修复与关系对话",
+  "standardizedProfile": {
+    "basedOn": [
+      "mindset-traps",
+      "leadership-evolution"
+    ],
+    "updatedAt": "2026-04-30",
+    "version": "reference_profile_v1"
+  }
+}

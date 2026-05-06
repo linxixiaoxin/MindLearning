@@ -1,0 +1,105 @@
+{
+  "book": {
+    "slug": "book-e04989128c",
+    "title": "爆款文案写作指南)",
+    "shortTitle": "爆款文案写作指南)",
+    "author": "未标注",
+    "primaryCategory": "文案营销与内容传播",
+    "secondaryCategory": "文案营销 / 内容传播",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/08_文案营销与内容传播/爆款文案写作指南)/assets",
+    "structuredJson": "01_sources/01_books/08_文案营销与内容传播/爆款文案写作指南)/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/08_文案营销与内容传播/爆款文案写作指南)/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/08_文案营销与内容传播/爆款文案写作指南)/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/08_文案营销与内容传播/爆款文案写作指南)/assets/视觉钩子.md",
+    "knTable": "01_sources/01_books/08_文案营销与内容传播/爆款文案写作指南)/assets/整本书K卡_N卡总表.md"
+  },
+  "builder": {
+    "profile": "public_structured_nk_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": true,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ]
+  },
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_source_repair",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
+    ],
+    "overrideDir": "configs/public_overrides/book-e04989128c",
+    "publicSanity": {
+      "blockerCount": 4,
+      "status": "needs_source_repair",
+      "samples": [
+        {
+          "field": "book_skeleton.detected_headings[0]",
+          "sample": "F713.812-62"
+        },
+        {
+          "field": "k_cards[1].title",
+          "sample": "F713.812-62"
+        },
+        {
+          "field": "theme_units[0].title",
+          "sample": "F713.812-62"
+        },
+        {
+          "field": "chapter_map[0].section_name",
+          "sample": "F713.812-62"
+        }
+      ]
+    }
+  },
+  "site": {
+    "subtitle": "《爆款文案写作指南)》如何帮助创作者把内容从自我表达转成能被理解、信任和行动的传播…",
+    "description": "《爆款文案写作指南)》的 public_structured_nk 基础公开层配置。",
+    "heroOverline": "BOOK · THINKING MAP",
+    "heroTitleLines": [
+      "爆款文案写作指南)",
+      "《爆款文案写作指南)》如何帮助创作者把内容从自我表达转成能被理解、信任和行动的传播…"
+    ],
+    "searchPlaceholder": "搜索《爆款文案写作指南)》问题、概念、章节、方法、场景…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书摘要",
+      "全书结构"
+    ],
+    "quickLinks": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ],
+    "journeyTitle": "基础公开阅读路径",
+    "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景展开。",
+    "sectionOrder": [
+      "summary",
+      "questions",
+      "chapters",
+      "concepts",
+      "methods",
+      "scenarios",
+      "extensions"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/book-e04989128c/chapter-images/overview.svg",
+    "chapterImageMode": "overview",
+    "chapterImageOrder": [],
+    "topicImageMap": {},
+    "fallbackImage": "/books/book-e04989128c/chapter-images/overview.svg"
+  }
+}

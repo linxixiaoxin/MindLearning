@@ -1,0 +1,115 @@
+{
+  "title": "模型思维",
+  "shortTitle": "模型思维",
+  "subtitle": "复杂问题不要只用一个解释",
+  "description": "基于《模型思维》已通过质检的结构化资产，接入全书摘要、核心问题、核心概念、方法动作、场景案例、章节地图和表达延展节点。",
+  "heroOverline": "BOOK · MANY MODELS",
+  "heroTitleLines": [
+    "模型思维",
+    "复杂问题不要只用一个解释"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260430-full-nk",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+  "recommendedPath": [
+    "公开入口",
+    "为什么复杂现实不能只靠单一模型或常识解释？",
+    "Part 1：为什么需要模型思维",
+    "单一解释失灵",
+    "Part 5：模型工具箱与现实应用"
+  ],
+  "quickLinks": [
+    "全书摘要",
+    "全书结构",
+    "模型",
+    "多模型思维",
+    "先判断问题类型再选模型",
+    "单一解释失灵"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到章节推进，再接回主题、概念、方法和现实场景，形成一条可以来回穿梭的阅读路径。",
+  "journeyEntryLabel": "从公开入口进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "起点总览",
+      "node": "公开入口",
+      "image": "/books/model-thinking/chapter-images/overview.svg",
+      "summary": "先看清整本书的总问题和阅读入口。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "核心入口",
+      "node": "Part 1：为什么需要模型思维",
+      "image": "/books/model-thinking/chapter-images/overview.svg",
+      "summary": "进入「Part 1：为什么需要模型思维」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "推进节点",
+      "node": "Part 2：模型的7大用途",
+      "image": "/books/model-thinking/chapter-images/overview.svg",
+      "summary": "进入「Part 2：模型的7大用途」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "推进节点",
+      "node": "Part 3：多模型思维",
+      "image": "/books/model-thinking/chapter-images/overview.svg",
+      "summary": "进入「Part 3：多模型思维」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "推进节点",
+      "node": "Part 4：对人类行为者建模",
+      "image": "/books/model-thinking/chapter-images/overview.svg",
+      "summary": "进入「Part 4：对人类行为者建模」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "推进节点",
+      "node": "Part 5：模型工具箱与现实应用",
+      "image": "/books/model-thinking/chapter-images/overview.svg",
+      "summary": "进入「Part 5：模型工具箱与现实应用」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "11"
+    },
+    {
+      "label": "章节",
+      "value": "5"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "19"
+    },
+    {
+      "label": "场景",
+      "value": "20"
+    }
+  ],
+  "slug": "model-thinking",
+  "author": "斯科特·佩奇",
+  "primaryCategory": "认知决策与系统思考",
+  "secondaryCategory": "复杂系统与多模型判断",
+  "standardizedProfile": {
+    "basedOn": [
+      "mindset-traps",
+      "leadership-evolution"
+    ],
+    "updatedAt": "2026-04-30",
+    "version": "reference_profile_v1"
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "全书摘要": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "全书结构": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "这句话是在解决信息问题，还是关系问题？": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "对方为什么要听这句话？": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "当前场景最需要的是解释、说服、安抚、谈判还是动员？": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "这段表达有没有让听众产生具体画面、情绪和记忆点？": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "如果这是一场难说的谈话，真正不能回避的核心是什么？": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "逻辑链 1": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "逻辑链 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "逻辑链 3": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "逻辑链 4": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "逻辑链 5": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "话术": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "场景策略": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "说服语言": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "观众连接": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "棘手谈话": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "思想主线": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "话术 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "场景策略 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "说服语言 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "观众连接 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "棘手谈话 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "思想主线 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "四步场景判断": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "观点故事化": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "难说谈话准备": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "想表达观点但怕冒犯": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "演讲内容很多但听众记不住": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "说服别人时越讲道理越没用": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "真正会说话的人，不是反应快，而是先判断场景": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "为什么你越讲道理，对方越不想听": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "一场好演讲不是讲完，而是让听众发生变化": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "话术不是句子，是场景雷达": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "五册表达能力阶梯": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "高密度句 1": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "高密度句 2": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "高密度句 3": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "高密度句 4": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "高密度句 5": "/books/speechcraft-guide/chapter-images/overview.svg",
+    "高密度句 6": "/books/speechcraft-guide/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "这句话是在解决信息问题，还是关系问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "对方为什么要听这句话？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "当前场景最需要的是解释、说服、安抚、谈判还是动员？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "这段表达有没有让听众产生具体画面、情绪和记忆点？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "如果这是一场难说的谈话，真正不能回避的核心是什么？",
+      "type": "question",
+      "tagline": "核心问题 5"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "先识别表达场景"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "再判断对象和关系"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "再选择表达框架"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "再组织故事、证据和语言"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "最后把表达落到理解、选择或行动变化"
+    },
+    {
+      "id": "话术",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“话术”，用于把《话术精进指南（沟通达人养成必读）（全五册）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "场景策略",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“场景策略”，用于把《话术精进指南（沟通达人养成必读）（全五册）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "说服语言",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“说服语言”，用于把《话术精进指南（沟通达人养成必读）（全五册）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "观众连接",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“观众连接”，用于把《话术精进指南（沟通达人养成必读）（全五册）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "棘手谈话",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“棘手谈话”，用于把《话术精进指南（沟通达人养成必读）（全五册）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "思想主线",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“思想主线”，用于把《话术精进指南（沟通达人养成必读）（全五册）》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "话术 2",
+      "type": "concept",
+      "tagline": "在特定场景中组织语言以影响理解、关系、情绪或行动的方式。"
+    },
+    {
+      "id": "场景策略 2",
+      "type": "concept",
+      "tagline": "根据对象、关系、目标和限制选择表达方式。"
+    },
+    {
+      "id": "说服语言 2",
+      "type": "concept",
+      "tagline": "通过词语、框架、情绪和价值连接改变对方理解路径的语言。"
+    },
+    {
+      "id": "观众连接 2",
+      "type": "concept",
+      "tagline": "让听众感到内容与自己有关、值得继续听下去的关系机制。"
+    },
+    {
+      "id": "棘手谈话 2",
+      "type": "concept",
+      "tagline": "重要、敏感、容易引发防御或代价的谈话。"
+    },
+    {
+      "id": "思想主线 2",
+      "type": "concept",
+      "tagline": "支撑一次演讲从开头推进到结尾的核心观点线索。"
+    },
+    {
+      "id": "四步场景判断",
+      "type": "method",
+      "tagline": "在重要沟通、说服或公开表达前使用"
+    },
+    {
+      "id": "观点故事化",
+      "type": "method",
+      "tagline": "用于演讲、分享和内容创作"
+    },
+    {
+      "id": "难说谈话准备",
+      "type": "method",
+      "tagline": "用于批评、拒绝、道歉、谈判、冲突澄清"
+    },
+    {
+      "id": "想表达观点但怕冒犯",
+      "type": "scenario",
+      "tagline": "话术需要同时处理内容和关系"
+    },
+    {
+      "id": "演讲内容很多但听众记不住",
+      "type": "scenario",
+      "tagline": "公开表达需要思想主线和故事化结构"
+    },
+    {
+      "id": "说服别人时越讲道理越没用",
+      "type": "scenario",
+      "tagline": "说服语言要改变框架，而不只是增加信息"
+    },
+    {
+      "id": "真正会说话的人，不是反应快，而是先判断场景",
+      "type": "expression",
+      "tagline": "用户以为话术就是背句子"
+    },
+    {
+      "id": "为什么你越讲道理，对方越不想听",
+      "type": "expression",
+      "tagline": "表达者把说服误解成信息量堆叠"
+    },
+    {
+      "id": "一场好演讲不是讲完，而是让听众发生变化",
+      "type": "expression",
+      "tagline": "很多演讲有内容但没有主线"
+    },
+    {
+      "id": "话术不是句子，是场景雷达",
+      "type": "expression",
+      "tagline": "对象、关系、目标、风险四个维度决定一句话怎么说"
+    },
+    {
+      "id": "五册表达能力阶梯",
+      "type": "expression",
+      "tagline": "日常说话 -> 说服语言 -> 演讲表达 -> 棘手谈话 -> 思想传播"
+    },
+    {
+      "id": "高密度句 1",
+      "type": "expression",
+      "tagline": "话术不是万能句式，而是场景策略。"
+    },
+    {
+      "id": "高密度句 2",
+      "type": "expression",
+      "tagline": "表达的第一步不是开口，而是判断这是什么场景。"
+    },
+    {
+      "id": "高密度句 3",
+      "type": "expression",
+      "tagline": "说服不是让对方输，而是让对方换一种理解路径。"
+    },
+    {
+      "id": "高密度句 4",
+      "type": "expression",
+      "tagline": "演讲不是把内容说完，而是让听众带走一个想法。"
+    },
+    {
+      "id": "高密度句 5",
+      "type": "expression",
+      "tagline": "越重要的话，越不能只靠临场发挥。"
+    },
+    {
+      "id": "高密度句 6",
+      "type": "expression",
+      "tagline": "好的表达会同时处理内容、关系和行动。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这句话是在解决信息问题，还是关系问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "对方为什么要听这句话？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "当前场景最需要的是解释、说服、安抚、谈判还是动员？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这段表达有没有让听众产生具体画面、情绪和记忆点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如果这是一场难说的谈话，真正不能回避的核心是什么？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "话术",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景策略",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "说服语言",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "观众连接",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "棘手谈话",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "思想主线",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "话术 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景策略 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "说服语言 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "观众连接 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "棘手谈话 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "思想主线 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "四步场景判断",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "观点故事化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "难说谈话准备",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "想表达观点但怕冒犯",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "演讲内容很多但听众记不住",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "说服别人时越讲道理越没用",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "真正会说话的人，不是反应快，而是先判断场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么你越讲道理，对方越不想听",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "一场好演讲不是讲完，而是让听众发生变化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "话术不是句子，是场景雷达",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "五册表达能力阶梯",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 6",
+      "type": "relates"
+    },
+    {
+      "source": "话术 2",
+      "target": "场景策略 2",
+      "type": "relates"
+    },
+    {
+      "source": "想表达观点但怕冒犯",
+      "target": "场景策略 2",
+      "type": "relates"
+    },
+    {
+      "source": "想表达观点但怕冒犯",
+      "target": "棘手谈话 2",
+      "type": "relates"
+    },
+    {
+      "source": "演讲内容很多但听众记不住",
+      "target": "观众连接 2",
+      "type": "relates"
+    },
+    {
+      "source": "演讲内容很多但听众记不住",
+      "target": "思想主线 2",
+      "type": "relates"
+    },
+    {
+      "source": "说服别人时越讲道理越没用",
+      "target": "说服语言 2",
+      "type": "relates"
+    },
+    {
+      "source": "真正会说话的人，不是反应快，而是先判断场景",
+      "target": "话术 2",
+      "type": "relates"
+    },
+    {
+      "source": "真正会说话的人，不是反应快，而是先判断场景",
+      "target": "场景策略 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你越讲道理，对方越不想听",
+      "target": "说服语言 2",
+      "type": "relates"
+    },
+    {
+      "source": "一场好演讲不是讲完，而是让听众发生变化",
+      "target": "思想主线 2",
+      "type": "relates"
+    },
+    {
+      "source": "一场好演讲不是讲完，而是让听众发生变化",
+      "target": "观众连接 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→这句话是在解决信息问题，还是关系问题？": "问题入口",
+    "公开入口→对方为什么要听这句话？": "问题入口",
+    "公开入口→当前场景最需要的是解释、说服、安抚、谈判还是动员？": "问题入口",
+    "公开入口→这段表达有没有让听众产生具体画面、情绪和记忆点？": "问题入口",
+    "公开入口→如果这是一场难说的谈话，真正不能回避的核心是什么？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→话术": "章节推进",
+    "公开入口→场景策略": "章节推进",
+    "公开入口→说服语言": "章节推进",
+    "公开入口→观众连接": "章节推进",
+    "公开入口→棘手谈话": "章节推进",
+    "公开入口→思想主线": "章节推进",
+    "公开入口→话术 2": "概念支撑",
+    "公开入口→场景策略 2": "概念支撑",
+    "公开入口→说服语言 2": "概念支撑",
+    "公开入口→观众连接 2": "概念支撑",
+    "公开入口→棘手谈话 2": "概念支撑",
+    "公开入口→思想主线 2": "概念支撑",
+    "公开入口→四步场景判断": "行动方法",
+    "公开入口→观点故事化": "行动方法",
+    "公开入口→难说谈话准备": "行动方法",
+    "公开入口→想表达观点但怕冒犯": "场景入口",
+    "公开入口→演讲内容很多但听众记不住": "场景入口",
+    "公开入口→说服别人时越讲道理越没用": "场景入口",
+    "公开入口→真正会说话的人，不是反应快，而是先判断场景": "问题切入",
+    "公开入口→为什么你越讲道理，对方越不想听": "问题切入",
+    "公开入口→一场好演讲不是讲完，而是让听众发生变化": "问题切入",
+    "公开入口→话术不是句子，是场景雷达": "视觉表达",
+    "公开入口→五册表达能力阶梯": "视觉表达",
+    "公开入口→高密度句 1": "表达句",
+    "公开入口→高密度句 2": "表达句",
+    "公开入口→高密度句 3": "表达句",
+    "公开入口→高密度句 4": "表达句",
+    "公开入口→高密度句 5": "表达句",
+    "公开入口→高密度句 6": "表达句",
+    "话术 2→场景策略 2": "相关概念",
+    "想表达观点但怕冒犯→场景策略 2": "相关概念",
+    "想表达观点但怕冒犯→棘手谈话 2": "相关概念",
+    "演讲内容很多但听众记不住→观众连接 2": "相关概念",
+    "演讲内容很多但听众记不住→思想主线 2": "相关概念",
+    "说服别人时越讲道理越没用→说服语言 2": "相关概念",
+    "真正会说话的人，不是反应快，而是先判断场景→话术 2": "相关概念",
+    "真正会说话的人，不是反应快，而是先判断场景→场景策略 2": "相关概念",
+    "为什么你越讲道理，对方越不想听→说服语言 2": "相关概念",
+    "一场好演讲不是讲完，而是让听众发生变化→思想主线 2": "相关概念",
+    "一场好演讲不是讲完，而是让听众发生变化→观众连接 2": "相关概念"
+  }
+}

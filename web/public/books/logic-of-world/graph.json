@@ -1,0 +1,644 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/logic-of-world/chapter-images/overview.svg",
+    "全书摘要": "/books/logic-of-world/chapter-images/overview.svg",
+    "全书结构": "/books/logic-of-world/chapter-images/overview.svg",
+    "为什么资本总要寻找新的空间和新的生活领域？": "/books/logic-of-world/chapter-images/overview.svg",
+    "为什么城市化既能吸纳过剩资本，也会制造新的不平等？": "/books/logic-of-world/chapter-images/overview.svg",
+    "为什么金融和债务能延缓危机，又会放大危机？": "/books/logic-of-world/chapter-images/overview.svg",
+    "为什么个人生活压力常常是空间结构和制度安排的结果？": "/books/logic-of-world/chapter-images/overview.svg",
+    "世界的逻辑": "/books/logic-of-world/chapter-images/overview.svg",
+    "资本通过空间移动转移危机": "/books/logic-of-world/chapter-images/overview.svg",
+    "城市是资本积累的空间机器": "/books/logic-of-world/chapter-images/overview.svg",
+    "金融化把未来变成当下的交易对象": "/books/logic-of-world/chapter-images/overview.svg",
+    "空间不平等不是地理偶然": "/books/logic-of-world/chapter-images/overview.svg",
+    "城市权利是重新讨论生活的入口": "/books/logic-of-world/chapter-images/overview.svg",
+    "逻辑链 1": "/books/logic-of-world/chapter-images/overview.svg",
+    "逻辑链 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "逻辑链 3": "/books/logic-of-world/chapter-images/overview.svg",
+    "逻辑链 4": "/books/logic-of-world/chapter-images/overview.svg",
+    "逻辑链 5": "/books/logic-of-world/chapter-images/overview.svg",
+    "逻辑链 6": "/books/logic-of-world/chapter-images/overview.svg",
+    "历史地理唯物主义": "/books/logic-of-world/chapter-images/overview.svg",
+    "资本积累": "/books/logic-of-world/chapter-images/overview.svg",
+    "空间修复": "/books/logic-of-world/chapter-images/overview.svg",
+    "时空压缩": "/books/logic-of-world/chapter-images/overview.svg",
+    "城市化": "/books/logic-of-world/chapter-images/overview.svg",
+    "金融化": "/books/logic-of-world/chapter-images/overview.svg",
+    "历史地理唯物主义 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "资本积累 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "空间修复 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "时空压缩 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "城市化 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "金融化 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "债务": "/books/logic-of-world/chapter-images/overview.svg",
+    "掠夺式积累": "/books/logic-of-world/chapter-images/overview.svg",
+    "不平衡发展": "/books/logic-of-world/chapter-images/overview.svg",
+    "城市权利": "/books/logic-of-world/chapter-images/overview.svg",
+    "公共空间": "/books/logic-of-world/chapter-images/overview.svg",
+    "生态矛盾": "/books/logic-of-world/chapter-images/overview.svg",
+    "历史地理唯物主义 3": "/books/logic-of-world/chapter-images/overview.svg",
+    "资本积累 3": "/books/logic-of-world/chapter-images/overview.svg",
+    "空间修复 3": "/books/logic-of-world/chapter-images/overview.svg",
+    "时空压缩 3": "/books/logic-of-world/chapter-images/overview.svg",
+    "掠夺式积累 2": "/books/logic-of-world/chapter-images/overview.svg",
+    "城市权利 2": "/books/logic-of-world/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "为什么资本总要寻找新的空间和新的生活领域？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "为什么城市化既能吸纳过剩资本，也会制造新的不平等？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "为什么金融和债务能延缓危机，又会放大危机？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "为什么个人生活压力常常是空间结构和制度安排的结果？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "世界的逻辑",
+      "type": "question",
+      "tagline": "现代世界的许多生活压力，不是个人选择的孤立结果，而是资本、空间和制度共同塑造的结果。"
+    },
+    {
+      "id": "资本通过空间移动转移危机",
+      "type": "question",
+      "tagline": "当既有场域难以继续增值，资本会转向城市、基础设施和全球扩张。"
+    },
+    {
+      "id": "城市是资本积累的空间机器",
+      "type": "question",
+      "tagline": "城市化既创造生活便利，也吸纳过剩资本并重排阶层关系。"
+    },
+    {
+      "id": "金融化把未来变成当下的交易对象",
+      "type": "question",
+      "tagline": "债务和资产价格让未来收益提前进入今天的资本循环。"
+    },
+    {
+      "id": "空间不平等不是地理偶然",
+      "type": "question",
+      "tagline": "中心和边缘、繁荣和衰败常常是同一套积累逻辑的两面。"
+    },
+    {
+      "id": "城市权利是重新讨论生活的入口",
+      "type": "question",
+      "tagline": "谁能决定城市如何建设，谁就影响了生活机会如何分配。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "资本积累需要不断扩张。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "扩张遇到瓶颈时，会通过城市、基础设施、房地产和全球化寻找新出口。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "空间修复能暂时吸纳过剩资本，却会把危机转移到新的地区、阶层和未来时间。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "金融化把未来收入提前打包，制造繁荣感，也积累脆弱性。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "掠夺式积累通过土地、资源、公共服务和债务重新分配财富。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "城市权利和生态边界成为理解现代世界矛盾的重要入口。"
+    },
+    {
+      "id": "历史地理唯物主义",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“历史地理唯物主义”，用于把《世界的逻辑：如何让我们生活的世界更理性、更可控》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "资本积累",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“资本积累”，用于把《世界的逻辑：如何让我们生活的世界更理性、更可控》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "空间修复",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“空间修复”，用于把《世界的逻辑：如何让我们生活的世界更理性、更可控》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "时空压缩",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“时空压缩”，用于把《世界的逻辑：如何让我们生活的世界更理性、更可控》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "城市化",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“城市化”，用于把《世界的逻辑：如何让我们生活的世界更理性、更可控》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "金融化",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“金融化”，用于把《世界的逻辑：如何让我们生活的世界更理性、更可控》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "历史地理唯物主义 2",
+      "type": "concept",
+      "tagline": "理论视角"
+    },
+    {
+      "id": "资本积累 2",
+      "type": "concept",
+      "tagline": "机制概念"
+    },
+    {
+      "id": "空间修复 2",
+      "type": "concept",
+      "tagline": "机制概念"
+    },
+    {
+      "id": "时空压缩 2",
+      "type": "concept",
+      "tagline": "经验概念"
+    },
+    {
+      "id": "城市化 2",
+      "type": "concept",
+      "tagline": "空间机制"
+    },
+    {
+      "id": "金融化 2",
+      "type": "concept",
+      "tagline": "制度机制"
+    },
+    {
+      "id": "债务",
+      "type": "concept",
+      "tagline": "时间机制"
+    },
+    {
+      "id": "掠夺式积累",
+      "type": "concept",
+      "tagline": "权力概念"
+    },
+    {
+      "id": "不平衡发展",
+      "type": "concept",
+      "tagline": "空间结果"
+    },
+    {
+      "id": "城市权利",
+      "type": "concept",
+      "tagline": "政治概念"
+    },
+    {
+      "id": "公共空间",
+      "type": "concept",
+      "tagline": "城市场景"
+    },
+    {
+      "id": "生态矛盾",
+      "type": "concept",
+      "tagline": "边界概念"
+    },
+    {
+      "id": "历史地理唯物主义 3",
+      "type": "concept",
+      "tagline": "把历史过程、空间安排和物质生产关系放在一起分析。"
+    },
+    {
+      "id": "资本积累 3",
+      "type": "concept",
+      "tagline": "资本为了维持增值而不断寻找新市场、新空间和新投资对象。"
+    },
+    {
+      "id": "空间修复 3",
+      "type": "concept",
+      "tagline": "通过城市建设、基础设施和地理扩张暂时吸纳危机。"
+    },
+    {
+      "id": "时空压缩 3",
+      "type": "concept",
+      "tagline": "交通、通信和金融速度提升后，人对距离和时间的感受被改变。"
+    },
+    {
+      "id": "掠夺式积累 2",
+      "type": "concept",
+      "tagline": "通过土地、资源、公共品、债务和制度安排重新占有价值。"
+    },
+    {
+      "id": "城市权利 2",
+      "type": "concept",
+      "tagline": "人们不仅使用城市，也应参与决定城市如何被生产和分配。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么资本总要寻找新的空间和新的生活领域？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么城市化既能吸纳过剩资本，也会制造新的不平等？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么金融和债务能延缓危机，又会放大危机？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么个人生活压力常常是空间结构和制度安排的结果？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "世界的逻辑",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "资本通过空间移动转移危机",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "城市是资本积累的空间机器",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "金融化把未来变成当下的交易对象",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间不平等不是地理偶然",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "城市权利是重新讨论生活的入口",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "历史地理唯物主义",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "资本积累",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间修复",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "时空压缩",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "城市化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "金融化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "历史地理唯物主义 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "资本积累 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间修复 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "时空压缩 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "城市化 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "金融化 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "债务",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "掠夺式积累",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "不平衡发展",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "城市权利",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "公共空间",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "生态矛盾",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "历史地理唯物主义 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "资本积累 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "空间修复 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "时空压缩 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "掠夺式积累 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "城市权利 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→为什么资本总要寻找新的空间和新的生活领域？": "问题入口",
+    "公开入口→为什么城市化既能吸纳过剩资本，也会制造新的不平等？": "问题入口",
+    "公开入口→为什么金融和债务能延缓危机，又会放大危机？": "问题入口",
+    "公开入口→为什么个人生活压力常常是空间结构和制度安排的结果？": "问题入口",
+    "公开入口→世界的逻辑": "K 卡",
+    "公开入口→资本通过空间移动转移危机": "K 卡",
+    "公开入口→城市是资本积累的空间机器": "K 卡",
+    "公开入口→金融化把未来变成当下的交易对象": "K 卡",
+    "公开入口→空间不平等不是地理偶然": "K 卡",
+    "公开入口→城市权利是重新讨论生活的入口": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→历史地理唯物主义": "章节推进",
+    "公开入口→资本积累": "章节推进",
+    "公开入口→空间修复": "章节推进",
+    "公开入口→时空压缩": "章节推进",
+    "公开入口→城市化": "章节推进",
+    "公开入口→金融化": "章节推进",
+    "公开入口→历史地理唯物主义 2": "N 卡",
+    "公开入口→资本积累 2": "N 卡",
+    "公开入口→空间修复 2": "N 卡",
+    "公开入口→时空压缩 2": "N 卡",
+    "公开入口→城市化 2": "N 卡",
+    "公开入口→金融化 2": "N 卡",
+    "公开入口→债务": "N 卡",
+    "公开入口→掠夺式积累": "N 卡",
+    "公开入口→不平衡发展": "N 卡",
+    "公开入口→城市权利": "N 卡",
+    "公开入口→公共空间": "N 卡",
+    "公开入口→生态矛盾": "N 卡",
+    "公开入口→历史地理唯物主义 3": "概念支撑",
+    "公开入口→资本积累 3": "概念支撑",
+    "公开入口→空间修复 3": "概念支撑",
+    "公开入口→时空压缩 3": "概念支撑",
+    "公开入口→掠夺式积累 2": "概念支撑",
+    "公开入口→城市权利 2": "概念支撑"
+  }
+}

@@ -3,7 +3,7 @@
     <div class="assessment-scroll">
       <section class="assessment-head">
         <div>
-          <div class="tool-kicker">PRODUCT EXPERIMENT · LEADERSHIP DEVELOPMENT</div>
+          <div class="tool-kicker">复杂领导场景里的成长边际</div>
           <h1>领导者心智评估</h1>
           <p>
             从一个真实领导场景出发，观察你现在承载冲突、不确定性、反馈、带人和工作设计的方式。结果不做高低评判，只给出当前倾向、成长边际和可练习的方法。

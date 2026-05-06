@@ -1,0 +1,722 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "全书摘要": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "全书结构": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "身体、刑罚、规训、监狱与全景敞视在这本书中为什么会成为问题？": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "作者如何组织“公开酷刑 - 惩罚改革 - 驯顺身体 - 规训技术 - 全景敞视 - 监狱社会”这条分析链？": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "哪些内容只能作为后台判断，哪些可以进入前台表达？": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "这本书最容易被误用成什么？": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "逻辑链 5": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "逻辑链 6": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "驯顺的肉体": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "全景敞视": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "规训技术": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "驯顺的肉体 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "全景敞视 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "规训技术 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "这本书不以显性步骤为主": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "学校、工厂、军队和监狱的时间表": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "学校、工厂、军队和监狱的时间表 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "把规训理解成有人故意控制我": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "把这本书改写成反自律": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "读《规训与惩罚》最容易误会的一点": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "《规训与惩罚》适合做后台判断，不适合直接鸡汤化": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "谱系权力 话语制度型提取链": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "身体、刑罚、规训、监狱与全景敞视误用边界图": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "把规训理解成有人故意控制我 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "把这本书改写成反自律 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "谱系权力 话语制度型": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 1": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 2": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 3": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 4": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 5": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 6": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 7": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 8": "/books/book-286dd0c3ce/chapter-images/overview.svg",
+    "高密度句 9": "/books/book-286dd0c3ce/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "身体、刑罚、规训、监狱与全景敞视在这本书中为什么会成为问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "作者如何组织“公开酷刑 - 惩罚改革 - 驯顺身体 - 规训技术 - 全景敞视 - 监狱社会”这条分析链？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "这本书最容易被误用成什么？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "先识别这本书的主要分析对象：身体、刑罚、规训、监狱与全景敞视。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "再按“公开酷刑 -> 惩罚改革 -> 驯顺身体 -> 规训技术 -> 全景敞视 -> 监狱社会”保留作者推进链。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "章节地图先保留结构位置，不把局部观点抽成孤立金句。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "K/N 卡优先产出概念、机制、场景、证据、问题和反模式。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "前台表达必须降低术语密度，但不能删除原书分析对象。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "后台判断用于校正账号内容，防止把结构问题误判成个人问题。"
+    },
+    {
+      "id": "驯顺的肉体",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“驯顺的肉体”，用于把《规训与惩罚》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "全景敞视",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“全景敞视”，用于把《规训与惩罚》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "规训技术",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“规训技术”，用于把《规训与惩罚》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "驯顺的肉体 2",
+      "type": "concept",
+      "tagline": "被训练得有用、服从且可管理的身体。"
+    },
+    {
+      "id": "全景敞视 2",
+      "type": "concept",
+      "tagline": "让人因可能被看见而自我监控的可见性装置。"
+    },
+    {
+      "id": "规训技术 2",
+      "type": "concept",
+      "tagline": "通过空间分配、时间表、检查和等级化来塑造人的技术。"
+    },
+    {
+      "id": "这本书不以显性步骤为主",
+      "type": "method",
+      "tagline": "用于理论母书入库、K/N 卡拆分、主题链策划和真实场景复盘前的判断。"
+    },
+    {
+      "id": "学校、工厂、军队和监狱的时间表",
+      "type": "scenario",
+      "tagline": "规训通过空间和时间组织身体。"
+    },
+    {
+      "id": "学校、工厂、军队和监狱的时间表 2",
+      "type": "case",
+      "tagline": "规训通过空间和时间组织身体。"
+    },
+    {
+      "id": "把规训理解成有人故意控制我",
+      "type": "case",
+      "tagline": "权力容易被人格化。"
+    },
+    {
+      "id": "把这本书改写成反自律",
+      "type": "case",
+      "tagline": "驯顺身体容易被拿来对抗所有训练。"
+    },
+    {
+      "id": "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题",
+      "type": "expression",
+      "tagline": "把结构性压力误读成个人失败。"
+    },
+    {
+      "id": "读《规训与惩罚》最容易误会的一点",
+      "type": "expression",
+      "tagline": "想把复杂理论立刻改成行动建议。"
+    },
+    {
+      "id": "《规训与惩罚》适合做后台判断，不适合直接鸡汤化",
+      "type": "expression",
+      "tagline": "理论很有冲击力，但前台表达容易变空。"
+    },
+    {
+      "id": "谱系权力 话语制度型提取链",
+      "type": "expression",
+      "tagline": "用一条链路画出《规训与惩罚》如何推进身体、刑罚、规训、监狱与全景敞视。"
+    },
+    {
+      "id": "身体、刑罚、规训、监狱与全景敞视误用边界图",
+      "type": "expression",
+      "tagline": "左侧保留原书对象，右侧列出心理化、方法化、金句化等误用。"
+    },
+    {
+      "id": "把规训理解成有人故意控制我 2",
+      "type": "warning",
+      "tagline": "福柯关心的是权力技术如何分布在制度和空间中。"
+    },
+    {
+      "id": "把这本书改写成反自律 2",
+      "type": "warning",
+      "tagline": "重点是识别训练如何生产服从和有用性。"
+    },
+    {
+      "id": "谱系权力 话语制度型",
+      "type": "relation",
+      "tagline": "可与同类谱系权力 / 话语制度型书籍建立跨书索引。"
+    },
+    {
+      "id": "高密度句 1",
+      "type": "expression",
+      "tagline": "《规训与惩罚》不是反控制鸡汤，而是说明现代权力如何从惩罚肉体转向训练身体、组织时间、空间和可见性。"
+    },
+    {
+      "id": "高密度句 2",
+      "type": "expression",
+      "tagline": "谱系权力 / 话语制度型"
+    },
+    {
+      "id": "高密度句 3",
+      "type": "expression",
+      "tagline": "身体、刑罚、规训、监狱与全景敞视"
+    },
+    {
+      "id": "高密度句 4",
+      "type": "expression",
+      "tagline": "公开酷刑 -> 惩罚改革 -> 驯顺身体 -> 规训技术 -> 全景敞视 -> 监狱社会"
+    },
+    {
+      "id": "高密度句 5",
+      "type": "expression",
+      "tagline": "前台可谈被看见、被打分、被训练，但不做简单反管理口号。"
+    },
+    {
+      "id": "高密度句 6",
+      "type": "expression",
+      "tagline": "后台用于识别组织、平台和内容系统中的规训机制。"
+    },
+    {
+      "id": "高密度句 7",
+      "type": "expression",
+      "tagline": "驯顺的肉体"
+    },
+    {
+      "id": "高密度句 8",
+      "type": "expression",
+      "tagline": "全景敞视"
+    },
+    {
+      "id": "高密度句 9",
+      "type": "expression",
+      "tagline": "规训技术"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "身体、刑罚、规训、监狱与全景敞视在这本书中为什么会成为问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者如何组织“公开酷刑 - 惩罚改革 - 驯顺身体 - 规训技术 - 全景敞视 - 监狱社会”这条分析链？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "哪些内容只能作为后台判断，哪些可以进入前台表达？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书最容易被误用成什么？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "驯顺的肉体",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全景敞视",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "规训技术",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "驯顺的肉体 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全景敞视 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "规训技术 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书不以显性步骤为主",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "学校、工厂、军队和监狱的时间表",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "学校、工厂、军队和监狱的时间表 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把规训理解成有人故意控制我",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把这本书改写成反自律",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读《规训与惩罚》最容易误会的一点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《规训与惩罚》适合做后台判断，不适合直接鸡汤化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "谱系权力 话语制度型提取链",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "身体、刑罚、规训、监狱与全景敞视误用边界图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把规训理解成有人故意控制我 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把这本书改写成反自律 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "谱系权力 话语制度型",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 7",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 8",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 9",
+      "type": "relates"
+    },
+    {
+      "source": "学校、工厂、军队和监狱的时间表 2",
+      "target": "规训技术 2",
+      "type": "relates"
+    },
+    {
+      "source": "学校、工厂、军队和监狱的时间表 2",
+      "target": "驯顺的肉体 2",
+      "type": "relates"
+    },
+    {
+      "source": "把规训理解成有人故意控制我 2",
+      "target": "驯顺的肉体 2",
+      "type": "relates"
+    },
+    {
+      "source": "把规训理解成有人故意控制我 2",
+      "target": "全景敞视 2",
+      "type": "relates"
+    },
+    {
+      "source": "把规训理解成有人故意控制我 2",
+      "target": "规训技术 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书改写成反自律",
+      "target": "驯顺的肉体 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书改写成反自律",
+      "target": "全景敞视 2",
+      "type": "relates"
+    },
+    {
+      "source": "把这本书改写成反自律",
+      "target": "规训技术 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题",
+      "target": "驯顺的肉体 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题",
+      "target": "全景敞视 2",
+      "type": "relates"
+    },
+    {
+      "source": "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题",
+      "target": "规训技术 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《规训与惩罚》最容易误会的一点",
+      "target": "驯顺的肉体 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《规训与惩罚》最容易误会的一点",
+      "target": "全景敞视 2",
+      "type": "relates"
+    },
+    {
+      "source": "读《规训与惩罚》最容易误会的一点",
+      "target": "规训技术 2",
+      "type": "relates"
+    },
+    {
+      "source": "《规训与惩罚》适合做后台判断，不适合直接鸡汤化",
+      "target": "驯顺的肉体 2",
+      "type": "relates"
+    },
+    {
+      "source": "《规训与惩罚》适合做后台判断，不适合直接鸡汤化",
+      "target": "全景敞视 2",
+      "type": "relates"
+    },
+    {
+      "source": "《规训与惩罚》适合做后台判断，不适合直接鸡汤化",
+      "target": "规训技术 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→身体、刑罚、规训、监狱与全景敞视在这本书中为什么会成为问题？": "问题入口",
+    "公开入口→作者如何组织“公开酷刑 - 惩罚改革 - 驯顺身体 - 规训技术 - 全景敞视 - 监狱社会”这条分析链？": "问题入口",
+    "公开入口→哪些内容只能作为后台判断，哪些可以进入前台表达？": "问题入口",
+    "公开入口→这本书最容易被误用成什么？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→驯顺的肉体": "章节推进",
+    "公开入口→全景敞视": "章节推进",
+    "公开入口→规训技术": "章节推进",
+    "公开入口→驯顺的肉体 2": "概念支撑",
+    "公开入口→全景敞视 2": "概念支撑",
+    "公开入口→规训技术 2": "概念支撑",
+    "公开入口→这本书不以显性步骤为主": "行动方法",
+    "公开入口→学校、工厂、军队和监狱的时间表": "场景入口",
+    "公开入口→学校、工厂、军队和监狱的时间表 2": "案例证据",
+    "公开入口→把规训理解成有人故意控制我": "案例证据",
+    "公开入口→把这本书改写成反自律": "案例证据",
+    "公开入口→为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题": "问题切入",
+    "公开入口→读《规训与惩罚》最容易误会的一点": "问题切入",
+    "公开入口→《规训与惩罚》适合做后台判断，不适合直接鸡汤化": "问题切入",
+    "公开入口→谱系权力 话语制度型提取链": "视觉表达",
+    "公开入口→身体、刑罚、规训、监狱与全景敞视误用边界图": "视觉表达",
+    "公开入口→把规训理解成有人故意控制我 2": "避免误读",
+    "公开入口→把这本书改写成反自律 2": "避免误读",
+    "公开入口→谱系权力 话语制度型": "跨书连接",
+    "公开入口→高密度句 1": "表达句",
+    "公开入口→高密度句 2": "表达句",
+    "公开入口→高密度句 3": "表达句",
+    "公开入口→高密度句 4": "表达句",
+    "公开入口→高密度句 5": "表达句",
+    "公开入口→高密度句 6": "表达句",
+    "公开入口→高密度句 7": "表达句",
+    "公开入口→高密度句 8": "表达句",
+    "公开入口→高密度句 9": "表达句",
+    "学校、工厂、军队和监狱的时间表 2→规训技术 2": "相关概念",
+    "学校、工厂、军队和监狱的时间表 2→驯顺的肉体 2": "相关概念",
+    "把规训理解成有人故意控制我 2→驯顺的肉体 2": "相关概念",
+    "把规训理解成有人故意控制我 2→全景敞视 2": "相关概念",
+    "把规训理解成有人故意控制我 2→规训技术 2": "相关概念",
+    "把这本书改写成反自律→驯顺的肉体 2": "相关概念",
+    "把这本书改写成反自律→全景敞视 2": "相关概念",
+    "把这本书改写成反自律→规训技术 2": "相关概念",
+    "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题→驯顺的肉体 2": "相关概念",
+    "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题→全景敞视 2": "相关概念",
+    "为什么身体、刑罚、规训、监狱与全景敞视不能只当成个人问题→规训技术 2": "相关概念",
+    "读《规训与惩罚》最容易误会的一点→驯顺的肉体 2": "相关概念",
+    "读《规训与惩罚》最容易误会的一点→全景敞视 2": "相关概念",
+    "读《规训与惩罚》最容易误会的一点→规训技术 2": "相关概念",
+    "《规训与惩罚》适合做后台判断，不适合直接鸡汤化→驯顺的肉体 2": "相关概念",
+    "《规训与惩罚》适合做后台判断，不适合直接鸡汤化→全景敞视 2": "相关概念",
+    "《规训与惩罚》适合做后台判断，不适合直接鸡汤化→规训技术 2": "相关概念"
+  }
+}

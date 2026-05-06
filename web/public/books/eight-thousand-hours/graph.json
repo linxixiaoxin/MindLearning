@@ -1,0 +1,1076 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "全书摘要": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "全书结构": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "逻辑链 1": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "逻辑链 2": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "逻辑链 3": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识 2": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制 2": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景 2": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用问题意识检查问题意识": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用关键机制检查关键机制": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用现实场景检查现实场景": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用问题意识在全书中解决什么问题？检查问题意识": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用关键机制在全书中解决什么问题？检查关键机制": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用现实场景在全书中解决什么问题？检查现实场景": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识：去寻找另一个自己 去过从未看见和理解的生活。": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识原文线索": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制原文线索": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景原文线索": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？原文线索": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？原文线索": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？原文线索": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制：这一段到底在解决什么问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？：这一段到底在解决什么问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景：这一段到底在解决什么问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？：这一段到底在解决什么问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识：这一段到底在解决什么问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "全书主动作": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用「关键机制」处理关键问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用「问题意识」处理关键问题": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用关键机制检查关键机制 2": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "用现实场景检查现实场景 2": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "《你一年的8760小时：升级版》全书总图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识章节图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制章节图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景章节图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？章节图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？章节图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？章节图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点选题图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图": "/books/eight-thousand-hours/chapter-images/overview.svg",
+    "关键机制：这一段到底在解决什么问题选题图": "/books/eight-thousand-hours/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "1. 问题意识"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "2. 关键机制"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "3. 现实场景"
+    },
+    {
+      "id": "问题意识",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“问题意识”，用于把《你一年的8760小时：升级版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "关键机制",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“关键机制”，用于把《你一年的8760小时：升级版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "现实场景",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“现实场景”，用于把《你一年的8760小时：升级版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "问题意识 2",
+      "type": "concept",
+      "tagline": "来自章节「问题意识」的关键判断。"
+    },
+    {
+      "id": "关键机制 2",
+      "type": "concept",
+      "tagline": "来自章节「关键机制」的关键判断。"
+    },
+    {
+      "id": "现实场景 2",
+      "type": "concept",
+      "tagline": "来自章节「现实场景」的关键判断。"
+    },
+    {
+      "id": "用问题意识检查问题意识",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少问题意识的原文场景时使用。"
+    },
+    {
+      "id": "用关键机制检查关键机制",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景检查现实场景",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景的原文场景时使用。"
+    },
+    {
+      "id": "用问题意识在全书中解决什么问题？检查问题意识",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少问题意识在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "用关键机制在全书中解决什么问题？检查关键机制",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景在全书中解决什么问题？检查现实场景",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "问题意识：去寻找另一个自己 去过从未看见和理解的生活。",
+      "type": "scenario",
+      "tagline": "问题意识把问题意识放到这类处境里观察：无论你的出身、起点、天赋如何,只要努力就能跳出绝美的舞步,只要努力,就能找到远方。"
+    },
+    {
+      "id": "关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没",
+      "type": "scenario",
+      "tagline": "关键机制把关键机制放到这类处境里观察：那么多年轻的灵魂在迷茫中徘徊,不就是因为没有找到自己的方向吗?解决任何问题,都应该站在一个更高的台阶上。"
+    },
+    {
+      "id": "现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之",
+      "type": "scenario",
+      "tagline": "现实场景把现实场景放到这类处境里观察：对第一个问题,罗振宇表明自己是超级自由主义者,现场来多少人,无所谓。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。",
+      "type": "scenario",
+      "tagline": "问题意识在全书中解决什么问题？把问题意识放到这类处境里观察：重要是因为对你的身体健康有益,紧急是因为已经很困撑不住了。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带",
+      "type": "scenario",
+      "tagline": "关键机制在全书中解决什么问题？把关键机制放到这类处境里观察：于是有那么多诉说孤独的文章,又有那么多叫人不要害怕孤独的文章。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。",
+      "type": "scenario",
+      "tagline": "现实场景在全书中解决什么问题？把现实场景放到这类处境里观察：比赛开始,五星巴西上半场就被日耳曼战车碾压出5个大窟窿,下半场德国人毫不留情又撒了两勺盐。"
+    },
+    {
+      "id": "问题意识原文线索",
+      "type": "case",
+      "tagline": "去寻找另一个自己,去过从未看见和理解的生活。"
+    },
+    {
+      "id": "关键机制原文线索",
+      "type": "case",
+      "tagline": "是其所是,那些无足轻重的人,那些听任自己变得无足轻重的人,在这个世界上没有位置。"
+    },
+    {
+      "id": "现实场景原文线索",
+      "type": "case",
+      "tagline": "讨厌的那种东西?”这三个问题,可能是当时现场最复杂的三个问题,这也是我之后获得机会和罗振宇以及他的团队结缘并有所交流的原因。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "比如睡觉,晚上11点非常困,这时候睡觉是重要又紧急的事。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "自己的笑与泪,又有什么意义呢?这似乎是一个过于追求独立的时代,过于独立带来的或许有成功,但也还有一个叫作孤独的副产品。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "2014年世界杯半决赛上,巴西对阵德国。"
+    },
+    {
+      "id": "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点",
+      "type": "expression",
+      "tagline": "如何理解《你一年的8760小时：升级版》的章节主线"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "关键机制：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "现实场景：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景」推进全书。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "问题意识：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "全书主动作",
+      "type": "expression",
+      "tagline": "问题意识在全书中解决什么问题？"
+    },
+    {
+      "id": "用「关键机制」处理关键问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "用「问题意识」处理关键问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "用关键机制检查关键机制 2",
+      "type": "expression",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景检查现实场景 2",
+      "type": "expression",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景的原文场景时使用。"
+    },
+    {
+      "id": "《你一年的8760小时：升级版》全书总图",
+      "type": "expression",
+      "tagline": "把「问题意识在全书中解决什么问题？」画成一张能继续翻页的总图。"
+    },
+    {
+      "id": "问题意识章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "关键机制章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "现实场景章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景」推进全书。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点选题图",
+      "type": "expression",
+      "tagline": "读者容易把「如何理解《你一年的8760小时：升级版》的章节主线」当成表面问题，但这本书真正要处理的是「问题意识」与「关键机制」之间的结构关系。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「关键机制在全书中解决什么问题？」推进全书。」，但这一段真正想带读者回到「关键机制在全书中解决什么问题？」中的「关键机制」。"
+    },
+    {
+      "id": "关键机制：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「关键机制」推进全书。」，但这一段真正想带读者回到「关键机制」中的「关键机制」。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用问题意识检查问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制检查关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景检查现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用问题意识在全书中解决什么问题？检查问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制在全书中解决什么问题？检查关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景在全书中解决什么问题？检查现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识：去寻找另一个自己 去过从未看见和理解的生活。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书主动作",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「关键机制」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「问题意识」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制检查关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景检查现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《你一年的8760小时：升级版》全书总图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：去寻找另一个自己 去过从未看见和理解的生活。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：去寻找另一个自己 去过从未看见和理解的生活。",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：这一段到底在解决什么问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：这一段到底在解决什么问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：这一段到底在解决什么问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用关键机制检查关键机制 2",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用关键机制检查关键机制 2",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用关键机制检查关键机制 2",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用现实场景检查现实场景 2",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用现实场景检查现实场景 2",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用现实场景检查现实场景 2",
+      "target": "现实场景 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→问题意识在全书中解决什么问题？": "问题入口",
+    "公开入口→关键机制在全书中解决什么问题？": "问题入口",
+    "公开入口→现实场景在全书中解决什么问题？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→问题意识": "章节推进",
+    "公开入口→关键机制": "章节推进",
+    "公开入口→现实场景": "章节推进",
+    "公开入口→问题意识 2": "概念支撑",
+    "公开入口→关键机制 2": "概念支撑",
+    "公开入口→现实场景 2": "概念支撑",
+    "公开入口→用问题意识检查问题意识": "行动方法",
+    "公开入口→用关键机制检查关键机制": "行动方法",
+    "公开入口→用现实场景检查现实场景": "行动方法",
+    "公开入口→用问题意识在全书中解决什么问题？检查问题意识": "行动方法",
+    "公开入口→用关键机制在全书中解决什么问题？检查关键机制": "行动方法",
+    "公开入口→用现实场景在全书中解决什么问题？检查现实场景": "行动方法",
+    "公开入口→问题意识：去寻找另一个自己 去过从未看见和理解的生活。": "场景入口",
+    "公开入口→关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没": "场景入口",
+    "公开入口→现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之": "场景入口",
+    "公开入口→问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。": "场景入口",
+    "公开入口→关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带": "场景入口",
+    "公开入口→现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。": "场景入口",
+    "公开入口→问题意识原文线索": "案例证据",
+    "公开入口→关键机制原文线索": "案例证据",
+    "公开入口→现实场景原文线索": "案例证据",
+    "公开入口→问题意识在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→关键机制在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→现实场景在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点": "问题切入",
+    "公开入口→关键机制在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→关键机制：这一段到底在解决什么问题": "问题切入",
+    "公开入口→现实场景在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→现实场景：这一段到底在解决什么问题": "问题切入",
+    "公开入口→问题意识在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→问题意识：这一段到底在解决什么问题": "问题切入",
+    "公开入口→全书主动作": "问题切入",
+    "公开入口→用「关键机制」处理关键问题": "问题切入",
+    "公开入口→用「问题意识」处理关键问题": "问题切入",
+    "公开入口→用关键机制检查关键机制 2": "问题切入",
+    "公开入口→用现实场景检查现实场景 2": "问题切入",
+    "公开入口→《你一年的8760小时：升级版》全书总图": "视觉表达",
+    "公开入口→问题意识章节图": "视觉表达",
+    "公开入口→关键机制章节图": "视觉表达",
+    "公开入口→现实场景章节图": "视觉表达",
+    "公开入口→问题意识在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→关键机制在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→现实场景在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点选题图": "视觉表达",
+    "公开入口→关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图": "视觉表达",
+    "公开入口→关键机制：这一段到底在解决什么问题选题图": "视觉表达",
+    "问题意识：去寻找另一个自己 去过从未看见和理解的生活。→问题意识 2": "相关概念",
+    "问题意识：去寻找另一个自己 去过从未看见和理解的生活。→关键机制 2": "相关概念",
+    "关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没→关键机制 2": "相关概念",
+    "关键机制：是其所是 那些无足轻重的人 那些听任自己变得无足轻重的人 在这个世界上没→现实场景 2": "相关概念",
+    "现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之→现实场景 2": "相关概念",
+    "现实场景：讨厌的那种东西 ”这三个问题 可能是当时现场最复杂的三个问题 这也是我之→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？：比如睡觉 晚上11点非常困 这时候睡觉是重要又紧急的事。→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？：自己的笑与泪 又有什么意义呢 这似乎是一个过于追求独立的时代 过于独立带→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？：2014年世界杯半决赛上 巴西对阵德国。→问题意识 2": "相关概念",
+    "问题意识原文线索→问题意识 2": "相关概念",
+    "问题意识原文线索→关键机制 2": "相关概念",
+    "关键机制原文线索→关键机制 2": "相关概念",
+    "关键机制原文线索→现实场景 2": "相关概念",
+    "现实场景原文线索→现实场景 2": "相关概念",
+    "现实场景原文线索→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？原文线索→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？原文线索→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？原文线索→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？原文线索→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？原文线索→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？原文线索→问题意识 2": "相关概念",
+    "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点→问题意识 2": "相关概念",
+    "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点→关键机制 2": "相关概念",
+    "《你一年的8760小时：升级版》全书骨架：从起点问题到最终落点→现实场景 2": "相关概念",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题→关键机制 2": "相关概念",
+    "关键机制：这一段到底在解决什么问题→关键机制 2": "相关概念",
+    "现实场景在全书中解决什么问题？：这一段到底在解决什么问题→现实场景 2": "相关概念",
+    "现实场景：这一段到底在解决什么问题→现实场景 2": "相关概念",
+    "问题意识在全书中解决什么问题？：这一段到底在解决什么问题→问题意识 2": "相关概念",
+    "问题意识：这一段到底在解决什么问题→问题意识 2": "相关概念",
+    "全书主动作→问题意识 2": "相关概念",
+    "全书主动作→关键机制 2": "相关概念",
+    "全书主动作→现实场景 2": "相关概念",
+    "用「关键机制」处理关键问题→问题意识 2": "相关概念",
+    "用「关键机制」处理关键问题→关键机制 2": "相关概念",
+    "用「关键机制」处理关键问题→现实场景 2": "相关概念",
+    "用「问题意识」处理关键问题→问题意识 2": "相关概念",
+    "用「问题意识」处理关键问题→关键机制 2": "相关概念",
+    "用「问题意识」处理关键问题→现实场景 2": "相关概念",
+    "用关键机制检查关键机制 2→问题意识 2": "相关概念",
+    "用关键机制检查关键机制 2→关键机制 2": "相关概念",
+    "用关键机制检查关键机制 2→现实场景 2": "相关概念",
+    "用现实场景检查现实场景 2→问题意识 2": "相关概念",
+    "用现实场景检查现实场景 2→关键机制 2": "相关概念",
+    "用现实场景检查现实场景 2→现实场景 2": "相关概念"
+  }
+}

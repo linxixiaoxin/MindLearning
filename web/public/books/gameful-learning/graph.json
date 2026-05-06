@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/gameful-learning/chapter-images/overview.svg",
+    "全书摘要": "/books/gameful-learning/chapter-images/overview.svg",
+    "全书结构": "/books/gameful-learning/chapter-images/overview.svg",
+    "《游戏，让学习成瘾》如何帮助产品人把用户行为、动机和体验结构看得更清楚。": "/books/gameful-learning/chapter-images/overview.svg",
+    "《游戏，让学习成瘾》中的哪些概念最适合转成问题工作台节点？": "/books/gameful-learning/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/gameful-learning/chapter-images/overview.svg",
+    "游戏，让学习成瘾": "/books/gameful-learning/chapter-images/overview.svg",
+    "何为游戏化": "/books/gameful-learning/chapter-images/overview.svg",
+    "内窥游戏 理解游戏元素": "/books/gameful-learning/chapter-images/overview.svg",
+    "教学游戏化的支撑理论": "/books/gameful-learning/chapter-images/overview.svg",
+    "研究表明 游戏对学习有效": "/books/gameful-learning/chapter-images/overview.svg",
+    "逻辑链 1": "/books/gameful-learning/chapter-images/overview.svg",
+    "逻辑链 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "逻辑链 3": "/books/gameful-learning/chapter-images/overview.svg",
+    "逻辑链 4": "/books/gameful-learning/chapter-images/overview.svg",
+    "何为游戏化 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "内窥游戏 理解游戏元素 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "教学游戏化的支撑理论 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "研究表明 游戏对学习有效 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "开拓视野 游戏化的作为": "/books/gameful-learning/chapter-images/overview.svg",
+    "成就者还是杀戮者 玩家类型和游戏模式": "/books/gameful-learning/chapter-images/overview.svg",
+    "用户动机": "/books/gameful-learning/chapter-images/overview.svg",
+    "行为路径": "/books/gameful-learning/chapter-images/overview.svg",
+    "反馈机制": "/books/gameful-learning/chapter-images/overview.svg",
+    "激励系统": "/books/gameful-learning/chapter-images/overview.svg",
+    "场景任务": "/books/gameful-learning/chapter-images/overview.svg",
+    "留存": "/books/gameful-learning/chapter-images/overview.svg",
+    "摩擦成本": "/books/gameful-learning/chapter-images/overview.svg",
+    "游戏化": "/books/gameful-learning/chapter-images/overview.svg",
+    "何为游戏化 3": "/books/gameful-learning/chapter-images/overview.svg",
+    "内窥游戏 理解游戏元素 3": "/books/gameful-learning/chapter-images/overview.svg",
+    "教学游戏化的支撑理论 3": "/books/gameful-learning/chapter-images/overview.svg",
+    "研究表明 游戏对学习有效 3": "/books/gameful-learning/chapter-images/overview.svg",
+    "开拓视野 游戏化的作为 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "成就者还是杀戮者 玩家类型和游戏模式 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "内容切入 1": "/books/gameful-learning/chapter-images/overview.svg",
+    "内容切入 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "内容切入 3": "/books/gameful-learning/chapter-images/overview.svg",
+    "内容切入 4": "/books/gameful-learning/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/gameful-learning/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/gameful-learning/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/gameful-learning/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/gameful-learning/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《游戏，让学习成瘾》如何帮助产品人把用户行为、动机和体验结构看得更清楚。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《游戏，让学习成瘾》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "游戏，让学习成瘾",
+      "type": "question",
+      "tagline": "《游戏，让学习成瘾》如何帮助产品人把用户行为、动机和体验结构看得更清楚。"
+    },
+    {
+      "id": "何为游戏化",
+      "type": "question",
+      "tagline": "产品设计不是堆功能，而是组织用户在场景中的行动路径。"
+    },
+    {
+      "id": "内窥游戏 理解游戏元素",
+      "type": "question",
+      "tagline": "体验好坏取决于动机、摩擦、反馈和收益是否匹配。"
+    },
+    {
+      "id": "教学游戏化的支撑理论",
+      "type": "question",
+      "tagline": "游戏化不是加积分，而是理解目标、规则、反馈和进展感。"
+    },
+    {
+      "id": "研究表明 游戏对学习有效",
+      "type": "question",
+      "tagline": "好的产品机制让用户更容易完成真实任务。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "产品设计不是堆功能，而是组织用户在场景中的行动路径。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "体验好坏取决于动机、摩擦、反馈和收益是否匹配。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "游戏化不是加积分，而是理解目标、规则、反馈和进展感。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "好的产品机制让用户更容易完成真实任务。"
+    },
+    {
+      "id": "何为游戏化 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“何为游戏化”，用于把《游戏，让学习成瘾》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "内窥游戏 理解游戏元素 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“内窥游戏:理解游戏元素”，用于把《游戏，让学习成瘾》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "教学游戏化的支撑理论 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“教学游戏化的支撑理论”，用于把《游戏，让学习成瘾》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "研究表明 游戏对学习有效 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“研究表明:游戏对学习有效”，用于把《游戏，让学习成瘾》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "开拓视野 游戏化的作为",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“开拓视野:游戏化的作为”，用于把《游戏，让学习成瘾》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "成就者还是杀戮者 玩家类型和游戏模式",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“成就者还是杀戮者?玩家类型和游戏模式”，用于把《游戏，让学习成瘾》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "用户动机",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "行为路径",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "反馈机制",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "激励系统",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "场景任务",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "留存",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "摩擦成本",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "游戏化",
+      "type": "concept",
+      "tagline": "围绕用户、行为、场景、产品机制和商业目标的可复用节点"
+    },
+    {
+      "id": "何为游戏化 3",
+      "type": "concept",
+      "tagline": "围绕“何为游戏化”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内窥游戏 理解游戏元素 3",
+      "type": "concept",
+      "tagline": "围绕“内窥游戏:理解游戏元素”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "教学游戏化的支撑理论 3",
+      "type": "concept",
+      "tagline": "围绕“教学游戏化的支撑理论”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "研究表明 游戏对学习有效 3",
+      "type": "concept",
+      "tagline": "围绕“研究表明:游戏对学习有效”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "开拓视野 游戏化的作为 2",
+      "type": "concept",
+      "tagline": "围绕“开拓视野:游戏化的作为”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "成就者还是杀戮者 玩家类型和游戏模式 2",
+      "type": "concept",
+      "tagline": "围绕“成就者还是杀戮者?玩家类型和游戏模式”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "游戏化为什么不是积分排行榜"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "用户真正想完成的任务是什么"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "一个功能为什么没人用"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "反馈机制如何改变用户行为"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "用户行为路径图"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "动机-摩擦矩阵"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "游戏化机制四象限"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "体验反馈闭环"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《游戏，让学习成瘾》如何帮助产品人把用户行为、动机和体验结构看得更清楚。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《游戏，让学习成瘾》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "游戏，让学习成瘾",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "何为游戏化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内窥游戏 理解游戏元素",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "教学游戏化的支撑理论",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "研究表明 游戏对学习有效",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "何为游戏化 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内窥游戏 理解游戏元素 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "教学游戏化的支撑理论 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "研究表明 游戏对学习有效 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "开拓视野 游戏化的作为",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "成就者还是杀戮者 玩家类型和游戏模式",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用户动机",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "行为路径",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "激励系统",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景任务",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "留存",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "摩擦成本",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "游戏化",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "何为游戏化 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内窥游戏 理解游戏元素 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "教学游戏化的支撑理论 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "研究表明 游戏对学习有效 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "开拓视野 游戏化的作为 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "成就者还是杀戮者 玩家类型和游戏模式 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "何为游戏化 3",
+      "target": "用户动机",
+      "type": "relates"
+    },
+    {
+      "source": "何为游戏化 3",
+      "target": "行为路径",
+      "type": "relates"
+    },
+    {
+      "source": "何为游戏化 3",
+      "target": "反馈机制",
+      "type": "relates"
+    },
+    {
+      "source": "何为游戏化 3",
+      "target": "激励系统",
+      "type": "relates"
+    },
+    {
+      "source": "内窥游戏 理解游戏元素 3",
+      "target": "行为路径",
+      "type": "relates"
+    },
+    {
+      "source": "内窥游戏 理解游戏元素 3",
+      "target": "反馈机制",
+      "type": "relates"
+    },
+    {
+      "source": "内窥游戏 理解游戏元素 3",
+      "target": "激励系统",
+      "type": "relates"
+    },
+    {
+      "source": "内窥游戏 理解游戏元素 3",
+      "target": "场景任务",
+      "type": "relates"
+    },
+    {
+      "source": "教学游戏化的支撑理论 3",
+      "target": "反馈机制",
+      "type": "relates"
+    },
+    {
+      "source": "教学游戏化的支撑理论 3",
+      "target": "激励系统",
+      "type": "relates"
+    },
+    {
+      "source": "教学游戏化的支撑理论 3",
+      "target": "场景任务",
+      "type": "relates"
+    },
+    {
+      "source": "教学游戏化的支撑理论 3",
+      "target": "留存",
+      "type": "relates"
+    },
+    {
+      "source": "研究表明 游戏对学习有效 3",
+      "target": "激励系统",
+      "type": "relates"
+    },
+    {
+      "source": "研究表明 游戏对学习有效 3",
+      "target": "场景任务",
+      "type": "relates"
+    },
+    {
+      "source": "研究表明 游戏对学习有效 3",
+      "target": "留存",
+      "type": "relates"
+    },
+    {
+      "source": "研究表明 游戏对学习有效 3",
+      "target": "摩擦成本",
+      "type": "relates"
+    },
+    {
+      "source": "开拓视野 游戏化的作为 2",
+      "target": "场景任务",
+      "type": "relates"
+    },
+    {
+      "source": "开拓视野 游戏化的作为 2",
+      "target": "留存",
+      "type": "relates"
+    },
+    {
+      "source": "开拓视野 游戏化的作为 2",
+      "target": "摩擦成本",
+      "type": "relates"
+    },
+    {
+      "source": "开拓视野 游戏化的作为 2",
+      "target": "游戏化",
+      "type": "relates"
+    },
+    {
+      "source": "成就者还是杀戮者 玩家类型和游戏模式 2",
+      "target": "留存",
+      "type": "relates"
+    },
+    {
+      "source": "成就者还是杀戮者 玩家类型和游戏模式 2",
+      "target": "摩擦成本",
+      "type": "relates"
+    },
+    {
+      "source": "成就者还是杀戮者 玩家类型和游戏模式 2",
+      "target": "游戏化",
+      "type": "relates"
+    },
+    {
+      "source": "成就者还是杀戮者 玩家类型和游戏模式 2",
+      "target": "用户动机",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《游戏，让学习成瘾》如何帮助产品人把用户行为、动机和体验结构看得更清楚。": "问题入口",
+    "公开入口→《游戏，让学习成瘾》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→游戏，让学习成瘾": "K 卡",
+    "公开入口→何为游戏化": "K 卡",
+    "公开入口→内窥游戏 理解游戏元素": "K 卡",
+    "公开入口→教学游戏化的支撑理论": "K 卡",
+    "公开入口→研究表明 游戏对学习有效": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→何为游戏化 2": "章节推进",
+    "公开入口→内窥游戏 理解游戏元素 2": "章节推进",
+    "公开入口→教学游戏化的支撑理论 2": "章节推进",
+    "公开入口→研究表明 游戏对学习有效 2": "章节推进",
+    "公开入口→开拓视野 游戏化的作为": "章节推进",
+    "公开入口→成就者还是杀戮者 玩家类型和游戏模式": "章节推进",
+    "公开入口→用户动机": "N 卡",
+    "公开入口→行为路径": "N 卡",
+    "公开入口→反馈机制": "N 卡",
+    "公开入口→激励系统": "N 卡",
+    "公开入口→场景任务": "N 卡",
+    "公开入口→留存": "N 卡",
+    "公开入口→摩擦成本": "N 卡",
+    "公开入口→游戏化": "N 卡",
+    "公开入口→何为游戏化 3": "主题单元",
+    "公开入口→内窥游戏 理解游戏元素 3": "主题单元",
+    "公开入口→教学游戏化的支撑理论 3": "主题单元",
+    "公开入口→研究表明 游戏对学习有效 3": "主题单元",
+    "公开入口→开拓视野 游戏化的作为 2": "主题单元",
+    "公开入口→成就者还是杀戮者 玩家类型和游戏模式 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "何为游戏化 3→用户动机": "相关概念",
+    "何为游戏化 3→行为路径": "相关概念",
+    "何为游戏化 3→反馈机制": "相关概念",
+    "何为游戏化 3→激励系统": "相关概念",
+    "内窥游戏 理解游戏元素 3→行为路径": "相关概念",
+    "内窥游戏 理解游戏元素 3→反馈机制": "相关概念",
+    "内窥游戏 理解游戏元素 3→激励系统": "相关概念",
+    "内窥游戏 理解游戏元素 3→场景任务": "相关概念",
+    "教学游戏化的支撑理论 3→反馈机制": "相关概念",
+    "教学游戏化的支撑理论 3→激励系统": "相关概念",
+    "教学游戏化的支撑理论 3→场景任务": "相关概念",
+    "教学游戏化的支撑理论 3→留存": "相关概念",
+    "研究表明 游戏对学习有效 3→激励系统": "相关概念",
+    "研究表明 游戏对学习有效 3→场景任务": "相关概念",
+    "研究表明 游戏对学习有效 3→留存": "相关概念",
+    "研究表明 游戏对学习有效 3→摩擦成本": "相关概念",
+    "开拓视野 游戏化的作为 2→场景任务": "相关概念",
+    "开拓视野 游戏化的作为 2→留存": "相关概念",
+    "开拓视野 游戏化的作为 2→摩擦成本": "相关概念",
+    "开拓视野 游戏化的作为 2→游戏化": "相关概念",
+    "成就者还是杀戮者 玩家类型和游戏模式 2→留存": "相关概念",
+    "成就者还是杀戮者 玩家类型和游戏模式 2→摩擦成本": "相关概念",
+    "成就者还是杀戮者 玩家类型和游戏模式 2→游戏化": "相关概念",
+    "成就者还是杀戮者 玩家类型和游戏模式 2→用户动机": "相关概念"
+  }
+}

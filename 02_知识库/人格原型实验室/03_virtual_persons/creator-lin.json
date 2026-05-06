@@ -1,0 +1,40 @@
+{
+  "id": "creator-lin",
+  "name": "林知远",
+  "fictional_level": "composite_fictional",
+  "source_archetype_ids": ["failure-identity", "obedient-safety"],
+  "source_work_ids": ["local-human-trojan-program"],
+  "life_stage": "从输入型学习转向稳定输出的知识创作者",
+  "current_problem": "明明有很多材料，却总觉得还没准备好，不敢把复杂想法发出去。",
+  "life_timeline": [
+    {
+      "period": "学生阶段",
+      "event": "习惯用成绩和评价确认自己是否足够好。",
+      "impact": "把外部反馈和自我价值绑定。"
+    },
+    {
+      "period": "早期工作/创作",
+      "event": "开始大量输入心理、成长和表达类材料。",
+      "impact": "形成高标准，但也用继续准备推迟公开表达。"
+    },
+    {
+      "period": "当前",
+      "event": "看到同领域账号增长更快，开始怀疑自己的表达是否太慢。",
+      "impact": "触发失败即自我和被评价焦虑。"
+    }
+  ],
+  "family_system": {
+    "family_rules": ["要懂事", "不要轻易暴露不成熟", "最好先准备充分"],
+    "emotion_rules": ["焦虑可以通过努力和整理来处理"],
+    "role_position": "负责、自我要求高、容易提前替别人考虑理解成本的人",
+    "intergenerational_line": "体面、安全和不出错可能比试错更被看重"
+  },
+  "relationship_patterns": ["害怕被评价", "容易过度解释", "对读者和外界反馈敏感"],
+  "self_narrative": "我必须准备得足够系统，才有资格公开表达。",
+  "protection_strategies": ["继续整理资料", "推迟发布", "把复杂性磨得更完整"],
+  "triggers": ["同领域账号快速增长", "笔记数据低", "别人一句轻微评价"],
+  "growth_edges": ["用一张卡片先发布", "把数据复盘从人格评价改成变量分析", "保留表达锋芒"],
+  "privacy_level": "public_demo",
+  "evidence_refs": ["local-human-trojan-program"],
+  "review_status": "draft"
+}

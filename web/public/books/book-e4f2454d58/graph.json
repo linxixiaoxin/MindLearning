@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "全书摘要": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "全书结构": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "《最好的告别：关于衰老与死亡，你必须知道的常识》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "《最好的告别：关于衰老与死亡，你必须知道的常识》中的哪些概念最适合转成问题工作台节点？": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "最好的告别：关于衰老与死亡，你必须知道的常识": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "独立：活到100岁的代价": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "崩溃：接受变老这件事": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "依赖：我们为老做好准备了吗": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "帮助：适应从家到老人院生活的转变": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "独立：活到100岁的代价 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "崩溃：接受变老这件事 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "依赖：我们为老做好准备了吗 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "帮助：适应从家到老人院生活的转变 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "更好的生活： 抗击疗养院的三大瘟疫": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "放手：什么时候努力医治，什么时候放弃治疗": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "医患关系": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "患者主体性": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "医疗数据": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "预防医学": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "共同决策": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "照护": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "医疗伦理": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "健康责任": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "独立：活到100岁的代价 3": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "崩溃：接受变老这件事 3": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "依赖：我们为老做好准备了吗 3": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "帮助：适应从家到老人院生活的转变 3": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "更好的生活： 抗击疗养院的三大瘟疫 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "放手：什么时候努力医治，什么时候放弃治疗 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-e4f2454d58/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-e4f2454d58/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《最好的告别：关于衰老与死亡，你必须知道的常识》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《最好的告别：关于衰老与死亡，你必须知道的常识》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "最好的告别：关于衰老与死亡，你必须知道的常识",
+      "type": "question",
+      "tagline": "《最好的告别：关于衰老与死亡，你必须知道的常识》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。"
+    },
+    {
+      "id": "独立：活到100岁的代价",
+      "type": "question",
+      "tagline": "医疗的未来不只是更先进的设备，也包括患者角色和信息权力的变化。"
+    },
+    {
+      "id": "崩溃：接受变老这件事",
+      "type": "question",
+      "tagline": "好的照护需要技术、数据、关系和伦理共同工作。"
+    },
+    {
+      "id": "依赖：我们为老做好准备了吗",
+      "type": "question",
+      "tagline": "患者不是被动对象，而应成为理解自身健康的重要参与者。"
+    },
+    {
+      "id": "帮助：适应从家到老人院生活的转变",
+      "type": "question",
+      "tagline": "医疗系统的进步必须同时回应效率、公平和尊严。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "医疗的未来不只是更先进的设备，也包括患者角色和信息权力的变化。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "好的照护需要技术、数据、关系和伦理共同工作。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "患者不是被动对象，而应成为理解自身健康的重要参与者。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "医疗系统的进步必须同时回应效率、公平和尊严。"
+    },
+    {
+      "id": "独立：活到100岁的代价 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“独立：活到100岁的代价”，用于把《最好的告别：关于衰老与死亡，你必须知道的常识》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "崩溃：接受变老这件事 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“崩溃：接受变老这件事”，用于把《最好的告别：关于衰老与死亡，你必须知道的常识》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "依赖：我们为老做好准备了吗 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“依赖：我们为老做好准备了吗”，用于把《最好的告别：关于衰老与死亡，你必须知道的常识》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "帮助：适应从家到老人院生活的转变 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“帮助：适应从家到老人院生活的转变”，用于把《最好的告别：关于衰老与死亡，你必须知道的常识》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "更好的生活： 抗击疗养院的三大瘟疫",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“更好的生活： 抗击疗养院的三大瘟疫”，用于把《最好的告别：关于衰老与死亡，你必须知道的常识》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "放手：什么时候努力医治，什么时候放弃治疗",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“放手：什么时候努力医治，什么时候放弃治疗”，用于把《最好的告别：关于衰老与死亡，你必须知道的常识》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "医患关系",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "患者主体性",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "医疗数据",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "预防医学",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "共同决策",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "照护",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "医疗伦理",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "健康责任",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "独立：活到100岁的代价 3",
+      "type": "concept",
+      "tagline": "围绕“独立：活到100岁的代价”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "崩溃：接受变老这件事 3",
+      "type": "concept",
+      "tagline": "围绕“崩溃：接受变老这件事”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "依赖：我们为老做好准备了吗 3",
+      "type": "concept",
+      "tagline": "围绕“依赖：我们为老做好准备了吗”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "帮助：适应从家到老人院生活的转变 3",
+      "type": "concept",
+      "tagline": "围绕“帮助：适应从家到老人院生活的转变”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "更好的生活： 抗击疗养院的三大瘟疫 2",
+      "type": "concept",
+      "tagline": "围绕“更好的生活： 抗击疗养院的三大瘟疫”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "放手：什么时候努力医治，什么时候放弃治疗 2",
+      "type": "concept",
+      "tagline": "围绕“放手：什么时候努力医治，什么时候放弃治疗”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "未来医疗为什么不是多几个 App"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "患者为什么需要拥有自己的健康数据"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "好医生和好系统分别解决什么"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "医疗进步不能只看技术，还要看尊严"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "医患关系天平"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "健康数据流向图"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "未来医院模块图"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "预防医学时间线"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《最好的告别：关于衰老与死亡，你必须知道的常识》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《最好的告别：关于衰老与死亡，你必须知道的常识》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "最好的告别：关于衰老与死亡，你必须知道的常识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "独立：活到100岁的代价",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "崩溃：接受变老这件事",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "依赖：我们为老做好准备了吗",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "帮助：适应从家到老人院生活的转变",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "独立：活到100岁的代价 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "崩溃：接受变老这件事 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "依赖：我们为老做好准备了吗 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "帮助：适应从家到老人院生活的转变 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "更好的生活： 抗击疗养院的三大瘟疫",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "放手：什么时候努力医治，什么时候放弃治疗",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医患关系",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "患者主体性",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "健康责任",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "独立：活到100岁的代价 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "崩溃：接受变老这件事 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "依赖：我们为老做好准备了吗 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "帮助：适应从家到老人院生活的转变 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "更好的生活： 抗击疗养院的三大瘟疫 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "放手：什么时候努力医治，什么时候放弃治疗 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "独立：活到100岁的代价 3",
+      "target": "医患关系",
+      "type": "relates"
+    },
+    {
+      "source": "独立：活到100岁的代价 3",
+      "target": "患者主体性",
+      "type": "relates"
+    },
+    {
+      "source": "独立：活到100岁的代价 3",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "独立：活到100岁的代价 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "崩溃：接受变老这件事 3",
+      "target": "患者主体性",
+      "type": "relates"
+    },
+    {
+      "source": "崩溃：接受变老这件事 3",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "崩溃：接受变老这件事 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "崩溃：接受变老这件事 3",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "依赖：我们为老做好准备了吗 3",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "依赖：我们为老做好准备了吗 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "依赖：我们为老做好准备了吗 3",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "依赖：我们为老做好准备了吗 3",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "帮助：适应从家到老人院生活的转变 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "帮助：适应从家到老人院生活的转变 3",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "帮助：适应从家到老人院生活的转变 3",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "帮助：适应从家到老人院生活的转变 3",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "更好的生活： 抗击疗养院的三大瘟疫 2",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "更好的生活： 抗击疗养院的三大瘟疫 2",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "更好的生活： 抗击疗养院的三大瘟疫 2",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "更好的生活： 抗击疗养院的三大瘟疫 2",
+      "target": "健康责任",
+      "type": "relates"
+    },
+    {
+      "source": "放手：什么时候努力医治，什么时候放弃治疗 2",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "放手：什么时候努力医治，什么时候放弃治疗 2",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "放手：什么时候努力医治，什么时候放弃治疗 2",
+      "target": "健康责任",
+      "type": "relates"
+    },
+    {
+      "source": "放手：什么时候努力医治，什么时候放弃治疗 2",
+      "target": "医患关系",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《最好的告别：关于衰老与死亡，你必须知道的常识》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。": "问题入口",
+    "公开入口→《最好的告别：关于衰老与死亡，你必须知道的常识》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→最好的告别：关于衰老与死亡，你必须知道的常识": "K 卡",
+    "公开入口→独立：活到100岁的代价": "K 卡",
+    "公开入口→崩溃：接受变老这件事": "K 卡",
+    "公开入口→依赖：我们为老做好准备了吗": "K 卡",
+    "公开入口→帮助：适应从家到老人院生活的转变": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→独立：活到100岁的代价 2": "章节推进",
+    "公开入口→崩溃：接受变老这件事 2": "章节推进",
+    "公开入口→依赖：我们为老做好准备了吗 2": "章节推进",
+    "公开入口→帮助：适应从家到老人院生活的转变 2": "章节推进",
+    "公开入口→更好的生活： 抗击疗养院的三大瘟疫": "章节推进",
+    "公开入口→放手：什么时候努力医治，什么时候放弃治疗": "章节推进",
+    "公开入口→医患关系": "N 卡",
+    "公开入口→患者主体性": "N 卡",
+    "公开入口→医疗数据": "N 卡",
+    "公开入口→预防医学": "N 卡",
+    "公开入口→共同决策": "N 卡",
+    "公开入口→照护": "N 卡",
+    "公开入口→医疗伦理": "N 卡",
+    "公开入口→健康责任": "N 卡",
+    "公开入口→独立：活到100岁的代价 3": "主题单元",
+    "公开入口→崩溃：接受变老这件事 3": "主题单元",
+    "公开入口→依赖：我们为老做好准备了吗 3": "主题单元",
+    "公开入口→帮助：适应从家到老人院生活的转变 3": "主题单元",
+    "公开入口→更好的生活： 抗击疗养院的三大瘟疫 2": "主题单元",
+    "公开入口→放手：什么时候努力医治，什么时候放弃治疗 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "独立：活到100岁的代价 3→医患关系": "相关概念",
+    "独立：活到100岁的代价 3→患者主体性": "相关概念",
+    "独立：活到100岁的代价 3→医疗数据": "相关概念",
+    "独立：活到100岁的代价 3→预防医学": "相关概念",
+    "崩溃：接受变老这件事 3→患者主体性": "相关概念",
+    "崩溃：接受变老这件事 3→医疗数据": "相关概念",
+    "崩溃：接受变老这件事 3→预防医学": "相关概念",
+    "崩溃：接受变老这件事 3→共同决策": "相关概念",
+    "依赖：我们为老做好准备了吗 3→医疗数据": "相关概念",
+    "依赖：我们为老做好准备了吗 3→预防医学": "相关概念",
+    "依赖：我们为老做好准备了吗 3→共同决策": "相关概念",
+    "依赖：我们为老做好准备了吗 3→照护": "相关概念",
+    "帮助：适应从家到老人院生活的转变 3→预防医学": "相关概念",
+    "帮助：适应从家到老人院生活的转变 3→共同决策": "相关概念",
+    "帮助：适应从家到老人院生活的转变 3→照护": "相关概念",
+    "帮助：适应从家到老人院生活的转变 3→医疗伦理": "相关概念",
+    "更好的生活： 抗击疗养院的三大瘟疫 2→共同决策": "相关概念",
+    "更好的生活： 抗击疗养院的三大瘟疫 2→照护": "相关概念",
+    "更好的生活： 抗击疗养院的三大瘟疫 2→医疗伦理": "相关概念",
+    "更好的生活： 抗击疗养院的三大瘟疫 2→健康责任": "相关概念",
+    "放手：什么时候努力医治，什么时候放弃治疗 2→照护": "相关概念",
+    "放手：什么时候努力医治，什么时候放弃治疗 2→医疗伦理": "相关概念",
+    "放手：什么时候努力医治，什么时候放弃治疗 2→健康责任": "相关概念",
+    "放手：什么时候努力医治，什么时候放弃治疗 2→医患关系": "相关概念"
+  }
+}

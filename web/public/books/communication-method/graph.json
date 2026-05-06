@@ -1,0 +1,752 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/communication-method/chapter-images/overview.svg",
+    "全书摘要": "/books/communication-method/chapter-images/overview.svg",
+    "全书结构": "/books/communication-method/chapter-images/overview.svg",
+    "为什么很多人明明有道理，却在沟通中失去合作机会？": "/books/communication-method/chapter-images/overview.svg",
+    "怎样在表达自己时，不把对方推到防御位置？": "/books/communication-method/chapter-images/overview.svg",
+    "怎样把情绪、抱怨和分歧转成可执行的下一步？": "/books/communication-method/chapter-images/overview.svg",
+    "怎样在职场沟通中把事实、判断、风险和请求说清楚？": "/books/communication-method/chapter-images/overview.svg",
+    "沟通的方法": "/books/communication-method/chapter-images/overview.svg",
+    "沟通是无限游戏": "/books/communication-method/chapter-images/overview.svg",
+    "好沟通先处理目标感": "/books/communication-method/chapter-images/overview.svg",
+    "结构化倾听让对方被准确接住": "/books/communication-method/chapter-images/overview.svg",
+    "把情绪和抱怨翻译成方案": "/books/communication-method/chapter-images/overview.svg",
+    "关系维护型沟通不是讨好": "/books/communication-method/chapter-images/overview.svg",
+    "职场沟通要把信息判断请求拆开": "/books/communication-method/chapter-images/overview.svg",
+    "逻辑链 1": "/books/communication-method/chapter-images/overview.svg",
+    "逻辑链 2": "/books/communication-method/chapter-images/overview.svg",
+    "逻辑链 3": "/books/communication-method/chapter-images/overview.svg",
+    "逻辑链 4": "/books/communication-method/chapter-images/overview.svg",
+    "逻辑链 5": "/books/communication-method/chapter-images/overview.svg",
+    "逻辑链 6": "/books/communication-method/chapter-images/overview.svg",
+    "无限游戏": "/books/communication-method/chapter-images/overview.svg",
+    "目标感": "/books/communication-method/chapter-images/overview.svg",
+    "结构化倾听": "/books/communication-method/chapter-images/overview.svg",
+    "确认期待": "/books/communication-method/chapter-images/overview.svg",
+    "事实": "/books/communication-method/chapter-images/overview.svg",
+    "感受": "/books/communication-method/chapter-images/overview.svg",
+    "无限游戏 2": "/books/communication-method/chapter-images/overview.svg",
+    "目标感 2": "/books/communication-method/chapter-images/overview.svg",
+    "结构化倾听 2": "/books/communication-method/chapter-images/overview.svg",
+    "确认期待 2": "/books/communication-method/chapter-images/overview.svg",
+    "事实 2": "/books/communication-method/chapter-images/overview.svg",
+    "感受 2": "/books/communication-method/chapter-images/overview.svg",
+    "需求": "/books/communication-method/chapter-images/overview.svg",
+    "行动请求": "/books/communication-method/chapter-images/overview.svg",
+    "开放性": "/books/communication-method/chapter-images/overview.svg",
+    "方案力": "/books/communication-method/chapter-images/overview.svg",
+    "共识": "/books/communication-method/chapter-images/overview.svg",
+    "共情": "/books/communication-method/chapter-images/overview.svg",
+    "赞美": "/books/communication-method/chapter-images/overview.svg",
+    "批评": "/books/communication-method/chapter-images/overview.svg",
+    "安慰": "/books/communication-method/chapter-images/overview.svg",
+    "拒绝": "/books/communication-method/chapter-images/overview.svg",
+    "说服": "/books/communication-method/chapter-images/overview.svg",
+    "谈判": "/books/communication-method/chapter-images/overview.svg",
+    "会议沟通": "/books/communication-method/chapter-images/overview.svg",
+    "向上沟通": "/books/communication-method/chapter-images/overview.svg",
+    "反馈": "/books/communication-method/chapter-images/overview.svg",
+    "关系账户": "/books/communication-method/chapter-images/overview.svg",
+    "无限游戏 3": "/books/communication-method/chapter-images/overview.svg",
+    "目标感 3": "/books/communication-method/chapter-images/overview.svg",
+    "结构化倾听 3": "/books/communication-method/chapter-images/overview.svg",
+    "方案力 2": "/books/communication-method/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "为什么很多人明明有道理，却在沟通中失去合作机会？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "怎样在表达自己时，不把对方推到防御位置？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "怎样把情绪、抱怨和分歧转成可执行的下一步？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "怎样在职场沟通中把事实、判断、风险和请求说清楚？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "沟通的方法",
+      "type": "question",
+      "tagline": "沟通的核心不是说赢别人，而是让关系、资源和行动持续流动。"
+    },
+    {
+      "id": "沟通是无限游戏",
+      "type": "question",
+      "tagline": "一次沟通的目标不只是当下结果，还包括是否让下一次合作仍然可能。"
+    },
+    {
+      "id": "好沟通先处理目标感",
+      "type": "question",
+      "tagline": "开口前先确认这次谈话要完成什么，才能避免情绪、信息和请求混在一起。"
+    },
+    {
+      "id": "结构化倾听让对方被准确接住",
+      "type": "question",
+      "tagline": "倾听不是沉默，而是用复述、确认和追问帮助双方校准事实与期待。"
+    },
+    {
+      "id": "把情绪和抱怨翻译成方案",
+      "type": "question",
+      "tagline": "成熟表达不是压抑情绪，而是把情绪背后的事实、影响、需求和下一步说出来。"
+    },
+    {
+      "id": "关系维护型沟通不是讨好",
+      "type": "question",
+      "tagline": "维护关系不是牺牲自己，而是在表达边界时保留继续合作的通道。"
+    },
+    {
+      "id": "职场沟通要把信息判断请求拆开",
+      "type": "question",
+      "tagline": "职场沟通的关键是让对方快速知道事实是什么、风险在哪里、需要他做什么。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "沟通不是单次胜负，而是长期关系中的无限游戏。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "无限游戏要求沟通者同时关心结果、关系和下一次合作的可能性。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "因此开口前必须先建立目标感，判断这次谈话要完成什么。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "目标感需要结构化倾听支持，先校准事实、期待和感受。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "表达时要把事实、感受、需求和行动请求拆开，减少误解和防御。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "在复杂场景中，沟通要转化为方案、共识和行动。"
+    },
+    {
+      "id": "无限游戏",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“无限游戏”，用于把《沟通的方法》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "目标感",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“目标感”，用于把《沟通的方法》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "结构化倾听",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“结构化倾听”，用于把《沟通的方法》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "确认期待",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“确认期待”，用于把《沟通的方法》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "事实",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“事实”，用于把《沟通的方法》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "感受",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“感受”，用于把《沟通的方法》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "无限游戏 2",
+      "type": "concept",
+      "tagline": "世界观概念"
+    },
+    {
+      "id": "目标感 2",
+      "type": "concept",
+      "tagline": "方法概念"
+    },
+    {
+      "id": "结构化倾听 2",
+      "type": "concept",
+      "tagline": "方法概念"
+    },
+    {
+      "id": "确认期待 2",
+      "type": "concept",
+      "tagline": "关系概念"
+    },
+    {
+      "id": "事实 2",
+      "type": "concept",
+      "tagline": "表达概念"
+    },
+    {
+      "id": "感受 2",
+      "type": "concept",
+      "tagline": "表达概念"
+    },
+    {
+      "id": "需求",
+      "type": "concept",
+      "tagline": "表达概念"
+    },
+    {
+      "id": "行动请求",
+      "type": "concept",
+      "tagline": "表达概念"
+    },
+    {
+      "id": "开放性",
+      "type": "concept",
+      "tagline": "互动概念"
+    },
+    {
+      "id": "方案力",
+      "type": "concept",
+      "tagline": "方法概念"
+    },
+    {
+      "id": "共识",
+      "type": "concept",
+      "tagline": "协作概念"
+    },
+    {
+      "id": "共情",
+      "type": "concept",
+      "tagline": "关系概念"
+    },
+    {
+      "id": "赞美",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "批评",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "安慰",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "拒绝",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "说服",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "谈判",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "会议沟通",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "向上沟通",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "反馈",
+      "type": "concept",
+      "tagline": "场景概念"
+    },
+    {
+      "id": "关系账户",
+      "type": "concept",
+      "tagline": "隐喻概念"
+    },
+    {
+      "id": "无限游戏 3",
+      "type": "concept",
+      "tagline": "把沟通看成持续关系建设，而不是单次输赢。"
+    },
+    {
+      "id": "目标感 3",
+      "type": "concept",
+      "tagline": "开口前先确认这次谈话要增加理解、形成共识、推动行动还是维护关系。"
+    },
+    {
+      "id": "结构化倾听 3",
+      "type": "concept",
+      "tagline": "用复述、确认和追问帮助双方校准事实、感受和期待。"
+    },
+    {
+      "id": "方案力 2",
+      "type": "concept",
+      "tagline": "把分歧、抱怨、拒绝和谈判转成选项、路径和下一步行动。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么很多人明明有道理，却在沟通中失去合作机会？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怎样在表达自己时，不把对方推到防御位置？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怎样把情绪、抱怨和分歧转成可执行的下一步？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怎样在职场沟通中把事实、判断、风险和请求说清楚？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "沟通的方法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "沟通是无限游戏",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "好沟通先处理目标感",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "结构化倾听让对方被准确接住",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "把情绪和抱怨翻译成方案",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系维护型沟通不是讨好",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "职场沟通要把信息判断请求拆开",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "无限游戏",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "目标感",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "结构化倾听",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "确认期待",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "事实",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "无限游戏 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "目标感 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "结构化倾听 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "确认期待 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "事实 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "需求",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "行动请求",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "开放性",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "方案力",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "赞美",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "批评",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "安慰",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "拒绝",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "说服",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "谈判",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "会议沟通",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "向上沟通",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系账户",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "无限游戏 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "目标感 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "结构化倾听 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "方案力 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→为什么很多人明明有道理，却在沟通中失去合作机会？": "问题入口",
+    "公开入口→怎样在表达自己时，不把对方推到防御位置？": "问题入口",
+    "公开入口→怎样把情绪、抱怨和分歧转成可执行的下一步？": "问题入口",
+    "公开入口→怎样在职场沟通中把事实、判断、风险和请求说清楚？": "问题入口",
+    "公开入口→沟通的方法": "K 卡",
+    "公开入口→沟通是无限游戏": "K 卡",
+    "公开入口→好沟通先处理目标感": "K 卡",
+    "公开入口→结构化倾听让对方被准确接住": "K 卡",
+    "公开入口→把情绪和抱怨翻译成方案": "K 卡",
+    "公开入口→关系维护型沟通不是讨好": "K 卡",
+    "公开入口→职场沟通要把信息判断请求拆开": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→无限游戏": "章节推进",
+    "公开入口→目标感": "章节推进",
+    "公开入口→结构化倾听": "章节推进",
+    "公开入口→确认期待": "章节推进",
+    "公开入口→事实": "章节推进",
+    "公开入口→感受": "章节推进",
+    "公开入口→无限游戏 2": "N 卡",
+    "公开入口→目标感 2": "N 卡",
+    "公开入口→结构化倾听 2": "N 卡",
+    "公开入口→确认期待 2": "N 卡",
+    "公开入口→事实 2": "N 卡",
+    "公开入口→感受 2": "N 卡",
+    "公开入口→需求": "N 卡",
+    "公开入口→行动请求": "N 卡",
+    "公开入口→开放性": "N 卡",
+    "公开入口→方案力": "N 卡",
+    "公开入口→共识": "N 卡",
+    "公开入口→共情": "N 卡",
+    "公开入口→赞美": "N 卡",
+    "公开入口→批评": "N 卡",
+    "公开入口→安慰": "N 卡",
+    "公开入口→拒绝": "N 卡",
+    "公开入口→说服": "N 卡",
+    "公开入口→谈判": "N 卡",
+    "公开入口→会议沟通": "N 卡",
+    "公开入口→向上沟通": "N 卡",
+    "公开入口→反馈": "N 卡",
+    "公开入口→关系账户": "N 卡",
+    "公开入口→无限游戏 3": "概念支撑",
+    "公开入口→目标感 3": "概念支撑",
+    "公开入口→结构化倾听 3": "概念支撑",
+    "公开入口→方案力 2": "概念支撑"
+  }
+}

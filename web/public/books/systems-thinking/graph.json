@@ -1,0 +1,770 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/systems-thinking/chapter-images/overview.svg",
+    "全书摘要": "/books/systems-thinking/chapter-images/overview.svg",
+    "全书结构": "/books/systems-thinking/chapter-images/overview.svg",
+    "如何系统思考": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统不是要素清单": "/books/systems-thinking/chapter-images/overview.svg",
+    "反馈回路解释反复发生": "/books/systems-thinking/chapter-images/overview.svg",
+    "延迟会制造错误判断": "/books/systems-thinking/chapter-images/overview.svg",
+    "存量和流量决定变化速度": "/books/systems-thinking/chapter-images/overview.svg",
+    "边界决定你看见什么": "/books/systems-thinking/chapter-images/overview.svg",
+    "杠杆点常在心智模式深处": "/books/systems-thinking/chapter-images/overview.svg",
+    "逻辑链 1": "/books/systems-thinking/chapter-images/overview.svg",
+    "逻辑链 2": "/books/systems-thinking/chapter-images/overview.svg",
+    "逻辑链 3": "/books/systems-thinking/chapter-images/overview.svg",
+    "逻辑链 4": "/books/systems-thinking/chapter-images/overview.svg",
+    "逻辑链 5": "/books/systems-thinking/chapter-images/overview.svg",
+    "从事件到结构": "/books/systems-thinking/chapter-images/overview.svg",
+    "反馈回路": "/books/systems-thinking/chapter-images/overview.svg",
+    "延迟与存量流量": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统边界": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统基模与副作用": "/books/systems-thinking/chapter-images/overview.svg",
+    "杠杆点与心智模式": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统": "/books/systems-thinking/chapter-images/overview.svg",
+    "要素": "/books/systems-thinking/chapter-images/overview.svg",
+    "连接": "/books/systems-thinking/chapter-images/overview.svg",
+    "目标": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统边界 2": "/books/systems-thinking/chapter-images/overview.svg",
+    "反馈回路 2": "/books/systems-thinking/chapter-images/overview.svg",
+    "增强回路": "/books/systems-thinking/chapter-images/overview.svg",
+    "平衡回路": "/books/systems-thinking/chapter-images/overview.svg",
+    "延迟": "/books/systems-thinking/chapter-images/overview.svg",
+    "存量": "/books/systems-thinking/chapter-images/overview.svg",
+    "流量": "/books/systems-thinking/chapter-images/overview.svg",
+    "行为模式": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统基模": "/books/systems-thinking/chapter-images/overview.svg",
+    "杠杆点": "/books/systems-thinking/chapter-images/overview.svg",
+    "副作用": "/books/systems-thinking/chapter-images/overview.svg",
+    "反直觉": "/books/systems-thinking/chapter-images/overview.svg",
+    "心智模式": "/books/systems-thinking/chapter-images/overview.svg",
+    "动态复杂性": "/books/systems-thinking/chapter-images/overview.svg",
+    "从事件到结构 2": "/books/systems-thinking/chapter-images/overview.svg",
+    "反馈回路 3": "/books/systems-thinking/chapter-images/overview.svg",
+    "延迟与存量流量 2": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统边界 3": "/books/systems-thinking/chapter-images/overview.svg",
+    "系统基模与副作用 2": "/books/systems-thinking/chapter-images/overview.svg",
+    "杠杆点与心智模式 2": "/books/systems-thinking/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "如何系统思考",
+      "type": "question",
+      "tagline": "系统思考的核心是从事件反应转向结构理解。"
+    },
+    {
+      "id": "系统不是要素清单",
+      "type": "question",
+      "tagline": "真正决定系统行为的是要素之间的连接和共同目标。"
+    },
+    {
+      "id": "反馈回路解释反复发生",
+      "type": "question",
+      "tagline": "很多反复问题不是没解决，而是被回路不断再生产。"
+    },
+    {
+      "id": "延迟会制造错误判断",
+      "type": "question",
+      "tagline": "行动和结果之间有时间差，人容易在结果出现前改变策略。"
+    },
+    {
+      "id": "存量和流量决定变化速度",
+      "type": "question",
+      "tagline": "看见积累量和变化率，才能理解为什么改变慢或快。"
+    },
+    {
+      "id": "边界决定你看见什么",
+      "type": "question",
+      "tagline": "系统边界画得不同，责任、资源和方案都会改变。"
+    },
+    {
+      "id": "杠杆点常在心智模式深处",
+      "type": "question",
+      "tagline": "改变结构之前，常要先改变人们默认的解释方式。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "现实难题常常不是单点原因，而是系统结构的结果。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "系统由要素、连接、目标和边界共同构成。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "反馈回路会让行为不断自我强化或自我调节。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "延迟会让行动效果晚于人的耐心，导致误判。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "杠杆点不一定在最显眼处，而在结构和心智模式中。"
+    },
+    {
+      "id": "从事件到结构",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“从事件到结构”，用于把《如何系统思考（第2版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "反馈回路",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“反馈回路”，用于把《如何系统思考（第2版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "延迟与存量流量",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“延迟与存量流量”，用于把《如何系统思考（第2版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "系统边界",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“系统边界”，用于把《如何系统思考（第2版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "系统基模与副作用",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“系统基模与副作用”，用于把《如何系统思考（第2版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "杠杆点与心智模式",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“杠杆点与心智模式”，用于把《如何系统思考（第2版》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "系统",
+      "type": "concept",
+      "tagline": "整体概念"
+    },
+    {
+      "id": "要素",
+      "type": "concept",
+      "tagline": "组成概念"
+    },
+    {
+      "id": "连接",
+      "type": "concept",
+      "tagline": "关系概念"
+    },
+    {
+      "id": "目标",
+      "type": "concept",
+      "tagline": "方向概念"
+    },
+    {
+      "id": "系统边界 2",
+      "type": "concept",
+      "tagline": "观察概念"
+    },
+    {
+      "id": "反馈回路 2",
+      "type": "concept",
+      "tagline": "机制概念"
+    },
+    {
+      "id": "增强回路",
+      "type": "concept",
+      "tagline": "反馈类型"
+    },
+    {
+      "id": "平衡回路",
+      "type": "concept",
+      "tagline": "反馈类型"
+    },
+    {
+      "id": "延迟",
+      "type": "concept",
+      "tagline": "时间机制"
+    },
+    {
+      "id": "存量",
+      "type": "concept",
+      "tagline": "积累概念"
+    },
+    {
+      "id": "流量",
+      "type": "concept",
+      "tagline": "变化概念"
+    },
+    {
+      "id": "行为模式",
+      "type": "concept",
+      "tagline": "动态表现"
+    },
+    {
+      "id": "系统基模",
+      "type": "concept",
+      "tagline": "结构模式"
+    },
+    {
+      "id": "杠杆点",
+      "type": "concept",
+      "tagline": "干预概念"
+    },
+    {
+      "id": "副作用",
+      "type": "concept",
+      "tagline": "反作用概念"
+    },
+    {
+      "id": "反直觉",
+      "type": "concept",
+      "tagline": "系统特征"
+    },
+    {
+      "id": "心智模式",
+      "type": "concept",
+      "tagline": "深层结构"
+    },
+    {
+      "id": "动态复杂性",
+      "type": "concept",
+      "tagline": "复杂性类型"
+    },
+    {
+      "id": "从事件到结构 2",
+      "type": "concept",
+      "tagline": "把表层事件放回系统结构中。"
+    },
+    {
+      "id": "反馈回路 3",
+      "type": "concept",
+      "tagline": "用增强回路和平衡回路解释循环。"
+    },
+    {
+      "id": "延迟与存量流量 2",
+      "type": "concept",
+      "tagline": "理解为什么行动效果不会立刻出现。"
+    },
+    {
+      "id": "系统边界 3",
+      "type": "concept",
+      "tagline": "通过边界调整观察尺度和责任范围。"
+    },
+    {
+      "id": "系统基模与副作用 2",
+      "type": "concept",
+      "tagline": "识别常见结构陷阱和反作用。"
+    },
+    {
+      "id": "杠杆点与心智模式 2",
+      "type": "concept",
+      "tagline": "从浅层修补走向深层改变。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如何系统思考",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统不是要素清单",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈回路解释反复发生",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "延迟会制造错误判断",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "存量和流量决定变化速度",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界决定你看见什么",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "杠杆点常在心智模式深处",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "从事件到结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈回路",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "延迟与存量流量",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统边界",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统基模与副作用",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "杠杆点与心智模式",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "要素",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "连接",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "目标",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统边界 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈回路 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "增强回路",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "平衡回路",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "延迟",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "存量",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "流量",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "行为模式",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统基模",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "杠杆点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "副作用",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反直觉",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "心智模式",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "动态复杂性",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "从事件到结构 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈回路 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "延迟与存量流量 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统边界 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统基模与副作用 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "杠杆点与心智模式 2",
+      "type": "relates"
+    },
+    {
+      "source": "从事件到结构 2",
+      "target": "系统",
+      "type": "relates"
+    },
+    {
+      "source": "从事件到结构 2",
+      "target": "要素",
+      "type": "relates"
+    },
+    {
+      "source": "从事件到结构 2",
+      "target": "连接",
+      "type": "relates"
+    },
+    {
+      "source": "从事件到结构 2",
+      "target": "目标",
+      "type": "relates"
+    },
+    {
+      "source": "反馈回路 3",
+      "target": "增强回路",
+      "type": "relates"
+    },
+    {
+      "source": "反馈回路 3",
+      "target": "平衡回路",
+      "type": "relates"
+    },
+    {
+      "source": "延迟与存量流量 2",
+      "target": "延迟",
+      "type": "relates"
+    },
+    {
+      "source": "延迟与存量流量 2",
+      "target": "存量",
+      "type": "relates"
+    },
+    {
+      "source": "延迟与存量流量 2",
+      "target": "流量",
+      "type": "relates"
+    },
+    {
+      "source": "系统边界 3",
+      "target": "目标",
+      "type": "relates"
+    },
+    {
+      "source": "系统边界 3",
+      "target": "动态复杂性",
+      "type": "relates"
+    },
+    {
+      "source": "系统基模与副作用 2",
+      "target": "系统基模",
+      "type": "relates"
+    },
+    {
+      "source": "系统基模与副作用 2",
+      "target": "副作用",
+      "type": "relates"
+    },
+    {
+      "source": "系统基模与副作用 2",
+      "target": "反直觉",
+      "type": "relates"
+    },
+    {
+      "source": "杠杆点与心智模式 2",
+      "target": "杠杆点",
+      "type": "relates"
+    },
+    {
+      "source": "杠杆点与心智模式 2",
+      "target": "心智模式",
+      "type": "relates"
+    },
+    {
+      "source": "杠杆点与心智模式 2",
+      "target": "行为模式",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→如何系统思考": "K 卡",
+    "公开入口→系统不是要素清单": "K 卡",
+    "公开入口→反馈回路解释反复发生": "K 卡",
+    "公开入口→延迟会制造错误判断": "K 卡",
+    "公开入口→存量和流量决定变化速度": "K 卡",
+    "公开入口→边界决定你看见什么": "K 卡",
+    "公开入口→杠杆点常在心智模式深处": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→从事件到结构": "章节推进",
+    "公开入口→反馈回路": "章节推进",
+    "公开入口→延迟与存量流量": "章节推进",
+    "公开入口→系统边界": "章节推进",
+    "公开入口→系统基模与副作用": "章节推进",
+    "公开入口→杠杆点与心智模式": "章节推进",
+    "公开入口→系统": "N 卡",
+    "公开入口→要素": "N 卡",
+    "公开入口→连接": "N 卡",
+    "公开入口→目标": "N 卡",
+    "公开入口→系统边界 2": "N 卡",
+    "公开入口→反馈回路 2": "N 卡",
+    "公开入口→增强回路": "N 卡",
+    "公开入口→平衡回路": "N 卡",
+    "公开入口→延迟": "N 卡",
+    "公开入口→存量": "N 卡",
+    "公开入口→流量": "N 卡",
+    "公开入口→行为模式": "N 卡",
+    "公开入口→系统基模": "N 卡",
+    "公开入口→杠杆点": "N 卡",
+    "公开入口→副作用": "N 卡",
+    "公开入口→反直觉": "N 卡",
+    "公开入口→心智模式": "N 卡",
+    "公开入口→动态复杂性": "N 卡",
+    "公开入口→从事件到结构 2": "主题单元",
+    "公开入口→反馈回路 3": "主题单元",
+    "公开入口→延迟与存量流量 2": "主题单元",
+    "公开入口→系统边界 3": "主题单元",
+    "公开入口→系统基模与副作用 2": "主题单元",
+    "公开入口→杠杆点与心智模式 2": "主题单元",
+    "从事件到结构 2→系统": "相关概念",
+    "从事件到结构 2→要素": "相关概念",
+    "从事件到结构 2→连接": "相关概念",
+    "从事件到结构 2→目标": "相关概念",
+    "反馈回路 3→增强回路": "相关概念",
+    "反馈回路 3→平衡回路": "相关概念",
+    "延迟与存量流量 2→延迟": "相关概念",
+    "延迟与存量流量 2→存量": "相关概念",
+    "延迟与存量流量 2→流量": "相关概念",
+    "系统边界 3→目标": "相关概念",
+    "系统边界 3→动态复杂性": "相关概念",
+    "系统基模与副作用 2→系统基模": "相关概念",
+    "系统基模与副作用 2→副作用": "相关概念",
+    "系统基模与副作用 2→反直觉": "相关概念",
+    "杠杆点与心智模式 2→杠杆点": "相关概念",
+    "杠杆点与心智模式 2→心智模式": "相关概念",
+    "杠杆点与心智模式 2→行为模式": "相关概念"
+  }
+}

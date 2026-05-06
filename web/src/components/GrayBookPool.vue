@@ -3,14 +3,14 @@
     <div class="gray-scroll">
       <section class="gray-hero">
         <div>
-          <div class="tool-kicker">EXPANSION · GRAY POOL</div>
-          <h1>50 本灰度候选池</h1>
-          <p>这些书已经进入扩容候选，其中部分已转为正式轻量书页；公开页面只展示已改写内容。</p>
+          <div class="tool-kicker">PUBLIC LIBRARY · RELEASE LEDGER</div>
+          <h1>公开书库账本</h1>
+          <p>原“灰度池”不再作为待公开页面使用，而是保留为内部发布账本：记录已通过结构化质检书籍的公开层、证据来源、维护状态和后续补齐项。</p>
         </div>
 
         <div class="hero-stats">
           <article>
-            <span>候选</span>
+            <span>账本书目</span>
             <strong>{{ selectedCount }}</strong>
           </article>
           <article>
@@ -18,7 +18,7 @@
             <strong>{{ existingSiteBookCount }}</strong>
           </article>
           <article>
-            <span>未改写公开</span>
+            <span>原文未公开</span>
             <strong>{{ rawVaultReadyCount }}</strong>
           </article>
         </div>
@@ -30,7 +30,7 @@
           <input v-model="query" type="search" placeholder="书名、分类、质检文件" />
         </label>
 
-        <div class="filter-tabs" aria-label="灰度候选筛选">
+        <div class="filter-tabs" aria-label="书库账本筛选">
           <button
             v-for="option in filterOptions"
             :key="option.value"
@@ -44,11 +44,11 @@
 
       <section v-if="loading" class="state-panel">
         <div class="loading-spinner"></div>
-        <p>正在读取灰度候选池…</p>
+        <p>正在读取公开书库账本…</p>
       </section>
 
       <section v-else-if="error" class="state-panel">
-        <h2>灰度候选池暂时不可用</h2>
+        <h2>公开书库账本暂时不可用</h2>
         <p>{{ error }}</p>
       </section>
 
@@ -114,7 +114,7 @@ const filterOptions = [
   { value: 'knTable', label: '卡片表' },
   { value: 'structured', label: '结构化依据' },
   { value: 'entryDraft', label: '已有入口稿' },
-  { value: 'rewrite', label: '待转写' },
+  { value: 'rewrite', label: '待维护' },
 ]
 
 const books = computed(() => manifest.value?.books || [])
@@ -129,7 +129,7 @@ const filteredBooks = computed(() => {
     if (activeFilter.value === 'knTable' && !book.assets?.knTable) return false
     if (activeFilter.value === 'structured' && book.assets?.knTable) return false
     if (activeFilter.value === 'entryDraft' && !entrySampleFor(book)) return false
-    if (activeFilter.value === 'rewrite' && book.publicRewrite?.status === 'ready') return false
+    if (activeFilter.value === 'rewrite' && isPublicReady(book)) return false
 
     if (!keyword) return true
     return [
@@ -148,13 +148,13 @@ const filteredBooks = computed(() => {
 
 onMounted(async () => {
   try {
-    const response = await fetch('/registry/50_book_gray_manifest.json')
+    const response = await fetch('/registry/ready_structured_books_manifest.json')
     if (!response.ok) throw new Error(`HTTP ${response.status}`)
     manifest.value = await response.json()
     await loadRegistryBookCount()
     await loadPublicEntrySamples()
   } catch {
-    error.value = '没有读到 /registry/50_book_gray_manifest.json，请先运行 build_50_book_gray_manifest.mjs。'
+    error.value = '没有读到 /registry/ready_structured_books_manifest.json，请先重新生成公开书库账本。'
   } finally {
     loading.value = false
   }
@@ -190,8 +190,15 @@ function rewriteLabel(book) {
   if (entrySampleFor(book)?.status === 'promoted_full_nk') return '已进正式全量版'
   if (entrySampleFor(book)?.status === 'promoted_lightweight') return '已进正式轻量版'
   if (entrySampleFor(book)) return '入口稿已完成'
+  if (book.publicRewrite?.status === 'public_structured_nk') return '基础公开层'
   if (book.publicRewrite?.status === 'ready') return '已转写'
   return '待 public rewrite'
+}
+
+function isPublicReady(book) {
+  return ['ready', 'public_structured_nk', 'promoted_full_nk', 'promoted_lightweight'].includes(
+    book.publicRewrite?.status,
+  )
 }
 
 function entrySampleTitle(entry) {

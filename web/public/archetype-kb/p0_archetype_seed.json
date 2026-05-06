@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "id": "p0-literary-archetype-seed",
+    "title": "P0 文学原型转译种子",
+    "version": "0.1.0",
+    "created_at": "2026-05-03",
+    "purpose": "验证文学人物如何转译为人格系统、世界系统、规则系统和现代处境输出。",
+    "safety_note": "所有人格字段均为非诊断式叙事建模，不用于医学、心理诊断或真实用户贴标签。"
+  },
+  "source_works": [
+    {
+      "id": "lu_xun_blessing",
+      "title": "祝福",
+      "author": "鲁迅",
+      "source_type": "short_story",
+      "copyright_status": "public_domain_or_local_research",
+      "usable_scope": "archetype_research_and_public_commentary",
+      "primary_use": "共同体目光、苦难叙事、礼俗秩序"
+    },
+    {
+      "id": "lu_xun_true_story_aq",
+      "title": "阿Q正传",
+      "author": "鲁迅",
+      "source_type": "novella",
+      "copyright_status": "public_domain_or_local_research",
+      "usable_scope": "archetype_research_and_public_commentary",
+      "primary_use": "精神胜利、羞辱转嫁、弱者互害"
+    },
+    {
+      "id": "shakespeare_hamlet",
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "source_type": "play",
+      "copyright_status": "public_domain",
+      "usable_scope": "public_output",
+      "primary_use": "行动延迟、道德洁癖、宫廷监控"
+    },
+    {
+      "id": "dostoevsky_crime_punishment",
+      "title": "罪与罚",
+      "author": "陀思妥耶夫斯基",
+      "source_type": "novel",
+      "copyright_status": "public_domain_original_local_translation_research",
+      "usable_scope": "archetype_research_public_commentary_requires_translation_caution",
+      "primary_use": "观念越界、罪责、救赎、贫困城市"
+    }
+  ],
+  "archetype_cards": [
+    {
+      "id": "arq_xianglinsao_community_story",
+      "source_work_id": "lu_xun_blessing",
+      "source_character": "祥林嫂",
+      "archetype_name": "被共同体叙事吞没的人",
+      "one_sentence": "一个人的痛苦被反复讲述、围观和规训，最后连他自己也只能通过共同体给他的故事理解自己。",
+      "personality_system": {
+        "core_lack": "痛苦被反复讲述和围观，却没有被真正接住。",
+        "core_desire": "重新获得作为人的位置，而不是只作为苦难故事存在。",
+        "core_fear": "一旦停止讲述，连最后一点被看见的机会也会消失。",
+        "protective_strategy": "重复讲述创伤，用苦难换取短暂关注。",
+        "relationship_script": "倾诉 -> 被围观 -> 被规训/解释 -> 更孤立 -> 继续倾诉。",
+        "growth_edge": "从“他们怎么说我”移动到“我现在还想要什么”。",
+        "misread_risk": "不能把她简化成“爱抱怨的人”，重点是共同体如何让一个人失去新的叙事可能。"
+      },
+      "world_system": {
+        "world_name": "礼俗共同体",
+        "core_rule": "人是否有资格被接纳，由共同体的道德叙事决定。",
+        "resources": ["名声", "清白", "亲属位置", "劳动价值", "被允许参与节庆的资格"],
+        "taboos": ["不合礼俗的再婚", "失去干净身份", "反复触碰共同体不愿面对的死亡与不幸"],
+        "punishments": ["排斥", "冷淡", "闲谈", "道德化解释", "仪式性拒绝"],
+        "typical_scenes": ["节庆", "家门口", "雇佣关系", "闲谈现场", "反复被问起旧事"]
+      },
+      "rule_system": {
+        "primary_rules": ["公开评价", "重复询问", "资格审判", "信息不可逆"],
+        "state_variables": ["belonging", "shame", "voice", "old_story_weight", "new_desire"],
+        "review_question": "我是在寻找理解，还是在用重复讲述维持一个快要消失的位置？"
+      },
+      "modern_migrations": [
+        {
+          "id": "family_chat_repeated_pain",
+          "title": "家庭群里的反复倾诉",
+          "scene": "一个人反复讲述痛苦，亲友不断安慰、评价、转发经验，却没有人真正问：你现在想怎么活？",
+          "content_angle": "为什么有些同情会让人更孤独？",
+          "story_seed": "一个被家庭群反复询问旧伤的人，第一次只说出一个新选择。"
+        },
+        {
+          "id": "office_labor_symbol",
+          "title": "职场里的苦劳代表",
+          "scene": "一个长期吃苦的人被塑造成很能扛，组织只承认他的忍耐，不承认他的边界。",
+          "content_angle": "别把很能扛误认成真正的价值。",
+          "story_seed": "一个总被安排收尾的人，在项目复盘会上第一次把“我扛了什么”改成“系统漏了什么”。"
+        },
+        {
+          "id": "comment_area_sympathy",
+          "title": "评论区同情剧场",
+          "scene": "当事人的复杂生命被压缩成一个好可怜的故事，被流量消费后又被遗忘。",
+          "content_angle": "围观式共情为什么不一定是真正理解？",
+          "story_seed": "一个被爆款视频定义的人，开始创建一个完全不讲苦难的新账号。"
+        }
+      ]
+    },
+    {
+      "id": "arq_aq_spiritual_victory",
+      "source_work_id": "lu_xun_true_story_aq",
+      "source_character": "阿Q",
+      "archetype_name": "用精神胜利保护自尊的人",
+      "one_sentence": "现实中没有稳定尊严的人，用自我解释把失败改写成胜利，再把羞辱转嫁给更弱者。",
+      "personality_system": {
+        "core_lack": "现实中缺少稳定尊严，只能在自我叙事里修补自尊。",
+        "core_desire": "被承认、被尊重、被看作比别人强一点。",
+        "core_fear": "承认失败就等于承认自己毫无位置。",
+        "protective_strategy": "把失败重新解释成胜利，把羞辱转嫁给更弱者。",
+        "relationship_script": "被羞辱 -> 自我解释胜利 -> 找更安全的对象转移羞辱 -> 现实位置不变。",
+        "growth_edge": "承认受伤，而不是立刻把受伤改写成赢。",
+        "misread_risk": "不能把阿Q只当笑料；他揭示的是一个低尊严环境中自我保护和互害如何互相生成。"
+      },
+      "world_system": {
+        "world_name": "弱者互害的等级村镇",
+        "core_rule": "每个人都在寻找比自己更低的位置，以证明自己还不是最底层。",
+        "resources": ["面子", "称呼", "血统幻觉", "与权力的想象连接", "旁人的短暂畏惧"],
+        "taboos": ["承认自己无力", "承认被羞辱", "承认没有真正身份"],
+        "punishments": ["被嘲笑", "被排斥", "被当成笑料", "在重大事件中被牺牲"],
+        "typical_scenes": ["闲谈", "打架", "临时权力变化", "革命传闻", "围观审判"]
+      },
+      "rule_system": {
+        "primary_rules": ["地位比较", "羞辱转嫁", "叙事自我修补", "假性胜利"],
+        "state_variables": ["face", "injury", "reality_contact", "aggression_transfer", "self_respect"],
+        "review_question": "我刚刚是在保护尊严，还是在逃避事实？"
+      },
+      "modern_migrations": [
+        {
+          "id": "office_downward_aggression",
+          "title": "职场被压后找更弱者出气",
+          "scene": "被上级否定后，不敢面对真正权力，只能在新人、外包、家人身上找回控制感。",
+          "content_angle": "为什么人受了委屈，常常不是去找源头，而是找更弱的人？",
+          "story_seed": "一个职场人被老板骂后，在新人面前摆出“我当年更厉害”的姿态。"
+        },
+        {
+          "id": "creator_data_denial",
+          "title": "内容数据差后的嘴硬",
+          "scene": "明明笔记没有触达读者，却立刻解释为群众不懂、平台不行，从而跳过复盘。",
+          "content_angle": "嘴硬最贵的代价，是你失去了学习机会。",
+          "story_seed": "一个创作者把低数据笔记骂成平台问题，直到发现同题材别人爆了。"
+        },
+        {
+          "id": "relationship_last_word",
+          "title": "关系里的赢话术",
+          "scene": "争吵中不关心真实问题，只关心最后一句话是不是自己赢。",
+          "content_angle": "关系里总想赢的人，通常最怕承认自己受伤。",
+          "story_seed": "一对伴侣吵架，最后发现他们争的不是事实，而是谁有资格不丢脸。"
+        }
+      ]
+    },
+    {
+      "id": "arq_hamlet_self_watching",
+      "source_work_id": "shakespeare_hamlet",
+      "source_character": "Hamlet",
+      "archetype_name": "被自我观看困住的人",
+      "one_sentence": "世界要求他行动，但他必须先让自己的行动在道德、信息和自我审判中完全站得住。",
+      "personality_system": {
+        "core_lack": "世界已经要求行动，但内在还没有获得足够确定性。",
+        "core_desire": "做一个正确、干净、经得起审判的选择。",
+        "core_fear": "行动一旦错误，就会让自己变成和敌人一样的人。",
+        "protective_strategy": "不断分析、试探和延迟，用思考保持道德完整感。",
+        "relationship_script": "怀疑 -> 试探 -> 延迟 -> 周围人被卷入 -> 行动代价扩大。",
+        "growth_edge": "接受行动永远不可能在完全纯净的信息中发生。",
+        "misread_risk": "不能把哈姆雷特简化成拖延症；他的延迟来自真相不确定、道德洁癖和行动代价的纠缠。"
+      },
+      "world_system": {
+        "world_name": "监控型宫廷",
+        "core_rule": "每个人都在表演，每句话都可能被监听和利用。",
+        "resources": ["合法性", "继承权", "亲密信任", "情报", "公众形象"],
+        "taboos": ["直接说出真相", "直接表达脆弱", "公开挑战权力"],
+        "punishments": ["被监视", "被误读", "被利用", "被迫卷入阴谋"],
+        "typical_scenes": ["王庭", "戏中戏", "密谈", "墓地", "决斗"]
+      },
+      "rule_system": {
+        "primary_rules": ["信息不对称", "不可逆选择", "道德洁癖", "试探机制"],
+        "state_variables": ["certainty", "trust", "moral_purity", "action_window", "collateral_damage"],
+        "review_question": "我是在追求必要信息，还是在用分析延迟风险？"
+      },
+      "modern_migrations": [
+        {
+          "id": "career_decision_overanalysis",
+          "title": "重大选择前反复分析",
+          "scene": "跳槽、分手、创业、升学前，不断要求绝对确定，导致窗口期消失。",
+          "content_angle": "为什么越聪明的人越容易卡在重大选择前？",
+          "story_seed": "一个准备离职的人做了 17 页利弊分析，却始终没有发出那封邮件。"
+        },
+        {
+          "id": "organization_politics_freeze",
+          "title": "组织政治里的行动瘫痪",
+          "scene": "看见问题却担心被利用、被误读、站错队，于是只做更复杂的观察。",
+          "content_angle": "有些谨慎，其实是把自己困在旁观者位置。",
+          "story_seed": "一个中层知道项目会失败，却一直等到所有人都同意才敢说。"
+        },
+        {
+          "id": "intimacy_moral_test",
+          "title": "亲密关系里的道德审判",
+          "scene": "对关系里的不完美极度敏感，宁愿不断试探，也不愿直接表达需要。",
+          "content_angle": "亲密关系不是法庭，伴侣也不是证人。",
+          "story_seed": "一个人设计了三次试探，最后发现自己最怕的是直接请求。"
+        }
+      ]
+    },
+    {
+      "id": "arq_raskolnikov_idea_permission",
+      "source_work_id": "dostoevsky_crime_punishment",
+      "source_character": "拉斯柯尔尼科夫",
+      "archetype_name": "用观念许可自己越界的人",
+      "one_sentence": "当现实贫困和自我优越感无法调和，他用宏大观念给自己的越界行为开出许可。",
+      "personality_system": {
+        "core_lack": "现实贫困与自我优越感之间无法调和。",
+        "core_desire": "证明自己不是普通人，自己的痛苦和理论有特殊意义。",
+        "core_fear": "如果自己只是普通人，那么所有痛苦都只是无意义的失败。",
+        "protective_strategy": "用宏大观念为越界行为提供道德豁免。",
+        "relationship_script": "孤立推理 -> 自我授权 -> 越界行动 -> 罪责回声 -> 寻求审判或救赎。",
+        "growth_edge": "从“我是否有权越界”回到“我是否还能承认他人也是人”。",
+        "misread_risk": "不能把他简化成犯罪人格；关键是观念、贫困、孤立和优越感如何共同制造越界许可。"
+      },
+      "world_system": {
+        "world_name": "贫困与观念极端化的城市",
+        "core_rule": "资源稀缺、阶层压迫和观念自大共同制造越界诱惑。",
+        "resources": ["钱", "尊严", "理论优越感", "道德自证", "救赎关系"],
+        "taboos": ["承认自己的普通性", "承认他人的不可被工具化"],
+        "punishments": ["内疚", "发热", "孤立", "关系破裂", "被现实和良心双重追捕"],
+        "typical_scenes": ["狭小房间", "街道", "警局", "病中幻觉", "忏悔关系"]
+      },
+      "rule_system": {
+        "primary_rules": ["道德豁免", "孤立推理", "罪责回声", "救赎关系"],
+        "state_variables": ["idea_intensity", "empathy", "guilt", "isolation", "confession_readiness"],
+        "review_question": "我现在是在坚持原则，还是在用原则给自己开特权？"
+      },
+      "modern_migrations": [
+        {
+          "id": "startup_vision_harm",
+          "title": "创业中用大目标合理化伤害",
+          "scene": "为了产品、增长、愿景，把团队成员当成可消耗资源。",
+          "content_angle": "为什么有些人越有理想，越容易伤害具体的人？",
+          "story_seed": "一个创业者以为了团队活下去为名，做了第一次隐瞒。"
+        },
+        {
+          "id": "workplace_special_exception",
+          "title": "职场里用能力感许可越界",
+          "scene": "觉得自己更聪明、更看得远，于是绕过规则、隐瞒信息或操控他人。",
+          "content_angle": "能力感最危险的地方，是让人觉得自己有资格例外。",
+          "story_seed": "一个高绩效员工用正确结果证明错误手段，直到团队开始不再信他。"
+        },
+        {
+          "id": "content_moral_superiority",
+          "title": "内容创作里的道德优越",
+          "scene": "用我是为了唤醒大家合理化羞辱、审判和煽动。",
+          "content_angle": "表达正义时，别把具体的人踩成道具。",
+          "story_seed": "一个博主发现自己最爆的内容，正是最不把人当人的那一条。"
+        }
+      ]
+    }
+  ],
+  "rule_cards": [
+    {
+      "id": "rule_public_judgement",
+      "title": "公开评价",
+      "pressure": "所有选择都会被旁观者看见、转述和排名。",
+      "reveals": ["羞耻敏感", "证明欲", "讨好倾向", "身份焦虑"],
+      "mechanics": ["公开发言", "即时评价", "旁观者转述", "资格判定"]
+    },
+    {
+      "id": "rule_status_comparison",
+      "title": "地位比较",
+      "pressure": "每个角色都需要确认自己不是最低位置。",
+      "reveals": ["自尊脆弱", "羞辱转嫁", "弱者互害", "假性胜利"],
+      "mechanics": ["面子值", "羞辱事件", "下位对象", "短期自尊修复"]
+    },
+    {
+      "id": "rule_asymmetric_information",
+      "title": "信息不对称",
+      "pressure": "无法确认完整真相，却必须决定是否行动。",
+      "reveals": ["过度分析", "怀疑", "试探", "行动延迟"],
+      "mechanics": ["隐藏信息", "证据卡", "信任消耗", "行动窗口"]
+    },
+    {
+      "id": "rule_moral_exception",
+      "title": "道德豁免",
+      "pressure": "玩家可以用宏大理由降低一次越界成本，但会增加长期罪责。",
+      "reveals": ["优越感", "工具化他人", "孤立推理", "罪责回声"],
+      "mechanics": ["愿景筹码", "共情值下降", "罪责值上升", "忏悔触发"]
+    }
+  ],
+  "p0_acceptance": {
+    "minimum_outputs_per_card": ["1 张人格原型卡", "1 张世界系统卡", "1 组规则压力", "3 个现代处境", "1 个内容选题", "1 个故事种子", "1 个复盘问题"],
+    "next_expansion_target": 12,
+    "expert_review_needed": ["文学叙事学", "心理动力学", "家庭系统", "游戏设计", "内容策略"]
+  }
+}

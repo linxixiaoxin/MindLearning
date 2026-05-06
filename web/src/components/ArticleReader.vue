@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="reader-wrap">
     <div class="reader-header">
       <button class="back-btn" @click="$emit('close')">
@@ -10,8 +10,8 @@
 
       <div class="reader-breadcrumb">
         <span class="breadcrumb-type" :style="{ color: typeMeta.color }">{{ typeMeta.label }}</span>
-        <span class="breadcrumb-sep">›</span>
-        <span class="breadcrumb-title">{{ nodeId }}</span>
+        <span class="breadcrumb-sep"> / </span>
+        <span class="breadcrumb-title">{{ currentNodeTitle }}</span>
       </div>
 
       <span class="reader-tagline">{{ nodeTagline }}</span>
@@ -26,17 +26,17 @@
       <div v-else-if="error" class="reader-state">
         <div class="state-icon">📄</div>
         <div class="state-title">暂无对应内容</div>
-        <div class="state-desc">“{{ nodeId }}” 还没有对应 Markdown 文件，可以先回到图谱继续查看相关节点。</div>
+          <div class="state-desc">“{{ currentNodeTitle }}” 还没有对应 Markdown 文件，可以先回到图谱继续查看相关节点。</div>
         <button class="back-btn-lg" @click="$emit('close')">返回上一步</button>
       </div>
 
       <div v-else>
-        <div v-if="canvasCard" class="article-canvas-hero">
+        <div v-if="visualCard" class="article-canvas-hero">
           <canvas ref="canvasRef" width="1440" height="760" class="structure-canvas"></canvas>
         </div>
 
-        <div v-else-if="nodeImage" class="article-hero">
-          <img :src="nodeImage" :alt="`${nodeId} 对应配图`" class="hero-image" />
+        <div v-else-if="showNodeImage" class="article-hero">
+          <img :src="nodeImage" :alt="`${currentNodeTitle} 对应配图`" class="hero-image" />
         </div>
 
         <div v-if="frontmatter.tags.length || frontmatter.created" class="article-meta">
@@ -54,6 +54,7 @@
 
 <script setup>
 import { computed, nextTick, ref, watch } from 'vue'
+import DOMPurify from 'dompurify'
 import { marked } from 'marked'
 
 const props = defineProps({
@@ -72,11 +73,21 @@ const renderedHtml = ref('')
 const frontmatter = ref({ tags: [], created: '', layer: '' })
 const canvasRef = ref(null)
 
-const currentNode = computed(() => (props.bookData?.NODES || []).find((node) => node.id === props.nodeId))
+const canonicalNodeId = computed(() => resolveCanonicalNodeId(props.nodeId))
+const currentNode = computed(() => (props.bookData?.NODES || []).find((node) => node.id === canonicalNodeId.value))
+const currentNodeTitle = computed(() => canonicalNodeId.value || props.nodeId || '')
 const typeMeta = computed(() => (props.bookData?.NODE_TYPE_META || {})[currentNode.value?.type] || { label: '', color: '#7f8790' })
 const nodeTagline = computed(() => currentNode.value?.tagline || '')
-const nodeImage = computed(() => props.bookData?.NODE_IMAGES?.[props.nodeId] || '')
-const canvasCard = computed(() => props.bookData?.CANVAS_CARDS?.[props.nodeId] || null)
+const nodeImage = computed(() => props.bookData?.NODE_IMAGES?.[canonicalNodeId.value] || '')
+const shouldSkipHero = computed(() => {
+  const node = currentNode.value
+  return !node || shouldSkipVisualCard(node)
+})
+const canvasCard = computed(() => props.bookData?.CANVAS_CARDS?.[canonicalNodeId.value] || null)
+const relatedNodeLabels = computed(() => buildRelatedNodeLabels(canonicalNodeId.value))
+const visualCard = computed(() => buildVisualCard())
+const noCanvasNode = computed(() => shouldSkipVisualCard(currentNode.value))
+const showNodeImage = computed(() => Boolean(nodeImage.value) && !shouldSkipHero.value)
 const markdownPathMap = computed(() => {
   const entries = Object.entries(props.bookData?.FILE_MAP || {})
   const map = {}
@@ -92,14 +103,15 @@ const markdownPathMap = computed(() => {
 })
 
 async function loadContent(id) {
-  if (!id) return
+  const canonicalId = resolveCanonicalNodeId(id)
+  if (!canonicalId) return
 
   loading.value = true
   error.value = false
   renderedHtml.value = ''
   frontmatter.value = { tags: [], created: '', layer: '' }
 
-  const path = props.bookData?.FILE_MAP?.[id]
+  const path = props.bookData?.FILE_MAP?.[canonicalId]
   if (!path) {
     loading.value = false
     error.value = true
@@ -107,9 +119,7 @@ async function loadContent(id) {
   }
 
   try {
-    const response = await fetch(path)
-    if (!response.ok) throw new Error('not found')
-    let text = await response.text()
+    let text = await fetchTextContent(path)
 
     const match = text.match(/^(?:\uFEFF)?---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
     if (match) {
@@ -139,7 +149,7 @@ async function loadContent(id) {
       return `<span class="qa-label">${label}</span>：`
     })
 
-    renderedHtml.value = marked.parse(processed, { breaks: true })
+    renderedHtml.value = sanitizeMarkdownHtml(marked.parse(processed, { breaks: true }))
   } catch {
     error.value = true
   } finally {
@@ -147,6 +157,143 @@ async function loadContent(id) {
     await nextTick()
     drawCanvasCard()
   }
+}
+
+async function fetchTextContent(path) {
+  const response = await fetch(path)
+  if (!response.ok) throw new Error('not found')
+
+  const buffer = await response.arrayBuffer()
+  const utf8Text = new TextDecoder('utf-8').decode(buffer)
+
+  if (!hasTextCorruption(utf8Text)) return utf8Text
+
+  // 某些历史文件在 Windows 环境可能是 GBK/GB2312 编码，回退尝试恢复中文内容
+  try {
+    const gbkText = new TextDecoder('gbk').decode(buffer)
+    if (!hasTextCorruption(gbkText)) return gbkText
+    return gbkText
+  } catch {
+    return utf8Text
+  }
+}
+
+function hasTextCorruption(text) {
+  return /�/u.test(text) || /[\u00A0-\u00BF][\u0080-\u00BF]/u.test(text)
+}
+
+function sanitizeMarkdownHtml(html) {
+  return DOMPurify.sanitize(html, {
+    ADD_ATTR: ['data-wiki'],
+    FORBID_TAGS: ['script', 'style', 'iframe', 'object', 'embed'],
+  })
+}
+
+function resolveCanonicalNodeId(rawNodeId) {
+  const source = normalizeNodeId(rawNodeId)
+  if (!source || !props.bookData) return ''
+
+  if (props.bookData.FILE_MAP?.[source]) return source
+
+  const alias = props.bookData.ALIAS_MAP?.[source]
+  if (alias && props.bookData.FILE_MAP?.[alias]) return alias
+
+  for (const node of props.bookData.NODES || []) {
+    if (normalizeNodeId(node?.id) === source) return node.id
+  }
+
+  for (const [nodeId, filePath] of Object.entries(props.bookData.FILE_MAP || {})) {
+    const stem = normalizeNodeId(markdownStem(filePath))
+    if (stem === source || normalizeNodeId(nodeId) === source) return nodeId
+  }
+
+  const bySimilarity = findNodeIdBySimilarity(source, props.bookData)
+  if (bySimilarity) return bySimilarity
+
+  return source
+}
+
+function normalizeNodeId(value) {
+  return String(value || '')
+    .replace(/\u00A0/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function findNodeIdBySimilarity(normalizedId, bookData) {
+  const match = normalizedId.match(/^(.*?)(\d+)$/)
+  if (!match) return ''
+
+  const targetNumber = match[2]
+  const targetCore = normalizeNodeText(match[1])
+  const candidates = new Set([
+    ...Object.keys(bookData.FILE_MAP || {}),
+    ...((bookData.NODES || []).map((node) => node?.id).filter(Boolean)),
+  ])
+
+  let bestMatch = ''
+  let bestDistance = Number.POSITIVE_INFINITY
+
+  for (const candidate of candidates) {
+    const normalizedCandidate = normalizeNodeText(candidate)
+    const candidateMatch = normalizedCandidate.match(/^(.*?)(\d+)$/)
+    if (!candidateMatch) continue
+    if (candidateMatch[2] !== targetNumber) continue
+
+    const candidateCore = normalizeNodeText(candidateMatch[1])
+    if (!candidateCore) continue
+
+    if (candidateCore.includes(targetCore) || targetCore.includes(candidateCore)) {
+      return candidate
+    }
+
+    const distance = levenshteinDistance(candidateCore, targetCore)
+    if (distance < bestDistance) {
+      bestDistance = distance
+      bestMatch = candidate
+    }
+  }
+
+  return bestDistance <= 2 ? bestMatch : ''
+}
+
+function normalizeNodeText(value) {
+  return normalizeNodeId(value).replace(/\s+/g, '')
+}
+
+function levenshteinDistance(left, right) {
+  const leftText = String(left || '')
+  const rightText = String(right || '')
+  const aLen = leftText.length
+  const bLen = rightText.length
+
+  if (aLen === 0) return bLen
+  if (bLen === 0) return aLen
+
+  let previousRow = new Array(bLen + 1)
+  let currentRow = new Array(bLen + 1)
+
+  for (let j = 0; j <= bLen; j += 1) {
+    previousRow[j] = j
+  }
+
+  for (let i = 1; i <= aLen; i += 1) {
+    currentRow[0] = i
+    for (let j = 1; j <= bLen; j += 1) {
+      const cost = leftText[i - 1] === rightText[j - 1] ? 0 : 1
+      currentRow[j] = Math.min(
+        previousRow[j] + 1,
+        currentRow[j - 1] + 1,
+        previousRow[j - 1] + cost,
+      )
+    }
+
+    const swap = previousRow
+    previousRow = currentRow
+    currentRow = swap
+  }
+
+  return previousRow[bLen]
 }
 
 function onArticleClick(event) {
@@ -187,31 +334,28 @@ function resolveMarkdownTarget(href) {
   if (!stem) return ''
 
   const directNode = props.bookData?.FILE_MAP?.[stem]
-  if (directNode) return stem
+  if (directNode) return resolveCanonicalNodeId(stem)
 
-  return (
-    props.bookData?.ALIAS_MAP?.[stem]
-    || markdownPathMap.value[stem]
-    || ''
-  )
+  const linkedNode = props.bookData?.ALIAS_MAP?.[stem] || markdownPathMap.value[stem]
+  return linkedNode ? resolveCanonicalNodeId(linkedNode) : ''
 }
 
 watch(
-  () => [props.nodeId, props.bookData],
+  () => [canonicalNodeId.value, props.bookData],
   ([id]) => {
     loadContent(id)
   },
   { immediate: true },
 )
 
-watch(canvasCard, () => {
+watch(visualCard, () => {
   if (!loading.value && !error.value) drawCanvasCard()
 })
 
 function drawCanvasCard() {
   nextTick(() => {
     const canvas = canvasRef.value
-    const card = canvasCard.value
+    const card = visualCard.value
     if (!canvas || !card) return
 
     const ctx = canvas.getContext('2d')
@@ -238,6 +382,138 @@ function drawCanvasCard() {
     else if (card.template === 'compass') drawCompass(ctx, card, palette, width, height)
     else drawModernDilemma(ctx, card, palette, width, height)
   })
+}
+
+function buildVisualCard() {
+  const explicitCard = canvasCard.value
+  const node = currentNode.value
+  if (noCanvasNode.value && !explicitCard) return null
+  if (!explicitCard && (!node || (nodeImage.value && shouldSkipVisualCard(node)))) return null
+
+  const card = {
+    title: canonicalNodeId.value,
+    kicker: typeMeta.value?.label || 'CARD',
+    subtitle: nodeTagline.value || props.bookData?.SITE?.subtitle || '',
+    template: templateForNode(node),
+    center: centerForNode(node),
+    nodes: relatedNodeLabels.value,
+    ...explicitCard,
+  }
+
+  const nodes = shouldUseDerivedNodes(card.nodes) ? relatedNodeLabels.value : card.nodes
+  return {
+    ...card,
+    title: card.title || canonicalNodeId.value,
+    kicker: card.kicker || typeMeta.value?.label || 'CARD',
+    subtitle: card.subtitle || nodeTagline.value || '',
+    center: card.center && !isGenericCenter(card.center) ? card.center : centerForNode(node),
+    nodes: nodes.length ? nodes : fallbackNodesForNode(node),
+  }
+}
+
+function shouldSkipVisualCard(node) {
+  if (!node) return true
+  if (node.type !== 'expression') return false
+  return relatedNodeLabels.value.length === 0 && !nodeImage.value
+}
+
+function buildRelatedNodeLabels(id) {
+  if (!id) return []
+  const nodeMap = new Map((props.bookData?.NODES || []).map((node) => [node.id, node]))
+  const linkLabels = props.bookData?.LINK_LABELS || {}
+  const labels = []
+  for (const link of props.bookData?.LINKS || []) {
+    const source = typeof link.source === 'object' ? link.source.id : link.source
+    const target = typeof link.target === 'object' ? link.target.id : link.target
+    const neighborId = source === id ? target : target === id ? source : ''
+    if (!neighborId || neighborId === id) continue
+
+    const neighbor = nodeMap.get(neighborId)
+    const rawLabel = resolveLinkLabel(id, neighborId, linkLabels)
+    const fallbackLabel = `${rawLabel ? `${rawLabel} : ` : ''}${neighbor?.id || neighborId}`
+    labels.push({
+      id: rawLabel || neighborId,
+      display: fallbackLabel,
+      type: neighbor?.type || 'link',
+      score: relatedTypeScore(neighbor?.type || 'relation'),
+    })
+  }
+
+  return labels
+    .sort((a, b) => b.score - a.score || a.id.length - b.id.length)
+    .map((item) => item.display)
+    .filter(unique)
+    .slice(0, 4)
+}
+
+function resolveLinkLabel(sourceId, targetId, linkLabels = {}) {
+  if (!sourceId || !targetId) return ''
+
+  const candidates = [
+    `${sourceId}${'\u2192'}${targetId}`,
+    `${sourceId}->${targetId}`,
+    `${targetId}${'\u2192'}${sourceId}`,
+    `${targetId}->${sourceId}`,
+  ]
+
+  for (const key of candidates) {
+    if (Object.prototype.hasOwnProperty.call(linkLabels, key)) {
+      return String(linkLabels[key] || '').trim()
+    }
+  }
+
+  return ''
+}
+function relatedTypeScore(type) {
+  if (type === 'concept') return 5
+  if (type === 'method') return 4
+  if (type === 'scenario') return 3
+  if (type === 'chapter') return 2
+  if (type === 'book') return 1
+  return 0
+}
+
+function unique(value, index, array) {
+  return array.indexOf(value) === index
+}
+
+function shouldUseDerivedNodes(nodes = []) {
+  const genericSets = [
+    '私人感受|社会标准|文化参照|重新观看',
+    '私人刺痛|社会标准|替代参照|温柔命名',
+    '困境|场景|参照|观看',
+    '哲学|艺术|政治|宗教',
+  ]
+  const signature = (nodes || []).join('|')
+  return !nodes?.length || genericSets.includes(signature)
+}
+
+function isGenericCenter(center = '') {
+  return ['现代生活困境', '当前困境', '替代参照', '书籍入口'].includes(center)
+}
+
+function templateForNode(node) {
+  if (!node) return 'modern-dilemma'
+  if (node.type === 'method') return 'translation'
+  if (node.type === 'scenario') return 'scene-window'
+  if (node.type === 'book' || node.type === 'topic') return 'compass'
+  return 'modern-dilemma'
+}
+
+function centerForNode(node) {
+  if (!node) return canonicalNodeId.value || '当前节点'
+  if (node.type === 'book') return '书籍入口'
+  if (node.type === 'method') return '方法动作'
+  if (node.type === 'scenario') return '现场问题'
+  if (node.type === 'topic') return '主题主线'
+  return canonicalNodeId.value || '核心概念'
+}
+
+function fallbackNodesForNode(node) {
+  if (node?.type === 'method') return ['触发情境', canonicalNodeId.value, '最小动作']
+  if (node?.type === 'scenario') return ['现场表象', '内在结构', '可试动作']
+  if (node?.type === 'book' || node?.type === 'topic') return ['主问题', '关键概念', '方法出口', '应用场景']
+  return ['来源问题', '相邻概念', '方法出口', '现实场景']
 }
 
 function drawBackground(ctx, width, height) {
@@ -577,7 +853,7 @@ function drawArrow(ctx, x1, y1, x2, y2, color) {
 .hero-image {
   display: block;
   width: 100%;
-  border-radius: 20px;
+  border-radius: var(--radius-card);
   border: 1px solid var(--border-default);
   box-shadow: var(--shadow-sm);
   background: rgba(255, 255, 255, 0.72);
@@ -587,7 +863,7 @@ function drawArrow(ctx, x1, y1, x2, y2, color) {
   display: block;
   width: 100%;
   aspect-ratio: 1440 / 760;
-  border-radius: 20px;
+  border-radius: var(--radius-card);
   border: 1px solid var(--border-default);
   box-shadow: var(--shadow-sm);
   background: rgba(255, 255, 255, 0.72);
@@ -682,7 +958,7 @@ function drawArrow(ctx, x1, y1, x2, y2, color) {
   width: 100%;
   max-width: 100%;
   margin: 18px 0 22px;
-  border-radius: 18px;
+  border-radius: var(--radius-card);
   border: 1px solid var(--border-default);
   box-shadow: var(--shadow-sm);
   background: rgba(255, 255, 255, 0.72);
@@ -738,7 +1014,7 @@ function drawArrow(ctx, x1, y1, x2, y2, color) {
 
 .md-content pre {
   padding: 16px;
-  border-radius: 14px;
+  border-radius: var(--radius-control);
   background: var(--bg-deep);
   overflow-x: auto;
 }
@@ -780,3 +1056,5 @@ function drawArrow(ctx, x1, y1, x2, y2, color) {
   }
 }
 </style>
+
+

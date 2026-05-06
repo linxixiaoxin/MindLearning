@@ -1,0 +1,123 @@
+{
+  "title": "思考，快与慢",
+  "shortTitle": "快与慢",
+  "subtitle": "为什么第一反应总像是真的",
+  "description": "基于《思考，快与慢》已通过质检的结构化资产，接入全书摘要、核心问题、核心概念、方法动作、场景案例、章节地图和表达延展节点。",
+  "heroOverline": "BOOK · JUDGMENT BIAS",
+  "heroTitleLines": [
+    "快与慢",
+    "为什么第一反应总像是真的"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260430-full-nk",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+  "recommendedPath": [
+    "公开入口",
+    "问题意识在全书中解决什么问题？",
+    "问题意识",
+    "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。",
+    "现实场景在全书中解决什么问题？ 2"
+  ],
+  "quickLinks": [
+    "全书摘要",
+    "全书结构",
+    "问题意识 2",
+    "关键机制 2",
+    "用问题意识检查问题意识",
+    "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到章节推进，再接回主题、概念、方法和现实场景，形成一条可以来回穿梭的阅读路径。",
+  "journeyEntryLabel": "从公开入口进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "起点总览",
+      "node": "公开入口",
+      "image": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "summary": "先看清整本书的总问题和阅读入口。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "核心入口",
+      "node": "问题意识",
+      "image": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "summary": "进入「问题意识」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "推进节点",
+      "node": "关键机制",
+      "image": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "summary": "进入「关键机制」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "推进节点",
+      "node": "现实场景",
+      "image": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "summary": "进入「现实场景」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "推进节点",
+      "node": "问题意识在全书中解决什么问题？ 2",
+      "image": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "summary": "进入「问题意识在全书中解决什么问题？ 2」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "推进节点",
+      "node": "关键机制在全书中解决什么问题？ 2",
+      "image": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "summary": "进入「关键机制在全书中解决什么问题？ 2」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.6",
+      "stage": "推进节点",
+      "node": "现实场景在全书中解决什么问题？ 2",
+      "image": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+      "summary": "进入「现实场景在全书中解决什么问题？ 2」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "4"
+    },
+    {
+      "label": "章节",
+      "value": "6"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "9"
+    },
+    {
+      "label": "场景",
+      "value": "12"
+    }
+  ],
+  "slug": "thinking-fast-and-slow",
+  "author": "丹尼尔·卡尼曼",
+  "primaryCategory": "认知决策与系统思考",
+  "secondaryCategory": "判断偏差与行为决策",
+  "standardizedProfile": {
+    "basedOn": [
+      "mindset-traps",
+      "leadership-evolution"
+    ],
+    "updatedAt": "2026-04-30",
+    "version": "reference_profile_v1"
+  }
+}

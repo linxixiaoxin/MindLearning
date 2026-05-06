@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-c47f725845/chapter-images/overview.svg",
+    "全书摘要": "/books/book-c47f725845/chapter-images/overview.svg",
+    "全书结构": "/books/book-c47f725845/chapter-images/overview.svg",
+    "《批判性思维带你走出思维的误区》如何帮助读者看见判断背后的模型、偏差和系统结构。": "/books/book-c47f725845/chapter-images/overview.svg",
+    "《批判性思维带你走出思维的误区》中的哪些概念最适合转成问题工作台节点？": "/books/book-c47f725845/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-c47f725845/chapter-images/overview.svg",
+    "批判性思维带你走出思维的误区": "/books/book-c47f725845/chapter-images/overview.svg",
+    "批判性思维基础": "/books/book-c47f725845/chapter-images/overview.svg",
+    "两种推理": "/books/book-c47f725845/chapter-images/overview.svg",
+    "清晰的思维、批判性思维与清晰的写作": "/books/book-c47f725845/chapter-images/overview.svg",
+    "可信度": "/books/book-c47f725845/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-c47f725845/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-c47f725845/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-c47f725845/chapter-images/overview.svg",
+    "批判性思维基础 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "两种推理 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "清晰的思维、批判性思维与清晰的写作 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "可信度 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "通过修辞进行说服——常见的修辞技巧": "/books/book-c47f725845/chapter-images/overview.svg",
+    "更多修辞技巧——心理及相关谬误": "/books/book-c47f725845/chapter-images/overview.svg",
+    "问题定义": "/books/book-c47f725845/chapter-images/overview.svg",
+    "认知偏差": "/books/book-c47f725845/chapter-images/overview.svg",
+    "模型": "/books/book-c47f725845/chapter-images/overview.svg",
+    "系统结构": "/books/book-c47f725845/chapter-images/overview.svg",
+    "反馈": "/books/book-c47f725845/chapter-images/overview.svg",
+    "决策边界": "/books/book-c47f725845/chapter-images/overview.svg",
+    "证据": "/books/book-c47f725845/chapter-images/overview.svg",
+    "反直觉": "/books/book-c47f725845/chapter-images/overview.svg",
+    "批判性思维基础 3": "/books/book-c47f725845/chapter-images/overview.svg",
+    "两种推理 3": "/books/book-c47f725845/chapter-images/overview.svg",
+    "清晰的思维、批判性思维与清晰的写作 3": "/books/book-c47f725845/chapter-images/overview.svg",
+    "可信度 3": "/books/book-c47f725845/chapter-images/overview.svg",
+    "通过修辞进行说服——常见的修辞技巧 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "更多修辞技巧——心理及相关谬误 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-c47f725845/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-c47f725845/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-c47f725845/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-c47f725845/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-c47f725845/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-c47f725845/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-c47f725845/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《批判性思维带你走出思维的误区》如何帮助读者看见判断背后的模型、偏差和系统结构。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《批判性思维带你走出思维的误区》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "批判性思维带你走出思维的误区",
+      "type": "question",
+      "tagline": "《批判性思维带你走出思维的误区》如何帮助读者看见判断背后的模型、偏差和系统结构。"
+    },
+    {
+      "id": "批判性思维基础",
+      "type": "question",
+      "tagline": "好思考先定义问题，而不是急着找答案。"
+    },
+    {
+      "id": "两种推理",
+      "type": "question",
+      "tagline": "模型能照亮现实，也会遮蔽现实。"
+    },
+    {
+      "id": "清晰的思维、批判性思维与清晰的写作",
+      "type": "question",
+      "tagline": "很多决策错误来自没有看见边界、反馈和偏差。"
+    },
+    {
+      "id": "可信度",
+      "type": "question",
+      "tagline": "系统思考要求同时看要素、连接、目标和时间。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "好思考先定义问题，而不是急着找答案。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "模型能照亮现实，也会遮蔽现实。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "很多决策错误来自没有看见边界、反馈和偏差。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "系统思考要求同时看要素、连接、目标和时间。"
+    },
+    {
+      "id": "批判性思维基础 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“批判性思维基础”，用于把《批判性思维带你走出思维的误区》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "两种推理 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“两种推理”，用于把《批判性思维带你走出思维的误区》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "清晰的思维、批判性思维与清晰的写作 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“清晰的思维、批判性思维与清晰的写作”，用于把《批判性思维带你走出思维的误区》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "可信度 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“可信度”，用于把《批判性思维带你走出思维的误区》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "通过修辞进行说服——常见的修辞技巧",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“通过修辞进行说服——常见的修辞技巧”，用于把《批判性思维带你走出思维的误区》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "更多修辞技巧——心理及相关谬误",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“更多修辞技巧——心理及相关谬误”，用于把《批判性思维带你走出思维的误区》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "问题定义",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "认知偏差",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "模型",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "系统结构",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "反馈",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "决策边界",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "证据",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "反直觉",
+      "type": "concept",
+      "tagline": "围绕心智、模型、偏差、系统和选择的可复用节点"
+    },
+    {
+      "id": "批判性思维基础 3",
+      "type": "concept",
+      "tagline": "围绕“批判性思维基础”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "两种推理 3",
+      "type": "concept",
+      "tagline": "围绕“两种推理”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "清晰的思维、批判性思维与清晰的写作 3",
+      "type": "concept",
+      "tagline": "围绕“清晰的思维、批判性思维与清晰的写作”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "可信度 3",
+      "type": "concept",
+      "tagline": "围绕“可信度”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "通过修辞进行说服——常见的修辞技巧 2",
+      "type": "concept",
+      "tagline": "围绕“通过修辞进行说服——常见的修辞技巧”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "更多修辞技巧——心理及相关谬误 2",
+      "type": "concept",
+      "tagline": "围绕“更多修辞技巧——心理及相关谬误”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "为什么聪明人也会判断失误"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "模型不是答案，而是观察镜头"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "先定义问题再找方法"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "系统问题不能靠单点动作解决"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "问题树"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "模型镜头组"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "反馈回路图"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "决策校正清单"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《批判性思维带你走出思维的误区》如何帮助读者看见判断背后的模型、偏差和系统结构。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《批判性思维带你走出思维的误区》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "批判性思维带你走出思维的误区",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "批判性思维基础",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "两种推理",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "清晰的思维、批判性思维与清晰的写作",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "可信度",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "批判性思维基础 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "两种推理 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "清晰的思维、批判性思维与清晰的写作 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "可信度 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "通过修辞进行说服——常见的修辞技巧",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "更多修辞技巧——心理及相关谬误",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题定义",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "认知偏差",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "模型",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "系统结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "决策边界",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "证据",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反直觉",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "批判性思维基础 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "两种推理 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "清晰的思维、批判性思维与清晰的写作 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "可信度 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "通过修辞进行说服——常见的修辞技巧 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "更多修辞技巧——心理及相关谬误 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "批判性思维基础 3",
+      "target": "问题定义",
+      "type": "relates"
+    },
+    {
+      "source": "批判性思维基础 3",
+      "target": "认知偏差",
+      "type": "relates"
+    },
+    {
+      "source": "批判性思维基础 3",
+      "target": "模型",
+      "type": "relates"
+    },
+    {
+      "source": "批判性思维基础 3",
+      "target": "系统结构",
+      "type": "relates"
+    },
+    {
+      "source": "两种推理 3",
+      "target": "认知偏差",
+      "type": "relates"
+    },
+    {
+      "source": "两种推理 3",
+      "target": "模型",
+      "type": "relates"
+    },
+    {
+      "source": "两种推理 3",
+      "target": "系统结构",
+      "type": "relates"
+    },
+    {
+      "source": "两种推理 3",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "清晰的思维、批判性思维与清晰的写作 3",
+      "target": "模型",
+      "type": "relates"
+    },
+    {
+      "source": "清晰的思维、批判性思维与清晰的写作 3",
+      "target": "系统结构",
+      "type": "relates"
+    },
+    {
+      "source": "清晰的思维、批判性思维与清晰的写作 3",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "清晰的思维、批判性思维与清晰的写作 3",
+      "target": "决策边界",
+      "type": "relates"
+    },
+    {
+      "source": "可信度 3",
+      "target": "系统结构",
+      "type": "relates"
+    },
+    {
+      "source": "可信度 3",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "可信度 3",
+      "target": "决策边界",
+      "type": "relates"
+    },
+    {
+      "source": "可信度 3",
+      "target": "证据",
+      "type": "relates"
+    },
+    {
+      "source": "通过修辞进行说服——常见的修辞技巧 2",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "通过修辞进行说服——常见的修辞技巧 2",
+      "target": "决策边界",
+      "type": "relates"
+    },
+    {
+      "source": "通过修辞进行说服——常见的修辞技巧 2",
+      "target": "证据",
+      "type": "relates"
+    },
+    {
+      "source": "通过修辞进行说服——常见的修辞技巧 2",
+      "target": "反直觉",
+      "type": "relates"
+    },
+    {
+      "source": "更多修辞技巧——心理及相关谬误 2",
+      "target": "决策边界",
+      "type": "relates"
+    },
+    {
+      "source": "更多修辞技巧——心理及相关谬误 2",
+      "target": "证据",
+      "type": "relates"
+    },
+    {
+      "source": "更多修辞技巧——心理及相关谬误 2",
+      "target": "反直觉",
+      "type": "relates"
+    },
+    {
+      "source": "更多修辞技巧——心理及相关谬误 2",
+      "target": "问题定义",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《批判性思维带你走出思维的误区》如何帮助读者看见判断背后的模型、偏差和系统结构。": "问题入口",
+    "公开入口→《批判性思维带你走出思维的误区》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→批判性思维带你走出思维的误区": "K 卡",
+    "公开入口→批判性思维基础": "K 卡",
+    "公开入口→两种推理": "K 卡",
+    "公开入口→清晰的思维、批判性思维与清晰的写作": "K 卡",
+    "公开入口→可信度": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→批判性思维基础 2": "章节推进",
+    "公开入口→两种推理 2": "章节推进",
+    "公开入口→清晰的思维、批判性思维与清晰的写作 2": "章节推进",
+    "公开入口→可信度 2": "章节推进",
+    "公开入口→通过修辞进行说服——常见的修辞技巧": "章节推进",
+    "公开入口→更多修辞技巧——心理及相关谬误": "章节推进",
+    "公开入口→问题定义": "N 卡",
+    "公开入口→认知偏差": "N 卡",
+    "公开入口→模型": "N 卡",
+    "公开入口→系统结构": "N 卡",
+    "公开入口→反馈": "N 卡",
+    "公开入口→决策边界": "N 卡",
+    "公开入口→证据": "N 卡",
+    "公开入口→反直觉": "N 卡",
+    "公开入口→批判性思维基础 3": "主题单元",
+    "公开入口→两种推理 3": "主题单元",
+    "公开入口→清晰的思维、批判性思维与清晰的写作 3": "主题单元",
+    "公开入口→可信度 3": "主题单元",
+    "公开入口→通过修辞进行说服——常见的修辞技巧 2": "主题单元",
+    "公开入口→更多修辞技巧——心理及相关谬误 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "批判性思维基础 3→问题定义": "相关概念",
+    "批判性思维基础 3→认知偏差": "相关概念",
+    "批判性思维基础 3→模型": "相关概念",
+    "批判性思维基础 3→系统结构": "相关概念",
+    "两种推理 3→认知偏差": "相关概念",
+    "两种推理 3→模型": "相关概念",
+    "两种推理 3→系统结构": "相关概念",
+    "两种推理 3→反馈": "相关概念",
+    "清晰的思维、批判性思维与清晰的写作 3→模型": "相关概念",
+    "清晰的思维、批判性思维与清晰的写作 3→系统结构": "相关概念",
+    "清晰的思维、批判性思维与清晰的写作 3→反馈": "相关概念",
+    "清晰的思维、批判性思维与清晰的写作 3→决策边界": "相关概念",
+    "可信度 3→系统结构": "相关概念",
+    "可信度 3→反馈": "相关概念",
+    "可信度 3→决策边界": "相关概念",
+    "可信度 3→证据": "相关概念",
+    "通过修辞进行说服——常见的修辞技巧 2→反馈": "相关概念",
+    "通过修辞进行说服——常见的修辞技巧 2→决策边界": "相关概念",
+    "通过修辞进行说服——常见的修辞技巧 2→证据": "相关概念",
+    "通过修辞进行说服——常见的修辞技巧 2→反直觉": "相关概念",
+    "更多修辞技巧——心理及相关谬误 2→决策边界": "相关概念",
+    "更多修辞技巧——心理及相关谬误 2→证据": "相关概念",
+    "更多修辞技巧——心理及相关谬误 2→反直觉": "相关概念",
+    "更多修辞技巧——心理及相关谬误 2→问题定义": "相关概念"
+  }
+}

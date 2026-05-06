@@ -1,0 +1,144 @@
+{
+  "id": "roundtable-session-wangxifeng-control-hub-2026-05-03",
+  "title": "王熙凤式控制中枢样张圆桌",
+  "savedAt": "2026-05-03T20:30:00+08:00",
+  "status": "sample_run",
+  "route": "/tools/roundtable",
+  "problemCaseId": "control-hub-dependency",
+  "problemTitle": "别把一个能人，用成整个系统的补丁",
+  "modeId": "content-turn",
+  "modeLabel": "内容转译",
+  "stageId": "content",
+  "sourceFiles": [
+    "03_outputs/05_by_typemoto/02_王熙凤上班/王熙凤篇_复盘与提示词文档合集/03_王熙凤篇_人物原型卡与世界规则卡.md",
+    "03_outputs/05_by_typemoto/02_王熙凤上班/王熙凤篇_复盘与提示词文档合集/04_王熙凤篇_4-0小红书图文提示词.md",
+    "03_outputs/05_by_typemoto/02_王熙凤上班/王熙凤篇_复盘与提示词文档合集/05_王熙凤篇_4-2高密度信息图提示词.md"
+  ],
+  "input": {
+    "rawProblem": "预算突然被砍，项目需要救火，领导第一反应是让我来盯，团队第一反应是等我拍板。我能把事情压住，但大家越来越不敢自己判断，我也越来越累。",
+    "sceneId": "team",
+    "source": "《如果王熙凤来上班》内容样张"
+  },
+  "user": {
+    "id": "wangxifeng-office-lead",
+    "name": "凤姐式项目骨干",
+    "source": "人格原型实验室 KB",
+    "problem": "我发现所有紧急项目最后都会回到我这里。只要我不盯，局面就像要散；但团队越来越沉默，我也越来越累。",
+    "privacyLevel": "public_demo"
+  },
+  "archetype": {
+    "id": "wangxifeng-control-hub",
+    "shortTitle": "控制中枢",
+    "hypothesis": "当前问题可以先被看作一条“控制中枢”线索：当组织奖励救火和兜底时，能人可能会用抓信息、抓节奏、抓拍板权来保护安全感和位置感。"
+  },
+  "lifeScene": {
+    "id": "wangxifeng-budget-cut-meeting",
+    "title": "预算被砍后的项目复盘会"
+  },
+  "rule": {
+    "id": "single-point-dependency",
+    "title": "单点依赖与授权不清",
+    "pressure": "组织把混乱不断推给最能扛事的人，短期效率被奖励，长期授权和团队声音被削弱。"
+  },
+  "participants": ["圆桌主持人", "火把教练", "证据馆员", "反方朋友", "内容编辑"],
+  "turns": [
+    {
+      "stage": "intake",
+      "agent": "圆桌主持人",
+      "message": "先把问题放到桌面上：这不是某个能人太强，而是组织把混乱、风险和拍板权不断接到同一个人身上。"
+    },
+    {
+      "stage": "naming",
+      "agent": "反方朋友",
+      "message": "我想挑战一句：她不只是控制别人，领导的放心、团队的后退和流程的空洞也在共同制造单点依赖。"
+    },
+    {
+      "stage": "assumption",
+      "agent": "火把教练",
+      "message": "隐含假设可能是：只要我不盯，系统就会塌；只要我不兜底，我的位置就不稳。"
+    },
+    {
+      "stage": "perspective",
+      "agent": "证据馆员",
+      "message": "王熙凤原型提供的不是标签，而是一个组织压力显影器：体面、资源、权力和亏空如何压到能管事的人身上。"
+    },
+    {
+      "stage": "action",
+      "agent": "火把教练",
+      "message": "今天的最小行动不是放弃掌控，而是挑一段低风险流程说清标准，只同步风险，不收回全部拍板权。"
+    },
+    {
+      "stage": "content",
+      "agent": "内容编辑",
+      "message": "这条可以转译成小红书图文：从“她太控制”改写成“复杂组织如何把能人推成控制中枢”。"
+    }
+  ],
+  "timeline": [
+    "输入王熙凤式项目骨干的预算救火场景。",
+    "命名为控制中枢原型，不做心理诊断。",
+    "绑定单点依赖与授权不清规则。",
+    "输出同事、领导和当事人三类行动边界。",
+    "沉淀为内容运营回流样张。"
+  ],
+  "output": {
+    "clarifiedProblem": "真正卡住的不是她个人太强，而是组织把混乱、风险和决策不断接到同一个能人身上，让她既获得安全感，也承担过载。",
+    "hiddenAssumptions": [
+      "如果我不盯，局面就会塌。",
+      "如果别人做不好，最后还是我背锅。",
+      "只有我压住全局，我的位置才安全。"
+    ],
+    "newPerspectives": ["组织系统", "防御模式", "互动循环", "心智发展", "授权边界"],
+    "actionCard": {
+      "title": "把一段控制线放到桌面上",
+      "text": "本周选择一个低风险流程，把标准、风险和拍板边界写清，让一位同事先接一段；你只同步风险，不立刻收回全部拍板权。",
+      "successSignal": "团队至少有一个人能在不等你点头的情况下推进一小步。"
+    },
+    "contentArtifact": {
+      "id": "roundtable-artifact-wangxifeng-control-hub-2026-05-03",
+      "origin": "roundtable",
+      "type": "圆桌样张",
+      "title": "别把一个能人，用成整个系统的补丁",
+      "source": "/tools/roundtable",
+      "useFor": "王熙凤上班 · 控制中枢 · 单点依赖与授权不清",
+      "topicSeeds": [
+        "为什么越能干的人，越容易把团队带成只等她指令？",
+        "她不是控制狂，而是复杂组织里的控制中枢。",
+        "每一次救火成功，都可能强化下一次单点依赖。",
+        "真正的能干，不是把所有人抓在手里，而是让系统长出来。",
+        "理解她的压力，不等于合理化她的压迫。"
+      ],
+      "slides": [
+        "预算突然被砍，所有人都看向那个最能扛事的人。",
+        "她能救火，也让团队越来越不敢自己判断。",
+        "真正的问题不是能力强，而是秩序被绑在她一个人身上。",
+        "互动循环：混乱出现 -> 她接管 -> 效率上升 -> 团队后退 -> 她更不敢放手。",
+        "同事动作：把进度、风险、选项和权限边界摆出来。",
+        "领导动作：别只用她救火，把她的经验写成流程并培养替手。"
+      ]
+    },
+    "feedbackFields": {
+      "resonance_quotes": ["她一句话我就开始紧张", "她不是骂我，但我就是怕出错"],
+      "misread_risks": ["把王熙凤写成控制狂女领导", "把组织责任全部归因到个人性格"],
+      "next_feedback_to_collect": ["读者是否能说出身边类似场景", "读者是否收藏同事/领导行动页", "评论区是否出现下一个人物提名"]
+    }
+  },
+  "productValidation": {
+    "passed": [
+      "真实内容样张可以被抽取为 ArchetypeKernel、LifeScene、RuleSet 和 VirtualPerson。",
+      "圆桌输出能稳定转成 ContentArtifact。",
+      "样张保留了非诊断边界，没有把文学人物粗暴贴成现实标签。"
+    ],
+    "friction": [
+      "KB roundtable_sessions 已能导出到前端，但还没有进入正式会话筛选、搜索和评审流。",
+      "ProblemCase 已新增，但还需要用更多样张校准问题入口和推荐证据。",
+      "王熙凤原型还需要补具体《红楼梦》章回证据。"
+    ],
+    "nextActions": [
+      "为 KB 圆桌样张增加筛选、搜索、评审状态和一键转任务。",
+      "把控制中枢 ProblemCase 和更多文学人物样张进行交叉验证。",
+      "补一轮专家评审：文学研究、组织行为、心理边界。"
+    ]
+  },
+  "privacyLevel": "public_demo",
+  "review_status": "expert_review_needed"
+}

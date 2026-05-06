@@ -3,7 +3,7 @@
     <div class="diagnostic-scroll">
       <section class="diagnostic-head">
         <div>
-          <div class="tool-kicker">PRODUCT EXPERIMENT · MINDSET TRAPS</div>
+          <div class="tool-kicker">判断前先校准</div>
           <h1>心智误区诊断</h1>
           <p>
             把《走出心智的误区》里的五类判断陷阱做成一个轻量预警工具。它不是心理诊断，只帮助你在复杂判断前先校准一下自己可能看窄的地方。

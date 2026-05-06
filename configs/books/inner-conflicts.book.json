@@ -2,10 +2,10 @@
   "book": {
     "slug": "inner-conflicts",
     "title": "我们内心的冲突",
-    "shortTitle": "内心冲突",
-    "author": "卡伦·霍妮",
+    "shortTitle": "我们内心的冲突",
+    "author": "卡伦·霍妮著 ;郑世彦译. -- 杭州:浙江文艺出版社,20",
     "primaryCategory": "领导管理与组织教练",
-    "secondaryCategory": "心理疗愈与自我探索",
+    "secondaryCategory": "领导管理 / 组织教练",
     "status": "active"
   },
   "source": {
@@ -14,82 +14,75 @@
     "summaryMarkdown": "01_sources/01_books/03_领导管理与组织教练/我们内心的冲突/assets/全书摘要.md",
     "topicAnglesMarkdown": "01_sources/01_books/03_领导管理与组织教练/我们内心的冲突/assets/选题角度.md",
     "visualHooksMarkdown": "01_sources/01_books/03_领导管理与组织教练/我们内心的冲突/assets/视觉钩子.md",
-    "bookOutputDir": "03_outputs/04_by_book/我们内心的冲突",
-    "xhsImageDir": "03_outputs/04_by_book/我们内心的冲突/小红书图",
-    "infographicsDir": "03_outputs/04_by_book/我们内心的冲突/infographics",
-    "scenesDir": "03_outputs/04_by_book/我们内心的冲突/scenes"
+    "knTable": "01_sources/01_books/03_领导管理与组织教练/我们内心的冲突/assets/整本书K卡_N卡总表.md"
   },
   "builder": {
-    "profile": "generic_book_v1",
-    "entryNode": "全书导读",
-    "supportsCrossBookTopic": false,
+    "profile": "public_structured_nk_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": true,
     "hiddenNodes": [],
     "pinnedNodes": [
-      "全书导读",
-      "核心内容总览",
-      "我们内心的冲突"
+      "公开入口",
+      "全书摘要",
+      "全书结构"
     ]
   },
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_curated_overrides",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
+    ],
+    "overrideDir": "configs/public_overrides/inner-conflicts",
+    "publicSanity": {
+      "blockerCount": 0,
+      "status": "pass",
+      "samples": []
+    }
+  },
   "site": {
-    "subtitle": "心理、关系、创伤、人生发展与医疗",
-    "description": "基于《我们内心的冲突》整理的单书知识站，把全书入口、章节资产、概念卡与方法卡串成可点击阅读地图。",
-    "heroOverline": "PSYCHE · PATTERN · GROWTH",
+    "subtitle": "《我们内心的冲突》如何帮助管理者从控制任务转向理解人、关系和组织系统。",
+    "description": "《我们内心的冲突》的 public_structured_nk 基础公开层配置。",
+    "heroOverline": "BOOK · THINKING MAP",
     "heroTitleLines": [
       "我们内心的冲突",
-      "把整本书做成可点击地图"
+      "《我们内心的冲突》如何帮助管理者从控制任务转向理解人、关系和组织系统。"
     ],
-    "searchPlaceholder": "搜索主题、章节、概念、方法…",
+    "searchPlaceholder": "搜索《我们内心的冲突》问题、概念、章节、方法、场景…",
     "creatorName": "林子-心智进化之路",
     "creatorLabel": "整理与输出",
     "footerNote": "复杂世界和复杂人性的同行翻译者"
   },
   "homepage": {
     "recommendedPath": [
-      "全书导读",
-      "我们内心的冲突",
-      "第01章 第一部分神经症冲突和处理的尝试",
-      "觉察",
-      "第04章 第二部分"
+      "全书摘要",
+      "全书结构"
     ],
     "quickLinks": [
-      "核心内容总览",
-      "单章目录",
-      "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察",
-      "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感",
-      "觉察"
+      "公开入口",
+      "全书摘要",
+      "全书结构"
     ],
-    "journeyTitle": "章节升级打怪地图",
-    "journeyDescription": "先按章节顺着作者推进读，再回到概念与方法反复调用。",
+    "journeyTitle": "基础公开阅读路径",
+    "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景展开。",
     "sectionOrder": [
-      "overview",
-      "themes",
+      "summary",
+      "questions",
       "chapters",
       "concepts",
-      "methods"
+      "methods",
+      "scenarios",
+      "extensions"
     ]
   },
   "images": {
     "overviewImage": "/books/inner-conflicts/chapter-images/overview.svg",
-    "chapterImageMode": "ordered",
-    "chapterImageOrder": [
-      "/books/inner-conflicts/chapter-images/chapter-1.svg",
-      "/books/inner-conflicts/chapter-images/chapter-2.svg",
-      "/books/inner-conflicts/chapter-images/chapter-3.svg",
-      "/books/inner-conflicts/chapter-images/chapter-4.svg"
-    ],
-    "topicImageMap": {
-      "全书导读": "/books/inner-conflicts/chapter-images/overview.svg",
-      "全书脉络": "/books/inner-conflicts/chapter-images/overview.svg",
-      "核心内容总览": "/books/inner-conflicts/chapter-images/overview.svg",
-      "单章目录": "/books/inner-conflicts/chapter-images/overview.svg",
-      "选题角度": "/books/inner-conflicts/chapter-images/overview.svg",
-      "视觉表达钩子": "/books/inner-conflicts/chapter-images/overview.svg",
-      "我们内心的冲突": "/books/inner-conflicts/chapter-images/overview.svg",
-      "为什么你总在容易被情绪或关系反复困住，却没有真正抓住觉察": "/books/inner-conflicts/chapter-images/overview.svg",
-      "很多人卡在道理都懂但关键时刻做不到，本质上是没理解安全感": "/books/inner-conflicts/chapter-images/overview.svg",
-      "把情绪信号看懂以后，你会重新理解面对疾病衰老或创伤缺少框架": "/books/inner-conflicts/chapter-images/overview.svg",
-      "真正拉开差距的，不是更努力，而是更会用关系模式": "/books/inner-conflicts/chapter-images/overview.svg"
-    },
+    "chapterImageMode": "overview",
+    "chapterImageOrder": [],
+    "topicImageMap": {},
     "fallbackImage": "/books/inner-conflicts/chapter-images/overview.svg"
   }
 }

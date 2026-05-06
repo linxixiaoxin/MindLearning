@@ -1,0 +1,41 @@
+{
+  "id": "wangxifeng-office-lead",
+  "name": "凤姐式项目骨干",
+  "fictional_level": "literary_archetype",
+  "source_archetype_ids": ["wangxifeng-control-hub"],
+  "source_work_ids": ["public-classic-dream-red-mansion"],
+  "life_stage": "在复杂组织中长期承担救火、协调和资源调度的人",
+  "current_problem": "我发现所有紧急项目最后都会回到我这里。只要我不盯，局面就像要散；但团队越来越沉默，我也越来越累。",
+  "problem_case_id": "control-hub-dependency",
+  "life_timeline": [
+    {
+      "period": "早期胜任",
+      "event": "在混乱中快速拆线、压场、推动结果。",
+      "impact": "形成我能扛住复杂局面的自我叙事。"
+    },
+    {
+      "period": "组织依赖",
+      "event": "领导和团队越来越习惯把模糊问题交给她兜底。",
+      "impact": "不可替代感上升，同时授权和信任下降。"
+    },
+    {
+      "period": "当前卡点",
+      "event": "预算被砍、项目救火、团队沉默同时出现。",
+      "impact": "触发控制中枢模式，个人耗竭和系统单点依赖一起加重。"
+    }
+  ],
+  "family_system": {
+    "family_rules": ["不能让局面散", "外面必须体面", "能人就该兜底"],
+    "emotion_rules": ["不安不能直接表达，只能通过掌控来处理"],
+    "role_position": "组织里的压场者、兜底者、资源调度者",
+    "intergenerational_line": "贾府式复杂组织把体面、亏空、权力和人情压到能管事的人身上"
+  },
+  "relationship_patterns": ["接管", "盯细节", "让别人等她拍板", "用效率换安全感", "被依赖后更难放手"],
+  "self_narrative": "只要我能压住局面，我就还有位置；我一松手，系统就会塌。",
+  "protection_strategies": ["抓信息", "抓节奏", "抓拍板权", "亲自兜底", "把标准留在自己脑中"],
+  "triggers": ["预算突然缩减", "领导说这事你盯一下", "项目临时救火", "下属不敢反馈风险", "复盘发现任务线都接到自己身上"],
+  "growth_edges": ["把标准说清", "先授权一小段流程", "只同步风险不收回拍板权", "培养替手", "把个人经验写成流程"],
+  "privacy_level": "public_demo",
+  "evidence_refs": ["public-classic-dream-red-mansion", "wangxifeng-control-hub"],
+  "review_status": "expert_review_needed"
+}

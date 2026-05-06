@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "全书摘要": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "全书结构": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "《机场里的小旅行》如何把日常经验重新命名，让读者换一种方式观看生活。": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "《机场里的小旅行》中的哪些概念最适合转成问题工作台节点？": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "机场里的小旅行": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "书名：机场里的小旅行": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "作者：【英】阿兰·德波顿": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "译者：陈信宏": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "责任编辑：衷雅琴": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "书名：机场里的小旅行 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "作者：【英】阿兰·德波顿 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "译者：陈信宏 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "责任编辑：衷雅琴 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "产品经理：邵明鉴": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "献给索尔": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "现代生活困境": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "日常场景": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "观看方式": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "哲学参照": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "审美经验": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "自我安放": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "表达风格": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "场景转译": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "书名：机场里的小旅行 3": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "作者：【英】阿兰·德波顿 3": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "译者：陈信宏 3": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "责任编辑：衷雅琴 3": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "产品经理：邵明鉴 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "献给索尔 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-fad58e62d1/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-fad58e62d1/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《机场里的小旅行》如何把日常经验重新命名，让读者换一种方式观看生活。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《机场里的小旅行》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "机场里的小旅行",
+      "type": "question",
+      "tagline": "《机场里的小旅行》如何把日常经验重新命名，让读者换一种方式观看生活。"
+    },
+    {
+      "id": "书名：机场里的小旅行",
+      "type": "question",
+      "tagline": "这本书的价值不在于给方法，而在于改变读者观看日常生活的角度。"
+    },
+    {
+      "id": "作者：【英】阿兰·德波顿",
+      "type": "question",
+      "tagline": "日常困境需要先被重新命名，才可能被温柔地理解。"
+    },
+    {
+      "id": "译者：陈信宏",
+      "type": "question",
+      "tagline": "哲学和艺术不是远方知识，而是让生活重新显影的参照物。"
+    },
+    {
+      "id": "责任编辑：衷雅琴",
+      "type": "question",
+      "tagline": "好内容可以从一个微小场景里照见现代人的长期不安。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "这本书的价值不在于给方法，而在于改变读者观看日常生活的角度。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "日常困境需要先被重新命名，才可能被温柔地理解。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "哲学和艺术不是远方知识，而是让生活重新显影的参照物。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "好内容可以从一个微小场景里照见现代人的长期不安。"
+    },
+    {
+      "id": "书名：机场里的小旅行 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“书名：机场里的小旅行”，用于把《机场里的小旅行》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "作者：【英】阿兰·德波顿 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“作者：【英】阿兰·德波顿”，用于把《机场里的小旅行》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "译者：陈信宏 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“译者：陈信宏”，用于把《机场里的小旅行》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "责任编辑：衷雅琴 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“责任编辑：衷雅琴”，用于把《机场里的小旅行》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "产品经理：邵明鉴",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“产品经理：邵明鉴”，用于把《机场里的小旅行》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "献给索尔",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“献给索尔”，用于把《机场里的小旅行》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "现代生活困境",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "日常场景",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "观看方式",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "哲学参照",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "审美经验",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "自我安放",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "表达风格",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "场景转译",
+      "type": "concept",
+      "tagline": "围绕现代生活中的感受与场景的可复用节点"
+    },
+    {
+      "id": "书名：机场里的小旅行 3",
+      "type": "concept",
+      "tagline": "围绕“书名：机场里的小旅行”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "作者：【英】阿兰·德波顿 3",
+      "type": "concept",
+      "tagline": "围绕“作者：【英】阿兰·德波顿”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "译者：陈信宏 3",
+      "type": "concept",
+      "tagline": "围绕“译者：陈信宏”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "责任编辑：衷雅琴 3",
+      "type": "concept",
+      "tagline": "围绕“责任编辑：衷雅琴”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "产品经理：邵明鉴 2",
+      "type": "concept",
+      "tagline": "围绕“产品经理：邵明鉴”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "献给索尔 2",
+      "type": "concept",
+      "tagline": "围绕“献给索尔”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "把一种日常不安重新命名"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "从一个生活场景进入哲学观看"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "为什么我们需要新的观看方式"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "把私人感受转成可分享的表达"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "日常场景显微镜"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "困境到观看方式路径图"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "哲学参照卡片"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "生活场景四格漫画"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《机场里的小旅行》如何把日常经验重新命名，让读者换一种方式观看生活。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《机场里的小旅行》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "机场里的小旅行",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "书名：机场里的小旅行",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者：【英】阿兰·德波顿",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "译者：陈信宏",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "责任编辑：衷雅琴",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "书名：机场里的小旅行 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者：【英】阿兰·德波顿 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "译者：陈信宏 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "责任编辑：衷雅琴 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "产品经理：邵明鉴",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "献给索尔",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现代生活困境",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "日常场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "观看方式",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "哲学参照",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "审美经验",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "自我安放",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "表达风格",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景转译",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "书名：机场里的小旅行 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者：【英】阿兰·德波顿 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "译者：陈信宏 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "责任编辑：衷雅琴 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "产品经理：邵明鉴 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "献给索尔 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "书名：机场里的小旅行 3",
+      "target": "现代生活困境",
+      "type": "relates"
+    },
+    {
+      "source": "书名：机场里的小旅行 3",
+      "target": "日常场景",
+      "type": "relates"
+    },
+    {
+      "source": "书名：机场里的小旅行 3",
+      "target": "观看方式",
+      "type": "relates"
+    },
+    {
+      "source": "书名：机场里的小旅行 3",
+      "target": "哲学参照",
+      "type": "relates"
+    },
+    {
+      "source": "作者：【英】阿兰·德波顿 3",
+      "target": "日常场景",
+      "type": "relates"
+    },
+    {
+      "source": "作者：【英】阿兰·德波顿 3",
+      "target": "观看方式",
+      "type": "relates"
+    },
+    {
+      "source": "作者：【英】阿兰·德波顿 3",
+      "target": "哲学参照",
+      "type": "relates"
+    },
+    {
+      "source": "作者：【英】阿兰·德波顿 3",
+      "target": "审美经验",
+      "type": "relates"
+    },
+    {
+      "source": "译者：陈信宏 3",
+      "target": "观看方式",
+      "type": "relates"
+    },
+    {
+      "source": "译者：陈信宏 3",
+      "target": "哲学参照",
+      "type": "relates"
+    },
+    {
+      "source": "译者：陈信宏 3",
+      "target": "审美经验",
+      "type": "relates"
+    },
+    {
+      "source": "译者：陈信宏 3",
+      "target": "自我安放",
+      "type": "relates"
+    },
+    {
+      "source": "责任编辑：衷雅琴 3",
+      "target": "哲学参照",
+      "type": "relates"
+    },
+    {
+      "source": "责任编辑：衷雅琴 3",
+      "target": "审美经验",
+      "type": "relates"
+    },
+    {
+      "source": "责任编辑：衷雅琴 3",
+      "target": "自我安放",
+      "type": "relates"
+    },
+    {
+      "source": "责任编辑：衷雅琴 3",
+      "target": "表达风格",
+      "type": "relates"
+    },
+    {
+      "source": "产品经理：邵明鉴 2",
+      "target": "审美经验",
+      "type": "relates"
+    },
+    {
+      "source": "产品经理：邵明鉴 2",
+      "target": "自我安放",
+      "type": "relates"
+    },
+    {
+      "source": "产品经理：邵明鉴 2",
+      "target": "表达风格",
+      "type": "relates"
+    },
+    {
+      "source": "产品经理：邵明鉴 2",
+      "target": "场景转译",
+      "type": "relates"
+    },
+    {
+      "source": "献给索尔 2",
+      "target": "自我安放",
+      "type": "relates"
+    },
+    {
+      "source": "献给索尔 2",
+      "target": "表达风格",
+      "type": "relates"
+    },
+    {
+      "source": "献给索尔 2",
+      "target": "场景转译",
+      "type": "relates"
+    },
+    {
+      "source": "献给索尔 2",
+      "target": "现代生活困境",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《机场里的小旅行》如何把日常经验重新命名，让读者换一种方式观看生活。": "问题入口",
+    "公开入口→《机场里的小旅行》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→机场里的小旅行": "K 卡",
+    "公开入口→书名：机场里的小旅行": "K 卡",
+    "公开入口→作者：【英】阿兰·德波顿": "K 卡",
+    "公开入口→译者：陈信宏": "K 卡",
+    "公开入口→责任编辑：衷雅琴": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→书名：机场里的小旅行 2": "章节推进",
+    "公开入口→作者：【英】阿兰·德波顿 2": "章节推进",
+    "公开入口→译者：陈信宏 2": "章节推进",
+    "公开入口→责任编辑：衷雅琴 2": "章节推进",
+    "公开入口→产品经理：邵明鉴": "章节推进",
+    "公开入口→献给索尔": "章节推进",
+    "公开入口→现代生活困境": "N 卡",
+    "公开入口→日常场景": "N 卡",
+    "公开入口→观看方式": "N 卡",
+    "公开入口→哲学参照": "N 卡",
+    "公开入口→审美经验": "N 卡",
+    "公开入口→自我安放": "N 卡",
+    "公开入口→表达风格": "N 卡",
+    "公开入口→场景转译": "N 卡",
+    "公开入口→书名：机场里的小旅行 3": "主题单元",
+    "公开入口→作者：【英】阿兰·德波顿 3": "主题单元",
+    "公开入口→译者：陈信宏 3": "主题单元",
+    "公开入口→责任编辑：衷雅琴 3": "主题单元",
+    "公开入口→产品经理：邵明鉴 2": "主题单元",
+    "公开入口→献给索尔 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "书名：机场里的小旅行 3→现代生活困境": "相关概念",
+    "书名：机场里的小旅行 3→日常场景": "相关概念",
+    "书名：机场里的小旅行 3→观看方式": "相关概念",
+    "书名：机场里的小旅行 3→哲学参照": "相关概念",
+    "作者：【英】阿兰·德波顿 3→日常场景": "相关概念",
+    "作者：【英】阿兰·德波顿 3→观看方式": "相关概念",
+    "作者：【英】阿兰·德波顿 3→哲学参照": "相关概念",
+    "作者：【英】阿兰·德波顿 3→审美经验": "相关概念",
+    "译者：陈信宏 3→观看方式": "相关概念",
+    "译者：陈信宏 3→哲学参照": "相关概念",
+    "译者：陈信宏 3→审美经验": "相关概念",
+    "译者：陈信宏 3→自我安放": "相关概念",
+    "责任编辑：衷雅琴 3→哲学参照": "相关概念",
+    "责任编辑：衷雅琴 3→审美经验": "相关概念",
+    "责任编辑：衷雅琴 3→自我安放": "相关概念",
+    "责任编辑：衷雅琴 3→表达风格": "相关概念",
+    "产品经理：邵明鉴 2→审美经验": "相关概念",
+    "产品经理：邵明鉴 2→自我安放": "相关概念",
+    "产品经理：邵明鉴 2→表达风格": "相关概念",
+    "产品经理：邵明鉴 2→场景转译": "相关概念",
+    "献给索尔 2→自我安放": "相关概念",
+    "献给索尔 2→表达风格": "相关概念",
+    "献给索尔 2→场景转译": "相关概念",
+    "献给索尔 2→现代生活困境": "相关概念"
+  }
+}

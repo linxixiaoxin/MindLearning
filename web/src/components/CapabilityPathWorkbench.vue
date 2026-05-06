@@ -39,7 +39,7 @@
               <p>{{ item.mapHint }}</p>
             </div>
             <div class="ability-actions">
-              <button class="mini-btn" @click="openLearningPath(item.stage)">开这条学习路径</button>
+              <button class="mini-btn" @click="openLearningPath(item.stage)">打开练习路线</button>
               <span class="status">已映射到 {{ stageLabel(item.stage) }}</span>
             </div>
           </article>
@@ -60,8 +60,8 @@
 
           <article>
             <div class="panel-kicker">下一步</div>
-            <p>你可以从问题工作台继续把本场景映射为真实案例，再返回这里补齐路径。</p>
-            <button class="feedback-btn" @click="openProblemLab">从“问题工作台”继续</button>
+            <p>你可以从卡点工作台继续把本场景映射为真实案例，再返回这里补齐路径。</p>
+            <button class="feedback-btn" @click="openProblemLab">从“卡点工作台”继续</button>
           </article>
         </section>
       </main>

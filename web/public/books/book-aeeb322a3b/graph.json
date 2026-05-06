@@ -1,0 +1,764 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "全书摘要": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "全书结构": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "《置身事内：中国政府与经济发展 (兰小欢)》如何提供可复用的概念、问题和场景解释。": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "《置身事内：中国政府与经济发展 (兰小欢)》中的哪些概念最适合转成问题工作台节点？": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "置身事内：中国政府与经济发展 (兰小欢)": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "地方政府的权力与事务": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "政府治理的特点": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "外部性与规模经济": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "复杂信息": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "地方政府的权力与事务 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "政府治理的特点 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "外部性与规模经济 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "复杂信息 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "激励相容": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "招商引资": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "核心概念": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "场景": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "机制": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "边界": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "误用": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "表达": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "地方政府的权力与事务 3": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "政府治理的特点 3": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "外部性与规模经济 3": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "复杂信息 3": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "激励相容 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "招商引资 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-aeeb322a3b/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-aeeb322a3b/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《置身事内：中国政府与经济发展 (兰小欢)》如何提供可复用的概念、问题和场景解释。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《置身事内：中国政府与经济发展 (兰小欢)》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "置身事内：中国政府与经济发展 (兰小欢)",
+      "type": "question",
+      "tagline": "《置身事内：中国政府与经济发展 (兰小欢)》如何提供可复用的概念、问题和场景解释。"
+    },
+    {
+      "id": "地方政府的权力与事务",
+      "type": "question",
+      "tagline": "这本书的价值在于提供一组可复用的问题、概念和场景。"
+    },
+    {
+      "id": "政府治理的特点",
+      "type": "question",
+      "tagline": "书中的概念需要放回真实场景中理解。"
+    },
+    {
+      "id": "外部性与规模经济",
+      "type": "question",
+      "tagline": "任何方法都有边界，不能脱离语境调用。"
+    },
+    {
+      "id": "复杂信息",
+      "type": "question",
+      "tagline": "内容转译应保留书的核心对象。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "这本书的价值在于提供一组可复用的问题、概念和场景。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "书中的概念需要放回真实场景中理解。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "任何方法都有边界，不能脱离语境调用。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "内容转译应保留书的核心对象。"
+    },
+    {
+      "id": "地方政府的权力与事务 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“地方政府的权力与事务”，用于把《置身事内：中国政府与经济发展 (兰小欢)》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "政府治理的特点 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“政府治理的特点”，用于把《置身事内：中国政府与经济发展 (兰小欢)》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "外部性与规模经济 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“外部性与规模经济”，用于把《置身事内：中国政府与经济发展 (兰小欢)》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "复杂信息 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“复杂信息”，用于把《置身事内：中国政府与经济发展 (兰小欢)》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "激励相容",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“激励相容”，用于把《置身事内：中国政府与经济发展 (兰小欢)》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "招商引资",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“招商引资”，用于把《置身事内：中国政府与经济发展 (兰小欢)》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "核心概念",
+      "type": "concept",
+      "tagline": "围绕书中的核心概念、场景和表达资源的可复用节点"
+    },
+    {
+      "id": "场景",
+      "type": "concept",
+      "tagline": "围绕书中的核心概念、场景和表达资源的可复用节点"
+    },
+    {
+      "id": "机制",
+      "type": "concept",
+      "tagline": "围绕书中的核心概念、场景和表达资源的可复用节点"
+    },
+    {
+      "id": "边界",
+      "type": "concept",
+      "tagline": "围绕书中的核心概念、场景和表达资源的可复用节点"
+    },
+    {
+      "id": "误用",
+      "type": "concept",
+      "tagline": "围绕书中的核心概念、场景和表达资源的可复用节点"
+    },
+    {
+      "id": "表达",
+      "type": "concept",
+      "tagline": "围绕书中的核心概念、场景和表达资源的可复用节点"
+    },
+    {
+      "id": "地方政府的权力与事务 3",
+      "type": "concept",
+      "tagline": "围绕“地方政府的权力与事务”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "政府治理的特点 3",
+      "type": "concept",
+      "tagline": "围绕“政府治理的特点”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "外部性与规模经济 3",
+      "type": "concept",
+      "tagline": "围绕“外部性与规模经济”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "复杂信息 3",
+      "type": "concept",
+      "tagline": "围绕“复杂信息”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "激励相容 2",
+      "type": "concept",
+      "tagline": "围绕“激励相容”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "招商引资 2",
+      "type": "concept",
+      "tagline": "围绕“招商引资”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "这本书真正回答了什么"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "一个概念如何进入真实生活"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "最容易误用的地方在哪里"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "如何把书转成问题卡"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "概念地图"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "场景卡"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "误用警示牌"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "问题入口图"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《置身事内：中国政府与经济发展 (兰小欢)》如何提供可复用的概念、问题和场景解释。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《置身事内：中国政府与经济发展 (兰小欢)》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "置身事内：中国政府与经济发展 (兰小欢)",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "地方政府的权力与事务",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "政府治理的特点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "外部性与规模经济",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "复杂信息",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "地方政府的权力与事务 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "政府治理的特点 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "外部性与规模经济 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "复杂信息 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "激励相容",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "招商引资",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "核心概念",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "误用",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "表达",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "地方政府的权力与事务 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "政府治理的特点 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "外部性与规模经济 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "复杂信息 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "激励相容 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "招商引资 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "地方政府的权力与事务 3",
+      "target": "核心概念",
+      "type": "relates"
+    },
+    {
+      "source": "地方政府的权力与事务 3",
+      "target": "场景",
+      "type": "relates"
+    },
+    {
+      "source": "地方政府的权力与事务 3",
+      "target": "机制",
+      "type": "relates"
+    },
+    {
+      "source": "地方政府的权力与事务 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "政府治理的特点 3",
+      "target": "场景",
+      "type": "relates"
+    },
+    {
+      "source": "政府治理的特点 3",
+      "target": "机制",
+      "type": "relates"
+    },
+    {
+      "source": "政府治理的特点 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "政府治理的特点 3",
+      "target": "误用",
+      "type": "relates"
+    },
+    {
+      "source": "外部性与规模经济 3",
+      "target": "机制",
+      "type": "relates"
+    },
+    {
+      "source": "外部性与规模经济 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "外部性与规模经济 3",
+      "target": "误用",
+      "type": "relates"
+    },
+    {
+      "source": "外部性与规模经济 3",
+      "target": "表达",
+      "type": "relates"
+    },
+    {
+      "source": "复杂信息 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "复杂信息 3",
+      "target": "误用",
+      "type": "relates"
+    },
+    {
+      "source": "复杂信息 3",
+      "target": "表达",
+      "type": "relates"
+    },
+    {
+      "source": "复杂信息 3",
+      "target": "核心概念",
+      "type": "relates"
+    },
+    {
+      "source": "激励相容 2",
+      "target": "误用",
+      "type": "relates"
+    },
+    {
+      "source": "激励相容 2",
+      "target": "表达",
+      "type": "relates"
+    },
+    {
+      "source": "激励相容 2",
+      "target": "核心概念",
+      "type": "relates"
+    },
+    {
+      "source": "激励相容 2",
+      "target": "场景",
+      "type": "relates"
+    },
+    {
+      "source": "招商引资 2",
+      "target": "表达",
+      "type": "relates"
+    },
+    {
+      "source": "招商引资 2",
+      "target": "核心概念",
+      "type": "relates"
+    },
+    {
+      "source": "招商引资 2",
+      "target": "场景",
+      "type": "relates"
+    },
+    {
+      "source": "招商引资 2",
+      "target": "机制",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《置身事内：中国政府与经济发展 (兰小欢)》如何提供可复用的概念、问题和场景解释。": "问题入口",
+    "公开入口→《置身事内：中国政府与经济发展 (兰小欢)》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→置身事内：中国政府与经济发展 (兰小欢)": "K 卡",
+    "公开入口→地方政府的权力与事务": "K 卡",
+    "公开入口→政府治理的特点": "K 卡",
+    "公开入口→外部性与规模经济": "K 卡",
+    "公开入口→复杂信息": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→地方政府的权力与事务 2": "章节推进",
+    "公开入口→政府治理的特点 2": "章节推进",
+    "公开入口→外部性与规模经济 2": "章节推进",
+    "公开入口→复杂信息 2": "章节推进",
+    "公开入口→激励相容": "章节推进",
+    "公开入口→招商引资": "章节推进",
+    "公开入口→核心概念": "N 卡",
+    "公开入口→场景": "N 卡",
+    "公开入口→机制": "N 卡",
+    "公开入口→边界": "N 卡",
+    "公开入口→误用": "N 卡",
+    "公开入口→表达": "N 卡",
+    "公开入口→地方政府的权力与事务 3": "主题单元",
+    "公开入口→政府治理的特点 3": "主题单元",
+    "公开入口→外部性与规模经济 3": "主题单元",
+    "公开入口→复杂信息 3": "主题单元",
+    "公开入口→激励相容 2": "主题单元",
+    "公开入口→招商引资 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "地方政府的权力与事务 3→核心概念": "相关概念",
+    "地方政府的权力与事务 3→场景": "相关概念",
+    "地方政府的权力与事务 3→机制": "相关概念",
+    "地方政府的权力与事务 3→边界": "相关概念",
+    "政府治理的特点 3→场景": "相关概念",
+    "政府治理的特点 3→机制": "相关概念",
+    "政府治理的特点 3→边界": "相关概念",
+    "政府治理的特点 3→误用": "相关概念",
+    "外部性与规模经济 3→机制": "相关概念",
+    "外部性与规模经济 3→边界": "相关概念",
+    "外部性与规模经济 3→误用": "相关概念",
+    "外部性与规模经济 3→表达": "相关概念",
+    "复杂信息 3→边界": "相关概念",
+    "复杂信息 3→误用": "相关概念",
+    "复杂信息 3→表达": "相关概念",
+    "复杂信息 3→核心概念": "相关概念",
+    "激励相容 2→误用": "相关概念",
+    "激励相容 2→表达": "相关概念",
+    "激励相容 2→核心概念": "相关概念",
+    "激励相容 2→场景": "相关概念",
+    "招商引资 2→表达": "相关概念",
+    "招商引资 2→核心概念": "相关概念",
+    "招商引资 2→场景": "相关概念",
+    "招商引资 2→机制": "相关概念"
+  }
+}

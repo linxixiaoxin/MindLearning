@@ -1,0 +1,1076 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/negative-positive-life/chapter-images/overview.svg",
+    "全书摘要": "/books/negative-positive-life/chapter-images/overview.svg",
+    "全书结构": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？": "/books/negative-positive-life/chapter-images/overview.svg",
+    "逻辑链 1": "/books/negative-positive-life/chapter-images/overview.svg",
+    "逻辑链 2": "/books/negative-positive-life/chapter-images/overview.svg",
+    "逻辑链 3": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识 2": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制 2": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景 2": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用问题意识检查问题意识": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用关键机制检查关键机制": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用现实场景检查现实场景": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用问题意识在全书中解决什么问题？检查问题意识": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用关键机制在全书中解决什么问题？检查关键机制": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用现实场景在全书中解决什么问题？检查现实场景": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识原文线索": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制原文线索": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景原文线索": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？原文线索": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？原文线索": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？原文线索": "/books/negative-positive-life/chapter-images/overview.svg",
+    "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制：这一段到底在解决什么问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？：这一段到底在解决什么问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景：这一段到底在解决什么问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？：这一段到底在解决什么问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识：这一段到底在解决什么问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "全书主动作": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用「关键机制」处理关键问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用「问题意识」处理关键问题": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用关键机制检查关键机制 2": "/books/negative-positive-life/chapter-images/overview.svg",
+    "用现实场景检查现实场景 2": "/books/negative-positive-life/chapter-images/overview.svg",
+    "《负负得正的人生奥义书》全书总图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识章节图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制章节图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景章节图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？章节图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？章节图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？章节图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点选题图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图": "/books/negative-positive-life/chapter-images/overview.svg",
+    "关键机制：这一段到底在解决什么问题选题图": "/books/negative-positive-life/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "1. 问题意识"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "2. 关键机制"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "3. 现实场景"
+    },
+    {
+      "id": "问题意识",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“问题意识”，用于把《负负得正的人生奥义书》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "关键机制",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“关键机制”，用于把《负负得正的人生奥义书》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "现实场景",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“现实场景”，用于把《负负得正的人生奥义书》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "问题意识 2",
+      "type": "concept",
+      "tagline": "来自章节「问题意识」的关键判断。"
+    },
+    {
+      "id": "关键机制 2",
+      "type": "concept",
+      "tagline": "来自章节「关键机制」的关键判断。"
+    },
+    {
+      "id": "现实场景 2",
+      "type": "concept",
+      "tagline": "来自章节「现实场景」的关键判断。"
+    },
+    {
+      "id": "用问题意识检查问题意识",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少问题意识的原文场景时使用。"
+    },
+    {
+      "id": "用关键机制检查关键机制",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景检查现实场景",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景的原文场景时使用。"
+    },
+    {
+      "id": "用问题意识在全书中解决什么问题？检查问题意识",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少问题意识在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "用关键机制在全书中解决什么问题？检查关键机制",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景在全书中解决什么问题？检查现实场景",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过",
+      "type": "scenario",
+      "tagline": "问题意识把问题意识放到这类处境里观察：大量涌入的粉丝,好像看到新世界一样,纷纷点赞留言并疯狂转发我的每一则帖文。"
+    },
+    {
+      "id": "关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的",
+      "type": "scenario",
+      "tagline": "关键机制把关键机制放到这类处境里观察：总是用羡慕的眼光看待他人的财富与名声,因此最后也只能以这种肤浅的成就来评断一个人是否成功。"
+    },
+    {
+      "id": "现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。",
+      "type": "scenario",
+      "tagline": "现实场景把现实场景放到这类处境里观察：如果他从小就梦想成为可以一个打十个的超强武者,那他一开始就被日本人打趴下了。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。",
+      "type": "scenario",
+      "tagline": "问题意识在全书中解决什么问题？把问题意识放到这类处境里观察：而不是去做一堆美梦,然后再用“从失败中学习”来安慰自己。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认",
+      "type": "scenario",
+      "tagline": "关键机制在全书中解决什么问题？把关键机制放到这类处境里观察：她拿起一根薯条,问你吃不吃,没等你回答就塞到你嘴里,突然你觉得她其实是个天真单纯的女孩,只是没遇到好男人而已。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。",
+      "type": "scenario",
+      "tagline": "现实场景在全书中解决什么问题？把现实场景放到这类处境里观察：”“只有你知道自己的价值,不需要别人来评价。"
+    },
+    {
+      "id": "问题意识原文线索",
+      "type": "case",
+      "tagline": "一开始粉丝团只有一二十个人而已,直到某一则帖文贴出去,我再看时,已经超过好几万人了。"
+    },
+    {
+      "id": "关键机制原文线索",
+      "type": "case",
+      "tagline": "力,那我们崇尚这样的成功意味着什么呢?不过是鼓励人们对这样的人投以羡慕的眼光,鼓吹这种结党营私、欺诈他人的行为罢了。"
+    },
+    {
+      "id": "现实场景原文线索",
+      "type": "case",
+      "tagline": "叶问没有使命也照样勤练武功,等到需要的时候就会派上用场。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "的事就好,如果真的失败了,再去看看是什么原因导致失败的。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "如果她长得超美,相处多年,你知道她很爱花钱、不爱干净、说话随便,也不太认真面对生活,总喜欢玩乐。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "”“你已经很努力了,做自己比较重要。"
+    },
+    {
+      "id": "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点",
+      "type": "expression",
+      "tagline": "如何理解《负负得正的人生奥义书》的章节主线"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "关键机制：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "现实场景：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景」推进全书。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "问题意识：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "全书主动作",
+      "type": "expression",
+      "tagline": "问题意识在全书中解决什么问题？"
+    },
+    {
+      "id": "用「关键机制」处理关键问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "用「问题意识」处理关键问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "用关键机制检查关键机制 2",
+      "type": "expression",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景检查现实场景 2",
+      "type": "expression",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景的原文场景时使用。"
+    },
+    {
+      "id": "《负负得正的人生奥义书》全书总图",
+      "type": "expression",
+      "tagline": "把「问题意识在全书中解决什么问题？」画成一张能继续翻页的总图。"
+    },
+    {
+      "id": "问题意识章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "关键机制章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "现实场景章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景」推进全书。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点选题图",
+      "type": "expression",
+      "tagline": "读者容易把「如何理解《负负得正的人生奥义书》的章节主线」当成表面问题，但这本书真正要处理的是「问题意识」与「关键机制」之间的结构关系。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「关键机制在全书中解决什么问题？」推进全书。」，但这一段真正想带读者回到「关键机制在全书中解决什么问题？」中的「关键机制」。"
+    },
+    {
+      "id": "关键机制：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「关键机制」推进全书。」，但这一段真正想带读者回到「关键机制」中的「关键机制」。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用问题意识检查问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制检查关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景检查现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用问题意识在全书中解决什么问题？检查问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制在全书中解决什么问题？检查关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景在全书中解决什么问题？检查现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书主动作",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「关键机制」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「问题意识」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制检查关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景检查现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《负负得正的人生奥义书》全书总图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：这一段到底在解决什么问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：这一段到底在解决什么问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：这一段到底在解决什么问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用关键机制检查关键机制 2",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用关键机制检查关键机制 2",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用关键机制检查关键机制 2",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用现实场景检查现实场景 2",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用现实场景检查现实场景 2",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用现实场景检查现实场景 2",
+      "target": "现实场景 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→问题意识在全书中解决什么问题？": "问题入口",
+    "公开入口→关键机制在全书中解决什么问题？": "问题入口",
+    "公开入口→现实场景在全书中解决什么问题？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→问题意识": "章节推进",
+    "公开入口→关键机制": "章节推进",
+    "公开入口→现实场景": "章节推进",
+    "公开入口→问题意识 2": "概念支撑",
+    "公开入口→关键机制 2": "概念支撑",
+    "公开入口→现实场景 2": "概念支撑",
+    "公开入口→用问题意识检查问题意识": "行动方法",
+    "公开入口→用关键机制检查关键机制": "行动方法",
+    "公开入口→用现实场景检查现实场景": "行动方法",
+    "公开入口→用问题意识在全书中解决什么问题？检查问题意识": "行动方法",
+    "公开入口→用关键机制在全书中解决什么问题？检查关键机制": "行动方法",
+    "公开入口→用现实场景在全书中解决什么问题？检查现实场景": "行动方法",
+    "公开入口→问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过": "场景入口",
+    "公开入口→关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的": "场景入口",
+    "公开入口→现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。": "场景入口",
+    "公开入口→问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。": "场景入口",
+    "公开入口→关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认": "场景入口",
+    "公开入口→现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。": "场景入口",
+    "公开入口→问题意识原文线索": "案例证据",
+    "公开入口→关键机制原文线索": "案例证据",
+    "公开入口→现实场景原文线索": "案例证据",
+    "公开入口→问题意识在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→关键机制在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→现实场景在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→《负负得正的人生奥义书》全书骨架：从起点问题到最终落点": "问题切入",
+    "公开入口→关键机制在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→关键机制：这一段到底在解决什么问题": "问题切入",
+    "公开入口→现实场景在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→现实场景：这一段到底在解决什么问题": "问题切入",
+    "公开入口→问题意识在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→问题意识：这一段到底在解决什么问题": "问题切入",
+    "公开入口→全书主动作": "问题切入",
+    "公开入口→用「关键机制」处理关键问题": "问题切入",
+    "公开入口→用「问题意识」处理关键问题": "问题切入",
+    "公开入口→用关键机制检查关键机制 2": "问题切入",
+    "公开入口→用现实场景检查现实场景 2": "问题切入",
+    "公开入口→《负负得正的人生奥义书》全书总图": "视觉表达",
+    "公开入口→问题意识章节图": "视觉表达",
+    "公开入口→关键机制章节图": "视觉表达",
+    "公开入口→现实场景章节图": "视觉表达",
+    "公开入口→问题意识在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→关键机制在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→现实场景在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→《负负得正的人生奥义书》全书骨架：从起点问题到最终落点选题图": "视觉表达",
+    "公开入口→关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图": "视觉表达",
+    "公开入口→关键机制：这一段到底在解决什么问题选题图": "视觉表达",
+    "问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过→问题意识 2": "相关概念",
+    "问题意识：一开始粉丝团只有一二十个人而已 直到某一则帖文贴出去 我再看时 已经超过→关键机制 2": "相关概念",
+    "关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的→关键机制 2": "相关概念",
+    "关键机制：力 那我们崇尚这样的成功意味着什么呢 不过是鼓励人们对这样的人投以羡慕的→现实场景 2": "相关概念",
+    "现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。→现实场景 2": "相关概念",
+    "现实场景：叶问没有使命也照样勤练武功 等到需要的时候就会派上用场。→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？：的事就好 如果真的失败了 再去看看是什么原因导致失败的。→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？：如果她长得超美 相处多年 你知道她很爱花钱、不爱干净、说话随便 也不太认→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？：”“你已经很努力了 做自己比较重要。→问题意识 2": "相关概念",
+    "问题意识原文线索→问题意识 2": "相关概念",
+    "问题意识原文线索→关键机制 2": "相关概念",
+    "关键机制原文线索→关键机制 2": "相关概念",
+    "关键机制原文线索→现实场景 2": "相关概念",
+    "现实场景原文线索→现实场景 2": "相关概念",
+    "现实场景原文线索→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？原文线索→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？原文线索→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？原文线索→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？原文线索→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？原文线索→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？原文线索→问题意识 2": "相关概念",
+    "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点→问题意识 2": "相关概念",
+    "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点→关键机制 2": "相关概念",
+    "《负负得正的人生奥义书》全书骨架：从起点问题到最终落点→现实场景 2": "相关概念",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题→关键机制 2": "相关概念",
+    "关键机制：这一段到底在解决什么问题→关键机制 2": "相关概念",
+    "现实场景在全书中解决什么问题？：这一段到底在解决什么问题→现实场景 2": "相关概念",
+    "现实场景：这一段到底在解决什么问题→现实场景 2": "相关概念",
+    "问题意识在全书中解决什么问题？：这一段到底在解决什么问题→问题意识 2": "相关概念",
+    "问题意识：这一段到底在解决什么问题→问题意识 2": "相关概念",
+    "全书主动作→问题意识 2": "相关概念",
+    "全书主动作→关键机制 2": "相关概念",
+    "全书主动作→现实场景 2": "相关概念",
+    "用「关键机制」处理关键问题→问题意识 2": "相关概念",
+    "用「关键机制」处理关键问题→关键机制 2": "相关概念",
+    "用「关键机制」处理关键问题→现实场景 2": "相关概念",
+    "用「问题意识」处理关键问题→问题意识 2": "相关概念",
+    "用「问题意识」处理关键问题→关键机制 2": "相关概念",
+    "用「问题意识」处理关键问题→现实场景 2": "相关概念",
+    "用关键机制检查关键机制 2→问题意识 2": "相关概念",
+    "用关键机制检查关键机制 2→关键机制 2": "相关概念",
+    "用关键机制检查关键机制 2→现实场景 2": "相关概念",
+    "用现实场景检查现实场景 2→问题意识 2": "相关概念",
+    "用现实场景检查现实场景 2→关键机制 2": "相关概念",
+    "用现实场景检查现实场景 2→现实场景 2": "相关概念"
+  }
+}

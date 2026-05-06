@@ -4,12 +4,12 @@
       <section class="problem-shell">
         <aside class="problem-rail">
           <div class="rail-head">
-            <div class="tool-kicker">PRODUCT EXPERIMENT · PROBLEM LAB</div>
-            <h1>问题工作台</h1>
-            <p>从真实困惑进入，把问题命名、思想伙伴、书籍证据、学习路径和最小行动接成一条线。</p>
+            <div class="tool-kicker">从处境进入 · 卡点拆解</div>
+            <h1>卡点工作台</h1>
+            <p>把一句“我卡住了”，拆成当前现场、情绪信号、背后需要、可追问的问题和今天能做的一步。</p>
           </div>
 
-          <div class="case-options" aria-label="问题样张">
+          <div class="case-options" aria-label="具体卡点样张">
             <button
               v-for="item in cases"
               :key="item.id"
@@ -24,7 +24,7 @@
           </div>
 
           <div class="emotion-panel">
-          <div class="rail-label">情绪坐标</div>
+          <div class="rail-label">从情绪找入口</div>
           <article
             v-for="emotion in emotionEntries"
             :key="emotion.id"
@@ -53,11 +53,11 @@
         <main class="problem-main">
           <section class="lab-intake">
             <div>
-              <div class="tool-kicker">Problem Case</div>
-              <h2>先把问题变成可工作的对象</h2>
-              <p>第一版先用 5 个静态样张验证：用户是否更愿意从问题、情绪和行动入口进入，而不是先从书名进入。</p>
+              <div class="tool-kicker">当前任务</div>
+              <h2>先把卡住的地方说清楚</h2>
+              <p>这里不是马上给答案，而是把处境拆成可以讨论、可以验证、可以行动的几个小部件。</p>
             </div>
-            <button class="primary-btn" @click="pickRandomCase">抽一张问题卡</button>
+            <button class="primary-btn" @click="pickRandomCase">换一个卡点样张</button>
           </section>
 
           <ProblemWorkbench
@@ -67,6 +67,22 @@
             @open-learning-paths="$emit('openLearningPaths', $event)"
             @open-thought-partner="$emit('openThoughtPartner')"
           />
+
+          <section v-if="suggestedMethods.length" class="method-suggestions">
+            <div class="tool-kicker">可以试试这些方法</div>
+            <h3>回应这个卡点的几个练习</h3>
+            <div class="method-grid">
+              <article
+                v-for="method in suggestedMethods"
+                :key="method.id"
+                class="method-card"
+              >
+                <strong>{{ method.title }}</strong>
+                <p>{{ method.one }}</p>
+                <span class="method-tag">{{ method.type }}</span>
+              </article>
+            </div>
+          </section>
         </main>
       </section>
     </div>
@@ -76,6 +92,7 @@
 <script setup>
 import { computed, ref, watch } from 'vue'
 import ProblemWorkbench from './ProblemWorkbench.vue'
+import { methods } from '../data/methodData.js'
 import {
   emotionCoordinates,
   getProblemCase,
@@ -110,6 +127,35 @@ const emotionEntries = computed(() => emotions
   .filter((emotion) => emotion.caseItems.length > 0))
 
 const selectedCase = computed(() => getProblemCase(selectedCaseId.value))
+
+const suggestedMethods = computed(() => {
+  const c = selectedCase.value
+  if (!c) return []
+
+  const tags = [
+    ...(c.sceneTags || []),
+    ...(c.emotionTags || []),
+    ...(c.needTags || []),
+    c.phaseLabel || '',
+  ].join(' ')
+
+  const typePatterns = [
+    { match: /关系|信任|人际|连接|沟通|伴侣|家庭|父母/, type: '关系' },
+    { match: /表达|说出|开口|拒绝|请求|话语|沉默/, type: '表达' },
+    { match: /情绪|感受|觉察|焦虑|迷茫|内疚|羞耻|愤怒/, type: '觉察' },
+    { match: /判断|决定|选择|犹豫|比较|评价/, type: '判断' },
+    { match: /行动|改变|习惯|系统|结构|笔记|输出/, type: '创作' },
+  ]
+
+  for (const { match, type } of typePatterns) {
+    if (match.test(tags)) {
+      const filtered = methods.filter((m) => m.type === type)
+      if (filtered.length >= 3) return filtered.slice(0, 5)
+    }
+  }
+
+  return methods.filter((m) => ['觉察', '判断', '表达'].includes(m.type)).slice(0, 5)
+})
 
 function openEmotionEntry(emotion) {
   const casesInEmotion = emotion.caseItems || []
@@ -155,6 +201,7 @@ function pickRandomCase() {
 
 .problem-scroll {
   height: 100%;
+  overflow-x: hidden;
   overflow-y: auto;
 }
 
@@ -171,9 +218,12 @@ function pickRandomCase() {
   display: grid;
   grid-template-columns: 310px minmax(0, 1fr);
   gap: 18px;
+  width: 100%;
+  min-width: 0;
   max-width: 1480px;
   margin: 0 auto;
   padding: 22px;
+  box-sizing: border-box;
 }
 
 .problem-rail {
@@ -183,6 +233,7 @@ function pickRandomCase() {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  min-width: 0;
 }
 
 .rail-head,
@@ -228,6 +279,7 @@ function pickRandomCase() {
   margin-top: 10px;
   color: var(--text-secondary);
   line-height: 1.75;
+  overflow-wrap: anywhere;
 }
 
 .case-options,
@@ -367,6 +419,71 @@ function pickRandomCase() {
 
 .primary-btn:hover {
   background: #173041;
+}
+
+.method-suggestions {
+  margin-top: 18px;
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-card);
+  background: rgba(255,255,255,0.84);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.method-suggestions .tool-kicker {
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.method-suggestions h3 {
+  margin-top: 6px;
+  font-family: var(--font-serif);
+  font-size: 22px;
+  line-height: 1.1;
+  color: var(--text-primary);
+}
+
+.method-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-top: 14px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.method-card {
+  flex: 0 0 240px;
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-card);
+  background: #fff;
+  padding: 14px;
+}
+
+.method-card strong {
+  display: block;
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.method-card p {
+  margin-top: 6px;
+  color: var(--text-tertiary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.method-tag {
+  display: inline-block;
+  margin-top: 8px;
+  border-radius: var(--radius-pill);
+  background: rgba(32,79,103,0.08);
+  color: var(--brand);
+  padding: 3px 8px;
+  font-size: 11px;
 }
 
 @media (max-width: 1080px) {

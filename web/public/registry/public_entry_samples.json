@@ -1,0 +1,56 @@
+{
+  "schema": "PublicEntrySamples.v0.1",
+  "generatedAt": "2026-04-30",
+  "sourceManifest": "/registry/50_book_gray_manifest.json",
+  "batch": "2026-04-30_first_5",
+  "sampleCount": 5,
+  "entries": [
+    {
+      "workingId": "gray-001-fb557939",
+      "title": "好好思考",
+      "status": "promoted_full_nk",
+      "draftPath": "configs/expansion/public_entries/2026-04-30_first_5/01_好好思考_公开入口页.md",
+      "angle": "从经验成长，转向模型成长",
+      "siteSlug": "good-thinking",
+      "sitePath": "/books/good-thinking"
+    },
+    {
+      "workingId": "gray-002-4a5f7268",
+      "title": "模型思维",
+      "status": "promoted_full_nk",
+      "draftPath": "configs/expansion/public_entries/2026-04-30_first_5/02_模型思维_公开入口页.md",
+      "angle": "复杂问题不要只用一个解释",
+      "siteSlug": "model-thinking",
+      "sitePath": "/books/model-thinking"
+    },
+    {
+      "workingId": "gray-003-63d2f5ab",
+      "title": "思考，快与慢",
+      "status": "promoted_full_nk",
+      "draftPath": "configs/expansion/public_entries/2026-04-30_first_5/03_思考快与慢_公开入口页.md",
+      "angle": "为什么第一反应总像是真的",
+      "siteSlug": "thinking-fast-and-slow",
+      "sitePath": "/books/thinking-fast-and-slow"
+    },
+    {
+      "workingId": "gray-004-a1a4ef0e",
+      "title": "非暴力沟通",
+      "status": "promoted_full_nk",
+      "draftPath": "configs/expansion/public_entries/2026-04-30_first_5/04_非暴力沟通_公开入口页.md",
+      "angle": "把冲突拆回观察、感受、需要和请求",
+      "siteSlug": "nonviolent-communication",
+      "sitePath": "/books/nonviolent-communication"
+    },
+    {
+      "workingId": "gray-005-7529e060",
+      "title": "卡片笔记写作法",
+      "status": "promoted_full_nk",
+      "draftPath": "configs/expansion/public_entries/2026-04-30_first_5/05_卡片笔记写作法_公开入口页.md",
+      "angle": "让笔记进入写作系统",
+      "siteSlug": "smart-notes",
+      "sitePath": "/books/smart-notes"
+    }
+  ],
+  "promotedCount": 5,
+  "updatedAt": "2026-04-30"
+}

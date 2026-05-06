@@ -1,0 +1,105 @@
+{
+  "title": "世界的逻辑：如何让我们生活的世界更理性、更可控",
+  "shortTitle": "世界的逻辑",
+  "subtitle": "现代世界的城市、金融、空间和日常生活如何被资本积累逻辑持续塑造。",
+  "description": "基于《世界的逻辑：如何让我们生活的世界更理性、更可控》已通过质检的结构化资产，生成 public_structured_nk 基础公开层：入口、摘要、K/N 卡、章节、概念、场景和表达延展节点。",
+  "heroOverline": "BOOK · THINKING MAP",
+  "heroTitleLines": [
+    "世界的逻辑",
+    "现代世界的城市、金融、空间和日常生活如何被资本积累逻辑持续塑造。"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260503-public-structured-nk",
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_curated_overrides",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
+    ],
+    "overrideDir": "configs/public_overrides/logic-of-world",
+    "publicSanity": {
+      "blockerCount": 0,
+      "status": "pass",
+      "samples": []
+    }
+  },
+  "searchPlaceholder": "搜索《世界的逻辑》问题、概念、章节、方法、场景…",
+  "recommendedPath": [
+    "全书摘要",
+    "为什么资本总要寻找新的空间和新的生活领域？",
+    "历史地理唯物主义",
+    "历史地理唯物主义 2"
+  ],
+  "quickLinks": [
+    "全书摘要",
+    "全书结构",
+    "为什么资本总要寻找新的空间和新的生活领域？",
+    "历史地理唯物主义 2",
+    "历史地理唯物主义"
+  ],
+  "journeyOverline": "Structured Knowledge Map",
+  "journeyTitle": "基础公开阅读路径",
+  "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景向下展开。",
+  "journeyEntryLabel": "从全书摘要进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "入口总览",
+      "node": "全书摘要",
+      "image": "/books/logic-of-world/chapter-images/overview.svg",
+      "summary": "先用摘要建立这本书的主问题和整体结构。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "问题入口",
+      "node": "为什么资本总要寻找新的空间和新的生活领域？",
+      "image": "/books/logic-of-world/chapter-images/overview.svg",
+      "summary": "从核心问题进入，判断这本书到底在处理什么卡点。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "章节推进",
+      "node": "历史地理唯物主义",
+      "image": "/books/logic-of-world/chapter-images/overview.svg",
+      "summary": "沿章节地图看清原书推进顺序和每章功能。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "概念骨架",
+      "node": "历史地理唯物主义 2",
+      "image": "/books/logic-of-world/chapter-images/overview.svg",
+      "summary": "进入核心概念，理解这本书的关键判断工具。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "公开节点",
+      "value": "43"
+    },
+    {
+      "label": "K 卡",
+      "value": "10"
+    },
+    {
+      "label": "N 卡 / 概念",
+      "value": "18"
+    },
+    {
+      "label": "章节",
+      "value": "6"
+    }
+  ],
+  "slug": "logic-of-world",
+  "author": "大卫·哈维相关理论谱系",
+  "primaryCategory": "认知决策与系统思考",
+  "secondaryCategory": "社会理论母书 / 历史地理唯物主义"
+}

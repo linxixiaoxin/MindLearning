@@ -1,11 +1,27 @@
 export function parseRoute(pathname) {
   const normalized = pathname.replace(/\/+$/, '') || '/'
-  if (normalized === '/' || normalized === '/books') {
+  if (normalized === '/' ) {
+    return { view: 'sceneHub', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/life-scenes') {
+    return { view: 'sceneHub', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/books') {
     return { view: 'library', slug: '', nodeId: null }
   }
 
   if (normalized === '/tools/thought-partner') {
     return { view: 'thoughtPartner', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/roundtable') {
+    return { view: 'roundtable', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/archetype-lab') {
+    return { view: 'archetypeLab', slug: '', nodeId: null }
   }
 
   if (normalized === '/tools/problem-lab') {
@@ -39,6 +55,14 @@ export function parseRoute(pathname) {
     return { view: 'capabilityPaths', slug: decodeSegment(capabilityPathsMatch[1]), nodeId: null }
   }
 
+  if (normalized === '/login') {
+    return { view: 'login', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/admin') {
+    return { view: 'admin', slug: '', nodeId: null }
+  }
+
   if (normalized === '/tools/mindset-trap-diagnostic') {
     return { view: 'mindsetTrapDiagnostic', slug: '', nodeId: null }
   }
@@ -53,6 +77,43 @@ export function parseRoute(pathname) {
 
   if (normalized === '/tools/space-browser') {
     return { view: 'spaceBrowser', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/thinkers') {
+    return { view: 'thinkerBrowser', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/scenes') {
+    return { view: 'sceneBrowser', slug: '', nodeId: null }
+  }
+
+  const sceneDetailMatch = normalized.match(/^\/tools\/scene\/([^/]+)$/)
+  if (sceneDetailMatch) {
+    return { view: 'sceneDetail', slug: decodeSegment(sceneDetailMatch[1]), nodeId: null }
+  }
+
+  if (normalized === '/tools/methods') {
+    return { view: 'methodBrowser', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/archetypes') {
+    return { view: 'archetypeBrowser', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/metaphors') {
+    return { view: 'metaphorBrowser', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/concepts') {
+    return { view: 'conceptBrowser', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/archetype-contrast') {
+    return { view: 'archetypeContrast', slug: '', nodeId: null }
+  }
+
+  if (normalized === '/tools/archetype-dialogue') {
+    return { view: 'archetypeDialogue', slug: '', nodeId: null }
   }
 
   if (normalized === '/tools/learning-paths') {
@@ -97,7 +158,10 @@ export function parseRoute(pathname) {
 }
 
 export function routeToUrl(targetView, slug, nodeId) {
+  if (targetView === 'sceneHub') return '/'
   if (targetView === 'thoughtPartner') return '/tools/thought-partner'
+  if (targetView === 'roundtable') return '/tools/roundtable'
+  if (targetView === 'archetypeLab') return '/tools/archetype-lab'
   if (targetView === 'problemLab') {
     return slug ? `/tools/problem-lab/${encodeURIComponent(slug)}` : '/tools/problem-lab'
   }
@@ -108,10 +172,23 @@ export function routeToUrl(targetView, slug, nodeId) {
   if (targetView === 'capabilityPaths') {
     return slug ? `/tools/capability-paths/${encodeURIComponent(slug)}` : '/tools/capability-paths'
   }
+  if (targetView === 'login') return '/login'
+  if (targetView === 'admin') return '/admin'
   if (targetView === 'mindsetTrapDiagnostic') return '/tools/mindset-trap-diagnostic'
   if (targetView === 'leadershipMindsetAssessment') return '/tools/leadership-mindset-assessment'
   if (targetView === 'grayBooks') return '/tools/gray-books'
   if (targetView === 'spaceBrowser') return '/tools/space-browser'
+  if (targetView === 'thinkerBrowser') return '/tools/thinkers'
+  if (targetView === 'sceneBrowser') return '/tools/scenes'
+  if (targetView === 'sceneDetail') {
+    return slug ? `/tools/scene/${encodeURIComponent(slug)}` : '/tools/scenes'
+  }
+  if (targetView === 'methodBrowser') return '/tools/methods'
+  if (targetView === 'archetypeBrowser') return '/tools/archetypes'
+  if (targetView === 'metaphorBrowser') return '/tools/metaphors'
+  if (targetView === 'conceptBrowser') return '/tools/concepts'
+  if (targetView === 'archetypeContrast') return '/tools/archetype-contrast'
+  if (targetView === 'archetypeDialogue') return '/tools/archetype-dialogue'
   if (targetView === 'learningPaths') {
     return slug ? `/tools/learning-paths/${encodeURIComponent(slug)}` : '/tools/learning-paths'
   }

@@ -1,0 +1,1472 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "主题",
+      "color": "#6d5c93",
+      "size": 10
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "book": {
+      "label": "书籍",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#2e5670",
+      "size": 11
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 9
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 10
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "person": {
+      "label": "人物",
+      "color": "#9d5667",
+      "size": 12
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "主题",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#2e5670"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "全书摘要": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "全书结构": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "让爱融入生活在全书中解决什么问题？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "是什么蒙蔽了爱？在全书中解决什么问题？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "区分观察和评论在全书中解决什么问题？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "体会和表达感受在全书中解决什么问题？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "感受的根源在全书中解决什么问题？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "逻辑链 1": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "逻辑链 2": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "逻辑链 3": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "逻辑链 4": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "逻辑链 5": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元01：让爱融入生活": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元02：是什么蒙蔽了爱？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元03：区分观察和评论": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元04：体会和表达感受": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元05：感受的根源": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元06：请求帮助": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元07：用全身心倾听": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元08：倾听的力量": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元09：爱自己": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元10：充分表达愤怒": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元11：运用强制力避免伤害": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元12：重获生活的热情": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "让爱融入生活": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "是什么蒙蔽了爱？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "区分观察和评论": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "体会和表达感受": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "感受的根源": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "请求帮助": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用全身心倾听": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "倾听的力量": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "爱自己": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "充分表达愤怒": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元01：让爱融入生活检查让爱融入生活": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元02：是什么蒙蔽了爱？检查是什么蒙蔽了爱？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元03：区分观察和评论检查区分观察和评论": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元04：体会和表达感受检查体会和表达感受": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元05：感受的根源检查感受的根源": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元06：请求帮助检查请求帮助": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元07：用全身心倾听检查用全身心倾听": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "用主题单元08：倾听的力量检查倾听的力量": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元01：让爱融入生活原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元02：是什么蒙蔽了爱？原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元03：区分观察和评论原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元04：体会和表达感受原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元05：感受的根源原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元06：请求帮助原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元07：用全身心倾听原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元08：倾听的力量原文线索": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "《非暴力沟通》全书骨架：从起点问题到最终落点": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元01：让爱融入生活：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元02：是什么蒙蔽了爱？：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元03：区分观察和评论：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元04：体会和表达感受：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元05：感受的根源：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "主题单元06：请求帮助：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "体会和表达感受：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "区分观察和评论：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "感受的根源：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "是什么蒙蔽了爱？：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "让爱融入生活：这一段到底在解决什么问题": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "《非暴力沟通》全书总图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "让爱融入生活章节图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "是什么蒙蔽了爱？章节图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "区分观察和评论章节图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "体会和表达感受章节图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "感受的根源章节图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "请求帮助章节图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "《非暴力沟通》全书骨架：从起点问题到最终落点选题图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "体会和表达感受：这一段到底在解决什么问题选题图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "区分观察和评论：这一段到底在解决什么问题选题图": "/books/nonviolent-communication/chapter-images/overview.svg",
+    "读者常见陷阱": "/books/nonviolent-communication/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "让爱融入生活在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "是什么蒙蔽了爱？在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "区分观察和评论在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "体会和表达感受在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "感受的根源在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 5"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "1. 让爱融入生活"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "2. 是什么蒙蔽了爱？"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "3. 区分观察和评论"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "4. 体会和表达感受"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "5. 感受的根源"
+    },
+    {
+      "id": "主题单元01：让爱融入生活",
+      "type": "chapter",
+      "tagline": "主题单元01：让爱融入生活围绕这条原文线索展开：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主导生活。"
+    },
+    {
+      "id": "主题单元02：是什么蒙蔽了爱？",
+      "type": "chapter",
+      "tagline": "主题单元02：是什么蒙蔽了爱？围绕这条原文线索展开：在思考这个问题时，我发现某些语言和表达方式的负面影响。"
+    },
+    {
+      "id": "主题单元03：区分观察和评论",
+      "type": "chapter",
+      "tagline": "主题单元03：区分观察和评论围绕这条原文线索展开：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，但请不要把二者混淆。"
+    },
+    {
+      "id": "主题单元04：体会和表达感受",
+      "type": "chapter",
+      "tagline": "主题单元04：体会和表达感受围绕这条原文线索展开：达感受非暴力沟通的第二个要素是感受。"
+    },
+    {
+      "id": "主题单元05：感受的根源",
+      "type": "chapter",
+      "tagline": "主题单元05：感受的根源围绕这条原文线索展开：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。"
+    },
+    {
+      "id": "主题单元06：请求帮助",
+      "type": "chapter",
+      "tagline": "主题单元06：请求帮助围绕这条原文线索展开：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。"
+    },
+    {
+      "id": "主题单元07：用全身心倾听",
+      "type": "chapter",
+      "tagline": "主题单元07：用全身心倾听围绕这条原文线索展开：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。"
+    },
+    {
+      "id": "主题单元08：倾听的力量",
+      "type": "chapter",
+      "tagline": "主题单元08：倾听的力量围绕这条原文线索展开：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？"
+    },
+    {
+      "id": "主题单元09：爱自己",
+      "type": "chapter",
+      "tagline": "主题单元09：爱自己围绕这条原文线索展开：们已经了解如何使用非暴力沟通来发展友谊，促进家庭和睦，改善工作交流以及推动政治和解。"
+    },
+    {
+      "id": "主题单元10：充分表达愤怒",
+      "type": "chapter",
+      "tagline": "主题单元10：充分表达愤怒围绕这条原文线索展开：通过探讨非暴力沟通表达愤怒的过程，我们可以更深入地了解非暴力沟通。"
+    },
+    {
+      "id": "主题单元11：运用强制力避免伤害",
+      "type": "chapter",
+      "tagline": "主题单元11：运用强制力避免伤害围绕这条原文线索展开：制力避免伤害如果冲突的双方都能充分表达观察、感受、需要和请求，并得到对方的理解，那么，双方的需要通常可以同时得到满足。"
+    },
+    {
+      "id": "主题单元12：重获生活的热情",
+      "type": "chapter",
+      "tagline": "主题单元12：重获生活的热情围绕这条原文线索展开：活的热情倾听内心的声音在成长的过程中，我们学习了许多无益的知识，这些知识来自善意的父母、老师或别的人。"
+    },
+    {
+      "id": "让爱融入生活",
+      "type": "concept",
+      "tagline": "来自章节「让爱融入生活」的关键判断。"
+    },
+    {
+      "id": "是什么蒙蔽了爱？",
+      "type": "concept",
+      "tagline": "来自章节「是什么蒙蔽了爱？」的关键判断。"
+    },
+    {
+      "id": "区分观察和评论",
+      "type": "concept",
+      "tagline": "来自章节「区分观察和评论」的关键判断。"
+    },
+    {
+      "id": "体会和表达感受",
+      "type": "concept",
+      "tagline": "来自章节「体会和表达感受」的关键判断。"
+    },
+    {
+      "id": "感受的根源",
+      "type": "concept",
+      "tagline": "来自章节「感受的根源」的关键判断。"
+    },
+    {
+      "id": "请求帮助",
+      "type": "concept",
+      "tagline": "来自章节「请求帮助」的关键判断。"
+    },
+    {
+      "id": "用全身心倾听",
+      "type": "concept",
+      "tagline": "来自章节「用全身心倾听」的关键判断。"
+    },
+    {
+      "id": "倾听的力量",
+      "type": "concept",
+      "tagline": "来自章节「倾听的力量」的关键判断。"
+    },
+    {
+      "id": "爱自己",
+      "type": "concept",
+      "tagline": "来自章节「爱自己」的关键判断。"
+    },
+    {
+      "id": "充分表达愤怒",
+      "type": "concept",
+      "tagline": "来自章节「充分表达愤怒」的关键判断。"
+    },
+    {
+      "id": "用主题单元01：让爱融入生活检查让爱融入生活",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元01：让爱融入生活的原文场景时使用。"
+    },
+    {
+      "id": "用主题单元02：是什么蒙蔽了爱？检查是什么蒙蔽了爱？",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元02：是什么蒙蔽了爱？的原文场景时使用。"
+    },
+    {
+      "id": "用主题单元03：区分观察和评论检查区分观察和评论",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元03：区分观察和评论的原文场景时使用。"
+    },
+    {
+      "id": "用主题单元04：体会和表达感受检查体会和表达感受",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元04：体会和表达感受的原文场景时使用。"
+    },
+    {
+      "id": "用主题单元05：感受的根源检查感受的根源",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元05：感受的根源的原文场景时使用。"
+    },
+    {
+      "id": "用主题单元06：请求帮助检查请求帮助",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元06：请求帮助的原文场景时使用。"
+    },
+    {
+      "id": "用主题单元07：用全身心倾听检查用全身心倾听",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元07：用全身心倾听的原文场景时使用。"
+    },
+    {
+      "id": "用主题单元08：倾听的力量检查倾听的力量",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少主题单元08：倾听的力量的原文场景时使用。"
+    },
+    {
+      "id": "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主",
+      "type": "scenario",
+      "tagline": "主题单元01：让爱融入生活把让爱融入生活放到这类处境里观察：人们常说：这是一个弱肉强食的世界，为了生存，我们必须不择手段。"
+    },
+    {
+      "id": "主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。",
+      "type": "scenario",
+      "tagline": "主题单元02：是什么蒙蔽了爱？把是什么蒙蔽了爱？放到这类处境里观察：它们虽然致力于满足某种愿望，却倾向于忽视人的感受和需要，以致彼此的疏远和伤害。"
+    },
+    {
+      "id": "主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，",
+      "type": "scenario",
+      "tagline": "主题单元03：区分观察和评论把区分观察和评论放到这类处境里观察：如果你想把任何事情搅浑，我可以告诉你怎么做：把我做的事情和你的反应混为一谈。"
+    },
+    {
+      "id": "主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。",
+      "type": "scenario",
+      "tagline": "主题单元04：体会和表达感受把体会和表达感受放到这类处境里观察：”然而，根据罗洛·梅的叙述，大多数人的感受“像军号声那样单调”。"
+    },
+    {
+      "id": "主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。",
+      "type": "scenario",
+      "tagline": "主题单元05：感受的根源把感受的根源放到这类处境里观察：我们的需要和期待，以及对他人言行的看法，导致了我们的感受。"
+    },
+    {
+      "id": "主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。",
+      "type": "scenario",
+      "tagline": "主题单元06：请求帮助把请求帮助放到这类处境里观察：在本章中，我们将讨论非暴力沟通的第四个要素：请求。"
+    },
+    {
+      "id": "主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。",
+      "type": "scenario",
+      "tagline": "主题单元07：用全身心倾听把用全身心倾听放到这类处境里观察：本章我们将探讨如何倾听他人，了解他们的观察、感受、需要和请求，并给予反馈。"
+    },
+    {
+      "id": "主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？",
+      "type": "scenario",
+      "tagline": "主题单元08：倾听的力量把倾听的力量放到这类处境里观察：一旦有人倾听，看起来无法解决的问题就有了解决办法，千头万绪的思路也会变得清晰起来。"
+    },
+    {
+      "id": "主题单元01：让爱融入生活原文线索",
+      "type": "case",
+      "tagline": "欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主导生活。"
+    },
+    {
+      "id": "主题单元02：是什么蒙蔽了爱？原文线索",
+      "type": "case",
+      "tagline": "在思考这个问题时，我发现某些语言和表达方式的负面影响。"
+    },
+    {
+      "id": "主题单元03：区分观察和评论原文线索",
+      "type": "case",
+      "tagline": "和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，但请不要把二者混淆。"
+    },
+    {
+      "id": "主题单元04：体会和表达感受原文线索",
+      "type": "case",
+      "tagline": "达感受非暴力沟通的第二个要素是感受。"
+    },
+    {
+      "id": "主题单元05：感受的根源原文线索",
+      "type": "case",
+      "tagline": "源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。"
+    },
+    {
+      "id": "主题单元06：请求帮助原文线索",
+      "type": "case",
+      "tagline": "我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。"
+    },
+    {
+      "id": "主题单元07：用全身心倾听原文线索",
+      "type": "case",
+      "tagline": "倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。"
+    },
+    {
+      "id": "主题单元08：倾听的力量原文线索",
+      "type": "case",
+      "tagline": "量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？"
+    },
+    {
+      "id": "《非暴力沟通》全书骨架：从起点问题到最终落点",
+      "type": "expression",
+      "tagline": "如何理解《非暴力沟通》的章节主线"
+    },
+    {
+      "id": "主题单元01：让爱融入生活：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "主题单元01：让爱融入生活要回答的是：第一章让爱融入生活引言我相信，人天生热爱生命，乐于互助。"
+    },
+    {
+      "id": "主题单元02：是什么蒙蔽了爱？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "主题单元02：是什么蒙蔽了爱？要回答的是：在思考这个问题时，我发现某些语言和表达方式的负面影响。"
+    },
+    {
+      "id": "主题单元03：区分观察和评论：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "主题单元03：区分观察和评论要回答的是：第三章区分观察和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，但请不要把二者混淆。"
+    },
+    {
+      "id": "主题单元04：体会和表达感受：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "主题单元04：体会和表达感受要回答的是：第四章体会和表达感受非暴力沟通的第二个要素是感受。"
+    },
+    {
+      "id": "主题单元05：感受的根源：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "主题单元05：感受的根源要回答的是：第五章感受的根源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。"
+    },
+    {
+      "id": "主题单元06：请求帮助：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "主题单元06：请求帮助要回答的是：第六章请求帮助我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。"
+    },
+    {
+      "id": "体会和表达感受：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「体会和表达感受」推进全书。"
+    },
+    {
+      "id": "区分观察和评论：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「区分观察和评论」推进全书。"
+    },
+    {
+      "id": "感受的根源：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「感受的根源」推进全书。"
+    },
+    {
+      "id": "是什么蒙蔽了爱？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「是什么蒙蔽了爱？」推进全书。"
+    },
+    {
+      "id": "让爱融入生活：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「让爱融入生活」推进全书。"
+    },
+    {
+      "id": "《非暴力沟通》全书总图",
+      "type": "expression",
+      "tagline": "把「让爱融入生活在全书中解决什么问题？」画成一张能继续翻页的总图。"
+    },
+    {
+      "id": "让爱融入生活章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「让爱融入生活」推进全书。"
+    },
+    {
+      "id": "是什么蒙蔽了爱？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「是什么蒙蔽了爱？」推进全书。"
+    },
+    {
+      "id": "区分观察和评论章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「区分观察和评论」推进全书。"
+    },
+    {
+      "id": "体会和表达感受章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「体会和表达感受」推进全书。"
+    },
+    {
+      "id": "感受的根源章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「感受的根源」推进全书。"
+    },
+    {
+      "id": "请求帮助章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「请求帮助」推进全书。"
+    },
+    {
+      "id": "《非暴力沟通》全书骨架：从起点问题到最终落点选题图",
+      "type": "expression",
+      "tagline": "读者容易把「如何理解《非暴力沟通》的章节主线」当成表面问题，但这本书真正要处理的是「让爱融入生活」与「是什么蒙蔽了爱？」之间的结构关系。"
+    },
+    {
+      "id": "体会和表达感受：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「体会和表达感受」推进全书。」，但这一段真正想带读者回到「体会和表达感受」中的「体会和表达感受」。"
+    },
+    {
+      "id": "区分观察和评论：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「区分观察和评论」推进全书。」，但这一段真正想带读者回到「区分观察和评论」中的「区分观察和评论」。"
+    },
+    {
+      "id": "读者常见陷阱",
+      "type": "summary",
+      "tagline": "读者常见陷阱"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "让爱融入生活在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "是什么蒙蔽了爱？在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "区分观察和评论在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "体会和表达感受在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受的根源在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元01：让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元02：是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元03：区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元04：体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元05：感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元06：请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元07：用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元08：倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元09：爱自己",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元10：充分表达愤怒",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元11：运用强制力避免伤害",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元12：重获生活的热情",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "爱自己",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "充分表达愤怒",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元01：让爱融入生活检查让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元02：是什么蒙蔽了爱？检查是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元03：区分观察和评论检查区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元04：体会和表达感受检查体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元05：感受的根源检查感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元06：请求帮助检查请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元07：用全身心倾听检查用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用主题单元08：倾听的力量检查倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元01：让爱融入生活原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元02：是什么蒙蔽了爱？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元03：区分观察和评论原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元04：体会和表达感受原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元05：感受的根源原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元06：请求帮助原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元07：用全身心倾听原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元08：倾听的力量原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《非暴力沟通》全书骨架：从起点问题到最终落点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元01：让爱融入生活：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元02：是什么蒙蔽了爱？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元03：区分观察和评论：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元04：体会和表达感受：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元05：感受的根源：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "主题单元06：请求帮助：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "体会和表达感受：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "区分观察和评论：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受的根源：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "是什么蒙蔽了爱？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "让爱融入生活：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《非暴力沟通》全书总图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "让爱融入生活章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "是什么蒙蔽了爱？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "区分观察和评论章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "体会和表达感受章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受的根源章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "请求帮助章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《非暴力沟通》全书骨架：从起点问题到最终落点选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "体会和表达感受：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "区分观察和评论：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读者常见陷阱",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元01：让爱融入生活",
+      "target": "让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元02：是什么蒙蔽了爱？",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元03：区分观察和评论",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元04：体会和表达感受",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元05：感受的根源",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元06：请求帮助",
+      "target": "请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元07：用全身心倾听",
+      "target": "用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元08：倾听的力量",
+      "target": "倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元09：爱自己",
+      "target": "爱自己",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元10：充分表达愤怒",
+      "target": "充分表达愤怒",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元11：运用强制力避免伤害",
+      "target": "让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元12：重获生活的热情",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主",
+      "target": "让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。",
+      "target": "请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。",
+      "target": "请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。",
+      "target": "用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。",
+      "target": "用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。",
+      "target": "倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？",
+      "target": "倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？",
+      "target": "爱自己",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元01：让爱融入生活原文线索",
+      "target": "让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元01：让爱融入生活原文线索",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元02：是什么蒙蔽了爱？原文线索",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元02：是什么蒙蔽了爱？原文线索",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元03：区分观察和评论原文线索",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元03：区分观察和评论原文线索",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元04：体会和表达感受原文线索",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元04：体会和表达感受原文线索",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元05：感受的根源原文线索",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元05：感受的根源原文线索",
+      "target": "请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元06：请求帮助原文线索",
+      "target": "请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元06：请求帮助原文线索",
+      "target": "用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元07：用全身心倾听原文线索",
+      "target": "用全身心倾听",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元07：用全身心倾听原文线索",
+      "target": "倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元08：倾听的力量原文线索",
+      "target": "倾听的力量",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元08：倾听的力量原文线索",
+      "target": "爱自己",
+      "type": "relates"
+    },
+    {
+      "source": "《非暴力沟通》全书骨架：从起点问题到最终落点",
+      "target": "让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "《非暴力沟通》全书骨架：从起点问题到最终落点",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "《非暴力沟通》全书骨架：从起点问题到最终落点",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "《非暴力沟通》全书骨架：从起点问题到最终落点",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "《非暴力沟通》全书骨架：从起点问题到最终落点",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元01：让爱融入生活：这一段到底在解决什么问题",
+      "target": "让爱融入生活",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元02：是什么蒙蔽了爱？：这一段到底在解决什么问题",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元03：区分观察和评论：这一段到底在解决什么问题",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元04：体会和表达感受：这一段到底在解决什么问题",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元05：感受的根源：这一段到底在解决什么问题",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "主题单元06：请求帮助：这一段到底在解决什么问题",
+      "target": "请求帮助",
+      "type": "relates"
+    },
+    {
+      "source": "体会和表达感受：这一段到底在解决什么问题",
+      "target": "体会和表达感受",
+      "type": "relates"
+    },
+    {
+      "source": "区分观察和评论：这一段到底在解决什么问题",
+      "target": "区分观察和评论",
+      "type": "relates"
+    },
+    {
+      "source": "感受的根源：这一段到底在解决什么问题",
+      "target": "感受的根源",
+      "type": "relates"
+    },
+    {
+      "source": "是什么蒙蔽了爱？：这一段到底在解决什么问题",
+      "target": "是什么蒙蔽了爱？",
+      "type": "relates"
+    },
+    {
+      "source": "让爱融入生活：这一段到底在解决什么问题",
+      "target": "让爱融入生活",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→让爱融入生活在全书中解决什么问题？": "问题入口",
+    "公开入口→是什么蒙蔽了爱？在全书中解决什么问题？": "问题入口",
+    "公开入口→区分观察和评论在全书中解决什么问题？": "问题入口",
+    "公开入口→体会和表达感受在全书中解决什么问题？": "问题入口",
+    "公开入口→感受的根源在全书中解决什么问题？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→主题单元01：让爱融入生活": "章节推进",
+    "公开入口→主题单元02：是什么蒙蔽了爱？": "章节推进",
+    "公开入口→主题单元03：区分观察和评论": "章节推进",
+    "公开入口→主题单元04：体会和表达感受": "章节推进",
+    "公开入口→主题单元05：感受的根源": "章节推进",
+    "公开入口→主题单元06：请求帮助": "章节推进",
+    "公开入口→主题单元07：用全身心倾听": "章节推进",
+    "公开入口→主题单元08：倾听的力量": "章节推进",
+    "公开入口→主题单元09：爱自己": "章节推进",
+    "公开入口→主题单元10：充分表达愤怒": "章节推进",
+    "公开入口→主题单元11：运用强制力避免伤害": "章节推进",
+    "公开入口→主题单元12：重获生活的热情": "章节推进",
+    "公开入口→让爱融入生活": "概念支撑",
+    "公开入口→是什么蒙蔽了爱？": "概念支撑",
+    "公开入口→区分观察和评论": "概念支撑",
+    "公开入口→体会和表达感受": "概念支撑",
+    "公开入口→感受的根源": "概念支撑",
+    "公开入口→请求帮助": "概念支撑",
+    "公开入口→用全身心倾听": "概念支撑",
+    "公开入口→倾听的力量": "概念支撑",
+    "公开入口→爱自己": "概念支撑",
+    "公开入口→充分表达愤怒": "概念支撑",
+    "公开入口→用主题单元01：让爱融入生活检查让爱融入生活": "行动方法",
+    "公开入口→用主题单元02：是什么蒙蔽了爱？检查是什么蒙蔽了爱？": "行动方法",
+    "公开入口→用主题单元03：区分观察和评论检查区分观察和评论": "行动方法",
+    "公开入口→用主题单元04：体会和表达感受检查体会和表达感受": "行动方法",
+    "公开入口→用主题单元05：感受的根源检查感受的根源": "行动方法",
+    "公开入口→用主题单元06：请求帮助检查请求帮助": "行动方法",
+    "公开入口→用主题单元07：用全身心倾听检查用全身心倾听": "行动方法",
+    "公开入口→用主题单元08：倾听的力量检查倾听的力量": "行动方法",
+    "公开入口→主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主": "场景入口",
+    "公开入口→主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。": "场景入口",
+    "公开入口→主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，": "场景入口",
+    "公开入口→主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。": "场景入口",
+    "公开入口→主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。": "场景入口",
+    "公开入口→主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。": "场景入口",
+    "公开入口→主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。": "场景入口",
+    "公开入口→主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？": "场景入口",
+    "公开入口→主题单元01：让爱融入生活原文线索": "案例证据",
+    "公开入口→主题单元02：是什么蒙蔽了爱？原文线索": "案例证据",
+    "公开入口→主题单元03：区分观察和评论原文线索": "案例证据",
+    "公开入口→主题单元04：体会和表达感受原文线索": "案例证据",
+    "公开入口→主题单元05：感受的根源原文线索": "案例证据",
+    "公开入口→主题单元06：请求帮助原文线索": "案例证据",
+    "公开入口→主题单元07：用全身心倾听原文线索": "案例证据",
+    "公开入口→主题单元08：倾听的力量原文线索": "案例证据",
+    "公开入口→《非暴力沟通》全书骨架：从起点问题到最终落点": "问题切入",
+    "公开入口→主题单元01：让爱融入生活：这一段到底在解决什么问题": "问题切入",
+    "公开入口→主题单元02：是什么蒙蔽了爱？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→主题单元03：区分观察和评论：这一段到底在解决什么问题": "问题切入",
+    "公开入口→主题单元04：体会和表达感受：这一段到底在解决什么问题": "问题切入",
+    "公开入口→主题单元05：感受的根源：这一段到底在解决什么问题": "问题切入",
+    "公开入口→主题单元06：请求帮助：这一段到底在解决什么问题": "问题切入",
+    "公开入口→体会和表达感受：这一段到底在解决什么问题": "问题切入",
+    "公开入口→区分观察和评论：这一段到底在解决什么问题": "问题切入",
+    "公开入口→感受的根源：这一段到底在解决什么问题": "问题切入",
+    "公开入口→是什么蒙蔽了爱？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→让爱融入生活：这一段到底在解决什么问题": "问题切入",
+    "公开入口→《非暴力沟通》全书总图": "视觉表达",
+    "公开入口→让爱融入生活章节图": "视觉表达",
+    "公开入口→是什么蒙蔽了爱？章节图": "视觉表达",
+    "公开入口→区分观察和评论章节图": "视觉表达",
+    "公开入口→体会和表达感受章节图": "视觉表达",
+    "公开入口→感受的根源章节图": "视觉表达",
+    "公开入口→请求帮助章节图": "视觉表达",
+    "公开入口→《非暴力沟通》全书骨架：从起点问题到最终落点选题图": "视觉表达",
+    "公开入口→体会和表达感受：这一段到底在解决什么问题选题图": "视觉表达",
+    "公开入口→区分观察和评论：这一段到底在解决什么问题选题图": "视觉表达",
+    "公开入口→读者常见陷阱": "作者假设",
+    "主题单元01：让爱融入生活→让爱融入生活": "相关概念",
+    "主题单元02：是什么蒙蔽了爱？→是什么蒙蔽了爱？": "相关概念",
+    "主题单元03：区分观察和评论→区分观察和评论": "相关概念",
+    "主题单元04：体会和表达感受→体会和表达感受": "相关概念",
+    "主题单元05：感受的根源→感受的根源": "相关概念",
+    "主题单元06：请求帮助→请求帮助": "相关概念",
+    "主题单元07：用全身心倾听→用全身心倾听": "相关概念",
+    "主题单元08：倾听的力量→倾听的力量": "相关概念",
+    "主题单元09：爱自己→爱自己": "相关概念",
+    "主题单元10：充分表达愤怒→充分表达愤怒": "相关概念",
+    "主题单元11：运用强制力避免伤害→让爱融入生活": "相关概念",
+    "主题单元12：重获生活的热情→是什么蒙蔽了爱？": "相关概念",
+    "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主→让爱融入生活": "相关概念",
+    "主题单元01：让爱融入生活：欣赏、感激、慈悲和友情，而非自私自利、贪婪、憎恨、偏见、怀疑和敌意，来主→是什么蒙蔽了爱？": "相关概念",
+    "主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。→是什么蒙蔽了爱？": "相关概念",
+    "主题单元02：是什么蒙蔽了爱？：在思考这个问题时，我发现某些语言和表达方式的负面影响。→区分观察和评论": "相关概念",
+    "主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，→区分观察和评论": "相关概念",
+    "主题单元03：区分观察和评论：和评论我知道如何回应你当你说我做了什么或没做什么，我也可以回应你的评论，→体会和表达感受": "相关概念",
+    "主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。→体会和表达感受": "相关概念",
+    "主题单元04：体会和表达感受：达感受非暴力沟通的第二个要素是感受。→感受的根源": "相关概念",
+    "主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。→感受的根源": "相关概念",
+    "主题单元05：感受的根源：源听到不中听的话：四种选择非暴力沟通强调，感受的根源在于我们自身。→请求帮助": "相关概念",
+    "主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。→请求帮助": "相关概念",
+    "主题单元06：请求帮助：我们在前几章介绍了非暴力沟通的三个要素：观察、感受和需要。→用全身心倾听": "相关概念",
+    "主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。→用全身心倾听": "相关概念",
+    "主题单元07：用全身心倾听：倾听在前四章中，我们介绍了如何通过非暴力沟通的四个要素来表达自己。→倾听的力量": "相关概念",
+    "主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？→倾听的力量": "相关概念",
+    "主题单元08：倾听的力量：量倾听使身心痊愈一个人如果有机会倾诉，会是怎样的感觉呢？→爱自己": "相关概念",
+    "主题单元01：让爱融入生活原文线索→让爱融入生活": "相关概念",
+    "主题单元01：让爱融入生活原文线索→是什么蒙蔽了爱？": "相关概念",
+    "主题单元02：是什么蒙蔽了爱？原文线索→是什么蒙蔽了爱？": "相关概念",
+    "主题单元02：是什么蒙蔽了爱？原文线索→区分观察和评论": "相关概念",
+    "主题单元03：区分观察和评论原文线索→区分观察和评论": "相关概念",
+    "主题单元03：区分观察和评论原文线索→体会和表达感受": "相关概念",
+    "主题单元04：体会和表达感受原文线索→体会和表达感受": "相关概念",
+    "主题单元04：体会和表达感受原文线索→感受的根源": "相关概念",
+    "主题单元05：感受的根源原文线索→感受的根源": "相关概念",
+    "主题单元05：感受的根源原文线索→请求帮助": "相关概念",
+    "主题单元06：请求帮助原文线索→请求帮助": "相关概念",
+    "主题单元06：请求帮助原文线索→用全身心倾听": "相关概念",
+    "主题单元07：用全身心倾听原文线索→用全身心倾听": "相关概念",
+    "主题单元07：用全身心倾听原文线索→倾听的力量": "相关概念",
+    "主题单元08：倾听的力量原文线索→倾听的力量": "相关概念",
+    "主题单元08：倾听的力量原文线索→爱自己": "相关概念",
+    "《非暴力沟通》全书骨架：从起点问题到最终落点→让爱融入生活": "相关概念",
+    "《非暴力沟通》全书骨架：从起点问题到最终落点→是什么蒙蔽了爱？": "相关概念",
+    "《非暴力沟通》全书骨架：从起点问题到最终落点→区分观察和评论": "相关概念",
+    "《非暴力沟通》全书骨架：从起点问题到最终落点→体会和表达感受": "相关概念",
+    "《非暴力沟通》全书骨架：从起点问题到最终落点→感受的根源": "相关概念",
+    "主题单元01：让爱融入生活：这一段到底在解决什么问题→让爱融入生活": "相关概念",
+    "主题单元02：是什么蒙蔽了爱？：这一段到底在解决什么问题→是什么蒙蔽了爱？": "相关概念",
+    "主题单元03：区分观察和评论：这一段到底在解决什么问题→区分观察和评论": "相关概念",
+    "主题单元04：体会和表达感受：这一段到底在解决什么问题→体会和表达感受": "相关概念",
+    "主题单元05：感受的根源：这一段到底在解决什么问题→感受的根源": "相关概念",
+    "主题单元06：请求帮助：这一段到底在解决什么问题→请求帮助": "相关概念",
+    "体会和表达感受：这一段到底在解决什么问题→体会和表达感受": "相关概念",
+    "区分观察和评论：这一段到底在解决什么问题→区分观察和评论": "相关概念",
+    "感受的根源：这一段到底在解决什么问题→感受的根源": "相关概念",
+    "是什么蒙蔽了爱？：这一段到底在解决什么问题→是什么蒙蔽了爱？": "相关概念",
+    "让爱融入生活：这一段到底在解决什么问题→让爱融入生活": "相关概念"
+  }
+}

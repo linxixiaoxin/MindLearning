@@ -1,0 +1,18 @@
+{
+  "id": "single-point-dependency",
+  "title": "单点依赖与授权不清",
+  "pressure": "组织把混乱不断推给最能扛事的人，短期效率被奖励，长期授权和团队声音被削弱。",
+  "state_variables": ["control", "trust", "delegation", "system_load", "burnout", "team_voice"],
+  "visible_information": ["预算缺口", "项目延期", "领导点名", "群消息沉默", "文件流向", "任务线集中"],
+  "hidden_information": ["失控焦虑", "不可替代感", "授权恐惧", "团队畏惧", "组织流程空洞"],
+  "actions": ["继续接管", "明确授权", "建立流程", "培养替手", "暴露系统漏洞", "只同步风险不收回拍板权"],
+  "costs": ["短期不确定感上升", "领导需要承担系统责任", "团队必须重新练习负责", "能人要承受放手焦虑"],
+  "turn_structure": "每轮先出现混乱，再选择接管或授权，随后更新 control、trust、delegation、burnout 与 team_voice。",
+  "win_or_progress_condition": "参与者能把个人控制力翻译成团队流程、授权边界和共同承载，而不是继续依赖单点救火。",
+  "review_prompts": [
+    "我是在承担责任，还是在用掌控感对抗不安？",
+    "这件事必须由我拍板，还是我没有把标准说清？",
+    "如果我这次不全部接回手里，系统需要什么支架才能接住？"
+  ],
+  "safety_notes": "只能作为非诊断式组织和叙事建模，不把具体同事贴成控制狂，也不合理化压迫行为。"
+}

@@ -1,0 +1,320 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/lifelong-learning/chapter-images/overview.svg",
+    "全书摘要": "/books/lifelong-learning/chapter-images/overview.svg",
+    "全书结构": "/books/lifelong-learning/chapter-images/overview.svg",
+    "我现在是在重复过去，还是在为未来创造空间？": "/books/lifelong-learning/chapter-images/overview.svg",
+    "我是在消费经历，还是在从经历中学习？": "/books/lifelong-learning/chapter-images/overview.svg",
+    "我期待回报之前，是否先创造了价值？": "/books/lifelong-learning/chapter-images/overview.svg",
+    "我是在追求赞誉，还是在持续提升表现？": "/books/lifelong-learning/chapter-images/overview.svg",
+    "我现在的问题，能否比答案更好地打开成长？": "/books/lifelong-learning/chapter-images/overview.svg",
+    "未来取向": "/books/lifelong-learning/chapter-images/overview.svg",
+    "学习优先": "/books/lifelong-learning/chapter-images/overview.svg",
+    "贡献": "/books/lifelong-learning/chapter-images/overview.svg",
+    "好问题": "/books/lifelong-learning/chapter-images/overview.svg",
+    "未来取向 2": "/books/lifelong-learning/chapter-images/overview.svg",
+    "学习优先 2": "/books/lifelong-learning/chapter-images/overview.svg",
+    "贡献 2": "/books/lifelong-learning/chapter-images/overview.svg",
+    "好问题 2": "/books/lifelong-learning/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "我现在是在重复过去，还是在为未来创造空间？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "我是在消费经历，还是在从经历中学习？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "我期待回报之前，是否先创造了价值？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "我是在追求赞誉，还是在持续提升表现？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "我现在的问题，能否比答案更好地打开成长？",
+      "type": "question",
+      "tagline": "核心问题 5"
+    },
+    {
+      "id": "未来取向",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“未来取向”，用于把《终身学习：10个你必须掌握的未来生存法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "学习优先",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“学习优先”，用于把《终身学习：10个你必须掌握的未来生存法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "贡献",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“贡献”，用于把《终身学习：10个你必须掌握的未来生存法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "好问题",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“好问题”，用于把《终身学习：10个你必须掌握的未来生存法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "未来取向 2",
+      "type": "concept",
+      "tagline": "把注意力放在可创造的将来，而不是被过去经验锁住。"
+    },
+    {
+      "id": "学习优先 2",
+      "type": "concept",
+      "tagline": "把经历转化成可复用理解和能力的取向。"
+    },
+    {
+      "id": "贡献 2",
+      "type": "concept",
+      "tagline": "先创造价值，再看回报如何出现。"
+    },
+    {
+      "id": "好问题 2",
+      "type": "concept",
+      "tagline": "能打开新方向、新行动和新理解的问题。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "我现在是在重复过去，还是在为未来创造空间？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "我是在消费经历，还是在从经历中学习？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "我期待回报之前，是否先创造了价值？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "我是在追求赞誉，还是在持续提升表现？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "我现在的问题，能否比答案更好地打开成长？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "未来取向",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "学习优先",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "贡献",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "好问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "未来取向 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "学习优先 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "贡献 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "好问题 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→我现在是在重复过去，还是在为未来创造空间？": "问题入口",
+    "公开入口→我是在消费经历，还是在从经历中学习？": "问题入口",
+    "公开入口→我期待回报之前，是否先创造了价值？": "问题入口",
+    "公开入口→我是在追求赞誉，还是在持续提升表现？": "问题入口",
+    "公开入口→我现在的问题，能否比答案更好地打开成长？": "问题入口",
+    "公开入口→未来取向": "章节推进",
+    "公开入口→学习优先": "章节推进",
+    "公开入口→贡献": "章节推进",
+    "公开入口→好问题": "章节推进",
+    "公开入口→未来取向 2": "概念支撑",
+    "公开入口→学习优先 2": "概念支撑",
+    "公开入口→贡献 2": "概念支撑",
+    "公开入口→好问题 2": "概念支撑"
+  }
+}

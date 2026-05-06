@@ -1,0 +1,78 @@
+[
+  {
+    "id": "local-human-trojan-program",
+    "title": "人类木马程序",
+    "author": "",
+    "source_type": "book",
+    "local_path": "E:/RedBook/01_sources/01_books/04_心理疗愈与自我探索/人类木马程序",
+    "copyright_status": "local_private",
+    "usable_scope": "internal_research",
+    "themes": ["自我观察", "心理脚本", "内容表达"],
+    "ingestion_status": "extracted",
+    "notes": "可用于真实问题、内容创作者虚拟用户和自我叙事拆解。"
+  },
+  {
+    "id": "local-satir-family-methods",
+    "title": "美好生活方法论  改善亲密、家庭和人际关系的21堂萨提亚课",
+    "author": "",
+    "source_type": "book",
+    "local_path": "E:/RedBook/01_sources/01_books/04_心理疗愈与自我探索/美好生活方法论  改善亲密、家庭和人际关系的21堂萨提亚课",
+    "copyright_status": "local_private",
+    "usable_scope": "internal_research",
+    "themes": ["家庭系统", "沟通姿态", "亲密关系"],
+    "ingestion_status": "candidate",
+    "notes": "适合作为家庭脚本、沟通姿态和关系修复字段的理论来源。"
+  },
+  {
+    "id": "public-classic-dream-red-mansion",
+    "title": "红楼梦",
+    "author": "曹雪芹",
+    "source_type": "novel",
+    "local_path": "",
+    "external_url": "",
+    "copyright_status": "public_domain",
+    "usable_scope": "public_output",
+    "themes": ["家族系统", "命运结构", "身份与亲密"],
+    "ingestion_status": "candidate",
+    "notes": "优先用于家族系统、亲密关系、身份位置和命运结构原型。"
+  },
+  {
+    "id": "public-classic-ru-lin-wai-shi",
+    "title": "儒林外史",
+    "author": "吴敬梓",
+    "source_type": "novel",
+    "local_path": "",
+    "external_url": "",
+    "copyright_status": "public_domain",
+    "usable_scope": "public_output",
+    "themes": ["名声", "功名", "身份焦虑", "社会评价"],
+    "ingestion_status": "candidate",
+    "notes": "适合抽取功名、体面、社会目光和身份表演类原型。"
+  },
+  {
+    "id": "public-shakespeare-plays",
+    "title": "莎士比亚戏剧",
+    "author": "William Shakespeare",
+    "source_type": "play",
+    "local_path": "",
+    "external_url": "https://www.gutenberg.org/ebooks/author/65",
+    "copyright_status": "public_domain",
+    "usable_scope": "public_output",
+    "themes": ["欲望", "权力", "误认", "悲剧结构"],
+    "ingestion_status": "candidate",
+    "notes": "适合抽取权力欲、嫉妒、误认、野心和身份伪装原型。"
+  },
+  {
+    "id": "game-mechanism-roleplay",
+    "title": "角色扮演与桌游机制库",
+    "author": "mixed",
+    "source_type": "game",
+    "local_path": "",
+    "external_url": "",
+    "copyright_status": "unknown",
+    "usable_scope": "internal_research",
+    "themes": ["规则压力", "互动叙事", "复盘"],
+    "ingestion_status": "candidate",
+    "notes": "只抽象机制，不复制商业规则书文本。"
+  }
+]

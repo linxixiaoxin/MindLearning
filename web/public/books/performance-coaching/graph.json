@@ -2,55 +2,105 @@
   "nodeTypeMeta": {
     "topic": {
       "label": "主题",
-      "color": "#3f6c78",
+      "color": "#6d5c93",
+      "size": 10
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "book": {
+      "label": "书籍",
+      "color": "#bf6f3f",
       "size": 10
     },
     "chapter": {
       "label": "章节",
-      "color": "#9f6a3a",
+      "color": "#2e5670",
       "size": 11
     },
     "concept": {
       "label": "概念",
-      "color": "#6b8566",
+      "color": "#6f8d66",
       "size": 9
     },
     "method": {
       "label": "方法",
-      "color": "#8c5d7a",
+      "color": "#bf6f3f",
       "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 10
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
     },
     "person": {
       "label": "人物",
-      "color": "#5c647b",
-      "size": 11
+      "color": "#9d5667",
+      "size": 12
     }
   },
   "filters": [
     {
       "type": "topic",
       "label": "主题",
-      "color": "#3f6c78"
+      "color": "#6d5c93"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
     },
     {
       "type": "chapter",
       "label": "章节",
-      "color": "#9f6a3a"
+      "color": "#2e5670"
     },
     {
       "type": "concept",
       "label": "概念",
-      "color": "#6b8566"
+      "color": "#6f8d66"
     },
     {
       "type": "method",
       "label": "方法",
-      "color": "#8c5d7a"
+      "color": "#bf6f3f"
     },
     {
       "type": "person",
       "label": "人物",
-      "color": "#5c647b"
+      "color": "#9d5667"
     }
   ],
   "nodeImages": {
@@ -122,22 +172,22 @@
     },
     {
       "id": "为什么你越爱管，团队反而越不长大",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "表面看是「控制太多会削弱责任感。」，但这一段真正想带读者回到「觉察与责任如何被激发」中的「教练式管理」。"
     },
     {
       "id": "员工不负责，很多时候不是态度问题",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "表面看是「责任感常常被管理方式削弱。」，但这一段真正想带读者回到「GROW对话骨架」中的「责任感」。"
     },
     {
       "id": "GROW：一场高质量绩效对话该怎么走",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "读者容易把「很多谈话没骨架，所以容易散。」当成表面问题，但这本书真正要处理的是「GROW模型」与「判断动作」之间的结构关系。"
     },
     {
       "id": "为什么你替别人想得越多，对方越不想想",
-      "type": "topic",
+      "type": "scenario",
       "tagline": "读者容易把「答案被拿走，成长也被拿走。」当成表面问题，但这本书真正要处理的是「赋能」与「判断动作」之间的结构关系。"
     },
     {

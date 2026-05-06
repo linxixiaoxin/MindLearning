@@ -1,0 +1,776 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "全书摘要": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "全书结构": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "人生十二法则": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "站直不是姿势而是存在状态": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "像照顾别人一样照顾自己": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "先把自己的房间整理好": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "追求意义而不是苟且": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "说真话或者至少别撒谎": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "精确表达能削弱恐惧": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "在苦难中仍要看见小善意": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "逻辑链 1": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "逻辑链 2": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "逻辑链 3": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "逻辑链 4": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "逻辑链 5": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "秩序与混乱": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "责任与自我照顾": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "关系选择与家庭训练": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "意义优先于苟且": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "真话与精确表达": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "苦难中的小善意": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "秩序": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "混乱": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "责任": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "意义": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "苟且": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "真话": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "谎言": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "精确表达": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "延迟满足": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "牺牲": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "等级结构": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "社会比较": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "友伴选择": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "家庭秩序": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "边界训练": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "怨恨": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "苦难": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "小善意": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "秩序与混乱 2": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "责任与自我照顾 2": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "关系选择与家庭训练 2": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "意义优先于苟且 2": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "真话与精确表达 2": "/books/twelve-rules-for-life/chapter-images/overview.svg",
+    "苦难中的小善意 2": "/books/twelve-rules-for-life/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "人生十二法则",
+      "type": "question",
+      "tagline": "这本书把成长理解为在混乱中建立秩序、承担责任和追求意义。"
+    },
+    {
+      "id": "站直不是姿势而是存在状态",
+      "type": "question",
+      "tagline": "一个人的身体姿态、社会位置和自我感受会互相影响。"
+    },
+    {
+      "id": "像照顾别人一样照顾自己",
+      "type": "question",
+      "tagline": "很多人愿意为他人负责，却忽视了对自己生命的基本责任。"
+    },
+    {
+      "id": "先把自己的房间整理好",
+      "type": "question",
+      "tagline": "批评世界之前，先处理自己可以承担的生活秩序。"
+    },
+    {
+      "id": "追求意义而不是苟且",
+      "type": "question",
+      "tagline": "短期舒服常常会损害长期尊严，意义需要牺牲和延迟满足。"
+    },
+    {
+      "id": "说真话或者至少别撒谎",
+      "type": "question",
+      "tagline": "谎言会让现实反馈失真，最终把人带进更大的混乱。"
+    },
+    {
+      "id": "精确表达能削弱恐惧",
+      "type": "question",
+      "tagline": "模糊的痛苦会膨胀，准确命名能让人重新面对现实。"
+    },
+    {
+      "id": "在苦难中仍要看见小善意",
+      "type": "question",
+      "tagline": "生活不只由灾难构成，也由能让人继续活下去的小片刻构成。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "世界同时包含秩序与混乱。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "人无法消除所有痛苦，但可以选择如何回应痛苦。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "责任让人从受害位置回到行动位置。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "真话和精确表达能减少自欺与关系混乱。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "意义比即时满足更能支撑长期生活。"
+    },
+    {
+      "id": "秩序与混乱",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“秩序与混乱”，用于把《人生十二法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "责任与自我照顾",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“责任与自我照顾”，用于把《人生十二法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "关系选择与家庭训练",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“关系选择与家庭训练”，用于把《人生十二法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "意义优先于苟且",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“意义优先于苟且”，用于把《人生十二法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "真话与精确表达",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“真话与精确表达”，用于把《人生十二法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "苦难中的小善意",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“苦难中的小善意”，用于把《人生十二法则》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "秩序",
+      "type": "concept",
+      "tagline": "世界结构"
+    },
+    {
+      "id": "混乱",
+      "type": "concept",
+      "tagline": "处境概念"
+    },
+    {
+      "id": "责任",
+      "type": "concept",
+      "tagline": "道德概念"
+    },
+    {
+      "id": "意义",
+      "type": "concept",
+      "tagline": "价值概念"
+    },
+    {
+      "id": "苟且",
+      "type": "concept",
+      "tagline": "反模式"
+    },
+    {
+      "id": "真话",
+      "type": "concept",
+      "tagline": "表达概念"
+    },
+    {
+      "id": "谎言",
+      "type": "concept",
+      "tagline": "自欺机制"
+    },
+    {
+      "id": "精确表达",
+      "type": "concept",
+      "tagline": "沟通概念"
+    },
+    {
+      "id": "延迟满足",
+      "type": "concept",
+      "tagline": "时间概念"
+    },
+    {
+      "id": "牺牲",
+      "type": "concept",
+      "tagline": "意义机制"
+    },
+    {
+      "id": "等级结构",
+      "type": "concept",
+      "tagline": "社会概念"
+    },
+    {
+      "id": "社会比较",
+      "type": "concept",
+      "tagline": "心理机制"
+    },
+    {
+      "id": "友伴选择",
+      "type": "concept",
+      "tagline": "关系场景"
+    },
+    {
+      "id": "家庭秩序",
+      "type": "concept",
+      "tagline": "生活场景"
+    },
+    {
+      "id": "边界训练",
+      "type": "concept",
+      "tagline": "养育概念"
+    },
+    {
+      "id": "怨恨",
+      "type": "concept",
+      "tagline": "情绪风险"
+    },
+    {
+      "id": "苦难",
+      "type": "concept",
+      "tagline": "存在处境"
+    },
+    {
+      "id": "小善意",
+      "type": "concept",
+      "tagline": "修复场景"
+    },
+    {
+      "id": "秩序与混乱 2",
+      "type": "concept",
+      "tagline": "理解生活为什么总在稳定和失控之间摆动。"
+    },
+    {
+      "id": "责任与自我照顾 2",
+      "type": "concept",
+      "tagline": "把自己当成值得照顾的人，并承担能承担的部分。"
+    },
+    {
+      "id": "关系选择与家庭训练 2",
+      "type": "concept",
+      "tagline": "朋友、家庭和养育方式会塑造一个人的行动边界。"
+    },
+    {
+      "id": "意义优先于苟且 2",
+      "type": "concept",
+      "tagline": "用长期意义抵抗即时舒服和逃避。"
+    },
+    {
+      "id": "真话与精确表达 2",
+      "type": "concept",
+      "tagline": "用诚实和准确命名减少自欺与恐惧。"
+    },
+    {
+      "id": "苦难中的小善意 2",
+      "type": "concept",
+      "tagline": "在无法消除痛苦时，仍然保留对当下美好片刻的感知。"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "人生十二法则",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "站直不是姿势而是存在状态",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "像照顾别人一样照顾自己",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "先把自己的房间整理好",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "追求意义而不是苟且",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "说真话或者至少别撒谎",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "精确表达能削弱恐惧",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "在苦难中仍要看见小善意",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "秩序与混乱",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "责任与自我照顾",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系选择与家庭训练",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义优先于苟且",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "真话与精确表达",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "苦难中的小善意",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "秩序",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "混乱",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "责任",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "苟且",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "真话",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "谎言",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "精确表达",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "延迟满足",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "牺牲",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "等级结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "社会比较",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "友伴选择",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "家庭秩序",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界训练",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怨恨",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "苦难",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "小善意",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "秩序与混乱 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "责任与自我照顾 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系选择与家庭训练 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义优先于苟且 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "真话与精确表达 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "苦难中的小善意 2",
+      "type": "relates"
+    },
+    {
+      "source": "秩序与混乱 2",
+      "target": "秩序",
+      "type": "relates"
+    },
+    {
+      "source": "秩序与混乱 2",
+      "target": "混乱",
+      "type": "relates"
+    },
+    {
+      "source": "秩序与混乱 2",
+      "target": "等级结构",
+      "type": "relates"
+    },
+    {
+      "source": "责任与自我照顾 2",
+      "target": "责任",
+      "type": "relates"
+    },
+    {
+      "source": "关系选择与家庭训练 2",
+      "target": "友伴选择",
+      "type": "relates"
+    },
+    {
+      "source": "关系选择与家庭训练 2",
+      "target": "家庭秩序",
+      "type": "relates"
+    },
+    {
+      "source": "关系选择与家庭训练 2",
+      "target": "边界训练",
+      "type": "relates"
+    },
+    {
+      "source": "意义优先于苟且 2",
+      "target": "意义",
+      "type": "relates"
+    },
+    {
+      "source": "意义优先于苟且 2",
+      "target": "苟且",
+      "type": "relates"
+    },
+    {
+      "source": "意义优先于苟且 2",
+      "target": "延迟满足",
+      "type": "relates"
+    },
+    {
+      "source": "真话与精确表达 2",
+      "target": "真话",
+      "type": "relates"
+    },
+    {
+      "source": "真话与精确表达 2",
+      "target": "谎言",
+      "type": "relates"
+    },
+    {
+      "source": "真话与精确表达 2",
+      "target": "精确表达",
+      "type": "relates"
+    },
+    {
+      "source": "苦难中的小善意 2",
+      "target": "苦难",
+      "type": "relates"
+    },
+    {
+      "source": "苦难中的小善意 2",
+      "target": "怨恨",
+      "type": "relates"
+    },
+    {
+      "source": "苦难中的小善意 2",
+      "target": "小善意",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→人生十二法则": "K 卡",
+    "公开入口→站直不是姿势而是存在状态": "K 卡",
+    "公开入口→像照顾别人一样照顾自己": "K 卡",
+    "公开入口→先把自己的房间整理好": "K 卡",
+    "公开入口→追求意义而不是苟且": "K 卡",
+    "公开入口→说真话或者至少别撒谎": "K 卡",
+    "公开入口→精确表达能削弱恐惧": "K 卡",
+    "公开入口→在苦难中仍要看见小善意": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→秩序与混乱": "章节推进",
+    "公开入口→责任与自我照顾": "章节推进",
+    "公开入口→关系选择与家庭训练": "章节推进",
+    "公开入口→意义优先于苟且": "章节推进",
+    "公开入口→真话与精确表达": "章节推进",
+    "公开入口→苦难中的小善意": "章节推进",
+    "公开入口→秩序": "N 卡",
+    "公开入口→混乱": "N 卡",
+    "公开入口→责任": "N 卡",
+    "公开入口→意义": "N 卡",
+    "公开入口→苟且": "N 卡",
+    "公开入口→真话": "N 卡",
+    "公开入口→谎言": "N 卡",
+    "公开入口→精确表达": "N 卡",
+    "公开入口→延迟满足": "N 卡",
+    "公开入口→牺牲": "N 卡",
+    "公开入口→等级结构": "N 卡",
+    "公开入口→社会比较": "N 卡",
+    "公开入口→友伴选择": "N 卡",
+    "公开入口→家庭秩序": "N 卡",
+    "公开入口→边界训练": "N 卡",
+    "公开入口→怨恨": "N 卡",
+    "公开入口→苦难": "N 卡",
+    "公开入口→小善意": "N 卡",
+    "公开入口→秩序与混乱 2": "主题单元",
+    "公开入口→责任与自我照顾 2": "主题单元",
+    "公开入口→关系选择与家庭训练 2": "主题单元",
+    "公开入口→意义优先于苟且 2": "主题单元",
+    "公开入口→真话与精确表达 2": "主题单元",
+    "公开入口→苦难中的小善意 2": "主题单元",
+    "秩序与混乱 2→秩序": "相关概念",
+    "秩序与混乱 2→混乱": "相关概念",
+    "秩序与混乱 2→等级结构": "相关概念",
+    "责任与自我照顾 2→责任": "相关概念",
+    "关系选择与家庭训练 2→友伴选择": "相关概念",
+    "关系选择与家庭训练 2→家庭秩序": "相关概念",
+    "关系选择与家庭训练 2→边界训练": "相关概念",
+    "意义优先于苟且 2→意义": "相关概念",
+    "意义优先于苟且 2→苟且": "相关概念",
+    "意义优先于苟且 2→延迟满足": "相关概念",
+    "真话与精确表达 2→真话": "相关概念",
+    "真话与精确表达 2→谎言": "相关概念",
+    "真话与精确表达 2→精确表达": "相关概念",
+    "苦难中的小善意 2→苦难": "相关概念",
+    "苦难中的小善意 2→怨恨": "相关概念",
+    "苦难中的小善意 2→小善意": "相关概念"
+  }
+}

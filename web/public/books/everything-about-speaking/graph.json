@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "全书摘要": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "全书结构": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "《关于说话的一切》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "《关于说话的一切》中的哪些概念最适合转成问题工作台节点？": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "关于说话的一切": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "意义 无限复杂的语言游戏": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "关系 你不是嘴笨，是心钝": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "内容 说到点子上": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "场景与内容 在任何场合都能好好说话": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "逻辑链 1": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "逻辑链 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "逻辑链 3": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "逻辑链 4": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "意义 无限复杂的语言游戏 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "关系 你不是嘴笨，是心钝 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "内容 说到点子上 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "场景与内容 在任何场合都能好好说话 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "关于“倾听—回应”的一切": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "一个关于“说话”的整合框架": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "事实": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "感受": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "需要": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "请求": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "边界": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "共情": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "反馈": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "共识": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "意义 无限复杂的语言游戏 3": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "关系 你不是嘴笨，是心钝 3": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "内容 说到点子上 3": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "场景与内容 在任何场合都能好好说话 3": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "关于“倾听—回应”的一切 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "一个关于“说话”的整合框架 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "内容切入 1": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "内容切入 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "内容切入 3": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "内容切入 4": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/everything-about-speaking/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/everything-about-speaking/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《关于说话的一切》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《关于说话的一切》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "关于说话的一切",
+      "type": "question",
+      "tagline": "《关于说话的一切》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。"
+    },
+    {
+      "id": "意义 无限复杂的语言游戏",
+      "type": "question",
+      "tagline": "成熟表达不是话术，而是把事实、感受、需要和请求拆清楚。"
+    },
+    {
+      "id": "关系 你不是嘴笨，是心钝",
+      "type": "question",
+      "tagline": "沟通失败常常不是不会说，而是没有先校准关系和目标。"
+    },
+    {
+      "id": "内容 说到点子上",
+      "type": "question",
+      "tagline": "边界表达可以温和但清楚。"
+    },
+    {
+      "id": "场景与内容 在任何场合都能好好说话",
+      "type": "question",
+      "tagline": "真正的共情不是同意，而是准确理解对方处境。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "成熟表达不是话术，而是把事实、感受、需要和请求拆清楚。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "沟通失败常常不是不会说，而是没有先校准关系和目标。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "边界表达可以温和但清楚。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "真正的共情不是同意，而是准确理解对方处境。"
+    },
+    {
+      "id": "意义 无限复杂的语言游戏 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“意义 无限复杂的语言游戏”，用于把《关于说话的一切》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "关系 你不是嘴笨，是心钝 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“关系 你不是嘴笨，是心钝”，用于把《关于说话的一切》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "内容 说到点子上 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“内容 说到点子上”，用于把《关于说话的一切》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "场景与内容 在任何场合都能好好说话 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“场景与内容 在任何场合都能好好说话”，用于把《关于说话的一切》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "关于“倾听—回应”的一切",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“关于“倾听—回应”的一切”，用于把《关于说话的一切》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "一个关于“说话”的整合框架",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“一个关于“说话”的整合框架”，用于把《关于说话的一切》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "事实",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "感受",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "需要",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "请求",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "边界",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "共情",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "反馈",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "共识",
+      "type": "concept",
+      "tagline": "围绕对话、关系、边界和共识的可复用节点"
+    },
+    {
+      "id": "意义 无限复杂的语言游戏 3",
+      "type": "concept",
+      "tagline": "围绕“意义 无限复杂的语言游戏”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "关系 你不是嘴笨，是心钝 3",
+      "type": "concept",
+      "tagline": "围绕“关系 你不是嘴笨，是心钝”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容 说到点子上 3",
+      "type": "concept",
+      "tagline": "围绕“内容 说到点子上”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "场景与内容 在任何场合都能好好说话 3",
+      "type": "concept",
+      "tagline": "围绕“场景与内容 在任何场合都能好好说话”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "关于“倾听—回应”的一切 2",
+      "type": "concept",
+      "tagline": "围绕“关于“倾听—回应”的一切”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "一个关于“说话”的整合框架 2",
+      "type": "concept",
+      "tagline": "围绕“一个关于“说话”的整合框架”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "成熟表达不是把话说漂亮"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "为什么你越解释对方越生气"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "边界不是冷漠"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "把情绪翻译成请求"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "事实感受需要请求四格"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "关系边界门"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "冲突降温路径"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "对话目标卡"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《关于说话的一切》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《关于说话的一切》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关于说话的一切",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义 无限复杂的语言游戏",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系 你不是嘴笨，是心钝",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容 说到点子上",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景与内容 在任何场合都能好好说话",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义 无限复杂的语言游戏 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系 你不是嘴笨，是心钝 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容 说到点子上 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景与内容 在任何场合都能好好说话 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关于“倾听—回应”的一切",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "一个关于“说话”的整合框架",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "事实",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "感受",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "意义 无限复杂的语言游戏 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关系 你不是嘴笨，是心钝 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容 说到点子上 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "场景与内容 在任何场合都能好好说话 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关于“倾听—回应”的一切 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "一个关于“说话”的整合框架 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "意义 无限复杂的语言游戏 3",
+      "target": "事实",
+      "type": "relates"
+    },
+    {
+      "source": "意义 无限复杂的语言游戏 3",
+      "target": "感受",
+      "type": "relates"
+    },
+    {
+      "source": "意义 无限复杂的语言游戏 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "意义 无限复杂的语言游戏 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "关系 你不是嘴笨，是心钝 3",
+      "target": "感受",
+      "type": "relates"
+    },
+    {
+      "source": "关系 你不是嘴笨，是心钝 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "关系 你不是嘴笨，是心钝 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "关系 你不是嘴笨，是心钝 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "内容 说到点子上 3",
+      "target": "需要",
+      "type": "relates"
+    },
+    {
+      "source": "内容 说到点子上 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "内容 说到点子上 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "内容 说到点子上 3",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "场景与内容 在任何场合都能好好说话 3",
+      "target": "请求",
+      "type": "relates"
+    },
+    {
+      "source": "场景与内容 在任何场合都能好好说话 3",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "场景与内容 在任何场合都能好好说话 3",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "场景与内容 在任何场合都能好好说话 3",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "关于“倾听—回应”的一切 2",
+      "target": "边界",
+      "type": "relates"
+    },
+    {
+      "source": "关于“倾听—回应”的一切 2",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "关于“倾听—回应”的一切 2",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "关于“倾听—回应”的一切 2",
+      "target": "共识",
+      "type": "relates"
+    },
+    {
+      "source": "一个关于“说话”的整合框架 2",
+      "target": "共情",
+      "type": "relates"
+    },
+    {
+      "source": "一个关于“说话”的整合框架 2",
+      "target": "反馈",
+      "type": "relates"
+    },
+    {
+      "source": "一个关于“说话”的整合框架 2",
+      "target": "共识",
+      "type": "relates"
+    },
+    {
+      "source": "一个关于“说话”的整合框架 2",
+      "target": "事实",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《关于说话的一切》如何帮助读者把混乱表达转成能被理解、能推进关系的对话结构。": "问题入口",
+    "公开入口→《关于说话的一切》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→关于说话的一切": "K 卡",
+    "公开入口→意义 无限复杂的语言游戏": "K 卡",
+    "公开入口→关系 你不是嘴笨，是心钝": "K 卡",
+    "公开入口→内容 说到点子上": "K 卡",
+    "公开入口→场景与内容 在任何场合都能好好说话": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→意义 无限复杂的语言游戏 2": "章节推进",
+    "公开入口→关系 你不是嘴笨，是心钝 2": "章节推进",
+    "公开入口→内容 说到点子上 2": "章节推进",
+    "公开入口→场景与内容 在任何场合都能好好说话 2": "章节推进",
+    "公开入口→关于“倾听—回应”的一切": "章节推进",
+    "公开入口→一个关于“说话”的整合框架": "章节推进",
+    "公开入口→事实": "N 卡",
+    "公开入口→感受": "N 卡",
+    "公开入口→需要": "N 卡",
+    "公开入口→请求": "N 卡",
+    "公开入口→边界": "N 卡",
+    "公开入口→共情": "N 卡",
+    "公开入口→反馈": "N 卡",
+    "公开入口→共识": "N 卡",
+    "公开入口→意义 无限复杂的语言游戏 3": "主题单元",
+    "公开入口→关系 你不是嘴笨，是心钝 3": "主题单元",
+    "公开入口→内容 说到点子上 3": "主题单元",
+    "公开入口→场景与内容 在任何场合都能好好说话 3": "主题单元",
+    "公开入口→关于“倾听—回应”的一切 2": "主题单元",
+    "公开入口→一个关于“说话”的整合框架 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "意义 无限复杂的语言游戏 3→事实": "相关概念",
+    "意义 无限复杂的语言游戏 3→感受": "相关概念",
+    "意义 无限复杂的语言游戏 3→需要": "相关概念",
+    "意义 无限复杂的语言游戏 3→请求": "相关概念",
+    "关系 你不是嘴笨，是心钝 3→感受": "相关概念",
+    "关系 你不是嘴笨，是心钝 3→需要": "相关概念",
+    "关系 你不是嘴笨，是心钝 3→请求": "相关概念",
+    "关系 你不是嘴笨，是心钝 3→边界": "相关概念",
+    "内容 说到点子上 3→需要": "相关概念",
+    "内容 说到点子上 3→请求": "相关概念",
+    "内容 说到点子上 3→边界": "相关概念",
+    "内容 说到点子上 3→共情": "相关概念",
+    "场景与内容 在任何场合都能好好说话 3→请求": "相关概念",
+    "场景与内容 在任何场合都能好好说话 3→边界": "相关概念",
+    "场景与内容 在任何场合都能好好说话 3→共情": "相关概念",
+    "场景与内容 在任何场合都能好好说话 3→反馈": "相关概念",
+    "关于“倾听—回应”的一切 2→边界": "相关概念",
+    "关于“倾听—回应”的一切 2→共情": "相关概念",
+    "关于“倾听—回应”的一切 2→反馈": "相关概念",
+    "关于“倾听—回应”的一切 2→共识": "相关概念",
+    "一个关于“说话”的整合框架 2→共情": "相关概念",
+    "一个关于“说话”的整合框架 2→反馈": "相关概念",
+    "一个关于“说话”的整合框架 2→共识": "相关概念",
+    "一个关于“说话”的整合框架 2→事实": "相关概念"
+  }
+}

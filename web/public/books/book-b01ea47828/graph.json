@@ -1,0 +1,800 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "全书摘要": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "全书结构": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "《聪明的投资者 (本杰明·格雷厄姆》如何帮助读者区分价值、价格、风险和投机冲动。": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "《聪明的投资者 (本杰明·格雷厄姆》中的哪些概念最适合转成问题工作台节点？": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "聪明的投资者 (本杰明·格雷厄姆": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "如果投机 最终你将(可能)失去钱": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "调查 然后投资": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "投资的一般方法": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "如果投机 最终你将(可能)失去钱 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "调查 然后投资 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "投资的一般方法 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "聪明的投资者将获得什么": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "投资者与股市波动": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "内在价值": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "安全边际": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "市场先生": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "防御型投资者": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "进取型投资者": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "长期主义": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "现金流": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "能力圈": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "情绪纪律": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "如果投机 最终你将(可能)失去钱 3": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "调查 然后投资 3": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "投资的一般方法 3": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "聪明的投资者将获得什么 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "投资者与股市波动 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-b01ea47828/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-b01ea47828/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《聪明的投资者 (本杰明·格雷厄姆》如何帮助读者区分价值、价格、风险和投机冲动。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《聪明的投资者 (本杰明·格雷厄姆》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "聪明的投资者 (本杰明·格雷厄姆",
+      "type": "question",
+      "tagline": "《聪明的投资者 (本杰明·格雷厄姆》如何帮助读者区分价值、价格、风险和投机冲动。"
+    },
+    {
+      "id": "如果投机 最终你将(可能)失去钱",
+      "type": "question",
+      "tagline": "投资首先是风险控制，其次才是收益追求。"
+    },
+    {
+      "id": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖",
+      "type": "question",
+      "tagline": "价格波动不是事实本身，而是市场情绪给出的报价。"
+    },
+    {
+      "id": "调查 然后投资",
+      "type": "question",
+      "tagline": "长期收益来自价值、纪律和安全边际的共同作用。"
+    },
+    {
+      "id": "投资的一般方法",
+      "type": "question",
+      "tagline": "投资者最大的敌人往往不是市场，而是自己的冲动。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "投资首先是风险控制，其次才是收益追求。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "价格波动不是事实本身，而是市场情绪给出的报价。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "长期收益来自价值、纪律和安全边际的共同作用。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "投资者最大的敌人往往不是市场，而是自己的冲动。"
+    },
+    {
+      "id": "如果投机 最终你将(可能)失去钱 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“如果投机,最终你将(可能)失去钱”，用于把《聪明的投资者 (本杰明·格雷厄姆》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“当大多数人(包括专家)悲观时,买;而当他们相当乐观时,卖”，用于把《聪明的投资者 (本杰明·格雷厄姆》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "调查 然后投资 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“调查,然后投资”，用于把《聪明的投资者 (本杰明·格雷厄姆》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "投资的一般方法 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“投资的一般方法”，用于把《聪明的投资者 (本杰明·格雷厄姆》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "聪明的投资者将获得什么",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“聪明的投资者将获得什么”，用于把《聪明的投资者 (本杰明·格雷厄姆》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "投资者与股市波动",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“投资者与股市波动”，用于把《聪明的投资者 (本杰明·格雷厄姆》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "内在价值",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "安全边际",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "市场先生",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "防御型投资者",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "进取型投资者",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "长期主义",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "现金流",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "能力圈",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "情绪纪律",
+      "type": "concept",
+      "tagline": "围绕资本、企业价值和投资者行为的可复用节点"
+    },
+    {
+      "id": "如果投机 最终你将(可能)失去钱 3",
+      "type": "concept",
+      "tagline": "围绕“如果投机,最终你将(可能)失去钱”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3",
+      "type": "concept",
+      "tagline": "围绕“当大多数人(包括专家)悲观时,买;而当他们相当乐观时,卖”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "调查 然后投资 3",
+      "type": "concept",
+      "tagline": "围绕“调查,然后投资”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "投资的一般方法 3",
+      "type": "concept",
+      "tagline": "围绕“投资的一般方法”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "聪明的投资者将获得什么 2",
+      "type": "concept",
+      "tagline": "围绕“聪明的投资者将获得什么”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "投资者与股市波动 2",
+      "type": "concept",
+      "tagline": "围绕“投资者与股市波动”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "为什么便宜不等于值得买"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "安全边际如何保护普通人"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "市场先生每天报价，但你不必每天回应"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "投资里最贵的是情绪失控"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "价格与价值双轴图"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "安全边际缓冲垫"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "市场先生情绪钟摆"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "投资者纪律清单"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《聪明的投资者 (本杰明·格雷厄姆》如何帮助读者区分价值、价格、风险和投机冲动。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《聪明的投资者 (本杰明·格雷厄姆》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "聪明的投资者 (本杰明·格雷厄姆",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如果投机 最终你将(可能)失去钱",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "调查 然后投资",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "投资的一般方法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如果投机 最终你将(可能)失去钱 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "调查 然后投资 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "投资的一般方法 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "聪明的投资者将获得什么",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "投资者与股市波动",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内在价值",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "安全边际",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "市场先生",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "防御型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "进取型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "长期主义",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现金流",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "能力圈",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "情绪纪律",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如果投机 最终你将(可能)失去钱 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "调查 然后投资 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "投资的一般方法 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "聪明的投资者将获得什么 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "投资者与股市波动 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "如果投机 最终你将(可能)失去钱 3",
+      "target": "内在价值",
+      "type": "relates"
+    },
+    {
+      "source": "如果投机 最终你将(可能)失去钱 3",
+      "target": "安全边际",
+      "type": "relates"
+    },
+    {
+      "source": "如果投机 最终你将(可能)失去钱 3",
+      "target": "市场先生",
+      "type": "relates"
+    },
+    {
+      "source": "如果投机 最终你将(可能)失去钱 3",
+      "target": "防御型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3",
+      "target": "安全边际",
+      "type": "relates"
+    },
+    {
+      "source": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3",
+      "target": "市场先生",
+      "type": "relates"
+    },
+    {
+      "source": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3",
+      "target": "防御型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3",
+      "target": "进取型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "调查 然后投资 3",
+      "target": "市场先生",
+      "type": "relates"
+    },
+    {
+      "source": "调查 然后投资 3",
+      "target": "防御型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "调查 然后投资 3",
+      "target": "进取型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "调查 然后投资 3",
+      "target": "长期主义",
+      "type": "relates"
+    },
+    {
+      "source": "投资的一般方法 3",
+      "target": "防御型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "投资的一般方法 3",
+      "target": "进取型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "投资的一般方法 3",
+      "target": "长期主义",
+      "type": "relates"
+    },
+    {
+      "source": "投资的一般方法 3",
+      "target": "现金流",
+      "type": "relates"
+    },
+    {
+      "source": "聪明的投资者将获得什么 2",
+      "target": "进取型投资者",
+      "type": "relates"
+    },
+    {
+      "source": "聪明的投资者将获得什么 2",
+      "target": "长期主义",
+      "type": "relates"
+    },
+    {
+      "source": "聪明的投资者将获得什么 2",
+      "target": "现金流",
+      "type": "relates"
+    },
+    {
+      "source": "聪明的投资者将获得什么 2",
+      "target": "能力圈",
+      "type": "relates"
+    },
+    {
+      "source": "投资者与股市波动 2",
+      "target": "长期主义",
+      "type": "relates"
+    },
+    {
+      "source": "投资者与股市波动 2",
+      "target": "现金流",
+      "type": "relates"
+    },
+    {
+      "source": "投资者与股市波动 2",
+      "target": "能力圈",
+      "type": "relates"
+    },
+    {
+      "source": "投资者与股市波动 2",
+      "target": "情绪纪律",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《聪明的投资者 (本杰明·格雷厄姆》如何帮助读者区分价值、价格、风险和投机冲动。": "问题入口",
+    "公开入口→《聪明的投资者 (本杰明·格雷厄姆》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→聪明的投资者 (本杰明·格雷厄姆": "K 卡",
+    "公开入口→如果投机 最终你将(可能)失去钱": "K 卡",
+    "公开入口→当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖": "K 卡",
+    "公开入口→调查 然后投资": "K 卡",
+    "公开入口→投资的一般方法": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→如果投机 最终你将(可能)失去钱 2": "章节推进",
+    "公开入口→当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 2": "章节推进",
+    "公开入口→调查 然后投资 2": "章节推进",
+    "公开入口→投资的一般方法 2": "章节推进",
+    "公开入口→聪明的投资者将获得什么": "章节推进",
+    "公开入口→投资者与股市波动": "章节推进",
+    "公开入口→内在价值": "N 卡",
+    "公开入口→安全边际": "N 卡",
+    "公开入口→市场先生": "N 卡",
+    "公开入口→防御型投资者": "N 卡",
+    "公开入口→进取型投资者": "N 卡",
+    "公开入口→长期主义": "N 卡",
+    "公开入口→现金流": "N 卡",
+    "公开入口→能力圈": "N 卡",
+    "公开入口→情绪纪律": "N 卡",
+    "公开入口→如果投机 最终你将(可能)失去钱 3": "主题单元",
+    "公开入口→当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3": "主题单元",
+    "公开入口→调查 然后投资 3": "主题单元",
+    "公开入口→投资的一般方法 3": "主题单元",
+    "公开入口→聪明的投资者将获得什么 2": "主题单元",
+    "公开入口→投资者与股市波动 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "如果投机 最终你将(可能)失去钱 3→内在价值": "相关概念",
+    "如果投机 最终你将(可能)失去钱 3→安全边际": "相关概念",
+    "如果投机 最终你将(可能)失去钱 3→市场先生": "相关概念",
+    "如果投机 最终你将(可能)失去钱 3→防御型投资者": "相关概念",
+    "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3→安全边际": "相关概念",
+    "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3→市场先生": "相关概念",
+    "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3→防御型投资者": "相关概念",
+    "当大多数人(包括专家)悲观时 买;而当他们相当乐观时 卖 3→进取型投资者": "相关概念",
+    "调查 然后投资 3→市场先生": "相关概念",
+    "调查 然后投资 3→防御型投资者": "相关概念",
+    "调查 然后投资 3→进取型投资者": "相关概念",
+    "调查 然后投资 3→长期主义": "相关概念",
+    "投资的一般方法 3→防御型投资者": "相关概念",
+    "投资的一般方法 3→进取型投资者": "相关概念",
+    "投资的一般方法 3→长期主义": "相关概念",
+    "投资的一般方法 3→现金流": "相关概念",
+    "聪明的投资者将获得什么 2→进取型投资者": "相关概念",
+    "聪明的投资者将获得什么 2→长期主义": "相关概念",
+    "聪明的投资者将获得什么 2→现金流": "相关概念",
+    "聪明的投资者将获得什么 2→能力圈": "相关概念",
+    "投资者与股市波动 2→长期主义": "相关概念",
+    "投资者与股市波动 2→现金流": "相关概念",
+    "投资者与股市波动 2→能力圈": "相关概念",
+    "投资者与股市波动 2→情绪纪律": "相关概念"
+  }
+}

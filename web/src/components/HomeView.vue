@@ -322,7 +322,7 @@ function qrSrc(path) {
 .hero-copy,
 .hero-panel {
   padding: 32px;
-  border-radius: 28px;
+  border-radius: var(--radius-panel);
   background: rgba(247, 245, 240, 0.88);
 }
 
@@ -430,7 +430,7 @@ function qrSrc(path) {
   width: 100%;
   border: 1px solid rgba(32, 79, 103, 0.14);
   background: rgba(255, 255, 255, 0.78);
-  border-radius: 18px;
+  border-radius: var(--radius-card);
   padding: 12px 14px;
   display: flex;
   gap: 10px;
@@ -488,7 +488,7 @@ function qrSrc(path) {
 .journey-map {
   margin-bottom: 18px;
   padding: 28px;
-  border-radius: 30px;
+  border-radius: var(--radius-panel);
   background:
     radial-gradient(circle at top left, rgba(109, 92, 147, 0.08) 0%, rgba(247, 245, 240, 0.95) 36%),
     linear-gradient(180deg, rgba(247, 245, 240, 0.98) 0%, rgba(239, 243, 243, 0.98) 100%);
@@ -504,7 +504,7 @@ function qrSrc(path) {
 
 .follow-card {
   padding: 18px;
-  border-radius: 24px;
+  border-radius: var(--radius-card);
   border: 1px solid rgba(32, 79, 103, 0.12);
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 14px 32px rgba(18, 28, 36, 0.06);
@@ -542,7 +542,7 @@ function qrSrc(path) {
 .social-fab {
   border: 1px solid rgba(32, 79, 103, 0.14);
   border-right: none;
-  border-radius: 22px 0 0 22px;
+  border-radius: var(--radius-panel) 0 0 var(--radius-panel);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(245, 242, 236, 0.98) 100%);
   box-shadow: 0 18px 42px rgba(18, 28, 36, 0.12);
@@ -648,7 +648,7 @@ function qrSrc(path) {
 .drawer-intro {
   margin-bottom: 18px;
   padding: 18px 16px;
-  border-radius: 20px;
+  border-radius: var(--radius-card);
   border: 1px solid rgba(32, 79, 103, 0.1);
   background: rgba(255, 255, 255, 0.74);
   text-align: center;
@@ -681,7 +681,7 @@ function qrSrc(path) {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
-  border-radius: 18px;
+  border-radius: var(--radius-card);
   border: 1px solid rgba(32, 79, 103, 0.1);
   background: #fff;
 }
@@ -701,7 +701,7 @@ function qrSrc(path) {
 .follow-qr-fallback {
   width: 100%;
   aspect-ratio: 1 / 1;
-  border-radius: 20px;
+  border-radius: var(--radius-card);
   border: 1px dashed rgba(32, 79, 103, 0.18);
   background:
     linear-gradient(135deg, rgba(32, 79, 103, 0.08) 0%, rgba(191, 111, 63, 0.08) 100%),
@@ -791,7 +791,7 @@ function qrSrc(path) {
   width: 100%;
   border: 1px solid rgba(32, 79, 103, 0.12);
   background: rgba(255, 255, 255, 0.84);
-  border-radius: 24px;
+  border-radius: var(--radius-card);
   padding: 14px;
   display: grid;
   grid-template-columns: 108px minmax(0, 1fr);
@@ -814,7 +814,7 @@ function qrSrc(path) {
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  border-radius: 16px;
+  border-radius: var(--radius-card);
   border: 1px solid rgba(32, 79, 103, 0.08);
 }
 
@@ -860,7 +860,7 @@ function qrSrc(path) {
 .stage-bridge {
   margin-top: 10px;
   padding: 10px 14px;
-  border-radius: 16px;
+  border-radius: var(--radius-card);
   background: rgba(32, 79, 103, 0.06);
   color: var(--text-tertiary);
   font-size: 12px;
@@ -894,7 +894,7 @@ function qrSrc(path) {
 
 .stat-card {
   padding: 18px 20px;
-  border-radius: 20px;
+  border-radius: var(--radius-card);
   background: rgba(255, 255, 255, 0.72);
 }
 
@@ -918,7 +918,7 @@ function qrSrc(path) {
 
 .section-card {
   padding: 24px;
-  border-radius: 24px;
+  border-radius: var(--radius-card);
   background: rgba(247, 245, 240, 0.9);
 }
 
@@ -1040,7 +1040,7 @@ function qrSrc(path) {
   .journey-map,
   .section-card {
     padding: 20px;
-    border-radius: 22px;
+    border-radius: var(--radius-panel);
   }
 
   .stats-grid {
@@ -1065,7 +1065,7 @@ function qrSrc(path) {
   }
 
   .social-fab {
-    border-radius: 18px;
+    border-radius: var(--radius-card);
     border-right: 1px solid rgba(32, 79, 103, 0.14);
     padding: 12px 14px;
     min-width: 104px;

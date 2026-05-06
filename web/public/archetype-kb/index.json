@@ -1,0 +1,1114 @@
+{
+  "meta": {
+    "id": "archetype-lab-kb",
+    "title": "人格原型实验室知识库",
+    "version": "0.1.0",
+    "exported_at": "2026-05-03T11:36:11.557Z",
+    "source_root": "E:/RedBook/04_operations/04_products_and_experiments/book-kb-multi/02_知识库/人格原型实验室",
+    "product_definition": "文学原型 + 真实生命史 + 家庭/关系脚本 + 游戏规则 + 圆桌推演"
+  },
+  "source_works": [
+    {
+      "id": "local-human-trojan-program",
+      "title": "人类木马程序",
+      "author": "",
+      "source_type": "book",
+      "local_path": "E:/RedBook/01_sources/01_books/04_心理疗愈与自我探索/人类木马程序",
+      "copyright_status": "local_private",
+      "usable_scope": "internal_research",
+      "themes": [
+        "自我观察",
+        "心理脚本",
+        "内容表达"
+      ],
+      "ingestion_status": "extracted",
+      "notes": "可用于真实问题、内容创作者虚拟用户和自我叙事拆解。"
+    },
+    {
+      "id": "local-satir-family-methods",
+      "title": "美好生活方法论  改善亲密、家庭和人际关系的21堂萨提亚课",
+      "author": "",
+      "source_type": "book",
+      "local_path": "E:/RedBook/01_sources/01_books/04_心理疗愈与自我探索/美好生活方法论  改善亲密、家庭和人际关系的21堂萨提亚课",
+      "copyright_status": "local_private",
+      "usable_scope": "internal_research",
+      "themes": [
+        "家庭系统",
+        "沟通姿态",
+        "亲密关系"
+      ],
+      "ingestion_status": "candidate",
+      "notes": "适合作为家庭脚本、沟通姿态和关系修复字段的理论来源。"
+    },
+    {
+      "id": "public-classic-dream-red-mansion",
+      "title": "红楼梦",
+      "author": "曹雪芹",
+      "source_type": "novel",
+      "local_path": "",
+      "external_url": "",
+      "copyright_status": "public_domain",
+      "usable_scope": "public_output",
+      "themes": [
+        "家族系统",
+        "命运结构",
+        "身份与亲密"
+      ],
+      "ingestion_status": "candidate",
+      "notes": "优先用于家族系统、亲密关系、身份位置和命运结构原型。"
+    },
+    {
+      "id": "public-classic-ru-lin-wai-shi",
+      "title": "儒林外史",
+      "author": "吴敬梓",
+      "source_type": "novel",
+      "local_path": "",
+      "external_url": "",
+      "copyright_status": "public_domain",
+      "usable_scope": "public_output",
+      "themes": [
+        "名声",
+        "功名",
+        "身份焦虑",
+        "社会评价"
+      ],
+      "ingestion_status": "candidate",
+      "notes": "适合抽取功名、体面、社会目光和身份表演类原型。"
+    },
+    {
+      "id": "public-shakespeare-plays",
+      "title": "莎士比亚戏剧",
+      "author": "William Shakespeare",
+      "source_type": "play",
+      "local_path": "",
+      "external_url": "https://www.gutenberg.org/ebooks/author/65",
+      "copyright_status": "public_domain",
+      "usable_scope": "public_output",
+      "themes": [
+        "欲望",
+        "权力",
+        "误认",
+        "悲剧结构"
+      ],
+      "ingestion_status": "candidate",
+      "notes": "适合抽取权力欲、嫉妒、误认、野心和身份伪装原型。"
+    },
+    {
+      "id": "game-mechanism-roleplay",
+      "title": "角色扮演与桌游机制库",
+      "author": "mixed",
+      "source_type": "game",
+      "local_path": "",
+      "external_url": "",
+      "copyright_status": "unknown",
+      "usable_scope": "internal_research",
+      "themes": [
+        "规则压力",
+        "互动叙事",
+        "复盘"
+      ],
+      "ingestion_status": "candidate",
+      "notes": "只抽象机制，不复制商业规则书文本。"
+    }
+  ],
+  "archetype_kernels": [
+    {
+      "id": "community-story",
+      "title": "被共同体叙事吞没的人",
+      "short_title": "共同体吞没",
+      "source_work_ids": [
+        "public-classic-ru-lin-wai-shi"
+      ],
+      "core_situation": "个体的痛苦或失败被共同体反复转述、规训和消费，最后本人也难以说出新的愿望。",
+      "need": "被真正听见，而不是被围观和定义。",
+      "fear": "一旦停止讲述痛苦，就会失去最后一点被看见的机会。",
+      "protection_strategy": "反复叙述同一个伤口，用苦难换取短暂位置。",
+      "relationship_script": "别人同情、劝导、转述；自己越来越难说出新的选择。",
+      "family_script": "家庭或共同体用固定叙事解释个体，个体的位置被过去事件锁住。",
+      "social_gaze": "共同体的目光既提供承认，也制造二次伤害。",
+      "language_style": "反复、求证、带着被确认的期待。",
+      "destiny_pattern": "越被看见，越被固定；越被同情，越难获得主体性。",
+      "signals": [
+        "反复倾诉",
+        "被同情消费",
+        "身份被苦难固定",
+        "难以出现新的自我叙事"
+      ],
+      "modern_transplants": [
+        "家庭群里的反复倾诉",
+        "职场里的苦劳代表",
+        "短视频评论区的同情剧场"
+      ],
+      "evidence_refs": [
+        {
+          "source_work_id": "public-classic-ru-lin-wai-shi",
+          "location": "待补具体章节或人物",
+          "note": "当前为结构样张，需后续补文本证据。"
+        }
+      ],
+      "review_status": "expert_review_needed"
+    },
+    {
+      "id": "wangxifeng-control-hub",
+      "title": "把自己活成系统控制中枢的人",
+      "short_title": "控制中枢",
+      "source_work_ids": [
+        "public-classic-dream-red-mansion"
+      ],
+      "core_situation": "一个极度能干的人，把安全感、价值感和权力感都绑在掌控全局上，最后既撑起系统，也压迫系统。",
+      "need": "证明自己能压住局面、掌控资源，并被看见为不可替代的人。",
+      "fear": "一旦松手，局面会塌，别人会看低自己，自己的位置会被夺走。",
+      "protection_strategy": "把信息、节奏、资源和决策都收束到自己手里，用掌控感对抗失控焦虑。",
+      "relationship_script": "混乱出现 -> 她接管 -> 短期效率上升 -> 他人依赖或畏惧 -> 团队声音下降 -> 她更不敢放手。",
+      "family_script": "在资源紧张、体面维护和权力交织的组织中，最能扛事的人会被反复推到兜底位置。",
+      "social_gaze": "组织一边依赖她救火，一边把压迫感归因到她个人身上。",
+      "language_style": "利落、压场、快速拆线，常用安排、核对、统一看、我来盯等控制节奏的语言。",
+      "destiny_pattern": "越能扛事，越容易成为系统补丁；越被依赖，越难从控制中松手。",
+      "signals": [
+        "高能力高控制",
+        "信息集中",
+        "所有人等她拍板",
+        "团队不敢反馈风险",
+        "个人耗竭",
+        "系统单点依赖"
+      ],
+      "modern_transplants": [
+        "预算突然缩减",
+        "项目临时救火",
+        "领导只找她拍板",
+        "下属不敢反馈风险",
+        "复盘会发现所有任务线都接到她身上"
+      ],
+      "evidence_refs": [
+        {
+          "source_work_id": "public-classic-dream-red-mansion",
+          "location": "王熙凤管家、资源调度与贾府复杂组织相关情节，待补具体章回。",
+          "note": "当前为《如果王熙凤来上班》公开内容样张抽取的产品化原型，需要后续补文本证据和专家评审。"
+        }
+      ],
+      "review_status": "expert_review_needed"
+    }
+  ],
+  "virtual_persons": [
+    {
+      "id": "creator-lin",
+      "name": "林知远",
+      "fictional_level": "composite_fictional",
+      "source_archetype_ids": [
+        "failure-identity",
+        "obedient-safety"
+      ],
+      "source_work_ids": [
+        "local-human-trojan-program"
+      ],
+      "life_stage": "从输入型学习转向稳定输出的知识创作者",
+      "current_problem": "明明有很多材料，却总觉得还没准备好，不敢把复杂想法发出去。",
+      "life_timeline": [
+        {
+          "period": "学生阶段",
+          "event": "习惯用成绩和评价确认自己是否足够好。",
+          "impact": "把外部反馈和自我价值绑定。"
+        },
+        {
+          "period": "早期工作/创作",
+          "event": "开始大量输入心理、成长和表达类材料。",
+          "impact": "形成高标准，但也用继续准备推迟公开表达。"
+        },
+        {
+          "period": "当前",
+          "event": "看到同领域账号增长更快，开始怀疑自己的表达是否太慢。",
+          "impact": "触发失败即自我和被评价焦虑。"
+        }
+      ],
+      "family_system": {
+        "family_rules": [
+          "要懂事",
+          "不要轻易暴露不成熟",
+          "最好先准备充分"
+        ],
+        "emotion_rules": [
+          "焦虑可以通过努力和整理来处理"
+        ],
+        "role_position": "负责、自我要求高、容易提前替别人考虑理解成本的人",
+        "intergenerational_line": "体面、安全和不出错可能比试错更被看重"
+      },
+      "relationship_patterns": [
+        "害怕被评价",
+        "容易过度解释",
+        "对读者和外界反馈敏感"
+      ],
+      "self_narrative": "我必须准备得足够系统，才有资格公开表达。",
+      "protection_strategies": [
+        "继续整理资料",
+        "推迟发布",
+        "把复杂性磨得更完整"
+      ],
+      "triggers": [
+        "同领域账号快速增长",
+        "笔记数据低",
+        "别人一句轻微评价"
+      ],
+      "growth_edges": [
+        "用一张卡片先发布",
+        "把数据复盘从人格评价改成变量分析",
+        "保留表达锋芒"
+      ],
+      "privacy_level": "public_demo",
+      "evidence_refs": [
+        "local-human-trojan-program"
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "wangxifeng-office-lead",
+      "name": "凤姐式项目骨干",
+      "fictional_level": "literary_archetype",
+      "source_archetype_ids": [
+        "wangxifeng-control-hub"
+      ],
+      "source_work_ids": [
+        "public-classic-dream-red-mansion"
+      ],
+      "life_stage": "在复杂组织中长期承担救火、协调和资源调度的人",
+      "current_problem": "我发现所有紧急项目最后都会回到我这里。只要我不盯，局面就像要散；但团队越来越沉默，我也越来越累。",
+      "problem_case_id": "control-hub-dependency",
+      "life_timeline": [
+        {
+          "period": "早期胜任",
+          "event": "在混乱中快速拆线、压场、推动结果。",
+          "impact": "形成我能扛住复杂局面的自我叙事。"
+        },
+        {
+          "period": "组织依赖",
+          "event": "领导和团队越来越习惯把模糊问题交给她兜底。",
+          "impact": "不可替代感上升，同时授权和信任下降。"
+        },
+        {
+          "period": "当前卡点",
+          "event": "预算被砍、项目救火、团队沉默同时出现。",
+          "impact": "触发控制中枢模式，个人耗竭和系统单点依赖一起加重。"
+        }
+      ],
+      "family_system": {
+        "family_rules": [
+          "不能让局面散",
+          "外面必须体面",
+          "能人就该兜底"
+        ],
+        "emotion_rules": [
+          "不安不能直接表达，只能通过掌控来处理"
+        ],
+        "role_position": "组织里的压场者、兜底者、资源调度者",
+        "intergenerational_line": "贾府式复杂组织把体面、亏空、权力和人情压到能管事的人身上"
+      },
+      "relationship_patterns": [
+        "接管",
+        "盯细节",
+        "让别人等她拍板",
+        "用效率换安全感",
+        "被依赖后更难放手"
+      ],
+      "self_narrative": "只要我能压住局面，我就还有位置；我一松手，系统就会塌。",
+      "protection_strategies": [
+        "抓信息",
+        "抓节奏",
+        "抓拍板权",
+        "亲自兜底",
+        "把标准留在自己脑中"
+      ],
+      "triggers": [
+        "预算突然缩减",
+        "领导说这事你盯一下",
+        "项目临时救火",
+        "下属不敢反馈风险",
+        "复盘发现任务线都接到自己身上"
+      ],
+      "growth_edges": [
+        "把标准说清",
+        "先授权一小段流程",
+        "只同步风险不收回拍板权",
+        "培养替手",
+        "把个人经验写成流程"
+      ],
+      "privacy_level": "public_demo",
+      "evidence_refs": [
+        "public-classic-dream-red-mansion",
+        "wangxifeng-control-hub"
+      ],
+      "review_status": "expert_review_needed"
+    }
+  ],
+  "life_scenes": [
+    {
+      "id": "family-chat",
+      "title": "家庭群里的反复倾诉",
+      "domain": "family",
+      "roles": [
+        "当事人",
+        "亲戚",
+        "旁观者",
+        "劝解者"
+      ],
+      "pressure": "痛苦被反复询问、安慰和转述，但没有人真正接住当事人的选择。",
+      "conflict_path": [
+        "当事人讲述痛苦",
+        "亲友用固定话术安慰或劝导",
+        "痛苦被确认但主体性没有增加",
+        "当事人继续用旧叙事换取被看见"
+      ],
+      "signals": [
+        "反复倾诉",
+        "都是为你好",
+        "亲友转述",
+        "没有新选择"
+      ],
+      "possible_actions": [
+        "命名自己的真实请求",
+        "减少重复解释",
+        "提出一个具体选择",
+        "离开评价场"
+      ],
+      "content_angles": [
+        "为什么有些安慰会让人更孤独",
+        "一个人如何从被同情里重新拿回主体性"
+      ]
+    },
+    {
+      "id": "wangxifeng-budget-cut-meeting",
+      "title": "预算被砍后的项目复盘会",
+      "domain": "workplace",
+      "roles": [
+        "王熙凤式项目骨干",
+        "上级领导",
+        "下属/同事",
+        "项目团队"
+      ],
+      "pressure": "预算突然缩减、项目需要救火、领导点名让能人兜底，团队因为害怕出错而沉默。",
+      "conflict_path": [
+        "预算或项目进度突然失控",
+        "领导把问题推给最能扛事的人",
+        "她立刻接管信息、节奏和拍板权",
+        "短期效率上升，但团队更不敢自己判断",
+        "下一次混乱出现时，系统更依赖她"
+      ],
+      "signals": [
+        "群里突然沉默",
+        "文件都流向同一个人",
+        "领导说这事你盯一下",
+        "同事等她点头",
+        "复盘时发现红色任务线都接到她身上"
+      ],
+      "possible_actions": [
+        "明确授权边界",
+        "把风险摊开",
+        "建立可见流程",
+        "培养替手",
+        "把个人经验写成团队规则"
+      ],
+      "content_angles": [
+        "为什么越能干的人，越容易把团队带成只等她指令的状态？",
+        "别把一个能人用成整个系统的补丁",
+        "控制欲背后，可能是我一松手就会塌的恐惧"
+      ]
+    }
+  ],
+  "rule_sets": [
+    {
+      "id": "public-judgement",
+      "title": "公开评价",
+      "pressure": "所有选择都会被旁观者看见，并被点赞、排名、转述或评价。",
+      "state_variables": [
+        "羞耻值",
+        "证明欲",
+        "真实需要清晰度",
+        "外部目光强度"
+      ],
+      "visible_information": [
+        "公开发言",
+        "点赞/评价",
+        "排名",
+        "他人反应"
+      ],
+      "hidden_information": [
+        "真实需要",
+        "未说出口的恐惧",
+        "对评价的依赖程度"
+      ],
+      "actions": [
+        "解释",
+        "沉默",
+        "迎合",
+        "表达请求",
+        "退出评价场"
+      ],
+      "costs": [
+        "关系压力",
+        "自我暴露",
+        "机会损失",
+        "情绪消耗"
+      ],
+      "turn_structure": "每轮先公开选择，再收到外界评价，最后进入自我叙事修正。",
+      "win_or_progress_condition": "玩家能区分外部评价和真实需要，并做出一个不完全被评价驱动的选择。",
+      "review_prompts": [
+        "我刚刚是在回应真实需要，还是在回应旁观者目光？",
+        "如果没人评价，我还会做同样的选择吗？",
+        "这次评价改变的是策略，还是我对自己的判断？"
+      ],
+      "safety_notes": "不适合直接用于真实羞耻创伤强烈的用户；需要允许暂停和退出。"
+    },
+    {
+      "id": "single-point-dependency",
+      "title": "单点依赖与授权不清",
+      "pressure": "组织把混乱不断推给最能扛事的人，短期效率被奖励，长期授权和团队声音被削弱。",
+      "state_variables": [
+        "control",
+        "trust",
+        "delegation",
+        "system_load",
+        "burnout",
+        "team_voice"
+      ],
+      "visible_information": [
+        "预算缺口",
+        "项目延期",
+        "领导点名",
+        "群消息沉默",
+        "文件流向",
+        "任务线集中"
+      ],
+      "hidden_information": [
+        "失控焦虑",
+        "不可替代感",
+        "授权恐惧",
+        "团队畏惧",
+        "组织流程空洞"
+      ],
+      "actions": [
+        "继续接管",
+        "明确授权",
+        "建立流程",
+        "培养替手",
+        "暴露系统漏洞",
+        "只同步风险不收回拍板权"
+      ],
+      "costs": [
+        "短期不确定感上升",
+        "领导需要承担系统责任",
+        "团队必须重新练习负责",
+        "能人要承受放手焦虑"
+      ],
+      "turn_structure": "每轮先出现混乱，再选择接管或授权，随后更新 control、trust、delegation、burnout 与 team_voice。",
+      "win_or_progress_condition": "参与者能把个人控制力翻译成团队流程、授权边界和共同承载，而不是继续依赖单点救火。",
+      "review_prompts": [
+        "我是在承担责任，还是在用掌控感对抗不安？",
+        "这件事必须由我拍板，还是我没有把标准说清？",
+        "如果我这次不全部接回手里，系统需要什么支架才能接住？"
+      ],
+      "safety_notes": "只能作为非诊断式组织和叙事建模，不把具体同事贴成控制狂，也不合理化压迫行为。"
+    }
+  ],
+  "roundtable_sessions": [
+    {
+      "id": "roundtable-session-wangxifeng-control-hub-2026-05-03",
+      "title": "王熙凤式控制中枢样张圆桌",
+      "savedAt": "2026-05-03T20:30:00+08:00",
+      "status": "sample_run",
+      "route": "/tools/roundtable",
+      "problemCaseId": "control-hub-dependency",
+      "problemTitle": "别把一个能人，用成整个系统的补丁",
+      "modeId": "content-turn",
+      "modeLabel": "内容转译",
+      "stageId": "content",
+      "sourceFiles": [
+        "03_outputs/05_by_typemoto/02_王熙凤上班/王熙凤篇_复盘与提示词文档合集/03_王熙凤篇_人物原型卡与世界规则卡.md",
+        "03_outputs/05_by_typemoto/02_王熙凤上班/王熙凤篇_复盘与提示词文档合集/04_王熙凤篇_4-0小红书图文提示词.md",
+        "03_outputs/05_by_typemoto/02_王熙凤上班/王熙凤篇_复盘与提示词文档合集/05_王熙凤篇_4-2高密度信息图提示词.md"
+      ],
+      "input": {
+        "rawProblem": "预算突然被砍，项目需要救火，领导第一反应是让我来盯，团队第一反应是等我拍板。我能把事情压住，但大家越来越不敢自己判断，我也越来越累。",
+        "sceneId": "team",
+        "source": "《如果王熙凤来上班》内容样张"
+      },
+      "user": {
+        "id": "wangxifeng-office-lead",
+        "name": "凤姐式项目骨干",
+        "source": "人格原型实验室 KB",
+        "problem": "我发现所有紧急项目最后都会回到我这里。只要我不盯，局面就像要散；但团队越来越沉默，我也越来越累。",
+        "privacyLevel": "public_demo"
+      },
+      "archetype": {
+        "id": "wangxifeng-control-hub",
+        "shortTitle": "控制中枢",
+        "hypothesis": "当前问题可以先被看作一条“控制中枢”线索：当组织奖励救火和兜底时，能人可能会用抓信息、抓节奏、抓拍板权来保护安全感和位置感。"
+      },
+      "lifeScene": {
+        "id": "wangxifeng-budget-cut-meeting",
+        "title": "预算被砍后的项目复盘会"
+      },
+      "rule": {
+        "id": "single-point-dependency",
+        "title": "单点依赖与授权不清",
+        "pressure": "组织把混乱不断推给最能扛事的人，短期效率被奖励，长期授权和团队声音被削弱。"
+      },
+      "participants": [
+        "圆桌主持人",
+        "火把教练",
+        "证据馆员",
+        "反方朋友",
+        "内容编辑"
+      ],
+      "turns": [
+        {
+          "stage": "intake",
+          "agent": "圆桌主持人",
+          "message": "先把问题放到桌面上：这不是某个能人太强，而是组织把混乱、风险和拍板权不断接到同一个人身上。"
+        },
+        {
+          "stage": "naming",
+          "agent": "反方朋友",
+          "message": "我想挑战一句：她不只是控制别人，领导的放心、团队的后退和流程的空洞也在共同制造单点依赖。"
+        },
+        {
+          "stage": "assumption",
+          "agent": "火把教练",
+          "message": "隐含假设可能是：只要我不盯，系统就会塌；只要我不兜底，我的位置就不稳。"
+        },
+        {
+          "stage": "perspective",
+          "agent": "证据馆员",
+          "message": "王熙凤原型提供的不是标签，而是一个组织压力显影器：体面、资源、权力和亏空如何压到能管事的人身上。"
+        },
+        {
+          "stage": "action",
+          "agent": "火把教练",
+          "message": "今天的最小行动不是放弃掌控，而是挑一段低风险流程说清标准，只同步风险，不收回全部拍板权。"
+        },
+        {
+          "stage": "content",
+          "agent": "内容编辑",
+          "message": "这条可以转译成小红书图文：从“她太控制”改写成“复杂组织如何把能人推成控制中枢”。"
+        }
+      ],
+      "timeline": [
+        "输入王熙凤式项目骨干的预算救火场景。",
+        "命名为控制中枢原型，不做心理诊断。",
+        "绑定单点依赖与授权不清规则。",
+        "输出同事、领导和当事人三类行动边界。",
+        "沉淀为内容运营回流样张。"
+      ],
+      "output": {
+        "clarifiedProblem": "真正卡住的不是她个人太强，而是组织把混乱、风险和决策不断接到同一个能人身上，让她既获得安全感，也承担过载。",
+        "hiddenAssumptions": [
+          "如果我不盯，局面就会塌。",
+          "如果别人做不好，最后还是我背锅。",
+          "只有我压住全局，我的位置才安全。"
+        ],
+        "newPerspectives": [
+          "组织系统",
+          "防御模式",
+          "互动循环",
+          "心智发展",
+          "授权边界"
+        ],
+        "actionCard": {
+          "title": "把一段控制线放到桌面上",
+          "text": "本周选择一个低风险流程，把标准、风险和拍板边界写清，让一位同事先接一段；你只同步风险，不立刻收回全部拍板权。",
+          "successSignal": "团队至少有一个人能在不等你点头的情况下推进一小步。"
+        },
+        "contentArtifact": {
+          "id": "roundtable-artifact-wangxifeng-control-hub-2026-05-03",
+          "origin": "roundtable",
+          "type": "圆桌样张",
+          "title": "别把一个能人，用成整个系统的补丁",
+          "source": "/tools/roundtable",
+          "useFor": "王熙凤上班 · 控制中枢 · 单点依赖与授权不清",
+          "topicSeeds": [
+            "为什么越能干的人，越容易把团队带成只等她指令？",
+            "她不是控制狂，而是复杂组织里的控制中枢。",
+            "每一次救火成功，都可能强化下一次单点依赖。",
+            "真正的能干，不是把所有人抓在手里，而是让系统长出来。",
+            "理解她的压力，不等于合理化她的压迫。"
+          ],
+          "slides": [
+            "预算突然被砍，所有人都看向那个最能扛事的人。",
+            "她能救火，也让团队越来越不敢自己判断。",
+            "真正的问题不是能力强，而是秩序被绑在她一个人身上。",
+            "互动循环：混乱出现 -> 她接管 -> 效率上升 -> 团队后退 -> 她更不敢放手。",
+            "同事动作：把进度、风险、选项和权限边界摆出来。",
+            "领导动作：别只用她救火，把她的经验写成流程并培养替手。"
+          ]
+        },
+        "feedbackFields": {
+          "resonance_quotes": [
+            "她一句话我就开始紧张",
+            "她不是骂我，但我就是怕出错"
+          ],
+          "misread_risks": [
+            "把王熙凤写成控制狂女领导",
+            "把组织责任全部归因到个人性格"
+          ],
+          "next_feedback_to_collect": [
+            "读者是否能说出身边类似场景",
+            "读者是否收藏同事/领导行动页",
+            "评论区是否出现下一个人物提名"
+          ]
+        }
+      },
+      "productValidation": {
+        "passed": [
+          "真实内容样张可以被抽取为 ArchetypeKernel、LifeScene、RuleSet 和 VirtualPerson。",
+          "圆桌输出能稳定转成 ContentArtifact。",
+          "样张保留了非诊断边界，没有把文学人物粗暴贴成现实标签。"
+        ],
+        "friction": [
+          "KB roundtable_sessions 已能导出到前端，但还没有进入正式会话筛选、搜索和评审流。",
+          "ProblemCase 已新增，但还需要用更多样张校准问题入口和推荐证据。",
+          "王熙凤原型还需要补具体《红楼梦》章回证据。"
+        ],
+        "nextActions": [
+          "为 KB 圆桌样张增加筛选、搜索、评审状态和一键转任务。",
+          "把控制中枢 ProblemCase 和更多文学人物样张进行交叉验证。",
+          "补一轮专家评审：文学研究、组织行为、心理边界。"
+        ]
+      },
+      "privacyLevel": "public_demo",
+      "review_status": "expert_review_needed"
+    }
+  ],
+  "ui_archetypes": [
+    {
+      "id": "community-story",
+      "title": "被共同体叙事吞没的人",
+      "shortTitle": "共同体吞没",
+      "source": "乡土文学 / 公版文本优先",
+      "symbol": "群",
+      "color": "#b65c42",
+      "thesis": "一个人的痛苦被反复讲述、解释和消费，最后连他自己也只能用共同体给他的语言理解自己。",
+      "lifeModel": {
+        "need": "被真正听见，而不是被围观和定义。",
+        "fear": "一旦停止讲述痛苦，就会失去最后一点被看见的机会。",
+        "protection": "反复叙述同一个伤口，用苦难换取短暂位置。",
+        "relationScript": "别人同情、规训、转述；自己越来越难说出新的愿望。",
+        "growthEdge": "把“他们怎么说我”与“我现在还想要什么”分开。"
+      },
+      "signals": [
+        "反复倾诉",
+        "被同情消费",
+        "身份被苦难固定",
+        "很难出现新的自我叙事"
+      ],
+      "scenes": [
+        {
+          "id": "family-chat",
+          "title": "家庭群里的反复倾诉",
+          "context": "亲戚反复问候、评价、劝解，却没有人真正接住当事人的选择。",
+          "conflict": "每一次倾诉都换来同一套安慰，痛苦被确认，却没有新行动出现。",
+          "transplant": "把乡土共同体换成家庭群，把围观换成关心式转发，把规训换成“都是为你好”。",
+          "contentAngles": [
+            "为什么有些安慰会让人更孤独",
+            "一个人如何从“被同情”里重新拿回主体性"
+          ],
+          "storySeed": "一个人决定在家庭群里第一次不解释遭遇，而是只说出一个新的选择。"
+        },
+        {
+          "id": "office-labor",
+          "title": "职场里的苦劳代表",
+          "context": "团队把某个人当成能扛事的人，他越能忍，越没人问他的边界。",
+          "conflict": "苦劳变成身份，身份又反过来要求他继续吃苦。",
+          "transplant": "把村庄舆论换成组织文化，把命运评价换成绩效和责任感。",
+          "contentAngles": [
+            "别把“很能扛”误认成真正的价值",
+            "为什么会有人在被需要里失去自己"
+          ],
+          "storySeed": "一个总被安排收尾的人，在项目复盘会上第一次把“我扛了什么”改成“系统漏了什么”。"
+        },
+        {
+          "id": "comment-area",
+          "title": "短视频评论区的同情剧场",
+          "context": "个体经历被平台、评论和围观情绪重新包装，痛苦迅速变成可消费内容。",
+          "conflict": "越多人说“好可怜”，当事人的复杂性越被抹平。",
+          "transplant": "把共同体围观换成流量机制，把闲谈换成评论区二次叙事。",
+          "contentAngles": [
+            "为什么围观式共情不一定是真正理解",
+            "一个人如何不被自己的苦难人设绑架"
+          ],
+          "storySeed": "一个被爆款视频定义的人，开始偷偷创建一个完全不讲苦难的新账号。"
+        }
+      ]
+    },
+    {
+      "id": "obedient-safety",
+      "title": "用懂事换安全的人",
+      "shortTitle": "懂事换安全",
+      "source": "家庭叙事 / 成长小说原型",
+      "symbol": "灯",
+      "color": "#d09a3d",
+      "thesis": "他很早学会用体贴、让步和提前承担来换取关系稳定，长大后却很难分辨责任和边界。",
+      "lifeModel": {
+        "need": "在不讨好的情况下也被接纳。",
+        "fear": "一旦表达真实需要，关系就会变冷或崩掉。",
+        "protection": "提前照顾所有人的情绪，让自己成为不制造麻烦的人。",
+        "relationScript": "先道歉、先理解、先退让，最后又暗自委屈。",
+        "growthEdge": "从“我应该懂事”移动到“我可以有一个清楚的请求”。"
+      },
+      "signals": [
+        "过度补位",
+        "先替别人想",
+        "害怕添麻烦",
+        "边界出现后强烈内疚"
+      ],
+      "scenes": [
+        {
+          "id": "intimacy-apology",
+          "title": "亲密关系里的先道歉",
+          "context": "对方沉默或不满时，他立刻解释、道歉、调整自己。",
+          "conflict": "越想稳定关系，越让关系只剩下安抚和补偿。",
+          "transplant": "把童年的安全交换移植到伴侣关系，把“别惹大人生气”变成“别让对方失望”。",
+          "contentAngles": [
+            "为什么懂事的人也会在关系里失控",
+            "亲密关系里最难练的不是表达，而是不提前投降"
+          ],
+          "storySeed": "一个总先道歉的人，在一次争吵里只说了一句“我需要十分钟想清楚”。"
+        },
+        {
+          "id": "team-fill",
+          "title": "团队里的自动补位",
+          "context": "会议没人接任务时，他总是第一个站出来。",
+          "conflict": "团队越来越依赖他的自觉，他却越来越觉得没人珍惜。",
+          "transplant": "把家庭里的“懂事孩子”换成组织里的“靠谱员工”。",
+          "contentAngles": [
+            "靠谱不是无边界",
+            "为什么越能干的人越容易被默认"
+          ],
+          "storySeed": "一个救火型员工设计了一个任务看板，第一次让“隐形劳动”变成全员可见。"
+        },
+        {
+          "id": "creator-pleasing",
+          "title": "内容创作里的讨好读者",
+          "context": "每次发布前都想照顾所有读者的理解和感受。",
+          "conflict": "表达变得越来越周全，也越来越没有锋芒。",
+          "transplant": "把家庭评价换成平台反馈，把“别让人失望”换成“别让数据不好看”。",
+          "contentAngles": [
+            "内容创作者最隐蔽的讨好，是把所有复杂性磨平",
+            "如何区分照顾读者和取悦读者"
+          ],
+          "storySeed": "一个知识博主删掉了最想说的那一段，后来决定把它单独做成一个系列。"
+        }
+      ]
+    },
+    {
+      "id": "explain-loop",
+      "title": "在亲密关系里反复解释的人",
+      "shortTitle": "解释循环",
+      "source": "关系小说 / 对话剧原型",
+      "symbol": "结",
+      "color": "#5f8f87",
+      "thesis": "他以为解释越完整，关系越安全；但语言越密，越容易把对方推到防御里。",
+      "lifeModel": {
+        "need": "让关系重新回到可理解、可靠近的状态。",
+        "fear": "被误解意味着被抛下。",
+        "protection": "用逻辑、细节和自证来压住不确定感。",
+        "relationScript": "焦虑上来就加速解释，对方越沉默，他越补充。",
+        "growthEdge": "练习把解释暂停，先命名情绪和请求。"
+      },
+      "signals": [
+        "越解释越糟",
+        "害怕沉默",
+        "把亲密当辩论",
+        "细节自证"
+      ],
+      "scenes": [
+        {
+          "id": "message-storm",
+          "title": "聊天框里的长篇解释",
+          "context": "对方只回了一个“嗯”，他连发十条补充说明。",
+          "conflict": "他追求清楚，对方感到压力；他感到压力，又继续解释。",
+          "transplant": "把面对面对话换成即时通讯，让沉默变成更大的想象空间。",
+          "contentAngles": [
+            "为什么越解释越像在逼对方表态",
+            "亲密关系里，清楚不等于安全"
+          ],
+          "storySeed": "一个人第一次在长篇解释前停住，只发送了一句“我现在有点慌”。"
+        },
+        {
+          "id": "marriage-review",
+          "title": "婚姻里的复盘会议",
+          "context": "一方想解决问题，另一方只想先缓一缓。",
+          "conflict": "复盘被误认为审判，问题还没处理，关系先进入防御。",
+          "transplant": "把工作里的复盘习惯移植到亲密关系，规则错位导致失效。",
+          "contentAngles": [
+            "不是所有关系问题都适合马上复盘",
+            "把伴侣当项目管理，会发生什么"
+          ],
+          "storySeed": "一对伴侣约定争执后只先回答三个短问题，而不是立刻开会。"
+        },
+        {
+          "id": "friendship-clarify",
+          "title": "友情里的过度澄清",
+          "context": "一次聚会被忽略后，他反复确认朋友是否讨厌自己。",
+          "conflict": "确认越多，朋友越累，他越确信自己被排斥。",
+          "transplant": "把依恋焦虑放进低承诺友情场景，冲突更隐蔽。",
+          "contentAngles": [
+            "为什么有些确认会把关系推远",
+            "友情里的安全感不是靠盘问换来的"
+          ],
+          "storySeed": "一个人决定不再追问朋友怎么看他，而是邀请对方一起做一件具体的事。"
+        }
+      ]
+    },
+    {
+      "id": "failure-identity",
+      "title": "把失败视为身份崩塌的人",
+      "shortTitle": "失败即自我",
+      "source": "成长小说 / 竞争叙事原型",
+      "symbol": "榜",
+      "color": "#6d75b6",
+      "thesis": "他不是害怕事情失败，而是害怕失败证明“我这个人不值得”。",
+      "lifeModel": {
+        "need": "把自我价值从结果排名中解放出来。",
+        "fear": "如果这次输了，就说明之前相信的自己都是假的。",
+        "protection": "只在确定能赢时行动，或在失败前先否定自己。",
+        "relationScript": "把评价、成绩、数据和爱混在一起。",
+        "growthEdge": "把“结果反馈”翻译成“策略反馈”，而不是身份审判。"
+      },
+      "signals": [
+        "不敢开始",
+        "数据焦虑",
+        "失败后全盘自责",
+        "只在安全范围行动"
+      ],
+      "scenes": [
+        {
+          "id": "exam-choice",
+          "title": "升学选择后的排名焦虑",
+          "context": "志愿、专业和城市选择都被排名牵着走。",
+          "conflict": "越想避开失败，越无法看见真实兴趣和能力路径。",
+          "transplant": "把功名叙事换成现代教育排名，把身份认可压进一次选择。",
+          "contentAngles": [
+            "为什么选错专业不等于人生失败",
+            "排名之外，升学选择还应该看什么"
+          ],
+          "storySeed": "一个学生发现自己最怕的不是选错，而是第一次承认自己不知道想要什么。"
+        },
+        {
+          "id": "creator-data",
+          "title": "内容数据不好后的自我否定",
+          "context": "一篇笔记数据低迷后，他开始怀疑整个表达方向。",
+          "conflict": "一次反馈被放大成身份审判，系统学习被切断。",
+          "transplant": "把考试分数换成平台数据，把老师评价换成算法反馈。",
+          "contentAngles": [
+            "数据差，不等于你没有价值",
+            "内容复盘最怕把策略问题变成人格问题"
+          ],
+          "storySeed": "一个创作者把低数据笔记拆成五个变量，第一次没有删号冲动。"
+        },
+        {
+          "id": "startup-loss",
+          "title": "创业失败后的身份真空",
+          "context": "项目关闭后，他不知道如何介绍自己。",
+          "conflict": "外部身份消失，内部叙事也跟着断裂。",
+          "transplant": "把英雄叙事换成创业叙事，把失败当成公共身份坍塌。",
+          "contentAngles": [
+            "失败后真正难的，是重新介绍自己",
+            "如何从身份崩塌回到经验资产"
+          ],
+          "storySeed": "一个创业失败的人开始写一份“我学会了什么”的资产清单，而不是复盘遗书。"
+        }
+      ]
+    }
+  ],
+  "ui_rule_sets": [
+    {
+      "id": "public-judgement",
+      "title": "公开评价",
+      "shortTitle": "公开",
+      "pressure": "所有选择都会被旁观者看见。",
+      "reveal": "容易显出羞耻、证明欲、讨好和对外部目光的依赖。",
+      "mechanics": [
+        "公开发言",
+        "即时评价",
+        "排名/点赞",
+        "旁观者转述"
+      ],
+      "reviewPrompt": "我刚刚是在回应真实需要，还是在回应旁观者目光？"
+    },
+    {
+      "id": "scarce-resource",
+      "title": "资源有限",
+      "shortTitle": "稀缺",
+      "pressure": "时间、注意力、金钱或机会不足以满足所有人。",
+      "reveal": "容易显出边界、索取能力、牺牲习惯和隐藏需求。",
+      "mechanics": [
+        "有限行动点",
+        "任务竞合",
+        "代价明示",
+        "无法全选"
+      ],
+      "reviewPrompt": "我让出的东西，是我愿意给的，还是我不敢要的？"
+    },
+    {
+      "id": "hidden-info",
+      "title": "信息不对称",
+      "shortTitle": "暗线",
+      "pressure": "玩家无法确认别人真实想法，只能基于片段信息行动。",
+      "reveal": "容易显出脑补、过度解释、确认冲动和关系不安全感。",
+      "mechanics": [
+        "隐藏手牌",
+        "单向消息",
+        "延迟回应",
+        "误读事件"
+      ],
+      "reviewPrompt": "我是在确认事实，还是在安抚自己的想象？"
+    },
+    {
+      "id": "time-pressure",
+      "title": "时间压力",
+      "shortTitle": "限时",
+      "pressure": "必须在未准备好时做出选择。",
+      "reveal": "容易显出拖延、控制欲、失败恐惧和默认反应。",
+      "mechanics": [
+        "倒计时",
+        "快速轮次",
+        "不可撤回",
+        "阶段结算"
+      ],
+      "reviewPrompt": "在来不及完美时，我最先保护的是什么？"
+    }
+  ],
+  "expert_lenses": [
+    {
+      "id": "psychodynamic",
+      "title": "心理动力学",
+      "task": "校准早年关系、防御和重复模式的非诊断表达。"
+    },
+    {
+      "id": "family-system",
+      "title": "家庭系统",
+      "task": "校准家庭脚本、代际传承和关系边界。"
+    },
+    {
+      "id": "narratology",
+      "title": "文学叙事学",
+      "task": "校准原型抽取是否忠于文本复杂性。"
+    },
+    {
+      "id": "game-design",
+      "title": "游戏设计",
+      "task": "校准规则是否真的产生选择压力和复盘价值。"
+    },
+    {
+      "id": "privacy-ethics",
+      "title": "隐私伦理",
+      "task": "校准真实用户材料的采集、匿名化和输出边界。"
+    }
+  ],
+  "roundtable_seed_users": [
+    {
+      "id": "creator-lin",
+      "name": "林知远",
+      "archetype": "知识型创作者",
+      "status": "正在从输入型学习转向稳定输出",
+      "source": "本地内容库 + 《人类木马程序》式自我观察",
+      "problem": "我明明有很多材料，却总是觉得还没准备好，不敢把复杂想法发出去。",
+      "problem_case_id": "notes-to-writing",
+      "traits": [
+        "高敏感",
+        "资料很多",
+        "自我要求高",
+        "害怕粗糙"
+      ]
+    },
+    {
+      "id": "manager-qiao",
+      "name": "乔安",
+      "archetype": "新晋团队负责人",
+      "status": "从解决问题的人，转向设计对话容器的人",
+      "source": "团队沟通案例 + 《关键对话》",
+      "problem": "我感觉团队没人主动说真话，但我又怕一追问大家更防御。",
+      "problem_case_id": "team-truth-silence",
+      "traits": [
+        "责任感强",
+        "推进欲高",
+        "怕失控",
+        "容易替团队想答案"
+      ]
+    },
+    {
+      "id": "student-mu",
+      "name": "穆夏",
+      "archetype": "高考后选择者",
+      "status": "从被排名推着走，转向建立自己的比较地图",
+      "source": "升学选择场景 + 模型思维",
+      "problem": "我到底该优先学校还是专业？我怕选错一步以后就很难改。",
+      "problem_case_id": "school-major-compare",
+      "traits": [
+        "信息焦虑",
+        "怕错过",
+        "很在意家人评价",
+        "缺真实职业样本"
+      ]
+    }
+  ],
+  "shared_pipeline": [
+    {
+      "id": "source-to-archetype",
+      "from": "SourceWork",
+      "to": "ArchetypeKernel",
+      "label": "从作品和理论抽取人格/命运内核"
+    },
+    {
+      "id": "archetype-to-person",
+      "from": "ArchetypeKernel",
+      "to": "VirtualPerson",
+      "label": "组合成可进入圆桌的虚拟人生"
+    },
+    {
+      "id": "person-to-roundtable",
+      "from": "VirtualPerson",
+      "to": "RoundtableSession",
+      "label": "带着真实问题进入多智能体推演"
+    },
+    {
+      "id": "roundtable-to-output",
+      "from": "RoundtableSession",
+      "to": "OutputArtifact",
+      "label": "沉淀为内容、故事、短剧或游戏样张"
+    }
+  ],
+  "page_consumers": [
+    {
+      "route": "/tools/archetype-lab",
+      "role": "原型生成和调试器",
+      "reads": [
+        "ArchetypeKernel",
+        "LifeScene",
+        "RuleSet",
+        "SourceWork"
+      ]
+    },
+    {
+      "route": "/tools/roundtable",
+      "role": "虚拟人生进入问题后的圆桌推演器",
+      "reads": [
+        "VirtualPerson",
+        "ProblemCase",
+        "ArchetypeKernel",
+        "EvidenceRefs"
+      ]
+    },
+    {
+      "route": "/tools/content-ops",
+      "role": "输出物管理和内容回流",
+      "reads": [
+        "RoundtableSession",
+        "OutputArtifact"
+      ]
+    }
+  ],
+  "next_build_steps": [
+    "把 archetypeLabData.js 中的 4 个静态原型迁移为 02_archetype_kernels/*.json",
+    "把 roundtableData.js 中的虚拟用户迁移为 03_virtual_persons/*.json",
+    "继续把已验证样张补成独立 ProblemCase，并绑定到 /tools/roundtable",
+    "加入真实用户材料前，先完成 privacy_level 和 review_status 工作流"
+  ]
+}

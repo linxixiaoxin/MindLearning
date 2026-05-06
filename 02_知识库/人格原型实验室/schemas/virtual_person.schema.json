@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VirtualPerson",
+  "type": "object",
+  "required": ["id", "name", "fictional_level", "current_problem", "privacy_level", "review_status"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "fictional_level": {
+      "type": "string",
+      "enum": ["literary_archetype", "composite_fictional", "anonymized_user", "real_user_private"]
+    },
+    "source_archetype_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "source_work_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "life_stage": { "type": "string" },
+    "current_problem": { "type": "string" },
+    "life_timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "period": { "type": "string" },
+          "event": { "type": "string" },
+          "impact": { "type": "string" }
+        }
+      }
+    },
+    "family_system": {
+      "type": "object",
+      "properties": {
+        "family_rules": { "type": "array", "items": { "type": "string" } },
+        "emotion_rules": { "type": "array", "items": { "type": "string" } },
+        "role_position": { "type": "string" },
+        "intergenerational_line": { "type": "string" }
+      }
+    },
+    "relationship_patterns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "self_narrative": { "type": "string" },
+    "protection_strategies": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "triggers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "growth_edges": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "privacy_level": {
+      "type": "string",
+      "enum": ["public_demo", "internal_only", "private_sensitive"]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["draft", "needs_user_correction", "expert_review_needed", "reviewed"]
+    }
+  }
+}

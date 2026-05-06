@@ -1,0 +1,1148 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "主题",
+      "color": "#6d5c93",
+      "size": 10
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "book": {
+      "label": "书籍",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#2e5670",
+      "size": 11
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 9
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 10
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "person": {
+      "label": "人物",
+      "color": "#9d5667",
+      "size": 12
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "主题",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#2e5670"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "全书摘要": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "全书结构": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "逻辑链 1": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "逻辑链 2": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "逻辑链 3": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？ 2": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？ 2": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？ 2": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识 2": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制 2": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景 2": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用问题意识检查问题意识": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用关键机制检查关键机制": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用现实场景检查现实场景": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用问题意识在全书中解决什么问题？检查问题意识": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用关键机制在全书中解决什么问题？检查关键机制": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用现实场景在全书中解决什么问题？检查现实场景": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识原文线索": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制原文线索": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景原文线索": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？原文线索": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？原文线索": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？原文线索": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "《思考，快与慢》全书骨架：从起点问题到最终落点": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制：这一段到底在解决什么问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？：这一段到底在解决什么问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景：这一段到底在解决什么问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？：这一段到底在解决什么问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识：这一段到底在解决什么问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "全书主动作": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用「关键机制」处理关键问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "用「问题意识」处理关键问题": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "如何从章节证据进入 K N 卡拆解": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "《思考，快与慢》全书总图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识章节图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制章节图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景章节图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "问题意识在全书中解决什么问题？章节图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？章节图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "现实场景在全书中解决什么问题？章节图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "《思考，快与慢》全书骨架：从起点问题到最终落点选题图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "关键机制：这一段到底在解决什么问题选题图": "/books/thinking-fast-and-slow/chapter-images/overview.svg",
+    "读者常见陷阱": "/books/thinking-fast-and-slow/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "1. 问题意识"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "2. 关键机制"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "3. 现实场景"
+    },
+    {
+      "id": "问题意识",
+      "type": "chapter",
+      "tagline": "问题意识围绕这条原文线索展开：了解植根人性的非理性，对认识人类行为不可或缺。"
+    },
+    {
+      "id": "关键机制",
+      "type": "chapter",
+      "tagline": "关键机制围绕这条原文线索展开：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详细。"
+    },
+    {
+      "id": "现实场景",
+      "type": "chapter",
+      "tagline": "现实场景围绕这条原文线索展开：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？ 2",
+      "type": "chapter",
+      "tagline": "问题意识在全书中解决什么问题？围绕这条原文线索展开：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？ 2",
+      "type": "chapter",
+      "tagline": "关键机制在全书中解决什么问题？围绕这条原文线索展开：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？ 2",
+      "type": "chapter",
+      "tagline": "现实场景在全书中解决什么问题？围绕这条原文线索展开：在之前讲到的“少目卩是多”的另一个例子。"
+    },
+    {
+      "id": "问题意识 2",
+      "type": "concept",
+      "tagline": "来自章节「问题意识」的关键判断。"
+    },
+    {
+      "id": "关键机制 2",
+      "type": "concept",
+      "tagline": "来自章节「关键机制」的关键判断。"
+    },
+    {
+      "id": "现实场景 2",
+      "type": "concept",
+      "tagline": "来自章节「现实场景」的关键判断。"
+    },
+    {
+      "id": "用问题意识检查问题意识",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少问题意识的原文场景时使用。"
+    },
+    {
+      "id": "用关键机制检查关键机制",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景检查现实场景",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景的原文场景时使用。"
+    },
+    {
+      "id": "用问题意识在全书中解决什么问题？检查问题意识",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少问题意识在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "用关键机制在全书中解决什么问题？检查关键机制",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少关键机制在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "用现实场景在全书中解决什么问题？检查现实场景",
+      "type": "method",
+      "tagline": "当选题或卡片只剩标题、缺少现实场景在全书中解决什么问题？的原文场景时使用。"
+    },
+    {
+      "id": "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。",
+      "type": "scenario",
+      "tagline": "问题意识把问题意识放到这类处境里观察：我们无法根除非理性，却可以理解错误。"
+    },
+    {
+      "id": "关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详",
+      "type": "scenario",
+      "tagline": "关键机制把关键机制放到这类处境里观察：而且，联想机制的不断激活也是自动完成的。"
+    },
+    {
+      "id": "现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。",
+      "type": "scenario",
+      "tagline": "现实场景把现实场景放到这类处境里观察：模糊性和令人不爽的感觉不都是这个概念所特有的特性。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。",
+      "type": "scenario",
+      "tagline": "问题意识在全书中解决什么问题？把问题意识放到这类处境里观察：低于4分的婴儿一般是浑身青紫、肌肉松弛、不爱动且心跳微弱，这样的嬰儿需要立即救治。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。",
+      "type": "scenario",
+      "tagline": "关键机制在全书中解决什么问题？把关键机制放到这类处境里观察：因为商议双方都受互惠原则的影响，一个看似令人痛心的让步就需要对方作出同样使他们痛心（可能这种痛心也是伪装的）的让步。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。",
+      "type": "scenario",
+      "tagline": "现实场景在全书中解决什么问题？把现实场景放到这类处境里观察：其他“少即是多”的例子包括奚恺元的实验，即给低于总价值的24个盘子附加上几个盘子，因为附加的盘子中有的是坏的。"
+    },
+    {
+      "id": "问题意识原文线索",
+      "type": "case",
+      "tagline": "了解植根人性的非理性，对认识人类行为不可或缺。"
+    },
+    {
+      "id": "关键机制原文线索",
+      "type": "case",
+      "tagline": "前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详细。"
+    },
+    {
+      "id": "现实场景原文线索",
+      "type": "case",
+      "tagline": "逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？原文线索",
+      "type": "case",
+      "tagline": "在之前讲到的“少目卩是多”的另一个例子。"
+    },
+    {
+      "id": "《思考，快与慢》全书骨架：从起点问题到最终落点",
+      "type": "expression",
+      "tagline": "如何理解《思考，快与慢》的章节主线"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "关键机制：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "现实场景：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景」推进全书。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "问题意识：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "全书主动作",
+      "type": "expression",
+      "tagline": "问题意识在全书中解决什么问题？"
+    },
+    {
+      "id": "用「关键机制」处理关键问题",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "用「问题意识」处理关键问题",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」",
+      "type": "expression",
+      "tagline": "问题意识在全书中解决什么问题？"
+    },
+    {
+      "id": "如何从章节证据进入 K N 卡拆解",
+      "type": "expression",
+      "tagline": "如何从章节证据进入 K/N 卡拆解"
+    },
+    {
+      "id": "《思考，快与慢》全书总图",
+      "type": "expression",
+      "tagline": "把「问题意识在全书中解决什么问题？」画成一张能继续翻页的总图。"
+    },
+    {
+      "id": "问题意识章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识」推进全书。"
+    },
+    {
+      "id": "关键机制章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制」推进全书。"
+    },
+    {
+      "id": "现实场景章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景」推进全书。"
+    },
+    {
+      "id": "问题意识在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「问题意识在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「关键机制在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "现实场景在全书中解决什么问题？章节图",
+      "type": "expression",
+      "tagline": "这一章围绕「现实场景在全书中解决什么问题？」推进全书。"
+    },
+    {
+      "id": "《思考，快与慢》全书骨架：从起点问题到最终落点选题图",
+      "type": "expression",
+      "tagline": "读者容易把「如何理解《思考，快与慢》的章节主线」当成表面问题，但这本书真正要处理的是「问题意识」与「关键机制」之间的结构关系。"
+    },
+    {
+      "id": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「关键机制在全书中解决什么问题？」推进全书。」，但这一段真正想带读者回到「关键机制在全书中解决什么问题？」中的「关键机制」。"
+    },
+    {
+      "id": "关键机制：这一段到底在解决什么问题选题图",
+      "type": "expression",
+      "tagline": "表面看是「这一章围绕「关键机制」推进全书。」，但这一段真正想带读者回到「关键机制」中的「关键机制」。"
+    },
+    {
+      "id": "读者常见陷阱",
+      "type": "summary",
+      "tagline": "读者常见陷阱"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？ 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？ 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？ 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用问题意识检查问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制检查关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景检查现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用问题意识在全书中解决什么问题？检查问题意识",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用关键机制在全书中解决什么问题？检查关键机制",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用现实场景在全书中解决什么问题？检查现实场景",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？原文线索",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《思考，快与慢》全书骨架：从起点问题到最终落点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书主动作",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「关键机制」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「问题意识」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如何从章节证据进入 K N 卡拆解",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《思考，快与慢》全书总图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题意识在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "现实场景在全书中解决什么问题？章节图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《思考，快与慢》全书骨架：从起点问题到最终落点选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键机制：这一段到底在解决什么问题选题图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读者常见陷阱",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？ 2",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？ 2",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？ 2",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？原文线索",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？原文线索",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？原文线索",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "《思考，快与慢》全书骨架：从起点问题到最终落点",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "《思考，快与慢》全书骨架：从起点问题到最终落点",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "《思考，快与慢》全书骨架：从起点问题到最终落点",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "《思考，快与慢》全书骨架：从起点问题到最终落点",
+      "target": "如何从章节证据进入 K N 卡拆解",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "关键机制：这一段到底在解决什么问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "现实场景：这一段到底在解决什么问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识在全书中解决什么问题？：这一段到底在解决什么问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "问题意识：这一段到底在解决什么问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "全书主动作",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「关键机制」处理关键问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "用「问题意识」处理关键问题",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」",
+      "target": "现实场景 2",
+      "type": "relates"
+    },
+    {
+      "source": "如何从章节证据进入 K N 卡拆解",
+      "target": "问题意识 2",
+      "type": "relates"
+    },
+    {
+      "source": "如何从章节证据进入 K N 卡拆解",
+      "target": "关键机制 2",
+      "type": "relates"
+    },
+    {
+      "source": "如何从章节证据进入 K N 卡拆解",
+      "target": "现实场景 2",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→问题意识在全书中解决什么问题？": "问题入口",
+    "公开入口→关键机制在全书中解决什么问题？": "问题入口",
+    "公开入口→现实场景在全书中解决什么问题？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→问题意识": "章节推进",
+    "公开入口→关键机制": "章节推进",
+    "公开入口→现实场景": "章节推进",
+    "公开入口→问题意识在全书中解决什么问题？ 2": "章节推进",
+    "公开入口→关键机制在全书中解决什么问题？ 2": "章节推进",
+    "公开入口→现实场景在全书中解决什么问题？ 2": "章节推进",
+    "公开入口→问题意识 2": "概念支撑",
+    "公开入口→关键机制 2": "概念支撑",
+    "公开入口→现实场景 2": "概念支撑",
+    "公开入口→用问题意识检查问题意识": "行动方法",
+    "公开入口→用关键机制检查关键机制": "行动方法",
+    "公开入口→用现实场景检查现实场景": "行动方法",
+    "公开入口→用问题意识在全书中解决什么问题？检查问题意识": "行动方法",
+    "公开入口→用关键机制在全书中解决什么问题？检查关键机制": "行动方法",
+    "公开入口→用现实场景在全书中解决什么问题？检查现实场景": "行动方法",
+    "公开入口→问题意识：了解植根人性的非理性，对认识人类行为不可或缺。": "场景入口",
+    "公开入口→关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详": "场景入口",
+    "公开入口→现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。": "场景入口",
+    "公开入口→问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。": "场景入口",
+    "公开入口→关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。": "场景入口",
+    "公开入口→现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。": "场景入口",
+    "公开入口→问题意识原文线索": "案例证据",
+    "公开入口→关键机制原文线索": "案例证据",
+    "公开入口→现实场景原文线索": "案例证据",
+    "公开入口→问题意识在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→关键机制在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→现实场景在全书中解决什么问题？原文线索": "案例证据",
+    "公开入口→《思考，快与慢》全书骨架：从起点问题到最终落点": "问题切入",
+    "公开入口→关键机制在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→关键机制：这一段到底在解决什么问题": "问题切入",
+    "公开入口→现实场景在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→现实场景：这一段到底在解决什么问题": "问题切入",
+    "公开入口→问题意识在全书中解决什么问题？：这一段到底在解决什么问题": "问题切入",
+    "公开入口→问题意识：这一段到底在解决什么问题": "问题切入",
+    "公开入口→全书主动作": "问题切入",
+    "公开入口→用「关键机制」处理关键问题": "问题切入",
+    "公开入口→用「问题意识」处理关键问题": "问题切入",
+    "公开入口→这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」": "问题切入",
+    "公开入口→如何从章节证据进入 K N 卡拆解": "问题切入",
+    "公开入口→《思考，快与慢》全书总图": "视觉表达",
+    "公开入口→问题意识章节图": "视觉表达",
+    "公开入口→关键机制章节图": "视觉表达",
+    "公开入口→现实场景章节图": "视觉表达",
+    "公开入口→问题意识在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→关键机制在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→现实场景在全书中解决什么问题？章节图": "视觉表达",
+    "公开入口→《思考，快与慢》全书骨架：从起点问题到最终落点选题图": "视觉表达",
+    "公开入口→关键机制在全书中解决什么问题？：这一段到底在解决什么问题选题图": "视觉表达",
+    "公开入口→关键机制：这一段到底在解决什么问题选题图": "视觉表达",
+    "公开入口→读者常见陷阱": "作者假设",
+    "问题意识在全书中解决什么问题？ 2→问题意识 2": "相关概念",
+    "关键机制在全书中解决什么问题？ 2→关键机制 2": "相关概念",
+    "现实场景在全书中解决什么问题？ 2→现实场景 2": "相关概念",
+    "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。→问题意识 2": "相关概念",
+    "问题意识：了解植根人性的非理性，对认识人类行为不可或缺。→关键机制 2": "相关概念",
+    "关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详→关键机制 2": "相关概念",
+    "关键机制：前面已经介绍了系统1和系统2的主要特点及功能，尤其是系统1，其介绍更为详→现实场景 2": "相关概念",
+    "现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。→现实场景 2": "相关概念",
+    "现实场景：逻辑学家和统计学家相互争论，提出了多个关于概率的定义，全都非常精确。→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？：面部扭曲并拥有100次以上的脉搏，这样的婴儿外形很好。→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？：尽管他们实际上是将这种利益看成讨价还价的筹码并最终想要将其交换出去。→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？：在之前讲到的“少目卩是多”的另一个例子。→问题意识 2": "相关概念",
+    "问题意识原文线索→问题意识 2": "相关概念",
+    "问题意识原文线索→关键机制 2": "相关概念",
+    "关键机制原文线索→关键机制 2": "相关概念",
+    "关键机制原文线索→现实场景 2": "相关概念",
+    "现实场景原文线索→现实场景 2": "相关概念",
+    "现实场景原文线索→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？原文线索→问题意识 2": "相关概念",
+    "问题意识在全书中解决什么问题？原文线索→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？原文线索→关键机制 2": "相关概念",
+    "关键机制在全书中解决什么问题？原文线索→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？原文线索→现实场景 2": "相关概念",
+    "现实场景在全书中解决什么问题？原文线索→问题意识 2": "相关概念",
+    "《思考，快与慢》全书骨架：从起点问题到最终落点→问题意识 2": "相关概念",
+    "《思考，快与慢》全书骨架：从起点问题到最终落点→关键机制 2": "相关概念",
+    "《思考，快与慢》全书骨架：从起点问题到最终落点→现实场景 2": "相关概念",
+    "《思考，快与慢》全书骨架：从起点问题到最终落点→如何从章节证据进入 K N 卡拆解": "相关概念",
+    "关键机制在全书中解决什么问题？：这一段到底在解决什么问题→关键机制 2": "相关概念",
+    "关键机制：这一段到底在解决什么问题→关键机制 2": "相关概念",
+    "现实场景在全书中解决什么问题？：这一段到底在解决什么问题→现实场景 2": "相关概念",
+    "现实场景：这一段到底在解决什么问题→现实场景 2": "相关概念",
+    "问题意识在全书中解决什么问题？：这一段到底在解决什么问题→问题意识 2": "相关概念",
+    "问题意识：这一段到底在解决什么问题→问题意识 2": "相关概念",
+    "全书主动作→问题意识 2": "相关概念",
+    "全书主动作→关键机制 2": "相关概念",
+    "全书主动作→现实场景 2": "相关概念",
+    "用「关键机制」处理关键问题→问题意识 2": "相关概念",
+    "用「关键机制」处理关键问题→关键机制 2": "相关概念",
+    "用「关键机制」处理关键问题→现实场景 2": "相关概念",
+    "用「问题意识」处理关键问题→问题意识 2": "相关概念",
+    "用「问题意识」处理关键问题→关键机制 2": "相关概念",
+    "用「问题意识」处理关键问题→现实场景 2": "相关概念",
+    "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」→问题意识 2": "相关概念",
+    "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」→关键机制 2": "相关概念",
+    "这本书最值钱的，不是知道更多，而是学会「现实场景在全书中解决什么问题？」→现实场景 2": "相关概念",
+    "如何从章节证据进入 K N 卡拆解→问题意识 2": "相关概念",
+    "如何从章节证据进入 K N 卡拆解→关键机制 2": "相关概念",
+    "如何从章节证据进入 K N 卡拆解→现实场景 2": "相关概念"
+  }
+}

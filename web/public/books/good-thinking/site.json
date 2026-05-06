@@ -1,0 +1,115 @@
+{
+  "title": "好好思考",
+  "shortTitle": "好好思考",
+  "subtitle": "从经验成长，转向模型成长",
+  "description": "基于《好好思考》已通过质检的结构化资产，接入全书摘要、核心问题、核心概念、方法动作、场景案例、章节地图和表达延展节点。",
+  "heroOverline": "BOOK · THINKING MODELS",
+  "heroTitleLines": [
+    "好好思考",
+    "从经验成长，转向模型成长"
+  ],
+  "creatorName": "林子-心智进化之路",
+  "creatorLabel": "整理与输出",
+  "footerNote": "复杂世界和复杂人性的同行翻译者",
+  "assetVersion": "20260430-full-nk",
+  "searchPlaceholder": "搜索主题、章节、概念、方法、场景…",
+  "recommendedPath": [
+    "公开入口",
+    "为什么过去靠经验也能成长，如今只靠经验越来越不够？",
+    "Chapter 01 引言",
+    "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+    "Chapter 05 综合运用多元思维模型解决复杂问题"
+  ],
+  "quickLinks": [
+    "全书摘要",
+    "全书结构",
+    "多元思维模型",
+    "深度思考型成长",
+    "全书主动作",
+    "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。"
+  ],
+  "journeyOverline": "Journey Map",
+  "journeyTitle": "章节升级打怪地图",
+  "journeyDescription": "从总览到章节推进，再接回主题、概念、方法和现实场景，形成一条可以来回穿梭的阅读路径。",
+  "journeyEntryLabel": "从公开入口进入",
+  "journeyMap": [
+    {
+      "level": "LV.0",
+      "stage": "起点总览",
+      "node": "公开入口",
+      "image": "/books/good-thinking/chapter-images/overview.svg",
+      "summary": "先看清整本书的总问题和阅读入口。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.1",
+      "stage": "核心入口",
+      "node": "Chapter 01 引言",
+      "image": "/books/good-thinking/chapter-images/overview.svg",
+      "summary": "进入「Chapter 01 引言」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.2",
+      "stage": "推进节点",
+      "node": "Chapter 02 多元思维模型：终身学习者的利器",
+      "image": "/books/good-thinking/chapter-images/overview.svg",
+      "summary": "进入「Chapter 02 多元思维模型：终身学习者的利器」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.3",
+      "stage": "推进节点",
+      "node": "Chapter 03 学习掌握思维模型的实战方法",
+      "image": "/books/good-thinking/chapter-images/overview.svg",
+      "summary": "进入「Chapter 03 学习掌握思维模型的实战方法」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.4",
+      "stage": "推进节点",
+      "node": "Chapter 04 如何建立多元思维模型知识体系",
+      "image": "/books/good-thinking/chapter-images/overview.svg",
+      "summary": "进入「Chapter 04 如何建立多元思维模型知识体系」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": "读完这一层，再进入下一层继续展开。"
+    },
+    {
+      "level": "LV.5",
+      "stage": "推进节点",
+      "node": "Chapter 05 综合运用多元思维模型解决复杂问题",
+      "image": "/books/good-thinking/chapter-images/overview.svg",
+      "summary": "进入「Chapter 05 综合运用多元思维模型解决复杂问题」，继续沿着本书的核心路径推进。",
+      "bridgeToNext": ""
+    }
+  ],
+  "stats": [
+    {
+      "label": "主题页",
+      "value": "9"
+    },
+    {
+      "label": "章节",
+      "value": "5"
+    },
+    {
+      "label": "概念 / 方法",
+      "value": "19"
+    },
+    {
+      "label": "场景",
+      "value": "20"
+    }
+  ],
+  "slug": "good-thinking",
+  "author": "成甲",
+  "primaryCategory": "认知决策与系统思考",
+  "secondaryCategory": "学习成长与习惯方法",
+  "standardizedProfile": {
+    "basedOn": [
+      "mindset-traps",
+      "leadership-evolution"
+    ],
+    "updatedAt": "2026-04-30",
+    "version": "reference_profile_v1"
+  }
+}

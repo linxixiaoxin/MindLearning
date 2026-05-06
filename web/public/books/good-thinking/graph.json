@@ -1,0 +1,1950 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "主题",
+      "color": "#6d5c93",
+      "size": 10
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "book": {
+      "label": "书籍",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#2e5670",
+      "size": 11
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 9
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 10
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "person": {
+      "label": "人物",
+      "color": "#9d5667",
+      "size": 12
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "主题",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#2e5670"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/good-thinking/chapter-images/overview.svg",
+    "全书摘要": "/books/good-thinking/chapter-images/overview.svg",
+    "全书结构": "/books/good-thinking/chapter-images/overview.svg",
+    "为什么过去靠经验也能成长，如今只靠经验越来越不够？": "/books/good-thinking/chapter-images/overview.svg",
+    "什么是多元思维模型，它为什么能成为更好的决策依据？": "/books/good-thinking/chapter-images/overview.svg",
+    "如何从读书、工作和实践中高效寻找并掌握思维模型？": "/books/good-thinking/chapter-images/overview.svg",
+    "怎样把零散知识搭成一个可迁移、可调用的知识体系？": "/books/good-thinking/chapter-images/overview.svg",
+    "面对复杂问题，怎样用更高层级的思考方式找到关键？": "/books/good-thinking/chapter-images/overview.svg",
+    "逻辑链 1": "/books/good-thinking/chapter-images/overview.svg",
+    "逻辑链 2": "/books/good-thinking/chapter-images/overview.svg",
+    "逻辑链 3": "/books/good-thinking/chapter-images/overview.svg",
+    "逻辑链 4": "/books/good-thinking/chapter-images/overview.svg",
+    "逻辑链 5": "/books/good-thinking/chapter-images/overview.svg",
+    "逻辑链 6": "/books/good-thinking/chapter-images/overview.svg",
+    "Chapter 01 引言": "/books/good-thinking/chapter-images/overview.svg",
+    "Chapter 02 多元思维模型：终身学习者的利器": "/books/good-thinking/chapter-images/overview.svg",
+    "Chapter 03 学习掌握思维模型的实战方法": "/books/good-thinking/chapter-images/overview.svg",
+    "Chapter 04 如何建立多元思维模型知识体系": "/books/good-thinking/chapter-images/overview.svg",
+    "Chapter 05 综合运用多元思维模型解决复杂问题": "/books/good-thinking/chapter-images/overview.svg",
+    "多元思维模型": "/books/good-thinking/chapter-images/overview.svg",
+    "深度思考型成长": "/books/good-thinking/chapter-images/overview.svg",
+    "思维模型的四个层次": "/books/good-thinking/chapter-images/overview.svg",
+    "棱镜法": "/books/good-thinking/chapter-images/overview.svg",
+    "查字典法": "/books/good-thinking/chapter-images/overview.svg",
+    "关键词法": "/books/good-thinking/chapter-images/overview.svg",
+    "超一流学习法": "/books/good-thinking/chapter-images/overview.svg",
+    "模式识别": "/books/good-thinking/chapter-images/overview.svg",
+    "相似性": "/books/good-thinking/chapter-images/overview.svg",
+    "结构化思维": "/books/good-thinking/chapter-images/overview.svg",
+    "降维攻击": "/books/good-thinking/chapter-images/overview.svg",
+    "变换尺度": "/books/good-thinking/chapter-images/overview.svg",
+    "聚焦关键": "/books/good-thinking/chapter-images/overview.svg",
+    "全书主动作": "/books/good-thinking/chapter-images/overview.svg",
+    "用「引言」处理关键问题": "/books/good-thinking/chapter-images/overview.svg",
+    "用「多元思维模型：终身学习者的利器」处理关键问题": "/books/good-thinking/chapter-images/overview.svg",
+    "用「学习掌握思维模型的实战方法」处理关键问题": "/books/good-thinking/chapter-images/overview.svg",
+    "用「如何建立多元思维模型知识体系」处理关键问题": "/books/good-thinking/chapter-images/overview.svg",
+    "用「综合运用多元思维模型解决复杂问题」处理关键问题": "/books/good-thinking/chapter-images/overview.svg",
+    "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。": "/books/good-thinking/chapter-images/overview.svg",
+    "工作年限在变长，但成长速度反而越来越慢。": "/books/good-thinking/chapter-images/overview.svg",
+    "以为收集模型名词就能变强，结果越学越散。": "/books/good-thinking/chapter-images/overview.svg",
+    "你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。": "/books/good-thinking/chapter-images/overview.svg",
+    "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。": "/books/good-thinking/chapter-images/overview.svg",
+    "读了很多书，却始终没有建立解决问题的速度和能力。": "/books/good-thinking/chapter-images/overview.svg",
+    "输入越来越多，但脑子里始终像一堆散点，连不起来。": "/books/good-thinking/chapter-images/overview.svg",
+    "问题越复杂，你越容易陷进细节和现象里，看不到真正的起点。": "/books/good-thinking/chapter-images/overview.svg",
+    "PDCA": "/books/good-thinking/chapter-images/overview.svg",
+    "OODA": "/books/good-thinking/chapter-images/overview.svg",
+    "经验积累型成长与深度思考型成长的对比": "/books/good-thinking/chapter-images/overview.svg",
+    "砍价案例": "/books/good-thinking/chapter-images/overview.svg",
+    "需求三角": "/books/good-thinking/chapter-images/overview.svg",
+    "从答案追问到原理和哲学视角": "/books/good-thinking/chapter-images/overview.svg",
+    "不读书法": "/books/good-thinking/chapter-images/overview.svg",
+    "关键词网": "/books/good-thinking/chapter-images/overview.svg",
+    "五星笔记法": "/books/good-thinking/chapter-images/overview.svg",
+    "思维模型扑克牌法": "/books/good-thinking/chapter-images/overview.svg",
+    "工作记忆与模式识别": "/books/good-thinking/chapter-images/overview.svg",
+    "相似性 2": "/books/good-thinking/chapter-images/overview.svg",
+    "《好好思考》全书骨架：从起点问题到最终落点": "/books/good-thinking/chapter-images/overview.svg",
+    "多元思维模型：终身学习者的利器：这一段到底在解决什么问题": "/books/good-thinking/chapter-images/overview.svg",
+    "如何建立多元思维模型知识体系：这一段到底在解决什么问题": "/books/good-thinking/chapter-images/overview.svg",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题": "/books/good-thinking/chapter-images/overview.svg",
+    "引言：这一段到底在解决什么问题": "/books/good-thinking/chapter-images/overview.svg",
+    "为什么你知道很多，却还是不会真正思考": "/books/good-thinking/chapter-images/overview.svg",
+    "为什么高手像有直觉，其实是模式识别": "/books/good-thinking/chapter-images/overview.svg",
+    "四类关键知识 + 相似性横向连接 + 结构化思维纵向搭骨架。": "/books/good-thinking/chapter-images/overview.svg",
+    "工作记忆像 CPU，高手为什么通过模式识别减少认知负荷。": "/books/good-thinking/chapter-images/overview.svg",
+    "经验试错 - 找更好决策依据 - 多元思维模型 - 内化为直觉 - 跨学科体系 - 解决复杂问题。": "/books/good-thinking/chapter-images/overview.svg",
+    "超一流学习法从提炼模型、举一反三到模式识别的闭环。": "/books/good-thinking/chapter-images/overview.svg",
+    "《好好思考》全书总图": "/books/good-thinking/chapter-images/overview.svg",
+    "复杂问题三打法：降维攻击、变换尺度、聚焦关键。": "/books/good-thinking/chapter-images/overview.svg",
+    "这本书是在教人背更多思维模型。": "/books/good-thinking/chapter-images/overview.svg",
+    "知道模型定义，就等于掌握了模型。": "/books/good-thinking/chapter-images/overview.svg",
+    "跨学科就是尽量多读、多看、多输入。": "/books/good-thinking/chapter-images/overview.svg",
+    "深度思考就是想得更久、更慢、更复杂。": "/books/good-thinking/chapter-images/overview.svg",
+    "复杂问题要把所有问题都解决掉。": "/books/good-thinking/chapter-images/overview.svg",
+    "学习方法与知识管理": "/books/good-thinking/chapter-images/overview.svg",
+    "复杂决策与系统思考": "/books/good-thinking/chapter-images/overview.svg",
+    "长期成长与认知升级": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 1": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 2": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 3": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 4": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 5": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 6": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 7": "/books/good-thinking/chapter-images/overview.svg",
+    "高密度句 8": "/books/good-thinking/chapter-images/overview.svg",
+    "作者怎样看人": "/books/good-thinking/chapter-images/overview.svg",
+    "作者怎样看问题成因": "/books/good-thinking/chapter-images/overview.svg",
+    "作者怎样看改变": "/books/good-thinking/chapter-images/overview.svg",
+    "读者常见陷阱": "/books/good-thinking/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "为什么过去靠经验也能成长，如今只靠经验越来越不够？",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "什么是多元思维模型，它为什么能成为更好的决策依据？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "如何从读书、工作和实践中高效寻找并掌握思维模型？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "怎样把零散知识搭成一个可迁移、可调用的知识体系？",
+      "type": "question",
+      "tagline": "核心问题 4"
+    },
+    {
+      "id": "面对复杂问题，怎样用更高层级的思考方式找到关键？",
+      "type": "question",
+      "tagline": "核心问题 5"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "环境变化越快，单靠经验试错的成长方式成本越高、有效期越短。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "更好的成长方式不是知道更多，而是找到更好的决策依据，这些依据就是思维模型。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "有效策略可以从经验技巧、方法流程、学科原理和哲学视角四个层次不断追问加深。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "真正掌握模型，不靠背定义，而靠在场景中反复内化，最终形成模式识别与直觉判断。"
+    },
+    {
+      "id": "逻辑链 5",
+      "type": "logic",
+      "tagline": "零散模型只有被放进跨学科知识体系里，才能真正形成全局理解力。"
+    },
+    {
+      "id": "逻辑链 6",
+      "type": "logic",
+      "tagline": "面对复杂问题，关键不是同时解决所有问题，而是学会降维攻击、变换尺度和聚焦关键。"
+    },
+    {
+      "id": "Chapter 01 引言",
+      "type": "chapter",
+      "tagline": "解释为什么传统经验决策在快速变化时代越来越不够用，并引出深度思考型成长。"
+    },
+    {
+      "id": "Chapter 02 多元思维模型：终身学习者的利器",
+      "type": "chapter",
+      "tagline": "解释什么是多元思维模型，以及为什么它是深度思考的底层支撑。"
+    },
+    {
+      "id": "Chapter 03 学习掌握思维模型的实战方法",
+      "type": "chapter",
+      "tagline": "给出如何寻找、学习、内化思维模型的实战方法。"
+    },
+    {
+      "id": "Chapter 04 如何建立多元思维模型知识体系",
+      "type": "chapter",
+      "tagline": "解释为什么必须建立跨学科知识系统，以及这个系统怎么搭。"
+    },
+    {
+      "id": "Chapter 05 综合运用多元思维模型解决复杂问题",
+      "type": "chapter",
+      "tagline": "把前面学到的模型、体系和思考方式，真正推进到复杂问题的处理中。"
+    },
+    {
+      "id": "多元思维模型",
+      "type": "concept",
+      "tagline": "用来自不同学科的重要原理、规律和思考方式，作为分析和解决问题的决策依据。"
+    },
+    {
+      "id": "深度思考型成长",
+      "type": "concept",
+      "tagline": "在快速变化环境中，通过洞察问题本质、调用已有规律来直击要害的成长方式。"
+    },
+    {
+      "id": "思维模型的四个层次",
+      "type": "concept",
+      "tagline": "有效策略可分为经验技巧型、方法流程型、学科原理型、哲学视角型四个层次。"
+    },
+    {
+      "id": "棱镜法",
+      "type": "concept",
+      "tagline": "把一个问题的有效答案不断向下追问，拆到不同层次，直到看到背后的原理与思考方式。"
+    },
+    {
+      "id": "查字典法",
+      "type": "concept",
+      "tagline": "把书当成解决问题的工具箱，而不是必须从头到尾读完的对象，带着问题去查找相关模型。"
+    },
+    {
+      "id": "关键词法",
+      "type": "concept",
+      "tagline": "先抓一本书要解决的核心问题，再找相关关键词及其关系，形成关键词网。"
+    },
+    {
+      "id": "超一流学习法",
+      "type": "concept",
+      "tagline": "由“超”“一”“流”三个环节组成的模型内化路径，即从高手和案例中提炼模型、举一反三、多维实践，并最终训练成直觉。"
+    },
+    {
+      "id": "模式识别",
+      "type": "concept",
+      "tagline": "通过长期训练，把复杂知识和经验打包内化后，快速识别问题整体特征与异常点的能力。"
+    },
+    {
+      "id": "相似性",
+      "type": "concept",
+      "tagline": "在不同学科、不同场景之间看到更底层共同模式的能力。"
+    },
+    {
+      "id": "结构化思维",
+      "type": "concept",
+      "tagline": "先从问题的全局结构和核心框架入手，再理解细节的思维方式。"
+    },
+    {
+      "id": "降维攻击",
+      "type": "concept",
+      "tagline": "把问题放到更高维、更底层的认知层次上重新看，从而化繁为简。"
+    },
+    {
+      "id": "变换尺度",
+      "type": "concept",
+      "tagline": "把问题从眼前尺度拉到更长周期、更大范围上重新观察，以看到不同规律。"
+    },
+    {
+      "id": "聚焦关键",
+      "type": "concept",
+      "tagline": "从大量问题中找到真正能带来非线性后果的少数关键点，并把资源押注在那里。"
+    },
+    {
+      "id": "全书主动作",
+      "type": "method",
+      "tagline": "为什么过去靠经验也能成长，如今只靠经验越来越不够？"
+    },
+    {
+      "id": "用「引言」处理关键问题",
+      "type": "method",
+      "tagline": "过去依赖经验试错的成长路径有效，是因为环境相对稳定。"
+    },
+    {
+      "id": "用「多元思维模型：终身学习者的利器」处理关键问题",
+      "type": "method",
+      "tagline": "学习不是追求更多知识，而是寻找更好的决策依据。"
+    },
+    {
+      "id": "用「学习掌握思维模型的实战方法」处理关键问题",
+      "type": "method",
+      "tagline": "读书找模型，可以用查字典法、关键词法以及知人论世等方法。"
+    },
+    {
+      "id": "用「如何建立多元思维模型知识体系」处理关键问题",
+      "type": "method",
+      "tagline": "跨学科能力的本质，是形成更全面的思维方式。"
+    },
+    {
+      "id": "用「综合运用多元思维模型解决复杂问题」处理关键问题",
+      "type": "method",
+      "tagline": "简单问题、局部复杂问题、全局复杂问题，需要不同层级的思考方式。"
+    },
+    {
+      "id": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "type": "scenario",
+      "tagline": "为什么你知道很多，却还是不会真正思考"
+    },
+    {
+      "id": "工作年限在变长，但成长速度反而越来越慢。",
+      "type": "scenario",
+      "tagline": "过去靠经验就能成长，现在为什么越来越不够用"
+    },
+    {
+      "id": "以为收集模型名词就能变强，结果越学越散。",
+      "type": "scenario",
+      "tagline": "多元思维模型不是背100个概念，而是升级决策依据"
+    },
+    {
+      "id": "你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。",
+      "type": "scenario",
+      "tagline": "同一个问题的有效策略，其实有四个层次"
+    },
+    {
+      "id": "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。",
+      "type": "scenario",
+      "tagline": "为什么高手像有直觉，其实是模式识别"
+    },
+    {
+      "id": "读了很多书，却始终没有建立解决问题的速度和能力。",
+      "type": "scenario",
+      "tagline": "读书不是读完，而是把书当字典用"
+    },
+    {
+      "id": "输入越来越多，但脑子里始终像一堆散点，连不起来。",
+      "type": "scenario",
+      "tagline": "跨学科不是杂学，而是通过相似性搭知识系统"
+    },
+    {
+      "id": "问题越复杂，你越容易陷进细节和现象里，看不到真正的起点。",
+      "type": "scenario",
+      "tagline": "面对复杂问题，为什么要学会降维攻击"
+    },
+    {
+      "id": "PDCA",
+      "type": "case",
+      "tagline": "PDCA"
+    },
+    {
+      "id": "OODA",
+      "type": "case",
+      "tagline": "OODA"
+    },
+    {
+      "id": "经验积累型成长与深度思考型成长的对比",
+      "type": "case",
+      "tagline": "经验积累型成长与深度思考型成长的对比"
+    },
+    {
+      "id": "砍价案例",
+      "type": "case",
+      "tagline": "砍价案例"
+    },
+    {
+      "id": "需求三角",
+      "type": "case",
+      "tagline": "需求三角"
+    },
+    {
+      "id": "从答案追问到原理和哲学视角",
+      "type": "case",
+      "tagline": "从答案追问到原理和哲学视角"
+    },
+    {
+      "id": "不读书法",
+      "type": "case",
+      "tagline": "不读书法"
+    },
+    {
+      "id": "关键词网",
+      "type": "case",
+      "tagline": "关键词网"
+    },
+    {
+      "id": "五星笔记法",
+      "type": "case",
+      "tagline": "五星笔记法"
+    },
+    {
+      "id": "思维模型扑克牌法",
+      "type": "case",
+      "tagline": "思维模型扑克牌法"
+    },
+    {
+      "id": "工作记忆与模式识别",
+      "type": "case",
+      "tagline": "工作记忆与模式识别"
+    },
+    {
+      "id": "相似性 2",
+      "type": "case",
+      "tagline": "相似性"
+    },
+    {
+      "id": "《好好思考》全书骨架：从起点问题到最终落点",
+      "type": "expression",
+      "tagline": "工作几年后成长变慢，不知道怎么突破"
+    },
+    {
+      "id": "多元思维模型：终身学习者的利器：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "学习不是追求更多知识，而是寻找更好的决策依据。"
+    },
+    {
+      "id": "如何建立多元思维模型知识体系：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "跨学科能力的本质，是形成更全面的思维方式。"
+    },
+    {
+      "id": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "读书找模型，可以用查字典法、关键词法以及知人论世等方法。"
+    },
+    {
+      "id": "引言：这一段到底在解决什么问题",
+      "type": "expression",
+      "tagline": "过去依赖经验试错的成长路径有效，是因为环境相对稳定。"
+    },
+    {
+      "id": "为什么你知道很多，却还是不会真正思考",
+      "type": "expression",
+      "tagline": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。"
+    },
+    {
+      "id": "为什么高手像有直觉，其实是模式识别",
+      "type": "expression",
+      "tagline": "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。"
+    },
+    {
+      "id": "四类关键知识 + 相似性横向连接 + 结构化思维纵向搭骨架。",
+      "type": "expression",
+      "tagline": "四类关键知识 + 相似性横向连接 + 结构化思维纵向搭骨架。"
+    },
+    {
+      "id": "工作记忆像 CPU，高手为什么通过模式识别减少认知负荷。",
+      "type": "expression",
+      "tagline": "工作记忆像 CPU，高手为什么通过模式识别减少认知负荷。"
+    },
+    {
+      "id": "经验试错 - 找更好决策依据 - 多元思维模型 - 内化为直觉 - 跨学科体系 - 解决复杂问题。",
+      "type": "expression",
+      "tagline": "经验试错 -> 找更好决策依据 -> 多元思维模型 -> 内化为直觉 -> 跨学科体系 -> 解决复杂问题。"
+    },
+    {
+      "id": "超一流学习法从提炼模型、举一反三到模式识别的闭环。",
+      "type": "expression",
+      "tagline": "超一流学习法从提炼模型、举一反三到模式识别的闭环。"
+    },
+    {
+      "id": "《好好思考》全书总图",
+      "type": "expression",
+      "tagline": "把「为什么过去靠经验也能成长，如今只靠经验越来越不够？」画成一张能继续翻页的总图。"
+    },
+    {
+      "id": "复杂问题三打法：降维攻击、变换尺度、聚焦关键。",
+      "type": "expression",
+      "tagline": "复杂问题三打法：降维攻击、变换尺度、聚焦关键。"
+    },
+    {
+      "id": "这本书是在教人背更多思维模型。",
+      "type": "warning",
+      "tagline": "它真正关心的不是模型数量，而是如何用更好的决策依据处理问题，并把模型内化成能力。"
+    },
+    {
+      "id": "知道模型定义，就等于掌握了模型。",
+      "type": "warning",
+      "tagline": "真正掌握来自场景练习、举一反三和模式识别，而不是知道概念解释。"
+    },
+    {
+      "id": "跨学科就是尽量多读、多看、多输入。",
+      "type": "warning",
+      "tagline": "跨学科的关键不在输入量，而在是否能用相似性和结构化思维把知识连起来。"
+    },
+    {
+      "id": "深度思考就是想得更久、更慢、更复杂。",
+      "type": "warning",
+      "tagline": "深度思考的重点不是拖长分析时间，而是更快切入更底层的原理与结构。"
+    },
+    {
+      "id": "复杂问题要把所有问题都解决掉。",
+      "type": "warning",
+      "tagline": "复杂问题真正需要的是更高层级的视角，以及对少数关键点的聚焦。"
+    },
+    {
+      "id": "学习方法与知识管理",
+      "type": "relation",
+      "tagline": "本书把“如何学”从知识积累推进到了思维模型与决策依据层。"
+    },
+    {
+      "id": "复杂决策与系统思考",
+      "type": "relation",
+      "tagline": "它虽然不直接讲系统论，但核心是在提升处理复杂问题时的认知层级。"
+    },
+    {
+      "id": "长期成长与认知升级",
+      "type": "relation",
+      "tagline": "它关注的不是短期技巧，而是如何建立长期可迁移的思考能力。"
+    },
+    {
+      "id": "高密度句 1",
+      "type": "expression",
+      "tagline": "学习不是追求更多知识，而是寻找更好的决策依据"
+    },
+    {
+      "id": "高密度句 2",
+      "type": "expression",
+      "tagline": "知识的增加不是成长，思考能力的提升才是成长"
+    },
+    {
+      "id": "高密度句 3",
+      "type": "expression",
+      "tagline": "多元思维模型不是收集概念，而是解决复杂问题的工具"
+    },
+    {
+      "id": "高密度句 4",
+      "type": "expression",
+      "tagline": "真正的直觉，是长期训练后的模式识别"
+    },
+    {
+      "id": "高密度句 5",
+      "type": "expression",
+      "tagline": "零散知识不会自动长成洞察，体系才会"
+    },
+    {
+      "id": "高密度句 6",
+      "type": "expression",
+      "tagline": "凡有问题，必有结构"
+    },
+    {
+      "id": "高密度句 7",
+      "type": "expression",
+      "tagline": "复杂问题不是靠更多动作赢，而是靠更高层级的看法赢"
+    },
+    {
+      "id": "高密度句 8",
+      "type": "expression",
+      "tagline": "别试着解决所有问题，先找到关键"
+    },
+    {
+      "id": "作者怎样看人",
+      "type": "summary",
+      "tagline": "作者怎样看人"
+    },
+    {
+      "id": "作者怎样看问题成因",
+      "type": "summary",
+      "tagline": "作者怎样看问题成因"
+    },
+    {
+      "id": "作者怎样看改变",
+      "type": "summary",
+      "tagline": "作者怎样看改变"
+    },
+    {
+      "id": "读者常见陷阱",
+      "type": "summary",
+      "tagline": "读者常见陷阱"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么过去靠经验也能成长，如今只靠经验越来越不够？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "什么是多元思维模型，它为什么能成为更好的决策依据？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如何从读书、工作和实践中高效寻找并掌握思维模型？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "怎样把零散知识搭成一个可迁移、可调用的知识体系？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "面对复杂问题，怎样用更高层级的思考方式找到关键？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "Chapter 01 引言",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "Chapter 02 多元思维模型：终身学习者的利器",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "Chapter 03 学习掌握思维模型的实战方法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "Chapter 04 如何建立多元思维模型知识体系",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "Chapter 05 综合运用多元思维模型解决复杂问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "思维模型的四个层次",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "棱镜法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "相似性",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "结构化思维",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "降维攻击",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "变换尺度",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "聚焦关键",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书主动作",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「引言」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「多元思维模型：终身学习者的利器」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「学习掌握思维模型的实战方法」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「如何建立多元思维模型知识体系」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "用「综合运用多元思维模型解决复杂问题」处理关键问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "工作年限在变长，但成长速度反而越来越慢。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "以为收集模型名词就能变强，结果越学越散。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读了很多书，却始终没有建立解决问题的速度和能力。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "输入越来越多，但脑子里始终像一堆散点，连不起来。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "问题越复杂，你越容易陷进细节和现象里，看不到真正的起点。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "PDCA",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "OODA",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "经验积累型成长与深度思考型成长的对比",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "砍价案例",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "需求三角",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "从答案追问到原理和哲学视角",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "不读书法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "关键词网",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "五星笔记法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "思维模型扑克牌法",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "工作记忆与模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "相似性 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《好好思考》全书骨架：从起点问题到最终落点",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "多元思维模型：终身学习者的利器：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "如何建立多元思维模型知识体系：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "引言：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么你知道很多，却还是不会真正思考",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "为什么高手像有直觉，其实是模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "四类关键知识 + 相似性横向连接 + 结构化思维纵向搭骨架。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "工作记忆像 CPU，高手为什么通过模式识别减少认知负荷。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "经验试错 - 找更好决策依据 - 多元思维模型 - 内化为直觉 - 跨学科体系 - 解决复杂问题。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "超一流学习法从提炼模型、举一反三到模式识别的闭环。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《好好思考》全书总图",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "复杂问题三打法：降维攻击、变换尺度、聚焦关键。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书是在教人背更多思维模型。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "知道模型定义，就等于掌握了模型。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "跨学科就是尽量多读、多看、多输入。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "深度思考就是想得更久、更慢、更复杂。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "复杂问题要把所有问题都解决掉。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "学习方法与知识管理",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "复杂决策与系统思考",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "长期成长与认知升级",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 5",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 6",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 7",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "高密度句 8",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者怎样看人",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者怎样看问题成因",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "作者怎样看改变",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "读者常见陷阱",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 01 引言",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 02 多元思维模型：终身学习者的利器",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 03 学习掌握思维模型的实战方法",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 03 学习掌握思维模型的实战方法",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 03 学习掌握思维模型的实战方法",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 03 学习掌握思维模型的实战方法",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 04 如何建立多元思维模型知识体系",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 04 如何建立多元思维模型知识体系",
+      "target": "相似性 2",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 04 如何建立多元思维模型知识体系",
+      "target": "结构化思维",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 05 综合运用多元思维模型解决复杂问题",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 05 综合运用多元思维模型解决复杂问题",
+      "target": "降维攻击",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 05 综合运用多元思维模型解决复杂问题",
+      "target": "变换尺度",
+      "type": "relates"
+    },
+    {
+      "source": "Chapter 05 综合运用多元思维模型解决复杂问题",
+      "target": "聚焦关键",
+      "type": "relates"
+    },
+    {
+      "source": "多元思维模型",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "多元思维模型",
+      "target": "思维模型的四个层次",
+      "type": "relates"
+    },
+    {
+      "source": "深度思考型成长",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "深度思考型成长",
+      "target": "OODA",
+      "type": "relates"
+    },
+    {
+      "source": "思维模型的四个层次",
+      "target": "棱镜法",
+      "type": "relates"
+    },
+    {
+      "source": "棱镜法",
+      "target": "思维模型的四个层次",
+      "type": "relates"
+    },
+    {
+      "source": "查字典法",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "查字典法",
+      "target": "不读书法",
+      "type": "relates"
+    },
+    {
+      "source": "关键词法",
+      "target": "关键词网",
+      "type": "relates"
+    },
+    {
+      "source": "超一流学习法",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "模式识别",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "工作年限在变长，但成长速度反而越来越慢。",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "工作年限在变长，但成长速度反而越来越慢。",
+      "target": "OODA",
+      "type": "relates"
+    },
+    {
+      "source": "以为收集模型名词就能变强，结果越学越散。",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "以为收集模型名词就能变强，结果越学越散。",
+      "target": "思维模型的四个层次",
+      "type": "relates"
+    },
+    {
+      "source": "你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。",
+      "target": "思维模型的四个层次",
+      "type": "relates"
+    },
+    {
+      "source": "你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。",
+      "target": "棱镜法",
+      "type": "relates"
+    },
+    {
+      "source": "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "读了很多书，却始终没有建立解决问题的速度和能力。",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "读了很多书，却始终没有建立解决问题的速度和能力。",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "输入越来越多，但脑子里始终像一堆散点，连不起来。",
+      "target": "相似性 2",
+      "type": "relates"
+    },
+    {
+      "source": "输入越来越多，但脑子里始终像一堆散点，连不起来。",
+      "target": "结构化思维",
+      "type": "relates"
+    },
+    {
+      "source": "问题越复杂，你越容易陷进细节和现象里，看不到真正的起点。",
+      "target": "降维攻击",
+      "type": "relates"
+    },
+    {
+      "source": "PDCA",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "OODA",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "经验积累型成长与深度思考型成长的对比",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "砍价案例",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "需求三角",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "从答案追问到原理和哲学视角",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "不读书法",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "不读书法",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "不读书法",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "不读书法",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "关键词网",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "关键词网",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "关键词网",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "关键词网",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "五星笔记法",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "五星笔记法",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "五星笔记法",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "五星笔记法",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "思维模型扑克牌法",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "思维模型扑克牌法",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "思维模型扑克牌法",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "思维模型扑克牌法",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "工作记忆与模式识别",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "工作记忆与模式识别",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "工作记忆与模式识别",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "工作记忆与模式识别",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "相似性 2",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "相似性 2",
+      "target": "结构化思维",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "思维模型的四个层次",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "棱镜法",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "工作年限在变长，但成长速度反而越来越慢。",
+      "type": "relates"
+    },
+    {
+      "source": "《好好思考》全书骨架：从起点问题到最终落点",
+      "target": "以为收集模型名词就能变强，结果越学越散。",
+      "type": "relates"
+    },
+    {
+      "source": "多元思维模型：终身学习者的利器：这一段到底在解决什么问题",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "多元思维模型：终身学习者的利器：这一段到底在解决什么问题",
+      "target": "砍价案例",
+      "type": "relates"
+    },
+    {
+      "source": "多元思维模型：终身学习者的利器：这一段到底在解决什么问题",
+      "target": "需求三角",
+      "type": "relates"
+    },
+    {
+      "source": "多元思维模型：终身学习者的利器：这一段到底在解决什么问题",
+      "target": "从答案追问到原理和哲学视角",
+      "type": "relates"
+    },
+    {
+      "source": "如何建立多元思维模型知识体系：这一段到底在解决什么问题",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "如何建立多元思维模型知识体系：这一段到底在解决什么问题",
+      "target": "相似性 2",
+      "type": "relates"
+    },
+    {
+      "source": "如何建立多元思维模型知识体系：这一段到底在解决什么问题",
+      "target": "结构化思维",
+      "type": "relates"
+    },
+    {
+      "source": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "target": "查字典法",
+      "type": "relates"
+    },
+    {
+      "source": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "target": "关键词法",
+      "type": "relates"
+    },
+    {
+      "source": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "target": "不读书法",
+      "type": "relates"
+    },
+    {
+      "source": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "target": "关键词网",
+      "type": "relates"
+    },
+    {
+      "source": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "target": "五星笔记法",
+      "type": "relates"
+    },
+    {
+      "source": "引言：这一段到底在解决什么问题",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "引言：这一段到底在解决什么问题",
+      "target": "PDCA",
+      "type": "relates"
+    },
+    {
+      "source": "引言：这一段到底在解决什么问题",
+      "target": "OODA",
+      "type": "relates"
+    },
+    {
+      "source": "引言：这一段到底在解决什么问题",
+      "target": "经验积累型成长与深度思考型成长的对比",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你知道很多，却还是不会真正思考",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你知道很多，却还是不会真正思考",
+      "target": "深度思考型成长",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你知道很多，却还是不会真正思考",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你知道很多，却还是不会真正思考",
+      "target": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你知道很多，却还是不会真正思考",
+      "target": "工作年限在变长，但成长速度反而越来越慢。",
+      "type": "relates"
+    },
+    {
+      "source": "为什么你知道很多，却还是不会真正思考",
+      "target": "以为收集模型名词就能变强，结果越学越散。",
+      "type": "relates"
+    },
+    {
+      "source": "为什么高手像有直觉，其实是模式识别",
+      "target": "模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "为什么高手像有直觉，其实是模式识别",
+      "target": "超一流学习法",
+      "type": "relates"
+    },
+    {
+      "source": "为什么高手像有直觉，其实是模式识别",
+      "target": "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。",
+      "type": "relates"
+    },
+    {
+      "source": "为什么高手像有直觉，其实是模式识别",
+      "target": "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 1",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 1",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 2",
+      "target": "为什么你知道很多，却还是不会真正思考",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 2",
+      "target": "思维模型的四个层次",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 3",
+      "target": "多元思维模型",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 3",
+      "target": "学习掌握思维模型的实战方法：这一段到底在解决什么问题",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 4",
+      "target": "工作记忆像 CPU，高手为什么通过模式识别减少认知负荷。",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 4",
+      "target": "为什么高手像有直觉，其实是模式识别",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 5",
+      "target": "结构化思维",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 5",
+      "target": "复杂问题三打法：降维攻击、变换尺度、聚焦关键。",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 6",
+      "target": "复杂决策与系统思考",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 6",
+      "target": "逻辑链 6",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 7",
+      "target": "降维攻击",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 7",
+      "target": "复杂问题三打法：降维攻击、变换尺度、聚焦关键。",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 8",
+      "target": "聚焦关键",
+      "type": "relates"
+    },
+    {
+      "source": "高密度句 8",
+      "target": "变换尺度",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→为什么过去靠经验也能成长，如今只靠经验越来越不够？": "问题入口",
+    "公开入口→什么是多元思维模型，它为什么能成为更好的决策依据？": "问题入口",
+    "公开入口→如何从读书、工作和实践中高效寻找并掌握思维模型？": "问题入口",
+    "公开入口→怎样把零散知识搭成一个可迁移、可调用的知识体系？": "问题入口",
+    "公开入口→面对复杂问题，怎样用更高层级的思考方式找到关键？": "问题入口",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→逻辑链 5": "论证推进",
+    "公开入口→逻辑链 6": "论证推进",
+    "公开入口→Chapter 01 引言": "章节推进",
+    "公开入口→Chapter 02 多元思维模型：终身学习者的利器": "章节推进",
+    "公开入口→Chapter 03 学习掌握思维模型的实战方法": "章节推进",
+    "公开入口→Chapter 04 如何建立多元思维模型知识体系": "章节推进",
+    "公开入口→Chapter 05 综合运用多元思维模型解决复杂问题": "章节推进",
+    "公开入口→多元思维模型": "概念支撑",
+    "公开入口→深度思考型成长": "概念支撑",
+    "公开入口→思维模型的四个层次": "概念支撑",
+    "公开入口→棱镜法": "概念支撑",
+    "公开入口→查字典法": "概念支撑",
+    "公开入口→关键词法": "概念支撑",
+    "公开入口→超一流学习法": "概念支撑",
+    "公开入口→模式识别": "概念支撑",
+    "公开入口→相似性": "概念支撑",
+    "公开入口→结构化思维": "概念支撑",
+    "公开入口→降维攻击": "概念支撑",
+    "公开入口→变换尺度": "概念支撑",
+    "公开入口→聚焦关键": "概念支撑",
+    "公开入口→全书主动作": "行动方法",
+    "公开入口→用「引言」处理关键问题": "行动方法",
+    "公开入口→用「多元思维模型：终身学习者的利器」处理关键问题": "行动方法",
+    "公开入口→用「学习掌握思维模型的实战方法」处理关键问题": "行动方法",
+    "公开入口→用「如何建立多元思维模型知识体系」处理关键问题": "行动方法",
+    "公开入口→用「综合运用多元思维模型解决复杂问题」处理关键问题": "行动方法",
+    "公开入口→读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。": "场景入口",
+    "公开入口→工作年限在变长，但成长速度反而越来越慢。": "场景入口",
+    "公开入口→以为收集模型名词就能变强，结果越学越散。": "场景入口",
+    "公开入口→你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。": "场景入口",
+    "公开入口→别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。": "场景入口",
+    "公开入口→读了很多书，却始终没有建立解决问题的速度和能力。": "场景入口",
+    "公开入口→输入越来越多，但脑子里始终像一堆散点，连不起来。": "场景入口",
+    "公开入口→问题越复杂，你越容易陷进细节和现象里，看不到真正的起点。": "场景入口",
+    "公开入口→PDCA": "案例证据",
+    "公开入口→OODA": "案例证据",
+    "公开入口→经验积累型成长与深度思考型成长的对比": "案例证据",
+    "公开入口→砍价案例": "案例证据",
+    "公开入口→需求三角": "案例证据",
+    "公开入口→从答案追问到原理和哲学视角": "案例证据",
+    "公开入口→不读书法": "案例证据",
+    "公开入口→关键词网": "案例证据",
+    "公开入口→五星笔记法": "案例证据",
+    "公开入口→思维模型扑克牌法": "案例证据",
+    "公开入口→工作记忆与模式识别": "案例证据",
+    "公开入口→相似性 2": "案例证据",
+    "公开入口→《好好思考》全书骨架：从起点问题到最终落点": "问题切入",
+    "公开入口→多元思维模型：终身学习者的利器：这一段到底在解决什么问题": "问题切入",
+    "公开入口→如何建立多元思维模型知识体系：这一段到底在解决什么问题": "问题切入",
+    "公开入口→学习掌握思维模型的实战方法：这一段到底在解决什么问题": "问题切入",
+    "公开入口→引言：这一段到底在解决什么问题": "问题切入",
+    "公开入口→为什么你知道很多，却还是不会真正思考": "问题切入",
+    "公开入口→为什么高手像有直觉，其实是模式识别": "问题切入",
+    "公开入口→四类关键知识 + 相似性横向连接 + 结构化思维纵向搭骨架。": "视觉表达",
+    "公开入口→工作记忆像 CPU，高手为什么通过模式识别减少认知负荷。": "视觉表达",
+    "公开入口→经验试错 - 找更好决策依据 - 多元思维模型 - 内化为直觉 - 跨学科体系 - 解决复杂问题。": "视觉表达",
+    "公开入口→超一流学习法从提炼模型、举一反三到模式识别的闭环。": "视觉表达",
+    "公开入口→《好好思考》全书总图": "视觉表达",
+    "公开入口→复杂问题三打法：降维攻击、变换尺度、聚焦关键。": "视觉表达",
+    "公开入口→这本书是在教人背更多思维模型。": "避免误读",
+    "公开入口→知道模型定义，就等于掌握了模型。": "避免误读",
+    "公开入口→跨学科就是尽量多读、多看、多输入。": "避免误读",
+    "公开入口→深度思考就是想得更久、更慢、更复杂。": "避免误读",
+    "公开入口→复杂问题要把所有问题都解决掉。": "避免误读",
+    "公开入口→学习方法与知识管理": "跨书连接",
+    "公开入口→复杂决策与系统思考": "跨书连接",
+    "公开入口→长期成长与认知升级": "跨书连接",
+    "公开入口→高密度句 1": "表达句",
+    "公开入口→高密度句 2": "表达句",
+    "公开入口→高密度句 3": "表达句",
+    "公开入口→高密度句 4": "表达句",
+    "公开入口→高密度句 5": "表达句",
+    "公开入口→高密度句 6": "表达句",
+    "公开入口→高密度句 7": "表达句",
+    "公开入口→高密度句 8": "表达句",
+    "公开入口→作者怎样看人": "作者假设",
+    "公开入口→作者怎样看问题成因": "作者假设",
+    "公开入口→作者怎样看改变": "作者假设",
+    "公开入口→读者常见陷阱": "作者假设",
+    "Chapter 01 引言→深度思考型成长": "相关概念",
+    "Chapter 02 多元思维模型：终身学习者的利器→多元思维模型": "相关概念",
+    "Chapter 03 学习掌握思维模型的实战方法→查字典法": "相关概念",
+    "Chapter 03 学习掌握思维模型的实战方法→关键词法": "相关概念",
+    "Chapter 03 学习掌握思维模型的实战方法→超一流学习法": "相关概念",
+    "Chapter 03 学习掌握思维模型的实战方法→模式识别": "相关概念",
+    "Chapter 04 如何建立多元思维模型知识体系→多元思维模型": "相关概念",
+    "Chapter 04 如何建立多元思维模型知识体系→相似性 2": "相关概念",
+    "Chapter 04 如何建立多元思维模型知识体系→结构化思维": "相关概念",
+    "Chapter 05 综合运用多元思维模型解决复杂问题→多元思维模型": "相关概念",
+    "Chapter 05 综合运用多元思维模型解决复杂问题→降维攻击": "相关概念",
+    "Chapter 05 综合运用多元思维模型解决复杂问题→变换尺度": "相关概念",
+    "Chapter 05 综合运用多元思维模型解决复杂问题→聚焦关键": "相关概念",
+    "多元思维模型→深度思考型成长": "相关概念",
+    "多元思维模型→思维模型的四个层次": "相关概念",
+    "深度思考型成长→多元思维模型": "相关概念",
+    "深度思考型成长→OODA": "相关概念",
+    "思维模型的四个层次→棱镜法": "相关概念",
+    "棱镜法→思维模型的四个层次": "相关概念",
+    "查字典法→关键词法": "相关概念",
+    "查字典法→不读书法": "相关概念",
+    "关键词法→关键词网": "相关概念",
+    "超一流学习法→模式识别": "相关概念",
+    "模式识别→超一流学习法": "相关概念",
+    "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。→多元思维模型": "相关概念",
+    "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。→深度思考型成长": "相关概念",
+    "读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。→模式识别": "相关概念",
+    "工作年限在变长，但成长速度反而越来越慢。→深度思考型成长": "相关概念",
+    "工作年限在变长，但成长速度反而越来越慢。→OODA": "相关概念",
+    "以为收集模型名词就能变强，结果越学越散。→多元思维模型": "相关概念",
+    "以为收集模型名词就能变强，结果越学越散。→思维模型的四个层次": "相关概念",
+    "你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。→思维模型的四个层次": "相关概念",
+    "你总在技巧层打转，却不知道怎样追到更稳定、更能迁移的解法。→棱镜法": "相关概念",
+    "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。→模式识别": "相关概念",
+    "别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。→超一流学习法": "相关概念",
+    "读了很多书，却始终没有建立解决问题的速度和能力。→查字典法": "相关概念",
+    "读了很多书，却始终没有建立解决问题的速度和能力。→关键词法": "相关概念",
+    "输入越来越多，但脑子里始终像一堆散点，连不起来。→相似性 2": "相关概念",
+    "输入越来越多，但脑子里始终像一堆散点，连不起来。→结构化思维": "相关概念",
+    "问题越复杂，你越容易陷进细节和现象里，看不到真正的起点。→降维攻击": "相关概念",
+    "PDCA→深度思考型成长": "相关概念",
+    "OODA→深度思考型成长": "相关概念",
+    "经验积累型成长与深度思考型成长的对比→深度思考型成长": "相关概念",
+    "砍价案例→多元思维模型": "相关概念",
+    "需求三角→多元思维模型": "相关概念",
+    "从答案追问到原理和哲学视角→多元思维模型": "相关概念",
+    "不读书法→查字典法": "相关概念",
+    "不读书法→关键词法": "相关概念",
+    "不读书法→超一流学习法": "相关概念",
+    "不读书法→模式识别": "相关概念",
+    "关键词网→查字典法": "相关概念",
+    "关键词网→关键词法": "相关概念",
+    "关键词网→超一流学习法": "相关概念",
+    "关键词网→模式识别": "相关概念",
+    "五星笔记法→查字典法": "相关概念",
+    "五星笔记法→关键词法": "相关概念",
+    "五星笔记法→超一流学习法": "相关概念",
+    "五星笔记法→模式识别": "相关概念",
+    "思维模型扑克牌法→查字典法": "相关概念",
+    "思维模型扑克牌法→关键词法": "相关概念",
+    "思维模型扑克牌法→超一流学习法": "相关概念",
+    "思维模型扑克牌法→模式识别": "相关概念",
+    "工作记忆与模式识别→查字典法": "相关概念",
+    "工作记忆与模式识别→关键词法": "相关概念",
+    "工作记忆与模式识别→超一流学习法": "相关概念",
+    "工作记忆与模式识别→模式识别": "相关概念",
+    "相似性 2→多元思维模型": "相关概念",
+    "相似性 2→结构化思维": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→多元思维模型": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→深度思考型成长": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→思维模型的四个层次": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→棱镜法": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→查字典法": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→工作年限在变长，但成长速度反而越来越慢。": "相关概念",
+    "《好好思考》全书骨架：从起点问题到最终落点→以为收集模型名词就能变强，结果越学越散。": "相关概念",
+    "多元思维模型：终身学习者的利器：这一段到底在解决什么问题→多元思维模型": "相关概念",
+    "多元思维模型：终身学习者的利器：这一段到底在解决什么问题→砍价案例": "相关概念",
+    "多元思维模型：终身学习者的利器：这一段到底在解决什么问题→需求三角": "相关概念",
+    "多元思维模型：终身学习者的利器：这一段到底在解决什么问题→从答案追问到原理和哲学视角": "相关概念",
+    "如何建立多元思维模型知识体系：这一段到底在解决什么问题→多元思维模型": "相关概念",
+    "如何建立多元思维模型知识体系：这一段到底在解决什么问题→相似性 2": "相关概念",
+    "如何建立多元思维模型知识体系：这一段到底在解决什么问题→结构化思维": "相关概念",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题→查字典法": "相关概念",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题→关键词法": "相关概念",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题→超一流学习法": "相关概念",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题→模式识别": "相关概念",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题→不读书法": "相关概念",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题→关键词网": "相关概念",
+    "学习掌握思维模型的实战方法：这一段到底在解决什么问题→五星笔记法": "相关概念",
+    "引言：这一段到底在解决什么问题→深度思考型成长": "相关概念",
+    "引言：这一段到底在解决什么问题→PDCA": "相关概念",
+    "引言：这一段到底在解决什么问题→OODA": "相关概念",
+    "引言：这一段到底在解决什么问题→经验积累型成长与深度思考型成长的对比": "相关概念",
+    "为什么你知道很多，却还是不会真正思考→多元思维模型": "相关概念",
+    "为什么你知道很多，却还是不会真正思考→深度思考型成长": "相关概念",
+    "为什么你知道很多，却还是不会真正思考→模式识别": "相关概念",
+    "为什么你知道很多，却还是不会真正思考→读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。": "相关概念",
+    "为什么你知道很多，却还是不会真正思考→工作年限在变长，但成长速度反而越来越慢。": "相关概念",
+    "为什么你知道很多，却还是不会真正思考→以为收集模型名词就能变强，结果越学越散。": "相关概念",
+    "为什么高手像有直觉，其实是模式识别→模式识别": "相关概念",
+    "为什么高手像有直觉，其实是模式识别→超一流学习法": "相关概念",
+    "为什么高手像有直觉，其实是模式识别→读了很多书、记了很多概念，但遇到现实问题时依然只能靠经验硬扛。": "相关概念",
+    "为什么高手像有直觉，其实是模式识别→别人看一眼就知道关键，你却总要看很多资料后还是抓不住重点。": "相关概念",
+    "高密度句 1→多元思维模型": "概念锚点",
+    "高密度句 1→逻辑链 2": "问题支撑",
+    "高密度句 2→为什么你知道很多，却还是不会真正思考": "问题映射",
+    "高密度句 2→思维模型的四个层次": "方法映射",
+    "高密度句 3→多元思维模型": "概念锚点",
+    "高密度句 3→学习掌握思维模型的实战方法：这一段到底在解决什么问题": "方法映射",
+    "高密度句 4→工作记忆像 CPU，高手为什么通过模式识别减少认知负荷。": "认知机制",
+    "高密度句 4→为什么高手像有直觉，其实是模式识别": "经验示例",
+    "高密度句 5→结构化思维": "框架对齐",
+    "高密度句 5→复杂问题三打法：降维攻击、变换尺度、聚焦关键。": "应用路径",
+    "高密度句 6→复杂决策与系统思考": "关系延展",
+    "高密度句 6→逻辑链 6": "执行路径",
+    "高密度句 7→降维攻击": "问题入口",
+    "高密度句 7→复杂问题三打法：降维攻击、变换尺度、聚焦关键。": "应用路径",
+    "高密度句 8→聚焦关键": "问题入口",
+    "高密度句 8→变换尺度": "问题入口"
+  }
+}

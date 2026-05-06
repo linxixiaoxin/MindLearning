@@ -4,21 +4,37 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run workspace:index && npm run content-ops:registry",
     "dev": "vite",
+    "thought-partner:api": "node scripts/thought-partner-api-proxy.mjs",
+    "workspace:index": "python ../../../06_ops_runtime/scripts/generate_workspace_resource_index.py",
+    "content-ops:registry": "node scripts/generate-content-ops-release-registry.mjs",
     "codex:bridge": "node scripts/codex-insight-bridge.mjs",
+    "codex:agent": "node scripts/codex-agent-daemon.mjs",
+    "export:archetype-kb": "node ../scripts/export_archetype_kb.mjs",
+    "build:public-books": "node ../scripts/build_public_book.mjs",
+    "build:ready-books-manifest": "node ../scripts/build_ready_books_manifest.mjs",
+    "build:ready-books": "node ../scripts/build_ready_books_manifest.mjs && node ../scripts/build_public_book.mjs --manifest=configs/expansion/ready_structured_books_manifest.json --public-manifest=web/public/registry/ready_structured_books_manifest.json --status=not_started",
+    "build:ready-books:refresh": "node ../scripts/build_ready_books_manifest.mjs && node ../scripts/build_public_book.mjs --manifest=configs/expansion/ready_structured_books_manifest.json --public-manifest=web/public/registry/ready_structured_books_manifest.json --status=public_structured_nk",
+    "validate:site": "node scripts/validate-site.mjs",
+    "prebuild": "npm run workspace:index && npm run content-ops:registry",
     "build": "vite build",
     "build:spa": "vite build",
     "preview": "vite preview",
     "deploy": "npm run build && netlify deploy --prod --dir=dist"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.105.3",
     "d3": "^7.9.0",
-    "marked": "^18.0.0",
+    "dompurify": "^3.4.1",
+    "marked": "^18.0.2",
+    "mermaid": "^11.14.0",
     "qrcode": "^1.5.4",
+    "three": "^0.184.0",
     "vue": "^3.5.32"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.5",
-    "vite": "^8.0.4"
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^8.0.10"
   }
 }

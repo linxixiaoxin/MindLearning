@@ -1,0 +1,788 @@
+{
+  "nodeTypeMeta": {
+    "topic": {
+      "label": "入口",
+      "color": "#6d5c93",
+      "size": 11
+    },
+    "summary": {
+      "label": "摘要",
+      "color": "#204f67",
+      "size": 11
+    },
+    "question": {
+      "label": "问题",
+      "color": "#2e5670",
+      "size": 10
+    },
+    "logic": {
+      "label": "逻辑链",
+      "color": "#4f7386",
+      "size": 9
+    },
+    "chapter": {
+      "label": "章节",
+      "color": "#3f6f84",
+      "size": 10
+    },
+    "concept": {
+      "label": "概念",
+      "color": "#6f8d66",
+      "size": 10
+    },
+    "method": {
+      "label": "方法",
+      "color": "#bf6f3f",
+      "size": 10
+    },
+    "scenario": {
+      "label": "场景",
+      "color": "#9b6a57",
+      "size": 9
+    },
+    "case": {
+      "label": "案例",
+      "color": "#8d6b44",
+      "size": 9
+    },
+    "expression": {
+      "label": "表达延展",
+      "color": "#9d5667",
+      "size": 8
+    },
+    "warning": {
+      "label": "误读提醒",
+      "color": "#7f8790",
+      "size": 8
+    },
+    "relation": {
+      "label": "跨书连接",
+      "color": "#6a6f8a",
+      "size": 8
+    }
+  },
+  "filters": [
+    {
+      "type": "topic",
+      "label": "入口",
+      "color": "#6d5c93"
+    },
+    {
+      "type": "summary",
+      "label": "摘要",
+      "color": "#204f67"
+    },
+    {
+      "type": "question",
+      "label": "问题",
+      "color": "#2e5670"
+    },
+    {
+      "type": "logic",
+      "label": "逻辑链",
+      "color": "#4f7386"
+    },
+    {
+      "type": "chapter",
+      "label": "章节",
+      "color": "#3f6f84"
+    },
+    {
+      "type": "concept",
+      "label": "概念",
+      "color": "#6f8d66"
+    },
+    {
+      "type": "method",
+      "label": "方法",
+      "color": "#bf6f3f"
+    },
+    {
+      "type": "scenario",
+      "label": "场景",
+      "color": "#9b6a57"
+    },
+    {
+      "type": "case",
+      "label": "案例",
+      "color": "#8d6b44"
+    },
+    {
+      "type": "expression",
+      "label": "表达延展",
+      "color": "#9d5667"
+    },
+    {
+      "type": "warning",
+      "label": "误读提醒",
+      "color": "#7f8790"
+    },
+    {
+      "type": "relation",
+      "label": "跨书连接",
+      "color": "#6a6f8a"
+    }
+  ],
+  "nodeImages": {
+    "公开入口": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "全书摘要": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "全书结构": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "《未来医疗》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "《未来医疗》中的哪些概念最适合转成问题工作台节点？": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "这本书在哪些场景中容易被误用或过度泛化？": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "未来医疗": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "分 未来医疗的本质": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "颠覆医患关系": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "地位主导的家长式医疗": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "发现重大变革的前兆": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "逻辑链 1": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "逻辑链 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "逻辑链 3": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "逻辑链 4": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "分 未来医疗的本质 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "颠覆医患关系 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "地位主导的家长式医疗 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "发现重大变革的前兆 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "安吉丽娜·朱莉的医疗选择": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "分 数据革命成就个体化医疗": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "医患关系": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "患者主体性": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "医疗数据": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "预防医学": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "共同决策": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "照护": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "医疗伦理": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "健康责任": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "分 未来医疗的本质 3": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "颠覆医患关系 3": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "地位主导的家长式医疗 3": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "发现重大变革的前兆 3": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "安吉丽娜·朱莉的医疗选择 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "分 数据革命成就个体化医疗 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "内容切入 1": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "内容切入 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "内容切入 3": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "内容切入 4": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "视觉钩子 1": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "视觉钩子 2": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "视觉钩子 3": "/books/book-a9723446f5/chapter-images/overview.svg",
+    "视觉钩子 4": "/books/book-a9723446f5/chapter-images/overview.svg"
+  },
+  "nodes": [
+    {
+      "id": "公开入口",
+      "type": "topic",
+      "tagline": "从公开入口进入整本书的问题地图。"
+    },
+    {
+      "id": "全书摘要",
+      "type": "summary",
+      "tagline": "用短摘要和标准摘要快速把握整本书。"
+    },
+    {
+      "id": "全书结构",
+      "type": "summary",
+      "tagline": "主问题、核心转向、最终落点和章节推进。"
+    },
+    {
+      "id": "《未来医疗》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。",
+      "type": "question",
+      "tagline": "核心问题 1"
+    },
+    {
+      "id": "《未来医疗》中的哪些概念最适合转成问题工作台节点？",
+      "type": "question",
+      "tagline": "核心问题 2"
+    },
+    {
+      "id": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "question",
+      "tagline": "核心问题 3"
+    },
+    {
+      "id": "未来医疗",
+      "type": "question",
+      "tagline": "《未来医疗》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。"
+    },
+    {
+      "id": "分 未来医疗的本质",
+      "type": "question",
+      "tagline": "医疗的未来不只是更先进的设备，也包括患者角色和信息权力的变化。"
+    },
+    {
+      "id": "颠覆医患关系",
+      "type": "question",
+      "tagline": "好的照护需要技术、数据、关系和伦理共同工作。"
+    },
+    {
+      "id": "地位主导的家长式医疗",
+      "type": "question",
+      "tagline": "患者不是被动对象，而应成为理解自身健康的重要参与者。"
+    },
+    {
+      "id": "发现重大变革的前兆",
+      "type": "question",
+      "tagline": "医疗系统的进步必须同时回应效率、公平和尊严。"
+    },
+    {
+      "id": "逻辑链 1",
+      "type": "logic",
+      "tagline": "医疗的未来不只是更先进的设备，也包括患者角色和信息权力的变化。"
+    },
+    {
+      "id": "逻辑链 2",
+      "type": "logic",
+      "tagline": "好的照护需要技术、数据、关系和伦理共同工作。"
+    },
+    {
+      "id": "逻辑链 3",
+      "type": "logic",
+      "tagline": "患者不是被动对象，而应成为理解自身健康的重要参与者。"
+    },
+    {
+      "id": "逻辑链 4",
+      "type": "logic",
+      "tagline": "医疗系统的进步必须同时回应效率、公平和尊严。"
+    },
+    {
+      "id": "分 未来医疗的本质 2",
+      "type": "chapter",
+      "tagline": "第01个主题单元聚焦“分 未来医疗的本质”，用于把《未来医疗》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "颠覆医患关系 2",
+      "type": "chapter",
+      "tagline": "第02个主题单元聚焦“颠覆医患关系”，用于把《未来医疗》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "地位主导的家长式医疗 2",
+      "type": "chapter",
+      "tagline": "第03个主题单元聚焦“地位主导的家长式医疗”，用于把《未来医疗》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "发现重大变革的前兆 2",
+      "type": "chapter",
+      "tagline": "第04个主题单元聚焦“发现重大变革的前兆”，用于把《未来医疗》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "安吉丽娜·朱莉的医疗选择",
+      "type": "chapter",
+      "tagline": "第05个主题单元聚焦“安吉丽娜·朱莉的医疗选择”，用于把《未来医疗》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "分 数据革命成就个体化医疗",
+      "type": "chapter",
+      "tagline": "第06个主题单元聚焦“分 数据革命成就个体化医疗”，用于把《未来医疗》的核心对象拆成可引用的知识节点。"
+    },
+    {
+      "id": "医患关系",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "患者主体性",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "医疗数据",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "预防医学",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "共同决策",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "照护",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "医疗伦理",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "健康责任",
+      "type": "concept",
+      "tagline": "围绕患者、医生、数据、照护与制度的可复用节点"
+    },
+    {
+      "id": "分 未来医疗的本质 3",
+      "type": "concept",
+      "tagline": "围绕“分 未来医疗的本质”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "颠覆医患关系 3",
+      "type": "concept",
+      "tagline": "围绕“颠覆医患关系”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "地位主导的家长式医疗 3",
+      "type": "concept",
+      "tagline": "围绕“地位主导的家长式医疗”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "发现重大变革的前兆 3",
+      "type": "concept",
+      "tagline": "围绕“发现重大变革的前兆”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "安吉丽娜·朱莉的医疗选择 2",
+      "type": "concept",
+      "tagline": "围绕“安吉丽娜·朱莉的医疗选择”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "分 数据革命成就个体化医疗 2",
+      "type": "concept",
+      "tagline": "围绕“分 数据革命成就个体化医疗”梳理这本书的核心对象、概念边界和现实调用方式。"
+    },
+    {
+      "id": "内容切入 1",
+      "type": "expression",
+      "tagline": "未来医疗为什么不是多几个 App"
+    },
+    {
+      "id": "内容切入 2",
+      "type": "expression",
+      "tagline": "患者为什么需要拥有自己的健康数据"
+    },
+    {
+      "id": "内容切入 3",
+      "type": "expression",
+      "tagline": "好医生和好系统分别解决什么"
+    },
+    {
+      "id": "内容切入 4",
+      "type": "expression",
+      "tagline": "医疗进步不能只看技术，还要看尊严"
+    },
+    {
+      "id": "视觉钩子 1",
+      "type": "expression",
+      "tagline": "医患关系天平"
+    },
+    {
+      "id": "视觉钩子 2",
+      "type": "expression",
+      "tagline": "健康数据流向图"
+    },
+    {
+      "id": "视觉钩子 3",
+      "type": "expression",
+      "tagline": "未来医院模块图"
+    },
+    {
+      "id": "视觉钩子 4",
+      "type": "expression",
+      "tagline": "预防医学时间线"
+    }
+  ],
+  "links": [
+    {
+      "source": "公开入口",
+      "target": "全书摘要",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "全书结构",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《未来医疗》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "《未来医疗》中的哪些概念最适合转成问题工作台节点？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "这本书在哪些场景中容易被误用或过度泛化？",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "未来医疗",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分 未来医疗的本质",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "颠覆医患关系",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "地位主导的家长式医疗",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "发现重大变革的前兆",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "逻辑链 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分 未来医疗的本质 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "颠覆医患关系 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "地位主导的家长式医疗 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "发现重大变革的前兆 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "安吉丽娜·朱莉的医疗选择",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分 数据革命成就个体化医疗",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医患关系",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "患者主体性",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "健康责任",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分 未来医疗的本质 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "颠覆医患关系 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "地位主导的家长式医疗 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "发现重大变革的前兆 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "安吉丽娜·朱莉的医疗选择 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "分 数据革命成就个体化医疗 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "内容切入 4",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 1",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 2",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 3",
+      "type": "relates"
+    },
+    {
+      "source": "公开入口",
+      "target": "视觉钩子 4",
+      "type": "relates"
+    },
+    {
+      "source": "分 未来医疗的本质 3",
+      "target": "医患关系",
+      "type": "relates"
+    },
+    {
+      "source": "分 未来医疗的本质 3",
+      "target": "患者主体性",
+      "type": "relates"
+    },
+    {
+      "source": "分 未来医疗的本质 3",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "分 未来医疗的本质 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "颠覆医患关系 3",
+      "target": "患者主体性",
+      "type": "relates"
+    },
+    {
+      "source": "颠覆医患关系 3",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "颠覆医患关系 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "颠覆医患关系 3",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "地位主导的家长式医疗 3",
+      "target": "医疗数据",
+      "type": "relates"
+    },
+    {
+      "source": "地位主导的家长式医疗 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "地位主导的家长式医疗 3",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "地位主导的家长式医疗 3",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "发现重大变革的前兆 3",
+      "target": "预防医学",
+      "type": "relates"
+    },
+    {
+      "source": "发现重大变革的前兆 3",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "发现重大变革的前兆 3",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "发现重大变革的前兆 3",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "安吉丽娜·朱莉的医疗选择 2",
+      "target": "共同决策",
+      "type": "relates"
+    },
+    {
+      "source": "安吉丽娜·朱莉的医疗选择 2",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "安吉丽娜·朱莉的医疗选择 2",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "安吉丽娜·朱莉的医疗选择 2",
+      "target": "健康责任",
+      "type": "relates"
+    },
+    {
+      "source": "分 数据革命成就个体化医疗 2",
+      "target": "照护",
+      "type": "relates"
+    },
+    {
+      "source": "分 数据革命成就个体化医疗 2",
+      "target": "医疗伦理",
+      "type": "relates"
+    },
+    {
+      "source": "分 数据革命成就个体化医疗 2",
+      "target": "健康责任",
+      "type": "relates"
+    },
+    {
+      "source": "分 数据革命成就个体化医疗 2",
+      "target": "医患关系",
+      "type": "relates"
+    }
+  ],
+  "linkLabels": {
+    "公开入口→全书摘要": "先读摘要",
+    "公开入口→全书结构": "再看结构",
+    "公开入口→《未来医疗》如何帮助读者理解医疗不只是技术，也是一套关系、数据、伦理和照护系统。": "问题入口",
+    "公开入口→《未来医疗》中的哪些概念最适合转成问题工作台节点？": "问题入口",
+    "公开入口→这本书在哪些场景中容易被误用或过度泛化？": "问题入口",
+    "公开入口→未来医疗": "K 卡",
+    "公开入口→分 未来医疗的本质": "K 卡",
+    "公开入口→颠覆医患关系": "K 卡",
+    "公开入口→地位主导的家长式医疗": "K 卡",
+    "公开入口→发现重大变革的前兆": "K 卡",
+    "公开入口→逻辑链 1": "论证推进",
+    "公开入口→逻辑链 2": "论证推进",
+    "公开入口→逻辑链 3": "论证推进",
+    "公开入口→逻辑链 4": "论证推进",
+    "公开入口→分 未来医疗的本质 2": "章节推进",
+    "公开入口→颠覆医患关系 2": "章节推进",
+    "公开入口→地位主导的家长式医疗 2": "章节推进",
+    "公开入口→发现重大变革的前兆 2": "章节推进",
+    "公开入口→安吉丽娜·朱莉的医疗选择": "章节推进",
+    "公开入口→分 数据革命成就个体化医疗": "章节推进",
+    "公开入口→医患关系": "N 卡",
+    "公开入口→患者主体性": "N 卡",
+    "公开入口→医疗数据": "N 卡",
+    "公开入口→预防医学": "N 卡",
+    "公开入口→共同决策": "N 卡",
+    "公开入口→照护": "N 卡",
+    "公开入口→医疗伦理": "N 卡",
+    "公开入口→健康责任": "N 卡",
+    "公开入口→分 未来医疗的本质 3": "主题单元",
+    "公开入口→颠覆医患关系 3": "主题单元",
+    "公开入口→地位主导的家长式医疗 3": "主题单元",
+    "公开入口→发现重大变革的前兆 3": "主题单元",
+    "公开入口→安吉丽娜·朱莉的医疗选择 2": "主题单元",
+    "公开入口→分 数据革命成就个体化医疗 2": "主题单元",
+    "公开入口→内容切入 1": "内容切入",
+    "公开入口→内容切入 2": "内容切入",
+    "公开入口→内容切入 3": "内容切入",
+    "公开入口→内容切入 4": "内容切入",
+    "公开入口→视觉钩子 1": "视觉表达",
+    "公开入口→视觉钩子 2": "视觉表达",
+    "公开入口→视觉钩子 3": "视觉表达",
+    "公开入口→视觉钩子 4": "视觉表达",
+    "分 未来医疗的本质 3→医患关系": "相关概念",
+    "分 未来医疗的本质 3→患者主体性": "相关概念",
+    "分 未来医疗的本质 3→医疗数据": "相关概念",
+    "分 未来医疗的本质 3→预防医学": "相关概念",
+    "颠覆医患关系 3→患者主体性": "相关概念",
+    "颠覆医患关系 3→医疗数据": "相关概念",
+    "颠覆医患关系 3→预防医学": "相关概念",
+    "颠覆医患关系 3→共同决策": "相关概念",
+    "地位主导的家长式医疗 3→医疗数据": "相关概念",
+    "地位主导的家长式医疗 3→预防医学": "相关概念",
+    "地位主导的家长式医疗 3→共同决策": "相关概念",
+    "地位主导的家长式医疗 3→照护": "相关概念",
+    "发现重大变革的前兆 3→预防医学": "相关概念",
+    "发现重大变革的前兆 3→共同决策": "相关概念",
+    "发现重大变革的前兆 3→照护": "相关概念",
+    "发现重大变革的前兆 3→医疗伦理": "相关概念",
+    "安吉丽娜·朱莉的医疗选择 2→共同决策": "相关概念",
+    "安吉丽娜·朱莉的医疗选择 2→照护": "相关概念",
+    "安吉丽娜·朱莉的医疗选择 2→医疗伦理": "相关概念",
+    "安吉丽娜·朱莉的医疗选择 2→健康责任": "相关概念",
+    "分 数据革命成就个体化医疗 2→照护": "相关概念",
+    "分 数据革命成就个体化医疗 2→医疗伦理": "相关概念",
+    "分 数据革命成就个体化医疗 2→健康责任": "相关概念",
+    "分 数据革命成就个体化医疗 2→医患关系": "相关概念"
+  }
+}

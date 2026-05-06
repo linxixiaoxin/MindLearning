@@ -1,19 +1,19 @@
-<template>
+﻿<template>
   <div class="tool-wrap">
     <div class="tool-scroll">
       <section class="tool-head">
         <div class="tool-title-block">
-          <div class="tool-kicker">PRODUCT EXPERIMENT · THOUGHT PARTNER</div>
-          <h1 class="tool-title">思想伙伴选配器</h1>
+          <div class="tool-kicker">从卡点进入 · 换几个镜头</div>
+          <h1 class="tool-title">思想伙伴</h1>
           <p class="tool-desc">
-            从一个真实困境出发，选配一组作者、学科母题和行动路径，形成当前阶段可调用的思想组合。
+            当一个问题只靠自己想不动时，先给它配几种看法：谁负责照亮，谁负责翻译，谁负责校准，谁负责收成行动。
           </p>
         </div>
 
         <div class="tool-status">
-          <div class="status-label">MVP v0.1</div>
+          <div class="status-label">可调用视角</div>
           <div class="status-value">{{ scenes.length }}</div>
-          <div class="status-note">个典型困境已配置</div>
+          <div class="status-note">个典型处境已配置</div>
         </div>
       </section>
 
@@ -21,8 +21,8 @@
         <section class="chooser-panel">
           <div class="panel-head">
             <div>
-              <div class="tool-kicker">STEP 1</div>
-              <h2 class="panel-title">选择当前最贴近的困境</h2>
+              <div class="tool-kicker">先定位</div>
+              <h2 class="panel-title">选择最贴近的处境</h2>
             </div>
             <span class="panel-count">{{ selectedSceneIndex + 1 }} / {{ scenes.length }}</span>
           </div>
@@ -44,7 +44,7 @@
           </div>
 
           <label class="custom-field">
-            <span>补充一句你的真实版本</span>
+            <span>补一句你的真实版本</span>
             <textarea
               v-model="customScene"
               rows="3"
@@ -56,8 +56,8 @@
         <section class="signal-panel">
           <div class="panel-head">
             <div>
-              <div class="tool-kicker">STEP 2</div>
-              <h2 class="panel-title">微调你需要的承接方式</h2>
+              <div class="tool-kicker">再调校</div>
+              <h2 class="panel-title">这次需要怎样被承接</h2>
             </div>
           </div>
 
@@ -105,8 +105,8 @@
 
           <div class="axis-strip">
             <div class="axis-head">
-              <div class="control-label">本次能力轴</div>
-              <p>它决定这次从哪些角度理解问题，并影响作者伙伴的匹配权重。</p>
+              <div class="control-label">这次先看哪几面</div>
+              <p>这些轴决定先从哪些角度理解问题，再决定请哪些思想伙伴上桌。</p>
             </div>
             <article
               v-for="axis in resultAxes"
@@ -123,8 +123,8 @@
         <section class="result-panel">
           <div class="result-top">
             <div>
-              <div class="tool-kicker">RESULT</div>
-              <h2 class="result-title">你的思想伙伴组合</h2>
+              <div class="tool-kicker">结果</div>
+              <h2 class="result-title">这次的思考分工</h2>
               <div v-if="saveStatus" class="save-status">{{ saveStatus }}</div>
             </div>
             <div class="result-actions">
@@ -136,14 +136,14 @@
           <div ref="resultCardRef" class="share-card">
             <div class="share-card-head">
               <div>
-                <div class="tool-kicker">THOUGHT PARTNER CARD</div>
-                <h3>一张给当前困境的思想搭配卡</h3>
+                <div class="tool-kicker">Thought Card</div>
+                <h3>一张给当前处境的换镜头卡</h3>
               </div>
               <span class="card-mark">book-kb-multi</span>
             </div>
 
             <div class="problem-card">
-              <div class="problem-label">当前困境</div>
+              <div class="problem-label">当前处境</div>
               <p>{{ displayedProblem }}</p>
             </div>
 
@@ -153,10 +153,10 @@
             </div>
 
             <div class="metaphor-map">
-              <div class="map-title">隐喻关系图</div>
+              <div class="map-title">思考分工图</div>
               <div class="map-stage">
                 <div class="problem-orbit">
-                  <span>当前困境</span>
+                  <span>当前处境</span>
                   <strong>{{ selectedScene.title }}</strong>
                 </div>
                 <div
@@ -232,6 +232,133 @@
               <div class="action-label">继续探索</div>
               <div class="path-row">
                 <span v-for="path in selectedScene.nextPaths" :key="path">{{ path }}</span>
+              </div>
+              <div class="path-actions">
+                <button class="calibration-btn" @click="openLearningPath">查看对应练习路线</button>
+                <button class="calibration-btn" @click="$emit('open-diagnostic')">我想先校准判断</button>
+              </div>
+            </div>
+          </div>
+
+          <button v-if="!aiDockOpen" class="ai-launcher" type="button" @click="aiDockOpen = true">
+            AI
+          </button>
+
+          <div v-else class="ai-panel ai-dock-fixed">
+            <div class="ai-panel-head">
+              <div class="ai-dock-handle">
+                <div class="tool-kicker">AI 接口</div>
+                <h3>先配置，再对话</h3>
+                <p>点一下右上角小标可以收起</p>
+              </div>
+              <div class="ai-head-actions">
+                <span class="ai-mode-badge">{{ useLocalAiConfig ? '页面配置生效' : '使用环境变量' }}</span>
+                <button class="mini-toggle-btn" type="button" @click="aiDockOpen = false">
+                  收起
+                </button>
+                <button class="mini-toggle-btn" type="button" @click="toggleAiConfig">
+                  {{ aiConfigExpanded ? '收起配置' : '展开配置' }}
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <div class="ai-summary">
+                <span>当前供应商：{{ aiProviderLabel }}</span>
+                <span>模型：{{ aiModel || '未填写' }}</span>
+                <span>Base URL：{{ aiBaseUrl || '按供应商默认' }}</span>
+              </div>
+
+              <div v-if="aiConfigExpanded" class="ai-config">
+                <label class="ai-toggle">
+                  <input v-model="useLocalAiConfig" type="checkbox" />
+                  <span>启用页面配置，覆盖环境变量</span>
+                </label>
+
+                <div class="ai-form">
+                  <label class="ai-field">
+                    <span>供应商</span>
+                    <select v-model="aiProvider">
+                      <option value="deepseek">DeepSeek</option>
+                      <option value="kimi">Kimi / Moonshot</option>
+                      <option value="openai">OpenAI</option>
+                      <option value="xiaomi">小米 / 兼容接口</option>
+                    </select>
+                  </label>
+
+                  <label class="ai-field">
+                    <span>API Key</span>
+                    <div class="ai-key-row">
+                      <input
+                        v-model="aiApiKey"
+                        :type="showAiKey ? 'text' : 'password'"
+                        placeholder="在这里粘贴 API Key"
+                      />
+                      <button class="mini-toggle-btn" type="button" @click="showAiKey = !showAiKey">
+                        {{ showAiKey ? '隐藏' : '显示' }}
+                      </button>
+                    </div>
+                  </label>
+
+                  <label class="ai-field">
+                    <span>Base URL</span>
+                    <input
+                      v-model="aiBaseUrl"
+                      type="text"
+                      placeholder="例如 https://api.deepseek.com"
+                    />
+                  </label>
+
+                  <label class="ai-field">
+                    <span>Model</span>
+                    <input
+                      v-model="aiModel"
+                      type="text"
+                      placeholder="例如 deepseek-chat / kimi-k2.6"
+                    />
+                  </label>
+                </div>
+
+                <div class="ai-actions">
+                  <button class="save-btn" @click="saveAiSettings">保存配置</button>
+                  <button class="reset-btn" @click="testAiConnection">测试接口</button>
+                  <button class="reset-btn" @click="resetAiSettings">恢复默认</button>
+                </div>
+
+                <div v-if="aiStatus" class="ai-status">{{ aiStatus }}</div>
+              </div>
+
+              <div class="ai-chat">
+                <div class="ai-chat-head">
+                  <div>
+                    <div class="tool-kicker">AI 对话</div>
+                    <h3>在这里直接跟它说话</h3>
+                  </div>
+                  <span>{{ chatStatus || '保留当前页面上下文' }}</span>
+                </div>
+
+                <div class="chat-log">
+                  <article
+                    v-for="item in chatMessages"
+                    :key="item.id"
+                    class="chat-bubble"
+                    :class="item.role"
+                  >
+                    <span class="chat-role">{{ item.roleLabel }}</span>
+                    <p>{{ item.content }}</p>
+                  </article>
+                </div>
+
+                <textarea
+                  v-model="chatDraft"
+                  rows="3"
+                  placeholder="直接问它：这张卡里我该怎么跟进？或者：帮我把这段话改得更像成熟表达。"
+                ></textarea>
+                <div class="chat-actions">
+                  <button class="save-btn" @click="sendChatMessage">发送</button>
+                  <button class="reset-btn" @click="insertChatExample">插入示例</button>
+                  <button class="reset-btn" @click="clearChat">清空对话</button>
+                </div>
               </div>
             </div>
           </div>
@@ -309,19 +436,21 @@
 </template>
 
 <script setup>
-import { computed, nextTick, ref, watch } from 'vue'
+import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import { learningPathIdForThoughtPartnerScene } from '../data/learningPathData.js'
 import { axes, roles, scenes, thinkers } from '../data/thoughtPartnerData.js'
 
-defineEmits(['open-thinker'])
+const emit = defineEmits(['open-thinker', 'open-diagnostic', 'open-learning-paths'])
 
 const supportNeeds = ['被安放', '被看见', '被解释', '被挑战', '被推动']
 const expressionTastes = ['温柔', '锋利', '结构', '诗性', '行动']
 const goals = ['理解自己', '修复关系', '找到行动', '形成表达', '建立体系']
+const initialScene = scenes[0]
 
-const selectedSceneId = ref(scenes[0].id)
-const selectedNeed = ref('被解释')
-const selectedTaste = ref('结构')
-const selectedGoal = ref('理解自己')
+const selectedSceneId = ref(initialScene.id)
+const selectedNeed = ref(defaultNeedForScene(initialScene))
+const selectedTaste = ref(defaultTasteForScene(initialScene))
+const selectedGoal = ref(inferGoal(initialScene.primaryAxis))
 const customScene = ref('')
 const actionFeedback = ref('')
 const feedbackInsight = ref(null)
@@ -330,15 +459,44 @@ const insightError = ref('')
 const codexCopyStatus = ref('')
 const codexInsightText = ref('')
 const activeCodexRequestAt = ref('')
+const activeCodexCommandId = ref('')
 const codexPolling = ref(false)
 const bridgeStatus = ref(null)
 const saveStatus = ref('')
 const expandedPartnerRole = ref('')
 const resultCardRef = ref(null)
 const insightCardRef = ref(null)
+const aiConfigExpanded = ref(false)
+const aiDockOpen = ref(false)
+const aiStorageKey = 'book-kb-multi-thought-partner-ai-settings'
+const useLocalAiConfig = ref(false)
+const aiProvider = ref('deepseek')
+const aiApiKey = ref('')
+const aiBaseUrl = ref('')
+const aiModel = ref('')
+const aiStatus = ref('')
+const showAiKey = ref(false)
+const chatMessages = ref([
+  {
+    id: 'welcome',
+    role: 'assistant',
+    roleLabel: 'AI',
+    content: '先把左边配置好，然后你可以直接在这里问我。',
+  },
+])
+const chatDraft = ref('')
+const chatStatus = ref('')
+const chatBusy = ref(false)
+const aiProviderPresets = {
+  deepseek: { baseUrl: 'https://api.deepseek.com', model: 'deepseek-chat' },
+  kimi: { baseUrl: 'https://api.moonshot.ai/v1', model: 'kimi-k2.6' },
+  openai: { baseUrl: 'https://api.openai.com/v1', model: 'gpt-4.1-mini' },
+  xiaomi: { baseUrl: '', model: '' },
+}
 
 const selectedScene = computed(() => scenes.find((scene) => scene.id === selectedSceneId.value) || scenes[0])
 const selectedSceneIndex = computed(() => scenes.findIndex((scene) => scene.id === selectedScene.value.id))
+const selectedLearningPathId = computed(() => learningPathIdForThoughtPartnerScene(selectedScene.value))
 const displayedProblem = computed(() => customScene.value.trim() || selectedScene.value.title)
 const tuningSignals = computed(() => [
   `承接：${selectedNeed.value}`,
@@ -382,12 +540,39 @@ const adaptiveMinimumAction = computed(() => {
   return base
 })
 
+const aiProviderLabel = computed(() => ({
+  deepseek: 'DeepSeek',
+  kimi: 'Kimi / Moonshot',
+  openai: 'OpenAI',
+  xiaomi: '小米 / 兼容接口',
+}[aiProvider.value] || aiProvider.value || '未选择'))
+
 watch(selectedScene, (scene) => {
-  selectedNeed.value = scene.supportNeed?.[0] || '被解释'
-  selectedTaste.value = scene.expressionTaste?.[0] || '结构'
+  applySceneDefaults(scene)
+})
+
+watch(aiProvider, (provider, previousProvider) => {
+  syncAiDefaults(provider, previousProvider)
+})
+
+onMounted(() => {
+  loadAiSettings()
+})
+
+function applySceneDefaults(scene) {
+  selectedNeed.value = defaultNeedForScene(scene)
+  selectedTaste.value = defaultTasteForScene(scene)
   selectedGoal.value = inferGoal(scene.primaryAxis)
   feedbackInsight.value = null
-})
+}
+
+function defaultNeedForScene(scene) {
+  return scene.supportNeed?.[0] || '被解释'
+}
+
+function defaultTasteForScene(scene) {
+  return scene.expressionTaste?.[0] || '结构'
+}
 
 function inferGoal(axis) {
   if (axis === 'relation') return '修复关系'
@@ -395,6 +580,170 @@ function inferGoal(axis) {
   if (axis === 'narrative') return '形成表达'
   if (axis === 'social') return '理解自己'
   return '建立体系'
+}
+
+function loadAiSettings() {
+  if (!window?.localStorage) {
+    syncAiDefaults(aiProvider.value, '')
+    return
+  }
+
+  try {
+    const raw = window.localStorage.getItem(aiStorageKey)
+    if (!raw) {
+      syncAiDefaults(aiProvider.value, '')
+      return
+    }
+
+    const parsed = JSON.parse(raw)
+    useLocalAiConfig.value = Boolean(parsed.useLocalAiConfig)
+    aiProvider.value = parsed.provider || aiProvider.value
+    aiApiKey.value = parsed.apiKey || ''
+    aiBaseUrl.value = parsed.baseUrl || ''
+    aiModel.value = parsed.model || ''
+    aiStatus.value = parsed.useLocalAiConfig
+      ? '已加载页面 AI 配置。'
+      : '已加载保存的字段，但仍在使用环境变量。'
+    syncAiDefaults(aiProvider.value, '')
+    aiConfigExpanded.value = false
+  } catch {
+    syncAiDefaults(aiProvider.value, '')
+  }
+}
+
+function saveAiSettings() {
+  try {
+    window.localStorage?.setItem(aiStorageKey, JSON.stringify({
+      useLocalAiConfig: useLocalAiConfig.value,
+      provider: aiProvider.value,
+      apiKey: aiApiKey.value,
+      baseUrl: aiBaseUrl.value,
+      model: aiModel.value,
+    }))
+    aiStatus.value = useLocalAiConfig.value
+      ? `已保存页面 AI 配置：${aiProviderLabel.value}`
+      : '已保存字段，当前仍使用环境变量。'
+    aiConfigExpanded.value = false
+  } catch {
+    aiStatus.value = '保存失败，浏览器可能禁用了本地存储。'
+  }
+}
+
+function resetAiSettings() {
+  aiProvider.value = 'deepseek'
+  aiApiKey.value = ''
+  aiBaseUrl.value = ''
+  aiModel.value = ''
+  useLocalAiConfig.value = false
+  aiStatus.value = '已恢复默认字段。'
+  try {
+    window.localStorage?.removeItem(aiStorageKey)
+  } catch {
+    // Ignore storage cleanup failures.
+  }
+  syncAiDefaults(aiProvider.value, '')
+}
+
+function toggleAiConfig() {
+  aiConfigExpanded.value = !aiConfigExpanded.value
+}
+
+function syncAiDefaults(provider, previousProvider = '') {
+  const preset = aiProviderPresets[provider] || aiProviderPresets.deepseek
+  const previousPreset = aiProviderPresets[previousProvider] || null
+
+  if (!aiBaseUrl.value || (previousPreset && aiBaseUrl.value === previousPreset.baseUrl)) {
+    aiBaseUrl.value = preset.baseUrl
+  }
+  if (!aiModel.value || (previousPreset && aiModel.value === previousPreset.model)) {
+    aiModel.value = preset.model
+  }
+}
+
+function insertChatExample() {
+  if (chatDraft.value.trim()) return
+  chatDraft.value = '我想问：这次我应该先从哪里开始跟进？'
+}
+
+function clearChat() {
+  chatMessages.value = chatMessages.value.slice(0, 1)
+  chatDraft.value = ''
+  chatStatus.value = '对话已清空'
+}
+
+async function sendChatMessage() {
+  const message = chatDraft.value.trim()
+  if (!message || chatBusy.value) return
+
+  chatBusy.value = true
+  chatStatus.value = '正在回复...'
+  chatMessages.value = [
+    ...chatMessages.value,
+    { id: `user-${Date.now()}`, role: 'user', roleLabel: '我', content: message },
+  ]
+  chatDraft.value = ''
+
+  try {
+    const data = await requestChat({
+      mode: 'chat',
+      message,
+      conversation: chatMessages.value,
+      context: buildChatContext(),
+    })
+
+    chatMessages.value = [
+      ...chatMessages.value,
+      {
+        id: `assistant-${Date.now()}`,
+        role: 'assistant',
+        roleLabel: 'AI',
+        content: data.reply || '我暂时没有拿到回复。',
+      },
+    ]
+    chatStatus.value = '已回复'
+  } catch (error) {
+    chatMessages.value = [
+      ...chatMessages.value,
+      {
+        id: `error-${Date.now()}`,
+        role: 'assistant',
+        roleLabel: 'AI',
+        content: `暂时连不上接口：${error.message || '未知错误'}`,
+      },
+    ]
+    chatStatus.value = '接口未连通'
+  } finally {
+    chatBusy.value = false
+  }
+}
+
+function buildChatContext() {
+  return {
+    sceneTitle: selectedScene.value.title,
+    displayedProblem: displayedProblem.value,
+    primaryAxis: axes[selectedScene.value.primaryAxis]?.label || selectedScene.value.primaryAxis,
+    supportNeed: selectedNeed.value,
+    expressionTaste: selectedTaste.value,
+    selectedGoal: selectedGoal.value,
+    minimumAction: adaptiveMinimumAction.value,
+  }
+}
+
+async function testAiConnection() {
+  const payload = buildInsightPayload('接口连通性测试：请确认当前 AI 配置是否可用，并返回一条简短洞察。')
+  aiStatus.value = '正在测试 AI 接口...'
+
+  try {
+    const data = await requestInsight(payload)
+    if (!data?.insight) throw new Error(data?.error || '接口未返回洞察')
+    aiStatus.value = `接口可用：${data.provider || aiProvider.value} / ${data.model || 'unknown'}`
+  } catch (error) {
+    aiStatus.value = `接口测试失败：${error.message || '未知错误'}`
+  }
+}
+
+function openLearningPath() {
+  emit('open-learning-paths', selectedLearningPathId.value)
 }
 
 function partnerFor(roleId) {
@@ -486,6 +835,21 @@ const goalThinkerWeights = {
   建立体系: ['foucault', 'bourdieu', 'han', 'berger', 'sontag'],
 }
 
+const presetRoleWeights = {
+  main: 8,
+  translator: 12,
+  calibrator: 12,
+  action: 12,
+  expression: 12,
+}
+
+const roleMismatchPenalty = {
+  translator: -1,
+  calibrator: -1,
+  action: -4,
+  expression: -4,
+}
+
 function buildResolvedPartnerSet() {
   const used = new Set()
   const result = {}
@@ -504,10 +868,11 @@ function chooseThinkerForRole(roleId, used) {
     .filter(([id]) => !used.has(id))
     .map(([id, thinker], index) => ({
       id,
+      preset: selectedScene.value.partnerSet?.[roleId] === id,
       score: scoreThinkerForRole(id, thinker, roleId),
       index,
     }))
-    .sort((a, b) => b.score - a.score || a.index - b.index)
+    .sort((a, b) => b.score - a.score || Number(b.preset) - Number(a.preset) || a.index - b.index)
 
   return entries[0]?.id || selectedScene.value.partnerSet?.[roleId] || 'deBotton'
 }
@@ -515,10 +880,12 @@ function chooseThinkerForRole(roleId, used) {
 function scoreThinkerForRole(id, thinker, roleId) {
   const primaryAxis = selectedScene.value.primaryAxis
   const secondaryAxes = selectedScene.value.secondaryAxes || []
+  const isPresetForRole = selectedScene.value.partnerSet?.[roleId] === id
   let score = 0
 
-  if (selectedScene.value.partnerSet?.[roleId] === id) score += roleId === 'main' ? 7 : 3
+  if (isPresetForRole) score += presetRoleWeights[roleId] || 0
   if (thinker.roleFit?.includes(roleId)) score += 4
+  else if (!isPresetForRole) score += roleMismatchPenalty[roleId] || 0
   if (thinker.axis?.includes(primaryAxis)) score += 3
   score += secondaryAxes.filter((axis) => thinker.axis?.includes(axis)).length
   score += needRoleWeights[selectedNeed.value]?.[roleId] || 0
@@ -546,10 +913,8 @@ function roleSignalReason(roleId) {
 }
 
 function resetSelection() {
-  selectedSceneId.value = scenes[0].id
-  selectedNeed.value = '被解释'
-  selectedTaste.value = '结构'
-  selectedGoal.value = '理解自己'
+  selectedSceneId.value = initialScene.id
+  applySceneDefaults(initialScene)
   customScene.value = ''
   clearFeedback()
 }
@@ -562,6 +927,7 @@ function clearFeedback() {
   codexCopyStatus.value = ''
   codexInsightText.value = ''
   activeCodexRequestAt.value = ''
+  activeCodexCommandId.value = ''
   codexPolling.value = false
   bridgeStatus.value = null
 }
@@ -585,24 +951,53 @@ async function generateFeedbackInsight() {
   codexCopyStatus.value = ''
 
   try {
-    const response = await fetch('/.netlify/functions/thought-partner-insight', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(buildInsightPayload()),
-    })
-    const data = await response.json().catch(() => ({}))
-    if (!response.ok || !data.insight) {
-      throw new Error(data.error || 'AI 接口暂不可用')
-    }
-
+    const data = await requestInsight(buildInsightPayload(text))
     feedbackInsight.value = normalizeInsight(data.insight)
     insightSource.value = data.source || 'ai'
     return
   } catch (error) {
-    insightError.value = `AI 接口暂未接通，已先使用本地规则版。可点“复制给 Codex”在当前对话里生成真实洞察。`
+    insightError.value = `AI 接口暂未连通，已先使用本地规则版。可以点“复制给 Codex”在当前对话里生成真实洞察。`
     feedbackInsight.value = buildLocalFeedbackInsight(text)
     insightSource.value = 'local'
   }
+}
+
+async function requestInsight(payload) {
+  const response = await fetch('/.netlify/functions/thought-partner-insight', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  })
+  const data = await response.json().catch(() => ({}))
+  if (!response.ok || !data.insight) {
+    throw new Error(data.error || 'AI 接口暂不可用')
+  }
+  return data
+}
+
+async function requestChat(payload) {
+  const response = await fetch('/.netlify/functions/thought-partner-insight', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      ...payload,
+      feedback: payload.message,
+      aiConfig: useLocalAiConfig.value
+        ? {
+            useLocalAiConfig: true,
+            provider: aiProvider.value,
+            apiKey: aiApiKey.value.trim(),
+            baseUrl: aiBaseUrl.value.trim(),
+            model: aiModel.value.trim(),
+          }
+        : null,
+    }),
+  })
+  const data = await response.json().catch(() => ({}))
+  if (!response.ok || !data.reply) {
+    throw new Error(data.error || 'AI 对话接口暂不可用')
+  }
+  return data
 }
 
 function buildEmptyFeedbackInsight() {
@@ -632,7 +1027,17 @@ function buildLocalFeedbackInsight(text) {
   }
 }
 
-function buildInsightPayload() {
+function buildInsightPayload(overrideFeedback = '') {
+  const aiConfig = useLocalAiConfig.value
+    ? {
+        useLocalAiConfig: true,
+        provider: aiProvider.value,
+        apiKey: aiApiKey.value.trim(),
+        baseUrl: aiBaseUrl.value.trim(),
+        model: aiModel.value.trim(),
+      }
+    : null
+
   return {
     sceneTitle: selectedScene.value.title,
     displayedProblem: displayedProblem.value,
@@ -649,13 +1054,20 @@ function buildInsightPayload() {
       concepts: partnerFor(role.id).concepts,
     })),
     minimumAction: adaptiveMinimumAction.value,
-    feedback: actionFeedback.value.trim(),
+    feedback: overrideFeedback || actionFeedback.value.trim(),
+    aiConfig,
   }
+}
+
+function buildCodexInsightPayload() {
+  const payload = buildInsightPayload()
+  const { aiConfig, ...sanitizedPayload } = payload
+  return sanitizedPayload
 }
 
 function buildCodexPrompt() {
   return [
-    '请基于下面这次“思想伙伴选配器”的用户行动反馈，生成一张行动回馈洞察卡。',
+    '请基于下面这次“思想伙伴”卡片的用户行动反馈，生成一张行动回馈洞察卡。',
     '',
     '要求：',
     '- 用中文。',
@@ -666,7 +1078,7 @@ function buildCodexPrompt() {
     '- tags 是 3-5 个短标签。',
     '',
     '输入：',
-    JSON.stringify(buildInsightPayload(), null, 2),
+    JSON.stringify(buildCodexInsightPayload(), null, 2),
     '',
     '输出格式示例：',
     '{"pattern":"...","reading":"...","nextAction":"...","tags":["...","...","..."]}',
@@ -687,24 +1099,70 @@ async function copyCodexPrompt() {
 async function sendToLocalCodex() {
   try {
     await checkBridgeStatus()
-    const response = await fetch('http://127.0.0.1:8787/thought-partner/inbox', {
+    const payload = buildCodexCommandPayload()
+    const response = await fetch('http://127.0.0.1:8787/codex/inbox', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        prompt: buildCodexPrompt(),
-        insightPayload: buildInsightPayload(),
-      }),
+      body: JSON.stringify(payload),
     })
     const data = await response.json().catch(() => ({}))
     if (!response.ok || !data.ok) {
       throw new Error(data.error || '本地 Codex 桥接服务未响应')
     }
+    activeCodexCommandId.value = data.id || payload.id
     activeCodexRequestAt.value = data.receivedAt || ''
-    codexCopyStatus.value = '已发送到本地 Codex 收件箱，正在等待 Codex 写回结果。'
-    waitForLocalCodexResponse(activeCodexRequestAt.value)
+    codexCopyStatus.value = bridgeStatus.value?.agentAlive
+      ? '已发送到本地 Codex Agent，正在等待自动生成洞察卡。'
+      : '已发送到本地 Codex 收件箱；桥接在线，但 Agent 暂未在线。'
+    waitForLocalCodexResponse(activeCodexRequestAt.value, activeCodexCommandId.value)
   } catch {
-    codexCopyStatus.value = '没有连上本地 Codex 桥接服务。请先运行 npm run codex:bridge，或继续使用“复制给 Codex”。'
+    codexCopyStatus.value = '没有连上本地 Codex 桥接服务。请先运行 npm run codex:bridge 和 npm run codex:agent，或继续使用“复制给 Codex”。'
   }
+}
+
+function buildCodexCommandPayload() {
+  const payload = {
+    id: `thought-partner-${Date.now()}`,
+    commandType: 'thought-partner-insight',
+    commandTypeLabel: '思想伙伴行动回馈洞察',
+    executionMode: 'read-only',
+    executionModeLabel: '只读',
+    requestedSandbox: 'read-only',
+    canModifyFiles: false,
+    priority: 'normal',
+    priorityLabel: '普通',
+    commandText: buildCodexPrompt(),
+    page: '/tools/thought-partner',
+      context: {
+      page: {
+        view: 'thoughtPartner',
+        viewLabel: '思想伙伴',
+        path: window.location.pathname + window.location.search,
+      },
+      insightPayload: buildCodexInsightPayload(),
+    },
+  }
+
+  payload.prompt = [
+    '这是从 book-kb-multi 思想伙伴页面发来的行动回馈洞察请求。',
+    '',
+    '请生成一张可以直接回填到前端的洞察卡。',
+    '重要：由于外层 Codex Agent 必须按固定 schema 回复，请把洞察卡 JSON 作为 reply 字段的完整内容。',
+    'reply 字段中不要放 Markdown 代码块，不要放解释文字，只放这个 JSON：',
+    '{"pattern":"...","reading":"...","nextAction":"...","tags":["...","...","..."]}',
+    '',
+    '洞察卡要求：',
+    '- 用中文。',
+    '- 温和、具体、非诊断化。',
+    '- 不要做心理疾病诊断，不要夸大结论。',
+    '- nextAction 必须比原行动更小、更具体、可在 24 小时内尝试。',
+    '- tags 是 3-5 个短标签。',
+    '',
+    '页面输入：',
+    JSON.stringify(payload.context.insightPayload, null, 2),
+  ].join('\n')
+
+  return payload
 }
 
 async function checkBridgeStatus() {
@@ -713,7 +1171,9 @@ async function checkBridgeStatus() {
     const data = await response.json().catch(() => ({}))
     bridgeStatus.value = response.ok ? data : { ok: false }
     if (response.ok) {
-      codexCopyStatus.value = '本地桥接服务在线。注意：Codex 分析仍需要我在当前对话回合里读取并写回。'
+      codexCopyStatus.value = data.agentAlive
+        ? '本地桥接和 Codex Agent 都在线，可以自动处理回馈洞察。'
+        : '本地桥接服务在线，但 Codex Agent 暂未在线。请运行 npm run codex:agent。'
     }
   } catch {
     bridgeStatus.value = { ok: false }
@@ -722,7 +1182,7 @@ async function checkBridgeStatus() {
 }
 
 async function checkLocalCodexResponse() {
-  const applied = await fetchLocalCodexResponse(activeCodexRequestAt.value)
+  const applied = await fetchLocalCodexResponse(activeCodexRequestAt.value, activeCodexCommandId.value)
   if (!applied) {
     codexCopyStatus.value = '暂时还没有匹配的 Codex 返回。'
   }
@@ -735,12 +1195,12 @@ function formatTime(value) {
   return date.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', second: '2-digit' })
 }
 
-async function waitForLocalCodexResponse(requestReceivedAt) {
+async function waitForLocalCodexResponse(requestReceivedAt, commandId = '') {
   if (codexPolling.value) return
   codexPolling.value = true
 
   for (let index = 0; index < 60; index += 1) {
-    const applied = await fetchLocalCodexResponse(requestReceivedAt)
+    const applied = await fetchLocalCodexResponse(requestReceivedAt, commandId)
     if (applied) {
       codexPolling.value = false
       return
@@ -752,14 +1212,23 @@ async function waitForLocalCodexResponse(requestReceivedAt) {
   codexCopyStatus.value = '还没有等到 Codex 返回。你可以稍后点“检查 Codex 返回”。'
 }
 
-async function fetchLocalCodexResponse(requestReceivedAt = '') {
+async function fetchLocalCodexResponse(requestReceivedAt = '', commandId = '') {
   try {
-    const response = await fetch('http://127.0.0.1:8787/thought-partner/response')
+    const response = await fetch('http://127.0.0.1:8787/codex/response')
     const data = await response.json().catch(() => ({}))
-    if (!response.ok || !data.insight) return false
+    if (!response.ok) return false
+    if (commandId && data.commandId && data.commandId !== commandId) return false
     if (requestReceivedAt && data.requestReceivedAt && data.requestReceivedAt !== requestReceivedAt) return false
 
-    feedbackInsight.value = normalizeInsight(data.insight)
+    const insight = extractCodexInsight(data)
+    if (!insight) {
+      if (data.status === 'failed' || data.status === 'blocked') {
+        codexCopyStatus.value = data.summary || data.reply || 'Codex Agent 暂时没有生成可回填的洞察卡。'
+      }
+      return false
+    }
+
+    feedbackInsight.value = normalizeInsight(insight)
     insightSource.value = 'codex'
     insightError.value = ''
     codexCopyStatus.value = '已收到 Codex 返回，并应用成洞察卡。'
@@ -767,6 +1236,37 @@ async function fetchLocalCodexResponse(requestReceivedAt = '') {
   } catch {
     return false
   }
+}
+
+function extractCodexInsight(data) {
+  if (data?.insight) return data.insight
+  const candidates = [data?.reply, data?.summary]
+  for (const candidate of candidates) {
+    const parsed = parseInsightJson(candidate)
+    if (parsed) return parsed
+  }
+  return null
+}
+
+function parseInsightJson(value) {
+  const text = String(value || '').trim()
+  if (!text) return null
+
+  const candidates = [
+    text,
+    text.match(/```(?:json)?\s*([\s\S]*?)\s*```/i)?.[1],
+    text.includes('{') ? text.slice(text.indexOf('{'), text.lastIndexOf('}') + 1) : '',
+  ].filter(Boolean)
+
+  for (const candidate of candidates) {
+    try {
+      const parsed = JSON.parse(candidate.trim())
+      if (parsed && typeof parsed === 'object') return parsed
+    } catch {
+      // Try the next possible JSON shape.
+    }
+  }
+  return null
 }
 
 function applyCodexInsight() {
@@ -794,19 +1294,19 @@ function normalizeInsight(insight) {
 }
 
 async function saveResultCard() {
-  await saveElementAsPng(resultCardRef.value, `思想伙伴卡-${selectedScene.value.id}.png`, '结果卡')
+  await saveElementAsPng(resultCardRef.value, `思想伙伴卡-${selectedScene.value.id}.png`, '结果卡', buildExportCardData())
 }
 
 async function saveInsightCard() {
-  await saveElementAsPng(insightCardRef.value, `行动回馈洞察卡-${selectedScene.value.id}.png`, '洞察卡')
+  await saveElementAsPng(insightCardRef.value, `行动回馈洞察卡-${selectedScene.value.id}.png`, '洞察卡', buildInsightExportCardData())
 }
 
-async function saveElementAsPng(element, filename, label = '图片') {
+async function saveElementAsPng(element, filename, label = '图片', cardData = buildExportCardData()) {
   if (!element) return
   saveStatus.value = `正在生成${label}...`
 
   try {
-    const canvas = await renderElementToCanvas(element)
+    const canvas = await renderElementToCanvas(element, cardData)
     const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png'))
     if (!blob) throw new Error('Canvas did not produce a PNG blob')
 
@@ -817,7 +1317,7 @@ async function saveElementAsPng(element, filename, label = '图片') {
     document.body.appendChild(link)
     link.click()
     link.remove()
-    window.setTimeout(() => URL.revokeObjectURL(fileUrl), 1000)
+    window.setTimeout(() => URL.revokeObjectURL(fileUrl), 30000)
 
     saveStatus.value = `${label}已生成。如果浏览器拦截下载，请查看地址栏或下载列表。`
     window.setTimeout(() => {
@@ -828,12 +1328,11 @@ async function saveElementAsPng(element, filename, label = '图片') {
   }
 }
 
-async function renderElementToCanvas(element) {
+async function renderElementToCanvas(element, cardData = buildExportCardData()) {
   await nextTick()
 
   const rect = element.getBoundingClientRect()
   const width = Math.max(720, Math.ceil(rect.width))
-  const cardData = buildExportCardData()
   const height = measureExportCardHeight(cardData, width)
   const canvas = document.createElement('canvas')
   const ratio = Math.max(2, Math.min(window.devicePixelRatio || 2, 3))
@@ -851,6 +1350,7 @@ async function renderElementToCanvas(element) {
 
 function buildExportCardData() {
   return {
+    kind: 'result',
     title: '当前困境的思想伙伴卡',
     problem: displayedProblem.value,
     reason: matchReason.value,
@@ -859,6 +1359,20 @@ function buildExportCardData() {
     partners: partnerUsageText.value,
     metaphorNodes: metaphorNodes.value,
     action: adaptiveMinimumAction.value,
+  }
+}
+
+function buildInsightExportCardData() {
+  const insight = feedbackInsight.value || buildEmptyFeedbackInsight()
+  return {
+    kind: 'insight',
+    title: '行动回馈洞察卡',
+    problem: displayedProblem.value,
+    pattern: insight.pattern,
+    reading: insight.reading,
+    nextAction: insight.nextAction,
+    tags: insight.tags?.join(' / ') || '',
+    source: insightSourceLabel.value,
   }
 }
 
@@ -871,8 +1385,10 @@ function measureExportCardHeight(cardData, width) {
   context.font = '700 34px "Microsoft YaHei", sans-serif'
   height += measureWrappedTextHeight(context, cardData.title, contentWidth, 42)
   height += 34
-  height += 330
-  height += 30
+  if (cardData.kind !== 'insight') {
+    height += 330
+    height += 30
+  }
   const blocks = buildExportBlocks(cardData)
 
   for (const block of blocks) {
@@ -906,8 +1422,10 @@ function drawCardFallback(context, cardData, width, height) {
   context.stroke()
   y += 24
 
-  y = drawMetaphorMap(context, cardData, padding, y, contentWidth)
-  y += 30
+  if (cardData.kind !== 'insight') {
+    y = drawMetaphorMap(context, cardData, padding, y, contentWidth)
+    y += 30
+  }
 
   for (const block of buildExportBlocks(cardData)) {
     context.fillStyle = '#204f67'
@@ -997,6 +1515,17 @@ function shortText(text, maxLength) {
 }
 
 function buildExportBlocks(cardData) {
+  if (cardData.kind === 'insight') {
+    return [
+      { title: '当前困境', text: cardData.problem },
+      { title: '我看见的模式', text: cardData.pattern },
+      { title: '这说明什么', text: cardData.reading },
+      { title: '新的建议', text: cardData.nextAction },
+      { title: '标签', text: cardData.tags },
+      { title: '生成方式', text: cardData.source },
+    ]
+  }
+
   const blocks = [
     { title: '当前困境', text: cardData.problem },
     { title: '这张卡用来做什么', text: cardData.reason },
@@ -1750,6 +2279,291 @@ function splitTextForCanvas(text) {
   color: #6c4d8c;
 }
 
+.path-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.calibration-btn {
+  border: 1px solid rgba(32, 79, 103, 0.18);
+  border-radius: 999px;
+  background: rgba(32, 79, 103, 0.08);
+  color: var(--brand);
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.ai-panel {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 40;
+  width: 340px;
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vh - 24px);
+  overflow: auto;
+  margin-top: 0;
+  border: 1px solid rgba(121, 91, 155, 0.18);
+  border-radius: 22px;
+  background: rgba(248, 246, 253, 0.82);
+  padding: 18px;
+  box-shadow: 0 18px 50px rgba(22, 34, 43, 0.18);
+  backdrop-filter: blur(12px);
+}
+
+.ai-launcher {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 40;
+  border: 1px solid rgba(121, 91, 155, 0.18);
+  border-radius: 999px;
+  background: rgba(248, 246, 253, 0.96);
+  color: #6c4d8c;
+  padding: 8px 11px;
+  font-size: 12px;
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(22, 34, 43, 0.14);
+  cursor: pointer;
+}
+
+.ai-panel-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.ai-dock-handle {
+  flex: 1;
+  min-width: 0;
+  user-select: none;
+}
+
+.ai-dock-handle p {
+  margin-top: 4px;
+  color: var(--text-tertiary);
+  font-size: 11px;
+}
+
+.ai-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ai-panel-head h3 {
+  margin: 4px 0 0;
+  font-size: 18px;
+  color: var(--text-primary);
+}
+
+.ai-mode-badge {
+  border-radius: 999px;
+  background: rgba(121, 91, 155, 0.12);
+  color: #6c4d8c;
+  padding: 6px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.ai-summary {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.ai-summary span {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 5px 10px;
+  border: 1px solid rgba(121, 91, 155, 0.12);
+}
+
+.ai-config {
+  margin-top: 12px;
+}
+
+.ai-toggle {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.ai-form {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.ai-field {
+  display: grid;
+  gap: 6px;
+}
+
+.ai-field span {
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ai-field input,
+.ai-field select {
+  width: 100%;
+  border: 1px solid var(--border-default);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 12px;
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+}
+
+.ai-key-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ai-key-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+.mini-toggle-btn {
+  border: 1px solid rgba(121, 91, 155, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #6c4d8c;
+  padding: 10px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ai-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ai-collapsed-hint {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.ai-status {
+  margin-top: 10px;
+  color: #6c4d8c;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.ai-chat {
+  margin-top: 14px;
+  border-top: 1px solid rgba(121, 91, 155, 0.14);
+  padding-top: 14px;
+}
+
+.ai-chat-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.ai-chat-head h3 {
+  margin: 4px 0 0;
+  font-size: 18px;
+  color: var(--text-primary);
+}
+
+.ai-chat-head span {
+  color: var(--text-tertiary);
+  font-size: 12px;
+}
+
+.chat-log {
+  margin-top: 12px;
+  max-height: 260px;
+  overflow: auto;
+  display: grid;
+  gap: 10px;
+  padding-right: 4px;
+}
+
+.chat-bubble {
+  border-radius: 16px;
+  border: 1px solid rgba(121, 91, 155, 0.12);
+  background: rgba(255, 255, 255, 0.84);
+  padding: 12px 14px;
+}
+
+.chat-bubble.user {
+  background: rgba(32, 79, 103, 0.06);
+  border-color: rgba(32, 79, 103, 0.12);
+}
+
+.chat-bubble.assistant {
+  background: rgba(95, 125, 67, 0.06);
+  border-color: rgba(95, 125, 67, 0.12);
+}
+
+.chat-role {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: var(--brand);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.chat-bubble p {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 13px;
+  line-height: 1.75;
+  white-space: pre-wrap;
+}
+
+.ai-chat textarea {
+  width: 100%;
+  margin-top: 12px;
+  resize: vertical;
+  min-height: 92px;
+  border: 1px solid var(--border-default);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px 14px;
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.7;
+  outline: none;
+}
+
+.chat-actions {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .feedback-panel {
   margin-top: 16px;
   border: 1px solid rgba(32, 79, 103, 0.18);
@@ -1874,6 +2688,7 @@ function splitTextForCanvas(text) {
   .tool-status,
   .chooser-panel,
   .signal-panel,
+  .ai-panel,
   .result-panel {
     border-radius: 22px;
   }
@@ -1882,6 +2697,7 @@ function splitTextForCanvas(text) {
   .tool-status,
   .chooser-panel,
   .signal-panel,
+  .ai-panel,
   .result-panel {
     padding: 18px;
   }
@@ -1896,6 +2712,32 @@ function splitTextForCanvas(text) {
   .feedback-actions {
     width: 100%;
     justify-content: flex-start;
+  }
+
+  .ai-form {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-key-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .chat-actions {
+    width: 100%;
+  }
+
+  .ai-panel {
+    right: 10px;
+    bottom: 10px;
+    width: calc(100vw - 20px);
+    max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+  }
+
+  .ai-launcher {
+    right: 10px;
+    bottom: 10px;
   }
 
   .map-stage {
@@ -1923,3 +2765,4 @@ function splitTextForCanvas(text) {
   }
 }
 </style>
+

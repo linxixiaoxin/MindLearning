@@ -1,5 +1,10 @@
 web/node_modules/
 web/dist/
+web/.env
+web/.netlify/
+tmp/
+web/tmp/
+web/codex-inbox/
 *.log
 *.tmp
 .DS_Store

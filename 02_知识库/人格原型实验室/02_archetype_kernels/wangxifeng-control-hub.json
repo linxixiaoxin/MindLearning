@@ -1,0 +1,25 @@
+{
+  "id": "wangxifeng-control-hub",
+  "title": "把自己活成系统控制中枢的人",
+  "short_title": "控制中枢",
+  "source_work_ids": ["public-classic-dream-red-mansion"],
+  "core_situation": "一个极度能干的人，把安全感、价值感和权力感都绑在掌控全局上，最后既撑起系统，也压迫系统。",
+  "need": "证明自己能压住局面、掌控资源，并被看见为不可替代的人。",
+  "fear": "一旦松手，局面会塌，别人会看低自己，自己的位置会被夺走。",
+  "protection_strategy": "把信息、节奏、资源和决策都收束到自己手里，用掌控感对抗失控焦虑。",
+  "relationship_script": "混乱出现 -> 她接管 -> 短期效率上升 -> 他人依赖或畏惧 -> 团队声音下降 -> 她更不敢放手。",
+  "family_script": "在资源紧张、体面维护和权力交织的组织中，最能扛事的人会被反复推到兜底位置。",
+  "social_gaze": "组织一边依赖她救火，一边把压迫感归因到她个人身上。",
+  "language_style": "利落、压场、快速拆线，常用安排、核对、统一看、我来盯等控制节奏的语言。",
+  "destiny_pattern": "越能扛事，越容易成为系统补丁；越被依赖，越难从控制中松手。",
+  "signals": ["高能力高控制", "信息集中", "所有人等她拍板", "团队不敢反馈风险", "个人耗竭", "系统单点依赖"],
+  "modern_transplants": ["预算突然缩减", "项目临时救火", "领导只找她拍板", "下属不敢反馈风险", "复盘会发现所有任务线都接到她身上"],
+  "evidence_refs": [
+    {
+      "source_work_id": "public-classic-dream-red-mansion",
+      "location": "王熙凤管家、资源调度与贾府复杂组织相关情节，待补具体章回。",
+      "note": "当前为《如果王熙凤来上班》公开内容样张抽取的产品化原型，需要后续补文本证据和专家评审。"
+    }
+  ],
+  "review_status": "expert_review_needed"
+}

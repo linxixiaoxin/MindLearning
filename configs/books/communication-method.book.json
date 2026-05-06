@@ -1,0 +1,88 @@
+{
+  "book": {
+    "slug": "communication-method",
+    "title": "沟通的方法",
+    "shortTitle": "沟通的方法",
+    "author": "脱不花",
+    "primaryCategory": "沟通表达与关系对话",
+    "secondaryCategory": "场景沟通方法书",
+    "status": "active"
+  },
+  "source": {
+    "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets",
+    "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/结构化知识.json",
+    "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/全书摘要.md",
+    "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/选题角度.md",
+    "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/视觉钩子.md",
+    "knTable": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/整本书K卡_N卡总表.md"
+  },
+  "builder": {
+    "profile": "public_structured_nk_v1",
+    "entryNode": "全书摘要",
+    "supportsCrossBookTopic": true,
+    "hiddenNodes": [],
+    "pinnedNodes": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ]
+  },
+  "publication": {
+    "layer": "public_structured_nk",
+    "curationStatus": "needs_curated_overrides",
+    "sourceVisibility": "private_source",
+    "generatedFrom": [
+      "structured_json",
+      "kn_table",
+      "summary_md"
+    ],
+    "overrideDir": "configs/public_overrides/communication-method",
+    "publicSanity": {
+      "blockerCount": 0,
+      "status": "pass",
+      "samples": []
+    }
+  },
+  "site": {
+    "subtitle": "如何把沟通从一次表达胜负，转成持续建立关系、形成共识和推动行动的能力。",
+    "description": "《沟通的方法》的 public_structured_nk 基础公开层配置。",
+    "heroOverline": "BOOK · CONVERSATION",
+    "heroTitleLines": [
+      "沟通的方法",
+      "如何把沟通从一次表达胜负，转成持续建立关系、形成共识和推动行动的能力。"
+    ],
+    "searchPlaceholder": "搜索《沟通的方法》问题、概念、章节、方法、场景…",
+    "creatorName": "林子-心智进化之路",
+    "creatorLabel": "整理与输出",
+    "footerNote": "复杂世界和复杂人性的同行翻译者"
+  },
+  "homepage": {
+    "recommendedPath": [
+      "全书摘要",
+      "全书结构"
+    ],
+    "quickLinks": [
+      "公开入口",
+      "全书摘要",
+      "全书结构"
+    ],
+    "journeyTitle": "基础公开阅读路径",
+    "journeyDescription": "先从全书摘要和主问题进入，再沿章节、概念、方法和场景展开。",
+    "sectionOrder": [
+      "summary",
+      "questions",
+      "chapters",
+      "concepts",
+      "methods",
+      "scenarios",
+      "extensions"
+    ]
+  },
+  "images": {
+    "overviewImage": "/books/communication-method/chapter-images/overview.svg",
+    "chapterImageMode": "overview",
+    "chapterImageOrder": [],
+    "topicImageMap": {},
+    "fallbackImage": "/books/communication-method/chapter-images/overview.svg"
+  }
+}

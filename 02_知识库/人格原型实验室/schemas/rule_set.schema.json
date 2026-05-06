@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RuleSet",
+  "type": "object",
+  "required": ["id", "title", "state_variables", "turn_structure", "review_prompts"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "pressure": { "type": "string" },
+    "state_variables": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "visible_information": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "hidden_information": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "actions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "costs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "turn_structure": { "type": "string" },
+    "win_or_progress_condition": { "type": "string" },
+    "review_prompts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "safety_notes": { "type": "string" }
+  }
+}

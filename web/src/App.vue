@@ -21,37 +21,46 @@
       </div>
 
       <nav class="nav-tabs">
+        <button class="nav-btn" :class="{ active: view === 'sceneHub' }" @click="goSceneHub">处境地图</button>
         <button class="nav-btn" :class="{ active: view === 'library' }" @click="goLibrary">书库</button>
-        <button class="nav-btn" :class="{ active: view === 'eventLens' }" @click="goEventLens()">
-          社会事件
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'contentOps' }" @click="goContentOps">
-          选题中台
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'capabilityPaths' }" @click="goCapabilityPaths()">
-          能力路径
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'thoughtPartner' }" @click="goThoughtPartner">
-          思想伙伴
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'problemLab' }" @click="goProblemLab()">
-          问题工作台
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'learningPaths' }" @click="goLearningPaths()">
-          学习路径
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'spaceBrowser' }" @click="goSpaceBrowser()">
-          3D书库
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'grayBooks' }" @click="goGrayBooks">
-          灰度池
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'mindsetTrapDiagnostic' }" @click="goMindsetTrapDiagnostic">
-          误区诊断
-        </button>
-        <button class="nav-btn" :class="{ active: view === 'leadershipMindsetAssessment' }" @click="goLeadershipMindsetAssessment">
-          心智评估
-        </button>
+        <button class="nav-btn" :class="{ active: view === 'contentOps' }" @click="goContentOps">工作台</button>
+        <button class="nav-btn" :class="{ active: view === 'thoughtPartner' }" @click="goThoughtPartner">思想伙伴</button>
+
+        <div class="more-menu" ref="moreMenuRef">
+          <button
+            class="nav-btn"
+            :class="{ active: moreMenuOpen || isMoreToolActive }"
+            @click="moreMenuOpen = !moreMenuOpen"
+          >
+            更多
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" :class="{ rotated: moreMenuOpen }">
+              <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </button>
+
+          <div v-if="moreMenuOpen" class="more-menu-panel">
+            <div class="more-group-label">工具路径</div>
+            <button class="more-menu-item" :class="{ active: view === 'problemLab' }" @click="goProblemLab()">卡点工作台</button>
+            <button class="more-menu-item" :class="{ active: view === 'capabilityPaths' }" @click="goCapabilityPaths()">能力路径</button>
+            <button class="more-menu-item" :class="{ active: view === 'learningPaths' }" @click="goLearningPaths()">学习路线</button>
+            <button class="more-menu-item" :class="{ active: view === 'roundtable' }" @click="goRoundtable">圆桌</button>
+            <button class="more-menu-item" :class="{ active: view === 'eventLens' }" @click="goEventLens()">社会事件</button>
+            <button class="more-menu-item" :class="{ active: view === 'archetypeLab' }" @click="goArchetypeLab">原型实验室</button>
+            <button class="more-menu-item" :class="{ active: view === 'spaceBrowser' }" @click="goSpaceBrowser()">书籍地图</button>
+
+            <div class="more-divider"></div>
+            <div class="more-group-label">知识浏览</div>
+            <button class="more-menu-item" :class="{ active: view === 'archetypeBrowser' }" @click="goArchetypeBrowser">原型</button>
+            <button class="more-menu-item" :class="{ active: view === 'thinkerBrowser' }" @click="goThinkerBrowser">思想家</button>
+            <button class="more-menu-item" :class="{ active: view === 'sceneBrowser' }" @click="goSceneBrowser">场景</button>
+            <button class="more-menu-item" :class="{ active: view === 'methodBrowser' }" @click="goMethodBrowser">方法</button>
+            <button class="more-menu-item" :class="{ active: view === 'metaphorBrowser' }" @click="goMetaphorBrowser">隐喻</button>
+            <button class="more-menu-item" :class="{ active: view === 'conceptBrowser' }" @click="goConceptBrowser">概念</button>
+            <button class="more-menu-item" :class="{ active: view === 'archetypeContrast' }" @click="goArchetypeContrast">对照</button>
+            <button class="more-menu-item" :class="{ active: view === 'archetypeDialogue' }" @click="goArchetypeDialogue">对话</button>
+          </div>
+        </div>
+
         <button
           v-if="hasBookContext"
           class="nav-btn"
@@ -144,8 +153,36 @@
         </div>
 
         <span v-if="hasBookContext" class="node-count">{{ currentBookData?.NODES?.length || 0 }} Nodes</span>
+
+        <button v-if="!isAuthenticated" class="login-entry-btn" @click="showLoginModal = true">
+          登录
+        </button>
+
+        <div v-else class="user-menu" ref="userMenuRef">
+          <button class="user-avatar-btn" @click="userMenuOpen = !userMenuOpen" :title="userEmail">
+            {{ userAvatarLabel }}
+          </button>
+          <div v-if="userMenuOpen" class="user-dropdown">
+            <div class="user-dropdown-header">
+              <span class="user-email">{{ userEmail }}</span>
+              <span class="user-role">{{ userRoleLabel }}</span>
+            </div>
+            <button v-if="isAdmin" class="user-dropdown-item" @click="goAdminPanel">
+              用户管理
+            </button>
+            <button class="user-dropdown-item danger" @click="handleLogout">
+              退出登录
+            </button>
+          </div>
+        </div>
       </div>
     </header>
+
+    <ExperienceFlowStrip
+      v-if="experienceFlowVisible"
+      :active-step="experienceStepId"
+      @navigate="onExperienceNavigate"
+    />
 
     <div v-if="sidebarVisible && sidebarOpen" class="sidebar-overlay" @click="sidebarOpen = false"></div>
 
@@ -164,14 +201,14 @@
       <main class="content">
         <div v-if="routeLoading" class="app-state">
           <div class="loading-spinner"></div>
-          <div class="state-title">This interface is temporarily unavailable.</div>
+          <div class="state-title">正在打开这张地图...</div>
         </div>
 
         <div v-else-if="routeError" class="app-state">
           <div class="state-icon">!</div>
-          <div class="state-title">Loading interface...</div>
+          <div class="state-title">这个页面暂时打不开</div>
           <div class="state-desc">{{ routeError }}</div>
-          <button class="back-btn-lg" @click="goLibrary">返回书库</button>
+          <button class="back-btn-lg" @click="goSceneHub">返回导航页</button>
         </div>
 
         <BookLibrary
@@ -181,6 +218,20 @@
           @show-graph="onOpenBookGraph"
           @open-topic="onOpenTopic"
           @open-tool="onOpenTool"
+        />
+
+        <SceneEntryHub
+          v-else-if="view === 'sceneHub'"
+          @open-library="goLibrary"
+          @open-problem-lab="goProblemLab"
+          @open-capability-paths="goCapabilityPaths"
+          @open-event-lens="goEventLens"
+          @open-thought-partner="goThoughtPartner"
+          @open-content-ops="goContentOps"
+          @open-learning-paths="goLearningPaths"
+          @open-book="onOpenBook"
+          @open-roundtable="goRoundtable"
+          @open-mindset-trap-diagnostic="goMindsetTrapDiagnostic"
         />
 
         <HomeView
@@ -211,6 +262,56 @@
           @open-thinker="onOpenThinker"
           @open-diagnostic="goMindsetTrapDiagnostic"
           @open-learning-paths="goLearningPaths"
+        />
+
+        <RoundtableStudio
+          v-else-if="view === 'roundtable'"
+          @open-problem-lab="goProblemLab"
+          @open-content-ops="goContentOps"
+        />
+
+        <ArchetypeLab
+          v-else-if="view === 'archetypeLab'"
+        />
+
+        <ArchetypeDialogue
+          v-else-if="view === 'archetypeDialogue'"
+        />
+
+        <ArchetypeBrowser
+          v-else-if="view === 'archetypeBrowser'"
+        />
+
+        <ArchetypeContrast
+          v-else-if="view === 'archetypeContrast'"
+        />
+
+        <SceneBrowser
+          v-else-if="view === 'sceneBrowser'"
+          @select-scene="onSelectScene"
+        />
+
+        <SceneDetail
+          v-else-if="view === 'sceneDetail'"
+          :scene-id="currentSceneId"
+          @back="goSceneBrowser"
+        />
+
+        <MethodBrowser
+          v-else-if="view === 'methodBrowser'"
+        />
+
+        <MetaphorBrowser
+          v-else-if="view === 'metaphorBrowser'"
+        />
+
+        <ConceptBrowser
+          v-else-if="view === 'conceptBrowser'"
+        />
+
+        <ThinkerBrowser
+          v-else-if="view === 'thinkerBrowser'"
+          @select-thinker="onSelectThinker"
         />
 
         <EventLens
@@ -255,8 +356,9 @@
           @select-path="onSelectLearningPath"
         />
 
-        <SpaceBrowser
+        <SpaceAtlas3D
           v-else-if="view === 'spaceBrowser'"
+          :registry="registry"
         />
 
         <GrayBookPool
@@ -273,6 +375,17 @@
           @open-node="onOpenNode"
           @open-topic="onOpenTopic"
         />
+
+        <AdminPanel
+          v-else-if="view === 'admin' && isAdmin"
+        />
+
+        <div v-else-if="view === 'admin' && !isAdmin" class="app-state">
+          <div class="state-icon">!</div>
+          <div class="state-title">无权限访问</div>
+          <div class="state-desc">你需要管理员权限才能访问这个页面</div>
+          <button class="back-btn-lg" @click="goSceneHub">返回导航页</button>
+        </div>
 
         <ThinkerProfilePage
           v-else-if="view === 'thinkerProfile'"
@@ -291,36 +404,68 @@
       </main>
     </div>
 
+    <CodexAssistantDock :page-context="codexPageContext" />
+
     <footer class="footer-banner">
       <span class="footer-label">{{ footerSite.creatorLabel }}</span>
       <span class="footer-brand">{{ footerSite.creatorName }}</span>
       <span class="footer-dot">·</span>
       <span class="footer-note">{{ footerSite.footerNote }}</span>
     </footer>
+
+    <Teleport to="body">
+      <div v-if="showLoginModal" class="login-modal-overlay" @click.self="showLoginModal = false">
+        <div class="login-modal-card">
+          <button class="login-modal-close" @click="showLoginModal = false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M4 4L12 12M12 4L4 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <LoginPage :is-modal="true" @close="showLoginModal = false" />
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
 <script setup>
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
+import AdminPanel from './components/AdminPanel.vue'
 import ArticleReader from './components/ArticleReader.vue'
+import ArchetypeLab from './components/ArchetypeLab.vue'
 import BookLibrary from './components/BookLibrary.vue'
+import CodexAssistantDock from './components/CodexAssistantDock.vue'
 import ContentOpsCenter from './components/ContentOpsCenter.vue'
 import GrayBookPool from './components/GrayBookPool.vue'
 import HomeView from './components/HomeView.vue'
+import SceneEntryHub from './components/SceneEntryHub.vue'
 import KnowledgeGraph from './components/KnowledgeGraph.vue'
 import LearningPathMap from './components/LearningPathMap.vue'
+import LoginPage from './components/LoginPage.vue'
 import LeadershipMindsetAssessment from './components/LeadershipMindsetAssessment.vue'
 import MindsetTrapDiagnostic from './components/MindsetTrapDiagnostic.vue'
 import ProblemLab from './components/ProblemLab.vue'
 import EventLens from './components/EventLens.vue'
+import ExperienceFlowStrip from './components/ExperienceFlowStrip.vue'
 import CapabilityPathWorkbench from './components/CapabilityPathWorkbench.vue'
+import RoundtableStudio from './components/RoundtableStudio.vue'
+import ArchetypeBrowser from './components/ArchetypeBrowser.vue'
+import ArchetypeDialogue from './components/ArchetypeDialogue.vue'
+import ArchetypeContrast from './components/ArchetypeContrast.vue'
+import SceneBrowser from './components/SceneBrowser.vue'
+import SceneDetail from './components/SceneDetail.vue'
+import MethodBrowser from './components/MethodBrowser.vue'
+import MetaphorBrowser from './components/MetaphorBrowser.vue'
+import ConceptBrowser from './components/ConceptBrowser.vue'
+import ThinkerBrowser from './components/ThinkerBrowser.vue'
 import Sidebar from './components/Sidebar.vue'
-import SpaceBrowser from './components/SpaceBrowser.vue'
+import SpaceAtlas3D from './components/SpaceAtlas3D.vue'
 import ThinkerProfilePage from './components/ThinkerProfilePage.vue'
 import ThoughtPartnerTool from './components/ThoughtPartnerTool.vue'
 import TopicPage from './components/TopicPage.vue'
 import { loadBookBundle, loadRegistry, loadTopicBundle } from './lib/bookData.js'
 import { parseRoute, resolveNodeId, routeToUrl } from './lib/routes.js'
+import { useAuth } from './lib/auth.js'
 import {
   buildBookSearchEntry,
   buildCurrentBookSearchEntries,
@@ -345,7 +490,7 @@ const registry = ref({
 })
 
 const sidebarOpen = ref(window.innerWidth > 720)
-const view = ref('library')
+const view = ref('sceneHub')
 const activeNode = ref(null)
 const currentSlug = ref('')
 const currentBookData = ref(null)
@@ -356,6 +501,7 @@ const currentLearningPathId = ref('')
 const currentProblemCaseId = ref('')
 const currentEventLensId = ref('')
 const currentCapabilityRoleId = ref('')
+const currentSceneId = ref('')
 const routeLoading = ref(true)
 const routeError = ref('')
 
@@ -367,22 +513,62 @@ const searchWrapRef = ref(null)
 const globalSearchIndex = ref([])
 const globalSearchLoading = ref(false)
 const historyStack = ref([])
+const moreMenuOpen = ref(false)
+const moreMenuRef = ref(null)
 
 let routeToken = 0
 let globalSearchPromise = null
 
+const {
+  user,
+  loading: authLoading,
+  isAuthenticated,
+  isAdmin,
+  initAuth,
+  signOut,
+} = useAuth()
+
+const userMenuOpen = ref(false)
+const userMenuRef = ref(null)
+const showLoginModal = ref(false)
+
+const userEmail = computed(() => user.value?.email || '')
+const userRoleLabel = computed(() => isAdmin.value ? '管理员' : '用户')
+const userAvatarLabel = computed(() => {
+  const email = user.value?.email || ''
+  return email.charAt(0).toUpperCase()
+})
+
+const moreToolViews = [
+  'problemLab', 'capabilityPaths', 'learningPaths', 'roundtable', 'eventLens',
+  'archetypeLab', 'spaceBrowser', 'archetypeBrowser', 'thinkerBrowser', 'sceneBrowser',
+  'methodBrowser', 'metaphorBrowser', 'conceptBrowser', 'archetypeContrast', 'archetypeDialogue',
+]
+const isMoreToolActive = computed(() => moreToolViews.includes(view.value))
+
 const toolViewLabels = {
-  eventLens: 'Event Lens',
-  contentOps: 'Content Ops',
-  capabilityPaths: 'Capability Paths',
-  thoughtPartner: 'Thought Partner',
-  problemLab: 'Problem Lab',
-  learningPaths: 'Learning Paths',
-  spaceBrowser: 'Space Browser',
-  grayBooks: '50 Gray Books',
-  mindsetTrapDiagnostic: 'Mindset Trap Diagnostic',
-  leadershipMindsetAssessment: 'Leadership Mindset Assessment',
-  thinkerProfile: 'Thinker Profile',
+  eventLens: '社会事件入口',
+  contentOps: '个人工作台',
+  capabilityPaths: '能力路径',
+  thoughtPartner: '思想伙伴',
+  roundtable: '圆桌工作流',
+  archetypeLab: '人格原型实验室',
+  problemLab: '卡点工作台',
+  learningPaths: '练习路线',
+  spaceBrowser: '书籍地图',
+  grayBooks: '书库账本',
+  mindsetTrapDiagnostic: '误区诊断',
+  leadershipMindsetAssessment: '心智评估',
+  thinkerProfile: '思想伙伴主页',
+  thinkerBrowser: '思想家系统',
+  sceneBrowser: '场景系统',
+  sceneDetail: '场景详情',
+  methodBrowser: '方法系统',
+  archetypeBrowser: '原型系统',
+  archetypeDialogue: '原型对话',
+  metaphorBrowser: '隐喻系统',
+  conceptBrowser: '概念系统',
+  archetypeContrast: '原型对照',
 }
 
 const footerSite = computed(() => currentBookData.value?.SITE || registry.value.site)
@@ -390,13 +576,29 @@ const hasBookContext = computed(() => Boolean(currentBookData.value))
 const hasTopicContext = computed(() => Boolean(currentTopicData.value))
 const hasToolContext = computed(() => Boolean(toolViewLabels[view.value]))
 const sidebarVisible = computed(() => hasBookContext.value)
+const experienceStepId = computed(() => ({
+  sceneHub: 'situation',
+  problemLab: 'stuck',
+  thoughtPartner: 'partner',
+  roundtable: 'partner',
+  archetypeLab: 'partner',
+  thinkerBrowser: 'partner',
+  sceneBrowser: 'partner',
+  methodBrowser: 'partner',
+  archetypeBrowser: 'partner',
+  metaphorBrowser: 'partner',
+  conceptBrowser: 'partner',
+  learningPaths: 'route',
+  spaceBrowser: 'atlas',
+}[view.value] || ''))
+const experienceFlowVisible = computed(() => Boolean(experienceStepId.value) && !routeLoading.value && !routeError.value)
 const resolvedSearchScope = computed(() => {
   if (!hasBookContext.value) return 'global'
   return searchScope.value === 'global' ? 'global' : 'context'
 })
 const searchPlaceholder = computed(() => {
   if (resolvedSearchScope.value === 'global') {
-    return registry.value.site?.searchPlaceholder || 'Search across books, tools, and topics'
+    return registry.value.site?.searchPlaceholder || '搜索书、工具和专题'
   }
   return currentBookData.value?.SITE?.searchPlaceholder || 'Search inside the current context'
 })
@@ -411,7 +613,8 @@ const searchEmptyText = computed(() => {
 const brandKicker = computed(() => {
   if (hasBookContext.value) return currentBookData.value?.SITE?.creatorLabel || 'Book Site'
   if (hasTopicContext.value) return currentTopicData.value?.phaseLabel || 'Cross-book Topic'
-  if (hasToolContext.value) return 'Product Experiment'
+  if (view.value === 'sceneHub') return '人生处境地图'
+  if (hasToolContext.value) return '工具路径'
   return registry.value.site?.creatorLabel || 'Knowledge Library'
 })
 const brandName = computed(() => {
@@ -421,9 +624,61 @@ const brandName = computed(() => {
   if (hasTopicContext.value) {
     return currentTopicData.value?.shortTitle || currentTopicData.value?.title || 'Topic'
   }
+  if (view.value === 'sceneHub') return '处境地图'
   if (hasToolContext.value) return toolViewLabels[view.value]
   return registry.value.site?.shortTitle || registry.value.site?.title || 'Knowledge Library'
 })
+
+const activeNodeContext = computed(() => {
+  if (!activeNode.value) return null
+  const nodes = currentBookData.value?.NODES || []
+  const node = nodes.find((item) => item.id === activeNode.value || item.nodeId === activeNode.value)
+  return {
+    id: activeNode.value,
+    title: node?.title || node?.label || node?.name || activeNode.value,
+    type: node?.type || node?.kind || '',
+  }
+})
+
+const codexPageContext = computed(() => ({
+  view: view.value,
+  viewLabel: brandName.value,
+  brandKicker: brandKicker.value,
+  path: window.location.pathname + window.location.search,
+  tool: hasToolContext.value
+    ? {
+        id: view.value,
+        label: toolViewLabels[view.value],
+      }
+    : null,
+  book: currentBookData.value
+    ? {
+        slug: currentSlug.value,
+        title: currentBookData.value?.SITE?.title || currentBookData.value?.SITE?.shortTitle || currentSlug.value,
+        nodeCount: currentBookData.value?.NODES?.length || 0,
+      }
+    : null,
+  topic: currentTopicData.value
+    ? {
+        slug: currentTopicSlug.value,
+        title: currentTopicData.value?.title || currentTopicData.value?.shortTitle || currentTopicSlug.value,
+      }
+    : null,
+  activeNode: activeNodeContext.value,
+  routeState: {
+    currentSlug: currentSlug.value,
+    currentProblemCaseId: currentProblemCaseId.value,
+    currentLearningPathId: currentLearningPathId.value,
+    currentEventLensId: currentEventLensId.value,
+    currentCapabilityRoleId: currentCapabilityRoleId.value,
+    currentThinkerId: currentThinkerId.value,
+  },
+  registry: {
+    books: registry.value.books?.length || 0,
+    topics: registry.value.topics?.length || 0,
+    tools: registry.value.tools?.length || 0,
+  },
+}))
 
 const aliasesByNode = computed(() => groupAliasesByNode(currentBookData.value?.ALIAS_MAP || {}))
 
@@ -549,8 +804,29 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
   routeError.value = ''
 
   try {
+    if (route.view === 'sceneHub') {
+      currentSlug.value = ''
+      currentBookData.value = null
+      currentTopicSlug.value = ''
+      currentTopicData.value = null
+      currentThinkerId.value = ''
+      currentLearningPathId.value = ''
+      currentProblemCaseId.value = ''
+      currentEventLensId.value = ''
+      currentCapabilityRoleId.value = ''
+      view.value = 'sceneHub'
+      activeNode.value = null
+      searchScope.value = 'global'
+      if (replaceHistory) {
+        window.history.replaceState({ view: 'sceneHub' }, '', routeToUrl('sceneHub', ''))
+      }
+      return
+    }
+
     if (
       route.view === 'thoughtPartner'
+      || route.view === 'roundtable'
+      || route.view === 'archetypeLab'
       || route.view === 'eventLens'
       || route.view === 'contentOps'
       || route.view === 'capabilityPaths'
@@ -559,6 +835,16 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       || route.view === 'grayBooks'
       || route.view === 'mindsetTrapDiagnostic'
       || route.view === 'leadershipMindsetAssessment'
+      || route.view === 'thinkerBrowser'
+      || route.view === 'sceneBrowser'
+      || route.view === 'methodBrowser'
+      || route.view === 'archetypeBrowser'
+      || route.view === 'archetypeContrast'
+      || route.view === 'archetypeDialogue'
+      || route.view === 'metaphorBrowser'
+      || route.view === 'conceptBrowser'
+      || route.view === 'spaceBrowser'
+      || route.view === 'admin'
     ) {
       currentSlug.value = ''
       currentBookData.value = null
@@ -589,6 +875,27 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
       currentEventLensId.value = ''
       currentCapabilityRoleId.value = ''
       view.value = 'thinkerProfile'
+      activeNode.value = null
+      searchScope.value = 'global'
+      if (replaceHistory) {
+        const nextUrl = routeToUrl(route.view, route.slug, null)
+        window.history.replaceState({ view: route.view, slug: route.slug, nodeId: null }, '', nextUrl)
+      }
+      return
+    }
+
+    if (route.view === 'sceneDetail') {
+      currentSlug.value = ''
+      currentBookData.value = null
+      currentTopicSlug.value = ''
+      currentTopicData.value = null
+      currentThinkerId.value = ''
+      currentLearningPathId.value = ''
+      currentProblemCaseId.value = ''
+      currentEventLensId.value = ''
+      currentCapabilityRoleId.value = ''
+      currentSceneId.value = route.slug
+      view.value = 'sceneDetail'
       activeNode.value = null
       searchScope.value = 'global'
       if (replaceHistory) {
@@ -683,11 +990,24 @@ async function applyRoute(route, { replaceHistory = false } = {}) {
   } finally {
     if (token === routeToken) {
       routeLoading.value = false
+      saveLastVisit(view.value, currentSlug.value)
     }
   }
 }
 
+function saveLastVisit(v, slug) {
+  if (typeof localStorage === 'undefined') return
+  try {
+    localStorage.setItem('redbook:last-visit', JSON.stringify({
+      view: v,
+      slug: slug || '',
+      at: Date.now(),
+    }))
+  } catch { /* ignore */ }
+}
+
 async function goToRoute(targetView, slug = '', nodeId = null, { replaceHistory = false } = {}) {
+  moreMenuOpen.value = false
   const nextUrl = routeToUrl(targetView, slug, nodeId)
   const currentUrl = window.location.pathname + window.location.search
   if (replaceHistory) {
@@ -712,11 +1032,18 @@ function onClickOutside(event) {
     searchFocused.value = false
     searchHighlight.value = -1
   }
+  if (moreMenuRef.value && !moreMenuRef.value.contains(event.target)) {
+    moreMenuOpen.value = false
+  }
+  if (userMenuRef.value && !userMenuRef.value.contains(event.target)) {
+    userMenuOpen.value = false
+  }
 }
 
 onMounted(async () => {
   document.addEventListener('mousedown', onClickOutside)
   window.addEventListener('popstate', onPopState)
+  await initAuth()
   registry.value = await loadRegistry()
   scheduleGlobalSearchWarmup()
   await applyRouteFromUrl(true)
@@ -727,67 +1054,191 @@ onUnmounted(() => {
   window.removeEventListener('popstate', onPopState)
 })
 
+async function goSceneHub() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('sceneHub', '')
+}
+
 async function goLibrary() {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('library', '')
 }
 
 async function goThoughtPartner() {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('thoughtPartner', '')
 }
 
+async function goRoundtable() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('roundtable', '')
+}
+
+async function goArchetypeLab() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('archetypeLab', '')
+}
+
+async function goThinkerBrowser() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('thinkerBrowser', '')
+}
+
+async function goSceneBrowser() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('sceneBrowser', '')
+}
+
+async function goArchetypeDialogue() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('archetypeDialogue', '')
+}
+
+async function goMethodBrowser() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('methodBrowser', '')
+}
+
+async function goArchetypeBrowser() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('archetypeBrowser', '')
+}
+
+async function goArchetypeContrast() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('archetypeContrast', '')
+}
+
+async function goMetaphorBrowser() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('metaphorBrowser', '')
+}
+
+async function goConceptBrowser() {
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('conceptBrowser', '')
+}
+
 async function goEventLens(presetId = '') {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('eventLens', presetId)
 }
 
 async function goContentOps() {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('contentOps', '')
 }
 
 async function goCapabilityPaths(roleId = '') {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('capabilityPaths', roleId)
 }
 
 async function goProblemLab(caseId = '') {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('problemLab', caseId)
 }
 
 async function goLearningPaths(pathId = '') {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('learningPaths', pathId)
 }
 
 async function goSpaceBrowser() {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('spaceBrowser', '')
 }
 
+async function goAdminPanel() {
+  userMenuOpen.value = false
+  moreMenuOpen.value = false
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('admin', '')
+}
+
+async function handleLogout() {
+  userMenuOpen.value = false
+  await signOut()
+}
+
+async function onExperienceNavigate(stepId) {
+  if (stepId === experienceStepId.value) return
+  if (stepId === 'situation') {
+    await goSceneHub()
+    return
+  }
+  if (stepId === 'stuck') {
+    await goProblemLab(currentProblemCaseId.value)
+    return
+  }
+  if (stepId === 'partner') {
+    await goThoughtPartner()
+    return
+  }
+  if (stepId === 'route') {
+    await goLearningPaths(currentLearningPathId.value)
+    return
+  }
+  if (stepId === 'atlas') {
+    await goSpaceBrowser()
+  }
+}
+
 async function goGrayBooks() {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('grayBooks', '')
 }
 
 async function goMindsetTrapDiagnostic() {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('mindsetTrapDiagnostic', '')
 }
 
 async function goLeadershipMindsetAssessment() {
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('leadershipMindsetAssessment', '')
@@ -800,8 +1251,20 @@ async function onOpenThinker(thinkerId) {
   await goToRoute('thinkerProfile', thinkerId)
 }
 
+async function onSelectThinker(thinkerId) {
+  await onOpenThinker(thinkerId)
+}
+
+async function onSelectScene(sceneId) {
+  if (!sceneId) return
+  historyStack.value = []
+  clearSearch()
+  await goToRoute('sceneDetail', sceneId)
+}
+
 async function goBookHome(slug) {
   if (!slug) return
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('home', slug)
@@ -809,12 +1272,14 @@ async function goBookHome(slug) {
 
 async function goTopicHome(slug) {
   if (!slug) return
+  moreMenuOpen.value = false
   historyStack.value = []
   clearSearch()
   await goToRoute('topic', slug)
 }
 
 async function goBrandHome() {
+  moreMenuOpen.value = false
   if (currentSlug.value) {
     await goBookHome(currentSlug.value)
     return
@@ -823,7 +1288,7 @@ async function goBrandHome() {
     await goTopicHome(currentTopicSlug.value)
     return
   }
-  await goLibrary()
+  await goSceneHub()
 }
 
 async function onOpenBook(slug) {
@@ -837,6 +1302,18 @@ async function onOpenTopic(slug) {
 async function onOpenTool(slug) {
   if (slug === 'thought-partner') {
     await goThoughtPartner()
+    return
+  }
+    if (slug === 'roundtable') {
+      await goRoundtable()
+      return
+    }
+    if (slug === 'archetype-lab') {
+      await goArchetypeLab()
+      return
+    }
+    if (slug === 'life-scenes') {
+      await goSceneHub()
     return
   }
   if (slug === 'event-lens') {
@@ -873,6 +1350,39 @@ async function onOpenTool(slug) {
   }
   if (slug === 'leadership-mindset-assessment') {
     await goLeadershipMindsetAssessment()
+    return
+  }
+  if (slug === 'thinkers') {
+    await goThinkerBrowser()
+    return
+  }
+  if (slug === 'scenes') {
+    await goSceneBrowser()
+    return
+  }
+  if (slug === 'methods') {
+    await goMethodBrowser()
+    return
+  }
+  if (slug === 'archetypes') {
+    await goArchetypeBrowser()
+    return
+  }
+  if (slug === 'archetype-contrast') {
+    await goArchetypeContrast()
+    return
+  }
+  if (slug === 'archetype-dialogue') {
+    await goArchetypeDialogue()
+    return
+  }
+  if (slug === 'metaphors') {
+    await goMetaphorBrowser()
+    return
+  }
+  if (slug === 'concepts') {
+    await goConceptBrowser()
+    return
   }
 }
 
@@ -1109,6 +1619,7 @@ body {
 .brand {
   display: flex;
   flex-direction: column;
+  flex: 0 0 auto;
   cursor: pointer;
   min-width: 0;
 }
@@ -1125,6 +1636,7 @@ body {
   font-size: 18px;
   line-height: 1.1;
   color: var(--text-primary);
+  white-space: nowrap;
 }
 
 .nav-tabs {
@@ -1133,15 +1645,28 @@ body {
   gap: 4px;
   margin-left: 6px;
   min-width: 0;
+  flex: 1 1 auto;
+  overflow: visible;
+}
+
+.sys-btn {
+  color: var(--text-tertiary);
+  font-size: 0.8rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-default);
+  background: var(--bg-subtle);
 }
 
 .nav-btn {
+  flex: 0 0 auto;
   border: none;
   background: transparent;
   color: var(--text-tertiary);
   padding: 8px 12px;
   border-radius: var(--radius-pill);
   font-size: 13px;
+  white-space: nowrap;
   cursor: pointer;
   transition: color 0.18s ease, background 0.18s ease;
 }
@@ -1154,6 +1679,68 @@ body {
 .nav-btn.active {
   color: var(--brand);
   background: var(--brand-soft);
+}
+
+.more-menu {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.more-btn {
+  border: 1px solid transparent;
+}
+
+.more-menu-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 30;
+  min-width: 160px;
+  padding: 6px;
+  border: 1px solid var(--border-default);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: var(--shadow-lg);
+}
+
+.more-menu-item {
+  display: block;
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.more-menu-item:hover,
+.more-menu-item.active {
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+.more-group-label {
+  padding: 6px 10px 2px;
+  font-size: 10px;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.more-divider {
+  height: 1px;
+  margin: 4px 8px;
+  background: var(--border-subtle);
+}
+
+.nav-btn svg {
+  transition: transform 0.2s ease;
+}
+
+.nav-btn svg.rotated {
+  transform: rotate(180deg);
 }
 
 .topbar-right {
@@ -1297,6 +1884,146 @@ body {
   white-space: nowrap;
 }
 
+.login-entry-btn {
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  color: var(--brand);
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.18s, border-color 0.18s;
+}
+
+.login-entry-btn:hover {
+  background: var(--brand-soft);
+  border-color: rgba(32, 79, 103, 0.24);
+}
+
+.login-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(12, 21, 28, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.login-modal-card {
+  position: relative;
+  background: var(--bg-elevated);
+  border-radius: 20px;
+  box-shadow: 0 24px 64px rgba(17, 27, 34, 0.16);
+}
+
+.login-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border-default);
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.18s, border-color 0.18s;
+}
+
+.login-modal-close:hover {
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+}
+
+.user-menu {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.user-avatar-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--border-default);
+  background: var(--brand);
+  color: var(--text-on-dark);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.18s;
+}
+
+.user-avatar-btn:hover {
+  opacity: 0.85;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 30;
+  min-width: 170px;
+  padding: 6px;
+  border: 1px solid var(--border-default);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: var(--shadow-md);
+}
+
+.user-dropdown-header {
+  padding: 8px 10px 6px;
+  border-bottom: 1px solid var(--border-subtle);
+  margin-bottom: 4px;
+}
+
+.user-email {
+  display: block;
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+.user-role {
+  display: block;
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.user-dropdown-item {
+  display: block;
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.user-dropdown-item:hover {
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+.user-dropdown-item.danger:hover {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
 .main {
   flex: 1;
   min-height: 0;
@@ -1425,12 +2152,8 @@ body {
 
   .nav-tabs {
     flex: 1;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .nav-tabs::-webkit-scrollbar {
-    display: none;
+    overflow: visible;
+    flex-wrap: wrap;
   }
 
   .nav-btn {

@@ -1,0 +1,3093 @@
+{
+  "schema": "BookExpansionGrayManifest.v0.1",
+  "generatedAt": "2026-04-30",
+  "target": {
+    "mode": "50_book_gray_candidate_pool",
+    "targetCount": 50,
+    "selectedCount": 50,
+    "existingSiteBookCount": 16
+  },
+  "selectionPolicy": {
+    "qualityGate": "Only records with status == 可保留 are eligible.",
+    "assetGate": "Requires structured_json plus K/N evidence from a K/N table or structured card fields.",
+    "publicationGate": "Raw vault content must not be public until rewritten with vault内容对外改写提示词.md.",
+    "slugGate": "Public slugs remain manual; workingId is only for internal gray tracking."
+  },
+  "summary": {
+    "passedQualityRecords": 93,
+    "candidateCountAfterGates": 50,
+    "booksNeedingPublicRewrite": 0,
+    "booksReadyForRawPublicVault": 0,
+    "promotedLightweightBooks": 5,
+    "promotedFullNkBooks": 5,
+    "publicStructuredNkBooks": 45,
+    "basePublicBooks": 50
+  },
+  "books": [
+    {
+      "slot": 1,
+      "workingId": "gray-001-fb557939",
+      "title": "好好思考",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/好好思考",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_full_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/好好思考/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/好好思考/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/好好思考/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/好好思考/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/好好思考/assets/视觉钩子.md",
+        "knTable": "",
+        "nkEvidence": [
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 13,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 5
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "promoted_full_nk_book",
+        "publicVaultLayer": "public_structured_cards_ready"
+      },
+      "publicRewrite": {
+        "status": "promoted_full_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "structured_assets_imported",
+        "siteSlug": "good-thinking",
+        "sitePath": "/books/good-thinking"
+      },
+      "publicSlug": "good-thinking"
+    },
+    {
+      "slot": 2,
+      "workingId": "gray-002-4a5f7268",
+      "title": "模型思维",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/模型思维",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_full_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/模型思维/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/模型思维/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/模型思维/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/模型思维/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/模型思维/assets/视觉钩子.md",
+        "knTable": "",
+        "nkEvidence": [
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 11,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 5
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "promoted_full_nk_book",
+        "publicVaultLayer": "public_structured_cards_ready"
+      },
+      "publicRewrite": {
+        "status": "promoted_full_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "structured_assets_imported",
+        "siteSlug": "model-thinking",
+        "sitePath": "/books/model-thinking"
+      },
+      "publicSlug": "model-thinking"
+    },
+    {
+      "slot": 3,
+      "workingId": "gray-003-63d2f5ab",
+      "title": "思考，快与慢",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/思考，快与慢",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_full_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/思考，快与慢/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/思考，快与慢/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/思考，快与慢/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/思考，快与慢/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/思考，快与慢/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/01_认知决策与系统思考/思考，快与慢/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 15,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 8
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "promoted_full_nk_book",
+        "publicVaultLayer": "public_structured_cards_ready"
+      },
+      "publicRewrite": {
+        "status": "promoted_full_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "structured_assets_imported",
+        "siteSlug": "thinking-fast-and-slow",
+        "sitePath": "/books/thinking-fast-and-slow"
+      },
+      "publicSlug": "thinking-fast-and-slow"
+    },
+    {
+      "slot": 4,
+      "workingId": "gray-004-a1a4ef0e",
+      "title": "非暴力沟通",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/非暴力沟通",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_full_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/非暴力沟通/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/非暴力沟通/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/非暴力沟通/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/非暴力沟通/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/非暴力沟通/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/非暴力沟通/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "promoted_full_nk_book",
+        "publicVaultLayer": "public_structured_cards_ready"
+      },
+      "publicRewrite": {
+        "status": "promoted_full_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "structured_assets_imported",
+        "siteSlug": "nonviolent-communication",
+        "sitePath": "/books/nonviolent-communication"
+      },
+      "publicSlug": "nonviolent-communication"
+    },
+    {
+      "slot": 5,
+      "workingId": "gray-005-7529e060",
+      "title": "卡片笔记写作法  如何实现从阅读到写作",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/卡片笔记写作法  如何实现从阅读到写作",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_full_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/卡片笔记写作法  如何实现从阅读到写作/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/卡片笔记写作法  如何实现从阅读到写作/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/卡片笔记写作法  如何实现从阅读到写作/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/卡片笔记写作法  如何实现从阅读到写作/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/卡片笔记写作法  如何实现从阅读到写作/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/卡片笔记写作法  如何实现从阅读到写作/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "promoted_full_nk_book",
+        "publicVaultLayer": "public_structured_cards_ready"
+      },
+      "publicRewrite": {
+        "status": "promoted_full_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "structured_assets_imported",
+        "siteSlug": "smart-notes",
+        "sitePath": "/books/smart-notes"
+      },
+      "publicSlug": "smart-notes"
+    },
+    {
+      "slot": 6,
+      "workingId": "gray-006-198ef10a",
+      "title": "打造第二大脑",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/打造第二大脑",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/打造第二大脑/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/打造第二大脑/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/打造第二大脑/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/打造第二大脑/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/打造第二大脑/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/打造第二大脑/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 6,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "second-brain",
+        "sitePath": "/books/second-brain"
+      },
+      "publicSlug": "second-brain",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/second-brain"
+      }
+    },
+    {
+      "slot": 7,
+      "workingId": "gray-007-0b3ebb28",
+      "title": "笔记的方法",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/笔记的方法",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/笔记的方法/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/笔记的方法/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/笔记的方法/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/笔记的方法/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/笔记的方法/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/笔记的方法/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "note-method",
+        "sitePath": "/books/note-method"
+      },
+      "publicSlug": "note-method",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/note-method"
+      }
+    },
+    {
+      "slot": 8,
+      "workingId": "gray-008-b710bb2f",
+      "title": "如何阅读一本书",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/如何阅读一本书",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/如何阅读一本书/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/如何阅读一本书/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/如何阅读一本书/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/如何阅读一本书/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/如何阅读一本书/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/如何阅读一本书/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "how-to-read-a-book",
+        "sitePath": "/books/how-to-read-a-book"
+      },
+      "publicSlug": "how-to-read-a-book",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/how-to-read-a-book"
+      }
+    },
+    {
+      "slot": 9,
+      "workingId": "gray-009-0c895cde",
+      "title": "好好学习：个人知识管理精进指南",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/好好学习：个人知识管理精进指南",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/好好学习：个人知识管理精进指南/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/好好学习：个人知识管理精进指南/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/好好学习：个人知识管理精进指南/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/好好学习：个人知识管理精进指南/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/好好学习：个人知识管理精进指南/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/好好学习：个人知识管理精进指南/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "good-learning",
+        "sitePath": "/books/good-learning"
+      },
+      "publicSlug": "good-learning",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/good-learning"
+      }
+    },
+    {
+      "slot": 10,
+      "workingId": "gray-010-adcb54cc",
+      "title": "深度工作：如何有效使用每一点脑力",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/深度工作：如何有效使用每一点脑力",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/深度工作：如何有效使用每一点脑力/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/深度工作：如何有效使用每一点脑力/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/深度工作：如何有效使用每一点脑力/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/深度工作：如何有效使用每一点脑力/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/深度工作：如何有效使用每一点脑力/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/深度工作：如何有效使用每一点脑力/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 9,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 10
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "deep-work",
+        "sitePath": "/books/deep-work"
+      },
+      "publicSlug": "deep-work",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/deep-work"
+      }
+    },
+    {
+      "slot": 11,
+      "workingId": "gray-011-3cd4b2fd",
+      "title": "学会提问（原书第10版）",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/学会提问（原书第10版）",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/学会提问（原书第10版）/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/学会提问（原书第10版）/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/学会提问（原书第10版）/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/学会提问（原书第10版）/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/学会提问（原书第10版）/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/01_认知决策与系统思考/学会提问（原书第10版）/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 8,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 4
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "asking-right-questions",
+        "sitePath": "/books/asking-right-questions"
+      },
+      "publicSlug": "asking-right-questions",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/asking-right-questions"
+      }
+    },
+    {
+      "slot": 12,
+      "workingId": "gray-012-0aa92157",
+      "title": "系统之美",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/系统之美",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/系统之美/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/系统之美/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/系统之美/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/系统之美/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/系统之美/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/01_认知决策与系统思考/系统之美/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 8,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 7
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "thinking-in-systems",
+        "sitePath": "/books/thinking-in-systems"
+      },
+      "publicSlug": "thinking-in-systems",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/thinking-in-systems"
+      }
+    },
+    {
+      "slot": 13,
+      "workingId": "gray-013-52bcbde7",
+      "title": "高难度谈话",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/高难度谈话",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/高难度谈话/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/高难度谈话/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/高难度谈话/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/高难度谈话/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/高难度谈话/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/高难度谈话/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 8,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 8
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "difficult-conversations",
+        "sitePath": "/books/difficult-conversations"
+      },
+      "publicSlug": "difficult-conversations",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/difficult-conversations"
+      }
+    },
+    {
+      "slot": 14,
+      "workingId": "gray-014-8d1f8ef7",
+      "title": "沟通的方法",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/沟通的方法/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 3,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "communication-method",
+        "sitePath": "/books/communication-method"
+      },
+      "publicSlug": "communication-method",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/communication-method"
+      }
+    },
+    {
+      "slot": 15,
+      "workingId": "gray-015-89ef2bc6",
+      "title": "金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/金字塔原理 思考、表達和解決問題的邏輯 (繁體中文) ((美)/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "pyramid-principle",
+        "sitePath": "/books/pyramid-principle"
+      },
+      "publicSlug": "pyramid-principle",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/pyramid-principle"
+      }
+    },
+    {
+      "slot": 16,
+      "workingId": "gray-016-aaa3b27b",
+      "title": "关于说话的一切",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/关于说话的一切",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/关于说话的一切/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/关于说话的一切/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/关于说话的一切/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/关于说话的一切/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/关于说话的一切/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/关于说话的一切/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "everything-about-speaking",
+        "sitePath": "/books/everything-about-speaking"
+      },
+      "publicSlug": "everything-about-speaking",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/everything-about-speaking"
+      }
+    },
+    {
+      "slot": 17,
+      "workingId": "gray-017-dd9fdf2d",
+      "title": "你为什么不道歉",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/你为什么不道歉",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/你为什么不道歉/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/你为什么不道歉/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/你为什么不道歉/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/你为什么不道歉/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/你为什么不道歉/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/你为什么不道歉/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 6,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "why-wont-you-apologize",
+        "sitePath": "/books/why-wont-you-apologize"
+      },
+      "publicSlug": "why-wont-you-apologize",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/why-wont-you-apologize"
+      }
+    },
+    {
+      "slot": 18,
+      "workingId": "gray-018-0643cf88",
+      "title": "旅行的艺术",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/旅行的艺术",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/旅行的艺术/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/旅行的艺术/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/旅行的艺术/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/旅行的艺术/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/旅行的艺术/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/04_心理疗愈与自我探索/旅行的艺术/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 9
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "art-of-travel",
+        "sitePath": "/books/art-of-travel"
+      },
+      "publicSlug": "art-of-travel",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/art-of-travel"
+      }
+    },
+    {
+      "slot": 19,
+      "workingId": "gray-019-d80c2d7c",
+      "title": "身份的焦虑",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/身份的焦虑",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/身份的焦虑/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/身份的焦虑/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/身份的焦虑/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/身份的焦虑/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/身份的焦虑/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/04_心理疗愈与自我探索/身份的焦虑/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 10
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "status-anxiety",
+        "sitePath": "/books/status-anxiety"
+      },
+      "publicSlug": "status-anxiety",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/status-anxiety"
+      }
+    },
+    {
+      "slot": 20,
+      "workingId": "gray-020-1553ae65",
+      "title": "新闻的骚动",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/新闻的骚动",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/新闻的骚动/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/新闻的骚动/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/新闻的骚动/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/新闻的骚动/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/新闻的骚动/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/04_心理疗愈与自我探索/新闻的骚动/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 4,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 5
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "news-disquiet",
+        "sitePath": "/books/news-disquiet"
+      },
+      "publicSlug": "news-disquiet",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/news-disquiet"
+      }
+    },
+    {
+      "slot": 21,
+      "workingId": "gray-021-0dbd7d47",
+      "title": "幸福的建筑",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/幸福的建筑",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/幸福的建筑/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/幸福的建筑/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/幸福的建筑/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/幸福的建筑/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/幸福的建筑/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/04_心理疗愈与自我探索/幸福的建筑/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 4,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 5
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "architecture-of-happiness",
+        "sitePath": "/books/architecture-of-happiness"
+      },
+      "publicSlug": "architecture-of-happiness",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/architecture-of-happiness"
+      }
+    },
+    {
+      "slot": 22,
+      "workingId": "gray-022-1cc89050",
+      "title": "观看之道",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/观看之道",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/观看之道/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/观看之道/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/观看之道/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/观看之道/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/观看之道/assets/视觉钩子.md",
+        "knTable": "",
+        "nkEvidence": [
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 7
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "ways-of-seeing",
+        "sitePath": "/books/ways-of-seeing"
+      },
+      "publicSlug": "ways-of-seeing",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/ways-of-seeing"
+      }
+    },
+    {
+      "slot": 23,
+      "workingId": "gray-023-82533da5",
+      "title": "空间的诗学",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/空间的诗学",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/空间的诗学/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/空间的诗学/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/空间的诗学/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/空间的诗学/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/空间的诗学/assets/视觉钩子.md",
+        "knTable": "",
+        "nkEvidence": [
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 10
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "poetics-of-space",
+        "sitePath": "/books/poetics-of-space"
+      },
+      "publicSlug": "poetics-of-space",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/poetics-of-space"
+      }
+    },
+    {
+      "slot": 24,
+      "workingId": "gray-024-ef577adf",
+      "title": "逃避自由",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/逃避自由",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/逃避自由/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/逃避自由/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/逃避自由/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/逃避自由/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/逃避自由/assets/视觉钩子.md",
+        "knTable": "",
+        "nkEvidence": [
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 5
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "escape-from-freedom",
+        "sitePath": "/books/escape-from-freedom"
+      },
+      "publicSlug": "escape-from-freedom",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/escape-from-freedom"
+      }
+    },
+    {
+      "slot": 25,
+      "workingId": "gray-025-85f87222",
+      "title": "日常生活中的自我呈现",
+      "sourceBookDir": "01_sources/01_books/04_心理疗愈与自我探索/日常生活中的自我呈现",
+      "primaryCategory": "04_心理疗愈与自我探索",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/04_心理疗愈与自我探索/日常生活中的自我呈现/assets",
+        "structuredJson": "01_sources/01_books/04_心理疗愈与自我探索/日常生活中的自我呈现/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/日常生活中的自我呈现/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/日常生活中的自我呈现/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/04_心理疗愈与自我探索/日常生活中的自我呈现/assets/视觉钩子.md",
+        "knTable": "",
+        "nkEvidence": [
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "presentation-of-self",
+        "sitePath": "/books/presentation-of-self"
+      },
+      "publicSlug": "presentation-of-self",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/presentation-of-self"
+      }
+    },
+    {
+      "slot": 26,
+      "workingId": "gray-026-7391f02c",
+      "title": "话术精进指南（全五册）",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/话术精进指南（全五册）",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/话术精进指南（全五册）/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/话术精进指南（全五册）/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/话术精进指南（全五册）/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/话术精进指南（全五册）/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/话术精进指南（全五册）/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/话术精进指南（全五册）/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 3,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 3
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "speechcraft-guide",
+        "sitePath": "/books/speechcraft-guide"
+      },
+      "publicSlug": "speechcraft-guide",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/speechcraft-guide"
+      }
+    },
+    {
+      "slot": 27,
+      "workingId": "gray-027-11571d56",
+      "title": "道歉的五种语言",
+      "sourceBookDir": "01_sources/01_books/02_沟通表达与关系对话/道歉的五种语言",
+      "primaryCategory": "02_沟通表达与关系对话",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/02_沟通表达与关系对话/道歉的五种语言/assets",
+        "structuredJson": "01_sources/01_books/02_沟通表达与关系对话/道歉的五种语言/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/02_沟通表达与关系对话/道歉的五种语言/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/02_沟通表达与关系对话/道歉的五种语言/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/02_沟通表达与关系对话/道歉的五种语言/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/02_沟通表达与关系对话/道歉的五种语言/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "five-languages-of-apology",
+        "sitePath": "/books/five-languages-of-apology"
+      },
+      "publicSlug": "five-languages-of-apology",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/five-languages-of-apology"
+      }
+    },
+    {
+      "slot": 28,
+      "workingId": "gray-028-5b1126e0",
+      "title": "人生十二法则",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/人生十二法则",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/人生十二法则/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/人生十二法则/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/人生十二法则/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/人生十二法则/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/人生十二法则/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/人生十二法则/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 3,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "twelve-rules-for-life",
+        "sitePath": "/books/twelve-rules-for-life"
+      },
+      "publicSlug": "twelve-rules-for-life",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/twelve-rules-for-life"
+      }
+    },
+    {
+      "slot": 29,
+      "workingId": "gray-029-a3e51beb",
+      "title": "人生精进三部曲：深度思考+终身学习+内在成长",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/人生精进三部曲：深度思考+终身学习+内在成长",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/人生精进三部曲：深度思考+终身学习+内在成长/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/人生精进三部曲：深度思考+终身学习+内在成长/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/人生精进三部曲：深度思考+终身学习+内在成长/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/人生精进三部曲：深度思考+终身学习+内在成长/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/人生精进三部曲：深度思考+终身学习+内在成长/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/人生精进三部曲：深度思考+终身学习+内在成长/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "life-mastery-trilogy",
+        "sitePath": "/books/life-mastery-trilogy"
+      },
+      "publicSlug": "life-mastery-trilogy",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/life-mastery-trilogy"
+      }
+    },
+    {
+      "slot": 30,
+      "workingId": "gray-030-b36f6fe2",
+      "title": "你一年的8760小时：升级版",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/你一年的8760小时：升级版",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/你一年的8760小时：升级版/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/你一年的8760小时：升级版/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/你一年的8760小时：升级版/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/你一年的8760小时：升级版/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/你一年的8760小时：升级版/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/你一年的8760小时：升级版/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 3,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "eight-thousand-hours",
+        "sitePath": "/books/eight-thousand-hours"
+      },
+      "publicSlug": "eight-thousand-hours",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/eight-thousand-hours"
+      }
+    },
+    {
+      "slot": 31,
+      "workingId": "gray-031-78fd3327",
+      "title": "你骨子里是个牛人",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/你骨子里是个牛人",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/你骨子里是个牛人/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/你骨子里是个牛人/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/你骨子里是个牛人/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/你骨子里是个牛人/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/你骨子里是个牛人/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/你骨子里是个牛人/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "inner-winner",
+        "sitePath": "/books/inner-winner"
+      },
+      "publicSlug": "inner-winner",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/inner-winner"
+      }
+    },
+    {
+      "slot": 32,
+      "workingId": "gray-032-bcb36f71",
+      "title": "刻意练习：如何从新手到大师 ( etc.)",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/刻意练习：如何从新手到大师 ( etc.)",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/刻意练习：如何从新手到大师 ( etc.)/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/刻意练习：如何从新手到大师 ( etc.)/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/刻意练习：如何从新手到大师 ( etc.)/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/刻意练习：如何从新手到大师 ( etc.)/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/刻意练习：如何从新手到大师 ( etc.)/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/刻意练习：如何从新手到大师 ( etc.)/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 9,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 9
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "deliberate-practice",
+        "sitePath": "/books/deliberate-practice"
+      },
+      "publicSlug": "deliberate-practice",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/deliberate-practice"
+      }
+    },
+    {
+      "slot": 33,
+      "workingId": "gray-033-bbe399b8",
+      "title": "如何有效阅读一本书：超实用笔记读书法",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/如何有效阅读一本书：超实用笔记读书法",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/如何有效阅读一本书：超实用笔记读书法/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/如何有效阅读一本书：超实用笔记读书法/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/如何有效阅读一本书：超实用笔记读书法/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/如何有效阅读一本书：超实用笔记读书法/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/如何有效阅读一本书：超实用笔记读书法/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/如何有效阅读一本书：超实用笔记读书法/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 5,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 5
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "effective-reading-notes",
+        "sitePath": "/books/effective-reading-notes"
+      },
+      "publicSlug": "effective-reading-notes",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/effective-reading-notes"
+      }
+    },
+    {
+      "slot": 34,
+      "workingId": "gray-034-d9c438f0",
+      "title": "微习惯：简单到不可能失败的自我管理法则",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/微习惯：简单到不可能失败的自我管理法则",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/微习惯：简单到不可能失败的自我管理法则/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/微习惯：简单到不可能失败的自我管理法则/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/微习惯：简单到不可能失败的自我管理法则/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/微习惯：简单到不可能失败的自我管理法则/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/微习惯：简单到不可能失败的自我管理法则/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/微习惯：简单到不可能失败的自我管理法则/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "mini-habits",
+        "sitePath": "/books/mini-habits"
+      },
+      "publicSlug": "mini-habits",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/mini-habits"
+      }
+    },
+    {
+      "slot": 35,
+      "workingId": "gray-035-7652b8bc",
+      "title": "把时间当作朋友 (李笑来)",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/把时间当作朋友 (李笑来)",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/把时间当作朋友 (李笑来)/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/把时间当作朋友 (李笑来)/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/把时间当作朋友 (李笑来)/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/把时间当作朋友 (李笑来)/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/把时间当作朋友 (李笑来)/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/把时间当作朋友 (李笑来)/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "time-as-friend",
+        "sitePath": "/books/time-as-friend"
+      },
+      "publicSlug": "time-as-friend",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/time-as-friend"
+      }
+    },
+    {
+      "slot": 36,
+      "workingId": "gray-036-249e2c80",
+      "title": "框架思维",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/框架思维",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/框架思维/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/框架思维/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/框架思维/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/框架思维/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/框架思维/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/框架思维/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "frame-thinking",
+        "sitePath": "/books/frame-thinking"
+      },
+      "publicSlug": "frame-thinking",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/frame-thinking"
+      }
+    },
+    {
+      "slot": 37,
+      "workingId": "gray-037-c83a4ed8",
+      "title": "游戏，让学习成瘾",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/游戏，让学习成瘾",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/游戏，让学习成瘾/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/游戏，让学习成瘾/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/游戏，让学习成瘾/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/游戏，让学习成瘾/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/游戏，让学习成瘾/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/游戏，让学习成瘾/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "gameful-learning",
+        "sitePath": "/books/gameful-learning"
+      },
+      "publicSlug": "gameful-learning",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/gameful-learning"
+      }
+    },
+    {
+      "slot": 38,
+      "workingId": "gray-038-0e363c16",
+      "title": "福格行为模型",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/福格行为模型",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/福格行为模型/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/福格行为模型/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/福格行为模型/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/福格行为模型/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/福格行为模型/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/福格行为模型/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 3,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "fogg-behavior-model",
+        "sitePath": "/books/fogg-behavior-model"
+      },
+      "publicSlug": "fogg-behavior-model",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/fogg-behavior-model"
+      }
+    },
+    {
+      "slot": 39,
+      "workingId": "gray-039-eda35e73",
+      "title": "穷查理宝典",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/穷查理宝典",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/穷查理宝典/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/穷查理宝典/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/穷查理宝典/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/穷查理宝典/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/穷查理宝典/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/穷查理宝典/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 7,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 9
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "poor-charlies-almanack",
+        "sitePath": "/books/poor-charlies-almanack"
+      },
+      "publicSlug": "poor-charlies-almanack",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/poor-charlies-almanack"
+      }
+    },
+    {
+      "slot": 40,
+      "workingId": "gray-040-24bb23a1",
+      "title": "精进：如何成为一个很厉害的人",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/精进：如何成为一个很厉害的人",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/精进：如何成为一个很厉害的人/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/精进：如何成为一个很厉害的人/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/精进：如何成为一个很厉害的人/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/精进：如何成为一个很厉害的人/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/精进：如何成为一个很厉害的人/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/精进：如何成为一个很厉害的人/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "refinement",
+        "sitePath": "/books/refinement"
+      },
+      "publicSlug": "refinement",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/refinement"
+      }
+    },
+    {
+      "slot": 41,
+      "workingId": "gray-041-99435204",
+      "title": "终身学习：10个你必须掌握的未来生存法则",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/终身学习：10个你必须掌握的未来生存法则",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/终身学习：10个你必须掌握的未来生存法则/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/终身学习：10个你必须掌握的未来生存法则/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/终身学习：10个你必须掌握的未来生存法则/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/终身学习：10个你必须掌握的未来生存法则/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/终身学习：10个你必须掌握的未来生存法则/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/终身学习：10个你必须掌握的未来生存法则/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 3,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "lifelong-learning",
+        "sitePath": "/books/lifelong-learning"
+      },
+      "publicSlug": "lifelong-learning",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/lifelong-learning"
+      }
+    },
+    {
+      "slot": 42,
+      "workingId": "gray-042-dab33db8",
+      "title": "职场精进+11本)",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/职场精进+11本)",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/职场精进+11本)/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/职场精进+11本)/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/职场精进+11本)/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/职场精进+11本)/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/职场精进+11本)/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/职场精进+11本)/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "workplace-mastery",
+        "sitePath": "/books/workplace-mastery"
+      },
+      "publicSlug": "workplace-mastery",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/workplace-mastery"
+      }
+    },
+    {
+      "slot": 43,
+      "workingId": "gray-043-96c03899",
+      "title": "认知觉醒：开启自我改变的原动力",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/认知觉醒：开启自我改变的原动力",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/认知觉醒：开启自我改变的原动力/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/认知觉醒：开启自我改变的原动力/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/认知觉醒：开启自我改变的原动力/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/认知觉醒：开启自我改变的原动力/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/认知觉醒：开启自我改变的原动力/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/认知觉醒：开启自我改变的原动力/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 4
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "cognitive-awakening",
+        "sitePath": "/books/cognitive-awakening"
+      },
+      "publicSlug": "cognitive-awakening",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/cognitive-awakening"
+      }
+    },
+    {
+      "slot": 44,
+      "workingId": "gray-044-7c251251",
+      "title": "负负得正的人生奥义书",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/负负得正的人生奥义书",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/负负得正的人生奥义书/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/负负得正的人生奥义书/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/负负得正的人生奥义书/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/负负得正的人生奥义书/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/负负得正的人生奥义书/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/负负得正的人生奥义书/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 3,
+          "coreConcepts": 3,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "negative-positive-life",
+        "sitePath": "/books/negative-positive-life"
+      },
+      "publicSlug": "negative-positive-life",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/negative-positive-life"
+      }
+    },
+    {
+      "slot": 45,
+      "workingId": "gray-045-6c25a597",
+      "title": "这样读书就够了",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/这样读书就够了",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/这样读书就够了/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/这样读书就够了/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/这样读书就够了/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/这样读书就够了/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/这样读书就够了/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/这样读书就够了/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "reading-is-enough",
+        "sitePath": "/books/reading-is-enough"
+      },
+      "publicSlug": "reading-is-enough",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/reading-is-enough"
+      }
+    },
+    {
+      "slot": 46,
+      "workingId": "gray-046-f7c9c028",
+      "title": "高效能人士的七个习惯 (30周年纪念版)",
+      "sourceBookDir": "01_sources/01_books/06_学习成长与习惯方法/高效能人士的七个习惯 (30周年纪念版)",
+      "primaryCategory": "06_学习成长与习惯方法",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_沟通学习两类书模板污染修复_终检.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/06_学习成长与习惯方法/高效能人士的七个习惯 (30周年纪念版)/assets",
+        "structuredJson": "01_sources/01_books/06_学习成长与习惯方法/高效能人士的七个习惯 (30周年纪念版)/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/06_学习成长与习惯方法/高效能人士的七个习惯 (30周年纪念版)/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/06_学习成长与习惯方法/高效能人士的七个习惯 (30周年纪念版)/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/06_学习成长与习惯方法/高效能人士的七个习惯 (30周年纪念版)/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/06_学习成长与习惯方法/高效能人士的七个习惯 (30周年纪念版)/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 12
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "seven-habits",
+        "sitePath": "/books/seven-habits"
+      },
+      "publicSlug": "seven-habits",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/seven-habits"
+      }
+    },
+    {
+      "slot": 47,
+      "workingId": "gray-047-a11e3ec1",
+      "title": "世界的逻辑：如何让我们生活的世界更理性、更可控",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/世界的逻辑：如何让我们生活的世界更理性、更可控",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/世界的逻辑：如何让我们生活的世界更理性、更可控/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/世界的逻辑：如何让我们生活的世界更理性、更可控/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/世界的逻辑：如何让我们生活的世界更理性、更可控/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/世界的逻辑：如何让我们生活的世界更理性、更可控/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/世界的逻辑：如何让我们生活的世界更理性、更可控/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/01_认知决策与系统思考/世界的逻辑：如何让我们生活的世界更理性、更可控/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 8,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "logic-of-world",
+        "sitePath": "/books/logic-of-world"
+      },
+      "publicSlug": "logic-of-world",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/logic-of-world"
+      }
+    },
+    {
+      "slot": 48,
+      "workingId": "gray-048-27575990",
+      "title": "人生模式 识别并优化你的核心认知",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/人生模式 识别并优化你的核心认知",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/人生模式 识别并优化你的核心认知/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/人生模式 识别并优化你的核心认知/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/人生模式 识别并优化你的核心认知/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/人生模式 识别并优化你的核心认知/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/人生模式 识别并优化你的核心认知/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/01_认知决策与系统思考/人生模式 识别并优化你的核心认知/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 5,
+          "coreConcepts": 10,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 5
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "life-patterns",
+        "sitePath": "/books/life-patterns"
+      },
+      "publicSlug": "life-patterns",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/life-patterns"
+      }
+    },
+    {
+      "slot": 49,
+      "workingId": "gray-049-803ed3e4",
+      "title": "如何系统思考（第2版",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/如何系统思考（第2版",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/如何系统思考（第2版/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/如何系统思考（第2版/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/如何系统思考（第2版/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/如何系统思考（第2版/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/如何系统思考（第2版/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/01_认知决策与系统思考/如何系统思考（第2版/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 8,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "systems-thinking",
+        "sitePath": "/books/systems-thinking"
+      },
+      "publicSlug": "systems-thinking",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/systems-thinking"
+      }
+    },
+    {
+      "slot": 50,
+      "workingId": "gray-050-0c88123c",
+      "title": "批判性思维与说服性写作",
+      "sourceBookDir": "01_sources/01_books/01_认知决策与系统思考/批判性思维与说服性写作",
+      "primaryCategory": "01_认知决策与系统思考",
+      "slugStatus": "assigned",
+      "siteStatus": "registered_public_structured_nk",
+      "quality": {
+        "status": "可保留",
+        "auditFile": "2026-04-29_认知心理两类书资产补全_终检2.json",
+        "errorCount": 0,
+        "warningCount": 0,
+        "recommendedAction": "保留，进入常规抽检。"
+      },
+      "assets": {
+        "assetsDir": "01_sources/01_books/01_认知决策与系统思考/批判性思维与说服性写作/assets",
+        "structuredJson": "01_sources/01_books/01_认知决策与系统思考/批判性思维与说服性写作/assets/结构化知识.json",
+        "summaryMarkdown": "01_sources/01_books/01_认知决策与系统思考/批判性思维与说服性写作/assets/全书摘要.md",
+        "topicAnglesMarkdown": "01_sources/01_books/01_认知决策与系统思考/批判性思维与说服性写作/assets/选题角度.md",
+        "visualHooksMarkdown": "01_sources/01_books/01_认知决策与系统思考/批判性思维与说服性写作/assets/视觉钩子.md",
+        "knTable": "01_sources/01_books/01_认知决策与系统思考/批判性思维与说服性写作/assets/整本书K卡_N卡总表.md",
+        "nkEvidence": [
+          "kn_table",
+          "structured_core_concepts",
+          "structured_core_questions"
+        ],
+        "counts": {
+          "coreQuestions": 4,
+          "coreConcepts": 8,
+          "practicalMethods": 0,
+          "scenarioApplications": 0,
+          "chapters": 6
+        }
+      },
+      "layers": {
+        "sourceLayer": "ready",
+        "indexLayer": "ready_for_gray_registry",
+        "graphLayer": "ready",
+        "publicEntryLayer": "public_structured_nk_generated",
+        "publicVaultLayer": "public_structured_nk_generated"
+      },
+      "publicRewrite": {
+        "status": "public_structured_nk",
+        "policy": "do_not_publish_raw_vault",
+        "prompt": "04_operations/04_products_and_experiments/book-kb-multi/vault内容对外改写提示词.md",
+        "minimumScope": [
+          "book_landing_page",
+          "3_to_5_high_value_k_or_n_pages"
+        ],
+        "fullVaultRewrite": "selected_overrides_only",
+        "siteSlug": "critical-thinking-writing",
+        "sitePath": "/books/critical-thinking-writing"
+      },
+      "publicSlug": "critical-thinking-writing",
+      "publication": {
+        "layer": "public_structured_nk",
+        "curationStatus": "needs_curated_overrides",
+        "sourceVisibility": "private_source",
+        "overrideDir": "configs/public_overrides/critical-thinking-writing"
+      }
+    }
+  ],
+  "updatedAt": "2026-05-03"
+}

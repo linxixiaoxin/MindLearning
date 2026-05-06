@@ -1,0 +1,147 @@
+{
+  "version": "0.2.0",
+  "notes": "Atlas asset manifest for SpaceAtlas3D. The current scene uses a continuous procedural terrain plus selected CC0 glTF props and project-owned RedBook glTF metaphor assets; grid/tile assets are no longer used as the main map base.",
+  "preferredSources": [
+    {
+      "id": "quaternius-fantasy-props-megakit",
+      "name": "Quaternius Fantasy Props MegaKit",
+      "url": "https://quaternius.itch.io/fantasy-props-megakit",
+      "license": "CC0-1.0",
+      "recommendedFor": ["books", "props", "furniture", "tools", "small-scenes"]
+    },
+    {
+      "id": "kenney-3d-assets",
+      "name": "Kenney 3D Assets",
+      "url": "https://kenney.nl/assets/category:3D",
+      "license": "Check each asset page; many Kenney assets are CC0.",
+      "recommendedFor": ["terrain", "roads", "buildings", "islands", "environment"]
+    },
+    {
+      "id": "poly-pizza-selected-models",
+      "name": "Poly Pizza Selected Models",
+      "url": "https://poly.pizza/explore",
+      "license": "Check each selected model individually.",
+      "recommendedFor": ["specific-metaphor-props", "missing-landmarks"]
+    }
+  ],
+  "assets": [
+    {
+      "id": "kenney-fantasy-town-kit",
+      "source": "Kenney Fantasy Town Kit 2.0",
+      "sourceUrl": "https://kenney.nl/assets/fantasy-town-kit",
+      "localRoot": "/atlas-assets/models/kenney/fantasy-town-kit/Models/GLB%20format/",
+      "license": "Creative Commons CC0",
+      "downloadedAt": "2026-05-02",
+      "filesInUse": [
+        "banner-green.glb",
+        "banner-red.glb",
+        "cart.glb",
+        "fence-gate.glb",
+        "fountain-round.glb",
+        "lantern.glb",
+        "pillar-stone.glb",
+        "road.glb",
+        "rock-large.glb",
+        "stairs-stone.glb",
+        "stairs-wide-wood.glb",
+        "tree.glb",
+        "tree-high-round.glb",
+        "wall-door.glb"
+      ]
+    },
+    {
+      "id": "kenney-hexagon-kit",
+      "source": "Kenney Hexagon Kit 2.0",
+      "sourceUrl": "https://kenney.nl/assets/hexagon-kit",
+      "localRoot": "/atlas-assets/models/kenney/hexagon-kit/Models/GLB%20format/",
+      "license": "Creative Commons CC0",
+      "downloadedAt": "2026-05-02",
+      "purpose": "Kept only for landmark-scale models. Hex tiles are not used as the main map base because they read as a board-game grid.",
+      "filesInUse": [
+        "bridge.glb",
+        "building-archery.glb",
+        "building-cabin.glb",
+        "building-dock.glb",
+        "building-market.glb",
+        "building-port.glb",
+        "building-tower.glb",
+        "building-wizard-tower.glb",
+        "stone-mountain.glb",
+        "unit-ship.glb",
+        "unit-ship-large.glb",
+        "water-rocks.glb"
+      ]
+    },
+    {
+      "id": "kenney-survival-kit",
+      "source": "Kenney Survival Kit 2.0",
+      "sourceUrl": "https://kenney.nl/assets/survival-kit",
+      "localRoot": "/atlas-assets/models/kenney/survival-kit/Models/GLB%20format/",
+      "license": "Creative Commons CC0",
+      "downloadedAt": "2026-05-02",
+      "purpose": "Small 3D props for book-scene metaphors: signposts, workbench, campfire, tent, rocks, trees, chest, tools.",
+      "filesInUse": [
+        "campfire-pit.glb",
+        "chest.glb",
+        "grass-large.glb",
+        "patch-grass-large.glb",
+        "rock-a.glb",
+        "rock-b.glb",
+        "rock-c.glb",
+        "rock-flat-grass.glb",
+        "signpost.glb",
+        "tent.glb",
+        "tool-axe.glb",
+        "tool-hammer.glb",
+        "tool-pickaxe.glb",
+        "tree-autumn.glb",
+        "tree-tall.glb",
+        "workbench.glb"
+      ]
+    },
+    {
+      "id": "kenney-nature-kit",
+      "source": "Kenney Nature Kit",
+      "sourceUrl": "https://kenney.nl/assets/nature-kit",
+      "localRoot": "/atlas-assets/models/kenney/nature-kit/",
+      "license": "Creative Commons CC0",
+      "downloadedAt": "2026-05-02",
+      "purpose": "Downloaded and evaluated. This package is mainly isometric PNG in the current archive, so it is not loaded into the GLB scene."
+    },
+    {
+      "id": "redbook-custom-book-metaphor-assets",
+      "source": "Generated in this project",
+      "sourceUrl": "web/scripts/build-redbook-atlas-assets.mjs",
+      "localRoot": "/atlas-assets/models/redbook/custom-glb/",
+      "license": "Project-owned generated assets",
+      "createdAt": "2026-05-02",
+      "purpose": "First RedBook-owned 3D metaphor assets for book and domain expression. These replace the earlier in-component geometry for item artifacts.",
+      "filesInUse": [
+        "bridge-door-boundary.glb",
+        "care-lighthouse.glb",
+        "compass-path.glb",
+        "dialogue-table.glb",
+        "dual-clock-decision.glb",
+        "mirror-lamp-self.glb",
+        "practice-workbench.glb",
+        "sensitivity-greenhouse.glb",
+        "stair-tower-growth.glb",
+        "trojan-program.glb"
+      ]
+    }
+  ],
+  "proceduralProfiles": [
+    "trojan",
+    "greenhouse",
+    "dialogue-table",
+    "dual-clock",
+    "gear-balance",
+    "stair-tower",
+    "workbench",
+    "care-lighthouse",
+    "compass-path",
+    "bridge-door",
+    "mirror-lamp",
+    "object-shrine"
+  ]
+}
